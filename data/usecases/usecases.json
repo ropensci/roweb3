@@ -10,6 +10,7 @@
     "url": "https://discuss.ropensci.org/t/linking-phylogenetic-and-geographic-data-using-rotl-and-rgbif/1629",
     "image": "linking-phylogenetic-and-geographic-data-using-rotl-and-rgbif.png",
     "date": "2019-03-22",
+    "body": "\n#### Package or resource used*\nrotl, rgbif\n\n\n#### URL or code snippet for your use case*\nhttps://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html\n\n\n#### Image\n![phylomap|617x494](upload://za9sr2psiN6nDQYIhqcd5Wgrlzx.png) \n\n\n\n\n#### Field(s) of application \nevolution, ecology\n\n\n#### Twitter handle \n@snacktavish @opentreeoflife",
     "language": "English"
   },
   {
@@ -20,6 +21,7 @@
     "url": "https://discuss.ropensci.org/t/weathercan-exploring-extreme-weather-events-in-my-neighbourhood/1630",
     "image": "weathercan-exploring-extreme-weather-events-in-my-neighbourhood.png",
     "date": "2019-03-27",
+    "body": "#### rOpenSci Package used\n[weathercan](https://ropensci.github.io/weathercan/)\n\n#### Use Case -- Blog Posts in GitHub\n[Weather with `weathercan`](https://github.com/stephhazlitt/some-assembly-required/blob/1eec5cc92cf7fd7b69d24d47cc52c0bd0a9a9e0b/R/fence/fence.md)\n_and_\n[When You Miss the Target](https://github.com/stephhazlitt/some-assembly-required/blob/1eec5cc92cf7fd7b69d24d47cc52c0bd0a9a9e0b/R/fence/wind_direction.md)\n_and_\n[a script with a final, better datavis option](https://github.com/stephhazlitt/some-assembly-required/blob/1eec5cc92cf7fd7b69d24d47cc52c0bd0a9a9e0b/R/fence/wind_coord.R)\n\n#### Images\n![wind_coord_facet_plot|690x483](upload://bUxYSNNEvPBjqpPPpN0AWFbRwNp.png) \n\n\n#### Twitter handle \n@stephhazlitt",
     "language": "English"
   },
   {
@@ -34,6 +36,7 @@
     "url": "https://discuss.ropensci.org/t/rbiodiversidata/1633",
     "image": "rbiodiversidata.png",
     "date": "2019-03-28",
+    "body": "This are scripts used for the Biodiversidata Project that are useful for:\n\n1. Retrieving Conservation Status and Population Trend (IUCN).\n2. Checking Species Names.\n3. Retrieving Taxonomic Information for a Species.\n\n#### Package or resource used\n[rredlist](https://github.com/ropensci/rredlist), [taxize](https://github.com/ropensci/taxize)\n\n\n#### URL or code snippet for your use case*\nhttps://github.com/bienflorencia/rBiodiversidata\n\n\n#### Sector\nUniversity of Lincoln, UK\n\n\n#### Field(s) of application \necology, conservation\n\n\n#### Twitter handle \n@flograttarola\n\n\n#### Comments\nFeedback is welcome",
     "language": "English"
   },
   {
@@ -47,6 +50,7 @@
     "url": "https://discuss.ropensci.org/t/taxize-understanding-how-seafood-mislabelling-misrepresents-the-conservation-status-of-the-fish-on-your-plate/1634",
     "image": "taxize-understanding-how-seafood-mislabelling-misrepresents-the-conservation-status-of-the-fish-on-your-plate.png",
     "date": "2019-03-29",
+    "body": "This use case was presented by [Margaret Siple](http://www.margaretsiple.com/) as part of a [Community Call on Research Applications of rOpenSci Taxonomy and Biodiversity Tools](https://ropensci.org/commcalls/2019-03-27/)\n\n#### Package used\n[taxize](https://github.com/ropensci/taxize)\n\n#### Links to use case\n- [Code example](https://mcsiple.github.io/rOpenSciExample.html): Given genus names, retrieve family names and Given a list of species names, get their IUCN status\n- [Paper](https://onlinelibrary.wiley.com/doi/full/10.1111/conl.12328): Financial and Ecological Implications of Global Seafood Mislabeling\n\n\n\n#### Image\n![59%20PM|648x500,75%](upload://bjNxMDyCJqIm5bTYmbxaBbd7okd.png) \n\n\n#### Twitter handle \n[@margaretsiple](https://twitter.com/margaretsiple)",
     "language": "English"
   },
   {
@@ -61,6 +65,7 @@
     "url": "https://discuss.ropensci.org/t/rgbif-get-a-little-or-a-lot-of-occurrence-data/1635",
     "image": "noimage",
     "date": "2019-04-02",
+    "body": "This use case was presented by [Kathryn Turner](https://www.zoology.ubc.ca/~turner/KGTurner/) as part of a [Community Call on Research Applications of rOpenSci Taxonomy and Biodiversity Tools](https://ropensci.org/commcalls/2019-03-27/)\n\n#### Package or resource used*\n[rgbif](https://github.com/ropensci/rgbif)\n\n\n#### URL or code snippet for your use case*\n[Code example](https://gist.github.com/kgturner/f44a9dc6e3417794ed1f433a96a2cc7a) to download occurrence data from [GBIF](https://www.gbif.org/) for a handful of species, and scaling up to several thousand \n\nPaper: [\"Occurrence data tells us about abiotic tolerances\"](https://www.biorxiv.org/content/10.1101/493270v1)\n\n#### Field(s) of application \necology\n\n\n#### Twitter handle \n[@ktinvasion](https://twitter.com/ktinvasion)",
     "language": "English"
   },
   {
@@ -74,6 +79,7 @@
     "url": "https://discuss.ropensci.org/t/get-tweet-status-id-from-crossref-event-data-with-crevents/1665",
     "image": "noimage",
     "date": "2019-04-12",
+    "body": "#### Package or resource used\n[crevents](https://github.com/ropensci/crevents/)\n\n\n#### URL or code snippet for your use case\nhttps://github.com/tts/aaltoced/blob/b617ec401473cfe7928723e8f2d68be8fa4945ea/getdata.R#L36-L45\n\n#### Sector\nAcademic\n\n\n#### Field(s) of application \nBibliometrics, altmetrics\n\n#### Twitter handle \n@ttso\n\n\n#### What did you do? \nI built a [Shiny web app](https://ttso.shinyapps.io/aaltoced/) on those recent publications of our university that have been tweeted by their DOI. For this, I first queried CrossRef Event Data with crevents, extracted the tweet status id's from the result, and then fetched the tweet text and other info with  [rtweet](https://cran.r-project.org/package=rtweet). For the whole story, see [my blog post](https://blogs.aalto.fi/suoritin/2019/04/10/everyday-altmetrics/).",
     "language": "English"
   },
   {
@@ -84,6 +90,7 @@
     "url": "https://discuss.ropensci.org/t/qualtrics-the-stack-overflow-developer-survey/1689",
     "image": "qualtrics-the-stack-overflow-developer-survey.png",
     "date": "2019-05-01",
+    "body": "\n#### rOpenSci package used\n[qualtRics](https://ropensci.github.io/qualtRics/)\n\n\n#### Use case\n[Stack Overflow Developer Survey 2019 results](https://insights.stackoverflow.com/survey/2019)\n\n#### Image\n![tech_network-1|500x500,75%](upload://g8n6MPYBNuzaMNofbXgXDwepIqa.png) \n\n\n#### Sector\nindustry\n\n#### Field(s) of application \nsurveys\n\n\n#### Twitter handle \n@juliasilge\n\n#### What did you do? \nAs the data scientist who worked on both planning and analyzing Stack Overflow's annual survey, I used qualtRics to access the almost 90,000 responses to our survey. Using qualtRics made our workflow more reproducible and simpler.",
     "language": "English"
   },
   {
@@ -94,6 +101,7 @@
     "url": "https://discuss.ropensci.org/t/using-drake-to-power-a-new-soil-respiration-database/1692",
     "image": "using-drake-to-power-a-new-soil-respiration-database.png",
     "date": "2019-05-04",
+    "body": "#### Package or resource used*\n[drake](https://github.com/ropensci/drake)\n\n#### URL or code snippet for your use case*\nhttps://github.com/bpbond/cosore/blob/6b96bf9afbc3cb8e995c4b1e65b7c6af78bdc82f/README.md\n\n#### Image\n![26%20PM|346x499](upload://viKRGtBiBVHxvBFnkLpbkbAE4fb.png) \n\n#### Sector\nAcademic\n\n#### Field(s) of application \nEarth sciences, climate change, ecology\n\n#### Twitter handle \n@BenBondLamberty\n\n#### What did you do? \nEarth system scientists increasingly use online data repositories to store, synthesize, and perform meta-analyses of e.g. forest growth, plant characteristics, and land-atmosphere energy fluxes (see for example [Ameriflux](https://ameriflux.lbl.gov)). No such database exists for _continuous soil respiration_, the land-to-atmosphere CO2 flux measured continuously by automated systems around the world, however. This is the gap my nascent `cosore` package aims to fill. `drake` provides the infrastructure for tracking out-of-date soil respiration datasets contributed by authors; efficiently rebuilding them into a single, standardized form; and verifying reproducibility. \n\n#### Comments\n:thinking:",
     "language": "English"
   },
   {
@@ -108,6 +116,7 @@
     "url": "https://discuss.ropensci.org/t/can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and/1701",
     "image": "can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and.jpeg",
     "date": "2019-05-10",
+    "body": "#### rOpenSci package or resource used*\n[nasapower](https://github.com/ropensci/nasapower)\n\n\n#### URL \nhttps://speakerdeck.com/emdelponte/can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and-spatial-scales?slide=23\n\n\n#### Sector\nAcademic\n\n\n#### Field(s) of application \nPlant disease epidemiology, risk mapping, rainfall monitoring\n\n\n#### Twitter handle \nhttps://twitter.com/edelponte/status/1024479763178692608\n\n#### What did you do? \nI used the package, with the help of its maintainer @adamhsparks, to download rainfall data for specific time periods matching the pre- and early-season of period of soybean growth in Brazil. It will be further used to explore associations between rainfall and patterns of dispersal of a fungal disease of soybean over large region across years.\n\n\nhttps://speakerdeck.com/emdelponte/can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and-spatial-scales?slide=23",
     "language": "English"
   },
   {
@@ -121,6 +130,7 @@
     "url": "https://discuss.ropensci.org/t/rcrossref-for-tidytuesday/1711",
     "image": "rcrossref-for-tidytuesday.jpeg",
     "date": "2019-05-17",
+    "body": "#### Package or resource used*\n[rcrossref](https://github.com/ropensci/rcrossref)\n\n\n#### URL or code snippet for your use case*\nhttps://twitter.com/jakekaupp/status/1129202271789748234\n\n\n\n#### Sector\nOther\n\n\n#### Field(s) of application \nBibliometrics\n\n\n#### Twitter handle \n@jakekaupp\n\n\n#### What did you do? \nIn week 20 of #TidyTuesday, a #rstats community exercise around cleaning and visualizing data, I used rcrossref to get the citation counts for Nobel Prize winners (DOI was present in the dataset) and visualized the citation patterns by author and Nobel category (Chemistry, Physics and Medicine)",
     "language": "English"
   },
   {
@@ -131,6 +141,7 @@
     "url": "https://discuss.ropensci.org/t/using-bib2df-to-parse-the-r-journal-archives/1718",
     "image": "noimage",
     "date": "2019-05-29",
+    "body": "#### Package or resource used*\n\n[bib2df](https://docs.ropensci.org/bib2df/)\n\n\n#### URL or code snippet for your use case*\n\nhttps://blog.r-hub.io/2019/05/29/keep-up-with-cran/\n\n```r\njournal <- bib2df::bib2df(\"https://journal.r-project.org/archive/RJournal.bib\")\nknitr::kable(\n  journal[grepl(\"CRAN\", journal$TITLE), c(\"TITLE\", \"MONTH\", \"YEAR\", \"URL\")]\n)\n```\n\n\n#### Sector\n\nother\n\n#### Field(s) of application \n\nR package development\n\n#### Twitter handle \n\n`@ma_salmon`, `@rhub_`\n\n#### What did you do? \n\nI used bib2df to parse the bibliography file containing information about all previous articles of the R Journal, to then filter articles whose title contained the word \"CRAN\", since I wanted to see how often the CRAN team had published articles giving updates on their policies and processes.",
     "language": "English"
   },
   {
@@ -145,6 +156,7 @@
     "url": "https://discuss.ropensci.org/t/osmdata-use-case-bicycle-network-analysis-of-auckland/1721",
     "image": "noimage",
     "date": "2019-05-30",
+    "body": "#### Package or resource used*\n[osmdata](https://ropensci.github.io/osmdata/index.html)\n\n\n\n#### URL or code snippet for your use case*\n[Spatial Bike Network Analysis in Auckland](https://kimnewzealand.github.io/2019/04/08/bike-network/)\n\n\n#### Sector\nOther\n\n\n#### Field(s) of application \ntransport and planning\n\n\n#### Twitter handle \n@kim_fitter\n\n\n#### What did you do? \nI used the osmdata package to retrieve and analyse Open Street Map (OSM) bike data given the flurry of bike route construction in Auckland. I also compared to the bike counter data provided by Auckland Transport to visualise our bike networks.",
     "language": "English"
   },
   {
@@ -159,6 +171,7 @@
     "url": "https://discuss.ropensci.org/t/get-clean-obs-r-function-searching-pulling-and-cleaning-citizen-science-records-from-inaturalist-and-gbif/1731",
     "image": "noimage",
     "date": "2019-06-06",
+    "body": "An R function that leverages the rgbif and spocc packages to search for, pull down, combine and clean records of a single species (with lat/lon bounding boxes). A continuing work in progress, but hopefully useful for folks interested in pulling records from these sources. It also has some (slow, but tricky) work arounds when querying large numbers (up to 200k) from these sources. \n\n#### Package or resource used*\n[spocc](https://github.com/ropensci/spocc),  [rgbif](https://ropensci.github.io/rgbif/)\n\n\n#### URL or code snippet for your use case*\nhttps://github.com/keatonwilson/insect_migration/blob/ec66ff976155fd75982dce0ebf42644077127b53/scripts/get_clean_obs_function.R\n\n\n#### Sector\nAcademic\n\n\n#### Field(s) of application \necology, conservation, evolutionary biology, species distribution modeling\n\n\n#### Twitter handle \n@keatonwilson",
     "language": "English"
   },
   {
@@ -172,6 +185,7 @@
     "url": "https://discuss.ropensci.org/t/using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot/1758",
     "image": "using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot.png",
     "date": "2019-07-01",
+    "body": "#### Package or resource used\n[bomrang](https://docs.ropensci.org/bomrang/)\n\n\n#### URL or code snippet for your use case\nFull article: https://communities.grdc.com.au/field-crop-diseases/sorghum-disease-survey/\n\nCode gist: https://gist.github.com/adamhsparks/23d6266f4a2b5f19f9edef6970f0364a\n\n#### Image\n![Image_1|690x375](upload://anbm5ljqEWBbCnXTecQHRmhawji.png) \n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nbotanical epidemiology, plant pathology, agronomy\n\n\n#### Twitter handle \n[@adamhsparks](https://twitter.com/adamhsparks), [@DanteAdorada](https://twitter.com/DanteAdorada/) and [@AusCropDiseases](https://twitter.com/AusCropDiseases)\n\n\n#### What did you do? \nI used `bomrang`'s [`get_historical()`](https://docs.ropensci.org/bomrang/articles/bomrang.html#using-get_historical) to fetch weather data, rainfall and temperature, for four stations in Queensland and New South Wales to create a climogram to illustrate how rainfall seemingly affected the distribution of sorghum charcoal rot (_Macrophomina phaseolina_) during the summer season of 2018/19. The article was published online as a part of the [GRDC Communities Field Crops Diseases](https://communities.grdc.com.au/field-crop-diseases/) blog.",
     "language": "English"
   },
   {
@@ -187,6 +201,7 @@
     "url": "https://discuss.ropensci.org/t/promoting-r-and-ropensci-packages-in-uk-local-government/1776",
     "image": "noimage",
     "date": "2019-07-17",
+    "body": "#### rOpenSci package or resource used*\n\nropenaq\n\n#### Description\n\n[Trafford Council's](https://www.trafford.gov.uk) [Trafford Data Lab](https://www.trafforddatalab.io/) are publishing [#rstats](https://twitter.com/search?q=%23rstats) [recipes](https://www.trafforddatalab.io/recipes/) for local government colleagues. The aim of the project is to embed an analytical workflow across UK local government that encourages openness, reproducibility and collaboration by promoting the use of R. We've used and plan to use a number of rOpenSci packages in the recipes including [ropenaq](https://cran.r-project.org/web/packages/ropenaq/index.html) and [fingertipsR](https://cran.r-project.org/web/packages/fingertipsR/index.html). These particular packages provide an intuitive way of retrieving open data within R without the need to familiarise yourself with often complex APIs.\n\nWe actively encourage other UK local government employees to submit their own R recipes for routine analytical tasks. A recipe template is available to download from [here](https://github.com/traffordDataLab/recipes/raw/master/template.Rmd). When you’ve completed your recipe just send us a [pull request](https://help.github.com/en/articles/about-pull-requests) on [GitHub](https://github.com/traffordDataLab/recipes).",
     "language": "English"
   },
   {
@@ -201,6 +216,7 @@
     "url": "https://discuss.ropensci.org/t/using-fingertipsr-for-public-health-data-in-uk-local-government/1780",
     "image": "using-fingertipsr-for-public-health-data-in-uk-local-government.png",
     "date": "2019-07-17",
+    "body": "#### Package used\n[fingertipsR](https://github.com/ropensci/fingertipsR) by Sebastian Fox\n\n#### URL or code snippet for your use case\n1. [Download local authority values for the alcohol related admissions indicator](https://www.trafforddatalab.io/recipes/importing_data/fingertips.html)\n1. [ Public health data at your fingertips - rate of antidepressant prescribing](https://medium.com/@traffordDataLab/public-health-data-at-your-fingertips-d17523664d19)\n\n#### Image\n![fingertipsr-trafford-usecase|690x476](upload://gMuve9EtuKg9aC8FHdJlQC63Fvu.png) \n\n\n#### Sector\ngovernment\n\n\n#### Field(s) of application \npublic health\n\n\n#### Twitter handle \nUse case from [@traffordDataLab](https://twitter.com/traffordDataLab) (@rcatlord here)",
     "language": "English"
   },
   {
@@ -211,6 +227,7 @@
     "url": "https://discuss.ropensci.org/t/querying-linked-data-to-improve-public-services/1781",
     "image": "querying-linked-data-to-improve-public-services.jpeg",
     "date": "2019-07-17",
+    "body": "\n#### Package used   \n[ghql](https://docs.ropensci.org/ghql/)\n\n#### URL or code snippet for your use case \n- [App documentation](http://www.trafforddatalab.io/opengovintelligence/documentation/scan_README.html)    \n- [App video tutorial](https://vimeo.com/311452398)   \n- [App source code](https://github.com/traffordDataLab/opengovintelligence/tree/master/apps/scan)   \n- [GitHub wiki on using ghql](https://github.com/Swirrl/cubiql/wiki/Querying-a-GraphQL-client-for-linked-data-using-R)      \n- [Project description on OpenGovIntelligence project page](http://www.opengovintelligence.eu/pilots-individual/trafford/)  \n- [Medium post on Trafford Worklessness pilot](https://medium.com/@traffordDataLab/improving-the-discoverability-of-worklessness-data-b91bf28e6fd6)  \n- [Write-up by Open Data Institute](https://theodi.org/projects-services/projects/public-service-delivery-case-studies#1557761403632-1e730194-ee1d)  \n\n#### What did you do?   \nThe [ghql](https://docs.ropensci.org/ghql/) package was used to retrieve open data held in a triple store that was queryable with [CubiQL](https://github.com/Swirrl/cubiql), a [GraphQL](https://graphql.org/) service. The data was visualised in a [Shiny](https://shiny.rstudio.com/) application that formed part of a suite of apps used in the [Trafford Workless Pilot](http://www.trafforddatalab.io/opengovintelligence/). The pilot was part of the EU funded Horizon 2020 [OpenGovIntelligence](http://www.opengovintelligence.eu/) project that used linked data to improve public services.\n\n![scan_app|690x412](upload://s4IR7bXEijs2AvzgapikAR6u06Y.jpeg) \n\n#### Sector   \ngovernment\n\n#### Field of application   \nlinked data\n\n#### Twitter handles\nUse case from [@traffordDataLab](https://twitter.com/traffordDataLab)\n[ghql](https://docs.ropensci.org/ghql/) package author Scott Chamberlain",
     "language": "English"
   },
   {
@@ -224,6 +241,7 @@
     "url": "https://discuss.ropensci.org/t/teaching-how-to-create-high-quality-r-packages/1793",
     "image": "teaching-how-to-create-high-quality-r-packages.png",
     "date": "2019-08-05",
+    "body": "#### Package or resource used*\nrOpenSci [package development guide book](https://ropensci.github.io/dev_guide/)\n\n\n#### URL or code snippet for your use case*\nhttps://github.com/UBC-MDS/DSCI_524_collab-sw-dev\n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nData Science\n\n\n#### Twitter handle \nUBCMDS\n\n\n#### What did you do? \nthe [University of British Columbia's Master of Data Science program](https://ubc-mds.github.io/about/) one of the courses we teach is called [DSCI 524 Collaborative Software Development](https://github.com/UBC-MDS/DSCI_524_collab-sw-dev). In this course, students have to work in teams of 3-4 to create a R package (among other things). One of the resources we recommend the students use for this is the [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/) guide. In particular, we encourage the students to go through the [Review template](https://devguide.ropensci.org/reviewtemplate.html) in the appendix of that guide before they hand in their R package for final grading. Instructors and Teaching Assistants for this course also use this [Review template](https://devguide.ropensci.org/reviewtemplate.html) to help give both formative feedback and guide summative assessment.",
     "language": "English"
   },
   {
@@ -237,16 +255,18 @@
     "url": "https://discuss.ropensci.org/t/use-of-r-package-review-guidelines-in-independent-manuscript-review/1795",
     "image": "use-of-r-package-review-guidelines-in-independent-manuscript-review.jpeg",
     "date": "2019-08-08",
+    "body": "#### Package or resource used\nrOpenSci [package development guide book](https://devguide.ropensci.org/)\n\n\n#### URL or code snippet for your use case\nhttps://ropensci.org/blog/2019/04/18/wild-standards/\n\n\n#### Image\n![sRKKrJ0|690x343](upload://doNIi7LmceUu1PKLmD96zwyM7zQ.jpeg) \n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nacademic manuscript review\n\n\n#### Twitter handle \nHao Ye is  [hao_and_y](https://twitter.com/hao_and_y) on Twitter\n\n\n#### What did you do? \nQuoted from Hao Ye @hye in the [blog post](https://ropensci.org/blog/2019/04/18/wild-standards/): \n>When I was asked to review the code for the pavo 2.0 manuscript[1](https://ropensci.org/blog/2019/04/18/wild-standards/#fn:1), I had an initial moment of panic – I had no experience doing formal code review. Luckily, I knew that rOpenSci had a set of reviewing guidelines, and that a few MEE Applications papers had used them. The same guidelines are also used by the [Journal of Open Source Software](https://joss.theoj.org/) (JOSS). Although this submission wasn’t flagged for rOpenSci review, I didn’t see a conflict with using their guidelines for my task.\n\n> The checklist helped me to organise my review. I started with the basic package review template, and then focused on a detailed look at the primary vignette (which is where I expect most users start). The rOpenSci guidelines encourage the use of some automated tools, like  `goodpractice`  to facilitate reviewing. The hardest part was providing suggestions to address what the  `goodpractice::gp()`  function flagged as complex or redundant code. The remainder of the review went pretty smoothly. I’m a fan of task checklists, so I’m glad that the authors found my comments useful. Hopefully the changes will help with the future maintenance of the package.\"",
     "language": "English"
   },
   {
     "title": "Using rorcid to generate a website CV",
     "reporter": "Noam Ross",
     "tags": "rorcid",
-    "resource": "rorcid: GitHub - ropensci-archive/rorcid: ARCHIVED A programmatic interface the Orcid.org API",
+    "resource": "rorcid: GitHub - ropensci-archive/rorcid: ⚠ ARCHIVED A programmatic interface the Orcid.org API",
     "url": "https://discuss.ropensci.org/t/using-rorcid-to-generate-a-website-cv/1806",
     "image": "using-rorcid-to-generate-a-website-cv.gif",
     "date": "2019-08-20",
+    "body": "I use rOpenSci's **rorcid** package to generate my CV for my academic website.  Prior to building the website, I run a [script](https://github.com/noamross/noamross.net/blob/018ec3915dced73a7a66ea56d0ee270efc6e3bac/scripts/get-orcid-data.R) with rorcid that downloads my publications, education, and work history, combines them with some additional annotation data, and saves them as YAML files. These are used by the Hugo site generator to generate my CV.\n\n#### Package or resource used*\n\n**rorcid**: https://github.com/ropensci/rorcid\n\n\n#### URL or code snippet for your use case\n\nhttps://www.noamross.net/vitae/\n\n\n#### Image\n\n![cv|690x486](upload://tGhsZsnmzurwCEylTSWG0jZiFA0.gif) \n\n#### Sector\n\nAcademic\n\n#### Twitter handle \n\n@noamross",
     "language": "English"
   },
   {
@@ -261,6 +281,7 @@
     "url": "https://discuss.ropensci.org/t/using-pdftools-tabulizer-and-writexl-to-simplify-business-information-handling-workflow/1815",
     "image": "noimage",
     "date": "2019-08-27",
+    "body": "Providing a script for a workflow to liberate the contents of PDFs\n\n#### Packages used\n[pdftools](https://github.com/ropensci/pdftools), [tabulizer](https://github.com/ropensci/tabulizer), [writexl](https://github.com/ropensci/writexl)\n\n\n#### Code Snippet\n\nThey have a script which, when they hit the source button, opens a select file dialog box and they pick the pdf, then it saves a word document with the full text, and an excel file of one sheet per table, in the same directory. they also have the option of coming on some R courses I regularly run if they want to start working with the information inside of R.\n\n    library(officer)\n    library(pdftools)\n    library(tabulizer) #needs JDK installed\n    library(writexl)\n\n    target <- file.choose()\n    target_no_suffix <- gsub(\"\\\\.pdf$\",\"\", target, ignore.case = TRUE)\n    PDFtext <- pdf_text(target) #pdf_tools\n    #a character array for each page, want paragraphs for officer\n    PDFparas <- unlist(strsplit(PDFtext, \"\\n\"))\n    PDFextracted <-  extract_tables(target) #tabulizer\n    # 1 character matrix per table, want dataframes for writexl\n    PDFtables <- lapply(extracted,as.data.frame, stringsAsFactors=FALSE)\n    write_xlsx(PDFtables, paste0(target_no_suffix, \"_excel.xlsx\"), col_names=FALSE) #writexl\n    #officer word making code\n    my_doc <- read_docx()\n    for (scannedpage in PDFparas){\n      my_doc <- body_add_par(my_doc, scannedpage)\n    }\n    print(my_doc, target = paste0(target_no_suffix,\"_word.docx\"))\n\n#### Sector\nindustry\n\n#### Field(s) of application \nworkflows, compliance, document handling\n\n\n#### Twitter handle \nthoughtfulnz\n\n\n#### What did you do? \n\nThe finance people where I work told me they have a workflow bottleneck with receiving statements as pdfs and being unable to free up the information in them to make checking easier as Acrobat's save as Excel can't really cope with the kind they are receiving and, at a bare minimum, being able to sort the information on the statements into a convenient order would save them at hundreds of hours a year (at the moment they are printing them out and then cross checking and ticking off the paper copy).\n\nThis is an example of introducing R to a previously unused area, not as a replacement for Excel, but to solve a specific workflow bottleneck. R is being their helpful friend within their present needs.",
     "language": "English"
   },
   {
@@ -274,6 +295,7 @@
     "url": "https://discuss.ropensci.org/t/converting-meddra-terminology-to-linked-data-using-rdflib/1824",
     "image": "converting-meddra-terminology-to-linked-data-using-rdflib.png",
     "date": "2019-09-06",
+    "body": "As part of the [PhUSE](https://www.phuse.eu/) project [Going Translational with Linked Data (GoTWLD)](https://github.com/phuse-org/CTDasRDF) we use the **rdflib** package to translate MedDRA terminology to Linked Data as RDF Triples. \n\n#### rOpenSci package or resource used*\n[rdflib](https://github.com/ropensci/rdflib)\n\n#### Use Case URL\n[MedDRA Terminology Conversion to RDF](https://github.com/phuse-org/MedDRAasRDF/blob/37992ea830c835705481db3deb894246641e00dd/doc/MedDRAConversion.md)\n\n#### Image\n![MedDRA-ProgramFlow-medDRAReadAsc|630x500](upload://aZVFH5awU3mrMaeSHc5iGfbxKAe.png) \n\n#### Sector\nPharmaceutical, Biotech, Medical/Healthcare\n\n#### Field(s) of application \nMedical terminology coding including Adverse Events. Biomedical research, Pharmaceutical industry. \n\n#### What did you do? \nUsed an ontology-based approach to convert the multiple hierarchical ASCii files to a unified Linked Data Graph representation. MedDRA terminology files are under license, but the conversion R scripts are freely available to anyone who wishes to convert their MedDRA coding to Linked Data. \n\n#### Comments\nThe code is early draft work. Review, comment, and improvements are welcome!\nMedDRAReadAsc.R is the main conversion file, available here: [https://github.com/phuse-org/MedDRAasRDF/tree/master/r](https://github.com/phuse-org/MedDRAasRDF/tree/master/r)\n\n#### Twitter handle \n@NovasTaylor",
     "language": "English"
   },
   {
@@ -284,6 +306,7 @@
     "url": "https://discuss.ropensci.org/t/use-rnaturalearth-to-get-a-background-map-in-sf-format-for-plotting-with-ggplot/1830",
     "image": "use-rnaturalearth-to-get-a-background-map-in-sf-format-for-plotting-with-ggplot.png",
     "date": "2019-09-10",
+    "body": "Sometimes you just need some points on map. You have lat/lon points, where are you going to get a nice background map that you can plot in R, using ggplot2 and geom_sf? R natural earth!\n\n#### Package or resource used*\n[rnaturalearth](https://github.com/ropensci/rnaturalearth)\n\n#### URL or code snippet for your use case*\nhttps://gist.github.com/arvi1000/13eda3ad39ed89e9e196c720864b25af\n\n#### Image\n![](upload://lavtXHpOzFUS9hy96WuSLQZyDxg.png)\n\n#### Field(s) of application \n_e.g. data visualization_\n\n#### What did you do? \n_Plotted some points on a basemap, applied a map projection_\n\n#### Twitter handle \narvi1000",
     "language": "English"
   },
   {
@@ -294,6 +317,7 @@
     "url": "https://discuss.ropensci.org/t/drake-use-case-involving-fires/1837",
     "image": "noimage",
     "date": "2019-09-27",
+    "body": "#### rOpenSci package or resource used*\n\ndrake \n#### [repo](https://github.com/aedobbyn/nyc-fires)\n\n#### [slides](https://aedobbyn.github.io/nyc-fires/index.html#1)\n\n#### [similar talk at NYR 2019](https://github.com/aedobbyn/nyr-2019)\n\n#### About\nThis pipeline uses [`drake`](https://ropenscilabs.github.io/drake-manual/) to pull tweets from the Twitter API and extract info on where fires are happening in New York City. It illustrates `drake`'s \"what gets done stays done\" motto.",
     "language": "English"
   },
   {
@@ -304,6 +328,7 @@
     "url": "https://discuss.ropensci.org/t/can-drake-rap-promoting-drake-for-pipeline-management-in-uk-government/1841",
     "image": "noimage",
     "date": "2019-10-02",
+    "body": "#### Package or resource used\n\n{drake}\n\n#### URL or code snippet for your use case*\n\n* [Blog post](https://www.rostrum.blog/2019/07/23/can-drake-rap/)\n* [GitHub demo repo](https://github.com/matt-dray/drake-egg-rap)\n* [Presentation about {drake} and the demo](https://github.com/matt-dray/drake-egg-rap/blob/a34e1e9ae9d589ef4580203a9dc7763068036689/docs/drake-presentation.pdf)\n* [Bonus blog post about launching the demo repo in Binder via Karthik Ram's {holepunch} package](https://www.rostrum.blog/2019/08/25/holepunch-drake/)\n\n#### Image\n\n* ['Drake hall of fame'](https://www.rostrum.blog/post/2019-07-22-can-drake-rap_files/hall-of-fame.jpeg)\n* [Output from demo example](https://www.rostrum.blog/post/2019-07-22-can-drake-rap_files/demo-report-page-short.png)\n* [Simple `drake_vis_graph()` output showing targets that are out of date](https://www.rostrum.blog/post/2019-07-22-can-drake-rap_files/dependency-outdated-static.png)\n\n#### Sector\n\nGovernment\n\n#### Field(s) of application \n\nNational statistics publications\n\n#### What did you do? \n\nI promoted {drake} in a workflow to produce a demo statistical publication about UK egg production. I presented this to analysts across UK government to make a case for {drake} as the tool of choice for management of Reproducible Analytical Pipelines (RAP) in R.\n\n#### Twitter handle \n\n@mattdray",
     "language": "English"
   },
   {
@@ -317,6 +342,7 @@
     "url": "https://discuss.ropensci.org/t/academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis/1842",
     "image": "academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis.png",
     "date": "2019-10-03",
+    "body": "#### Package or resource used*\n\n{vitae} and {tic} - both rOpenSci Labs (and excellent).\n\n\n#### URL or code snippet for your use case*\n\nCode: https://github.com/seabbs/cv\n\n\n#### Image\n\n![15|586x500,100%](upload://AoRp7EDfS5boapPIgjjjcs2cMzr.png) \n\nLink: samabbott.co.uk/cv/cv.pdf\n\n#### Sector\n\nAcademic\n\n#### Field(s) of application \n\nAnything requiring a CV with publications.\n\n\n#### What did you do? \n\nAcademic CV built using R - updated automatically from [Google Scholar](https://scholar.google.com/citations?user=GqZm90IAAAAJ&hl=en) each week. See [here](https://www.samabbott.co.uk/cv/cv.pdf) for the full rendered CV. All other data stored as .csv's so can be updated on GitHub without touching the code or main document.\n\n#### Comments\n\n`{tic}` could potentially do with some more documentation as I found it to require some trial and error to get working. Also appears not to work from Rstudio server in Docker although this isn't a major issue and is understandable given port issues etc.\n\n#### Twitter handle \n\n@seabbs",
     "language": "English"
   },
   {
@@ -330,6 +356,7 @@
     "url": "https://discuss.ropensci.org/t/tidyhydat-and-weathercan-webinar/1858",
     "image": "tidyhydat-and-weathercan-webinar.jpeg",
     "date": "2019-10-29",
+    "body": "I hope this is approximately what is intended here:\n#### Package or resource used*\n[tidyhydat](https://github.com/ropensci/tidyhydat), [weathercan](https://github.com/ropensci/weathercan), [hydrology task view](https://github.com/ropensci/Hydrology)\n\n\n#### URL or code snippet for your use case*\nhttps://cwra.org/en/introduction-to-r-webinar/\n\n\n#### Sector\ngovernment presented; academic and industry attendants\n\n\n#### Field(s) of application \nhydrology, meteorology \n\n\n#### What did you do? \nI gave a 2 hours webinar for water professionals illustrating how one might use the tidyhydat and weathercan packages. \n\n#### Twitter handle \n@big_bad_sam; @steffilazerte",
     "language": "English"
   },
   {
@@ -340,6 +367,7 @@
     "url": "https://discuss.ropensci.org/t/reproducible-cv-using-rorcid/1862",
     "image": "noimage",
     "date": "2019-11-02",
+    "body": "\n\n#### rOpenSci package or resource used\n[rorcid](https://cran.r-project.org/web/packages/rorcid/index.html)\n\n\n#### Code snippet\nhttps://gist.github.com/cjlortie/3e8be03ac576155ad1a352c9ed8b9bb0\n\n\n#### Image\n<iframe src=\"https://widgets.figshare.com/articles/10193060/embed?show_title=1\" width=\"1754\" height=\"1330\" allowfullscreen=\"true\" frameborder=\"0\"><\/iframe>\n\n\n#### Sector\nPublic relations\n\n\n#### Field\nReproducible science\n\n\n#### What did you do? \nA curriculum vitae is really a set of lists. It would be fantastic to have a reproducible CV that capitalizes on R to re-populate works to a table. I examined the capacity of rorcid as a mechanism to scrape works from my ORCID profile, tidy a bit include filter to papers only for now, and then pull that table into an R Markdown and knit out a clean CV to pdf. Seems like a viable strategy.  I co-tested wosr as an alternative. https://cran.r-project.org/web/packages/wosr/index.html\nNumerous advantages to rorcid package.\n\n\n#### Comments\nDuplicates handing following call of rorcid::works function would be amazing. \n\n#### Twitter handle \n@cjlortie",
     "language": "English"
   },
   {
@@ -353,6 +381,7 @@
     "url": "https://discuss.ropensci.org/t/erddap-servers-use-case-tidync-and-rerddap/1869",
     "image": "erddap-servers-use-case-tidync-and-rerddap.jpeg",
     "date": "2019-11-07",
+    "body": "#### rOpenSci package or resource used*\n[rerddap](https://github.com/ropensci/rerddap) and [tidync](https://github.com/ropensci/tidync)\n\n\n#### URL or code snippet for your use case*\nOriginal Post: https://twitter.com/u_ribo/status/1191685777660362752\n\nSource Code: https://github.com/uribo/30DayMapChallenge/blob/45283ace68005542bcfa6a35c2a6910500c5f4fc/day5.R\n\n#### Image\n![day05_sst|690x246](upload://20OWiFqu5CY2yZt0USQ0oitdUYd.jpeg) \n\n\n\n#### Field(s) of application \ndata visualization, spatial\n\n\n#### What did you do? \nNOAA SST observation data was searched and acquired with {rerddap}, and netCDF format files were processed and visualized with {tidync}.\n\n\n#### Twitter handle \n\n@u_ribo",
     "language": "English"
   },
   {
@@ -366,6 +395,7 @@
     "url": "https://discuss.ropensci.org/t/analyzing-invoice-data-from-elsevier-relative-to-hybrid-open-access/1887",
     "image": "noimage",
     "date": "2019-11-25",
+    "body": "#### Package or resource used\n[rcrossref](https://docs.ropensci.org/rcrossref/), [crminer](https://docs.ropensci.org/crminer/), [tabulizer](https://docs.ropensci.org/tabulizer/)\n\n**URL or code snippet for your use case***\n<https://subugoe.github.io/scholcomm_analytics/posts/elsevier_invoice/>\n\n**Sector**\nAcademic\n\n**Field(s) of application**\nScholarly Communications Analytics, Open Access Monitoring, Licensing in Libraries\n\n**What did you do?**\n\nI used several rOpenSci packages to mine Elsevier full-texts for invoice data relative to open access articles in hybrid journals. Such evidence is critical to keep track of funding streams for open access publications. Academic publishers rarely make publication fee spending for hybrid journals transparent. Surprisingly, Elsevier is a notable exception sharing this data.\n\n**Twitter handle**\n@najkoja",
     "language": "English"
   },
   {
@@ -379,6 +409,7 @@
     "url": "https://discuss.ropensci.org/t/batch-image-manipulation-using-magick/1889",
     "image": "noimage",
     "date": "2019-11-26",
+    "body": "#### rOpenSci package or resource used*\n[magick](https://docs.ropensci.org/magick/)\n\n\n#### URL or code snippet for your use case*\n[https://github.com/roryspanton/batch-magick](https://github.com/roryspanton/batch-magick)\n\n\n#### Sector\nAny\n\n\n#### Field(s) of application \nCognitive psychology - or anything else with images!\n\n\n#### What did you do? \nI used magick in conjunction with functions from purrr (tidyverse) to manipulate and convert multiple images concisely and efficiently. This simple framework allows the user to read any number of images in magick supported formats, perform the same magick manipulations on all of them, and export them as different file types (if desired), with neat file names. This automates the potentially long and tedious process of performing the same manipulation on large sets of images. \n\nI developed this case specifically for cognitive psychology experiments that use large numbers of images to test a participant's memory. Each image must confirm to the same dimensions for experimental control, hence the need for automation of the editing process. However, this case could easily be altered or extended for many other purposes.\n\n#### Twitter handle \n[@rory_spanton](https://twitter.com/rory_spanton)",
     "language": "English"
   },
   {
@@ -394,6 +425,7 @@
     "url": "https://discuss.ropensci.org/t/mapping-the-location-of-biogeography-researchers-with-refsplitr/1924",
     "image": "mapping-the-location-of-biogeography-researchers-with-refsplitr.png",
     "date": "2020-01-28",
+    "body": "#### rOpenSci package or resource used\npackage [refsplitr](https://github.com/ropensci/refsplitr)\n\n#### URL for use case\nEichhorn, M. P, Baker, K., & Griffiths, M. (2019). Steps towards decolonising biogeography.  *Frontiers of Biogeography* . http://dx.doi.org/10.21425/F5FBG44795 Retrieved from [https://escholarship.org/uc/item/2k00787j](https://escholarship.org/uc/item/2k00787j).\n\n#### Image\nAn image from the authors' [blog post](https://treesinspace.com/2020/01/23/decolonise-biogeography/) about the paper; the map of author locations was generated with `refsplitr`\n![image|441x500](upload://gTW1kKgwxno17BaUFoonvxQVGfn.png). \n\n#### Sector\nacademic\n\n#### Field(s) of application \nbiogeography, ecology, bibliometrics, scientometrics\n\n#### Twitter handle \n@brunalab @rallidaerule @birderboone",
     "language": "English"
   },
   {
@@ -407,6 +439,7 @@
     "url": "https://discuss.ropensci.org/t/accessing-wrangling-and-plotting-global-weather-data-for-free/1926",
     "image": "accessing-wrangling-and-plotting-global-weather-data-for-free.png",
     "date": "2020-01-30",
+    "body": "#### rOpenSci package or resource used*\n[rnoaa](https://docs.ropensci.org/rnoaa/), [lawn](https://docs.ropensci.org/lawn/), \n\n\n#### URL or code snippet for your use case*\nhttps://www.ecologi.st/post/weather/\n\n#### Image\n_![pretty_ghcnd-1|689x492](upload://k44hHv6LzcQjuCB8RMoJXElRyc6.png)_\n\n#### Sector\nacademic\n\n#### Field(s) of application \necology, climatology, meteorology\n\n#### What did you do? \nSearch, extract, wrangle and plot weather data from NOAA's archives using South Africa as a use case. This is particularly valuable for South Africa because our national weather service charges for their data. Thanks @sckottie and others that have contributed to these packages!\n\n#### Twitter handle \n@JasperSlingsby",
     "language": "English"
   },
   {
@@ -420,6 +453,7 @@
     "url": "https://discuss.ropensci.org/t/tabulizer-for-parsing-block-text-from-pdf/1930",
     "image": "tabulizer-for-parsing-block-text-from-pdf.gif",
     "date": "2020-02-01",
+    "body": "#### rOpenSci package or resource used*\n [tabulizer](https://github.com/ropensci/tabulizer)\n\n\n#### URL or code snippet for your use case*\nGoal: extract certain block of data from different sections of the .pdf\n\nStrategy: use split-apply-combine approach via `locate_areas()` (to get box coordinates of sections of interest) and then `extract_tables()` to get the data with the section.\n\n__`locate_areas()` demo__ \n![tabulizer-demo|601x500](upload://9KuOdevMIVZglCXlwGUYclazIIO.gif) \n\n__Code snippet__\n```r\n# |- fxn ----\n# data munge function for map() later\nCleanHeader <- function(tbl) {\n  tbl %>%\n    tidyr::pivot_longer(\n      cols = -idx\n    ) %>%\n    dplyr::group_by(name) %>%\n    dplyr::filter(value != \"\") %>%\n    dplyr::summarise(value = paste0(value, collapse = \":\")) %>%\n    tidyr::separate(value, c(\"cat\", \"data\"), sep = \":\", extra = \"merge\") %>%\n    dplyr::mutate_at(vars(data), stringr::str_remove, \":\") %>% \n    dplyr::select(cat, data)\n}\n\n# |- data ----\nfile <- \"./ropensci_white.pdf\"\n\n# get the box coordinates via interactive selection; this info is then used in extract_tables() area args\nlocate_areas(file, pages = 1)\n\n# extract data\nheader_raw <- extract_tables(f, pages = 1,\n                             area = list(c(74, 88, 128, 522)),\n                             guess = FALSE)\n\n# data munge; data/application specific\nheader_raw[[1]] %>% \n  tibble::as_tibble() %>% \n  janitor::remove_empty(\"cols\") %>% \n  dplyr::mutate(idx = cumsum(stringr::str_detect(V1, \"Section Marker\"))) %>% \n  dlpyr::group_split(idx) %>% \n  purrr::map_dfr(CleanHeader) \n```\n\n#### Image\nSample .pdf where coloured boxes represent sections of interest to extract data from.\n\nSee follow up post below for picture (new users may only post 1 image/post :sweat_smile:) \n\n#### Sector\nEnergy.\n\n\n#### Field(s) of application \nEnergy.\n\n\n#### What did you do? \nUse {tabulizer} from rOpenSci to extract data of interest from .pdf to save time and avoid data quality issue that may be introduced if it was done manually.\n\n\n#### Comments\nI :heart: {tabulizer}\n\n#### Twitter handle \n@urganmax",
     "language": "English"
   },
   {
@@ -430,6 +464,7 @@
     "url": "https://discuss.ropensci.org/t/osmdata-use-case-wall-art/1944",
     "image": "osmdata-use-case-wall-art.jpeg",
     "date": "2020-02-06",
+    "body": "#### rOpenSci package or resource used*\n[osmdata](https://docs.ropensci.org/osmdata)\n\n#### URL or code snippet for your use case*\nThis [github repository](https://github.com/deanmarchiori/culburra) by Dean Marchiori\n\n#### Image\n![](upload://eqZxdsqeVGYgOqIOEHkB3P7bTj5.jpeg)\n\n\n#### What did you do? \nDean Marchiori used the [`osmdata` package](https://docs.ropensci.org/osmdata/) to create a striking image which he printed and hung on a wall. His code to reproduce the image is contained with the [github repository](https://github.com/deanmarchiori/culburra) file [`culburra.Rmd`](https://github.com/deanmarchiori/culburra/blob/1dbf32edec17438b20e444a3b3722fd6c61feb5f/culburra.Rmd).",
     "language": "English"
   },
   {
@@ -443,6 +478,7 @@
     "url": "https://discuss.ropensci.org/t/pdftools-for-parsing-pdf-from-a-url-public-data-mining/1953",
     "image": "pdftools-for-parsing-pdf-from-a-url-public-data-mining.gif",
     "date": "2020-02-15",
+    "body": "#### rOpenSci package or resource used*\n[pdftools](https://github.com/ropensci/pdftools)\n\n\n#### URL or code snippet for your use case*\n```r\nlibrary(httr)  # will be use to make HTML GET and POST requests\nlibrary(rvest) # will be used to parse HTML\nlibrary(tidyverse) # data munge\nlibrary(pdftools) # parse pdf\n\n# |- data ----\nlibrary(httr)  # will be use to make HTML GET and POST requests\nlibrary(rvest) # will be used to parse HTML\nlibrary(tidyverse) # data munge\nlibrary(pdftools) # parse pdf\n\n# |- data ----\nurl <- \"https://www.bsee.gov/guidance-and-regulations/guidance/safety-alerts-programs\"\n\nr <- GET(url)\n\nraw_tbl <- r %>% \n  content() %>% \n  html_node(\"table\") %>%\n  html_table() %>% \n  as_tibble() %>% \n  janitor::clean_names()\n\nraw_tbl\n\n# |- munge ----\nnormalize_title <- function(title) {\n  title %>% \n    tolower() %>% \n    str_replace_all(\"\\\\b\\\\s\\\\b\", \"\\\\-\") %>% \n    str_remove_all(\"\\\\s\")\n}\n\nclean_tbl <- raw_tbl %>% \n  mutate(norm_url = map_chr(title, normalize_title))\n\nclean_tbl$norm_url[[1]]\n\nbase_url <- \"https://www.bsee.gov/sites/bsee.gov/files/safety-alerts//\"\n\nReadPDF <- function(base_url, pdf_url) {\n  pdf_url <- glue::glue(base_url, {pdf_url}, \".pdf\")\n  \n  print(pdf_url)\n  \n  # pdftools time!\n  pdf_text(pdf_url)\n}\n\nSafeReadPDF <- possibly(ReadPDF, NA)\n\nSafeReadPDF(base_url, clean_tbl$norm_url[[1]])\n```\n\n#### Image\n![pdftools-demo|690x351](upload://mqA49FcO20zqlVcNYld0O5MtIYo.gif) \n\n\n#### Sector\nEnergy.\n\n\n#### Field(s) of application \nEnergy.\n\n\n#### What did you do? \nGoal: improve safety performance by enabling quicker access to public safety alerts, and extract insights for decision-makers.\n\nExtracted data from [pdftools](https://github.com/ropensci/pdftools) may then be analyzed downstream (e.g., [huggingface NLP](https://huggingface.co/)) and served via web app/API (e.g., [shiny](https://github.com/rstudio/shiny), [plumber](https://github.com/rstudio/plumber))\n\n#### Comments\nHaving rOpenSci is a blessing :pray: \n\n#### Twitter handle \n@urganmax",
     "language": "English"
   },
   {
@@ -458,6 +494,7 @@
     "url": "https://discuss.ropensci.org/t/searching-microsoft-academic-extracting-the-metadata/2012",
     "image": "noimage",
     "date": "2020-03-27",
+    "body": "\n#### rOpenSci package or resource used*\n[microdemic](https://docs.ropensci.org/microdemic/)\n\n#### What did you do? \n\nMy exercise comprise a piece of code that can help to search the articles and extract the metdata from Microsoft Academic. The example is limited with only one query type.\n[microdemic](https://github.com/ropensci/microdemic)\n\n[COVID March publications ](https://rpubs.com/alexeilutay/covid_coverage2)\n\nThe query consists of the words (terms) and the publication date range. Number of results were received via ma_calchist, the records were extracted by 100 with ma_evaluate.\nThe guy who learned me to test this was [Darrin Eide](https://twitter.com/DarrinEide)\n\nC0 (as in Public Domain)",
     "language": "English"
   },
   {
@@ -471,6 +508,7 @@
     "url": "https://discuss.ropensci.org/t/pdftools-for-parsing-tables-from-many-pdfs/2018",
     "image": "pdftools-for-parsing-tables-from-many-pdfs.png",
     "date": "2020-03-31",
+    "body": "\n#### rOpenSci package or resource used*\n[`pdftools`](https://github.com/ropensci/pdftools)\n\n\n#### URL or code snippet for your use case*\n* [Link to GitHub repo](https://github.com/jthomasmock/pdftools-guide)  \n  * Has all the code and raw PDFs for users to test out themselves\n* [Vignette/Webpage with example code run](https://jthomasmock.github.io/pdftools-guide/#scraping_complex_tables_from_pdfs_with_pdf_tools)\n\n\n#### Image\n\nRaw example of the PDF table from the TTB. Notice there are inconsistent spaces between the table columns.\n\n![](upload://wRz4LU2SC1flC1e1UrBAou48Qg6.png)\n\n#### Sector\nFinance, econometrics\n\n#### Field(s) of application \nForecasting, finance, econometrics, but really could be used for anything!\n\n\n#### What did you do? \n\nGoal: Read in non-trivially formatted tables from a PDF\n\nOutcome:\n* Read in PDF text/tables\n* Split messy raw text into useful tabular format\n* Combine into clean dataframes\n* Apply across many similar PDFs\n\n\n#### Comments\nLove `pdftools` and love `ropensci`!\n\n#### Twitter handle \n@thomas_mock",
     "language": "English"
   },
   {
@@ -482,8 +520,9 @@
     ],
     "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/magick-ally-visualize-historical-google-maps-traffic-data/2026",
-    "image": "magick-ally-visualize-historical-google-maps-traffic-data.png",
+    "image": "magick-ally-visualize-historical-google-maps-traffic-data.jpeg",
     "date": "2020-04-10",
+    "body": "#### rOpenSci package or resource used\n[magick](https://docs.ropensci.org/magick/)\n\n\n#### URL or code snippet for your use case\nhttps://e.olamijuwon.com/how-to-magickally-visualize-historical-google-maps-traffic-data/\n\n\n#### Image\n![CapeTown - 30March|581x500](upload://mIcj3YLrwdNSV1BfQsRJ5fJofC2.jpeg) \n\n#### Sector\nOther\n\n\n#### Field(s) of application \nSocial sciences\n\n\n#### What did you do? \nI used {magick} in combination with {googleway} package to visualize historical road traffic in three major cities in South Africa. This exercise was motivated by the increased need to evaluate compliance with social distancing as many African countries enforce full/partial lock down in the wake of COVID-19. Unfortunately, Google Maps does not provide historical traffic data beyond traffic information on a typical (specified) day and time.\n \nI took and saved a screenshot of GoogleMap traffic for each city every hour for 12 hours (starting at 7:55 - 19:55) in five days. I subsequently animated the saved screenshots using {magick} and saved the output as .gif. I believe that as lock down extends to more African countries, there may be an increasing need to visualize this compliance across cities and {magick} offers this flexibility perfectly. This activity is crucial to keep track of compliance and perhaps provide real-time updates about where the government may need to intervene.\n\n\n\n#### Twitter handle \n@eolamijuwon",
     "language": "English"
   },
   {
@@ -494,6 +533,7 @@
     "url": "https://discuss.ropensci.org/t/use-of-cruls-retry-sub-routine-in-an-api-package/2035",
     "image": "noimage",
     "date": "2020-04-16",
+    "body": "#### rOpenSci package or resource used*\n[`crul`](https://docs.ropensci.org/crul)\n\n#### URL or code snippet for your use case*\n_Link to a blog post, a gist, or an academic paper, or provide some code inline_\n\n* [PR in `ropenaq`](https://github.com/ropensci/ropenaq/pull/50)\n\n* [Post on the R-hub blog about retry sub-routines in `crul` and `httr`, and (not) re-inventing the wheel when developing R packages](https://blog.r-hub.io/2020/04/07/retry-wheel/)\n\n#### Sector\n_List one of: academic / industry / government / non-profit / other_\n\nOther\n\n#### Field(s) of application \n_e.g. ecology, epidemiology, Antarctic and Southern Ocean research, biomedical research, energy, finance, history, social sciences, anything!_\n\nAir quality (exposure science? epidemiology?)\n\n#### What did you do? \n_Explain briefly what you did, to pique your readers' interest_\n\nThe [`retry()` method in `crul::HttpClient`](https://docs.ropensci.org/crul/reference/HttpClient.html#method-retry) replaced my own code for retrying in case of failures in my rOpenSci `ropenaq` package that provides access to data from OpenAQ API (air quality data). \n\nI had code with a `while` loop, counting iterations, adding waiting time, etc., and it turns out I didn't need to! Using the method from `crul` I'm saving lines of code and the responsability for testing the retrying is at least partly on `crul` maintainer. :wink:\n\n\n#### Comments\n_e.g. feedback or feature request_\n\nThanks @sckott for telling me about the method. I should read the docs and the changelog more closely!\n\n#### Twitter handle \n_if you would like to be tagged in a tweet about your use case_\n\n`@ma_salmon` (but the more general post is via `@rhub_`).",
     "language": "English"
   },
   {
@@ -510,6 +550,7 @@
     "url": "https://discuss.ropensci.org/t/animated-generative-art-with-magick/2042",
     "image": "noimage",
     "date": "2020-04-21",
+    "body": "This use case for {[magick](https://docs.ropensci.org/magick/)} was inspired by the 'ashtree' algorithm by Danielle Navarro. I thought it would be really nice to show the organic growth of the trees. The tree itself is a result of a branching process, an excellent example for some simple generative art using functional programming. The animation can be admired [here](https://twitter.com/analythium/status/1251004527609708545).\n\n\n#### rOpenSci package or resource used\n[magick](https://docs.ropensci.org/magick/)\n\n#### URL or code snippet for your use case\nhttps://gist.github.com/psolymos/f0f8132ee03b6f7f03e275473b355b8e\n\n\n#### Image\nhttps://twitter.com/analythium/status/1251004527609708545\n\n\n#### Sector\nacademic\n\n#### Field(s) of application \ngenerative art\n\n#### Twitter handle \n@analythium",
     "language": "English"
   },
   {
@@ -524,6 +565,7 @@
     "url": "https://discuss.ropensci.org/t/using-taxadb-to-query-taxonomic-information-in-ecology-projects/2046",
     "image": "using-taxadb-to-query-taxonomic-information-in-ecology-projects.png",
     "date": "2020-04-27",
+    "body": "#### rOpenSci package or resource used*\n[taxadb](https://docs.ropensci.org/taxadb/)\n\n#### URL or code snippet for your use case*\nhttps://gavinmasterson.netlify.app/post/taxadb/\n\n#### Image\n![image|638x350](upload://3ak772MWEDc7FM8d0OOqoyfV6vH.png) \n\n#### Sector\nacademic\n\n#### Field(s) of application \necology, conservation, evolutionary biology, species distribution modeling\n\n#### What did you do? \nI used the {taxadb} package to verify taxonomic information for two ecology-related projects. In the second case, I compared taxonomic identifications from 2006 with the current information for those species to identify changes in name and/or status..\n\n#### Comments\nThe package is fantastic in that it works in offline mode. I am interested in seeing the range of databases expanded in future versions.\n\n#### Twitter handle \n@gavinprm",
     "language": "English"
   },
   {
@@ -537,6 +579,7 @@
     "url": "https://discuss.ropensci.org/t/drake-at-queensland-fire-and-emergency-services/2054",
     "image": "drake-at-queensland-fire-and-emergency-services.jpeg",
     "date": "2020-05-04",
+    "body": "\n\n#### rOpenSci package or resource used*\n[drake](https://github.com/ropensci/drake)\n\n#### What did you do? \nI wrote a blog post detailing how my team of 4 data scientists at Queensland Fire and Emergency Services sets up our R projects with `{drake}`. I also talk a little bit about how it facilitates colloboration and debugging.\n\n#### URL or code snippet for your use case*\nhttps://milesmcbain.xyz/the-drake-post/\n\n\n#### Image\n-\n\n\n#### Sector\nGovernment\n\n#### Field(s) of application \nSofware Engineering\n\n#### Comments\nWe love it!\n\n#### Twitter handle \n@milesmcbain",
     "language": "English"
   },
   {
@@ -550,6 +593,7 @@
     "url": "https://discuss.ropensci.org/t/visualize-covid19-cases-using-rnaturalearth-package/2058",
     "image": "visualize-covid19-cases-using-rnaturalearth-package.jpeg",
     "date": "2020-05-05",
+    "body": "\n#### rOpenSci package or resource used*\nrnaturalearth\n\n#### What did you do? \n\nI created several R dataset packages for tracking the covid19 virus in different geographic locations (Italy, Switzerland, etc.). To help users create choropleth maps with a minimum effort I added for each dataset (when applicable) a column with the corresponding region/province naming convention used in the **rnaturaleath** package. The goal is to enable a seamless merge of the data with the geospatial data available in the package with the `ne_state` function.\n\nFor example, in the `italy_province` dataset from the [covid19italy](https://github.com/RamiKrispin/covid19Italy) package the `province_spatial` presents the corresponding province names used on the **rnaturalearth** package. Merge and plot of the covid19 cases with **rnaturalearth** and **mapview** is straightforward:\n\n```\nlibrary(covid19italy)\nlibrary(rnaturalearth)\nlibrary(mapview)\nlibrary(dplyr)\n\ndata(\"italy_province\")\n\nne_states(country = \"Italy\", returnclass = \"sf\") %>% \n  select(province = name, region, geometry)  %>%\n  left_join(italy_province %>% \n              filter(date == max(date)), # subseting for the most recent day\n            by = c(\"province\" = \"province_spatial\")) %>%\n  mapview(zcol = \"total_cases\")\n```\n\n![image|636x500](upload://yt4tXOThwQ6I7y2qf0ce2cmF3KP.jpeg) \n\nMore information about the use cases of the **rnaturalearth** with covid19 dataset available on the following vignettes:\n\n**covid19italy** package - https://covid19r.github.io/covid19italy/articles/geospatial_visualization.html\n**covid19swiss** package - https://covid19r.github.io/covid19swiss/articles/spatial_dataviz.html\nItaly covid19 dashboard - https://ramikrispin.github.io/italy_dash/#summary\n\nTwitter handler - @Rami_Krispin",
     "language": "English"
   },
   {
@@ -565,6 +609,7 @@
     "url": "https://discuss.ropensci.org/t/package-for-downloading-shapefiles-using-piggyback/2073",
     "image": "package-for-downloading-shapefiles-using-piggyback.png",
     "date": "2020-05-11",
+    "body": "#### rOpenSci package or resource used*\npiggyback\n\n#### What did you do? \nI created a package called {leaidr} to use facilitate the download and use of U.S. school district shapefiles. The shapefile is over GitHub's allowed limit of 100MB. Originally, I tried to use GitHub LFS as a way to upload the file. Unfortunately, GitHub LFS is not reproducible in that when others download the package, they wouldn't be able to access the file.\n\n{piggyback} allowed for easy upload of the shapefile as an R Data file to GitHub. In one of the {leaidr} functions, there is a call to download the shapefile into the user's specified file path. From there, the user can prep and plot the shapefile according to their needs.\n\n#### URL or code snippet for your use case*\nhttps://github.com/ivelasq/leaidr\nhttps://ivelasq.rbind.io/blog/leaid-shapefiles/\n\n#### Sector\nnon-profit\n\n#### Field(s) of application \nK-12, education, policy\n\n#### Comments\nThank you so much for creating {piggyback} and making it available for others to use!\n\n#### Twitter handle \n@ivelasq3",
     "language": "English"
   },
   {
@@ -580,16 +625,17 @@
     "url": "https://discuss.ropensci.org/t/bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses/2082",
     "image": "bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses.png",
     "date": "2020-05-17",
+    "body": "#### rOpenSci package or resource used\n\n[bomrang](https://docs.ropensci.org/bomrang/), [clifro](https://docs.ropensci.org/clifro/)\n\n#### What did you do? \n\nWe had an issue with an on-site weather station where the wind-vane was not properly calibrated. So we opted to use BOM data to check wind directions during the rainfall events in which we were measuring fungal spore dispersal to make sure the wind was blowing roughly in the direction of our trap plants.\n\nWe used bomrang's `sweep_for_stations()` to identify stations within a given radius of a site where we had research plots to then download hourly weather data using the [stationaRy package](https://cran.r-project.org/package=stationaRy) (bomrang does not offer hourly weather data).\n\nWind roses were plotted using [clifro](https://docs.ropensci.org/clifro/) for the publication.\n\n\n#### URL or code snippet for your use case\n\nhttps://adamhsparks.github.io/ChickpeaAscoDispersal/articles/a06_Validate_Curyo_weather.html\n\n#### Image\n\nNote the \"Curyo\" windrose is not aligned with the others, this is what/why we were checking the BOM station data.\n\n![wind-rose-1|690x345](upload://2XmocoeTGvy9h8eDu5bHIspIHpT.png) \n\n![](upload://v2D0gV54U5D3rV7G2yZZPQ66hjg.png)\n\n\n#### Sector\n\nAcademic\n\n\n#### Field(s) of application \n\nbotanical epidemiology\n\n\n#### Comments\n\nI'm planning to add this functionality to bomrang, using stationaRy as a depends to fetch hourly weather data for Australian stations only.\n\n#### Twitter handle \n\n[@adamhsparks](https://twitter.com/adamhsparks/), [@PaulMelloy](https://twitter.com/PaulMelloy/), [@Kev_Pathologist](https://twitter.com/Kev_Pathologist/), \n[@jeangalloway14](https://www.twitter.com/jeangalloway14) and [@FanningJosh_](https://twitter.com/FanningJosh_/)",
     "language": "English"
   },
   {
     "title": "Using {drake} for machine learning",
     "reporter": "Edwin Thoen",
-    "tags": [],
     "resource": "[drake](https://docs.ropensci.org/drake)",
     "url": "https://discuss.ropensci.org/t/using-drake-for-machine-learning/2091",
     "image": "using-drake-for-machine-learning.png",
     "date": "2020-05-22",
+    "body": "\n#### rOpenSci package or resource used*\ndrake\n\n#### What did you do? \nI elaborated on how I use {drake} to create machine learning products end-to-end, using it in combination of the R package structure.\n\n\n#### URL or code snippet for your use case*\nhttps://edwinth.github.io/blog/drake-ml/\n\n\n\n\n#### Sector\nindustry\n\n\n#### Comments\nThank you so much for all the hard work!\n\n#### Twitter handle \n@edwin_thoen",
     "language": "English"
   },
   {
@@ -600,6 +646,7 @@
     "url": "https://discuss.ropensci.org/t/detecting-the-effects-of-sustained-glacier-wastage-on-streamflow-in-variably-glacierized-catchments-using-tidyhydat/2095",
     "image": "detecting-the-effects-of-sustained-glacier-wastage-on-streamflow-in-variably-glacierized-catchments-using-tidyhydat.jpeg",
     "date": "2020-05-25",
+    "body": "#### rOpenSci package or resource used*\n[tidyhydat](https://github.com/ropensci/tidyhydat)\n\n#### What did ~~you~~ they do? \nThis study focused on the effects of glacier melt on streamflow in the Canadian portion of the Columbia River headwaters over the period 1977 to 2017. Between 1985 and 2013, glacier coverage decreased by up to 2% of catchment area for the 35 study catchments. The analyses suggest that glacier-melt  reductions have exacerbated a regional climate-driven trend to decreased August streamflow contributions from unglacierized areas.\n\n\n#### URL or code snippet for your use case*\n[ Detecting the Effects of Sustained Glacier Wastage on Streamflow in Variably Glacierized Catchments](https://www.frontiersin.org/articles/10.3389/feart.2020.00136/full)\n\n\n#### Image\n![](upload://6cVZaFFOODmUQoQcIKxb5a21KiP.jpeg)\n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nglaciology, hydrology\n\n\n\n#### Twitter handle \n@big_bad_sam - tidyhydat maintainer\n@brianmenounos - Article author (haven't contacted him about tagging him)",
     "language": "English"
   },
   {
@@ -614,6 +661,7 @@
     "url": "https://discuss.ropensci.org/t/create-a-time-lapse-video-using-av-package/2117",
     "image": "create-a-time-lapse-video-using-av-package.jpeg",
     "date": "2020-06-08",
+    "body": "#### rOpenSci package or resource used*\n[av](https://ropensci.org/packages/)\n\n#### What did you do? \nI took a series of photos with my DSLR and a tripod using an intervalometer. \n- **Exposure Time:** 13s\n- **Aperture Value:** F8\n- **ISO:** 100\n\nThen it was employed [#rstats](https://twitter.com/hashtag/rstats?src=hashtag_click) to create the time-lapse, without install another software. The [#av](https://twitter.com/hashtag/av?src=hashtag_click) package facilitates this work. This is my window view in Santa Maria-Brazil. Car lights painting the night during COVID-19 times.\n\n\n#### URL or code snippet for your use case*\n_Here you can find the code_\nhttps://github.com/MauricioCely/time-lapse\n\n#### Image\n![IMG_4372|690x459, 50%](upload://jh8BPcLgvIFbIcKXcRukshtAG1h.jpeg) \n\n#### Sector\n_non-profit / other_\n\n\n#### Field(s) of application \n_e.g. photography, video and audio edition._\n\n\n#### Comments\n_Please contact me if any question_\n\n#### Twitter handle \n[@Mauricio_Cely](https://twitter.com/Mauricio_Cely)",
     "language": "English"
   },
   {
@@ -629,6 +677,7 @@
     "url": "https://discuss.ropensci.org/t/scrape-an-image-from-deepzoom-with-r-and-magick-recomposing-a-single-image-from-multiple-tiles/2123",
     "image": "noimage",
     "date": "2020-06-08",
+    "body": "\n#### rOpenSci package or resource used*\nmagick\n\n#### What did you do? \n\n[DeepZoom](https://en.wikipedia.org/wiki/Deep_Zoom) allows webmasters to display high resolution images in an online viewer. It mostly discourages downlading the original high resolution images to your local drive. Magick combined with rvest can be used to get these images nevertheless with the help of R.\n\nFull code for doing so is presented on [my blog on mapping and data mining](https://ourednik.info/maps/2020/05/26/scrape-an-image-from-deepzoom-with-r-and-magick-recomposing-a-single-image-from-multiple-tiles/)\n\nIn the core of the code, I use the [magick R package](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) to recompose the whole image from the tiles. This in two embedded for-loops. The recomposing magic happens in the line\n\n```\nthisimageline <- image_append(c(thisimageline, newimage), stack=TRUE)\n```\n\nWhere `stack=TRUE` means that you append image tiles vertically. This gives you a column of images of 1-image width. In the encompassing loop, you append columns horizonataly until you have the full width of the original image:\n\n```\nthisimage <- image_append(c(thisimage, thisimageline))\n```",
     "language": "English"
   },
   {
@@ -643,6 +692,7 @@
     "url": "https://discuss.ropensci.org/t/us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods/2124",
     "image": "us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods.png",
     "date": "2020-06-09",
+    "body": "\n#### rOpenSci package or resource used*\n[rtweet](https://docs.ropensci.org/rtweet/)\n\n#### What did you do? \n\nA short course in computational-corpus linguistics.  A look at how US lawmakers have been tweeting about things COVID-19 since March.  Semantic spaces, network graphs, and some politicization of COVID-concepts -- for good measure. ++Techniques for working with multi-word expressions in text analytic workflows.\n\n#### URL or code snippet for your use case*\n\nhttps://www.jtimm.net/2020/05/26/corp-comp-ling-covid19/\n\n\n#### Image\n\n![unnamed-chunk-28-1|583x500](upload://d7vXkIWYA1eMZmu8RfMTXVEQE4P.png) \n\n#### Sector\nAcademic\n\n\n#### Field(s) of application \ncomputational linguistics, corpus linguistics, political science\n\n#### Twitter handle \n\n@JasonTimm13",
     "language": "English"
   },
   {
@@ -658,6 +708,7 @@
     "url": "https://discuss.ropensci.org/t/testing-an-api-wrapper-with-webmockr-and-vcr/2125",
     "image": "noimage",
     "date": "2020-06-09",
+    "body": "#### rOpenSci package or resource used*\n[webmockr](https://docs.ropensci.org/webmockr/) and [vcr](https://docs.ropensci.org/vcr/) with the [HTTP testing book](https://books.ropensci.org/http-testing/). This [question on ROpenSci](http://ropensci.discourse.group/t/best-practices-for-testing-api-packages/460) helped me discover the tools.\n\n#### What did you do? \nI tested the dev.to api wrapper I wrote. I used webmockr to create stubs to the apis, and vcr to record the API response to a local disk for testing purposes. I wrote it up [here](https://dev.to/daveparr/testing-my-dev-to-api-package-with-testthat-webmockr-and-vcr-2dgm).\n\n#### URL or code snippet for your use case*\nMy code is [on GitHub](https://github.com/DaveParr/dev.to.ol)\n\n#### Sector\nHobby\n\n#### Field(s) of application \nData exchange\n\n#### Comments\nExtend the getting started documention, which I am helping to work on in [this GitHub issue](https://github.com/ropensci/vcr/issues/170)\n\n#### Twitter handle \n@DaveParr",
     "language": "English"
   },
   {
@@ -672,6 +723,7 @@
     "url": "https://discuss.ropensci.org/t/using-datapackager-to-create-data-package-pandemic-papers-with-chris-knox/2131",
     "image": "noimage",
     "date": "2020-06-17",
+    "body": "#### rOpenSci package or resource used\n[DataPackageR](https://docs.ropensci.org/DataPackageR/)\n\n#### What did you do? \nUsed DataPackageR to create a data package of the New Zealand Government's released [Covid-19 document dump](https://covid19.govt.nz/resources/key-documents-and-legislation/proactive-release/) available as searchable plain text.\n\nUse case from **[from Chris Knox's tweet](https://twitter.com/vizowl/status/1265876658508054529)**\n\n\n#### URL or code snippet for your use case\nOutput: [Pandemic Papers Data Package GitHub](https://github.com/nzherald/pandemicpapers)\n\n\n#### Sector\nOther\n\n\n#### Field(s) of application \nJournalism\n\n#### Twitter handle \n@vizowl",
     "language": "English"
   },
   {
@@ -687,6 +739,7 @@
     "url": "https://discuss.ropensci.org/t/using-qualtrics-to-study-the-effect-of-covid-19-on-scientists/2143",
     "image": "noimage",
     "date": "2020-06-21",
+    "body": "#### rOpenSci package or resource used*\n[qualtRics](https://github.com/ropensci/qualtRics)\n\n#### What did you do? \n - Used in the workflow for analyzing a survey about how scientists have been affected by the COVID-19 pandemic\n\n- This also inspired a blog post with some tips for working with data collected through Qualtrics\n\n\n#### URL or code snippet for your use case*\n\n- [Quantifying the Immediate Effects of the COVID-19 Pandemic on Scientists](https://arxiv.org/abs/2005.11358)\n\n- [Blog post on Qualtrics workflow](https://wytham.rbind.io/post/qualtrics-workflow/)\n\n#### Sector\nAcademic\n\n#### Field(s) of application \nSocial sciences, economics\n\n#### Comments\nReally enjoyed working with the package. Maintainers/contributors were really responsive when I filed an issue too. \n\n#### Twitter handle \n@wytham88",
     "language": "English"
   },
   {
@@ -701,6 +754,7 @@
     "url": "https://discuss.ropensci.org/t/filtering-pdfs-using-regex-in-their-body/2150",
     "image": "noimage",
     "date": "2020-06-25",
+    "body": "#### rOpenSci package or resource used*\npdftools\n\n#### What did you do? \nI used pdftools to scan a large number of pdfs from a folder, and then stringr::str_which() to search the body of each pdf for any RegEx expression you want. Pdfs with matching RegEx expressions are saved in a new folder of your choosing.\n\n\n#### URL or code snippet for your use case*\npdf_selector<-function(file_folder,new_folder,search_pattern){\n  library(pdftools)\n  library(tidyverse)\n  setwd(file_folder)\n  dir.create(new_folder)\n  filenames<-list.files(file_folder,pattern=\"*.pdf\",full.names=TRUE)\n  pdfs<-lapply(filenames,pdf_text)%>%\n    lapply(paste,sep=\" \",collapse=\" \")\n  l<-lapply(pdfs,str_which,pattern=search_pattern)%>%\n    as.logical()%>%\n    replace_na(FALSE)\n  sapply(filenames[l],file.copy,to=new_folder)\n}\n\n#file_folder is the directory to folder containing the pdfs you want to search, as a string\n#new_folder is the name of the new folder you want to make with your filtered pdfs, as a string\n#search_pattern is the RegEx expression you want to search for, as a string\n#Make sure to set your working directory to contain the pdf-containing folder, or include the full directory path in your file_folder argument\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nsocial science, qualitative science, meta-analysis\n\n\n#### Comments\n\n#### Twitter handle \n@AugustusPendle1",
     "language": "English"
   },
   {
@@ -708,14 +762,15 @@
     "reporter": "Pedro Rocha",
     "tags": [
       "tabulizer",
-      "português",
+      "portugu-s",
       "portuguese"
     ],
     "resource": "Tabulizer",
     "url": "https://discuss.ropensci.org/t/extraindo-tabelas-de-documentos-pdf-em-r-com-tabulizer/2178",
     "image": "noimage",
     "date": "2020-07-20",
-    "language": "Portuguese"
+    "body": "#### rOpenSci package or resource used\n\n[Tabulizer](https://docs.ropensci.org/tabulizer/)\n\n#### What did you do? \n\nEstava procurando dados sobre operações de Garantia da Lei e da Ordem (GLOs) no Brasil para o artigo final de uma disciplina do doutorado. Infelizmente não há muita informação disponível em série histórica, apesar do Ministério da Defesa ter contabilizado alguns dados das operações realizadas desde 1992. Eles estão disponíveis [aqui](https://www.gov.br/defesa/pt-br/assuntos/exercicios-e-operacoes/garantia-da-lei-e-da-ordem), assim com a metodologia usada para coleta-los. Maravilha, mas temos um problema: os dados não estão em planilhas prontas para gente usar, mas em pdf. Em dois pdfs, no caso. Um primeiro contendo variáveis como  *data* ,  *nome* ,  *local* ,  *missão*  e  *tipo*  da operação, e um segundo contendo o seu  *custo*  e o  *efetivo*  empregado. Resolvi então escrever um post mostrando um pouco o processo de extração e transformação inicial dos dados. \n\n#### URL or code snippet for your use case*\nO código e o tutorial podem ser acessados [aqui](http://pedrodrocha.com/2020-07-12-tabulizer/)\n\n\n#### Sector\nAcadêmico, privado, terceiro setor, etc.\n\n\n#### Twitter handle \n[@pedro_drocha](https://twitter.com/pedro_drocha)",
+    "language": "English"
   },
   {
     "title": "Creating a self-updating GitHub README using rtweet and GitHub Actions",
@@ -728,6 +783,7 @@
     "url": "https://discuss.ropensci.org/t/creating-a-self-updating-github-readme-using-rtweet-and-github-actions/2181",
     "image": "creating-a-self-updating-github-readme-using-rtweet-and-github-actions.jpeg",
     "date": "2020-07-21",
+    "body": "#### rOpenSci package or resource used*\n[rtweet](https://github.com/ropensci/rtweet)\n\n#### What did you do? \nAfter GitHub allows users to host their own README file on the profile page, people started to share many awesome README examples. Inspired by this [tweet](https://twitter.com/simonw/status/1281435464474324993) where Simon William used it to share his updates from blogs and commits, I created a README updating my latest tweet instead of having a static one by doing the following actions: \n1. Use rtweet to get my latest tweet.\n2. Use tweetrmd and webshot2 to turn the tweet into a screenshot.\nThe entire process is deployed on GitHub using GitHub Actions [templates](https://github.com/malcolmbarrett/epibot) from my friend Malcolm Barrett. \n\n#### URL or code snippet for your use case*\nhttps://github.com/zhiiiyang/zhiiiyang/blob/af2921e2fe01cd59cab9138907f8da37ceabcb1d/script.R\n\n#### Image\n![image|597x500](upload://aPn2JKbBstAksF3RZfP5L1FZD4r.jpeg) \n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nDoesn't really fall into the typical fields. How about professional development? \n\n\n#### Twitter handle \n[@zhiiiyang](https://twitter.com/zhiiiyang)",
     "language": "English"
   },
   {
@@ -738,22 +794,23 @@
       "rtweet",
       "magick",
       "spanish",
-      "español"
+      "espa-ol"
     ],
     "resource": "rtweet, [magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188",
     "image": "spanish-and-english-blogs-on-how-to-use-rtweet-and-magick.png",
     "date": "2020-08-01",
+    "body": "#### rOpenSci package or resource used\n\n[rtweet](https://github.com/ropensci/rtweet), [magick](https://github.com/ropensci/magick)\n\n#### What did you do? \n\nI like to use `rtweet` when I'm at conferences to look for impactful tweets and tweeters to follow or mute. I also enjoy using `magick` to add images to figures. \n\nAfter a conference, I happened to sit next to two conference attendee and I showed them my R code and my analysis. They encouraged me to write a blog post about how to use this tool, so I wrote this [blog post in English](https://www.raynamharris.com/blog/sacnas_rtweet/). Then I translated the human-readable parts of the code and published the [blog in Spanish](https://www.raynamharris.com/blog/sacnas_rtweet_es/). I shared both blogs [on Twitter](https://twitter.com/raynamharris/status/1192510904828432384) and they were well received.\n\n\n\n#### URL or code snippet for your use case*\n\n\n- [blog post in English](https://www.raynamharris.com/blog/sacnas_rtweet/)\n- [gist in English](https://gist.github.com/raynamharris/289c08c8a428f201345cce44e1f5a8fb)\n- [blog in Spanish](https://www.raynamharris.com/blog/sacnas_rtweet_es/)\n- [gist in Spanish](https://gist.github.com/raynamharris/cf598a1cfdda4d5c150c99b8e9d87235)\n\n\n\n#### Image\n\n- [figure from Spanish blog post on on how to use rtweet](https://github.com/raynamharris/raynamharris.github.io/blob/ec8eaacf73025e9e638c0b1234c2bd4edff7e7d5/images/sacnas_ts_plot_es-1.png)\n\n\n![usecase_spanish|672x480](upload://eVpKpsP4j1qfpbHhbcSxz3sGqQK.png) \n\n#### Sector\n\nacademic\n\n\n#### Field(s) of application \n\nscience\n\n#### Comments\n\nThoughts and feedback are welcome. \n\n#### Twitter handle \n\n@raynamharris",
     "language": "English"
   },
   {
     "title": "Basic manipulation of GIF frames with magick",
     "reporter": "Kenneth Tay",
-    "tags": [],
     "resource": "[magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/basic-manipulation-of-gif-frames-with-magick/2192",
     "image": "noimage",
     "date": "2020-08-13",
+    "body": "#### rOpenSci package or resource used\n[magick](https://github.com/ropensci/magick)\n\n#### What did you do? \nI demonstrate how you can use the `magick` package to do some basic manipulation of GIFs, such as playing it backwards, slowing some frame downs, and splicing in other frames.\n\n#### URL or code snippet for your use case\n[Post on my blog](https://statisticaloddsandends.wordpress.com/2020/08/06/basic-manipulation-of-gif-frames-with-magick/)\n\n#### Image\n![nba gif](https://statisticaloddsandends.files.wordpress.com/2020/08/lebron4.gif?w=480&zoom=2)\n\n#### Sector\n_List one of: academic / industry / government / non-profit / other_\n\n#### Field(s) of application \nAny field where GIFs are used!\n\n#### Comments\nNA\n\n#### Twitter handle \nNA",
     "language": "English"
   },
   {
@@ -764,6 +821,7 @@
     "url": "https://discuss.ropensci.org/t/bar-chart-portraits-with-magick/2197",
     "image": "bar-chart-portraits-with-magick.png",
     "date": "2020-08-23",
+    "body": "#### rOpenSci package or resource used*\nmagick\n\n#### What did you do? \nI used magick to resize and convert an image to grayscale, and then to get the pixel values that represent their brightness. The values were used to make horizontal bars at the position of each pixel, with the width of the bar corresponding to reverse brightness (longer bars = brighter pixels).\n\n#### URL or code snippet for your use case*\nCode: https://github.com/gkaramanis/aRt/tree/master/split-bar\n\nhttps://twitter.com/geokaramanis/status/1294141970445553664\n\n#### Image\n![keanu|649x500](upload://7sYYIYe1BfU2wrKsSh4B9W7u3TW.png) \n\n#### Field(s) of application \nArt\n\n#### Twitter handle \n@geokaramanis",
     "language": "English"
   },
   {
@@ -779,6 +837,7 @@
     "url": "https://discuss.ropensci.org/t/covidpreprints-com-using-europepmc-and-raltmetric/2210",
     "image": "noimage",
     "date": "2020-09-08",
+    "body": "#### rOpenSci package or resource used*\n [europepmc](https://github.com/ropensci/europepmc), [rAltmetric](https://github.com/ropensci/rAltmetric)\n\n#### What did you do? \n`covidpreprints.com` is a one-stop portal for the lay public and scientific community. We created `covidpreprints.com` to promote scientific education and combat misinformation by discussing controversial scientific issues. We focus on the trend of open access in science, especially in the form of preprints, and we see it as a way to shape the growth of these trends within the scientific community.\n\nThis website was rebuilt during the eLife Sprint 2020 organised by eLife Innovation held from 2 - 3 Sept 2020. We introduced two features that would be of interest to our audience:\n\nFirst, we rebuilt the COVID-19 timeline, which now displays both scientific advances (in the form of preprints) and worldwide events related to the pandemic side-by-side.\n\nSecond, we utilised the europepmc and rAltmetric packages to automatically populate the collection of preprint metadata (authors, title, date of publication, etc.) and metrics to create the abovementioned COVID-19 timeline. This greatly simplifies the process for users who now only need to add a DOI to a Google Sheet. We then automatically fetch the relevant metadata, and deploy a new version of the website hourly via a GitHub Action cron job.\n\nWe envision that the underlying set of architecture and tools that we have developed will last beyond the COVID-19 pandemic for which `covidpreprints.com` was created, and hope that this can be applied to other areas in science and medicine as well.\n\n\n#### URL or code snippet for your use case*\nCode: https://github.com/coatesj/covidpreprints/\n\nDatabase: `covidpreprints.com`\n\n\n#### Sector\nnon-profit\n\n#### Field(s) of application \nEpidemiology, biomedical research, science communication, bibliometrics\n\n#### Twitter handles\n@zhanghe_goh, @grusonh, @JACoates91, @Dey_Gautam, @invisiblecomma",
     "language": "English"
   },
   {
@@ -795,6 +854,7 @@
     "url": "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214",
     "image": "noimage",
     "date": "2020-09-15",
+    "body": "The larger use case for Kontarion is to support developing and deploying Bibliometric analytics within the KTH Royal Institute of Technology Library - a container-based platform that can be used on-prem or in the cloud.\n\n#### rOpenSci package or resource used\noai, rentrez, fulltext, europepmc, refsplitr, rcrossref, citecorp, roadoi\n\n#### What did you do? \n\nAssembled a stack extending the versioned rocker-project.org docker image for ml-verse with various ROpenSci (and other) packages, to provide a containerized platform supporting Bibliometric analysis workflows.\n\n#### URL or code snippet for your use case*\n\nOverview:\n\nhttps://mskyttner.github.io/rltheme/slides/kontarion/kontarion-slides.html\nhttps://kth-library.github.io/open-datascience-platforms\n\nImages and source code:\n\n* Images are on Docker Hub at https://hub.docker.com/r/kthb/kontarion\n* Sources are on GitHub on https://github.com/KTH-Library/kontarion\n\n#### Sector\n\nacademic\n\n#### Field(s) of application \n\nbibliometrics (measuring scientific/research outputs from institutions and generating annual bibliometric monitoring dashboard)",
     "language": "English"
   },
   {
@@ -809,6 +869,7 @@
     "url": "https://discuss.ropensci.org/t/mapping-scientific-collaboration-about-the-anthropoce-with-refsplitr/2215",
     "image": "mapping-scientific-collaboration-about-the-anthropoce-with-refsplitr.jpeg",
     "date": "2020-09-15",
+    "body": "\n#### rOpenSci package or resource used*\nPackage [refsplitr](https://github.com/ropensci/refsplitr)\n\n#### What did you do? \nThe authors studied the location and patterns of collaboration of authors publishing research on the Anthropocene. \n\n\n#### URL or code snippet for your use case*\nhttps://conbio.onlinelibrary.wiley.com/doi/10.1111/csp2.270 \n\n#### Image\n![image|460x500](upload://g18swPIjt6YFFzScnpdsPUrAMqD.jpeg) \n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nacademic publishing, conservation biology, text analysis, scientometrics, bibliometrics, science of science\n\n#### Comments\n\n#### Twitter handle \n@brunalab @rallidaerule @birderboone",
     "language": "English"
   },
   {
@@ -823,6 +884,7 @@
     "url": "https://discuss.ropensci.org/t/processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography/2216",
     "image": "processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography.png",
     "date": "2020-09-15",
+    "body": "\n#### rOpenSci package or resource used*\nPackage [refsplitr](https://github.com/ropensci/refsplitr)\n\n#### What did you do? \nThe authors examined how author location, author gender ratios, and publication rates in myrmecology changed over three decades. \n\n\n#### URL or code snippet for your use case*\nhttps://myrmecologicalnews.org/cms/index.php?option=com_content&view=category&id=1568&Itemid=435\n\n#### Image\n![image|690x431](upload://jHvA7MrB34GU47V3HBZ1ahVHyPw.png) \n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nacademic publishing, myrmecology,gender diversity, scientometrics, bibliometrics, science of science\n\n#### Comments\n\n#### Twitter handle \n@brunalab @rallidaerule @birderboone",
     "language": "English"
   },
   {
@@ -839,6 +901,7 @@
     "url": "https://discuss.ropensci.org/t/a-twitter-bot-with-rtweet-mapbox-and-github-actions/2223",
     "image": "a-twitter-bot-with-rtweet-mapbox-and-github-actions.jpeg",
     "date": "2020-09-25",
+    "body": "#### rOpenSci package or resource used*\n\n[rtweet](https://docs.ropensci.org/rtweet/)\n\n#### What did you do?\n\nI set up [a GitHub Action](https://github.com/features/actions) that includes R code that generates random coordinates in greater London, queries [the Mapbox API](https://docs.mapbox.com/api/) for a satellite image and uses [the Twitter API](https://developer.twitter.com/en/docs) via [{rtweet}](https://docs.ropensci.org/rtweet/) to post the image to the [@londonmapbot](https://twitter.com/londonmapbot) Twitter account.\n\n#### URL or code snippet for your use case*\n\n* [@londonmapbot Twitter account](https://twitter.com/londonmapbot)\n* [blog post](https://www.rostrum.blog/2020/09/21/londonmapbot/)\n* [source code on GitHub](https://github.com/matt-dray/londonmapbot)\n\n#### Image\n\n![wimbledon|690x459, 75%](upload://wdVUHYqjWVsLjcl2waVyqaAUjho.jpeg)\n\nMore images at the [@londonmapbot](https://twitter.com/londonmapbot) account.\n\n\n#### Sector\n\nOther\n\n#### Field(s) of application \n\ngeography, geospatial, communications, social studies, sociology\n\n\n#### Twitter handle \n\n* My handle is [@mattdray](https://twitter.com/mattdray)\n* The bot is [@londonmapbot](https://twitter.com/londonmapbot)",
     "language": "English"
   },
   {
@@ -853,16 +916,17 @@
     "url": "https://discuss.ropensci.org/t/osmdata-rail-transport-network-of-the-three-largest-cities-in-spain/2249",
     "image": "osmdata-rail-transport-network-of-the-three-largest-cities-in-spain.jpeg",
     "date": "2020-10-27",
+    "body": "#### rOpenSci package or resource used*\n_[osmdata](https://docs.ropensci.org/osmdata/)_\n\n#### What did you do? \n_I combined several functions from the [osmdata](https://docs.ropensci.org/osmdata/)  package to download the vector data for the street grid and rail transport network of the three largest cities in Spain (Madrid, Barcelona and València) and try to produce a nice-looking plot of these cities._\n\n\n#### URL or code snippet for your use case*\n_https://github.com/GuillemSalazar/r_miscellanea/blob/72a477161e6fd5dfaad9661665cc9f38fa73060e/doc/1_osm.md_\n\n\n#### Image\n![1_osm|690x345](upload://zxDrPIhY5NCSl0NHxHXGh9byhIp.jpeg) \n\n\n#### Twitter handle \n_@GuillemSalazar_",
     "language": "English"
   },
   {
     "title": "osmdata, rnaturalearth and magick for #TidyTuesday",
     "reporter": "Jake Kaupp",
-    "tags": [],
     "resource": "[osmdata](https://docs.ropensci.org/osmdata), [rnaturalearth](https://docs.ropensci.org/rnaturalearth), [magick](https://docs.ropensci.org/magick)",
     "url": "https://discuss.ropensci.org/t/osmdata-rnaturalearth-and-magick-for-tidytuesday/2255",
     "image": "osmdata-rnaturalearth-and-magick-for-tidytuesday.jpeg",
     "date": "2020-11-06",
+    "body": "\n\n#### rOpenSci package or resource used*\n\n[`osmdata`](https://docs.ropensci.org/osmdata), [`rnaturalearth`](https://docs.ropensci.org/rnaturalearth), [`magick`](https://docs.ropensci.org/magick)\n\n#### What did you do? \nI used these packages to create my submission for week 44 of #TidyTuesday, Canadian Wind Turbines.  TidyTuesday is a weekly social visualization activity/project/challenge originating out of the R4DS and larger R community.  `rnaturalearth` provided me with an excellent map of Maritime Canada, `osmdata` for the main highways (using simple features too!) and `magick` for the no-fuss image cropping!\n\n\n#### URL or code snippet for your use case*\nhttps://github.com/jkaupp/tidytuesdays/blob/437b47ad14bd3d6d66dca41e0a4a84c9d96716fb/2020/week44/R/analysis.R\n\n\n#### Image\n![tw44_plot|681x500, 50%](upload://c72u3V2snqare7UBkcabQRPUi7f.jpeg) \n\n#### Twitter handle \n@jakekaupp",
     "language": "English"
   },
   {
@@ -876,16 +940,17 @@
     "url": "https://discuss.ropensci.org/t/use-stplanr-to-find-and-plot-major-streets-of-a-city/2264",
     "image": "use-stplanr-to-find-and-plot-major-streets-of-a-city.jpeg",
     "date": "2020-11-18",
+    "body": "#### rOpenSci package or resource used*\n[stplanr](https://docs.ropensci.org/stplanr) package\n\n#### What did you do? \n\n*The life lines of Berlin*\n\nA fast way to find major streets within a city, without searching for any data on traffic amounts, street types or street width:\n\nTake random start and end points within the city and run a routing to find routes connecting the start and end points.\n\nThen aggregate the single street segments on how often they were used. You then get an image of the major city axes.\n\n\n#### URL or code snippet for your use case*\n[Map](https://alexandrakapp.github.io/30daymapchallenge/html/day9.html)\n[Code](https://github.com/AlexandraKapp/30daymapchallenge/blob/e0355a0aa909371416377b99df82cc948e51d592/R/day9.R)\n\n```R\nlibrary(sf)\nlibrary(dplyr)\nlibrary(osrm)\nlibrary(stplanr)\nlibrary(leaflet)\n\n# get 500 random routings\n\nberlin <- st_read(\"data/berlin_bz.geojson\")\n\nstart_points <- st_sample(berlin,size=500) %>% st_as_sf\nend_points <- st_sample(berlin,size=500) %>% st_as_sf\n\n# the routing takes a few minutes\nroutes <- route(from = start_points, \n                to = end_points, \n                route_fun = osrmRoute,\n                returnclass = \"sf\")\n\nroutes[\"count\"] <- 1\n\noverlapping_segments <- overline(routes, attrib = \"count\")\n\nleaflet(overlapping_segments) %>% \n  addProviderTiles(providers$CartoDB.DarkMatter) %>%\n  addPolylines(weight = overlapping_segments$count / 4, color = \"white\") \n```\n\n\n\n#### Image\n\n![grafik|690x383, 75%](upload://dU1MeYcvDigOg2xZuif0JeD44Mr.jpeg)\n\n#### Twitter handle \n[@lxndrkp](https://twitter.com/lxndrkp/)",
     "language": "English"
   },
   {
     "title": "Handling vegetation-plot information using vegtable and taxlist",
     "reporter": "Miguel Alvarez",
-    "tags": [],
     "resource": "[taxlist](https://docs.ropensci.org/taxlist)",
     "url": "https://discuss.ropensci.org/t/handling-vegetation-plot-information-using-vegtable-and-taxlist/2270",
     "image": "handling-vegetation-plot-information-using-vegtable-and-taxlist.png",
     "date": "2020-11-21",
+    "body": "#### rOpenSci package or resource used*\n[taxlist](https://docs.ropensci.org/taxlist/)\n\n\n#### What did you do? \nBrief explanation about the use of the packages `taxlist` and `vegtable`, the second embedding the first.\nFunctions used to produce descriptive statistics and especially to calculate proportions of higher level taxonomic ranks in plot observations and to count taxa are also briefly introduced.\n\n\n#### URL or code snippet for your use case*\nhttps://kamapu.github.io/posts/2020-11-20-vegtablepress2/\n\n\n#### Image\n![vegtable_diagram|690x290](upload://eppNH9kdWi5VwrYuOtVQc9aJesZ.png) \n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nbiodiversity, ecology, syntaxonomy\n\n\n#### Comments\n\n\n#### Twitter handle",
     "language": "English"
   },
   {
@@ -896,6 +961,7 @@
     "url": "https://discuss.ropensci.org/t/using-av-to-convert-audio-files-for-compatibility-with-an-electronic-storyteller/2281",
     "image": "noimage",
     "date": "2020-12-10",
+    "body": "#### rOpenSci package or resource used*\n\nav\n\n#### What did you do? \n\nI converted tracks of stories for compatibility with my kids' electronic storyteller with R instead of having to use the manufacturer's online web interface.\n\n\n#### URL or code snippet for your use case*\n\nhttps://masalmon.eu/2020/12/10/av-storytime/\n\n#### Sector\n\nother\n\n\n#### Field(s) of application \n\nlittle kids wrangling :grin: \n\n#### Comments\n\nav is really as handy as magick. :pray:\n\n#### Twitter handle \n\nma_salmon",
     "language": "English"
   },
   {
@@ -906,6 +972,7 @@
     "url": "https://discuss.ropensci.org/t/scraping-liked-posts-on-twitter-using-rtweet/2294",
     "image": "noimage",
     "date": "2021-01-03",
+    "body": "#### rOpenSci package or resource used*\n[rtweet](https://docs.ropensci.org/rtweet)\n\n#### What did you do? \nI used rtweet to recreate a Python tutorial on scraping your liked Tweets on Twitter using R.\n\n#### URL or code snippet for your use case*\nhttps://ivelasq.rbind.io/blog/get-tweet-likes/\n\n#### Field(s) of application \nFor fun (and being able to more easily scroll through your liked Tweets)\n\n#### Comments\nI think this could be a future Shiny app!\n\n#### Twitter handle \n@ivelasq3",
     "language": "English"
   },
   {
@@ -922,6 +989,7 @@
     "url": "https://discuss.ropensci.org/t/using-ghql-to-analyze-all-my-2020-github-commits/2315",
     "image": "using-ghql-to-analyze-all-my-2020-github-commits.png",
     "date": "2021-01-16",
+    "body": "#### rOpenSci package or resource used\n- [ghql](https://github.com/ropensci/ghql)\n\n#### What did you do? \nI had a Twitter bot summarize my 2020 contributions on GitHub. I was a bit surprised by the high number of commits that I had made so I decided to have a look into that. I used the [GitHub GraphQL API](https://docs.github.com/en/graphql) via the ghql package to first pull all the repositories I had contributed to in the past and in a second step get all my commits to those repositories. I then had a look at the \"smaller commits\" to check whether \"~30% of my commits were 1 line diffs\" which was my main hypothesis for the high number of commits (spoiler: no, only ~12%). I also had a look at the files that I changed in those small commits (using the REST API via gh). \nIn theory and with some tweaks (mostly adding pagination to the first step), the data collection approach via ghql should be able to give you _all_ your commits to the default branch over all repositories you have committed to. :exploding_head:\n\n#### URL or code snippet for your use case*\n- [Blog post](https://frie.codes/posts/analyzing-commits-graphql-r/)\n- [Code](https://gitlab.com/friep/blog/-/blob/main/_posts/analyzing-commits-graphql-r/index.Rmd) (ironically on GitLab :slight_smile: )\n\nFor example, here's the query for step 2 (get all commits to a specific repo):\n\n```\nquery getCommits($name: String!, $owner: String!, $authorId: String!, $after: String) \n  {\n  repository(name: $name, owner: $owner) {\n    defaultBranchRef {\n      target { \n        ... on Commit {\n          history(first: 100, author: {id: $authorId}, after: $after) {\n           nodes {\n              commitUrl\n              deletions\n              additions\n              author {\n                user {\n                  login\n                }\n                email\n                name\n              }\n              message\n              messageBody\n              changedFiles\n              committedDate\n              oid\n              committedViaWeb\n              pushedDate\n           }\n            \n            pageInfo {\n              hasNextPage\n              hasPreviousPage\n              endCursor\n            }\n            totalCount\n          }\n        }\n      }\n    }\n  }\n}\n```\n\n#### Image\n![](upload://9xS0jl0MTsHSylUEQSvmwGDPbxk.png)\n\n\n#### Sector\nother\n\n\n#### Field(s) of application \nehm. social sciences maybe? in general, meta analysis of your research patterns maybe?\n\n\n#### Comments\nthanks for the great ghql package! :) \n\n#### Twitter handle \n[@ameisen_strasse](https://twitter.com/ameisen_strasse)",
     "language": "English"
   },
   {
@@ -932,6 +1000,7 @@
     "url": "https://discuss.ropensci.org/t/getting-and-plotting-weather-and-climate-data/2320",
     "image": "getting-and-plotting-weather-and-climate-data.png",
     "date": "2021-01-21",
+    "body": "\n#### rOpenSci package or resource used*\n[weathercan](https://docs.ropensci.org/weathercan/)\n\n#### What did you do? \nI took my undergrad limnology class on a field trip to sample & characterize a local storm water retention pond in Brandon MB. Both weather and climate can provide important context when interpreting results. I used [Steffi's](https://twitter.com/steffilazerte/) [weathercan](https://docs.ropensci.org/weathercan/) package to get Environment and Climate Change Canada weather & climate data for [Brandon MB](https://twitter.com/CityBrandon/). I plotted up this data a few different ways and as a class we discussed how to best present this data. \n\n\n#### URL or code snippet for your use case*\nhttps://github.com/alex-koiter/Weather-and-Climate-figures\n\n\n#### Image\n![daily_normals_brandon_2020|690x460](upload://d0nLV60ISYlRKUPU2x1nJQQUWhs.png) \n\n\n#### Sector\nAcademic\n\n\n#### Field(s) of application \nClimate, Hydrology, Limnology, Geography, Environmental Science\n\n\n#### Comments\nVery user friendly\n\n#### Twitter handle \n@Alex_Koiter",
     "language": "English"
   },
   {
@@ -942,6 +1011,7 @@
     "url": "https://discuss.ropensci.org/t/using-dittodb-to-test-database-queries/2322",
     "image": "noimage",
     "date": "2021-01-25",
+    "body": "#### rOpenSci package or resource used*\n\n[dittodb](https://docs.ropensci.org/dittodb/)\n\n#### What did you do?\n\nI have a few functions in an internal package which basically wrap up some database queries. These are tricky to test because my CI system is not allowed to connect directly to the databases.  dittodb let's me do two things with these functions:\n\n1) Test them in an automated way\n2) Have a record of what the 'correct' database response looked like in case the data source changes down the road\n\n#### URL or code snippet for your use case*\n ```\ngetData <- function(date) {\n  cred <- .getMyCredentials(\"mydb\")\n  con <- DBI::dbConnect(\n    RPostgreSQL::PostgreSQL(),\n    user = cred[\"user\"],\n    password = cred[\"password\"],\n    dbname = cred[\"dbname\"],\n    host = cred[\"host\"],\n    port = cred[\"port\"]\n  )\n  on.exit(DBI::dbDisconnect(con))\n  \n  out <- tbl(con, \"my_table\") %>% \n    dplyr::filter(.data$date > local(date))\n  return(out)\n}\n\ndittodb::with_mock_db({\n  test_that(\"getData\", {\n    results <- getData(\"2010-01-01\")\n    expect_s3_class(results, \"data.frame\")\n    expect_named(results, c(\"date\", \"value\", \"state\"))\n  })\n})\n```",
     "language": "English"
   },
   {
@@ -952,6 +1022,7 @@
     "url": "https://discuss.ropensci.org/t/shiny-apps-to-search-rstudioglobal-or-rstats-tweets-with-rtweet/2324",
     "image": "noimage",
     "date": "2021-01-25",
+    "body": "\n\n####  rOpenSci package or resource used*\n[rtweet](https://docs.ropensci.org/rtweet/)\n\n#### Created interactive app and tutorials\nI created an interactive Shiny apps for people to easily search, sort, filter, and download tweets with the #rstudioglobal or #rstats hashtags. #rstudioglobal was for the RStudio Global 2021 conference; #rstats is for any R tweet tagged with that hashtag.\nI also created two tutorials for others who would like to do something similar.\n\n\n#### URL or code snippet for your use case*\nrstats app: [http://apps.machlis.com/shiny/rstats](http://apps.machlis.com/shiny/rstats/)\nrstudioglobal app: [http://apps.machlis.com/shiny/rstudioglobal/](http://apps.machlis.com/shiny/rstudioglobal/)\nBasic rtweet tutorial at InfoWorld: [https://www.infoworld.com/article/3515712/how-to-search-twitter-with-rtweet-and-r.html](https://www.infoworld.com/article/3515712/how-to-search-twitter-with-rtweet-and-r.html)\nBonus tutorial on turning rtweet data into a Shiny app: <https://www.infoworld.com/article/3516150/create-a-shiny-app-to-search-twitter-with-rtweet-and-r.html>\n\n#### Twitter handle \n@sharon000",
     "language": "English"
   },
   {
@@ -966,6 +1037,7 @@
     "url": "https://discuss.ropensci.org/t/pdftools-for-extracting-complex-e-g-text-wrapped-multiline-tables-from-pdfs/2327",
     "image": "noimage",
     "date": "2021-01-26",
+    "body": "Extracting a complex table from pdf using pdftools::pdf_data. Example uses a table spread over multiple pages, and containing multiple(text-wrapped) lines per cell, and left and centre justified cell entries. \n\n#### rOpenSci package or resource used*\n[pdftools](https://docs.ropensci.org/pdftools)\n\n#### What did you do? \nExtraction of complex tables from a pdf document, based on data extracted by pdftools::pdf_data(). Example has a table spread over multiple pages, and text wrapping across multiple lines per cell. \n\nProcess is semi-automated: requires user to input, e.g. rules to clip text to the table, and identify useful points for identification of columns and rows. Code currently developed as an R script (including functions) with the intention to develop further into a package when I have time (or integrated into someone else's), see the readme file in the linked repository for updates. \n\n#### URL or code snippet for your use case*\n[pdf2complextable](https://github.com/lizlaw/pdf2complextable)\n\n#### Sector\nacademic / industry / government / non-profit / other\n\n#### Field(s) of application \nEvidence synthesis, meta-analysis, data gathering in any discipline. Example is from ecology. \n\n#### Comments\nFeel free to suggest features on the github link.",
     "language": "English"
   },
   {
@@ -976,6 +1048,7 @@
     "url": "https://discuss.ropensci.org/t/use-gert-to-scan-all-git-repos-in-a-directory/2332",
     "image": "noimage",
     "date": "2021-02-01",
+    "body": "\n#### rOpenSci package or resource used*\n\n- [gert](https://docs.ropensci.org/gert/)\n\n#### What did you do? \n\n- wrote a function that scans a directory looking for git repositories that may need to be pushed to (or pulled from) github\n- this example is based on the `git_ahead_behind()` command but it could easily generalise to other kinds of checks\n\n#### URL or code snippet\n\n- [github gist](https://gist.github.com/djnavarro/fb1230ce1bb36d0de729829d819af256)\n\n#### Twitter handle \n\n- @djnavarro",
     "language": "English"
   },
   {
@@ -990,6 +1063,7 @@
     "url": "https://discuss.ropensci.org/t/mapping-collaborations-in-neotropical-taxonomy-with-refsplitr/2353",
     "image": "mapping-collaborations-in-neotropical-taxonomy-with-refsplitr.png",
     "date": "2021-02-06",
+    "body": "#### rOpenSci package or resource used*\n[refsplitr](https://github.com/ropensci/refsplitr)\n\n#### What did you do? \nTo demonstrate the importance of taxonomy for the study of Neotropical biodiversity, the authors (1) showcase selected plant groups in which in-depth taxonomic understanding has facilitated evolutionary and ecological research and (2) map the teams of collaborating scientists.\n\n\n#### URL or code snippet for your use case*\nhttps://doi.org/10.3417/2020601\n\n\n\n#### Image\n![image|690x375](upload://h8ePMSTiSC751bA9AFB6D1ZAHCT.png) \n\n\n#### Sector\nAcademic\n\n#### Field(s) of application \nBotany, Ecology, Tropical Biology, Bibliometrics, Science of Science\n\n#### Twitter handle \n@BrunaLab @rallidaerule @birderboone",
     "language": "English"
   },
   {
@@ -1005,6 +1079,7 @@
     "url": "https://discuss.ropensci.org/t/using-terrainr-to-retrieve-spatial-data-and-make-3d-landscape-visualizations/2385",
     "image": "using-terrainr-to-retrieve-spatial-data-and-make-3d-landscape-visualizations.jpeg",
     "date": "2021-03-01",
+    "body": "#### rOpenSci package or resource used*\n[terrainr](https://github.com/ropensci/terrainr)\n\n#### What did you do? \nVisualized Mt. St. Helens in Unity, using public-domain data from the USGS entirely retrieved and pre-processed in R.\n\n#### URL or code snippet for your use case*\n```\nlibrary(terrainr)\nlibrary(sf)\nlibrary(progressr)\nhandlers(\"progress\")\n\nst_helens <- data.frame(\n  lat = 46.1914,\n  lng = -122.1956\n)\n\nst_helens <- st_as_sf(st_helens, coords = c(\"lng\", \"lat\"))\nst_helens <- st_set_crs(st_helens, 4326)\nst_helens <- set_bbox_side_length(st_helens, 8000)\n\nwith_progress(\n  output_tiles <- get_tiles(st_helens,\n                            services = c(\"elevation\", \"ortho\"))\n)\n\nmerged_tiles <- vapply(output_tiles, merge_rasters, character(1))\nmapply(\n  function(x, y) raster_to_raw_tiles(x, \"st_helens\", raw = y),\n  merged_tiles,\n  c(TRUE, FALSE)\n)\n```\nThis gets you a set of files in the format that Unity expects. You still need to import them by hand (for now...) -- see [the Unity vignette](https://docs.ropensci.org/terrainr/articles/unity_instructions.html) for more on that!\n\n#### Image\nI'm only allowed to upload one image -- [the original tweet](https://twitter.com/MikeMahoney218/status/1365684616087166976?s=20) has a few more.\n\n![Screenshot from 2021-02-27 10-14-55|690x388](upload://c5M6nRdTWuKoGXWHPBdmWEvl1Pp.jpeg) \n\n#### Sector\nOther\n\n\n#### Field(s) of application \necology, geography\n\n\n#### Twitter handle \n@mikemahoney218",
     "language": "English"
   },
   {
@@ -1015,6 +1090,7 @@
     "url": "https://discuss.ropensci.org/t/teaching-an-introduction-to-workflow-management-using-drake/2407",
     "image": "teaching-an-introduction-to-workflow-management-using-drake.png",
     "date": "2021-03-25",
+    "body": "#### rOpenSci package or resource used*\n[`drake`](https://github.com/ropensci/drake)\n\n#### What did you do?\nIn fall 2020 the [Center for Environmental Research, Education and Outreach](https://cereo.wsu.edu/) at Washington State University hosted a workshop covering reproducible research techniques in R for graduate students. We wanted to cover `drake` workflows as one day of the workshop to show the students what R-specific options there are for managing workflows. We expected that workflow management and to some extent R functions would be unfamiliar topics to many students, so the workshop day included discussion of why one would use workflow management software and some basic examples of building realistic functions. At the time that we ran the workshop I wasn't aware of [`targets`](https://github.com/ropensci/targets), so in the future we may repurpose this example using that package instead.\n\n#### URL or code snippet for your use case*\n+ Blog-style post that combines the content from presentation slides with a walkthrough document [here](https://mbrousil.github.io/drake_wkshp).\n+ Example project repository [here](https://github.com/mbrousil/example_drake_project)\n\n#### Image\n![](upload://pIkKNheZIUVXOxakurDaxbj1KCD.png) \n\n#### Sector\nAcademic\n\n#### Field(s) of application\nGeneral use\n\n#### Twitter handle\n@mrbrousil",
     "language": "English"
   },
   {
@@ -1029,6 +1105,7 @@
     "url": "https://discuss.ropensci.org/t/using-rselenium-to-scrape-a-paginated-html-table/2424",
     "image": "noimage",
     "date": "2021-04-12",
+    "body": "#### rOpenSci package or resource used*\n[RSelenium](https://docs.ropensci.org/RSelenium/)\n\n#### What did you do? \nThis example explains how emulate clicks can be done to navigate from elements to others in the HTML page, and a more focus point on moving from page to page in a paginated table.\n\n\n#### URL or code snippet for your use case*\nBlog post [here](https://guillaumepressiat.github.io/blog/2021/04/RSelenium-paginated-tables)",
     "language": "English"
   },
   {
@@ -1039,6 +1116,7 @@
     "url": "https://discuss.ropensci.org/t/scraping-google-play-reviews-with-rselenium/2449",
     "image": "noimage",
     "date": "2021-05-11",
+    "body": "\n#### rOpenSci package or resource used*\n[RSelenium](https://docs.ropensci.org/RSelenium/)\n\n\n#### What did you do? \nUsed [RSelenium](https://docs.ropensci.org/RSelenium/) to scrape web reviews for Instagram Lite in order to do text analysis in a future blog post.  The package was used to start a remote browser, browse to Google Play, and navigate the semi-infinite scroll and button clicks to load additional reviews.\n\n\n#### URL or code snippet for your use case*\n[My Blog Post](https://jlaw.netlify.app/2021/05/03/scraping-google-play-reviews-with-rselenium/)\n\n\n\n\n#### Field(s) of application \nJust for fun\n\n#### Twitter handle \n@jlaw67",
     "language": "English"
   },
   {
@@ -1052,6 +1130,7 @@
     "url": "https://discuss.ropensci.org/t/easily-analyzing-tweets-using-rtweet/2454",
     "image": "easily-analyzing-tweets-using-rtweet.png",
     "date": "2021-05-12",
+    "body": "\n#### rOpenSci package or resource used*\nrtweet\n\n#### What did you do? \nAfter the #30DayChartChallenge was over on April 30th, I wanted to make a summary of the twitter activity related to my tweets on the #30DayChartChallenge. All of the data for this analysis such as the tweets and user information were retrieved using rtweet, data wrangling done using tidyverse and visualization using ggplot2 and leaflet.\n\n#### URL or code snippet for your use case*\nhttps://github.com/aarora79/30DayChartChallenge/tree/main/tweets\n\n#### Image\nhttps://github.com/aarora79/30DayChartChallenge/blob/322e85031f8984a7b7ed38e0202fc7604caac2fa/tweets/likes_and_retweets.png?raw=true\n\n\n#### Sector\nacademic \n\n#### Field(s) of application \nsocial media \n\n\n#### Comments\nNone\n\n#### Twitter handle \n@aarora79",
     "language": "English"
   },
   {
@@ -1068,6 +1147,7 @@
     "url": "https://discuss.ropensci.org/t/most-tweeted-words-each-month-a-year-snapshot/2461",
     "image": "most-tweeted-words-each-month-a-year-snapshot.gif",
     "date": "2021-05-17",
+    "body": "#### rOpenSci package or resource used\n\n[`rtweet`](https://docs.ropensci.org/rtweet)\n\nAlso used: [`gganimate`](https://gganimate.com/), [`ggplot`](https://ggplot2.tidyverse.org/reference/ggplot.html), [`lubridate`](https://lubridate.tidyverse.org/). Code adapted from Julia Silge's and David Robinson's twitter case study in their book [Text Mining with R](https://www.tidytextmining.com/twitter.html) and a helpful [Stackoverflow](https://stackoverflow.com/questions/61132650/is-there-a-way-to-animate-a-word-cloud-in-r) answer by a user named [Edward](https://stackoverflow.com/users/7514527/edward) ;) \n\n#### What did you do? \nThis was part of a final project for a course on Text Mining techniques. I analyzed the differences between three universities' main Twitter accounts: @DukeU, @NCState, @UNC. I took a year snapshot of tweets utilizing `rtweet` and tried to find similarities and differences of what they were talking about. Covid19 was one of the key similarities, which makes sense given the year was dominated by the pandemic. You can see the progression of most frequently tweeted terms (tokenized by unigrams) by the use of `gganimate` + `geom_text_wordcloud`. \n\n\n#### URL or code snippet for your use case\n[https://sorayaworldwide.github.io/DukeUNCNCStateTweets.html](https://sorayaworldwide.github.io/DukeUNCNCStateTweets.html ) \n\n\n#### Image\n![gg_Duke|480x480](upload://a4F10Oj6yexhhQlsVDWjDQerNhc.gif)\n\n\n\n#### Sector\nAcademic \n\n\n#### Field(s) of application \nHigher Education \n\n\n#### Comments\nI welcome any feedback - very new at this! \n\n#### Twitter handle \n@sorayaworldwide",
     "language": "English"
   },
   {
@@ -1081,6 +1161,7 @@
     "url": "https://discuss.ropensci.org/t/using-tabulizer-to-extract-tabular-data-from-daily-covid-19-reports/2487",
     "image": "noimage",
     "date": "2021-06-07",
+    "body": "#### rOpenSci package or resource used*\n[tabulizer](https://docs.ropensci.org/tabulizer)\n\n#### What did you do? \nUsed tabulizer to extract total cases, fatalities, hospitalizations, and tests from daily COVID-19 reports for Connecticut.\n\n#### URL or code snippet for your use case*\nhttps://github.com/davebraze/ct-covid19/blob/efc3afd6e86baf8ff7454f1d6a02d3e68feb6154/locals.R#L29\n\n#### Sector\nother\n\n#### Twitter handle \n@davidbraze\n\n(Submitted by Steffi LaZerte on behalf of Dave Braze)",
     "language": "English"
   },
   {
@@ -1094,6 +1175,7 @@
     "url": "https://discuss.ropensci.org/t/using-rotl-to-create-phylogenetic-trees/2498",
     "image": "using-rotl-to-create-phylogenetic-trees.png",
     "date": "2021-06-12",
+    "body": "#### rOpenSci package or resource used*\n[rotl](https://docs.ropensci.org/rotl/)\n\n#### What did you do? \nUsed rotl to create a phylogenetic tree using a species scientific name and included clipart for each animal using phylopic.\n\n\n#### URL or code snippet for your use case*\nhttps://github.com/dosullivan019/30DayChartChallenge/blob/e4f5fe3e9d6245a5a65b7d617c785781eaaa5b69/code/day16_tree.R\n\n\n#### Image\n![image|690x371](upload://a4qh7nAktY8lCLhe8dR4fgeUoWv.png)\n\n\n#### Sector\nother\n\n\n#### Twitter handle \n@dosullivan019",
     "language": "English"
   },
   {
@@ -1108,6 +1190,7 @@
     "url": "https://discuss.ropensci.org/t/mapping-asian-elephant-observations-with-rgbif/2524",
     "image": "mapping-asian-elephant-observations-with-rgbif.jpeg",
     "date": "2021-06-23",
+    "body": "#### rOpenSci package or resource used\n[rgbif](https://docs.ropensci.org/rgbif/)\n\n#### What did you do? \nSearched GBIF for observations of *Elephas maximus* (Asian elephant), and used the locations for making two maps: one for the distribution as a heatmap, and one for observations themselves with a popup.\n\n#### URL or code snippet for your use case\n[Code](https://github.com/tts/asianelephants/blob/512456cfef6eb40e142b549d64312d6e21057baf/preparedata.R) and [Shiny web app](https://ttso.shinyapps.io/asianelephants/)\n\n#### Image\n![eldark.PNG|690x418](upload://gXKUEweuQN5BTZT5hBhgSEJPVlc.jpeg)\n\n#### Sector\nOther\n\n#### Field(s) of application \nEcology\n\n#### Twitter handle \n@ttso",
     "language": "English"
   },
   {
@@ -1121,6 +1204,7 @@
     "url": "https://discuss.ropensci.org/t/environment-canada-air-temperature-using-weathercan/2537",
     "image": "environment-canada-air-temperature-using-weathercan.png",
     "date": "2021-07-02",
+    "body": "#### rOpenSci package or resource used*\n[weathercan](https://docs.ropensci.org/weathercan)\n\nGiven the recent heatwave, I was curious about plotting up a timeseries of the local Environment Canada weather stations. For this, I used the `weathercan` package (https://github.com/ropensci/weathercan)\n\nI'll walk through the few lines of code that it takes to search, download, and plot the data:\n\nFirst, load a couple libraries:\n```\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(weathercan)\nlibrary(ggrepel)\n```\n\nThen, search the station IDs that have data for this calendar year and match my city name. \n```\nstn <- stations_search(\"Prince George\", interval = \"hour\", ends_earliest = \"2021\")\nids <- stn$station_id\n```\n\nDownload the data using the station IDs. \n```\ndf <- weather_dl(station_ids = ids, start =\"2021-01-01\", end = \"2021-07-01\")\n```\n\nOptional: Add elevation to the station name.\n```\ndf <- df %>% \n  mutate(station_name = paste0(station_name, \" (\", elev, \" m)\"))\n```\n\nPer station, calculate the min/max\n```\ndf_minmax <- df %>% \n  group_by(station_name) %>% \n  filter(temp == min(temp, na.rm = T) | temp == max(temp, na.rm = T))\n```\n\nPlot it up! \n```\ndf %>% \n  ggplot(aes(time, temp)) + \n  geom_line(, color = \"grey50\") + \n  geom_point(data = df_minmax) +\n  geom_text_repel(data = df_minmax, aes(label = paste(temp, time))) +\n  labs(x = \"\", y = \"°C\") + \n  theme_bw() + \n  theme(aspect.ratio = 0.6) +\n  facet_wrap(~station_name, ncol = 3)\n```\n![image|689x197](upload://mhM0Xvf2EzLtSggOkmS6HB5wQP.png)",
     "language": "English"
   },
   {
@@ -1131,6 +1215,7 @@
     "url": "https://discuss.ropensci.org/t/historical-dataviz-recreations-with-a-sprinkle-of-magick/2538",
     "image": "historical-dataviz-recreations-with-a-sprinkle-of-magick.gif",
     "date": "2021-07-04",
+    "body": "#### rOpenSci package or resource used*\n\n[magick](https://docs.ropensci.org/magick)\n\n\n#### What did you do? \n\nAs part of [the #CottonViz challenge from the Royal Statistical Society](https://rss.org.uk/news-publication/news-publications/2021/section-group-reports/mary-eleanor-spear-dataviz-competition-for-childre/), I used {magick} to:\n\n* create a gif that shows incrementally the steps I used to recreate [Mary Eleanor Spear](https://en.wikipedia.org/wiki/Mary_Eleanor_Spear)'s original data visualisation of US cotton supplies in the 1940s, made with manual methods\n* mimic another of Spear's visualisations that uses 'colour on the negative', which she produced manually by 'coloring negative photostat copies of charts or maps'\n\nFunctions used: `image_read()`, `image_scale()`, `image_animate()`, `image_negate()`, `image_transparent()`, `image_background()` and `image_write()`.\n\n#### URL or code snippet for your use case*\n\nSee the:\n\n* [blog post](https://www.rostrum.blog/2021/06/08/recreate-spear/) about the recreation process\n* [tweet](https://twitter.com/mattdray/status/1402278146976661504?s=20)  about the dataviz recreation, with the gif embedded\n* [tweet](https://twitter.com/mattdray/status/1405127621004955654?s=20) about the 'colour on the negative' approach\n* [GitHub repo](https://github.com/matt-dray/viz-recreation/tree/main/2021-06-08_cottonviz_spear) containing code to reproduce the images\n\n#### Image\n\nThe animation below is a step-by-step animated gif of a recreation of a visualisation of US cotton stocks in the 1940s by Mary Eleanor Spear. First, labelled axes are created for a line plot on the left-hand side, then three labelled lines are added for consumption, stocks and exports of cotton. Hatched columns are then added to a bar plot on the right-hand side, followed by axes and labels. Finally, titles and captions are added and the original image is shown for comparison.\n\n![](upload://7stQ8Jj3HRuyAuRn6d1kj1BxwbT.gif)\n\nThe image below demonstrates the 'colour on the negative' approach. It shows two plots of cotton stocks, export and consumption in the USA in the 1940s: a line chart on the left, and a bar chart on the right. It's an inversion of the Mary Eleanor Spear's original image, resulting in a black background and with white elements becoming light blue.\n\n![](https://raw.githubusercontent.com/matt-dray/viz-recreation/main/2021-06-08_cottonviz_spear/output/cottonviz-remix-neg.png)\n\n#### Sector\n\nPersonal.\n\n#### Field(s) of application \n\nHistory of statistics, data visualisation.\n\n#### Comments\n\n{magick}'s API is very descriptive and easy to use. The [intro vignette](https://docs.ropensci.org/magick/articles/intro.html) is easy to follow and gives many examples of its application. Thanks Jeroen!\n\n#### Twitter handle \n\n@mattdray\n@HistoryofStats\n@statsyss",
     "language": "English"
   },
   {
@@ -1145,6 +1230,7 @@
     "url": "https://discuss.ropensci.org/t/pdftools-tesseract-para-extraer-texto-en-espanol/2544",
     "image": "noimage",
     "date": "2021-07-15",
+    "body": "#### rOpenSci package or resource used*\n[pdftools](https://docs.ropensci.org/pdftools/)\n[tesseract](https://docs.ropensci.org/tesseract/)\n\n#### What did you do? \nConvertí un texto-imagen en pdf a un texto legible para computadoras usando el OCR de Tesseract y la función de pdf_ocr_text()\n\n\n#### URL or code snippet for your use case*\n[Código en Github](https://github.com/ColmexBDCV/tricks_for_librarians/blob/e1e5a57a198e0de5e0c85215adaacfc42184b13f/RCode/pdftools-y-tesseract/pdftools-y-tesseract_demo.R#L32-L37)\n\n#### Sector\nacademic / non-profit\n\n\n#### Field(s) of application \nhumanidades ¡y cualquier otra disciplina que use pdfs!\n\n\n#### Comments\nme fascina lo que hacen: ¡gracias @rOpenSci-Staff!, estaría increíble poder entrenar modelos para mejorar el OCR \n#### Twitter handle \n[@espejolento](https://twitter.com/espejolento)",
     "language": "English"
   },
   {
@@ -1158,6 +1244,7 @@
     "url": "https://discuss.ropensci.org/t/pdftools-map-to-download-read-multiple-pdfs/2545",
     "image": "noimage",
     "date": "2021-07-15",
+    "body": "#### rOpenSci package or resource used\n[pdftools](https://docs.ropensci.org/pdftools/)\n\nother important packages:\n\npurrr and glue\n#### What did you do?\nI wrote code snippet that shows how to \n- create a list of URLs with glue::glue\n- download multiple pdfs using purrr::walk2 \n- read them all with purrr::map & pdftools::pdf_text\n\n#### URL or code snippet for your use case\n[Github code](https://github.com/ColmexBDCV/tricks_for_librarians/blob/30e2cbb8d12d18e70906b57b1d44f0bdcf55f2a8/RCode/pdftools-y-tesseract/purrr-y-pdftools_demo.R)\n\n#### Sector\nacademic / non-profit \n\n#### Field(s) of application\nhumanities and any other field interested in downloading\n\n#### Comments \nwill never thank the @rOpenSci community enough for your packages! Is there any way to filter UseCases by text contained in these sections?\n\n#### Twitter handle \n[@espejolento](https://twitter.com/espejolento)",
     "language": "English"
   },
   {
@@ -1168,6 +1255,7 @@
     "url": "https://discuss.ropensci.org/t/investigating-the-drought-in-the-canadian-prairies/2556",
     "image": "investigating-the-drought-in-the-canadian-prairies.png",
     "date": "2021-07-26",
+    "body": "#### rOpenSci package or resource used*\n[weathercan](https://docs.ropensci.org/weathercan/)\n\n\n#### What did you do? \nMuch of the Canadian prairies is experiencing drought conditions (https://agriculture.canada.ca/en/agriculture-and-environment/drought-watch-and-agroclimate/canadian-drought-monitor) resulting in significant wildfires and impacting agricultural production. I wanted to provide historical context for the current weather conditions. \n\n#### URL or code snippet for your use case*\nhttps://github.com/alex-koiter/curiosity\n\n#### Image\n![Brandon_figs|690x212](upload://hKpFa4gbLWzZKll1uMK6MQlv9VB.jpeg)\n\n\n#### Sector\nacademic, agriculture\n\n\n#### Field(s) of application \nWeather, climate, agriculture, disaster \n\n#### Comments\nI am curious if there are better approaches to displaying this type of data. Is there other data I should be including when looking at drought conditions?\n\n\n#### Twitter handle \n@Alex_Koiter",
     "language": "English"
   },
   {
@@ -1178,6 +1266,7 @@
     "url": "https://discuss.ropensci.org/t/targets-pipeline-with-rmarkdown-to-download-and-visualize-usgs-data/2559",
     "image": "targets-pipeline-with-rmarkdown-to-download-and-visualize-usgs-data.png",
     "date": "2021-07-26",
+    "body": "#### rOpenSci package or resource used*\n[targets](https://docs.ropensci.org/targets)\n\n#### What did you do? \nI was looking for a simple way to share code for a unique figure of cartogram bar charts related to the frequency of \"ice\" flags in public U.S. Geological Survey (USGS) streamgage data. \n\nI could have written a regular script but I needed the code to download a lot of data for all 50 U.S. states. These downloads can sometimes timeout and trigger you to have to start again. Due to this concern, I decided to use `targets` to build a pipeline that could handle skipping downloads that were already successful if I needed to start again. \n\nA regular `targets` setup using the `_targets.R` file to write and orchestrate your code would certainly work; however, I noticed that a section related to using `targets` and R Markdown was recently added to the [User Manual](https://books.ropensci.org/targets/markdown.html) and I wanted to give that a try. This was my first time using `targets` with R Markdown, but it wasn't hard to figure out. I love that in the end, it is just one button click (or maybe a few if there is a network failure during the downloads) to build the full pipeline and show the results. I am excited for using this more in the future.\n\n#### URL or code snippet for your use case*\nYou can find the R Markdown file at https://github.com/USGS-VIZLAB/blitz-FY21Q3/blob/835a05bf725d53ace5bf9884435b53402b97ec6e/ice_flags/ice_pipeline.Rmd. The Rmd file produces the basic cartogram behind the visualization featured in [this Tweet](https://twitter.com/USGS_DataSci/status/1413579318010122242). We added the text later using InkScape to save on time since this was a very small, constrained project. \n\n*Note that this Rmd will download 9 months of daily data for all 50 U.S. states by default, which takes awhile. Read the text in the Rmd to see how to adjust for a shorter time period or fewer states if you are interested in testing this but can't wait a few hours for the data!*\n\n\n#### Image\n![iceflag_dreamsicle_viz_lplatt_twitter_postcrit|690x345, 100%](upload://bGsDeHwhgIw89F6EZPpoFXxIf59.png)\n\n#### Sector\ngovernment\n\n#### Field(s) of application \nhydrology\n\n#### Comments\nWe did learn that you need to use `targets` v0.5.0 or greater to build the pipeline via Markdown (it broke when a colleague was reviewing the code using `targets` v0.4.2). So, just a reminder that you should keep your packages up-to-date because you never know what cool new features (or bug fixes) a developer may have added.\n\n#### Twitter handle \n@USGS_DataSci",
     "language": "English"
   },
   {
@@ -1191,6 +1280,7 @@
     "url": "https://discuss.ropensci.org/t/answering-what-colour-is-london-with-magick-and-rtweet/2562",
     "image": "answering-what-colour-is-london-with-magick-and-rtweet.jpeg",
     "date": "2021-07-27",
+    "body": "#### rOpenSci package or resource used\n\n* [rtweet](https://docs.ropensci.org/rtweet/)\n* [magick](https://docs.ropensci.org/magick/)\n\n#### What did you do? \n\nI used [rtweet](https://docs.ropensci.org/rtweet/) to extract the images and body text (containing coordinates) from tweets by [@londonmapbot](https://twitter.com/londonmapbot), a bot that tweets satellite images of random parts of London (disclaimer: [I made the bot](https://www.rostrum.blog/2020/09/21/londonmapbot/)). Then I used [magick](https://docs.ropensci.org/magick/) to simplify each image to a single colour and extract its hex value. I used this information to create some visualisations of 'the colour of London'.\n\nFunctions used: `rtweet::get_timeline()`, `magick::image_read()`, `magick::image_crop()`, `magick::image_quantize()`, `magick::image_resize()` and `magick::image_data()`.\n\n#### URL or code snippet for your use case\n\nI wrote a blog post, [What colour is London?](https://www.rostrum.blog/2021/07/23/london-colour/), which contains the code and some visualisations.\n\n#### Image\n\nThe image below shows 625 randomised points over a map of the outline of Greater London. Each point is a location sampled by the londonmapbot twitter bot, which tweeted a satellite image for those coordinates. I scraped the image and latitude-longitude data with {rwteet} and reduced the image to a representative colour with {magick}. The colours are largely different shades of browns, greys and greens.\n\n![map-sf-1|689x492, 50%](upload://wV2D6gzyPUq7GLQEtm92gNMucUz.jpeg)\n\nThe image below shows a 25 by 25 pixel grid, where each square is one of the locations sampled by londonmapbot that's been scraped with {rwteet} and reduced to a representative colour with {magick}. The pixels are ordered from top-left to bottom-right by luminosity.\n\n![mosaic-col-1|500x500, 50%](upload://khKDTC9HtQDITaPva7Gnw7GXou2.png)\n\n#### Sector\n\nPersonal.\n\n#### Field(s) of application \n\nGeospatial; image analysis; Twitter bots.\n\n#### Comments\n\nThank you Mike, Jeroen and rOpenSci for your efforts on these packages.\n\n#### Twitter handle \n\n@mattdray \n@londonmapbot",
     "language": "English"
   },
   {
@@ -1204,6 +1294,7 @@
     "url": "https://discuss.ropensci.org/t/informal-package-review-using-ropensci-review-template/2570",
     "image": "noimage",
     "date": "2021-08-04",
+    "body": "#### rOpenSci package or resource used*\n\n[Review template](https://devguide.ropensci.org/reviewtemplate.html) from the [package development guide](https://devguide.ropensci.org/)\n\nBonus: gert to automatically retrieve the hash of the commit of the reviewed version (`gert::git_commit_id()`)\n\n#### What did you do? \n\nInformal package review for teammates before submission to a journal.\n\n#### URL or code snippet for your use case*\n\nhttps://github.com/epiforecasts/scoringutils/issues/121\n\n\n#### Sector\n\nacademic\n\n\n#### Field(s) of application \n\nepidemiology\n\n\n#### Comments\n\nI would find it useful to provide this template as a Rmd file instead of md. It would allow to add some code snippets showing, e.g., that a given pattern / structure is more performant than another (small `microbenchmark::microbenchmark()` chunk), current code coverage (`r covr::percent_coverage(covr::package_coverage())`), of current git commit hash (`gert::git_commit_id()`). I achieved this by adding:\n\n```yaml\n---\ntitle: \"review\"\noutput: \n  rmarkdown::md_document:\n    pandoc_args: [\n      \"--wrap=none\"\n    ]\n---\n```\n\nat the beginning of the provided template.\n\n#### Twitter handle \n\nPackage authors: @nikosbosse, @seabbs, @sbfnk\n\nPackage reviewer: @grusonh",
     "language": "English"
   },
   {
@@ -1214,6 +1305,7 @@
     "url": "https://discuss.ropensci.org/t/bayesian-regression-analysis-with-rstanarm-with-gsodr-for-supporting-data/2603",
     "image": "noimage",
     "date": "2021-09-02",
+    "body": "Spotted in the wild. GSODR was used to provide the average daily temperature in degrees Celsius and the total daily precipitation in millimetres for this blog post.\n\n#### rOpenSci package or resource used\n[GSODR](https://docs.ropensci.org/GSODR/)\n\n#### What did you do? \nI just read the blog post, but the author used GSODR to fetch weather data to demonstrate the use of Rstanarm for Bayesian regression analysis.\n\n\n#### URL or code snippet for your use case\nhttps://methodmatters.github.io/steps-bayesian-rstanarm/\n\n#### Sector\nBlog post\n\n\n#### Field(s) of application \nData science",
     "language": "English"
   },
   {
@@ -1224,16 +1316,17 @@
     "url": "https://discuss.ropensci.org/t/slicing-an-image-with-magick-for-artistic-effect/2609",
     "image": "slicing-an-image-with-magick-for-artistic-effect.jpeg",
     "date": "2021-09-07",
+    "body": "\n#### rOpenSci package or resource used\n[magick](https://docs.ropensci.org/magick)\n\n#### What did you do? \nI used magick to slice an image and combine the tiles created to recreate the effect  seen in Mario Klingemann's work \"[Mitosis](https://twitter.com/quasimondo/status/1400345208634712072)\"  \n\n#### Image\n![1630860508.82944_r100|690x459](upload://cK8FbhbCE6IGrY2t88Lmwaa1Hvm.jpeg)\n\n#### Code and more images\nhttps://github.com/gkaramanis/aRtist/tree/main/mitosis\n\n#### Field(s) of application \nArt\n\n#### Twitter handle \n@geokaramanis",
     "language": "English"
   },
   {
     "title": "Using stplanr to find shortest road network distance to a TB treatment clinic from a TB patients' household.",
     "reporter": "McEwen Khundi",
-    "tags": [],
     "resource": "[stplanr](https://docs.ropensci.org/stplanr)",
     "url": "https://discuss.ropensci.org/t/using-stplanr-to-find-shortest-road-network-distance-to-a-tb-treatment-clinic-from-a-tb-patients-household/2621",
     "image": "using-stplanr-to-find-shortest-road-network-distance-to-a-tb-treatment-clinic-from-a-tb-patients-household.jpeg",
     "date": "2021-09-20",
+    "body": "#### rOpenSci package or resource used*\n  [stplanr](https://docs.ropensci.org/stplanr/)\n\n#### What did you do? \n\nWe estimated the distance from study participants’ (TB patients) households to their TB treatment initiation clinic using two approaches. The first approach was to estimate the distance based on a ‘straight line’ distance [Cartesian distance](https://en.wikipedia.org/wiki/Euclidean_distance). In the second approach, we used Blantyre urban road network downloaded from OpenStreetMap (OpenStreetMap Foundation) to calculate the shortest road network distance using the [stplanr R package](http://ropensci.discourse.group/t/use-stplanr-to-find-and-plot-major-streets-of-a-city/2264)\n\n\n#### URL or code snippet for your use case*\n[ Clinical, health systems and neighbourhood determinants of tuberculosis case fatality in urban Blantyre, Malawi: a multilevel epidemiological analysis of enhanced surveillance data](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/clinical-health-systems-and-neighbourhood-determinants-of-tuberculosis-case-fatality-in-urban-blantyre-malawi-a-multilevel-epidemiological-analysis-of-enhanced-surveillance-data/F18F42BE454F5EAFDB2FDD27DDDACC1E#fig01)))\n\n\n#### Image\n![Capture_road.PNG|578x479](upload://bL33vjlUcup3RlSWDjI2g7AA0ik.jpeg)\n\n\n#### Sector\nPublic health\n\n\n#### Field(s) of application \nepidemiology \n\n#### Twitter handle \n@MacKhundi",
     "language": "English"
   },
   {
@@ -1247,6 +1340,7 @@
     "url": "https://discuss.ropensci.org/t/using-jsonvalidate-to-validate-the-packages-json-file-from-your-personal-universe/2643",
     "image": "noimage",
     "date": "2021-10-05",
+    "body": "#### rOpenSci package or resource used*\n\n[jsonvalidate](https://docs.ropensci.org/jsonvalidate/index.html)\n(and [R-universe](https://r-universe.dev))\n\n#### What did you do? \n\nUse the jsonvalidate package to validate the contents of `packages.json` against a schema in your personal R-universe.\nThis can be part of a GitHub Action set up to run on pull requests to ensure you only merge correctly formatted changes.\n\n\n#### URL or code snippet for your use case*\n\n`schema.json`:\n```\n{\n    \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n    \"title\": \"r-universe packages.json\",\n    \"description\": \"A packages.json file controlling the contents of your r-universe\",\n    \"type\": \"array\",\n    \"items\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"package\": {\n          \"description\": \"The name of the R package\",\n          \"type\": \"string\"\n        },\n        \"url\": {\n          \"description\": \"The URL to the git repository with the package source code\",\n          \"type\": \"string\",\n          \"format\": \"uri\"\n        },\n        \"subdir\": {\n          \"description\": \"A subfolder of the repository containing the R package\",\n          \"type\": \"string\"\n        },\n        \"branch\": {\n          \"description\": \"The branch from which the package should be built\",\n          \"type\": \"string\"\n        }\n      },\n      \"required\": [\"package\", \"url\"]\n    }\n}\n```\n\n`.github/workflows/validate-json.yaml`:\n```\nname: Validate JSON\n\non:\n  push:\n    branches: [main, master]\n  pull_request:\n    branches: [main, master]\n\njobs:\n  validate-json:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n    steps:\n      - uses: actions/checkout@v4\n\n      - uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Install V8\n        run: sudo apt install libv8-dev\n\n      - name: Install jsonvalidate\n        run: |\n          Rscript -e 'install.packages(\"jsonvalidate\")'\n      - name: Validate packages.json\n        run: |\n          jsonvalidate::json_validate(\n            \"packages.json\",\n            \"schema.json\",\n            # Use \"ajv\" because other engines do not support schemas newer than v4\n            engine = \"ajv\",\n            error = TRUE\n          )\n        shell: Rscript {0}\n```\n\n#### Twitter handle \n\n@grusonh",
     "language": "English"
   },
   {
@@ -1257,6 +1351,7 @@
     "url": "https://discuss.ropensci.org/t/creating-historical-congressional-maps-with-usaboundaries/2648",
     "image": "creating-historical-congressional-maps-with-usaboundaries.jpeg",
     "date": "2021-10-10",
+    "body": "#### rOpenSci package or resource used\n\n[USAboundaries](https://docs.ropensci.org/USAboundaries/)\n\n\n#### What did you do?\n\nWhile reading a book about a futile presidential candidacy in the 1800s by Mormon leader Joseph Smith, I noticed that he proposed radically reshaping congressional apportionment rules and only assigning one House Representative per 1 million residents per state. I wanted to see what that would have done to Congress in the 1840s, and I wanted to make a map showing how many representatives each state would get under the proposed rules.\n\nFinding historical GIS data is hard, but I remembered that I had starred USAboundaries on GitHub a while ago, so I tracked it down and found it incredibly easy to get a shapefile for historical US maps. All you have to do is feed the `us_states()` function a date, and you get the corresponding borders as an [**sf**](https://r-spatial.github.io/sf/)-ready shapefile.\n\n#### URL or code snippet for your use case\n\nYou can find the full code [at this gist](https://gist.github.com/andrewheiss/5f89847f617eb825a08de6b02a053188) (I use USAboundaries atarting at line 104), and I posted the finished maps and some more context in [this Twitter thread](https://twitter.com/andrewheiss/status/1443684142592536579).\n\n\n#### Image\n\n![FAj96vZXEAIWmSJ|690x407](upload://pasgYrp1OWz0ABn57a0D9wN53VT.jpeg)\n\n\n#### Sector\n\nacademic\n\n#### Field(s) of application \n\nhistory, political science\n\n#### Twitter handle\n\n[@andrewheiss](https://twitter.com/andrewheiss)",
     "language": "English"
   },
   {
@@ -1264,23 +1359,24 @@
     "reporter": "Theilon Macêdo",
     "tags": [
       "targets",
-      "português",
+      "portugu-s",
       "portuguese"
     ],
     "resource": "[targets](https://docs.ropensci.org/targets)",
     "url": "https://discuss.ropensci.org/t/predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/2656",
     "image": "predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets.jpeg",
     "date": "2021-10-13",
-    "language": "Portuguese"
+    "body": "#### rOpenSci package or resource used*\n[targets](https://docs.ropensci.org/targets/)\n\n\n#### What did you do? \nNeste tutorial, realizei o ajuste de diversos modelos de Machine Learning para a predição do volume de madeira de Eucalyptus.\nDe modo geral, foi realizado o ajuste de diversos modelos, então foi feito o ajuste final e a avaliação da qualidade preditiva do melhor modelo obtido. Em seguida, realizou-se o orquestramento de todo o trabalho, a partir do pacote targets, bem como a produção automática de um relatório final com o resultado da modelagem. \n\n\n#### URL or code snippet for your use case*\n[Predizendo volume de eucalipto com tidymodels, XGBoost e targets]( [Theilon Macedo: Predizendo volume de eucalipto com tidymodels, XGBoost e targets](https://theilonmacedo.netlify.app/posts/2021-10-20-predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/))\n\n\n#### Image\n![image|676x500](upload://dIddQfUruw2onShcLY4Sv1n5dMF.jpeg)\n\n\n#### Sector\nindustry\n\n\n#### Field(s) of application \nForest Modeling / Modelagem Florestal\n\n\n#### Twitter handle \n@TheilonMacedo",
+    "language": "English"
   },
   {
     "title": "Evaluating semi-parametric nowcasts of COVID-19 hospital admissions in Germany",
     "reporter": "Sam Abbott",
-    "tags": [],
     "resource": "[targets](https://docs.ropensci.org/targets), [piggyback](https://docs.ropensci.org/piggyback)",
     "url": "https://discuss.ropensci.org/t/evaluating-semi-parametric-nowcasts-of-covid-19-hospital-admissions-in-germany/2715",
     "image": "evaluating-semi-parametric-nowcasts-of-covid-19-hospital-admissions-in-germany.jpeg",
     "date": "2021-11-30",
+    "body": "#### rOpenSci package or resource used\n\n[`targets`](https://docs.ropensci.org/targets/), [`piggyback`](https://docs.ropensci.org/piggyback/)\n\n#### What did you do? \n\nCOVID-19 hospitalisations in Germany are released by date of positive test rather than by date of admission. This has some advantages when they are used as a tool for surveillance as these data are closer to the date of infection and so easier to link to underlying transmission dynamics and public health interventions. Unfortunately, however, when released in this way the latest data are right-censored meaning that final hospitalisations for a given day are initially underreported. This issue is often found in data sets used for the surveillance of infectious diseases and can lead to delayed or biased decision making. Fortunately, when data from a series of days is available we can estimate the level of censoring and provide estimates for the truncated hospitalisations adjusted for truncation with appropriate uncertainty. This is usually known as a nowcast.\n\nIn this work, we aim to evaluate a series of novel semi-parametric nowcasting model formulations in real-time and provide an example workflow to allow others to do similarly using German COVID-19 hospitalisations by date of positive test at the national level both overall and by age group, and at the state level. This project is part of a [wider collaboration](https://covid19nowcasthub.de) assessing a range of nowcasting methods whilst providing an ensemble nowcast of COVID-19 Hospital admissions in Germany by date of positive test.\n\nAll models are implemented using the [`epinowcast`](https://epiforecasts.io/epinowcast/) R package. The nowcasting and evaluation pipeline is implemented using the `targets` R package. All input data, interim data, and output data are available and should also be fully reproducible from the provided code. Please see the [resources section](https://github.com/epiforecasts/eval-germany-sp-nowcasting#documentation) for details. Further details on our methodology are included in our [paper](https://epiforecasts.io/eval-germany-sp-nowcasting/paper.pdf).\n\n#### URL or code snippet for your use case\n\nhttps://epiforecasts.io/eval-germany-sp-nowcasting/\n\n#### Image\n\n![targets-graph|690x367](upload://dFitv1sURwKwWQ1NOLeJ8Q1PnDz.jpeg)\n\n\n#### Sector\n\nacademic \n\n#### Field(s) of application \n\nepidemiology\n\n#### Comments\n\nIn general, the `targets` ecosystem is well developed and easy to use. For my use case, the currently big missing features are integration with cloud compute services and transient containerised workflows. In many ways, these are not issues with `targets` itself but instead with the wider ecosystem of R packages supporting modern distributed workflows. I am still exploring `targets` workflows (see [here](https://github.com/epiforecasts/evaluate-delta-for-forecasting) for another example not using `Rmarkdown`) so any feedback, hints, tips are very much appreciated. \n\n`piggyback` is a really nice and simple way to share data (via GitHub releases) that being said support for automatic file tracking vs manual uploading results would likely greatly improve the workflow. It is also not entirely clear to me if `piggyback` is the current recommended choice for sharing scientific data (there are quite a few options with [osfr](https://github.com/ropensci/osfr) also being relatively okay to use if not [seamless](https://github.com/epiforecasts/covid19.sgene.utla.rt/blob/de07a16a661ef3d4020f72c1ac9c1bd1936601bb/R/download_output.r)). Clarification of current best practices for data workflows and the tools that support them would be very useful for improving my practice.  \n\n#### Twitter handle \n\n@seabbs",
     "language": "English"
   },
   {
@@ -1291,6 +1387,7 @@
     "url": "https://discuss.ropensci.org/t/calculating-us-residential-segregation-indices-in-a-reproducible-pipeline/2815",
     "image": "calculating-us-residential-segregation-indices-in-a-reproducible-pipeline.png",
     "date": "2022-02-11",
+    "body": "We provide a simple and reproducible [R](https://www.r-project.org/) pipeline to investigate residential segregation (RS) using US census data. The pipeline contains two components:\n\n1. pulling decennial US census data of Year 2000, 2010, 2020 via R package [tidycensus](https://walker-data.com/tidycensus/index.html)\n2. calculating three residential segregation indices, including dissimilarity, isolation and interaction indices, at the preferred geographical level, e.g. county or census tract level\n\n#### rOpenSci package or resource used*\n[targets](https://docs.ropensci.org/targets/)\n\n#### What did you do? \nWe pull decennial US census data with [tidycensus](https://walker-data.com/tidycensus/index.html) and calculate three residential segregation indices.\n\n\n#### URL or code snippet for your use case*\nhttps://github.com/boyiguo1/Tutorial-Residential_Segregation_Score\n\n\n#### Image\n[![](upload://mwHYyoRmM5WVXbKbNSmDZSIETDA.png)](https://github.com/boyiguo1/Tutorial-Residential_Segregation_Score/blob/c76f0f6d9b7d022e82792b0f3c1ca1076c5e3a18/README_files/figure/2010_AL_Disml_tract.png) \n\n**Figure 1**: 2010 Alabama Dissimilarity Index at county level calculated with census tract level statistics\n\n\n#### Field(s) of application \n_epidemiology, social sciences_\n\n\n#### Twitter handle \n@BoyiGuo",
     "language": "English"
   },
   {
@@ -1301,6 +1398,7 @@
     "url": "https://discuss.ropensci.org/t/use-rtweet-to-manage-lists-and-who-you-follow/2830",
     "image": "use-rtweet-to-manage-lists-and-who-you-follow.jpeg",
     "date": "2022-02-22",
+    "body": "#### rOpenSci package or resource used*\nrtweet\n\n#### What did you do? \nAfter capturing a list of the people you follow, this workflow enables you to:\n\n1. assign twitter accounts to different groups (e.g. via RegEx over the profile)\n2. use the group boolean columns as the basis to create and populate lists*\n3. mass un-follow people so that your core twitter feed is streamlined\n\n\\* I noticed significant instability in the Twitter list APIs. A workaround (*that was still a bit flaky!*) is to split the accounts into groups of 100 and use [Tweetdeck](https://tweetdeck.twitter.com) to bulk add people to lists. The `spit()` function in the gist is how I tackled this.\n\n\n#### URL or code snippet for your use case*\n[A gist demonstrating how to retrieve the people you follow, assign them to lists, and unfollow in batches (github.com)](https://gist.github.com/stephlocke/c62cd57e77103cbfb6d40b2bf9760605)\n\n\n#### Image\n![image|690x378](upload://dgsk9K8WgPUaWmFEyBTlSPHLKWh.jpeg)\n\n\n\n#### Twitter handle \n@theStephLocke",
     "language": "English"
   },
   {
@@ -1313,8 +1411,9 @@
     ],
     "resource": "vcr the excellent http testing in r book",
     "url": "https://discuss.ropensci.org/t/using-vcr-for-http-testing-of-a-package-for-kobotoolbox/2865",
-    "image": "noimage",
+    "image": "using-vcr-for-http-testing-of-a-package-for-kobotoolbox.png",
     "date": "2022-03-24",
+    "body": "#### rOpenSci package or resource used*\n- [vcr](https://docs.ropensci.org/vcr/)\n- the excellent [http testing in r book](https://books.ropensci.org/http-testing/index.html)\n\n#### What did you do? \nWe - a couple of volunteers from data4good network [CorrelAid](https://correlaid.org) developed a wrapper for the API of [Kobotoolbox](https://kobotoolbox.org), a data collection tool widely used in humanitarian aid. For testing the package functions, we used the `vcr` package and the HTTP testing book.\n\n#### URL or code snippet for your use case*\nhttps://github.com/correlaid/kbtbr\n\nDisclaimer: while we were developing, another package for the exact same purpose was published which is maybe better than ours (e.g. it uses `labelled` to store question labels as well): https://gitlab.com/dickoa/robotoolbox  :) \n\n\n\n#### Sector\nnon-profit \n\n#### Field(s) of application \nhumanitarian, non-profit\n\n#### Twitter handle \n@CorrelAid",
     "language": "English"
   },
   {
@@ -1328,6 +1427,7 @@
     "url": "https://discuss.ropensci.org/t/estimating-leaf-temperatures-worldwide/2908",
     "image": "estimating-leaf-temperatures-worldwide.png",
     "date": "2022-04-21",
+    "body": "#### rOpenSci package or resource used*\n[nasapower](https://ropensci.github.io/nasapower/articles/nasapower.html). \n\n#### What did you do? \nAs a plant pathologist, I am interested in improving the characterisation of environmental influences on pathogen infection. This piqued my interest if there are any R packages that estimate leaf temperatures and/or humidity from ambient weather variables. A cursory search led me to the [tealeaves](https://doi.org/10.1093/aobpla/plz054). \n\nHowever, the [tealeaves](https://doi.org/10.1093/aobpla/plz054) package requires additional parameters which are not logged by common weather stations, such as _short wave solar radiation_ and _albedo_. However, I was aware that [nasapower](https://ropensci.github.io/nasapower/articles/nasapower.html) provides all the weather inputs required on a 0.5 degree grid from satellite remote sensing. \n\nBy using both these packages together I could obtain estimates of leaf temperatures for anywhere in the world.\n\n#### URL for the use case\n[Open Plant Pathology: Estimating leaf temperatures for spatial epidemiology](https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/)\n\n\n#### Image\n![image|690x424](upload://77RrzsojibY46cjtBYlUZDK3RWw.png)\n\n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \necology, phytology, epidemiology, plant pathology\n\n\n#### Comments\n\n\n#### Twitter handle \n@PaulMelloy",
     "language": "English"
   },
   {
@@ -1342,6 +1442,7 @@
     "url": "https://discuss.ropensci.org/t/analyze-your-twitter-timeline-with-rtweet-and-lubridate/2931",
     "image": "analyze-your-twitter-timeline-with-rtweet-and-lubridate.png",
     "date": "2022-05-14",
+    "body": "#### rOpenSci package or resource used*\n[rtweet](https://github.com/ropensci/rtweet)\n\n#### What did you do? \nIn this blog post I give a quick tour of the rtweet and lubridate package. These help you to analyse your Twitter timeline. And they helped me to visualize my follower count as I reached 1000 followers this week. \n\n\n#### URL or code snippet for your use case*\nFind my blog post at [albert-rapp.de](https://albert-rapp.de/post/2022-05-06-track-twitter-follower/).\n\n\n#### Image\nHere's a visual I created using the data I extracted the data from Twitter over time. It was a celebratory dataviz as I reached 1000 followers.\n![A visual that depicts the evolution of my follower count](upload://maYBphCqf1jHA6DeuA7ghbighj5.png)\n\n\n#### Twitter handle \n[@rappa753](https://twitter.com/rappa753)",
     "language": "English"
   },
   {
@@ -1349,14 +1450,15 @@
     "reporter": "Fernando Almeida Barbalho",
     "tags": [
       "tabulizer",
-      "português",
+      "portugu-s",
       "portuguese"
     ],
     "resource": "tabulizer [pt-br]",
     "url": "https://discuss.ropensci.org/t/extracao-de-dados-sobre-herois-negros-e-negras-da-marvel-e-dc/2952",
     "image": "noimage",
     "date": "2022-05-30",
-    "language": "Portuguese"
+    "body": "#### rOpenSci package or resource used*\n[tabulizer](https://docs.ropensci.org/tabulizer/) [pt-br]\n\n#### What did you do? \nUso do tabulizer para extrair dados sobre heróis negros e negras da DC e Marvel disponibilizados em uma tabela de uma dissertação disponibilizada em arquivo pdf. \n\n#### URL or code snippet for your use case*\n[https://github.com/fernandobarbalho/herois_negros_negras](https://github.com/fernandobarbalho/herois_negros_negras)\n\n\n#### Twitter handle \n[@barbalhofernand](https://twitter.com/barbalhofernand)",
+    "language": "English"
   },
   {
     "title": "Map of linguae francae of Dagestan, Russia",
@@ -1366,26 +1468,27 @@
     "url": "https://discuss.ropensci.org/t/map-of-linguae-francae-of-dagestan-russia/2957",
     "image": "map-of-linguae-francae-of-dagestan-russia.jpeg",
     "date": "2022-06-02",
+    "body": "#### rOpenSci package or resource used\n\n* [`lingtypology`](https://ropensci.github.io/lingtypology/)\n\n#### What did I do? \nThere is a long tradition in linguistics of drawing polygons to delimit the areas in which languages are spoken. However, in typological studies in linguistics, a lot of languages need to be represented on maps, so the “one dot per language” approach is used. In multilingual areas with high language density like Dagestan (see the [Multidagestan project](https://multidagestan.com/about) (Dobrushina et al. 2017) that shows this), it is common for people to know more than one language, including linguae francae, i.e., languages used by speakers of different languages to communicate with one another. Nowadays, for all Post-Soviet states, the common lingua franca is Russian. However, historically, there were three linguae francae in Dagestan. Nina Dobrushina and I decided to create a map to show this old distribution of linguae francae. In order to do so, I used the [dataset of East Caucasian villages](https://github.com/sverhees/master_villages) (Moroz, Verhees 2020), which contains information about modern settlements of Dagestan with language attribution. Afterwards, I used the `density.estimation` argument from `lingtypology`, hid dots used in the extrapolation and overlayed with another map based on the “one dot per language” approach.\n\n#### URL or code snippet for your use case\nI wrote a [gist](https://gist.github.com/agricolamz/97b83d99ec72fc74a31b9f92859b0b8e), which contains the code and data.\n\n#### Image\n![v3|592x499](upload://4hUM5oUrsPBXfPAtlp6pUz3i1TN.jpeg)\n\n#### Sector\nLinguistics\n\n#### Field(s) of application \nGeospatial\n\n#### Twitter handle \n@agricolamz",
     "language": "English"
   },
   {
     "title": "Using taxize and highcharter in R to extract and visualize taxonomic data",
     "reporter": "Stepminer",
-    "tags": [],
     "resource": "[taxize](https://docs.ropensci.org/taxize)",
     "url": "https://discuss.ropensci.org/t/using-taxize-and-highcharter-in-r-to-extract-and-visualize-taxonomic-data/3096",
     "image": "noimage",
     "date": "2022-09-13",
+    "body": "\n\n#### rOpenSci package or resource used*\ntaxize\n\n#### What did you do? \nI used taxize to classify a list of endangered species and visualized the taxonomic hierarchical relationship via highcharter.\n\n\n#### URL or code snippet for your use case*\n[_Link to a blog post, a gist, or an academic paper, or provide some code inline_](https://github.com/stepminer/TidyTuesday/blob/dc558ff4830c1798a100a5822e72fb6b9f138b0d/hti_endangered_sp.R)\n\n\n#### Image\n[_e.g. a figure from a paper or blog post if you have permission to share it_](https://github.com/stepminer/TidyTuesday/blob/dc558ff4830c1798a100a5822e72fb6b9f138b0d/endangered_species.png)\n\n\n#### Sector\n other\n\n\n#### Field(s) of application \n ecology, taxonomy\n\n\n#### Comments\n \n\n#### Twitter handle \n@stepminer2",
     "language": "English"
   },
   {
     "title": "Using handlr to convert bibtex citation to cff",
     "reporter": "Athanasia Monika Mowinckel",
-    "tags": [],
     "resource": "[handlr](https://docs.ropensci.org/handlr)",
     "url": "https://discuss.ropensci.org/t/using-handlr-to-convert-bibtex-citation-to-cff/3107",
     "image": "noimage",
     "date": "2022-09-16",
+    "body": "#### rOpenSci package or resource used*\n[handlr](https://github.com/ropensci/handlr)\n\n#### What did you do? \nI was working on an R package with data to become publicly available. The data is already described and used in a scientific paper, and as such I had a bibtex citation I wanted to use as CITATION.cff on github. I was struggling to find a way to turn bibtex to cff, and [asked on the forum](http://ropensci.discourse.group/t/generating-citation-cff-from-bibtex/3105) if there were any tools to help. The citation has quite a lot of co-authors, so I didnt want to start writing all that by hand.\nI got an amazing reply and {handlr} seemed to be what I was looking for.\n\n\n#### URL or code snippet for your use case*\n```r\ninstall.packages(handlr)\ninstall.packages(bibtex)\n\n# I had saved the citation in a bibtex file\nhandlr::bibtex_reader(\"CITATION.bib\") |> \n    cff_writer(\"CITATION.cff\")\n```\n\nThis promptly turned\n\n```\n@article{BudinLjsne2020,\n  doi = {10.3389/fpubh.2020.00387},\n  url = {https://doi.org/10.3389/fpubh.2020.00387},\n  year = {2020},\n  month = aug,\n  publisher = {Frontiers Media {SA}},\n  volume = {8},\n  author = {Isabelle Budin-Lj{\\o}sne and Barbara Bodorkos Friedman and Sana Suri and Cristina Sol{\\'{e}}-Padull{\\'{e}}s and Sandra D\\\"{u}zel and Christian A. Drevon and William F. C. Baar{\\'{e}} and Athanasia Monika Mowinckel and Enik{\\H{o}} Zsoldos and Kathrine Skak Madsen and Rebecca Bruu Carver and Paolo Ghisletta and Mari R. Arnesen and David Bartr{\\'{e}}s Faz and Andreas M. Brandmaier and Anders Martin Fjell and Aud Kvalbein and Richard N. Henson and Rogier A. Kievit and Laura Nawijn and Roland Pochet and Alfons Schnitzler and Kristine B. Walhovd and Larysa Zasiekina},\n  title = {The Global Brain Health Survey: Development of a Multi-Language Survey of Public Views on Brain Health},\n  journal = {Frontiers in Public Health}\n}\n```\n\ninto \n\n```\ncff-version: 1.2.0\nmessage: Please cite the following works when using this software.\ntitle: 'The Global Brain Health Survey: Development of a Multi-Language Survey of\n  Public Views on Brain Health'\nauthors:\n- family-names: Budin-Ljosne\n  given-names: Isabelle\n- family-names: Friedman\n  given-names: Barbara Bodorkos\n- family-names: Suri\n  given-names: Sana\n- family-names: Solé-Padullés\n  given-names: Cristina\n- family-names: Düzel\n  given-names: Sandra\n- family-names: Drevon\n  given-names: Christian A.\n- family-names: Baaré\n  given-names: William F. C.\n- family-names: Mowinckel\n  given-names: Athanasia Monika\n- family-names: Zsoldos\n  given-names: Enikő\n- family-names: Madsen\n  given-names: Kathrine Skak\n- family-names: Carver\n  given-names: Rebecca Bruu\n- family-names: Ghisletta\n  given-names: Paolo\n- family-names: Arnesen\n  given-names: Mari R.\n- family-names: Faz\n  given-names: David Bartrés\n- family-names: Brandmaier\n  given-names: Andreas M.\n- family-names: Fjell\n  given-names: Anders Martin\n- family-names: Kvalbein\n  given-names: Aud\n- family-names: Henson\n  given-names: Richard N.\n- family-names: Kievit\n  given-names: Rogier A.\n- family-names: Nawijn\n  given-names: Laura\n- family-names: Pochet\n  given-names: Roland\n- family-names: Schnitzler\n  given-names: Alfons\n- family-names: Walhovd\n  given-names: Kristine B.\n- family-names: Zasiekina\n  given-names: Larysa\ndoi: 10.3389/fpubh.2020.00387\nurl: https://doi.org/10.3389/fpubh.2020.00387\n```\n\n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nbiomedical research, social sciences\n\n\n#### Twitter handle \n@drmowinckels",
     "language": "English"
   },
   {
@@ -1399,16 +1502,17 @@
     "url": "https://discuss.ropensci.org/t/using-a-targets-pipeline-to-query-data-from-the-water-quality-portal/3140",
     "image": "noimage",
     "date": "2022-10-03",
+    "body": "#### rOpenSci package or resource used\n[targets](https://docs.ropensci.org/targets/)\n[dataRetrieval](https://waterdata.usgs.gov/blog/dataretrieval/)\n\n#### What did you do? \n\nWe developed a reproducible pipeline to query data from the [Water Quality Portal (WQP)](https://www.waterqualitydata.us/) based upon a user-specified area of interest. This template provides a framework for others to inventory, query, and then clean data from WQP.\n\nQuerying and cleaning data from the WQP based on an area of interest is a common data access pattern across many projects from USGS, so we developed a template repository that other users could fork and integrate into their project-specific workflows. The blog post goes into further detail about the \"ins and outs\" of this access pattern - focusing on the first two phases of the pipeline (`01_inventory` and `02_download`) because these phases tend to be consistent across projects. In the GitHub repo we also include a few example cleaning functions that users can review and use to guide their own data cleaning methodologies.\n\n\n#### URL or code snippet for your use case\nBlog:  [Large Data Pulls from Water Quality Portal - A Pipeline-Based Approach](https://waterdata.usgs.gov/blog/wqp-large-pull-targets/)\n\nGitHub Repo: [Link](https://github.com/USGS-R/ds-pipelines-targets-example-wqp/)\n\n#### Field(s) of application \nwater quality, hydrology, ecology\n\n#### Twitter handle \n@USGS_DataSci",
     "language": "English"
   },
   {
     "title": "Backing up GitHub organisation with gitcellar",
     "reporter": "Hugo Gruson",
-    "tags": [],
     "resource": "gitcellar blog post: Safeguards and Backups for GitHub Organizations",
     "url": "https://discuss.ropensci.org/t/backing-up-github-organisation-with-gitcellar/3153",
     "image": "backing-up-github-organisation-with-gitcellar.png",
     "date": "2022-10-12",
+    "body": "#### rOpenSci package or resource used*\n\n- [gitcellar](https://docs.ropensci.org/gitcellar/)\n- blog post: [Safeguards and Backups for GitHub Organizations](https://ropensci.org/blog/2022/03/22/safeguards-and-backups-for-github-organizations/)\n\n#### What did you do? \n\nI replicated the back-up infrastructure from rOpenSci in our GitHub organisation: https://github.com/epiverse-trace.\n\nMigration archives are created with gitcellar and are then uploaded to a DigitalOcean S3-compatible space with the `aws.s3` R package.\n\nThis is automated via GitHub Actions and runs on a weekly basis (each Saturday in the night).\n\nFor increased security, I have created a dedicated GitHub account, [`@epiverse-trace-bot`](https://github.com/epiverse-trace-bot), which hosts the repository with the automation and also provides a Personal Access Token (PAT) with minimal permissions. \n\n#### URL or code snippet for your use case*\n\nhttps://github.com/epiverse-trace-bot/epiverse-trace-backup\n\n#### Image\n\n![image|690x454](upload://lZ5aE0AdjoUZNocWOKIj6apdc0e.png)\n\n#### Sector\n\nindustry\n\n#### Field(s) of application \n\ndevops, epidemiology\n\n#### Comments\n\nThank you for open-sourcing a part of your internal infrastructure! And double thank you for sharing it in an easily re-usable format, as an R package!\n\n#### Twitter handle \n\n@grusonh",
     "language": "English"
   },
   {
@@ -1422,6 +1526,7 @@
     "url": "https://discuss.ropensci.org/t/adding-missing-exif-data-to-wildlife-trail-camera-images/3203",
     "image": "adding-missing-exif-data-to-wildlife-trail-camera-images.jpeg",
     "date": "2022-11-10",
+    "body": "#### rOpenSci package or resource used*\n[magick](https://github.com/ropensci/magick)\n\n#### What did you do? \nUse R/magick in combination with ffmpeg and exiftool, to add geolocation and date-time metadata to images where metadata was not created by the camera.\n\n\n#### URL or code snippet for your use case*\n[Editing metadata in trail camera images using R, magick and exiftool](https://nsaunders.wordpress.com/2022/10/25/editing-metadata-in-trail-camera-images-using-r-magick-and-exiftool/)\n\n#### Image\n![lXYtUbMxk8T5QM9jNPjUp6sZfraGvUtgl_vcaYsgvGBFgQK5EQBflHLs37cB_GXFo_|690x388](upload://lzJu6abRqV78BKWZ3lyojKHAcHl.jpeg)\n\n\n#### Sector\nOther\n\n\n#### Field(s) of application \n_ecology, citizen science_\n\n#### Twitter handle \n_@neilfws_",
     "language": "English"
   },
   {
@@ -1432,6 +1537,7 @@
     "url": "https://discuss.ropensci.org/t/delete-all-your-tweets-using-rtweet/3217",
     "image": "delete-all-your-tweets-using-rtweet.png",
     "date": "2022-11-22",
+    "body": "#### rOpenSci package or resource used\n[rtweet](https://docs.ropensci.org/rtweet/)\n\n#### What did you do? \nWorried about how a certain social media platform is going and want to start reducing your footprint there? If you are looking to remove yourself Twitter, you can entirely delete your account, but I’ve seen some folks say a better initial move may be to delete the content from your account (perhaps including followers and following), and then take your account private or deactivate it. This has the benefit of you keeping control of your username. In this blog post, I walked through how to use [rtweet](https://docs.ropensci.org/rtweet/) to automate some of these steps. I deleted about 25,000 tweets using this method!\n\n\n#### URL or code snippet for your use case\nFind my blog post at [juliasilge.com](https://juliasilge.com/blog/delete-tweets/)\n\n\n#### Image\nBefore I started deleting my tweets, I made a visualization of how I have posted over time:\n![image|690x492](upload://4AzdqOBJEZUNyNqpzbwzGZCgfsA.png)\n\n\n#### Twitter handle \n[@juliasilge](com) (but I have since taken my account private)\nMy next steps will likely be removing followers and who I follow.\n\n#### Mastodon handle\n<https://fosstodon.org/@juliasilge>",
     "language": "English"
   },
   {
@@ -1442,6 +1548,7 @@
     "url": "https://discuss.ropensci.org/t/using-targets-for-an-omics-analysis-and-report-manuscript/3541",
     "image": "using-targets-for-an-omics-analysis-and-report-manuscript.png",
     "date": "2023-06-26",
+    "body": "#### rOpenSci package or resource used\n\n[targets](https://docs.ropensci.org/targets/)\n\n#### What did you do?\n\nI used targets to analyze and report on omics (metabolomics in this case) data analysis.\n\n\n#### URL or code snippet for your use case*\n\n[Blog post](https://rmflight.github.io/posts/2022-09-27-creating-an-analysis-using-targets/), [GitHub repository](https://github.com/rmflight/example_targets_workflow)\n\n\n#### Image\n\n![dependency_network|690x418](upload://yAyyuaNndq1L09V1Xd2sOIlKnt7.png)\n\n#### Sector\n\nacademic\n\n\n#### Field(s) of application \n\nbiomedical research\n\n\n#### Mastodon handle\n\n`@rmflight@mastodon.social`",
     "language": "English"
   },
   {
@@ -1457,6 +1564,7 @@
     "url": "https://discuss.ropensci.org/t/a-toolkit-workflow-for-climate-sensitive-infectious-disease-modelling/3659",
     "image": "noimage",
     "date": "2023-10-05",
+    "body": "Statistical modelling of Climate-Sensitive Infectious Disease (CSID) usually requires commons steps to harmonize and make compatible data from epidemiology and climate. Different teams do similar procedures in order to reach similar results for this purpose. But the actual coding of these steps involve lots of apparently small choices and details that, in the end, produce results very different and not directly comparable.\n\n#### rOpenSci package or resource used*\ntargets, tarchetypes\n\n#### What did you do? \nTo approach this problem, I started to code some dedicated R packages and integrate its use using the [targets](https://docs.ropensci.org/targets/) and [tarchetypes](https://docs.ropensci.org/tarchetypes/).\n\nThe modeling of CSID requires that diseases cases data and climate data be in the similar structure, usually a table containing variables about place of occurrence of disease cases, date, and climate indicators at the same date and previous dates.\n\nFor this, I created a package to handle disease datasets, with functions to imputate important variables and aggregate the disease's individual cases into tables of counts. Those are apparently easy tasks, but the devil is in the details, like if the aggregating variables were imputated or not, and if the aggregating task result on time series of the same size, including weeks or months without cases. This package objective is to propose a standard procedure for this.\n\nTo handle the climate indicators, I created a package that converts gridded climate indicators data to zonal statistics at the same spatial scale as the disease data. The package contain functions that takes as input, climate indicators on raster format (from ERA5-Land for example) and a spatial boundaries map file that should be compatible with the disease data aggregation. The package produces tables with zonal statistics for the boundaries units, like the \"average maximum temperature\" at the spatial unit. This is a fairly common methodology, but with lots of small decisions involved on those steps, like making the layers projection compatible, produce raw or weighted zonal statistics, date units, etc. This package objective is also to propose a standard procedure for those steps.\n\nTo execute those tasks that use common features, the [targets](https://docs.ropensci.org/targets/) package is being very helpful. I managed to create a workflow that takes all the necessary inputs and creates in the end a dataset ready for statistical modeling. And some reports are also created during the execution, with the help from the [tarchetypes](https://docs.ropensci.org/tarchetypes/), providing information about the steps that are important to retain and communicate with the results.\n\nThe next steps are to create functions (and maybe a package) for modeling and integrate it into the workflow. \n\n\n#### URL or code snippet for your use case*\n\nThe workflow and the packages are at the very early stage of development.\n\nhttps://github.com/rfsaldanha/csid_workflow\nhttps://github.com/rfsaldanha/disdata\nhttps://github.com/rfsaldanha/zonalclim\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nhealth geography, epidemiology, climatology\n\n\n#### Twitter and Mastodon handles\n\nYou can reach me at Twitter (@rfsaldanhario) and at Fosstodon (@rfsaldanha@fosstodon.org)",
     "language": "English"
   },
   {
@@ -1470,6 +1578,7 @@
     "url": "https://discuss.ropensci.org/t/targets-and-other-tools-to-make-college-comparison-website/3680",
     "image": "targets-and-other-tools-to-make-college-comparison-website.jpeg",
     "date": "2023-11-01",
+    "body": "#### rOpenSci package or resource used\n\nhttps://books.ropensci.org/targets/ for the `targets` and `tarchetypes` packages\n\n#### What did you do? \nI made a 13,424 page website, <https://collegetables.info/>, to compare US colleges; it tracks things like graduation rates and finances over time, as well as distributions of degrees by fields. It was featured in the *New York Times* ([gift link](https://www.nytimes.com/2023/04/15/your-money/college-cost-data-tools.html?unlocked_article_code=hN2IwBdFONp5CmgbxhKM-HVUid0P2EEoomfIcGniJ6EcogeoxOwoimKabx7gynOb0f6-QxIpIELuqqT35rk-nLmDMZMDAljFtcY-YQBvNGWVgLCKOj7omvSxUjcQbXnG4B8H67gTFWQA8USo6Y3Xs5RWuXjQ8Chp2WchftGv-k9oTf7m0nPvki2JmPoQiawOquJTtiwFG9lxEX5-vSzJIvBPu5Gl_-jhW5wisUpTZCQWfzr9Ar56ix7q2rQ2B4qqyQxpPWqow2gJ_D0eF5c4PhAzh-QksTofGv9rUG0SJmgnDhUkCcF361B0kpugBjccqwqYBuaTbSFMqBowPacjapogDFA&giftCopy=1_CurrentCopy&smid=url-share)).\n\n\n#### URL or code snippet for your use case*\n<https://brianomeara.info/posts/collegetables/>\n\n\n#### Image\n![Teaching|690x438](upload://bLAA2qELcEtsLa5chnaJQjaRRZN.jpeg \"Screen shot of a table from one page showing how teaching resources at a university have changed through time.\")\n\n\n\n#### Sector\nacademic\n\n\n#### Field(s) of application \nSelecting colleges for enrollment or employment, comparison of institutions, comparison of fields\n\n\n#### Comments\nI'm still not fully satisfied with how the tabs for the index page table works. I'm sure there's lots of improvements to make, too.\n\n#### Mastodon handle \n@omearabrian@mastodon.social",
     "language": "English"
   },
   {
@@ -1480,6 +1589,7 @@
     "url": "https://discuss.ropensci.org/t/unlock-r-functions-with-qr-codes/3681",
     "image": "unlock-r-functions-with-qr-codes.gif",
     "date": "2023-11-02",
+    "body": "#### rOpenSci package or resource used\n\nThe [opencv](https://docs.ropensci.org/opencv/) package.\n\n#### What did you do? \n\nWrote a demo function that only returns an answer when you present a QR code to your device's camera that encodes the correct ‘password’.\n\n\n#### URL or code snippet for your use case\n\nThere's a [blog post](https://www.rostrum.blog/posts/2023-11-01-qr-enabled-fn/) and [Mastodon post](https://fosstodon.org/@mattdray/111332716385219584).\n\nThe function:\n\n``` r\nadd_one <- function(n) {\n  \n  string_in <- opencv::qr_scanner()\n  password <- RCurl::base64Decode(\"b3BlbmN2IHNlc2FtZSE=\")\n  \n  if (string_in == password) {\n    cat(\"🔑 Correct password!\\n\")\n    n + 1\n  } else {\n    stop(\"Wrong password!\", call. = FALSE)\n  }\n  \n}\n```\n\nRunning the function will cause `opencv::qr_scanner()` to open your device's camera. QR codes presented to the camera will be decoded. If the correct password is encoded by the QR code, then the function will print a result (so `add_one(1)` will return `2`). (Note that the password is exposed in the body of the function, so I've 'hidden' it behind base64 encoding.)\n\n\n#### Image\n\n![An R function, 'add_one', is executed. The device's camera is activated and a QR code is presented. Back in the terminal, the phrase 'correct password' and the answer, '2', are printed. |528x367](upload://7MOumMZvjHbx9fOVCH2FsH3FdO2.gif)\n\n\n#### Sector\n\nOther.\n\n\n#### Field(s) of application \n\n* Fun. \n* The opportunity to generate multi-factor authentication via QR code, as [pointed out](https://fosstodon.org/@jeroenooms/111334491799517085) by @jeroenooms.\n\n\n#### ~~Twitter~~ Mastodon handle\n\n`@mattdray@fosstodon.org`",
     "language": "English"
   },
   {
@@ -1496,6 +1606,7 @@
     "url": "https://discuss.ropensci.org/t/using-weatheroz-to-plot-perths-may-high-temperatures/3920",
     "image": "using-weatheroz-to-plot-perths-may-high-temperatures.jpeg",
     "date": "2024-06-09",
+    "body": "#### rOpenSci package or resource used\n\n[{weatherOz}](https://docs.ropensci.org/weatherOz/)\n\n#### What did you do? \n\nI used {weatherOz} to get weather data for the Perth metropolitan area and recreate a figure from an ABC article, sorta.\n\n\n#### URL or code snippet for your use case*\n\nhttps://adamhsparks.netlify.app/2024/06/02/plotting-perth-month-of-may-high-temperatures-with-weatheroz/\n\n\n#### Image\n![Screenshot 2024-06-09 at 17.32.59|500x500](upload://mESKcSVbSvH56d0LmzpwjU0CYdY.jpeg)\n\n\n#### Sector\nAcademic\n\n\n#### Field(s) of application \nhistory, climate\n\n\n#### Comments\nNo feedback requests as I wrote the function I needed for the blog post just for {weatherOz}.\n\n#### Mastodon profile link \n@adamhsparks@rstats.me",
     "language": "English"
   },
   {
@@ -1511,26 +1622,27 @@
     "url": "https://discuss.ropensci.org/t/oai-interface-request-response-and-data-download-with-r/3923",
     "image": "noimage",
     "date": "2024-06-14",
+    "body": "#### rOpenSci package or resource used\n\noai\n\n#### What did you do?\n\nThis tutorial provides examples of queries of the OAI interface of Berlin State Library with R. It deals with exemplary queries addressed to the OAI-PMH interface of the Staatsbibliothek zu Berlin and also explains how to download the data and save it in a CSV file.\n\n[https://lab.sbb.berlin/oai-interface-request-response-and-data-download-with-r/?lang=en](https://lab.sbb.berlin/oai-interface-request-response-and-data-download-with-r/?lang=en)\n\nThe tutorial includes a video (in German language only).\n\n#### Sector\nacademic / non-profit \n\n#### Field(s) of application\nhistory, text and data mining, metadata \n\n#### Mastodon profile link \n[@jrglmn](https://mastodon.social/@jrglmn)",
     "language": "English"
   },
   {
     "title": "Translating Carpentries workbench lessons with babeldown",
     "reporter": "Hugo Gruson",
-    "tags": [],
     "resource": "The babeldown R package",
     "url": "https://discuss.ropensci.org/t/translating-carpentries-workbench-lessons-with-babeldown/3960",
     "image": "translating-carpentries-workbench-lessons-with-babeldown.png",
     "date": "2024-07-16",
+    "body": "#### rOpenSci package or resource used\n\nThe [babeldown R package](https://docs.ropensci.org/babeldown/).\n\n#### What did you do? \n\nWe have training materials built with the Carpentries [workbench](https://carpentries.github.io/workbench/) and wanted to translate them in Spanish for an upcoming training with a Peruvian audience.\n\nSince lessons in the workbench are markdown and Rmarkdown files, babeldown appeared as a good candidates to speed up the creation of a first draft.\n\nOutput files were placed in the `locale/es/episodes/`, following the convention started by @joelnitta in [dovetail](https://github.com/joelnitta/dovetail).\n\nThe ML-generated translations, after a first rough automated post-processing (see below), were reviewed by native Spanish speakers: https://github.com/epiverse-trace/tutorials-middle/pull/95\n\n#### URL or code snippet for your use case\n\nhttps://github.com/epiverse-trace/tutorials-middle/pull/95\n\n\n#### Image\n\n![Screenshot of the lesson in English|690x358](upload://8sGdT2OuGNTOaFFOAYxhgAPRKZh.png)\n\n![iScreenshot of the lesson in Spanish|690x358](upload://qr9CIhmX4exuK18nBJlYVYcs1yO.png)\n\n#### Sector\n\nacademic, non-profit, government\n\n#### Field(s) of application \n\nepidemiology, pedagogy\n\n#### Comments\n\nOne issue we encountered was in the unwanted translation of div classes.\n\n[The workbench makes extensive use of fenced divs to add specific blocks in the lessons](https://carpentries.github.io/sandpaper-docs/episodes.html#questions-objectives-keypoints): objectives, keypoints, challenges, callouts, solutions, hints, etc.\n\nCurrently, the text defining the class of these divs is extracted by babeldown and translated, which required an automated + manual revert of these changes:\n\n```\nsed -i -r 's/(:+) llamada/\\1 callout/g' *\nsed -i -r 's/(:+) objetivos/\\1 objectives/g' *\nsed -i -r 's/(:+) preguntas/\\1 questions/g' *\nsed -i -r 's/(:+) prerrequisito/\\1 prereq/g' *\nsed -i -r 's/(:+) puntos clave/\\1 keypoints/g' *\nsed -i -r 's/(:+) desafío/\\1 challenge/g' *\nsed -i -r 's/(:+) lista de control/\\1 checklist/g' *\nsed -i -r 's/(:+) discusión/\\1 discussion/g' *\nsed -i -r 's/(:+) testimonio/\\1 testimonial/g' *\n```\n\nI believe this is tracked in a feature request in tinkr: https://github.com/ropensci/tinkr/issues/98.\n\n#### Mastodon profile link \n\nhttps://mastodon.social/@grusonh",
     "language": "English"
   },
   {
     "title": "METAR analysis for flight conditions",
     "reporter": "Maëlle Salmon",
-    "tags": [],
     "resource": "[riem](https://docs.ropensci.org/riem)",
     "url": "https://discuss.ropensci.org/t/metar-analysis-for-flight-conditions/4174",
     "image": "noimage",
     "date": "2025-02-20",
+    "body": "Reporting on behalf of [Joseph Chou](https://github.com/jhchou)\n\n#### rOpenSci package or resource used\n\nriem\n\n#### What did you do? \n\nUse case example: developed an R Shiny app that allows interactive analysis of 20+ years of hourly METAR data of flight conditions by time of day and month at multiple airports, including:\n\n* VFR / MVFR / IFR / LIFR category\n* winds, gusts, crosswinds (based on best available runway)\n* visibility and ceilings\n* temperatures\n* prevailing winds\n* customizable personal minimums\n\nDeployed using `shinylive` so can be served as a static webpage from GitHub Pages, running under web assembly (WASM) in the client browser. Additional airports pretty easy to add (but not by users, unless I make the GitHub page public and accept pull requests).\n\n\n\n#### URL or code snippet for your use case\n\n\n\n* [Blog post: Original Quarto dashboard development](https://www.incidentalfindings.org/posts/2024-07-11_metar_analysis/) (prior to using `riem`)\n* [Blog post: Updated to Shiny app](https://www.incidentalfindings.org/posts/2025-02-19_metar_analysis_2/) (using `riem`)\n* [BlueSky post](https://bsky.app/profile/incidentalfindings.org/post/3ligaa5oc6c2u)\n* [Actual METAR analysis `shinylive` app](https://jhchou.github.io/metar_analysis/) -- be patient, loading time is a bit long, because it's loading WASM-compiled R + packages to the client\n\n\n#### Mastodon profile link \n\nhttps://bsky.app/profile/incidentalfindings.org",
     "language": "English"
   },
   {
@@ -1544,8 +1656,9 @@
     ],
     "resource": "[osmextract](https://docs.ropensci.org/osmextract)",
     "url": "https://discuss.ropensci.org/t/visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract/4181",
-    "image": "noimage",
+    "image": "visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract.jpeg",
     "date": "2025-03-01",
+    "body": "\n#### rOpenSci package or resource used*\n\nosmextract\n\n#### What did you do? \n\n![osm_packages_6|400x500](upload://3BuWsEKnyEunOKOGHMWkAZ40wLR.jpeg)\n\n\nThis code chunk demonstrates the process of downloading geospatial data for the state of Haryana in India and performing some basic preprocessing. First, it uses the `osmextract` package to download points, lines, and polygon data from OpenStreetMap for Haryana using the `oe_get()` function. Then, the code fetches the district-wise boundary map for Haryana using the `geodata::gadm()` function to retrieve administrative boundaries, which are converted into simple features (`sf`) objects using the `sf` package. Lastly, the overall state boundary map for Haryana is retrieved similarly and cleaned up.\n\nIt processes spatial data of Haryana’s roads and toll booths using the **sf** package. Roads are categorized by type and filtered using `mutate(case_when())`, ensuring only relevant highways are retained. The dataset is then clipped to Haryana’s boundary with `st_intersection()`. A subset of toll booths is manually filtered to remove duplicates.\nThen, the code determines the district-wise distribution of toll booths and computes the total highway length in each district using [`sf`](https://r-spatial.github.io/sf/) and [`dplyr`](https://dplyr.tidyverse.org/). The `st_intersects()` function finds which district each toll booth falls into, creating a mapping vector. The total highway length per district is calculated using `st_intersection()` and `st_length()`, then converted to kilometers. Finally, the data is combined using `left_join()`, missing values are handled with `replace_na()`, and toll density (km per toll) is computed and arranged in descending order.\nFinally, it visualizes Haryana’s road network, district boundaries, and toll booth distribution using [`ggplot2`](https://ggplot2.tidyverse.org/) and [`sf`](https://r-spatial.github.io/sf/). `geom_sf()` is used to plot district borders, highways, and toll booths, while highway width is controlled with `scale_alpha_manual()` and `scale_linewidth_manual()`. A bar chart displays district-wise highway length per toll booth using `geom_col()`, with additional annotations for toll count and highway length. The two plots are combined using [`patchwork`](https://patchwork.data-imaginist.com/).\n\n[Link](https://aditya-dahiya.github.io/visage/geocomputation/osm_packages.html#fig-toll) to final graphic.\n[Link](https://aditya-dahiya.github.io/visage/geocomputation/osm_packages.html#explore-toll-booths-and-highways-from-haryana-using-osmextract) to complete code.\n[Link](https://x.com/AdityaDahiyaIAS/status/1892493238575018183) to Twitter (X) post.\n\n\n#### URL or code snippet for your use case*\n\nhttps://aditya-dahiya.github.io/visage/geocomputation/osm_packages.html#explore-toll-booths-and-highways-from-haryana-using-osmextract",
     "language": "English"
   },
   {
@@ -1562,6 +1675,7 @@
     "url": "https://discuss.ropensci.org/t/combining-with-population-density-rasters-with-osm-data-in-r-with-sf-osmextract-and-ggplot2/4182",
     "image": "noimage",
     "date": "2025-03-01",
+    "body": "\n#### rOpenSci package or resource used*\n\nosmextract\n\n#### What did you do? \n\n\n![osm_packages_5|375x500](upload://7IwCFDWyp9RGYTqd5SWeIIEOPov.jpeg)\n\n### Combining with Population Density Raster Dataset with OSM maps\n\nThe population raster data is sourced from *Global High-Resolution Annual Population Grids (2000-2023), v1* by **Ciesin, Center for International Earth Science Information Network, Columbia University** [(CIESIN, 2024)](https://zenodo.org/records/11179644). This dataset provides high-resolution population estimates globally, integrating census and administrative data with geospatial modeling to refine population distributions. The data, maintained by **NASA’s Socioeconomic Data and Applications Center (SEDAC)**, is valuable for demographic analysis, urban planning, and environmental studies. The full dataset and documentation are available on [Zenodo](https://zenodo.org/records/11179644).\n\nThe **Haryana population density map** is generated using high-resolution raster data from the *Global High-Resolution Annual Population Grids (2000-2023)* dataset. The `{terra}` package is used to handle raster operations, where the **`rast()`** function reads the population density raster, followed by **`crop()`** and **`mask()`** to limit the data to the Haryana state boundary. To ensure effective visualization, values below or equal to zero are replaced with `0.01` for smooth log transformation. The road network is overlaid using `{sf}`, with **`geom_sf()`** displaying highways extracted using `{osmextract}`. The population raster is plotted using **`geom_spatraster()`** from `{ggplot2}` and styled with a **log-transformed color scale** via `{paletteer}` to highlight variations in density.\n\n### Comparing with some districts\nThe **inset district maps** focus on seven key districts, emphasizing transit-oriented development along highways. The **`plot_district()`** function extracts population density data for a given district by using **`crop()`** and **`mask()`** from `{terra}`. To enhance clarity, districts with multiple polygons (such as Faridabad) are filtered using **`st_cast(\"POLYGON\")`**. The district’s road network is extracted with **`st_intersection()`**, ensuring only relevant highways are displayed. `{patchwork}` is used to arrange the Haryana map alongside its inset districts with a custom layout via **`plot_layout()`**, effectively demonstrating the correlation between population density and road infrastructure.\n\n```\n# 2022 year Global Population Density 30 sec arc resolution\n# url <- \"https://zenodo.org/records/11179644/files/GlobPOP_Count_30arc_2022_I32.tiff?download=1\"\n# \noutput_file <- \"GlobPOP_Count_30arc_2022_I32.tiff\"\n# download.file(url, output_file, mode = \"wb\")\n\nharyana_pop_rast <- rast(output_file) |> \n  terra::crop(haryana_boundary) |> \n  terra::mask(haryana_boundary)\n\n# Ensure all negative and zero values are replaced with 0.01\n# (For easy plotting with log transformation scale)\nharyana_pop_rast[haryana_pop_rast <= 0] <- 0.01\n\ng <- ggplot() +\n  \n  # Population Density Raster\n  geom_spatraster(data = haryana_pop_rast) +\n  paletteer::scale_fill_paletteer_c(\n    \"grDevices::YlOrBr\",\n    direction = -1,\n    na.value = \"transparent\",\n    transform = \"log\",\n    limits = c(10, 1e5),\n    oob = scales::squish,\n    breaks = c(0, 10, 100, 1000, 1e4),\n    labels = scales::label_number(big.mark = \",\")\n  ) +\n\n  # Road Network\n  geom_sf(\n    data = df1 |> filter(highway %in% c(wid1, wid2)),\n    linewidth = 0.3,\n    alpha = 0.9\n  ) +\n\n  geom_sf(\n    data = haryana_boundary,\n    linewidth = 1.2,\n    colour = \"black\", \n    fill = NA\n  ) +\n  labs(\n    # title = \"Population Density vs. Road Network (Haryana)\",\n    # subtitle = \"Bulk data download using {osmextract}, geocomputation\\nwith {sf} and plotting with {ggplot2}\",\n    # caption = plot_caption,\n    fill = \"Population Density\\n(Persons per sq. km.)\"\n  ) +\n  theme_minimal(\n    base_family = \"body_font\",\n    base_size = 40\n  ) +\n  theme(\n    legend.position = \"inside\",\n    legend.position.inside = c(0.02,0.05),\n    legend.justification = c(0,0),\n    legend.direction = \"vertical\",\n    text = element_text(\n      colour = \"grey30\",\n      lineheight = 0.3,\n      hjust = 0.5\n    ),\n    plot.title = element_text(\n      margin = margin(10,0,0,0, \"pt\"),\n      hjust = 0.5,\n      size = 90\n    ),\n    plot.subtitle = element_text(\n      margin = margin(10,0,0,0, \"pt\"),\n      hjust = 0.5,\n      size = 70,\n      lineheight = 0.3\n    ),\n    plot.caption = element_textbox(\n      hjust = 0.5,\n      halign = 0.5\n    ),\n    panel.grid = element_line(\n      colour = \"grey80\",\n      linewidth = 0.1\n    ),\n    legend.title.position = \"top\",\n    legend.margin = margin(0,0,0,0, \"pt\"),\n    legend.box.margin = margin(0,0,0,0, \"pt\"),\n    legend.text = element_text(\n      margin = margin(0,0,0,2, \"pt\"),\n      size = 60\n    ),\n    legend.title = element_text(\n      margin = margin(0,0,5,0, \"pt\"),\n      size = 60\n    ),\n    legend.background = element_rect(\n      fill = \"transparent\",\n      colour = \"transparent\"\n    ),\n    legend.key.height = unit(40, \"pt\")\n  )\n\nggsave(\n  plot = g,\n  filename = here::here(\n    \"geocomputation\", \"images\",\n    \"osm_packages_4.png\"\n  ),\n  height = 3800,\n  width = 2800,\n  units = \"px\",\n  bg = \"white\"\n)```\n\n\n#### URL or code snippet for your use case*\n\nhttps://aditya-dahiya.github.io/visage/geocomputation/osm_packages.html#combining-with-population-density-raster-dataset",
     "language": "English"
   },
   {
@@ -1578,6 +1692,7 @@
     "url": "https://discuss.ropensci.org/t/translating-course-to-spanish-and-french/4207",
     "image": "noimage",
     "date": "2025-03-25",
+    "body": "#### rOpenSci package or resource used*\n[babelquarto](https://docs.ropensci.org/babelquarto/)\n\n\n#### What did you do? \nTranslated course content from English to Spanish and French to support rollout of an analytical framework and tools (created for that framework) in around 20 countries.\n\nInitially, the idea was to have a face to face training with participants. The packages were developed in R, it made sense to use Quarto to create the teaching material. It was combining the reading, code, inputs in the same GitHub folder. That make it easy to share and maintain.\n\nIt was then decided to have a training accessible online and as the organisation has a Learning Management System (LMS), I could use that platform to track completion. I decided to take advantage of GitHub, GitHub Actions, GitHub Pages:\n- GitHub as central repository\n- GitHub actions to render directly into GitHub Pages.\n- GitHub pages as \"endpoint\" for LMS: instead of writing each chapter/module in the LMS, I could just point to the course website.\n- LMS: to add some quizz, drop files, follow up learner progressions.\n\nAs I was trying to render the course in multiple languages French and Spanish, this is when `babelquarto` came into play. In addition to a smooth transition, it allow a colleague and I to work on the same repository. My colleague was translating the pages to Spanish, and I was reformatting the content to fit into the online format (I had to take head start to avoid merge conflict). With the CI from GitHub Actions, any translation was directly rendered to the website, that was directly shown in the LMS.\n\nThe website is also accessible for people who prefer to use it or that are outside of the organisation and cannot access the LMS.\n\nNOTE: we changed LMS during the process and it went almost smooth... For the Quarto part, it was just copying a link, the not smooth part was the differences between the LMS.\n\n#### URL or code snippet for your use case*\n[impact-initiatives/R-framework-with-IMPACT---how-to-use-the-tools: Introduction to the R framework website](https://github.com/impact-initiatives/R-framework-with-IMPACT---how-to-use-the-tools/)\n\n\n#### Image\n![image|690x224](upload://dNWp5NZk1YsESnM43PNXz2CK7DE.png)\n\n\n#### Sector\nnon-profit\n\n#### Field(s) of application \n\nhumanitarian, data pipeline\n\n#### Comments\n\nFor the CI, I used `renv` for environment management but I don't use babelquarto in course. I added a [local_render.R file](https://github.com/impact-initiatives/R-framework-with-IMPACT---how-to-use-the-tools/blob/4ee4211f4e1a07bae862df795783d75833b332e0/local_render.R). There is probably a better way.\n\nI think babelquarto uses the site-url from the yaml file. If I was putting it on the GitHub Pages, it was failing (I cannot remember exactly what was the problem, but I think when rendering in local). I have added a step in the [publish.yml](https://github.com/impact-initiatives/R-framework-with-IMPACT---how-to-use-the-tools/blob/4ee4211f4e1a07bae862df795783d75833b332e0/.github/workflows/publish.yml) to get the github pages adress and pass it in the render_website.\n\nVery nice feature, I am encouraging people to use it. This post is more about Quarto, GitHub and LMS but the `babelquarto` is like the cherry on the cake.\n\nI did not try `babeldown`. \n\n#### Mastodon profile link \nNot a Mastodon but bluesky if that work.\n@yannsay.bsky.social",
     "language": "English"
   },
   {

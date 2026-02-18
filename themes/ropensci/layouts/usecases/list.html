@@ -44,6 +44,7 @@
     <th>{{ i18n "Title"}}</th>
     <th>{{ i18n "Resource"}}</th>
     <th>{{ i18n "Date"}}</th>
+    <th>{{ i18n "Reporter"}}</th>
     <th>{{ i18n "Language"}}</th>
   </tr>
   </thead>
@@ -54,6 +55,7 @@
     <td><a href="{{ .url }}">{{ .title }}</a></td>
     <td>{{ with .resource }}{{ . | markdownify }} {{ end }} </td>
     <td>{{ .date }} </td>
+    <td>{{ .reporter | markdownify }} </td>
     <td>{{ .language }} </td>
   </tr>
       {{ end }} 

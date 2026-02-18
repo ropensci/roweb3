@@ -372,3 +372,6 @@
 
 [GitHub-Organizations]
   other = 'GitHub Organizations'
+
+[Reporter]
+  other = 'Reporter'

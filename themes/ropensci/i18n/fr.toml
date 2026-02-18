@@ -93,3 +93,6 @@
 [Contact]
   other = 'Contact'
   
+[Reporter]
+  other = 'Partagé par'
+  
