@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="section event-detail">
+  <div class="container bg-cubes">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="event-detail-date">
+          {{ i18n "Reported-on" }} {{ .Date | dateFormat ":date_medium" }}
+        </div>
+        <h1>{{ .Title | markdownify }}</h1>
+        <div class="event-detail-author">
+          <p><span class="ml-1">
+            {{ with .Params.reporter }}{{ i18n "By" }} {{ . | markdownify }}{{ end }}{{ with .Params.resource }} • {{ i18n "Featuring" }} {{ . | markdownify }}{{ end }}</span>
+          </p>
+        </div>
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

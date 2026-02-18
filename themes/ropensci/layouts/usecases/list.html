@@ -12,24 +12,25 @@
         </div>
 
         <div class="row case-cards mt-5">
-          {{ range (first 3 (shuffle (where .Site.Data.usecases.usecases ".image" "!=" "noimage"  )) ) }}
+          {{ range (first 3 (shuffle (where .Pages ".Params.image" "!=" nil))) }}
           <div class="col-md-4">
             <div class="case-card">
-              {{ $image := (print "usecases/" .image )}}
-              {{- $original := resources.Get $image -}}
-              {{ $image := $original.Fill "352x175" }}
-              <img src="{{ $image.RelPermalink }}" {{ with .alt }}alt="{{ . }}"{{ else }} alt=""{{ end }} />
+              {{ $img := .Resources.GetMatch .Params.image }}
+              {{ with $img }}
+              {{ $resized := .Fill "352x175" }}
+              <img src="{{ $resized.RelPermalink }}" alt="" />
+              {{ end }}
               <div class="case-card-body">
                 <div class="d-flex flex-wrap align-items-center">
-                  <a lang="{{ .language }}" href="{{ .url }}" class="case-title mr-2">{{ .title }}</a>
+                  <a lang="{{ .Params.language }}" href="{{ .RelPermalink }}" class="case-title mr-2">{{ .Title }}</a>
                 </div>
-                {{ with .resource }}
+                {{ with .Params.resource }}
                 <p class="mt-2 case-text">
-               {{ i18n "Featuring"}} {{ . | markdownify }}. 
+               {{ i18n "Featuring"}} {{ . | markdownify }}.
                 </p>
                  {{ end }}
                 <p class="mt-2 case-text">
-               {{ i18n "Reported-on"}} {{ .date }}. 
+               {{ i18n "Reported-on"}} {{ .Date | dateFormat ":date_medium" }}.
                 </p>
               </div>
             </div>
@@ -49,16 +50,15 @@
   </tr>
   </thead>
       <tbody>
-      {{ range .Site.Data.usecases.usecases }}
+      {{ range .Pages }}
    <tr>
-     
-    <td><a href="{{ .url }}">{{ .title }}</a></td>
-    <td>{{ with .resource }}{{ . | markdownify }} {{ end }} </td>
-    <td>{{ .date }} </td>
-    <td>{{ .reporter | markdownify }} </td>
-    <td>{{ .language }} </td>
+    <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+    <td>{{ with .Params.resource }}{{ . | markdownify }} {{ end }} </td>
+    <td>{{ .Date.Format "2006-01-02" }} </td>
+    <td>{{ with .Params.reporter }}{{ . | markdownify }} {{ end }} </td>
+    <td>{{ .Params.language }} </td>
   </tr>
-      {{ end }} 
+      {{ end }}
       </tbody>
       </table>
         </div>
