@@ -85,7 +85,6 @@ handle_discussion <- function(discussion) {
   reporter <- sprintf("[%s](%s)", reporter_name, discussion$user$html_url)
 
   date <- as.Date(discussion$created_at)
-
   list(
     title = title,
     reporter = reporter,
@@ -94,7 +93,8 @@ handle_discussion <- function(discussion) {
     image = fs::path_file(new_image_path),
     alt = alt,
     date = date,
-    language = language
+    language = language,
+    body = discussion$body
   )
 }
 

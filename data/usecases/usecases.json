@@ -1588,7 +1588,8 @@
     "image": "use-case-1.png",
     "alt": "Homepage of our babelquarto book.",
     "date": "2025-04-25",
-    "language": "English, Spanish"
+    "language": "English, Spanish",
+    "body": "### rOpenSci package or resource used\r\n\r\nbabelquarto\r\n\r\n### What did you do?\r\n\r\nWe use babelquarto to add multilingual support to the second edition of the book Teaching Tech Together (Enseñar tenología en comunidad, in Spanish).  \r\nThis second edition is still a work in progress, and we start with the text in Spanish and then translate to English.  Book website: https://teachingtechtogether.netlify.app/ \r\n\r\n\r\n### URL or code snippet for your use case\r\n\r\nhttps://github.com/yabellini/t3es2ed\r\n\r\n### Language of the use case\r\n\r\nEnglish, Spanish\r\n\r\n### Image\r\n\r\n![image](https://github.com/user-attachments/assets/70c684d4-27a6-4f26-9e24-53124363979c)\r\n\r\n## Alternative text\r\n\r\nHomepage of our babelquarto book.\r\n\r\n### Sector\r\n\r\nOther\r\n\r\n### Field of application\r\n\r\nEducation\r\n\r\n### Mastodon profile URL\r\n\r\nhttps://fosstodon.org/@yabellini\r\n\r\n### Bluesky profile URL\r\n\r\n_No response_\r\n\r\n### Comment\r\n\r\n_No response_"
   },
   {
     "title": "Enseñando datos espaciales vectoriales en R",
@@ -1598,7 +1599,8 @@
     "image": "use-case-2.png",
     "alt": "Mapa hecho con R.",
     "date": "2025-04-28",
-    "language": "Spanish"
+    "language": "Spanish",
+    "body": "### Paquete o recurso rOpenSci utilizado\r\n\r\nrnaturalearth\r\n\r\n### ¿Qué hiciste?\r\n\r\nDesarrolle una serie de lecciones para introducir a las personas al manejo de datos espaciales vectoriales en R y utilizo rnaturalearth en esa leccion para proveer limites politicos de paises. \r\n\r\n### URL o fragmento de código para su caso de uso\r\n\r\nhttps://yabellini.github.io/AgriRemoteSensing/02-r-spatial.html\r\n\r\n### Idioma del caso práctico\r\n\r\nEspañol\r\n\r\n### Imagen\r\n\r\n\r\n![](https://yabellini.github.io/AgriRemoteSensing/02-r-spatial_files/figure-html/unnamed-chunk-8-1.png)\r\n\r\n### Texto alternativo\r\n\r\nMapa hecho con R.\r\n\r\n### Sector\r\n\r\nAcademico\r\n\r\n### Ámbito de aplicación\r\n\r\nagricultura \r\n\r\n### URL de tu perfil en Mastodon\r\n\r\nhttps://rstats.me/@yabellini\r\n\r\n### URL de tu perfil en Bluesky\r\n\r\nhttps://bsky.app/profile/yabellini.bsky.social\r\n\r\n### Commentario\r\n\r\n_No response_"
   },
   {
     "title": "Automated generation of a taxonomic classification document",
@@ -1608,6 +1610,7 @@
     "image": "use-case-3.jpeg",
     "alt": "Screenshot showing taxonomic database as plain text CSV above, with and arrow pointing down. Below it is a screenshot of a webpage with a human readable version of the same data as a taxonomic classification scheme.",
     "date": "2025-06-13",
-    "language": "English"
+    "language": "English",
+    "body": "### rOpenSci package or resource used\r\n\r\ntaxlist, targets\r\n\r\n### What did you do?\r\n\r\nI import a taxonomic database of [ferns and lycophytes](https://pteridogroup.github.io/) in [Darwin Core format](https://docs.ropensci.org/dwctaxon/articles/what-is-dwc.html) into R, then use [taxlist](https://github.com/ropensci/taxlist) to help convert it into a human-readable classification. The code is automated using [targets](https://github.com/ropensci/targets) and runs as a cron-job once per day. Whenever the source data are updated, the workflow runs and pushes the final result (a Markdown file) to GitHub and updates the website.\r\n\r\n### URL or code snippet for your use case\r\n\r\nClassification: https://pteridogroup.github.io/ppg.html\r\nSource code: https://github.com/pteridogroup/ppg\r\n\r\n### Language of the use case\r\n\r\nEnglish\r\n\r\n### Image\r\n\r\n![case_study_img](https://github.com/user-attachments/assets/0f4b415c-3541-4631-8d9f-4c5b8d5b3800)\r\n\r\n\r\n### Alternative text\r\n\r\nScreenshot showing taxonomic database as plain text CSV above, with and arrow pointing down. Below it is a screenshot of a webpage with a human readable version of the same data as a taxonomic classification scheme.\r\n\r\n### Sector\r\n\r\nAcademic\r\n\r\n### Field of application\r\n\r\nTaxonomy\r\n\r\n### Mastodon profile URL\r\n\r\nhttps://fosstodon.org/@joelnitta\r\n\r\n### Bluesky profile URL\r\n\r\nhttps://bsky.app/profile/joelnitta.com\r\n\r\n### Comment\r\n\r\n_No response_"
   }
 ]
