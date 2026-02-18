@@ -10,10 +10,16 @@ make_slug <- function(title) {
     gsub("^-|-$", "", x = _)
 }
 
+created <- 0L
 for (i in seq_len(nrow(usecases))) {
   uc <- usecases[i, ]
   slug <- make_slug(uc$title)
   dir <- file.path("content", "usecases", slug)
+
+  # Skip if page already exists
+  if (file.exists(file.path(dir, "index.md"))) next
+
+  created <- created + 1L
   fs::dir_create(dir)
 
   # Build front matter
@@ -87,4 +93,4 @@ for (i in seq_len(nrow(usecases))) {
   }
 }
 
-message("Generated ", nrow(usecases), " use case pages")
+message("Created ", created, " new use case pages (", nrow(usecases) - created, " already existed)")
