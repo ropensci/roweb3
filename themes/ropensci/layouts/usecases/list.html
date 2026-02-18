@@ -1,4 +1,14 @@
 {{ define "main" }}
+{{ $pages := .Pages }}
+{{ if ne .Language.Lang "en" }}
+  {{ with where .Site.Sites "Language.Lang" "eq" "en" }}
+    {{ with index . 0 }}
+      {{ with .GetPage "usecases" }}
+        {{ $pages = .Pages }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
  <section class="section section-generic">
       <div class="container">
         <!-- Header text -->
@@ -12,7 +22,7 @@
         </div>
 
         <div class="row case-cards mt-5">
-          {{ range (first 3 (shuffle (where .Pages ".Params.image" "!=" nil))) }}
+          {{ range (first 3 (shuffle (where $pages ".Params.image" "!=" nil))) }}
           <div class="col-md-4">
             <div class="case-card">
               {{ $img := .Resources.GetMatch .Params.image }}
@@ -50,7 +60,7 @@
   </tr>
   </thead>
       <tbody>
-      {{ range .Pages }}
+      {{ range $pages }}
    <tr>
     <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
     <td>{{ with .Params.resource }}{{ . | markdownify }} {{ end }} </td>
