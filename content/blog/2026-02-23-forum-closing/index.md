@@ -24,6 +24,7 @@ and while we still needed to review potential spam and pay for our subscription.
 
 Now, this does not mean we're putting our community building aside or behind a wall!
 Your contributions to our [R packages](/help-wanted), [infrastructure](/r-universe), [use cases](/use-cases), projects such as the [champions program](/champions) and [software-review](/software-review), are still welcome!
+You can meet with us at [events](/events) including [coworking](/coworking) and [community calls](/commcalls).
 You can also reach us at `info@ropensci.org` and check out our [contributing guide](https://contributing.ropensci.org).
 And to hear from us, subscribe to our RSS feed or our [newsletter](/news)!
 
