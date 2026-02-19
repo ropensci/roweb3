@@ -271,7 +271,7 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
     * If you are a member of the rOpenSci team on Netlify, use the Netlify interface to re-trigger a deploy.
     * Alternatively make an empty commit `git commit -m "trigger deploy" --allow-empty` and push.
 
-* The website depends on the package registry (for packages pages, and for the search index: https://ropensci.r-universe.dev/api/packages/) and on the citations JSON files that are hosted on GitHub pages. Therefore if GitHub pages is down see https://www.githubstatus.com/, the website can't be build. GitHub Pages often isn't down for long. Now if it is down for too long, 
+* The website depends on R-universe (for packages pages, and for the search index: https://ropensci.r-universe.dev/api/packages/) and on the citations JSON files that are hosted on GitHub pages. Therefore if GitHub pages is down see https://www.githubstatus.com/, the website can't be build. GitHub Pages often isn't down for long. Now if it is down for too long, 
 
 * Take https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json(hopefully GitHub itself isn't down) and save it in a local folder `hack`. Drag and drop this folder to create a [new site in Netlify](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
 In `config.toml` change
