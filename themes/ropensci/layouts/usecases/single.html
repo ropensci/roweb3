@@ -13,8 +13,25 @@
           </p>
         </div>
         <div class="content">
+          <div class="alert alert-info" role="alert">
+If you reported this use case and want to modify or remove it, use the "Suggest an edit" link in the sidebar
+to open a GitHub pull request, or <a href="/contact">contact us</a>!
+          </div>
           {{ .Content }}
         </div>
+      </div>
+      <div class="col-lg-3 pl-4 d-print-none">
+      <div class="field-under mt-4">
+        <span>{{ i18n "Share" }}</span>
+        {{ partial "mastodon/share-link" . }}
+        {{ partial "linkedin/share-link" . }}
+        {{ partial "bluesky/share-link" . }}
+        {{ partial "email/share-link" . }}
+      </div>
+      <div class="field-under mt-4">
+        <span>{{ i18n "Suggest-an-edit" }}</span>
+        <a href="{{ partial "edit-link/edit-link" . }}" class="link mt-2">{{ i18n "open-pr" }} <i class="fas fa-external-link-alt"></i></a>
+      </div>
       </div>
     </div>
   </div>
