@@ -121,4 +121,4 @@ DefaultContentLanguage = "en"
   [caches.getjson]
     maxAge = "300s"
   [caches.getresource]
-    maxAge = 0
+    maxAge = "300s"
