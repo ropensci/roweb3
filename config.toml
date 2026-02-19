@@ -58,6 +58,8 @@ DefaultContentLanguage = "en"
     events = ["events", "commcalls"]
     githubsource = "https://github.com/ropensci/roweb3/blob/main/content/"
     registry = "https://ropensci.r-universe.dev/api/packages/"
+    communitymultiverse = "https://community.r-multiverse.org/api/packages/"
+    stagingmultiverse = "https://staging.r-multiverse.org/api/packages/"
     citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
 
  
@@ -118,3 +120,5 @@ DefaultContentLanguage = "en"
 [caches]
   [caches.getjson]
     maxAge = "300s"
+  [caches.getresource]
+    maxAge = 0

@@ -1,19 +1,27 @@
-{{ if (or ( ne .package.type "archived" ) ( or ( ne .package.onboarding "") ( eq .package.staff_maintained true ) )) }}
+{{ if ( ne .package.type "archived" ) }}
 <div class="category-card row align-items-center" data-status="{{ .package.type | default (partial "packages/default-type" .) }}" data-keywords="{{ .package._topics }}" id="{{ .package.Package }}">
   <div class="col-md-8 offset-lg-1">
     <div class="category-card__heading">
       <div class="d-flex align-items-center flex-wrap">
         <div class="category-card__title">{{ .package.Package }}</div>
         {{ if eq .package._cranurl true }}
-        <a href="https://CRAN.R-project.org/package={{ .package.name }}" class="category-card__tag is-teal">CRAN</a>
+        <a href="https://CRAN.R-project.org/package={{ .package.Package }}" class="category-card__tag is-teal">CRAN</a>
         {{ end }}
-        {{ if eq .package.on_bioc true }}
-        <a href="https://bioconductor.org/packages/{{ .package.name }}" class="category-card__tag is-teal">Bioconductor</a>
+        {{ if isset .package "_bioc" }}
+        <a href="https://bioconductor.org/packages/{{ .package.Package }}" class="category-card__tag is-teal">Bioconductor</a>
+        {{ end }}
+        {{ $communitymultiverse := where .communitymultiverse "Package" "eq" .package.Package }}
+        {{ if gt (len $communitymultiverse) 0 }}
+        <a href="https://r-multiverse.org/status/community/{{ .package.Package }}.html" class="category-card__tag is-teal">R-multiverse (community)</a>
+        {{ end }}
+        {{ $stagingmultiverse := where .stagingmultiverse "Package" "eq" .package.Package }}
+        {{ if gt (len $stagingmultiverse) 0 }}
+        <a href="https://r-multiverse.org/status/staging/{{ .package.Package }}.html" class="category-card__tag is-teal">R-multiverse (staging)</a>
         {{ end }}
         {{ if isset .package._metadata "review" }}
         <a href="{{ .package._metadata.review.url }}" class="category-card__tag is-linear">Peer-reviewed</a>
         {{ end }}
-        {{ if eq .package.staff_maintained true }}
+        {{ if eq (index .package "Config/ropensci/maintainer" ) "staff" }}
         <a href="/about/#team" class="category-card__tag is-maintain">Staff maintained</a>
         {{ end }}
       </div>
@@ -36,12 +44,13 @@
       {{ .package.Description | replaceRE "\\'(.*?)\\'" "$1" | replaceRE "<doi:(.*?)>" "[doi:$1](https://doi.org/$1)"  | replaceRE "<arXiv(.*?)>" "[arXiv:$1](https://arxiv.org/abs/$1)"  | markdownify }}
     </p>
     {{ if ne .package.type "archived" }}
-    <a class="btn btn-linear" href="https://docs.ropensci.org/{{ .package.name }}">View Documentation</a>
+    <a class="btn btn-linear" href="https://docs.ropensci.org/{{ .package.Package }}">View Documentation</a>
     {{ else }}
     <a class="btn btn-linear" href="{{ .package.url }}">View Source</a>
     {{ end }}
     <br/>
-    {{ with .citations }}
+    {{ $pkgcitations := where .citations "name" "intersect" (slice .package.Package) }}
+    {{ with $pkgcitations }}
     <strong>Scientific use cases</strong>
     <ol>
       {{ range . }}

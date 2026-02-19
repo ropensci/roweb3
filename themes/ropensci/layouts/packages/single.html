@@ -1,6 +1,8 @@
 {{ define "main" }}
 {{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
 {{ $citations := (resources.GetRemote .Site.Params.citations) | unmarshal }}
+{{ $communitymultiverse := (resources.GetRemote .Site.Params.communitymultiverse) | unmarshal }}
+{{ $stagingmultiverse := (resources.GetRemote .Site.Params.stagingmultiverse) | unmarshal }}
 {{ $Scratch := newScratch }}
 <section class="section section-category">
   <div class="container bg-cubes">
@@ -41,15 +43,13 @@
             </div>
             <div class="col-md-12 order-2 order-md-3 order-1 order-md-1">
               <div class="category-cards">
-                {{ $pkgcitations := $citations }}
                 {{ if eq .Params.slug "all" }}
                 {{ $Scratch.Set "pkgs" (sort $registry "_published" "desc" ) }}
                 {{ else }}
                 {{ $Scratch.Set "pkgs" (sort ( where ($registry) "_metadata.ropensci_category" .Params.slug ) "date_last_commit" "desc" ) }}
                 {{ end }}
                 {{ range ($Scratch.Get "pkgs") }}
-                  {{ $Scratch.Set "citations" (where ($citations) "name" "intersect" (slice .name )) }}
-                  {{ partial "packages/package-card" (dict "package" . "citations" ( $Scratch.Get "citations")) }}
+                {{ partial "packages/package-card" (dict "package" . "citations" $citations "communitymultiverse" $communitymultiverse "stagingmultiverse" $stagingmultiverse ) }}
                 {{ end }}
       </div>
       </div>
