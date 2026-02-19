@@ -6,11 +6,11 @@ author:
 date: '2026-02-17'
 tags:
   - newsletter
-description: Open call for the rOpenSci Champions Program 2026, 2025 wrap-up, coworking, new package, package news
+description: coworking, new package, package news
 params:
   last_newsletter: '2026-01-29'
   doi: "10.59350/fe3c2-6zc80"
-rmd_hash: 937ffbad8a3f3638
+rmd_hash: 4ba6b0c28e9c5605
 
 ---
 
@@ -56,7 +56,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following nine packages have had an update since the last newsletter: [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.2`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.2)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.2.1`](https://github.com/ropensci/dbparser/releases/tag/v2.2.1)), [mantis](https://docs.ropensci.org/mantis "Multiple Time Series Scanner") ([`v1.0.2`](https://github.com/ropensci/mantis/releases/tag/v1.0.2)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.5`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.5)), [rangr](https://docs.ropensci.org/rangr "Mechanistic Simulation of Species Range Dynamics") ([`v1.0.9`](https://github.com/ropensci/rangr/releases/tag/v1.0.9)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.14.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.14.0)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.12.0`](https://github.com/ropensci/targets/releases/tag/1.12.0)), [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`1.0.0`](https://github.com/ropensci/tidyhydat/releases/tag/1.0.0)), and [wikitaxa](https://docs.ropensci.org/wikitaxa "Taxonomic Information from Wikipedia") ([`v0.5.0`](https://github.com/ropensci/wikitaxa/releases/tag/v0.5.0)).
+The following ten packages have had an update since the last newsletter: [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.2`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.12.0`](https://github.com/ropensci/targets/releases/tag/1.12.0)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.5`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.5)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.2.1`](https://github.com/ropensci/dbparser/releases/tag/v2.2.1)), [taxize](https://docs.ropensci.org/taxize "Taxonomic Information from Around the Web") ([`v0.10.1`](https://github.com/ropensci/taxize/releases/tag/v0.10.1)), [rangr](https://docs.ropensci.org/rangr "Mechanistic Simulation of Species Range Dynamics") ([`v1.0.9`](https://github.com/ropensci/rangr/releases/tag/v1.0.9)), [wikitaxa](https://docs.ropensci.org/wikitaxa "Taxonomic Information from Wikipedia") ([`v0.5.0`](https://github.com/ropensci/wikitaxa/releases/tag/v0.5.0)), [mantis](https://docs.ropensci.org/mantis "Multiple Time Series Scanner") ([`v1.0.2`](https://github.com/ropensci/mantis/releases/tag/v1.0.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.14.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.14.0)), and [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`1.0.0`](https://github.com/ropensci/tidyhydat/releases/tag/1.0.0)).
 
 Post on dfms release: [Releasing dfms 1.0: Fast and Feature-Rich Estimation of Dynamic Factor Models in R](https://sebkrantz.github.io/Rblog/2026/01/29/releasing-dfms-1-0-fast-and-feature-rich-estimation-of-dynamic-factor-models-in-r/).
 
