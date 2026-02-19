@@ -1,15 +1,15 @@
 [{{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
 {{ $Scratch := newScratch }}
 {{ if eq .Params.slug "all" }}
-{{ $Scratch.Set "pkgs" $registry.packages }}
+{{ $Scratch.Set "pkgs" $registry }}
 {{ else }}
-{{ $Scratch.Set "pkgs" ( where ($registry.packages) "ropensci_category" .Params.slug ) }}
+{{ $Scratch.Set "pkgs" ( where ($registry) "_metadata.ropensci_category" .Params.slug ) }}
 {{ end }}
 {{ $len := (len ($Scratch.Get "pkgs"))}}
 {{ range $key, $value := ($Scratch.Get "pkgs") }}
-{{ $maintainer := partial "accents/remove" (dict "string" $value.maintainer "Site" site )  }}
-{{ $details := partial "accents/remove" (dict "string" $value.details "Site" site )  }}
-{{ $keywords := partial "accents/remove" (dict "string" $value.keywords "Site" site )  }}
- {{ dict "name" $value.name "maintainer" $maintainer "description" $value.description "details" $details "keywords" $keywords |  jsonify }}
+{{ $maintainer := partial "accents/remove" (dict "string" ($value.Maintainer | replaceRE " <.*" "") "Site" site )  }}
+{{ $details := partial "accents/remove" (dict "string" $value.Description "Site" site )  }}
+{{ $keywords := partial "accents/remove" (dict "string" ( delimit ( default $value._topics (slice "" ) ) "," ) "Site" site )  }}
+ {{ dict "name" $value.Package "maintainer" $maintainer "description" $value.Title "details" $details "keywords" $keywords |  jsonify }}
  {{ if (lt $key ( sub $len 1 ) )}}, {{ end }}
  {{ end }}]
