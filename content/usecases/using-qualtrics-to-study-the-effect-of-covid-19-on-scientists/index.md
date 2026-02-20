@@ -4,7 +4,7 @@ reporter: "Wei Yang Tham"
 date: 2020-06-21
 resource: "[qualtRics](https://docs.ropensci.org/qualtRics)"
 original_url: "https://discuss.ropensci.org/t/using-qualtrics-to-study-the-effect-of-covid-19-on-scientists/2143"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

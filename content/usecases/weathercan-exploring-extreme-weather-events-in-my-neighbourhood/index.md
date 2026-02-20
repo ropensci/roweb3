@@ -5,7 +5,7 @@ date: 2019-03-27
 image: weathercan-exploring-extreme-weather-events-in-my-neighbourhood.png
 resource: "[weathercan](https://docs.ropensci.org/weathercan)"
 original_url: "https://discuss.ropensci.org/t/weathercan-exploring-extreme-weather-events-in-my-neighbourhood/1630"
-language: English
+language: [English]
 ---
 
 #### rOpenSci Package used

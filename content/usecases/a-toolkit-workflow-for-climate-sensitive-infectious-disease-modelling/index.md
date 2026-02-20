@@ -4,7 +4,7 @@ reporter: "Raphael Saldanha"
 date: 2023-10-05
 resource: "[targets](https://docs.ropensci.org/targets), [tarchetypes](https://docs.ropensci.org/tarchetypes)"
 original_url: "https://discuss.ropensci.org/t/a-toolkit-workflow-for-climate-sensitive-infectious-disease-modelling/3659"
-language: English
+language: [English]
 ---
 
 Statistical modelling of Climate-Sensitive Infectious Disease (CSID) usually requires commons steps to harmonize and make compatible data from epidemiology and climate. Different teams do similar procedures in order to reach similar results for this purpose. But the actual coding of these steps involve lots of apparently small choices and details that, in the end, produce results very different and not directly comparable.

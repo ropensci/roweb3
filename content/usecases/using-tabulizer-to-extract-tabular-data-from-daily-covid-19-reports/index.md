@@ -4,7 +4,7 @@ reporter: "Steffi LaZerte"
 date: 2021-06-07
 resource: "tabulizer"
 original_url: "https://discuss.ropensci.org/t/using-tabulizer-to-extract-tabular-data-from-daily-covid-19-reports/2487"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

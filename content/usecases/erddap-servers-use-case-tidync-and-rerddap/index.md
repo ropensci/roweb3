@@ -5,7 +5,7 @@ date: 2019-11-07
 image: erddap-servers-use-case-tidync-and-rerddap.jpeg
 resource: "rerddap and tidync"
 original_url: "https://discuss.ropensci.org/t/erddap-servers-use-case-tidync-and-rerddap/1869"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

@@ -5,7 +5,7 @@ date: 2024-07-16
 image: translating-carpentries-workbench-lessons-with-babeldown.png
 resource: "The babeldown R package"
 original_url: "https://discuss.ropensci.org/t/translating-carpentries-workbench-lessons-with-babeldown/3960"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

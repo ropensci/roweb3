@@ -5,7 +5,7 @@ date: 2021-11-30
 image: evaluating-semi-parametric-nowcasts-of-covid-19-hospital-admissions-in-germany.jpeg
 resource: "[targets](https://docs.ropensci.org/targets), [piggyback](https://docs.ropensci.org/piggyback)"
 original_url: "https://discuss.ropensci.org/t/evaluating-semi-parametric-nowcasts-of-covid-19-hospital-admissions-in-germany/2715"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

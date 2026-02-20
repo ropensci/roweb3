@@ -5,7 +5,7 @@ date: 2021-09-07
 image: slicing-an-image-with-magick-for-artistic-effect.jpeg
 resource: "[magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/slicing-an-image-with-magick-for-artistic-effect/2609"
-language: English
+language: [English]
 ---
 
 

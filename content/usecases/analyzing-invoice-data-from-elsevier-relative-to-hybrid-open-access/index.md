@@ -4,7 +4,7 @@ reporter: "Najko Jahn"
 date: 2019-11-25
 resource: "[rcrossref](https://docs.ropensci.org/rcrossref), crminer, tabulizer"
 original_url: "https://discuss.ropensci.org/t/analyzing-invoice-data-from-elsevier-relative-to-hybrid-open-access/1887"
-language: English
+language: [English]
 ---
 
 #### Package or resource used

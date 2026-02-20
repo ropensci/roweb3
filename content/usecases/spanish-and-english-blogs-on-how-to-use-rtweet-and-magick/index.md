@@ -5,7 +5,7 @@ date: 2020-08-01
 image: spanish-and-english-blogs-on-how-to-use-rtweet-and-magick.png
 resource: "rtweet, [magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

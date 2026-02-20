@@ -4,7 +4,7 @@ reporter: "Steffi LaZerte"
 date: 2020-06-17
 resource: "[DataPackageR](https://docs.ropensci.org/DataPackageR)"
 original_url: "https://discuss.ropensci.org/t/using-datapackager-to-create-data-package-pandemic-papers-with-chris-knox/2131"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

@@ -9,7 +9,7 @@
         <h1>{{ .Title | markdownify }}</h1>
         <div class="event-detail-author">
           <p><span class="ml-1">
-            {{ with .Params.reporter }}{{ i18n "By" }} {{ . | markdownify }}{{ end }}{{ with .Params.resource }} • {{ i18n "Featuring" }} {{ . | markdownify }}{{ end }}</span>
+            {{ range .Params.language }}{{ T . }} {{ end }} • {{ with .Params.reporter }}{{ i18n "By" }} {{ . | markdownify }}{{ end }}{{ with .Params.resource }} • {{ i18n "Featuring" }} {{ . | markdownify }}{{ end }}</span>
           </p>
         </div>
         <div class="content">

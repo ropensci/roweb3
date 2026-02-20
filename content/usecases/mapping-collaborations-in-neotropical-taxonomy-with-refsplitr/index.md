@@ -5,7 +5,7 @@ date: 2021-02-06
 image: mapping-collaborations-in-neotropical-taxonomy-with-refsplitr.png
 resource: "[refsplitr](https://docs.ropensci.org/refsplitr)"
 original_url: "https://discuss.ropensci.org/t/mapping-collaborations-in-neotropical-taxonomy-with-refsplitr/2353"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

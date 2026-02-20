@@ -5,7 +5,7 @@ date: 2023-11-01
 image: targets-and-other-tools-to-make-college-comparison-website.jpeg
 resource: "The {targets} R package user manual for the targets and tarchetypes packages"
 original_url: "https://discuss.ropensci.org/t/targets-and-other-tools-to-make-college-comparison-website/3680"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

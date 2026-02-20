@@ -5,7 +5,7 @@ date: 2020-05-05
 image: visualize-covid19-cases-using-rnaturalearth-package.jpeg
 resource: "[rnaturalearth](https://docs.ropensci.org/rnaturalearth)"
 original_url: "https://discuss.ropensci.org/t/visualize-covid19-cases-using-rnaturalearth-package/2058"
-language: English
+language: [English]
 ---
 
 

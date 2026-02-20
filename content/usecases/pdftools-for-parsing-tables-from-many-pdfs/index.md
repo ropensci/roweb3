@@ -5,7 +5,7 @@ date: 2020-03-31
 image: pdftools-for-parsing-tables-from-many-pdfs.png
 resource: "[pdftools](https://docs.ropensci.org/pdftools)"
 original_url: "https://discuss.ropensci.org/t/pdftools-for-parsing-tables-from-many-pdfs/2018"
-language: English
+language: [English]
 ---
 
 

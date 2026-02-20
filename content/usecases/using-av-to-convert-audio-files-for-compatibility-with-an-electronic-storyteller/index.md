@@ -4,7 +4,7 @@ reporter: "Maëlle Salmon"
 date: 2020-12-10
 resource: "[av](https://docs.ropensci.org/av)"
 original_url: "https://discuss.ropensci.org/t/using-av-to-convert-audio-files-for-compatibility-with-an-electronic-storyteller/2281"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

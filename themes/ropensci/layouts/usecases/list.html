@@ -66,7 +66,7 @@
     <td>{{ with .Params.resource }}{{ . | markdownify }} {{ end }} </td>
     <td>{{ .Date.Format "2006-01-02" }} </td>
     <td>{{ with .Params.reporter }}{{ . | markdownify }} {{ end }} </td>
-    <td>{{ .Params.language }} </td>
+    <td>{{ range .Params.language }}{{ T . }} {{ end }}</td>
   </tr>
       {{ end }}
       </tbody>

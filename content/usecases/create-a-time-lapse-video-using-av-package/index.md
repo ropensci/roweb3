@@ -5,7 +5,7 @@ date: 2020-06-08
 image: create-a-time-lapse-video-using-av-package.jpeg
 resource: "[av](https://docs.ropensci.org/av)"
 original_url: "https://discuss.ropensci.org/t/create-a-time-lapse-video-using-av-package/2117"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

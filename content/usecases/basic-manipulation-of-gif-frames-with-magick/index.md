@@ -4,7 +4,7 @@ reporter: "Kenneth Tay"
 date: 2020-08-13
 resource: "[magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/basic-manipulation-of-gif-frames-with-magick/2192"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

@@ -5,7 +5,7 @@ date: 2022-11-10
 image: adding-missing-exif-data-to-wildlife-trail-camera-images.jpeg
 resource: "[magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/adding-missing-exif-data-to-wildlife-trail-camera-images/3203"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

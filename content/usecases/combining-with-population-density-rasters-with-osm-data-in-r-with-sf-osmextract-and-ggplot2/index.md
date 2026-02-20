@@ -4,7 +4,7 @@ reporter: "Aditya Dahiya"
 date: 2025-03-01
 resource: "[osmextract](https://docs.ropensci.org/osmextract)"
 original_url: "https://discuss.ropensci.org/t/combining-with-population-density-rasters-with-osm-data-in-r-with-sf-osmextract-and-ggplot2/4182"
-language: English
+language: [English]
 ---
 
 

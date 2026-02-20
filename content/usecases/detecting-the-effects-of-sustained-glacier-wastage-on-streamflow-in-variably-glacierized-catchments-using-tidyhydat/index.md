@@ -5,7 +5,7 @@ date: 2020-05-25
 image: detecting-the-effects-of-sustained-glacier-wastage-on-streamflow-in-variably-glacierized-catchments-using-tidyhydat.jpeg
 resource: "[tidyhydat](https://docs.ropensci.org/tidyhydat)"
 original_url: "https://discuss.ropensci.org/t/detecting-the-effects-of-sustained-glacier-wastage-on-streamflow-in-variably-glacierized-catchments-using-tidyhydat/2095"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

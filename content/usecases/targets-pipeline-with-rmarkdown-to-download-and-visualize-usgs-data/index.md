@@ -5,7 +5,7 @@ date: 2021-07-26
 image: targets-pipeline-with-rmarkdown-to-download-and-visualize-usgs-data.png
 resource: "[targets](https://docs.ropensci.org/targets)"
 original_url: "https://discuss.ropensci.org/t/targets-pipeline-with-rmarkdown-to-download-and-visualize-usgs-data/2559"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

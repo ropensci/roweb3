@@ -5,7 +5,7 @@ date: 2025-03-01
 image: visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract.jpeg
 resource: "[osmextract](https://docs.ropensci.org/osmextract)"
 original_url: "https://discuss.ropensci.org/t/visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract/4181"
-language: English
+language: [English]
 ---
 
 

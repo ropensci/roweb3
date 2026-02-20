@@ -5,7 +5,7 @@ date: 2021-03-25
 image: teaching-an-introduction-to-workflow-management-using-drake.png
 resource: "[drake](https://docs.ropensci.org/drake)"
 original_url: "https://discuss.ropensci.org/t/teaching-an-introduction-to-workflow-management-using-drake/2407"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

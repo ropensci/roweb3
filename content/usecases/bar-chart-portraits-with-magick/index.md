@@ -5,7 +5,7 @@ date: 2020-08-23
 image: bar-chart-portraits-with-magick.png
 resource: "[magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/bar-chart-portraits-with-magick/2197"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

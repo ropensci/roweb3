@@ -4,7 +4,7 @@ reporter: "Kim Fitter"
 date: 2019-05-30
 resource: "[osmdata](https://docs.ropensci.org/osmdata)"
 original_url: "https://discuss.ropensci.org/t/osmdata-use-case-bicycle-network-analysis-of-auckland/1721"
-language: English
+language: [English]
 ---
 
 #### Package or resource used*

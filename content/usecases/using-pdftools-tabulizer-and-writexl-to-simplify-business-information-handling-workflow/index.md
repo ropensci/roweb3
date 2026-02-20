@@ -4,7 +4,7 @@ reporter: "David Hood"
 date: 2019-08-27
 resource: "[pdftools](https://docs.ropensci.org/pdftools), tabulizer, [writexl](https://docs.ropensci.org/writexl)"
 original_url: "https://discuss.ropensci.org/t/using-pdftools-tabulizer-and-writexl-to-simplify-business-information-handling-workflow/1815"
-language: English
+language: [English]
 ---
 
 Providing a script for a workflow to liberate the contents of PDFs

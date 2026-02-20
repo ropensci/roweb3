@@ -5,7 +5,7 @@ date: 2021-01-21
 image: getting-and-plotting-weather-and-climate-data.png
 resource: "[weathercan](https://docs.ropensci.org/weathercan)"
 original_url: "https://discuss.ropensci.org/t/getting-and-plotting-weather-and-climate-data/2320"
-language: English
+language: [English]
 ---
 
 

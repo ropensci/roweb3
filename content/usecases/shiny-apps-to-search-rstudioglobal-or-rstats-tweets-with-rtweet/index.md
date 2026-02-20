@@ -4,7 +4,7 @@ reporter: "Sharon Machlis"
 date: 2021-01-25
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/shiny-apps-to-search-rstudioglobal-or-rstats-tweets-with-rtweet/2324"
-language: English
+language: [English]
 ---
 
 

@@ -4,7 +4,7 @@ reporter: "jlaw"
 date: 2021-05-11
 resource: "[RSelenium](https://docs.ropensci.org/RSelenium)"
 original_url: "https://discuss.ropensci.org/t/scraping-google-play-reviews-with-rselenium/2449"
-language: English
+language: [English]
 ---
 
 

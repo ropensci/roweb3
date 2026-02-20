@@ -4,7 +4,7 @@ reporter: "Maëlle Salmon"
 date: 2019-05-29
 resource: "[bib2df](https://docs.ropensci.org/bib2df)"
 original_url: "https://discuss.ropensci.org/t/using-bib2df-to-parse-the-r-journal-archives/1718"
-language: English
+language: [English]
 ---
 
 #### Package or resource used*

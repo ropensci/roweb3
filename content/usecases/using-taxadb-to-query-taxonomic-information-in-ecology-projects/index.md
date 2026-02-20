@@ -5,7 +5,7 @@ date: 2020-04-27
 image: using-taxadb-to-query-taxonomic-information-in-ecology-projects.png
 resource: "[taxadb](https://docs.ropensci.org/taxadb)"
 original_url: "https://discuss.ropensci.org/t/using-taxadb-to-query-taxonomic-information-in-ecology-projects/2046"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

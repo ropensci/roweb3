@@ -5,7 +5,7 @@ date: 2020-07-21
 image: creating-a-self-updating-github-readme-using-rtweet-and-github-actions.jpeg
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/creating-a-self-updating-github-readme-using-rtweet-and-github-actions/2181"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

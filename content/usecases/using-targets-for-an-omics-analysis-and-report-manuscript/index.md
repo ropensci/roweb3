@@ -5,7 +5,7 @@ date: 2023-06-26
 image: using-targets-for-an-omics-analysis-and-report-manuscript.png
 resource: "[targets](https://docs.ropensci.org/targets)"
 original_url: "https://discuss.ropensci.org/t/using-targets-for-an-omics-analysis-and-report-manuscript/3541"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

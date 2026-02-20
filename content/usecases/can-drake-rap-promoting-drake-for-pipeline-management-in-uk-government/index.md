@@ -4,7 +4,7 @@ reporter: "Matt Dray"
 date: 2019-10-02
 resource: "{drake}"
 original_url: "https://discuss.ropensci.org/t/can-drake-rap-promoting-drake-for-pipeline-management-in-uk-government/1841"
-language: English
+language: [English]
 ---
 
 #### Package or resource used

@@ -4,7 +4,7 @@ reporter: "Danielle Navarro"
 date: 2021-02-01
 resource: "[gert](https://docs.ropensci.org/gert)"
 original_url: "https://discuss.ropensci.org/t/use-gert-to-scan-all-git-repos-in-a-directory/2332"
-language: English
+language: [English]
 ---
 
 

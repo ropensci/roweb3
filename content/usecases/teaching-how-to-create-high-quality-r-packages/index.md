@@ -5,7 +5,7 @@ date: 2019-08-05
 image: teaching-how-to-create-high-quality-r-packages.png
 resource: "[rOpenSci package development guide book](https://devguide.ropensci.org)"
 original_url: "https://discuss.ropensci.org/t/teaching-how-to-create-high-quality-r-packages/1793"
-language: English
+language: [English]
 ---
 
 #### Package or resource used*

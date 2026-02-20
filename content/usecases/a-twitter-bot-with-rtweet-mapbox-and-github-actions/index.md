@@ -5,7 +5,7 @@ date: 2020-09-25
 image: a-twitter-bot-with-rtweet-mapbox-and-github-actions.jpeg
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/a-twitter-bot-with-rtweet-mapbox-and-github-actions/2223"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

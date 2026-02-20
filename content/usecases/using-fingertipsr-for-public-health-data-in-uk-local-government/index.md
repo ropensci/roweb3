@@ -5,7 +5,7 @@ date: 2019-07-17
 image: using-fingertipsr-for-public-health-data-in-uk-local-government.png
 resource: "fingertipsR by Sebastian Fox"
 original_url: "https://discuss.ropensci.org/t/using-fingertipsr-for-public-health-data-in-uk-local-government/1780"
-language: English
+language: [English]
 ---
 
 #### Package used

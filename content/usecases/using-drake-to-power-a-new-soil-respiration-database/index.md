@@ -5,7 +5,7 @@ date: 2019-05-04
 image: using-drake-to-power-a-new-soil-respiration-database.png
 resource: "[drake](https://docs.ropensci.org/drake)"
 original_url: "https://discuss.ropensci.org/t/using-drake-to-power-a-new-soil-respiration-database/1692"
-language: English
+language: [English]
 ---
 
 #### Package or resource used*

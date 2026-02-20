@@ -4,7 +4,7 @@ reporter: "Augustus Pendleton"
 date: 2020-06-25
 resource: "[pdftools](https://docs.ropensci.org/pdftools)"
 original_url: "https://discuss.ropensci.org/t/filtering-pdfs-using-regex-in-their-body/2150"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

@@ -5,7 +5,7 @@ date: 2019-08-08
 image: use-of-r-package-review-guidelines-in-independent-manuscript-review.jpeg
 resource: "[rOpenSci package development guide book](https://devguide.ropensci.org)"
 original_url: "https://discuss.ropensci.org/t/use-of-r-package-review-guidelines-in-independent-manuscript-review/1795"
-language: English
+language: [English]
 ---
 
 #### Package or resource used

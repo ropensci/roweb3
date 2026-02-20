@@ -5,7 +5,7 @@ date: 2019-10-29
 image: tidyhydat-and-weathercan-webinar.jpeg
 resource: "[tidyhydat](https://docs.ropensci.org/tidyhydat), [weathercan](https://docs.ropensci.org/weathercan), hydrology task view"
 original_url: "https://discuss.ropensci.org/t/tidyhydat-and-weathercan-webinar/1858"
-language: English
+language: [English]
 ---
 
 I hope this is approximately what is intended here:

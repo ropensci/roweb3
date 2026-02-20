@@ -5,7 +5,7 @@ date: 2025-04-25
 image: use-case-1.png
 resource: "babelquarto"
 original_url: "https://github.com/yabellini/t3es2ed"
-language: English, Spanish
+language: [English, Spanish]
 ---
 
 ### rOpenSci package or resource used
@@ -22,17 +22,11 @@ This second edition is still a work in progress, and we start with the text in S
 
 https://github.com/yabellini/t3es2ed
 
-### Language of the use case
-
-English, Spanish
 
 ### Image
 
-![image](https://github.com/user-attachments/assets/70c684d4-27a6-4f26-9e24-53124363979c)
+{{< figure src= "use-case-1.png" alt="Homepage of our babelquarto book" >}}
 
-## Alternative text
-
-Homepage of our babelquarto book.
 
 ### Sector
 

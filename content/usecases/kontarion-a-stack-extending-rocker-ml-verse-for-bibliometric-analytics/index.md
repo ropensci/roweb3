@@ -4,7 +4,7 @@ reporter: "Markus Skyttner"
 date: 2020-09-15
 resource: "[oai](https://docs.ropensci.org/oai), [rentrez](https://docs.ropensci.org/rentrez), fulltext, [europepmc](https://docs.ropensci.org/europepmc), [refsplitr](https://docs.ropensci.org/refsplitr), [rcrossref](https://docs.ropensci.org/rcrossref), [citecorp](https://docs.ropensci.org/citecorp), [roadoi](https://docs.ropensci.org/roadoi)"
 original_url: "https://discuss.ropensci.org/t/kontarion-a-stack-extending-rocker-ml-verse-for-bibliometric-analytics/2214"
-language: English
+language: [English]
 ---
 
 The larger use case for Kontarion is to support developing and deploying Bibliometric analytics within the KTH Royal Institute of Technology Library - a container-based platform that can be used on-prem or in the cloud.

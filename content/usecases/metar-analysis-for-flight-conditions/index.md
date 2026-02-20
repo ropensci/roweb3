@@ -4,7 +4,7 @@ reporter: "Maëlle Salmon"
 date: 2025-02-20
 resource: "[riem](https://docs.ropensci.org/riem)"
 original_url: "https://discuss.ropensci.org/t/metar-analysis-for-flight-conditions/4174"
-language: English
+language: [English]
 ---
 
 Reporting on behalf of [Joseph Chou](https://github.com/jhchou)

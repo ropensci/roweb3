@@ -5,7 +5,7 @@ date: 2020-11-06
 image: osmdata-rnaturalearth-and-magick-for-tidytuesday.jpeg
 resource: "[osmdata](https://docs.ropensci.org/osmdata), [rnaturalearth](https://docs.ropensci.org/rnaturalearth), [magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/osmdata-rnaturalearth-and-magick-for-tidytuesday/2255"
-language: English
+language: [English]
 ---
 
 

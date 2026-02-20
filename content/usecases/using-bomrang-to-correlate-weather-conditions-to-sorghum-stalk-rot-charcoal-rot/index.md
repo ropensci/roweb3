@@ -5,7 +5,7 @@ date: 2019-07-01
 image: using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot.png
 resource: "bomrang"
 original_url: "https://discuss.ropensci.org/t/using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot/1758"
-language: English
+language: [English]
 ---
 
 #### Package or resource used

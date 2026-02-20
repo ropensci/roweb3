@@ -4,7 +4,7 @@ reporter: "Gordon Shotwell"
 date: 2021-01-25
 resource: "[dittodb](https://docs.ropensci.org/dittodb)"
 original_url: "https://discuss.ropensci.org/t/using-dittodb-to-test-database-queries/2322"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

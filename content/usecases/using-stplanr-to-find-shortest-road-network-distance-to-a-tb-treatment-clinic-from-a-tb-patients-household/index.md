@@ -5,7 +5,7 @@ date: 2021-09-20
 image: using-stplanr-to-find-shortest-road-network-distance-to-a-tb-treatment-clinic-from-a-tb-patients-household.jpeg
 resource: "[stplanr](https://docs.ropensci.org/stplanr)"
 original_url: "https://discuss.ropensci.org/t/using-stplanr-to-find-shortest-road-network-distance-to-a-tb-treatment-clinic-from-a-tb-patients-household/2621"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

@@ -4,7 +4,7 @@ reporter: "Maëlle Salmon"
 date: 2020-04-16
 resource: "[crul](https://docs.ropensci.org/crul)"
 original_url: "https://discuss.ropensci.org/t/use-of-cruls-retry-sub-routine-in-an-api-package/2035"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

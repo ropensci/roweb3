@@ -4,7 +4,7 @@ reporter: "Henry Partridge"
 date: 2019-07-17
 resource: "ropenaq"
 original_url: "https://discuss.ropensci.org/t/promoting-r-and-ropensci-packages-in-uk-local-government/1776"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

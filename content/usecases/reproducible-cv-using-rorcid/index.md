@@ -4,7 +4,7 @@ reporter: "Christopher J Lortie"
 date: 2019-11-02
 resource: "rorcid"
 original_url: "https://discuss.ropensci.org/t/reproducible-cv-using-rorcid/1862"
-language: English
+language: [English]
 ---
 
 

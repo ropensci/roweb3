@@ -5,7 +5,7 @@ date: 2020-05-11
 image: package-for-downloading-shapefiles-using-piggyback.png
 resource: "[piggyback](https://docs.ropensci.org/piggyback)"
 original_url: "https://discuss.ropensci.org/t/package-for-downloading-shapefiles-using-piggyback/2073"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

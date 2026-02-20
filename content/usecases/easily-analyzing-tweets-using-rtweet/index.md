@@ -5,7 +5,7 @@ date: 2021-05-12
 image: easily-analyzing-tweets-using-rtweet.png
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/easily-analyzing-tweets-using-rtweet/2454"
-language: English
+language: [English]
 ---
 
 

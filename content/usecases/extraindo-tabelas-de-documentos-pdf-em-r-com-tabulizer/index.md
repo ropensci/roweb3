@@ -4,7 +4,7 @@ reporter: "Pedro Rocha"
 date: 2020-07-20
 resource: "Tabulizer"
 original_url: "https://discuss.ropensci.org/t/extraindo-tabelas-de-documentos-pdf-em-r-com-tabulizer/2178"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

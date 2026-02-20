@@ -5,7 +5,7 @@ date: 2020-04-10
 image: magick-ally-visualize-historical-google-maps-traffic-data.jpeg
 resource: "[magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/magick-ally-visualize-historical-google-maps-traffic-data/2026"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

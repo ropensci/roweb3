@@ -5,7 +5,7 @@ date: 2020-01-28
 image: mapping-the-location-of-biogeography-researchers-with-refsplitr.png
 resource: "package refsplitr"
 original_url: "https://discuss.ropensci.org/t/mapping-the-location-of-biogeography-researchers-with-refsplitr/1924"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

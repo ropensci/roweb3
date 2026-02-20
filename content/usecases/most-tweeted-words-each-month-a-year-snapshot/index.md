@@ -5,7 +5,7 @@ date: 2021-05-17
 image: most-tweeted-words-each-month-a-year-snapshot.gif
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/most-tweeted-words-each-month-a-year-snapshot/2461"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

@@ -4,7 +4,7 @@ reporter: "Silvia Gutiérrez"
 date: 2021-07-15
 resource: "pdftoolstesseract"
 original_url: "https://discuss.ropensci.org/t/pdftools-tesseract-para-extraer-texto-en-espanol/2544"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

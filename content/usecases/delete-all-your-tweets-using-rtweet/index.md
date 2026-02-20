@@ -5,7 +5,7 @@ date: 2022-11-22
 image: delete-all-your-tweets-using-rtweet.png
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/delete-all-your-tweets-using-rtweet/3217"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

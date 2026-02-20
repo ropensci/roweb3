@@ -5,7 +5,7 @@ date: 2020-02-15
 image: pdftools-for-parsing-pdf-from-a-url-public-data-mining.gif
 resource: "[pdftools](https://docs.ropensci.org/pdftools)"
 original_url: "https://discuss.ropensci.org/t/pdftools-for-parsing-pdf-from-a-url-public-data-mining/1953"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

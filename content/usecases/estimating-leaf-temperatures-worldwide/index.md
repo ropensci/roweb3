@@ -5,7 +5,7 @@ date: 2022-04-21
 image: estimating-leaf-temperatures-worldwide.png
 resource: "[nasapower](https://docs.ropensci.org/nasapower)"
 original_url: "https://discuss.ropensci.org/t/estimating-leaf-temperatures-worldwide/2908"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

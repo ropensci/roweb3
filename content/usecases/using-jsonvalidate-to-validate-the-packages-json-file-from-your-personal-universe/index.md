@@ -4,7 +4,7 @@ reporter: "Hugo Gruson"
 date: 2021-10-05
 resource: "jsonvalidate (and R-universe)"
 original_url: "https://discuss.ropensci.org/t/using-jsonvalidate-to-validate-the-packages-json-file-from-your-personal-universe/2643"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

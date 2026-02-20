@@ -5,7 +5,7 @@ date: 2019-05-17
 image: rcrossref-for-tidytuesday.jpeg
 resource: "[rcrossref](https://docs.ropensci.org/rcrossref)"
 original_url: "https://discuss.ropensci.org/t/rcrossref-for-tidytuesday/1711"
-language: English
+language: [English]
 ---
 
 #### Package or resource used*

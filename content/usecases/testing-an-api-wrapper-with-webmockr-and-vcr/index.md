@@ -4,7 +4,7 @@ reporter: "Dave Parr"
 date: 2020-06-09
 resource: "webmockr and vcr with the HTTP testing book. This question on ROpenSci helped me discover the tools"
 original_url: "https://discuss.ropensci.org/t/testing-an-api-wrapper-with-webmockr-and-vcr/2125"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

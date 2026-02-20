@@ -4,7 +4,7 @@ reporter: "Alexei Lutay"
 date: 2020-03-27
 resource: "microdemic"
 original_url: "https://discuss.ropensci.org/t/searching-microsoft-academic-extracting-the-metadata/2012"
-language: English
+language: [English]
 ---
 
 

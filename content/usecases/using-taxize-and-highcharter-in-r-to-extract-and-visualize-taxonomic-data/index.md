@@ -4,7 +4,7 @@ reporter: "Stepminer"
 date: 2022-09-13
 resource: "[taxize](https://docs.ropensci.org/taxize)"
 original_url: "https://discuss.ropensci.org/t/using-taxize-and-highcharter-in-r-to-extract-and-visualize-taxonomic-data/3096"
-language: English
+language: [English]
 ---
 
 

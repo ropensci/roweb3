@@ -4,7 +4,7 @@ reporter: "Amanda Dobbyn"
 date: 2019-09-27
 resource: "[drake](https://docs.ropensci.org/drake)"
 original_url: "https://discuss.ropensci.org/t/drake-use-case-involving-fires/1837"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

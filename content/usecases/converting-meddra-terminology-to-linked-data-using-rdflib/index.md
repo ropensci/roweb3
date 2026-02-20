@@ -5,7 +5,7 @@ date: 2019-09-06
 image: converting-meddra-terminology-to-linked-data-using-rdflib.png
 resource: "[rdflib](https://docs.ropensci.org/rdflib)"
 original_url: "https://discuss.ropensci.org/t/converting-meddra-terminology-to-linked-data-using-rdflib/1824"
-language: English
+language: [English]
 ---
 
 As part of the [PhUSE](https://www.phuse.eu/) project [Going Translational with Linked Data (GoTWLD)](https://github.com/phuse-org/CTDasRDF) we use the **rdflib** package to translate MedDRA terminology to Linked Data as RDF Triples. 

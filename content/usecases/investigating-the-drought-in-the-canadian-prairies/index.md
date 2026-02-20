@@ -5,7 +5,7 @@ date: 2021-07-26
 image: investigating-the-drought-in-the-canadian-prairies.png
 resource: "[weathercan](https://docs.ropensci.org/weathercan)"
 original_url: "https://discuss.ropensci.org/t/investigating-the-drought-in-the-canadian-prairies/2556"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

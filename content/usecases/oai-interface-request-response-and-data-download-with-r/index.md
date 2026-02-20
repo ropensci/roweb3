@@ -4,7 +4,7 @@ reporter: "Jörg Lehmann"
 date: 2024-06-14
 resource: "[oai](https://docs.ropensci.org/oai)"
 original_url: "https://discuss.ropensci.org/t/oai-interface-request-response-and-data-download-with-r/3923"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

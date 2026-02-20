@@ -5,7 +5,7 @@ date: 2020-02-06
 image: osmdata-use-case-wall-art.jpeg
 resource: "[osmdata](https://docs.ropensci.org/osmdata)"
 original_url: "https://discuss.ropensci.org/t/osmdata-use-case-wall-art/1944"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

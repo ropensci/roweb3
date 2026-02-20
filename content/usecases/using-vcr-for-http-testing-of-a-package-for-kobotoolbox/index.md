@@ -5,7 +5,7 @@ date: 2022-03-24
 image: using-vcr-for-http-testing-of-a-package-for-kobotoolbox.png
 resource: "vcr the excellent http testing in r book"
 original_url: "https://discuss.ropensci.org/t/using-vcr-for-http-testing-of-a-package-for-kobotoolbox/2865"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

@@ -5,7 +5,7 @@ date: 2021-06-23
 image: mapping-asian-elephant-observations-with-rgbif.jpeg
 resource: "[rgbif](https://docs.ropensci.org/rgbif)"
 original_url: "https://discuss.ropensci.org/t/mapping-asian-elephant-observations-with-rgbif/2524"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

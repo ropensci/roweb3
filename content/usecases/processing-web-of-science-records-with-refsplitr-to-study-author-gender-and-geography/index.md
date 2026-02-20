@@ -5,7 +5,7 @@ date: 2020-09-15
 image: processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography.png
 resource: "Package refsplitr"
 original_url: "https://discuss.ropensci.org/t/processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography/2216"
-language: English
+language: [English]
 ---
 
 

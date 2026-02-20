@@ -375,3 +375,12 @@
 
 [Reporter]
   other = 'Reporter'
+
+[English]
+  other = 'English'
+
+[Spanish]
+  other = 'Spanish'
+
+[Portuguese]
+  other = 'Portuguese'

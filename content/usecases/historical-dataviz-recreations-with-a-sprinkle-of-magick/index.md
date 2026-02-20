@@ -5,7 +5,7 @@ date: 2021-07-04
 image: historical-dataviz-recreations-with-a-sprinkle-of-magick.gif
 resource: "[magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/historical-dataviz-recreations-with-a-sprinkle-of-magick/2538"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

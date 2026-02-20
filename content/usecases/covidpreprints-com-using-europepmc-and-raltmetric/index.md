@@ -4,7 +4,7 @@ reporter: "Zhanghe Goh"
 date: 2020-09-08
 resource: "[europepmc](https://docs.ropensci.org/europepmc), rAltmetric"
 original_url: "https://discuss.ropensci.org/t/covidpreprints-com-using-europepmc-and-raltmetric/2210"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

@@ -4,7 +4,7 @@ reporter: "Lizlaw"
 date: 2021-01-26
 resource: "[pdftools](https://docs.ropensci.org/pdftools)"
 original_url: "https://discuss.ropensci.org/t/pdftools-for-extracting-complex-e-g-text-wrapped-multiline-tables-from-pdfs/2327"
-language: English
+language: [English]
 ---
 
 Extracting a complex table from pdf using pdftools::pdf_data. Example uses a table spread over multiple pages, and containing multiple(text-wrapped) lines per cell, and left and centre justified cell entries. 

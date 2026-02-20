@@ -5,7 +5,7 @@ date: 2020-05-04
 image: drake-at-queensland-fire-and-emergency-services.jpeg
 resource: "[drake](https://docs.ropensci.org/drake)"
 original_url: "https://discuss.ropensci.org/t/drake-at-queensland-fire-and-emergency-services/2054"
-language: English
+language: [English]
 ---
 
 

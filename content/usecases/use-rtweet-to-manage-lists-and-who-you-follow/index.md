@@ -5,7 +5,7 @@ date: 2022-02-22
 image: use-rtweet-to-manage-lists-and-who-you-follow.jpeg
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/use-rtweet-to-manage-lists-and-who-you-follow/2830"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

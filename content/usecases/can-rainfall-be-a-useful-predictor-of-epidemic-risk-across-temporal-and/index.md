@@ -5,7 +5,7 @@ date: 2019-05-10
 image: can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and.jpeg
 resource: "[nasapower](https://docs.ropensci.org/nasapower)"
 original_url: "https://discuss.ropensci.org/t/can-rainfall-be-a-useful-predictor-of-epidemic-risk-across-temporal-and/1701"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

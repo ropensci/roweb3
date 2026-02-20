@@ -4,7 +4,7 @@ reporter: "André Ourednik"
 date: 2020-06-08
 resource: "[magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/scrape-an-image-from-deepzoom-with-r-and-magick-recomposing-a-single-image-from-multiple-tiles/2123"
-language: English
+language: [English]
 ---
 
 

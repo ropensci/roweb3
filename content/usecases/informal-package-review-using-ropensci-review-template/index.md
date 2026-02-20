@@ -4,7 +4,7 @@ reporter: "Hugo Gruson"
 date: 2021-08-04
 resource: "Review template from the package development guide"
 original_url: "https://discuss.ropensci.org/t/informal-package-review-using-ropensci-review-template/2570"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

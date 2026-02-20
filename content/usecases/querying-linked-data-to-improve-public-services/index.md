@@ -5,7 +5,7 @@ date: 2019-07-17
 image: querying-linked-data-to-improve-public-services.jpeg
 resource: "[ghql](https://docs.ropensci.org/ghql)"
 original_url: "https://discuss.ropensci.org/t/querying-linked-data-to-improve-public-services/1781"
-language: English
+language: [English]
 ---
 
 

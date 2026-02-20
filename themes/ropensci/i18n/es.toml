@@ -375,4 +375,13 @@
 
 [Reporter]
   other = 'Enviado por'
+[English]
+  other = 'Inglés'
+
+[Spanish]
+  other = 'Español'
+
+[Portuguese]
+  other = 'Portugués'
+
 

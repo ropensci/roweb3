@@ -5,7 +5,7 @@ date: 2022-02-11
 image: calculating-us-residential-segregation-indices-in-a-reproducible-pipeline.png
 resource: "[targets](https://docs.ropensci.org/targets)"
 original_url: "https://discuss.ropensci.org/t/calculating-us-residential-segregation-indices-in-a-reproducible-pipeline/2815"
-language: English
+language: [English]
 ---
 
 We provide a simple and reproducible [R](https://www.r-project.org/) pipeline to investigate residential segregation (RS) using US census data. The pipeline contains two components:

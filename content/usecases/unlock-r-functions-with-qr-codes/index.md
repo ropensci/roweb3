@@ -5,7 +5,7 @@ date: 2023-11-02
 image: unlock-r-functions-with-qr-codes.gif
 resource: "The opencv package"
 original_url: "https://discuss.ropensci.org/t/unlock-r-functions-with-qr-codes/3681"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

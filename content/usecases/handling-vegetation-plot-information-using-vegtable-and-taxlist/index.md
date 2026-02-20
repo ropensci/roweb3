@@ -5,7 +5,7 @@ date: 2020-11-21
 image: handling-vegetation-plot-information-using-vegtable-and-taxlist.png
 resource: "[taxlist](https://docs.ropensci.org/taxlist)"
 original_url: "https://discuss.ropensci.org/t/handling-vegetation-plot-information-using-vegtable-and-taxlist/2270"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

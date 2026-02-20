@@ -4,7 +4,7 @@ reporter: "Stefanie Butland"
 date: 2019-04-02
 resource: "[rgbif](https://docs.ropensci.org/rgbif)"
 original_url: "https://discuss.ropensci.org/t/rgbif-get-a-little-or-a-lot-of-occurrence-data/1635"
-language: English
+language: [English]
 ---
 
 This use case was presented by [Kathryn Turner](https://www.zoology.ubc.ca/~turner/KGTurner/) as part of a [Community Call on Research Applications of rOpenSci Taxonomy and Biodiversity Tools](https://ropensci.org/commcalls/2019-03-27/)

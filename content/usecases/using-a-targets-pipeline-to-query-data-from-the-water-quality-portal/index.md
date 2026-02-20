@@ -4,7 +4,7 @@ reporter: "Julie"
 date: 2022-10-03
 resource: "targetsdataRetrieval"
 original_url: "https://discuss.ropensci.org/t/using-a-targets-pipeline-to-query-data-from-the-water-quality-portal/3140"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

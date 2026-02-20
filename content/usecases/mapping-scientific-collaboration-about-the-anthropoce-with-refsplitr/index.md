@@ -5,7 +5,7 @@ date: 2020-09-15
 image: mapping-scientific-collaboration-about-the-anthropoce-with-refsplitr.jpeg
 resource: "Package refsplitr"
 original_url: "https://discuss.ropensci.org/t/mapping-scientific-collaboration-about-the-anthropoce-with-refsplitr/2215"
-language: English
+language: [English]
 ---
 
 

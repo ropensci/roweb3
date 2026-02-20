@@ -5,7 +5,7 @@ date: 2021-03-01
 image: using-terrainr-to-retrieve-spatial-data-and-make-3d-landscape-visualizations.jpeg
 resource: "[terrainr](https://docs.ropensci.org/terrainr)"
 original_url: "https://discuss.ropensci.org/t/using-terrainr-to-retrieve-spatial-data-and-make-3d-landscape-visualizations/2385"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

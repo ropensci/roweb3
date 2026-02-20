@@ -5,7 +5,7 @@ date: 2024-06-09
 image: using-weatheroz-to-plot-perths-may-high-temperatures.jpeg
 resource: "{weatherOz}"
 original_url: "https://discuss.ropensci.org/t/using-weatheroz-to-plot-perths-may-high-temperatures/3920"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

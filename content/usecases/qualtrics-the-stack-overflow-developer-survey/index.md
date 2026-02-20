@@ -5,7 +5,7 @@ date: 2019-05-01
 image: qualtrics-the-stack-overflow-developer-survey.png
 resource: "[qualtRics](https://docs.ropensci.org/qualtRics)"
 original_url: "https://discuss.ropensci.org/t/qualtrics-the-stack-overflow-developer-survey/1689"
-language: English
+language: [English]
 ---
 
 

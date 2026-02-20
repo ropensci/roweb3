@@ -5,7 +5,7 @@ date: 2021-01-16
 image: using-ghql-to-analyze-all-my-2020-github-commits.png
 resource: "[ghql](https://docs.ropensci.org/ghql)"
 original_url: "https://discuss.ropensci.org/t/using-ghql-to-analyze-all-my-2020-github-commits/2315"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

@@ -4,7 +4,7 @@ reporter: "Isabella Velásquez"
 date: 2021-01-03
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/scraping-liked-posts-on-twitter-using-rtweet/2294"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

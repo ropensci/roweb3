@@ -5,7 +5,7 @@ date: 2021-07-02
 image: environment-canada-air-temperature-using-weathercan.png
 resource: "[weathercan](https://docs.ropensci.org/weathercan)"
 original_url: "https://discuss.ropensci.org/t/environment-canada-air-temperature-using-weathercan/2537"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

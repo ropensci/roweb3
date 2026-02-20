@@ -4,7 +4,7 @@ reporter: "Athanasia Monika Mowinckel"
 date: 2022-09-16
 resource: "[handlr](https://docs.ropensci.org/handlr)"
 original_url: "https://discuss.ropensci.org/t/using-handlr-to-convert-bibtex-citation-to-cff/3107"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

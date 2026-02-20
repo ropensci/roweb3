@@ -5,7 +5,7 @@ date: 2021-10-10
 image: creating-historical-congressional-maps-with-usaboundaries.jpeg
 resource: "[USAboundaries](https://docs.ropensci.org/USAboundaries)"
 original_url: "https://discuss.ropensci.org/t/creating-historical-congressional-maps-with-usaboundaries/2648"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

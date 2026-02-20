@@ -5,7 +5,7 @@ date: 2022-06-02
 image: map-of-linguae-francae-of-dagestan-russia.jpeg
 resource: "[lingtypology](https://docs.ropensci.org/lingtypology)"
 original_url: "https://discuss.ropensci.org/t/map-of-linguae-francae-of-dagestan-russia/2957"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

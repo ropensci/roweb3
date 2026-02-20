@@ -5,7 +5,7 @@ date: 2022-05-14
 image: analyze-your-twitter-timeline-with-rtweet-and-lubridate.png
 resource: "rtweet"
 original_url: "https://discuss.ropensci.org/t/analyze-your-twitter-timeline-with-rtweet-and-lubridate/2931"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

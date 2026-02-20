@@ -5,7 +5,7 @@ date: 2025-04-28
 image: use-case-2.png
 resource: "rnaturalearth"
 original_url: "https://yabellini.github.io/AgriRemoteSensing/02-r-spatial.html"
-language: Spanish
+language: [Spanish]
 ---
 
 ### Paquete o recurso rOpenSci utilizado

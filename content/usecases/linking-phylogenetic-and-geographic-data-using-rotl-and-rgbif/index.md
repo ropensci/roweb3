@@ -5,7 +5,7 @@ date: 2019-03-22
 image: linking-phylogenetic-and-geographic-data-using-rotl-and-rgbif.png
 resource: "[rotl](https://docs.ropensci.org/rotl), [rgbif](https://docs.ropensci.org/rgbif)"
 original_url: "https://discuss.ropensci.org/t/linking-phylogenetic-and-geographic-data-using-rotl-and-rgbif/1629"
-language: English
+language: [English]
 ---
 
 

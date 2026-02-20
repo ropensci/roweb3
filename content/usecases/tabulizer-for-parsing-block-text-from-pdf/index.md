@@ -5,7 +5,7 @@ date: 2020-02-01
 image: tabulizer-for-parsing-block-text-from-pdf.gif
 resource: "tabulizer"
 original_url: "https://discuss.ropensci.org/t/tabulizer-for-parsing-block-text-from-pdf/1930"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

@@ -4,7 +4,7 @@ reporter: "Silvia Gutiérrez"
 date: 2021-07-15
 resource: "[pdftools](https://docs.ropensci.org/pdftools)"
 original_url: "https://discuss.ropensci.org/t/pdftools-map-to-download-read-multiple-pdfs/2545"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used

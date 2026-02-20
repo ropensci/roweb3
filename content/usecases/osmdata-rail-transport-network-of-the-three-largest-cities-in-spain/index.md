@@ -5,7 +5,7 @@ date: 2020-10-27
 image: osmdata-rail-transport-network-of-the-three-largest-cities-in-spain.jpeg
 resource: "[osmdata](https://docs.ropensci.org/osmdata)"
 original_url: "https://discuss.ropensci.org/t/osmdata-rail-transport-network-of-the-three-largest-cities-in-spain/2249"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

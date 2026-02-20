@@ -5,7 +5,7 @@ date: 2020-01-30
 image: accessing-wrangling-and-plotting-global-weather-data-for-free.png
 resource: "[rnoaa](https://docs.ropensci.org/rnoaa), lawn"
 original_url: "https://discuss.ropensci.org/t/accessing-wrangling-and-plotting-global-weather-data-for-free/1926"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

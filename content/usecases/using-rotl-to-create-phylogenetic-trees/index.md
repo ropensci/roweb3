@@ -5,7 +5,7 @@ date: 2021-06-12
 image: using-rotl-to-create-phylogenetic-trees.png
 resource: "[rotl](https://docs.ropensci.org/rotl)"
 original_url: "https://discuss.ropensci.org/t/using-rotl-to-create-phylogenetic-trees/2498"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

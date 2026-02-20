@@ -5,7 +5,7 @@ date: 2020-05-22
 image: using-drake-for-machine-learning.png
 resource: "[drake](https://docs.ropensci.org/drake)"
 original_url: "https://discuss.ropensci.org/t/using-drake-for-machine-learning/2091"
-language: English
+language: [English]
 ---
 
 

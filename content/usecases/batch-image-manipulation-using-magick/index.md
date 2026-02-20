@@ -4,7 +4,7 @@ reporter: "Rory Spanton"
 date: 2019-11-26
 resource: "[magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/batch-image-manipulation-using-magick/1889"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*

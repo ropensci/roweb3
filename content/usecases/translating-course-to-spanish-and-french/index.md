@@ -4,7 +4,7 @@ reporter: "Yann Say"
 date: 2025-03-25
 resource: "[babelquarto](https://docs.ropensci.org/babelquarto)"
 original_url: "https://discuss.ropensci.org/t/translating-course-to-spanish-and-french/4207"
-language: English
+language: [English]
 ---
 
 #### rOpenSci package or resource used*
