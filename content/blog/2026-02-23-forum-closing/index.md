@@ -7,6 +7,7 @@ editor:
     - 
 date: '2026-02-23'
 tags:
+  - community
   - forum
   - help
 featured: true
