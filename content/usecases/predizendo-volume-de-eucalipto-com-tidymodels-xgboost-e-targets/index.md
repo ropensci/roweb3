@@ -5,7 +5,7 @@ date: 2021-10-13
 image: predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets.jpeg
 resource: "[targets](https://docs.ropensci.org/targets)"
 original_url: "https://discuss.ropensci.org/t/predizendo-volume-de-eucalipto-com-tidymodels-xgboost-e-targets/2656"
-language: English
+language: Portuguese
 ---
 
 #### rOpenSci package or resource used*
