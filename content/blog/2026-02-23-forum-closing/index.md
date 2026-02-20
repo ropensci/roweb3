@@ -23,8 +23,8 @@ We've migrated the most active part of the forum, the use cases collection, to o
 Don't forget that there are still many other ways to be part of the [rOpenSci Community](https://contributing.ropensci.org/):
 
 - Your contributions to our [R packages](/help-wanted), [infrastructure](/r-universe), projects such as the [Champions Program](/champions) and [software-review](/software-review), are always welcome!
-You can meet with us at [events](/events) including [coworking](/coworking) and [community calls](/commcalls).
-You can also reach us at `info@ropensci.org` and check out our [contributing guide](https://contributing.ropensci.org).
-And to hear from us, subscribe to our RSS feed or our [newsletter](/news)!
+- You can meet with us at [events](/events) including [coworking](/coworking) and [community calls](/commcalls).
+- You can also reach us at <info@ropensci.org> and tohear from us, subscribe to our RSS feed or our [newsletter](/news)!
+- Check out our [contributing guide](https://contributing.ropensci.org) for more ideas!
 
 We look forward to a continuing collaboration with our evergrowing community.
