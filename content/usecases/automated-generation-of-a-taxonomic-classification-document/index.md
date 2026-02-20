@@ -22,18 +22,9 @@ I import a taxonomic database of [ferns and lycophytes](https://pteridogroup.git
 Classification: https://pteridogroup.github.io/ppg.html
 Source code: https://github.com/pteridogroup/ppg
 
-### Language of the use case
-
-English
-
 ### Image
 
-![case_study_img](https://github.com/user-attachments/assets/0f4b415c-3541-4631-8d9f-4c5b8d5b3800)
-
-
-### Alternative text
-
-Screenshot showing taxonomic database as plain text CSV above, with and arrow pointing down. Below it is a screenshot of a webpage with a human readable version of the same data as a taxonomic classification scheme.
+{{< figure src="use-case-3.jpeg" alt="Screenshot showing taxonomic database as plain text CSV above, with and arrow pointing down. Below it is a screenshot of a webpage with a human readable version of the same data as a taxonomic classification scheme." >}}
 
 ### Sector
 
