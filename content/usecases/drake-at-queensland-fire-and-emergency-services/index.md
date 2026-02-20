@@ -20,9 +20,6 @@ I wrote a blog post detailing how my team of 4 data scientists at Queensland Fir
 https://milesmcbain.xyz/the-drake-post/
 
 
-#### Image
--
-
 
 #### Sector
 Government
