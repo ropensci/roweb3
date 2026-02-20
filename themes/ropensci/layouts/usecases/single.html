@@ -12,6 +12,11 @@
             {{ range .Params.language }}{{ T . }} {{ end }} • {{ with .Params.reporter }}{{ i18n "By" }} {{ . | markdownify }}{{ end }}{{ with .Params.resource }} • {{ i18n "Featuring" }} {{ . | markdownify }}{{ end }}</span>
           </p>
         </div>
+        </div>
+        </div>
+
+    <div class="row">
+      <div class="col-md-8">
         <div class="content">
           {{ .Content }}
           <div class="alert alert-info" role="alert">
