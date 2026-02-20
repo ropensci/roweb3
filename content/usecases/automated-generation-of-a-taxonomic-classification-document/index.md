@@ -4,14 +4,14 @@ reporter: "[Joel Nitta](https://github.com/joelnitta)"
 date: 2025-06-13
 image: use-case-3.jpeg
 alt: "Screenshot showing taxonomic database as plain text CSV above, with and arrow pointing down. Below it is a screenshot of a webpage with a human readable version of the same data as a taxonomic classification scheme."
-resource: "taxlist, targets"
+resource: "[taxlist](https://docs.ropensci.org/taxlist), [targets](https://docs.ropensci.org/targets)"
 original_url: "https://github.com/orgs/ropensci/discussions/3"
 language: [English]
 ---
 
 ### rOpenSci package or resource used
 
-taxlist, targets
+[taxlist](https://docs.ropensci.org/taxlist), [targets](https://docs.ropensci.org/targets)
 
 ### What did you do?
 

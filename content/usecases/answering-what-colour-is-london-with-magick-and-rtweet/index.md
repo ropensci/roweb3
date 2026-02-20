@@ -3,7 +3,7 @@ title: "Answering 'what colour is London?' with magick and rtweet"
 reporter: "Matt Dray"
 date: 2021-07-27
 image: answering-what-colour-is-london-with-magick-and-rtweet.jpeg
-resource: "rtweet magick"
+resource: "rtweet [magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/answering-what-colour-is-london-with-magick-and-rtweet/2562"
 language: [English]
 ---

@@ -3,7 +3,7 @@ title: "Using fingertipsR for public health data in UK local government"
 reporter: "Stefanie Butland"
 date: 2019-07-17
 image: using-fingertipsr-for-public-health-data-in-uk-local-government.png
-resource: "fingertipsR by Sebastian Fox"
+resource: "[fingertipsR](https://docs.ropensci.org/fingertipsR) by Sebastian Fox"
 original_url: "https://discuss.ropensci.org/t/using-fingertipsr-for-public-health-data-in-uk-local-government/1780"
 language: [English]
 ---

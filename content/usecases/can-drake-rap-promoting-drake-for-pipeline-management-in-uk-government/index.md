@@ -2,14 +2,14 @@
 title: "Can {drake} RAP? Promoting {drake} for pipeline management in UK government"
 reporter: "Matt Dray"
 date: 2019-10-02
-resource: "{drake}"
+resource: "[drake](https://docs.ropensci.org/drake)"
 original_url: "https://discuss.ropensci.org/t/can-drake-rap-promoting-drake-for-pipeline-management-in-uk-government/1841"
 language: [English]
 ---
 
 #### Package or resource used
 
-{drake}
+[drake](https://docs.ropensci.org/drake)
 
 #### URL or code snippet for your use case*
 

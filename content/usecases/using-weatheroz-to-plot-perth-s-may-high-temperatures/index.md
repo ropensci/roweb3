@@ -3,7 +3,7 @@ title: "Using {weatherOz} to Plot Perth's May High Temperatures"
 reporter: "Adam Sparks"
 date: 2024-06-09
 image: using-weatheroz-to-plot-perths-may-high-temperatures.jpeg
-resource: "{weatherOz}"
+resource: "[weatherOz](https://docs.ropensci.org/weatherOz)"
 original_url: "https://discuss.ropensci.org/t/using-weatheroz-to-plot-perths-may-high-temperatures/3920"
 language: [English]
 ---

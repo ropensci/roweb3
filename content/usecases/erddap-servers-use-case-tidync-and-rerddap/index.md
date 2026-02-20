@@ -3,7 +3,7 @@ title: "ERDDAP servers use case: tidync and rerddap"
 reporter: "Uryu Shinya"
 date: 2019-11-07
 image: erddap-servers-use-case-tidync-and-rerddap.jpeg
-resource: "rerddap and tidync"
+resource: "[rerddap](https://docs.ropensci.org/rerddap) and [tidync](https://docs.ropensci.org/tidync)"
 original_url: "https://discuss.ropensci.org/t/erddap-servers-use-case-tidync-and-rerddap/1869"
 language: [English]
 ---

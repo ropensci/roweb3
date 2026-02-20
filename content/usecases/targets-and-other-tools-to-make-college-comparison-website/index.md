@@ -3,7 +3,7 @@ title: "Targets and other tools to make college comparison website"
 reporter: "Brian O'Meara"
 date: 2023-11-01
 image: targets-and-other-tools-to-make-college-comparison-website.jpeg
-resource: "The {targets} R package user manual for the targets and tarchetypes packages"
+resource: "The [targets](https://docs.ropensci.org/targets) R package user manual for the [targets](https://docs.ropensci.org/targets) and [tarchetypes](https://docs.ropensci.org/tarchetypes) packages"
 original_url: "https://discuss.ropensci.org/t/targets-and-other-tools-to-make-college-comparison-website/3680"
 language: [English]
 ---

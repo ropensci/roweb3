@@ -3,7 +3,7 @@ title: "Processing Web of Science records with refsplitr to study author gender 
 reporter: "Emilio M Bruna"
 date: 2020-09-15
 image: processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography.png
-resource: "Package refsplitr"
+resource: "Package [refsplitr](https://docs.ropensci.org/refsplitr)"
 original_url: "https://discuss.ropensci.org/t/processing-web-of-science-records-with-refsplitr-to-study-author-gender-and-geography/2216"
 language: [English]
 ---

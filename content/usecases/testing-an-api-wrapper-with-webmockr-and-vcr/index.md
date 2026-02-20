@@ -2,7 +2,7 @@
 title: "Testing an API wrapper with webmockr and vcr"
 reporter: "Dave Parr"
 date: 2020-06-09
-resource: "webmockr and vcr with the HTTP testing book. This question on ROpenSci helped me discover the tools"
+resource: "[webmockr](https://docs.ropensci.org/webmockr) and [vcr](https://docs.ropensci.org/vcr) with the HTTP testing book. This question on ROpenSci helped me discover the tools"
 original_url: "https://discuss.ropensci.org/t/testing-an-api-wrapper-with-webmockr-and-vcr/2125"
 language: [English]
 ---

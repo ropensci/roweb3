@@ -3,7 +3,7 @@ title: "Unlock R functions with QR codes"
 reporter: "Matt Dray"
 date: 2023-11-02
 image: unlock-r-functions-with-qr-codes.gif
-resource: "The opencv package"
+resource: "The [opencv](https://docs.ropensci.org/opencv) package"
 original_url: "https://discuss.ropensci.org/t/unlock-r-functions-with-qr-codes/3681"
 language: [English]
 ---

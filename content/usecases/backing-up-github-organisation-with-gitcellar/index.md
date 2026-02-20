@@ -3,7 +3,7 @@ title: "Backing up GitHub organisation with gitcellar"
 reporter: "Hugo Gruson"
 date: 2022-10-12
 image: backing-up-github-organisation-with-gitcellar.png
-resource: "gitcellar blog post: Safeguards and Backups for GitHub Organizations"
+resource: "[gitcellar](https://docs.ropensci.org/gitcellar) blog post: Safeguards and Backups for GitHub Organizations"
 original_url: "https://discuss.ropensci.org/t/backing-up-github-organisation-with-gitcellar/3153"
 language: [English]
 ---

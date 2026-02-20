@@ -3,7 +3,7 @@ title: "Use stplanr to find and plot major streets of a city"
 reporter: "Alexandra"
 date: 2020-11-18
 image: use-stplanr-to-find-and-plot-major-streets-of-a-city.jpeg
-resource: "stplanr package"
+resource: "[stplanr](https://docs.ropensci.org/stplanr) package"
 original_url: "https://discuss.ropensci.org/t/use-stplanr-to-find-and-plot-major-streets-of-a-city/2264"
 language: [English]
 ---

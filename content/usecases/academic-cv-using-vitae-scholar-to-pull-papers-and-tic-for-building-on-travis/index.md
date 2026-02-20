@@ -3,7 +3,7 @@ title: "Academic CV using {vitae}, {scholar} to pull papers, and {tic} for build
 reporter: "Sam Abbott"
 date: 2019-10-03
 image: academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis.png
-resource: "{vitae} and {tic} - both rOpenSci Labs (and excellent)"
+resource: "{vitae} and [tic](https://docs.ropensci.org/tic) - both rOpenSci Labs (and excellent)"
 original_url: "https://discuss.ropensci.org/t/academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis/1842"
 language: [English]
 ---

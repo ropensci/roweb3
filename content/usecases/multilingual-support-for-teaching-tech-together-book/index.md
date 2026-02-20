@@ -3,14 +3,14 @@ title: "Multilingual support for Teaching Tech Together Book"
 reporter: "[Yanina Bellini Saibene](https://github.com/yabellini)"
 date: 2025-04-25
 image: use-case-1.png
-resource: "babelquarto"
+resource: "[babelquarto](https://docs.ropensci.org/babelquarto)"
 original_url: "https://github.com/yabellini/t3es2ed"
 language: [English, Spanish]
 ---
 
 ### rOpenSci package or resource used
 
-babelquarto
+[babelquarto](https://docs.ropensci.org/babelquarto)
 
 ### What did you do?
 

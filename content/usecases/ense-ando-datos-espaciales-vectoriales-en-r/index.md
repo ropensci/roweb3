@@ -3,14 +3,14 @@ title: "Enseñando datos espaciales vectoriales en R"
 reporter: "[Yanina Bellini Saibene](https://github.com/yabellini)"
 date: 2025-04-28
 image: use-case-2.png
-resource: "rnaturalearth"
+resource: "[rnaturalearth](https://docs.ropensci.org/rnaturalearth)"
 original_url: "https://yabellini.github.io/AgriRemoteSensing/02-r-spatial.html"
 language: [Spanish]
 ---
 
 ### Paquete o recurso rOpenSci utilizado
 
-rnaturalearth
+[rnaturalearth](https://docs.ropensci.org/rnaturalearth)
 
 ### ¿Qué hiciste?
 
