@@ -10,7 +10,7 @@ language: English
 
 #### Package or resource used*
 
-{vitae} and {tic} - both rOpenSci Labs (and excellent).
+{vitae} and [{tic}](https://github.com/ropensci/tic) - both rOpenSci Labs (and excellent).
 
 
 #### URL or code snippet for your use case*
