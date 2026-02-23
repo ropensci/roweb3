@@ -44,16 +44,29 @@ Regardless of the influences generative AI tools may have on the processes by wh
 
 ## rOpenSci's new policies
 
-Software peer-review at rOpenSci is designed to improve and promote the quality of research software, to facilitate good development practices among researchers, to foster collaboration, and to curate a community of practice.
-Human interactions are a vital part of reviewing and maintaining rOpenSci software.
-Software review aims to provide authors with feedback on their practices and choices, and not just on the lines of code they or an AI generated. We also value the time and effort of reviewers, and want them to be able to focus on the practices and choices of authors.
-Reviewers may use AI tools, but their reviews should still reflect their own choices and judgments.
-
-The increasing ease by which generative AI tools can produce quality software requires us to give more consideration to what authors’ contributions may actually be.
-In the words of the [JOSS blog post](https://blog.joss.theoj.org/2026/01/preparing-joss-for-a-generative-ai-future), this demands some degree of moving away from software-based "proxies for effort", to deeper consideration of the contexts in which software has been produced, and will be used.
-
-Software reviews at rOpenSci have always been [constructive and non adversarial](https://ropensci.org/software-review/), and commonly involve extensive exchanges between authors, reviewers, and editors.
+Software reviews at rOpenSci are [constructive and non-adversarial](https://ropensci.org/software-review/), and commonly involve extensive exchanges between authors, reviewers, and editors.
+We aim to improve and promote the quality of research software, to facilitate good development practices among researchers, to foster collaboration, and to curate a community of practice.
 Software reviewed at rOpenSci is generally given deep and general consideration, commonly extending to the areas emphasised by JOSS's updated [scope definition](https://joss.theoj.org/about#ai-policy), and we therefore see no need to explicitly change either the scope or focus of review.
+Software review aims to provide authors with feedback on their practices and choices, and not just on the lines of code they or an AI generated.
+We also value the time and effort of editors and reviewers, and want them to be able to focus on the practices and choices of authors.
+
+Editors and reviewers at rOpenSci have always been volunteers who devote their own time to help others improve the quality of their software.
+Our review system has worked because they have always been able to assume that all aspects of code submitted for review have reflected decisions made by the human authors of software.
+That in turn has ensured that the efforts of editors and reviewers have been relatively minor in comparison to the primary efforts of software authors.
+Generative AI tools potentially change both of these situations, through enabling software to be produced with relatively little human input or oversight, and through potentially leading to editors and reviewers putting more consideration into software design, structure, and function than what submitting authors may have done.
+
+We need to ensure that our software review process remains focussed on the decisions, designs, and implementations of the submitting authors, and away from artefacts produced by generative AI tools.
+This will require everybody to be as open as possible about what, where, and how generative AI tools may have been used.
+Authors declaring that a certain tool was used to generate all tests may lead one reviewer to completely ignore those tests, while another reviewer may be passionately engaged in the ways by which exactly that tool writes tests.
+There is no clear policy we can develop around what either authors or reviewers can or should do.
+
+Our policy updates aim to retain the same degree of openness and transparency we have always practiced, merely extending to the new area of generative AI tools and practices.
+Such openness may require authors to highlights aspects of their software which they would encourage or desire reviewers to focus on.
+This could also fundamentally change the nature of review from a previously holistic process into one where only defined aspects or sections of software end up being reviewed, and those potentially at the discretion of the submitting authors.
+We can not know the eventual impact that generative AI tools may have on software review processes and practices at rOpenSci, and can ask only for an utmost degree of transparency from all involved.
+
+We now describe specific updates to both our practices and policies for authors, for editors, and for reviewers.
+
 
 ### For authors
 
