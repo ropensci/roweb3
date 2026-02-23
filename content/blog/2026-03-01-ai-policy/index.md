@@ -13,6 +13,7 @@ tags:
 - rOpenSci team
 description: "rOpenSci's policy on the use of generative AI tools, with proposed updates to documentation and procedures for authors submitting software for review, for editors, and for reviewers."
 editor:
+- Mauro Lepore
 params:
   doi: ""
 ---
@@ -20,7 +21,7 @@ params:
 The advent of large language models (LLMs) and generative AI tools has changed the nature of software development and of software review.
 To accommodate these changes, rOpenSci is updating its policies to clarify our expectations for authors, reviewers, and editors using generative AI tools.
 Our policy updates are not intended to restrict use of generative AI tools, rather we aim to encourage the rOpenSci community to use these tools in ways that encourage, rather than diminish, healthy community interactions.
-The following describes changes we will make to our requirements for authors, for editors, and for reviewers.
+This blog post describes changes we will make to our requirements for authors, for editors, and for reviewers.
 
 Similar updates have already been implemented by both the [Journal of Open Source Software](https://blog.joss.theoj.org/2026/01/preparing-joss-for-a-generative-ai-future) and [pyOpenSci](https://www.pyopensci.org/blog/generative-ai-peer-review-policy.html), and we are indebted to the work of all those who contributed to these policy statements.
 
@@ -36,10 +37,10 @@ There are nevertheless many downsides to generative AI tools, as explored in the
 - Amplification of bias
 - Infringement of copyright
 
-There are many other downsides beyond those, such as increases in [social and economic inequality](https://pluralistic.net/2025/12/05/pop-that-bubble/#u-washington).
-We hope anybody using generative AI tools to prepare software for our peer-review program takes these kinds of downsides into consideration in deciding how, when, and where to use such tools.
-Generative AI tools can nevertheless contribute to producing and maintaining quality software.
-However, rOpenSci’s software peer review program is designed not only to evaluate software quality, but also to act as an engine of collaboration and community building through healthy interactions between authors, reviewers, and contributors.
+Important downsides beyond those are increases in [social and economic inequality](https://pluralistic.net/2025/12/05/pop-that-bubble/#u-washington).
+We hope anybody using generative AI tools to prepare software for our peer-review program will consider these kinds of downsides in deciding how, when, and where to use such tools.
+
+Regardless of the influences generative AI tools may have on the processes by which software is produced or evaluated, we hope that rOpenSci can continue to act as an engine of collaboration and community building through healthy interactions between authors, reviewers, and contributors.
 
 ## rOpenSci's new policies
 
