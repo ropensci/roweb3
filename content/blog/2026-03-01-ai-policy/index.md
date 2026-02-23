@@ -19,6 +19,8 @@ params:
 
 The advent of large language models (LLMs) and generative AI tools has changed the nature of software development and of software review.
 To accommodate these changes, rOpenSci is updating its policies to clarify our expectations for authors, reviewers, and editors using generative AI tools.
+Our policy updates are not intended to restrict use of generative AI tools, rather we aim to encourage the rOpenSci community to use these tools in ways that encourage, rather than diminish, healthy community interactions.
+
 Similar updates have already been implemented by both the [Journal of Open Source Software](https://blog.joss.theoj.org/2026/01/preparing-joss-for-a-generative-ai-future) and [pyOpenSci](https://www.pyopensci.org/blog/generative-ai-peer-review-policy.html), and we are indebted to the work of all those who contributed to these policy statements.
 
 Large language models and generative AI tools make many coding tasks easier and quicker, and can expand the community of people able to contribute to open source software.
@@ -35,10 +37,8 @@ There are nevertheless many downsides to generative AI tools, as explored in the
 
 There are many other downsides beyond those, such as increases in [social and economic inequality](https://pluralistic.net/2025/12/05/pop-that-bubble/#u-washington).
 We hope anybody using generative AI tools to prepare software for our peer-review program takes these kinds of downsides into consideration in deciding how, when, and where to use such tools.
-
 Generative AI tools can nevertheless contribute to producing and maintaining quality software.
 However, rOpenSci’s software peer review program is designed not only to evaluate software quality, but also to act as an engine of collaboration and community building through healthy interactions between authors, reviewers, and contributors.
-Our policy updates are not intended to restrict use of generative AI tools, rather we aim to encourage the rOpenSci community to use these tools in ways that encourage, rather than diminish, healthy community interactions.
 
 ## rOpenSci's new policies
 
