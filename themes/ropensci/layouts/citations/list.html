@@ -12,13 +12,13 @@
 {{ $scratch := newScratch }}
 
 {{ $scratch.Set "package" (slice "absolutelynotapackage" ) }}
-{{ range $registry.packages }}
-{{ $scratch.Add "package" .name }}
+{{ range $registry }}
+{{ $scratch.Add "package" .Package }}
 {{ end }}
 
 {{ $scratch.Set "activepackage" (slice "absolutelynotapackage" ) }}
-{{ range ( where $registry.packages "type" "active" ) }}
-{{ $scratch.Add "activepackage" .name }}
+{{ range $registry }}
+{{ $scratch.Add "activepackage" .Package }}
 {{ end }}
         <div class="row case-cards mt-5">
           {{ $citations := (resources.GetRemote .Site.Params.citations) | unmarshal }}
