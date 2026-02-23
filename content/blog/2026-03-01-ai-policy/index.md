@@ -84,8 +84,6 @@ This is our intended addition to the templates for authors submitting software f
 
 If so, please describe: <!-- refer to our AI policies at http:// ... -->
 If your repository includes an "agents.md" file or equivalent, please provide a link, and describe how this has been used in the development of your package.
-
-- [ ] I/we request that reviewers not use any AI tools as part of their review.
 ```
 
 ### For editors
