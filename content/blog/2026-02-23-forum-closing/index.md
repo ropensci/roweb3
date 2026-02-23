@@ -3,8 +3,6 @@ slug: forum-closing
 title: 'Our forum is closed but our community is not!'
 author:
     - The rOpenSci Team
-editor:
-    - 
 date: '2026-02-23'
 tags:
   - community
