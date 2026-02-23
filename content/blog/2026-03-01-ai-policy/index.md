@@ -18,7 +18,7 @@ params:
 ---
 
 The advent of large language models (LLMs) and generative AI tools has changed the nature of software development and of software review.
-To accommodate these changes, rOpenSci is updating its policies to clarify our expectations for authors and reviewers using generative AI tools.
+To accommodate these changes, rOpenSci is updating its policies to clarify our expectations for authors, reviewers, and editors using generative AI tools.
 Similar updates have already been implemented by both the [Journal of Open Source Software](https://blog.joss.theoj.org/2026/01/preparing-joss-for-a-generative-ai-future) and [pyOpenSci](https://www.pyopensci.org/blog/generative-ai-peer-review-policy.html), and we are indebted to the work of all those who contributed to these policy statements.
 
 Large language models and generative AI tools make many coding tasks easier and quicker, and can expand the community of people able to contribute to open source software.
