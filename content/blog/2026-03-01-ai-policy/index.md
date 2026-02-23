@@ -20,6 +20,7 @@ params:
 The advent of large language models (LLMs) and generative AI tools has changed the nature of software development and of software review.
 To accommodate these changes, rOpenSci is updating its policies to clarify our expectations for authors, reviewers, and editors using generative AI tools.
 Our policy updates are not intended to restrict use of generative AI tools, rather we aim to encourage the rOpenSci community to use these tools in ways that encourage, rather than diminish, healthy community interactions.
+The following describes changes we will make to our requirements for authors, for editors, and for reviewers.
 
 Similar updates have already been implemented by both the [Journal of Open Source Software](https://blog.joss.theoj.org/2026/01/preparing-joss-for-a-generative-ai-future) and [pyOpenSci](https://www.pyopensci.org/blog/generative-ai-peer-review-policy.html), and we are indebted to the work of all those who contributed to these policy statements.
 
@@ -46,12 +47,12 @@ Software peer-review at rOpenSci is designed to improve and promote the quality 
 Human interactions are a vital part of reviewing and maintaining rOpenSci software.
 Software review aims to provide authors with feedback on their practices and choices, and not just on the lines of code they or an AI generated. We also value the time and effort of reviewers, and want them to be able to focus on the practices and choices of authors.
 Reviewers may use AI tools, but their reviews should still reflect their own choices and judgments.
+
 The increasing ease by which generative AI tools can produce quality software requires us to give more consideration to what authors’ contributions may actually be.
 In the words of the [JOSS blog post](https://blog.joss.theoj.org/2026/01/preparing-joss-for-a-generative-ai-future), this demands some degree of moving away from software-based "proxies for effort", to deeper consideration of the contexts in which software has been produced, and will be used.
 
 Software reviews at rOpenSci have always been [constructive and non adversarial](https://ropensci.org/software-review/), and commonly involve extensive exchanges between authors, reviewers, and editors.
 Software reviewed at rOpenSci is generally given deep and general consideration, commonly extending to the areas emphasised by JOSS's updated [scope definition](https://joss.theoj.org/about#ai-policy), and we therefore see no need to explicitly change either the scope or focus of review.
-The following describes changes we will make to our requirements for authors, for editors, and for reviewers.
 
 ### For authors
 
