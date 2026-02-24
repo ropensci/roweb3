@@ -42,7 +42,14 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+### Strong Engagement in the Champions Program Call
 
+The Champions Program call closed on February 23, and the response _was fantastic_. 
+We received **81 Champion** and **14 Mentor applications** from **23 countries**, 
+with **74%** of applicants proposing to develop a **new package**. 
+We’re now kicking off the selection process, starting with mentors so they can support the evaluation of Champion proposals. 
+Confirmation emails have already been sent to all applicants. 
+Thank you to everyone who applied!
 
 ### Coworking 
 
