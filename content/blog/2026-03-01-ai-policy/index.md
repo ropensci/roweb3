@@ -74,7 +74,7 @@ This could also fundamentally change the nature of review from a previously holi
 We can not know the eventual impact that generative AI tools may have on software review processes and practices at rOpenSci, and can ask only for an utmost degree of transparency from all involved.
 
 Perhaps most importantly, our software review policies and practices have evolved over many years in response to community engagement and feedback.
-The introduction of policies addressing generative AI tools is a part of that evolution, and these policites will also evolve further in responses to community engagement, and changing community practices.
+The introduction of policies addressing generative AI tools is a part of that evolution, and these policies will also evolve further in responses to community engagement, and changing community practices.
 
 We now describe specific updates to both our practices and policies for authors, for editors, and for reviewers.
 
@@ -121,7 +121,7 @@ Editors are the first to view software submitted to rOpenSci, and generally comp
 This checklist will also include an additional item:
 
 ```
-- [ ] **Use of generative AI tools**: If the authors have used generatic AI tools, have they sufficiently described their usage?
+- [ ] **Use of generative AI tools**: If the authors have used generative AI tools, have they sufficiently described their usage?
 ```
 
 This item will also require no additional action by editors unless authors have used generative AI tools.
