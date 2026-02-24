@@ -4,11 +4,6 @@
 <body>
 {{ partial "skeleton/header" (dict "Kind" .Kind "Site" .Site "RelPermalink" .RelPermalink "Language" .Language "IsTranslated" .IsTranslated "Translations" .Translations "IsHome" .IsHome) }}
 
-<div class="site-banner" style="background: #2a7ae2; color: white; text-align: center; padding: 0.75rem;">
-  <p>¡Atención, aspirantes a Campeon(a|e)s de rOpenSci! Debido a problemas técnicos con nuestro sistema de envío de solicitudes, la fecha límite se ha extendido hasta <strong>el lunes 23 de febrero.</strong></p>
-  <p>Attention rOpenSci Champions applicants! Due to technical issues with our submission system, the deadline for applications has been extended through <strong>Monday, February 23.</strong></p>
-</div>
-
  {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
