@@ -133,7 +133,7 @@ In response to this new checklist item, editors may broaden their consideration 
 - Package development history.
 - Evidence of design decisions motivating the software.
 
-When recruiting reviewers for a package, editors may describe authors’ AI usage where relevant, and will also communicate any requests by authors for reviewers not to use AI tools.
+When recruiting reviewers for a package, editors may describe authors’ AI usage where relevant
 
 ### Requirements and advice for reviewers
 
@@ -148,8 +148,5 @@ Our [Guide for Reviewers](https://devguide.ropensci.org/softwarereview_reviewer.
 - Generative AI tools may be used to aid the review process, but all review text must reflect the judgement of the reviewer.
 - Typical and acceptable use of generative AI tools in software review include getting an overview of software design, structure, and function.
 
-Updates to the [Guide for Reviewers](https://devguide.ropensci.org/softwarereview_reviewer.html) will also include examples of productive use of generative AI tools in the review process, such as,
-
-- Consistency of function names (for example, use of "verb_noun"-forms throughout)
-
+Updates to the [Guide for Reviewers](https://devguide.ropensci.org/softwarereview_reviewer.html) will also include examples of productive use of generative AI tools in the review process.
 Reviewers may also consider AI use in choosing whether to volunteer as a reviewer of a package.
