@@ -2,7 +2,6 @@
 {{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
 {{ $citations := (resources.GetRemote .Site.Params.citations) | unmarshal }}
 {{ $communitymultiverse := (resources.GetRemote .Site.Params.communitymultiverse) | unmarshal }}
-{{ $stagingmultiverse := (resources.GetRemote .Site.Params.stagingmultiverse) | unmarshal }}
 {{ $Scratch := newScratch }}
 <section class="section section-category">
   <div class="container bg-cubes">
@@ -49,7 +48,7 @@
                 {{ $Scratch.Set "pkgs" (sort ( where ($registry) "_metadata.ropensci_category" .Params.slug ) "date_last_commit" "desc" ) }}
                 {{ end }}
                 {{ range ($Scratch.Get "pkgs") }}
-                {{ partial "packages/package-card" (dict "package" . "citations" $citations "communitymultiverse" $communitymultiverse "stagingmultiverse" $stagingmultiverse ) }}
+                {{ partial "packages/package-card" (dict "package" . "citations" $citations "communitymultiverse" $communitymultiverse ) }}
                 {{ end }}
       </div>
       </div>
