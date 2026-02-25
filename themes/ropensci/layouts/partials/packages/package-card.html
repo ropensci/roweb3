@@ -12,7 +12,7 @@
         {{ end }}
         {{ $communitymultiverse := where .communitymultiverse "Package" "eq" .package.Package }}
         {{ if gt (len $communitymultiverse) 0 }}
-        <a href="https://community.r-multiverse.org/{{ .package.Package }}.html" class="category-card__tag is-teal">R-multiverse</a>
+        <a href="https://community.r-multiverse.org/{{ .package.Package }}" class="category-card__tag is-teal">R-multiverse</a>
         {{ end }}
         {{ if isset .package._metadata "review" }}
         <a href="{{ .package._metadata.review.url }}" class="category-card__tag is-linear">Peer-reviewed</a>
