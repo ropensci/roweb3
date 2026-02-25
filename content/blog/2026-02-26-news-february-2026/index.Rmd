@@ -75,6 +75,7 @@ And remember, you can always cowork independently on work related to R, work on 
 Last year we published a [blog post](/blog/2025/09/11/repometrics-call-help) on an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) for all rOpenSci packages and community contributors.
 We have now developed the [orgmetricsDashboard repository](https://github.com/ropensci-review-tools/orgmetricsDashboard) to enable anybody to deploy their own organizational dashboard directly from their [R-Universe repository](https://docs.r-universe.dev/publish/set-up.html).
 The only input needed is an [R-Universe "packages.json" file](https://docs.r-universe.dev/publish/set-up.html#registry-file), and you can deploy either via GitHub actions, or a local Docker workflow.
+Try it out!
 
 ## Software :package:
 

@@ -10,7 +10,7 @@ description: coworking, new package, package news
 params:
   last_newsletter: '2026-01-29'
   doi: "10.59350/fe3c2-6zc80"
-rmd_hash: 4ba6b0c28e9c5605
+rmd_hash: b4215e2f10a24444
 
 ---
 
@@ -19,6 +19,10 @@ rmd_hash: 4ba6b0c28e9c5605
 Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/02/17/news-february-2026). Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
+### Strong Engagement in the Champions Program Call
+
+The Champions Program call closed on February 23, and the response *was fantastic*. We received **81 Champion** and **14 Mentor applications** from **23 countries**, with **74%** of applicants proposing to develop a **new package**. We're now kicking off the selection process, starting with mentors so they can support the evaluation of Champion proposals. Confirmation emails have already been sent to all applicants. Thank you to everyone who applied!
 
 ### Coworking
 
@@ -29,9 +33,17 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     -   Meet cohost Mark Padgham, and discuss what it's like being an Editor for rOpenSci Software Peer Review.
 -   Tuesday April 7th 2026, 9:00 Americas Pacific (16:00 UTC) ["Getting to know the CSID Network"](/events/coworking-2026-04/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Irene Ramos](/author/irene-ramos/).
     -   Learn more about the [CSID Network](https://csidnet.org/)
-    -   Meet community host, Irene Ramos, and learn more about the CSID Network and how you might get involved.
+    -   Meet cohost, Irene Ramos, and learn more about the CSID Network and how you might get involved.
+-   Tuesday May 5th 2026, 9:00 Australia Western (01:00 UTC) ["Code Review with rOpenSci"](/events/coworking-2026-05/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Liz Hare](/author/liz-hare/).
+    -   Explore resources for Code Review
+    -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci
+    -   Meet cohost, Liz Hare, and discuss resources for Code Review with rOpenSci.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+### Community Dashboard for your own R-Universe
+
+Last year we published a [blog post](/blog/2025/09/11/repometrics-call-help) on an [organization-level dashboard](https://ropensci-review-tools.github.io/repometrics-demo/) for all rOpenSci packages and community contributors. We have now developed the [orgmetricsDashboard repository](https://github.com/ropensci-review-tools/orgmetricsDashboard) to enable anybody to deploy their own organizational dashboard directly from their [R-Universe repository](https://docs.r-universe.dev/publish/set-up.html). The only input needed is an [R-Universe "packages.json" file](https://docs.r-universe.dev/publish/set-up.html#registry-file), and you can deploy either via GitHub actions, or a local Docker workflow. Try it out!
 
 ## Software :package:
 
@@ -41,11 +53,14 @@ And remember, you can always cowork independently on work related to R, work on 
 
 </div>
 
-The following package recently became a part of our software suite:
+The following two packages recently became a part of our software suite:
 
 <div class="highlight">
 
 -   [orgmetrics](https://docs.ropensci.org/orgmetrics), developed by Mark Padgham: Metrics for your GitHub organization. Call one function to generate an interactive dashboard displaying the state of your organization.
+
+-   [Athlytics](https://docs.ropensci.org/Athlytics), developed by Zhiang He: An open-source computational framework for longitudinal analysis of exercise physiology metrics using local Strava data exports. Designed for personal analysis and sports science applications, this package provides standardized functions to calculate and visualize key physiological indicators including Acute:Chronic Workload Ratio (ACWR), Efficiency Factor (EF), and training load metrics. It has been [reviewed](https://github.com/ropensci/software-review/issues/728) by Eunseop Kim and Simon Nolte.
+
     </div>
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
@@ -56,7 +71,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following ten packages have had an update since the last newsletter: [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.2`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.2)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.12.0`](https://github.com/ropensci/targets/releases/tag/1.12.0)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.5`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.5)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.2.1`](https://github.com/ropensci/dbparser/releases/tag/v2.2.1)), [taxize](https://docs.ropensci.org/taxize "Taxonomic Information from Around the Web") ([`v0.10.1`](https://github.com/ropensci/taxize/releases/tag/v0.10.1)), [rangr](https://docs.ropensci.org/rangr "Mechanistic Simulation of Species Range Dynamics") ([`v1.0.9`](https://github.com/ropensci/rangr/releases/tag/v1.0.9)), [wikitaxa](https://docs.ropensci.org/wikitaxa "Taxonomic Information from Wikipedia") ([`v0.5.0`](https://github.com/ropensci/wikitaxa/releases/tag/v0.5.0)), [mantis](https://docs.ropensci.org/mantis "Multiple Time Series Scanner") ([`v1.0.2`](https://github.com/ropensci/mantis/releases/tag/v1.0.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.14.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.14.0)), and [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`1.0.0`](https://github.com/ropensci/tidyhydat/releases/tag/1.0.0)).
+The following thirteen packages have had an update since the last newsletter: [dittodb](https://docs.ropensci.org/dittodb "A Test Environment for Database Requests") ([`v0.1.11`](https://github.com/ropensci/dittodb/releases/tag/v0.1.11)), [targets](https://docs.ropensci.org/targets "Dynamic Function-Oriented Make-Like Declarative Pipelines") ([`1.12.0`](https://github.com/ropensci/targets/releases/tag/1.12.0)), [RSelenium](https://docs.ropensci.org/RSelenium "R Bindings for Selenium WebDriver") ([`v1.7.10`](https://github.com/ropensci/RSelenium/releases/tag/v1.7.10)), [Athlytics](https://docs.ropensci.org/Athlytics "Academic R Package for Sports Physiology Analysis from Local Strava Data") ([`v1.0.4`](https://github.com/ropensci/Athlytics/releases/tag/v1.0.4)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.2`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.2)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.5`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.5)), [dbparser](https://docs.ropensci.org/dbparser "Drugs Databases Parser") ([`v2.2.1`](https://github.com/ropensci/dbparser/releases/tag/v2.2.1)), [taxize](https://docs.ropensci.org/taxize "Taxonomic Information from Around the Web") ([`v0.10.1`](https://github.com/ropensci/taxize/releases/tag/v0.10.1)), [rangr](https://docs.ropensci.org/rangr "Mechanistic Simulation of Species Range Dynamics") ([`v1.0.9`](https://github.com/ropensci/rangr/releases/tag/v1.0.9)), [wikitaxa](https://docs.ropensci.org/wikitaxa "Taxonomic Information from Wikipedia") ([`v0.5.0`](https://github.com/ropensci/wikitaxa/releases/tag/v0.5.0)), [mantis](https://docs.ropensci.org/mantis "Multiple Time Series Scanner") ([`v1.0.2`](https://github.com/ropensci/mantis/releases/tag/v1.0.2)), [tarchetypes](https://docs.ropensci.org/tarchetypes "Archetypes for Targets") ([`0.14.0`](https://github.com/ropensci/tarchetypes/releases/tag/0.14.0)), and [tidyhydat](https://docs.ropensci.org/tidyhydat "Extract and Tidy Canadian Hydrometric Data") ([`1.0.0`](https://github.com/ropensci/tidyhydat/releases/tag/1.0.0)).
 
 Post on dfms release: [Releasing dfms 1.0: Fast and Feature-Rich Estimation of Dynamic Factor Models in R](https://sebkrantz.github.io/Rblog/2026/01/29/releasing-dfms-1-0-fast-and-feature-rich-estimation-of-dynamic-factor-models-in-r/).
 
@@ -64,13 +79,15 @@ Post on dfms release: [Releasing dfms 1.0: Fast and Feature-Rich Estimation of D
 
 <div class="highlight">
 
-There are fourteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
+There are seventeen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
--   Three at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
-
-    -   [suwo](https://github.com/ropensci/software-review/issues/729), Access Nature Media Repositories Through R. Submitted by [Marcelo Araya-Salas](https://marce10.github.io/).
+-   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
     -   [Athlytics](https://github.com/ropensci/software-review/issues/728), Academic R Package for Sports Physiology Analysis from Local Strava Data. Submitted by [Ang](https://github.com/HzaCode).
+
+-   Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
+
+    -   [suwo](https://github.com/ropensci/software-review/issues/729), Access Nature Media Repositories Through R. Submitted by [Marcelo Araya-Salas](https://marce10.github.io/).
 
     -   [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io).
 
@@ -78,7 +95,13 @@ There are fourteen recently closed and active submissions and 4 submissions on h
 
     -   [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.github.io/). (Stats).
 
--   Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+-   Seven at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+
+    -   [priorsense](https://github.com/ropensci/software-review/issues/704), Prior Diagnostics and Sensitivity Analysis. Submitted by [Noa Kallioinen](https://github.com/n-kall). (Stats).
+
+    -   [logolink](https://github.com/ropensci/software-review/issues/741), An Interface for Running NetLogo Simulations. Submitted by [Daniel Vartanian](http://danielvartan.com).
+
+    -   [ActiGlobe](https://github.com/ropensci/software-review/issues/732), Wearable Recording Processor for Time Shift Adjustment and Data Analysis. Submitted by [C. William Yao](https://scholar.google.ca/citations?user=T7y9ckwAAAAJ&hl=en).
 
     -   [ernest](https://github.com/ropensci/software-review/issues/730), A Toolkit for Nested Sampling. Submitted by [Kyle Dewsnap](https://github.com/kylesnap). (Stats).
 
@@ -86,15 +109,13 @@ There are fourteen recently closed and active submissions and 4 submissions on h
 
     -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](https://marcburri.github.io/).
 
--   Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
+    -   [priorsense](https://github.com/ropensci/software-review/issues/704), Prior Diagnostics and Sensitivity Analysis. Submitted by [Noa Kallioinen](https://github.com/n-kall). (Stats).
 
-    -   [logolink](https://github.com/ropensci/software-review/issues/741), An Interface for Running NetLogo Simulations. Submitted by [Daniel Vartanian](http://danielvartan.com).
-
-    -   [ActiGlobe](https://github.com/ropensci/software-review/issues/732), Wearable Recording Processor for Time Shift Adjustment and Data Analysis. Submitted by [C. William Yao](https://scholar.google.ca/citations?user=T7y9ckwAAAAJ&hl=en).
-
--   Five at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+-   Six at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
     -   [nycOpenData](https://github.com/ropensci/software-review/issues/750), Convenient Access to NYC Open Data API Endpoints. Submitted by [Christian Martinez](https://github.com/martinezc1).
+
+    -   [pvEBayes](https://github.com/ropensci/software-review/issues/746), Empirical Bayes Methods for Pharmacovigilance. Submitted by [Yihao Tan](https://github.com/YihaoTancn). (Stats).
 
     -   [RAQSAPI](https://github.com/ropensci/software-review/issues/744), A Simple Interface to the US EPA Air Quality System Data Mart API. Submitted by [mccroweyclinton-EPA](https://github.com/mccroweyclinton-EPA).
 
