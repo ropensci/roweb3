@@ -62,7 +62,11 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     -   Meet cohost Mark Padgham, and discuss what it’s like being an Editor for rOpenSci Software Peer Review.
 - Tuesday April 7th 2026, 9:00 Americas Pacific (16:00 UTC) ["Getting to know the CSID Network"](/events/coworking-2026-04/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Irene Ramos](/author/irene-ramos/).  
     -   Learn more about the [CSID Network](https://csidnet.org/)
-    -   Meet community host, Irene Ramos, and learn more about the CSID Network and how you might get involved.
+    -   Meet cohost, Irene Ramos, and learn more about the CSID Network and how you might get involved.
+- Tuesday May 5th 2026, 9:00 Australia Western (01:00 UTC) ["Code Review with rOpenSci"](/events/coworking-2026-05/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Liz Hare](/author/liz-hare/).  
+    -   Explore resources for Code Review
+    -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci
+    -   Meet cohost, Liz Hare, and discuss resources for Code Review with rOpenSci.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
