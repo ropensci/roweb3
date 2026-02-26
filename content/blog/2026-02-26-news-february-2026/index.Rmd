@@ -6,7 +6,7 @@ author:
 date: '2026-02-17'
 tags:
   - newsletter
-description: coworking, new package, package news
+description: AI policy for software review, champions program, coworking, new packages, package news
 params:
   last_newsletter: '2026-01-29'
   doi: "10.59350/fe3c2-6zc80"
@@ -42,6 +42,7 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
 ### Strong Engagement in the Champions Program Call
 
 The Champions Program call closed on February 23, and the response _was fantastic_. 
