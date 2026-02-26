@@ -46,7 +46,7 @@ We made some changes to rOpenSci policies and scope:
 
 - New requirement to not call the [default branch "master"](https://devdevguide.netlify.app/pkg_building#version-control#:~:text=not%20be%20master).
 
-- Removed requirement to use a `codemeta.json` file, as it is no longer relevant.
+- Removed requirement to use a `codemeta.json` file, now deprecated. Codemeta continues to be [actively used and developed](https://codemeta.github.io/), but we have found it redundant with other metadata and Codemeta can generate these data as-needed from DESCRIPTION files.
 
 ## Editor Guide, Author Guide & Reviewer Guide
 
