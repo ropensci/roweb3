@@ -40,13 +40,13 @@ En el paquete [guía de desarrollo](https://github.com/ropensci/dev_guide/pull/9
 
 Hemos realizado algunos cambios en las políticas y el alcance de rOpenSci:
 
-- Nueva categoría para [Herramientas internas y de revisión por pares de rOpenSci](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories#:~:text=rOpenSci%20internal%20tools).
+- Nueva categoría para [Herramientas internas y de revisión por pares de rOpenSci](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories#:~:text=herramientas%20internas%20de%20rOpenSci).
 
-- Actualizaciones de la [categoría de recuperación de datos](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories#:~:text=data%20retrieval).
+- Actualizaciones de la [categoría de recuperación de datos](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories#:~:text=recuperaci%C3%B3n%20de%20datos).
 
-- Nueva regla explícita para [presentar un paquete a la vez](https://devdevguide.netlify.app/es/softwarereview_author.es.html#lifecycle#:~:text=do%20not%20submit%20several).
+- Nueva regla explícita para [presentar un paquete a la vez](https://devdevguide.netlify.app/es/softwarereview_author.es.html#lifecycle#:~:text=no%20env%C3%ADes%20varios).
 
-- Nuevo requisito para no llamar al [rama por defecto "master"](https://devdevguide.netlify.app/es/pkg_building.es.html#version-control#:~:text=not%20be%20master).
+- Nuevo requisito para no llamar al [rama por defecto "master"](https://devdevguide.netlify.app/es/pkg_building.es.html#version-control#:~:text=El%20nombre%20de%20rama%20por%20defecto%20no%20debe%20ser%20master).
 
 - Eliminado el requisito de utilizar un `codemeta.json` ya obsoleto. Codemeta sigue siendo [utilizado y desarrollado activamente](https://codemeta.github.io/) pero hemos descubierto que es redundante con otros metadatos y Codemeta puede generar estos datos según sea necesario a partir de archivos DESCRIPTION.
 
@@ -78,7 +78,7 @@ En el capítulo sobre la evolución de los paquetes, hemos añadido orientacione
 Hemos actualizado nuestro [orientaciones sobre pruebas](https://devdevguide.netlify.app/es/pkg_building.es.html#testing) con
 
 - a [mención de tinytest](https://devdevguide.netlify.app/es/pkg_building.es.html#testing#:~:text=tinytest) como alternativa a testthat;
-- una nota sobre el mantenimiento de las pruebas escritas con testthat [autocontenidas](https://devdevguide.netlify.app/es/pkg_building.es.html#testing#:~:text=self-contained).
+- una nota sobre el mantenimiento de las pruebas escritas con testthat [autocontenidas](https://devdevguide.netlify.app/es/pkg_building.es.html#testing#:~:text=autocontenidos).
 
 ## Documentación del paquete
 
