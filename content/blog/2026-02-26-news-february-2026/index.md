@@ -16,7 +16,7 @@ rmd_hash: 9bc03e69f67246d6
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
 
-Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/02/17/news-february-2026). Now let's dive into the activity at and around rOpenSci!
+Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/02/26/news-february-2026). Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
