@@ -27,7 +27,8 @@ Our guide is now trilingual ([English](https://devguide.ropensci.org/index.html)
 
 Find more about the awesome Portuguese translation project, initiated and powered by our Lusophone members in our [blog post](/blog/2025/11/25/translation-devguide-pt/).
 
-Note that our [babelquarto package](https://docs.ropensci.org/babelquarto/) to render multilingual Quarto books or websites was recently [peer-reviewed](https://github.com/ropensci/software-review/issues/720) by Ella Kaye and João Granja-Correia.
+The translation project and ongoing multilingual maintenance uses our [babelquarto package](https://docs.ropensci.org/babelquarto/) to render multilingual Quarto books and websites. 
+It was recently [peer-reviewed](https://github.com/ropensci/software-review/issues/720) by Ella Kaye and João Granja-Correia.
 
 We're actively working on our [babeldown package](https://docs.ropensci.org/babeldown/) to create and update translations using the DeepL API.
 
