@@ -69,7 +69,7 @@ Last but not least, the [section about dependencies](https://devdevguide.netlify
 
 The whole book now mentions the [Air CLI](https://posit-dev.github.io/air/) every time it mentions the styler package, as Air can be viewed as styler's successor.
 
-In the chapter about Package evolution, we added how to [deprecate *data*](https://devdevguide.netlify.app/maintenance_evolution#data-deprecate), and explained the [drawbacks of renaming a widely-used package](https://devdevguide.netlify.app/maintenance_evolution#renaming-packages).
+In the chapter about Package evolution, we added guidance on [deprecating *data*](https://devdevguide.netlify.app/maintenance_evolution#data-deprecate), and explained the [drawbacks of renaming a widely-used package](https://devdevguide.netlify.app/maintenance_evolution#renaming-packages).
 
 ## Testing guidance
 
