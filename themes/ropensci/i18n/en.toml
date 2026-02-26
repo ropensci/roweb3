@@ -372,3 +372,15 @@
 
 [GitHub-Organizations]
   other = 'GitHub Organizations'
+
+[Reporter]
+  other = 'Reporter'
+
+[English]
+  other = 'English'
+
+[Spanish]
+  other = 'Spanish'
+
+[Portuguese]
+  other = 'Portuguese'
