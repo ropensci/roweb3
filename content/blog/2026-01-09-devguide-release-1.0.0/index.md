@@ -99,4 +99,5 @@ We documented more ways to acknowledge contributors:
 
 In this post we summarized the changes in the latest version of our book [“rOpenSci Packages: Development, Maintenance, and Peer Review”](https://devguide.ropensci.org).
 We are thankful for all contributions that created this release. 
-We are already working on the next version, don't hesitate to help us shape it by opening an [issue](https://github.com/ropensci/dev_guide/issues)!
+We are already working on the next version.
+Don't hesitate to help us shape it by opening an [issue](https://github.com/ropensci/dev_guide/issues)!
