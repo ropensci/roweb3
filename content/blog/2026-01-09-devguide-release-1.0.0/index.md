@@ -91,7 +91,7 @@ We also clarified different strategies to [document internal functions](https://
 
 We documented more ways to acknowledge contributors:
 
--  in the [authorship](https://devdevguide.netlify.app/pkg_building.html#authorship) section of the packaging guide, with [ROR IDs](/blog/2025/05/09/ror/);
+-  in the [authorship](https://devdevguide.netlify.app/pkg_building.html#authorship) section of the packaging guide, with [Research Organization Registry (ROR) IDs](/blog/2025/05/09/ror/);
 
 - in the chapter about [collaboration](https://devdevguide.netlify.app/maintenance_collaboration.html#attributions), the [allcontributors R package](https://docs.ropensci.org/allcontributors/).
 
