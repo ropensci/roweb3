@@ -146,8 +146,6 @@ When recruiting reviewers for a package, editors may describe authors’ AI usag
 
 Review processes at rOpenSci frequently involve reviewers recommending potential improvements, and authors then implementing those.
 In adapting to use of generative AI tools, we will strive to maintain the same culture of constructive feedback.
-This means that reviewers need to be confident that any suggestions they might have reflect design decisions made by the submitting authors.
-
 We hope that authors will provide sufficient information on use of generative AI tools to guide reviewers towards aspects of their software requiring particular attention.
 
 Reviewers are permitted to use generative AI tools in preparing reviews for rOpenSci, but their use must meet the same criteria of supporting the goals of review.
