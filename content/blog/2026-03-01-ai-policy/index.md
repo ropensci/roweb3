@@ -90,8 +90,8 @@ We also value the time and effort of editors and reviewers, and want them to be 
 
 ### Practical application: for authors
 
-It is important to us that authors who do not use generative AI tools are able to submit as always, with no extra requirements.
-Those who use such tools, though, will need to support the process by sufficiently describing their use of generative AI to enable decision-making, and also affirm all generated material has been carefully reviewed by the authors.
+Authors who do not use generative AI tools will submit as always, with no extra requirements.
+Those who use such tools, though, will be asked to describe their use, and to affirm that all generated material has been carefully reviewed by the authors.
 We want these descriptions to help reviewers and editors to understand how they can best review code and provide useful feedback.
 
 Our submission template will now have a required section for this, and the [Guide for Authors](https://devguide.ropensci.org/softwarereview_author.html) will have additional guidance.
@@ -167,4 +167,4 @@ This is our first pass at providing guidelines governing the use of generative A
 
 With more package submissions having some component of AI contribution, the editorial board thought it essential to provide these updates to manage the process as we learn more about what works and what does not.
 
-We invite you to further discuss the evolving role of AI in software review in [this issue](), and more importantly to join us as an author or reviewer in peer review, so we can learn together.
+We invite you to further discuss the evolving role of AI in software review in [this issue](), and more importantly to join us as an author or reviewer in peer review, so we can learn together!
