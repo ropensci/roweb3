@@ -58,7 +58,7 @@ We added a section on challenges, and documented how to put the system on vacati
 
 Likewise, we improved the organization and content of the [author guide](https://devdevguide.netlify.app/softwarereview_author) (thanks to [Alec Robitaille](https://github.com/robitalec) and [Joan Maspons](https://github.com/jmaspons)).
 
-In the [reviewer guide](https://devdevguide.netlify.app/softwarereview_reviewer), we removed the link to the defunct Mozilla Review guide in favor of explicit items.
+In the [reviewer guide](https://devdevguide.netlify.app/softwarereview_reviewer), we removed the external link to the no-longer maintained Mozilla Review guide (one of our early design sources for peer-review) in favor of explicit enumerated items.
 
 ## Packaging Best Practices
 
