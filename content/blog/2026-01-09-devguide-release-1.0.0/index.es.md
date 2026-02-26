@@ -40,13 +40,13 @@ En el paquete [guía de desarrollo](https://github.com/ropensci/dev_guide/pull/9
 
 Hemos realizado algunos cambios en las políticas y el alcance de rOpenSci:
 
-- Nueva categoría para [Herramientas internas y de revisión por pares de rOpenSci](https://devdevguide.netlify.app/softwarereview_policies#package-categories#:~:text=rOpenSci%20internal%20tools).
+- Nueva categoría para [Herramientas internas y de revisión por pares de rOpenSci](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories#:~:text=rOpenSci%20internal%20tools).
 
-- Actualizaciones de la [categoría de recuperación de datos](https://devdevguide.netlify.app/softwarereview_policies#package-categories#:~:text=data%20retrieval).
+- Actualizaciones de la [categoría de recuperación de datos](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories#:~:text=data%20retrieval).
 
-- Nueva regla explícita para [presentar un paquete a la vez](https://devdevguide.netlify.app/softwarereview_author#lifecycle#:~:text=do%20not%20submit%20several).
+- Nueva regla explícita para [presentar un paquete a la vez](https://devdevguide.netlify.app/es/softwarereview_author.es.html#lifecycle#:~:text=do%20not%20submit%20several).
 
-- Nuevo requisito para no llamar al [rama por defecto "master"](https://devdevguide.netlify.app/pkg_building#version-control#:~:text=not%20be%20master).
+- Nuevo requisito para no llamar al [rama por defecto "master"](https://devdevguide.netlify.app/es/pkg_building.es.html#version-control#:~:text=not%20be%20master).
 
 - Eliminado el requisito de utilizar un `codemeta.json` ya obsoleto. Codemeta sigue siendo [utilizado y desarrollado activamente](https://codemeta.github.io/) pero hemos descubierto que es redundante con otros metadatos y Codemeta puede generar estos datos según sea necesario a partir de archivos DESCRIPTION.
 
@@ -54,48 +54,48 @@ Hemos realizado algunos cambios en las políticas y el alcance de rOpenSci:
 
 Las guías que viven en nuestra guía :smile\_cat:
 
-Todo el [guía del editor](https://devdevguide.netlify.app/softwarereview_editor) se ha reestructurado para seguir el flujo típico de los envíos,
+Todo el [guía del editor](https://devdevguide.netlify.app/es/softwarereview_editor.es.html) se ha reestructurado para seguir el flujo típico de los envíos,
 y para explicar mejor cómo utilizar el [panel de revisión del software](https://dashboard.ropensci.org/).
 Hemos añadido una sección sobre retos y hemos documentado cómo poner el sistema en vacaciones (lo que solemos hacer durante el periodo de año nuevo).
 
-Asimismo, mejoramos la organización y el contenido del [guía del autor](https://devdevguide.netlify.app/softwarereview_author) (gracias a [Alec Robitaille](https://github.com/robitalec) y [Joan Maspons](https://github.com/jmaspons)).
+Asimismo, mejoramos la organización y el contenido del [guía del autor](https://devdevguide.netlify.app/es/softwarereview_author.es.html) (gracias a [Alec Robitaille](https://github.com/robitalec) y [Joan Maspons](https://github.com/jmaspons)).
 
-En el [guía del revisor](https://devdevguide.netlify.app/softwarereview_reviewer) hemos eliminado el enlace externo a la guía de revisión de Mozilla, que ya no se mantiene (una de nuestras primeras fuentes de diseño para la revisión por pares), en favor de elementos explícitamente enumerados.
+En el [guía del revisor](https://devdevguide.netlify.app/es/softwarereview_reviewer.es.html) hemos eliminado el enlace externo a la guía de revisión de Mozilla, que ya no se mantiene (una de nuestras primeras fuentes de diseño para la revisión por pares), en favor de elementos explícitamente enumerados.
 
 ## Mejores prácticas de empaquetado
 
-En la guía de embalaje (¡otra guía dentro de la guía!), hemos añadido orientaciones para elegir [conjuntos de datos de ejemplo](https://devdevguide.netlify.app/pkg_building#example-datasets).
-Además, hemos creado una sección para [Paquetes que incluyen software externo](https://devdevguide.netlify.app/pkg_building#external-software).
-El sitio [sección de licencias](https://devdevguide.netlify.app/pkg_building#licence) exige ahora explícitamente que se mencione a los autores del código incluido.
-Por último, pero no por ello menos importante, la sección [sección sobre dependencias](https://devdevguide.netlify.app/pkg_building#pkgdependencies) recomienda comprobar el estado de desarrollo de las dependencias.
+En la guía de embalaje (¡otra guía dentro de la guía!), hemos añadido orientaciones para elegir [conjuntos de datos de ejemplo](https://devdevguide.netlify.app/es/pkg_building.es.html#example-datasets).
+Además, hemos creado una sección para [Paquetes que incluyen software externo](https://devdevguide.netlify.app/es/pkg_building.es.html#external-software).
+El sitio [sección de licencias](https://devdevguide.netlify.app/es/pkg_building.es.html#licence) exige ahora explícitamente que se mencione a los autores del código incluido.
+Por último, pero no por ello menos importante, la sección [sección sobre dependencias](https://devdevguide.netlify.app/es/pkg_building.es.html#pkgdependencies) recomienda comprobar el estado de desarrollo de las dependencias.
 
 Todo el libro menciona ahora el [CLI aérea](https://posit-dev.github.io/air/) cada vez que menciona el paquete styler, ya que Air puede considerarse el sucesor de styler.
 
-En el capítulo sobre la evolución de los paquetes, hemos añadido orientaciones sobre [la eliminación de *datos*](https://devdevguide.netlify.app/maintenance_evolution#data-deprecate) y explicó la [inconvenientes de renombrar un paquete muy utilizado](https://devdevguide.netlify.app/maintenance_evolution#renaming-packages).
+En el capítulo sobre la evolución de los paquetes, hemos añadido orientaciones sobre [la eliminación de *datos*](https://devdevguide.netlify.app/es/maintenance_evolution.es.html#data-deprecate) y explicó la [inconvenientes de renombrar un paquete muy utilizado](https://devdevguide.netlify.app/es/maintenance_evolution.es.html#renaming-packages).
 
 ## Guía de pruebas
 
-Hemos actualizado nuestro [orientaciones sobre pruebas](https://devdevguide.netlify.app/pkg_building.html#testing) con
+Hemos actualizado nuestro [orientaciones sobre pruebas](https://devdevguide.netlify.app/es/pkg_building.es.html#testing) con
 
-- a [mención de tinytest](https://devdevguide.netlify.app/pkg_building.html#testing#:~:text=tinytest) como alternativa a testthat;
-- una nota sobre el mantenimiento de las pruebas escritas con testthat [autocontenidas](https://devdevguide.netlify.app/pkg_building.html#testing#:~:text=self-contained).
+- a [mención de tinytest](https://devdevguide.netlify.app/es/pkg_building.es.html#testing#:~:text=tinytest) como alternativa a testthat;
+- una nota sobre el mantenimiento de las pruebas escritas con testthat [autocontenidas](https://devdevguide.netlify.app/es/pkg_building.es.html#testing#:~:text=self-contained).
 
 ## Documentación del paquete
 
 Agradecimientos especiales a [Alasdair Warwick ](https://github.com/rmgpanw) hemos mejorado la documentación :wink: de nuestro sistema de creación de documentación, entre otras cosas:
 
-- Más detalles sobre el [aspectos técnicos](https://devdevguide.netlify.app/pkg_ci#rodocsci) de la creación de documentación para paquetes rOpenSci;
-- Actualizado [guía matemática](https://devdevguide.netlify.app/pkg_building.html#mathjax) tras la actualización de pkgdown.
+- Más detalles sobre el [aspectos técnicos](https://devdevguide.netlify.app/es/pkg_ci.es.html#rodocsci) de la creación de documentación para paquetes rOpenSci;
+- Actualizado [guía matemática](https://devdevguide.netlify.app/es/pkg_building.es.html#mathjax) tras la actualización de pkgdown.
 
-También aclaramos diferentes estrategias para [documentar funciones internas](https://devdevguide.netlify.app/pkg_building#:~:text=nord) gracias a [Claudiu Forgaci](https://github.com/cforgaci).
+También aclaramos diferentes estrategias para [documentar funciones internas](https://devdevguide.netlify.app/es/pkg_building.es.html#:~:text=nord) gracias a [Claudiu Forgaci](https://github.com/cforgaci).
 
 ## Metadatos e información del paquete
 
 Hemos documentado más formas de reconocer a los colaboradores:
 
-- en el [autoría](https://devdevguide.netlify.app/pkg_building.html#authorship) de la guía de envasado, con [ID del Registro de Organismos de Investigación (ROR)](/blog/2025/05/09/ror/);
+- en el [autoría](https://devdevguide.netlify.app/es/pkg_building.es.html#authorship) de la guía de envasado, con [ID del Registro de Organismos de Investigación (ROR)](/blog/2025/05/09/ror/);
 
-- en el capítulo sobre [colaboración](https://devdevguide.netlify.app/maintenance_collaboration.html#attributions) la [paquete R allcontributors](https://docs.ropensci.org/allcontributors/).
+- en el capítulo sobre [colaboración](https://devdevguide.netlify.app/es/maintenance_collaboration.es.html#attributions) la [paquete R allcontributors](https://docs.ropensci.org/allcontributors/).
 
 ## Conclusión
 
