@@ -95,7 +95,7 @@ Authors who do not use generative AI tools will submit as always, with no extra 
 Those who do use such tools will be asked to describe their use, and to affirm that all generated material has been carefully reviewed by the authors.
 We want these descriptions to help reviewers and editors to understand how they can best review code and provide useful feedback.
 
-Our submission template will now have a required section for this, and the [Guide for Authors](https://devguide.ropensci.org/softwarereview_author.html) will have additional guidance.
+We will be modifying our submission template to include this required section, and will be updating the [Guide for Authors](https://devguide.ropensci.org/softwarereview_author.html) with additional guidance.
 
 A minimal example might be a statement that “we’re not very proficient in C, so we used an LLM to generate most of the code for the C algorithm.”
 This might guide reviewers to pay particular attention to the tests for that part of the package.
