@@ -15,8 +15,9 @@ tags:
 description: "rOpenSci is testing preliminary policies on the use of generative AI tools, with proposed updates to documentation and procedures for authors submitting software for review, for editors, and for reviewers."
 editor:
 - Mauro Lepore
+- Steffi LaZerte
 params:
-  doi: ""
+  doi: "10.59350/5tavw-mke71"
 ---
 
 The advent of large language models (LLMs) and generative AI tools has changed the nature of software development and of software review.
