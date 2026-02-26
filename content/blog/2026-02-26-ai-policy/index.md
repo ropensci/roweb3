@@ -8,7 +8,7 @@ author:
 - Jouni Helske
 - Yanina Bellini Saibene
 - Francisco Rodriguez-Sanchez
-date: "2026-03-01"
+date: "2026-02-26"
 slug: "ropensci-ai-policy"
 categories: []
 tags:
