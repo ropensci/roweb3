@@ -1,5 +1,5 @@
 ---
-title: "Software Review in the era of AI: What we are testing at rOpenSci"
+title: "Software Review in the Era of AI: What We Are Testing at rOpenSci"
 author:
 - Mark Padgham
 - Noam Ross
