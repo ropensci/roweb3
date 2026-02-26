@@ -3,6 +3,11 @@ title: "Software Review in the Era of AI: What We Are Testing at rOpenSci"
 author:
 - Mark Padgham
 - Noam Ross
+- Mauro Lepore
+- Emily Riederer
+- Jouni Helske
+- Yanina Bellini Saibene
+- Francisco Rodriguez-Sanchez
 date: "2026-03-01"
 slug: "ropensci-ai-policy"
 categories: []
@@ -14,7 +19,6 @@ tags:
 - rOpenSci team
 description: "rOpenSci is testing preliminary policies on the use of generative AI tools, with proposed updates to documentation and procedures for authors submitting software for review, for editors, and for reviewers."
 editor:
-- Mauro Lepore
 - Steffi LaZerte
 params:
   doi: "10.59350/5tavw-mke71"
