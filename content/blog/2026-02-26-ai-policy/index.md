@@ -170,4 +170,4 @@ This is our first pass at providing guidelines governing the use of generative A
 
 With more package submissions having some component of AI contribution, the editorial board thought it essential to provide these updates to manage the process as we learn more about what works and what does not.
 
-We invite you to further discuss the evolving role of AI in software review in [this issue](), and more importantly to join us as an author or reviewer in peer review, so we can learn together!
+We invite you to further discuss the evolving role of AI in software review in [this issue](https://github.com/ropensci/software-review-meta/issues/107), and more importantly to join us as an author or reviewer in peer review, so we can learn together!
