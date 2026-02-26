@@ -50,12 +50,13 @@ Editors and reviewers at rOpenSci are volunteers who devote their own time to he
 Our review system works because they have always been able to assume that all aspects of code submitted for review have reflected decisions made by the human authors of software.
 That, in turn, has ensured that the efforts of editors and reviewers are proportional to the primary efforts of software authors.
 
-Generative AI tools potentially change both of these situations. It enables software to be produced with relatively little human input or oversight, which means editors and reviewers may put more consideration into software design, structure, and function than submitting authors.
+Generative AI tools potentially change both of these situations.
+They enable software to be produced with relatively little human input or oversight, which means editors and reviewers may put more consideration into software design, structure, and function than submitting authors.
 We do not want software review to become a service in which our human volunteers validate largely AI-generated software.
-It puts at risk the equal and constructive interaction of review, and can reduce the motivation of editors and reviewers.
+That would put at risk the equal and constructive interaction of review, and likely reduce the motivation of editors and reviewers.
 We need to ensure that our software review process remains focused on the decisions, designs, and implementations of the submitting authors.
 
-One option is requesting authors outline the areas that have been AI generated, and specifying the scope of their own work.
+One option is requesting authors to outline the areas that have been AI generated, and specifying the scope of their own work.
 However, this could result in our previously holistic process becoming one where only defined aspects or sections of software end up being reviewed.
 Authors declaring that a certain tool was used to generate all tests may lead one reviewer to completely ignore those tests, while another reviewer may be passionately engaged in the ways by which exactly that tool writes tests.
 
@@ -73,14 +74,14 @@ The introduction of policies addressing generative AI tools is a part of that ev
 ### No change in scope
 
 One potential response would be a change in the scope of packages we review.
-JOSS has updated their [scope definition](https://joss.theoj.org/about#ai-policy) to, among other things, require a longer record of continuous development.
-Software reviews at rOpenSci often involve early-stage software seeking feedback, so this is not a match for rOpenSci. 
-JOSS also added other criteria to evaluate scope, such as evidence of impact and design, and commonly involves extensive exchanges between authors, reviewers, and editors.
-Software reviewed at rOpenSci is generally given deep and broad consideration, extending to many of the areas emphasized by JOSS's updated criteria, and we therefore see no need to explicitly change either the scope or focus of review.
+JOSS has updated their [scope definition](https://joss.theoj.org/about#ai-policy) to, among other things, require a longer record of continuous development, along with other criteria, such as evidence of impact and design.
+At rOpenSci, authors often seek feedback on early-stage software.
+Our review process commonly involves deep and broad consideration through extensive exchanges between authors, reviewers, and editors.
+We are confident that this extends to many of the areas emphasized by JOSS's updated criteria, and we therefore see no need to explicitly change either the scope or focus of review.
 
 ### Requiring openness of AI usage
 
-Our policy updates aim to retain the same degree of openness and transparency we have always practiced, merely extending to the new area of generative AI tools and practices.
+Our policy updates aim to retain the same degree of openness and transparency we have always practiced, while extending to the new area of generative AI tools and practices.
 We cannot know the eventual impact that generative AI tools may have on software review processes and practices at rOpenSci, and can ask only for an utmost degree of transparency from all involved.
 
 We now describe specific updates to both our practices and policies for authors, for editors, and for reviewers.
@@ -91,7 +92,7 @@ We also value the time and effort of editors and reviewers, and want them to be 
 ### Practical application: for authors
 
 Authors who do not use generative AI tools will submit as always, with no extra requirements.
-Those who use such tools, though, will be asked to describe their use, and to affirm that all generated material has been carefully reviewed by the authors.
+Those who do use such tools will be asked to describe their use, and to affirm that all generated material has been carefully reviewed by the authors.
 We want these descriptions to help reviewers and editors to understand how they can best review code and provide useful feedback.
 
 Our submission template will now have a required section for this, and the [Guide for Authors](https://devguide.ropensci.org/softwarereview_author.html) will have additional guidance.
@@ -146,7 +147,7 @@ When recruiting reviewers for a package, editors may describe authors’ AI usag
 
 Review processes at rOpenSci frequently involve reviewers recommending potential improvements, and authors then implementing those.
 In adapting to use of generative AI tools, we will strive to maintain the same culture of constructive feedback.
-We hope that authors will provide sufficient information on use of generative AI tools to guide reviewers towards aspects of their software requiring particular attention.
+We hope that authors will provide sufficient information on any use of generative AI tools to guide reviewers towards aspects of their software requiring particular attention.
 
 Reviewers are permitted to use generative AI tools in preparing reviews for rOpenSci, but their use must meet the same criteria of supporting the goals of review.
 Our [Guide for Reviewers](https://devguide.ropensci.org/softwarereview_reviewer.html) will be updated to note the following points:
