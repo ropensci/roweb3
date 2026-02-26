@@ -62,7 +62,7 @@ In the [reviewer guide](https://devdevguide.netlify.app/softwarereview_reviewer)
 
 ## Packaging Best Practices
 
-In the packaging guide (another guide within the guide!), we added a minimal mention of criteria for choosing [example datasets](https://devdevguide.netlify.app/pkg_building#example-datasets). 
+In the packaging guide (another guide within the guide!), we added guidance for choosing [example datasets](https://devdevguide.netlify.app/pkg_building#example-datasets). 
 Furthermore, we created a section for [Packages wrapping external software](https://devdevguide.netlify.app/pkg_building#external-software).
 The [licencing section](https://devdevguide.netlify.app/pkg_building#licence) now explicitly requires acknowledging authors of bundled code.
 Last but not least, the [section about dependencies](https://devdevguide.netlify.app/pkg_building#pkgdependencies) recommends checking the development status of dependencies.
