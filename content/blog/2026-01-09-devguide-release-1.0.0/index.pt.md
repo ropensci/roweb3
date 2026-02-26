@@ -10,7 +10,7 @@ tags:
 - Software Peer Review
 - dev guide
 - multilingual
-description: 'Atualizações na versão 1.0.0 do livro on-line ''rOpenSci Packages: Development,
+description: 'Atualizações na versão 1.0.0 do livro on-line "rOpenSci Packages: Development,
   Maintenance, and Peer Review" (Desenvolvimento, manutenção e revisão por pares)'
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: ~
@@ -52,7 +52,7 @@ Fizemos algumas alterações nas políticas e no escopo do rOpenSci:
 
 ## Guia do Editor, Guia do Autor e Guia do Revisor
 
-Os guias que vivem em nosso guia. :smile\_cat:
+Os guias que vivem em nosso guia. :smile_cat:
 
 Toda a [guia do editor](https://devdevguide.netlify.app/pt/softwarereview_editor.pt.html) foi reestruturado para seguir o fluxo típico de envios,
 e para explicar melhor como usar o [painel de revisão de software](https://dashboard.ropensci.org/).

@@ -10,8 +10,8 @@ tags:
 - Software Peer Review
 - dev guide
 - multilingual
-description: 'Actualizaciones en la versión 1.0.0 del libro en línea ''rOpenSci Packages:
-  Development, Maintenance, and Peer Review'''
+description: 'Actualizaciones en la versión 1.0.0 del libro en línea "rOpenSci Packages:
+  Development, Maintenance, and Peer Review"'
 twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: ~
 twitterAlt: cover of rOpenSci dev guide, showing a package production line with small
@@ -25,7 +25,7 @@ Esta entrada del blog resume las novedades de nuestra Guía del desarrollador 1.
 
 ## Ahora disponible en portugués.
 
-Nuestra guía es ahora trilingüe ([inglés](https://devguide.ropensci.org/index.html), [Español](https://devguide.ropensci.org/es/index.es.html), [Portugués](https://devdevguide.netlify.app/pt/index.pt) ¡)!
+¡Nuestra guía es ahora trilingüe ([inglés](https://devguide.ropensci.org/index.html), [Español](https://devguide.ropensci.org/es/index.es.html), [Portugués](https://devdevguide.netlify.app/pt/index.pt))!
 
 Obtenga más información sobre el impresionante proyecto de traducción al portugués, iniciado e impulsado por nuestros miembros lusófonos en nuestro [entrada de blog](/blog/2025/11/25/translation-devguide-pt/).
 
@@ -52,8 +52,7 @@ Hemos realizado algunos cambios en las políticas y el alcance de rOpenSci:
 
 ## Guía del editor, Guía del autor y Guía del revisor
 
-Las guías que viven en nuestra guía :smile\_cat:
-
+Las guías que viven en nuestra guía :smile\
 Todo el [guía del editor](https://devdevguide.netlify.app/es/softwarereview_editor.es.html) se ha reestructurado para seguir el flujo típico de los envíos,
 y para explicar mejor cómo utilizar el [panel de revisión del software](https://dashboard.ropensci.org/).
 Hemos añadido una sección sobre retos y hemos documentado cómo poner el sistema en vacaciones (lo que solemos hacer durante el periodo de año nuevo).
