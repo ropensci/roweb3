@@ -12,11 +12,7 @@
         {{ end }}
         {{ $communitymultiverse := where .communitymultiverse "Package" "eq" .package.Package }}
         {{ if gt (len $communitymultiverse) 0 }}
-        <a href="https://r-multiverse.org/status/community/{{ .package.Package }}.html" class="category-card__tag is-teal">R-multiverse (community)</a>
-        {{ end }}
-        {{ $stagingmultiverse := where .stagingmultiverse "Package" "eq" .package.Package }}
-        {{ if gt (len $stagingmultiverse) 0 }}
-        <a href="https://r-multiverse.org/status/staging/{{ .package.Package }}.html" class="category-card__tag is-teal">R-multiverse (staging)</a>
+        <a href="https://community.r-multiverse.org/{{ .package.Package }}" class="category-card__tag is-teal">R-multiverse</a>
         {{ end }}
         {{ if isset .package._metadata "review" }}
         <a href="{{ .package._metadata.review.url }}" class="category-card__tag is-linear">Peer-reviewed</a>
