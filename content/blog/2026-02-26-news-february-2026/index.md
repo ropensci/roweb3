@@ -3,7 +3,7 @@ slug: "news-february-2026"
 title: rOpenSci News Digest, February 2026
 author:
   - The rOpenSci Team
-date: '2026-02-17'
+date: '2026-02-26'
 tags:
   - newsletter
 description: AI policy for software review, champions program, coworking, new packages, package news
