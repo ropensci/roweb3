@@ -12,12 +12,12 @@ tags:
 - multilingual
 description: 'Actualizaciones en la versión 1.0.0 del libro en línea "rOpenSci Packages:
   Development, Maintenance, and Peer Review"'
-twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
+socialImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: ~
-twitterAlt: cover of rOpenSci dev guide, showing a package production line with small
+socialAlt: cover of rOpenSci dev guide, showing a package production line with small
   humans discussing, examining and promoting packages
 params:
-  doi: 10.59350/pthhe-b9v52
+  doi: 10.59350/5e9pe-sym61
 ---
 
 Las orientaciones de rOpenSci Software Peer Review se recogen en un [libro en línea](https://devguide.ropensci.org/booknews) ¡que sigue mejorando!

@@ -11,9 +11,8 @@ tags:
   - dev guide
   - multilingual
 description: "Updates in version 1.0.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review'"
-twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
-output: 
-twitterAlt: cover of rOpenSci dev guide, showing a package production line with small humans discussing, examining and promoting packages
+socialImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
+socialAlt: cover of rOpenSci dev guide, showing a package production line with small humans discussing, examining and promoting packages
 params:
   doi: "10.59350/pthhe-b9v52"
 ---

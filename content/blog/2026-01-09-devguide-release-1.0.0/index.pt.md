@@ -12,12 +12,12 @@ tags:
 - multilingual
 description: 'Atualizações na versão 1.0.0 do livro on-line "rOpenSci Packages: Development,
   Maintenance, and Peer Review" (Desenvolvimento, manutenção e revisão por pares)'
-twitterImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
+socialImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: ~
-twitterAlt: cover of rOpenSci dev guide, showing a package production line with small
+socialAlt: cover of rOpenSci dev guide, showing a package production line with small
   humans discussing, examining and promoting packages
 params:
-  doi: 10.59350/pthhe-b9v52
+  doi: 10.59350/g1ytb-6xq15
 ---
 
 A orientação da Revisão por Pares do Software rOpenSci está reunida em um [livro on-line](https://devguide.ropensci.org/booknews) que continua melhorando!
