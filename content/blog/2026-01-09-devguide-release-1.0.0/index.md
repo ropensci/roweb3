@@ -25,7 +25,7 @@ This blog post summarises what's new in our Dev Guide 1.0.0, with all changes li
 
 Our guide is now trilingual ([English](https://devguide.ropensci.org/index.html), [Spanish](https://devguide.ropensci.org/es/index.es.html), [Portuguese](https://devdevguide.netlify.app/pt/index.pt))!
 
-Find more about the awesome translation project to Portuguese in our [blog post](/blog/2025/11/25/translation-devguide-pt/).
+Find more about the awesome Portuguese translation project, initiated and powered by our Lusophone members in our [blog post](/blog/2025/11/25/translation-devguide-pt/).
 
 Note that our [babelquarto package](https://docs.ropensci.org/babelquarto/) to render multilingual Quarto books or websites was recently [peer-reviewed](https://github.com/ropensci/software-review/issues/720) by Ella Kaye and João Granja-Correia.
 
