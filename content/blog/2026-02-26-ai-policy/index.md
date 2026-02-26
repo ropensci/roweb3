@@ -3,10 +3,11 @@ title: "Software Review in the Era of AI: What We Are Testing at rOpenSci"
 author:
 - Mark Padgham
 - Noam Ross
+- Maëlle Salmon
+- Yanina Bellini Saibene
 - Mauro Lepore
 - Emily Riederer
 - Jouni Helske
-- Yanina Bellini Saibene
 - Francisco Rodriguez-Sanchez
 date: "2026-02-26"
 slug: "ropensci-ai-policy"
@@ -31,7 +32,7 @@ This blog post describes the challenges ahead and initial changes we are making.
 
 ## Challenge: Maintaining our core values
 
-Our top challenge is maintaining our core values. 
+Our top challenge is maintaining our core values.
 
 A central value for rOpenSci is fostering a welcoming community, in particular through supporting and encouraging people who might otherwise feel excluded. Generative AI tools can help with that.
 Large language models and generative AI tools may make many coding tasks easier and quicker, and can expand the community of people able to contribute to open source software and the OSS community.
