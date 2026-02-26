@@ -52,6 +52,13 @@ Confirmation emails have already been sent to all applicants.
 Thank you to everyone who applied!
 
 
+### Policy Updates for use of Generative AI Tools
+
+We published an [initial blog post](/blog/2026/02/26/ai-policy/) about planned updates to our policies and practices for use of generative AI tools in rOpenSci packages. 
+This follows recent policy updates at both the [Journal of Open Source Software](https://blog.joss.theoj.org/2026/01/preparing-joss-for-a-generative-ai-future) and [pyOpenSci](https://www.pyopensci.org/blog/generative-ai-peer-review-policy.html).
+We are seeking feedback on the [blog post](/blog/2026/02/26/ai-policy/), and on the policy changes proposed there, via [this decidated GitHub issue](https://github.com/ropensci/software-review-meta/issues/107), social media, email, or elsewhere.
+The blog explains our intention to permit the use of generative AI tools throughout package development, and during the review process.
+Our policies aim to maintain our culture of openness and transparency, and we have already started informally asking submitting authors about any use of generative AI tools.
 
 ### Coworking 
 
