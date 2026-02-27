@@ -541,6 +541,18 @@
     "home": "https://www.andrewheiss.com/"
   },
   {
+    "name": "Lucy D'Agonstino McGowan",
+    "affiliation": "Wake Forest University",
+    "github": "LucyMcGowan",
+    "url": "https://www.lucymcgowan.com/",
+    "image": "/img/team/lucy-dagonstino-mcgowan.jpg",
+    "roles": [
+      "editor"
+    ],
+    "stats": true,
+    "home": "https://www.lucymcgowan.com/"
+  },
+  {
     "name": "Kelly Hondula",
     "url": "https://www.sesync.org/users/khondula",
     "image": "/img/team/kelly-hondula.jpg",
