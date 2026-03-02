@@ -4,6 +4,7 @@ author:
 - Maëlle Salmon
 - Mark Padgham
 - Noam Ross
+translator: Yanina Bellini Saibene
 date: '2026-01-09'
 slug: r_open_sci_dev_guide_1_0_0_trilingüe_y_mejorada
 tags:

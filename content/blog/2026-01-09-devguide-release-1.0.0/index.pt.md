@@ -4,6 +4,7 @@ author:
 - Maëlle Salmon
 - Mark Padgham
 - Noam Ross
+translator: Francesca Belem Lopes Palmeira
 date: '2026-01-09'
 slug: guia_de_desenvolvimento_da_r_open_sci_1_0_0_trilíngue_e_aprimorado
 tags:
@@ -14,8 +15,7 @@ description: 'Atualizações na versão 1.0.0 do livro on-line "rOpenSci Package
   Maintenance, and Peer Review" (Pacotes rOpenSci: Desenvolvimento, Manutenção e Revisão por pares)'
 socialImg: img/blog-images/2019-05-16-dev-guide-update/cover.png
 output: ~
-socialAlt: cover of rOpenSci dev guide, showing a package production line with small
-  humans discussing, examining and promoting packages
+socialAlt: Capa do guia de desenvolvimento da rOpenSci, mostrando uma linha de produção de pacotes com pequenos seres humanos que debatem, examinam e promovem pacotes
 params:
   doi: 10.59350/g1ytb-6xq15
 ---
