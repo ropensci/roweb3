@@ -22,7 +22,7 @@ This blog post summarises what's new in our Dev Guide 1.0.0, with all changes li
 
 ## Now available in Portuguese!
 
-Our guide is now trilingual ([English](https://devguide.ropensci.org/index.html), [Spanish](https://devguide.ropensci.org/es/index.es.html), [Portuguese](https://devdevguide.netlify.app/pt/index.pt))!
+Our guide is now trilingual ([English](https://devguide.ropensci.org/index.html), [Spanish](https://devguide.ropensci.org/es/index.es.html), [Portuguese](https://devguide.ropensci.org/pt/index.pt))!
 
 Find more about the awesome Portuguese translation project, initiated and powered by our Lusophone members in our [blog post](/blog/2025/11/25/translation-devguide-pt/).
 
@@ -37,13 +37,13 @@ In the [dev guide](https://github.com/ropensci/dev_guide/pull/940/files) itself,
 
 We made some changes to rOpenSci policies and scope:
 
-- New category for [rOpenSci internal and peer-review tools](https://devdevguide.netlify.app/softwarereview_policies#package-categories#:~:text=rOpenSci%20internal%20tools).
+- New category for [rOpenSci internal and peer-review tools](https://devguide.ropensci.org/softwarereview_policies#package-categories#:~:text=rOpenSci%20internal%20tools).
 
-- Updates to the [data retrieval category](https://devdevguide.netlify.app/softwarereview_policies#package-categories#:~:text=data%20retrieval).
+- Updates to the [data retrieval category](https://devguide.ropensci.org/softwarereview_policies#package-categories#:~:text=data%20retrieval).
 
-- New explicit rule to only [submit one package at a time](https://devdevguide.netlify.app/softwarereview_author#lifecycle#:~:text=do%20not%20submit%20several).
+- New explicit rule to only [submit one package at a time](https://devguide.ropensci.org/softwarereview_author#lifecycle#:~:text=do%20not%20submit%20several).
 
-- New requirement to not call the [default branch "master"](https://devdevguide.netlify.app/pkg_building#version-control#:~:text=not%20be%20master).
+- New requirement to not call the [default branch "master"](https://devguide.ropensci.org/pkg_building#version-control#:~:text=not%20be%20master).
 
 - Removed requirement to use a `codemeta.json` file, now deprecated. Codemeta continues to be [actively used and developed](https://codemeta.github.io/), but we have found it redundant with other metadata and Codemeta can generate these data as-needed from DESCRIPTION files.
 
@@ -51,48 +51,48 @@ We made some changes to rOpenSci policies and scope:
 
 The guides that live in our guide. :smile_cat:
 
-The whole [editor guide](https://devdevguide.netlify.app/softwarereview_editor) was has been restructured to follow the typical flow of submissions,
+The whole [editor guide](https://devguide.ropensci.org/softwarereview_editor) was has been restructured to follow the typical flow of submissions,
 and to better explain how to use the [software-review dashboard](https://dashboard.ropensci.org/).
 We added a section on challenges, and documented how to put the system on vacation (which we generally do over the new year period).
 
-Likewise, we improved the organization and content of the [author guide](https://devdevguide.netlify.app/softwarereview_author) (thanks to [Alec Robitaille](https://github.com/robitalec) and [Joan Maspons](https://github.com/jmaspons)).
+Likewise, we improved the organization and content of the [author guide](https://devguide.ropensci.org/softwarereview_author) (thanks to [Alec Robitaille](https://github.com/robitalec) and [Joan Maspons](https://github.com/jmaspons)).
 
-In the [reviewer guide](https://devdevguide.netlify.app/softwarereview_reviewer), we removed the external link to the no-longer maintained Mozilla Review guide (one of our early design sources for peer-review) in favor of explicit enumerated items.
+In the [reviewer guide](https://devguide.ropensci.org/softwarereview_reviewer), we removed the external link to the no-longer maintained Mozilla Review guide (one of our early design sources for peer-review) in favor of explicit enumerated items.
 
 ## Packaging Best Practices
 
-In the packaging guide (another guide within the guide!), we added guidance for choosing [example datasets](https://devdevguide.netlify.app/pkg_building#example-datasets). 
-Furthermore, we created a section for [Packages wrapping external software](https://devdevguide.netlify.app/pkg_building#external-software).
-The [licencing section](https://devdevguide.netlify.app/pkg_building#licence) now explicitly requires acknowledging authors of bundled code.
-Last but not least, the [section about dependencies](https://devdevguide.netlify.app/pkg_building#pkgdependencies) recommends checking the development status of dependencies.
+In the packaging guide (another guide within the guide!), we added guidance for choosing [example datasets](https://devguide.ropensci.org/pkg_building#example-datasets). 
+Furthermore, we created a section for [Packages wrapping external software](https://devguide.ropensci.org/pkg_building#external-software).
+The [licencing section](https://devguide.ropensci.org/pkg_building#licence) now explicitly requires acknowledging authors of bundled code.
+Last but not least, the [section about dependencies](https://devguide.ropensci.org/pkg_building#pkgdependencies) recommends checking the development status of dependencies.
 
 The whole book now mentions the [Air CLI](https://posit-dev.github.io/air/) every time it mentions the styler package, as Air can be viewed as styler's successor.
 
-In the chapter about Package evolution, we added guidance on [deprecating *data*](https://devdevguide.netlify.app/maintenance_evolution#data-deprecate), and explained the [drawbacks of renaming a widely-used package](https://devdevguide.netlify.app/maintenance_evolution#renaming-packages).
+In the chapter about Package evolution, we added guidance on [deprecating *data*](https://devguide.ropensci.org/maintenance_evolution#data-deprecate), and explained the [drawbacks of renaming a widely-used package](https://devguide.ropensci.org/maintenance_evolution#renaming-packages).
 
 ## Testing guidance
 
-We updated our [testing guidance](https://devdevguide.netlify.app/pkg_building.html#testing) with
+We updated our [testing guidance](https://devguide.ropensci.org/pkg_building.html#testing) with
 
-- a [mention of tinytest](https://devdevguide.netlify.app/pkg_building.html#testing#:~:text=tinytest) as an alternative to testthat;
-- a note on keeping tests written with testthat [self-contained](https://devdevguide.netlify.app/pkg_building.html#testing#:~:text=self-contained).
+- a [mention of tinytest](https://devguide.ropensci.org/pkg_building.html#testing#:~:text=tinytest) as an alternative to testthat;
+- a note on keeping tests written with testthat [self-contained](https://devguide.ropensci.org/pkg_building.html#testing#:~:text=self-contained).
 
 ## Package Documentation
 
 With particular thanks to [Alasdair Warwick ](https://github.com/rmgpanw), we improved the documentation :wink: of our documentation building system, including:
 
-- More details on the [technical aspects](https://devdevguide.netlify.app/pkg_ci#rodocsci) of docs building for rOpenSci packages;
-- Updated [math guidance](https://devdevguide.netlify.app/pkg_building.html#mathjax) following pkgdown's update.
+- More details on the [technical aspects](https://devguide.ropensci.org/pkg_ci#rodocsci) of docs building for rOpenSci packages;
+- Updated [math guidance](https://devguide.ropensci.org/pkg_building.html#mathjax) following pkgdown's update.
 
-We also clarified different strategies to [document internal functions](https://devdevguide.netlify.app/pkg_building#:~:text=nord), thanks to [Claudiu Forgaci](https://github.com/cforgaci).
+We also clarified different strategies to [document internal functions](https://devguide.ropensci.org/pkg_building#:~:text=nord), thanks to [Claudiu Forgaci](https://github.com/cforgaci).
 
 ## Metadata & Package Information
 
 We documented more ways to acknowledge contributors:
 
--  in the [authorship](https://devdevguide.netlify.app/pkg_building.html#authorship) section of the packaging guide, with [Research Organization Registry (ROR) IDs](/blog/2025/05/09/ror/);
+-  in the [authorship](https://devguide.ropensci.org/pkg_building.html#authorship) section of the packaging guide, with [Research Organization Registry (ROR) IDs](/blog/2025/05/09/ror/);
 
-- in the chapter about [collaboration](https://devdevguide.netlify.app/maintenance_collaboration.html#attributions), the [allcontributors R package](https://docs.ropensci.org/allcontributors/).
+- in the chapter about [collaboration](https://devguide.ropensci.org/maintenance_collaboration.html#attributions), the [allcontributors R package](https://docs.ropensci.org/allcontributors/).
 
 ## Conclusion
 
