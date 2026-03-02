@@ -5,7 +5,7 @@ author:
 - Mark Padgham
 - Noam Ross
 translator: Francesca Belem Lopes Palmeira
-date: '2026-01-09'
+date: '2026-03-02'
 slug: guia_de_desenvolvimento_da_r_open_sci_1_0_0_trilíngue_e_aprimorado
 tags:
 - Software Peer Review

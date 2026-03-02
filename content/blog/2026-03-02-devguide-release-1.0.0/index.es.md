@@ -5,7 +5,7 @@ author:
 - Mark Padgham
 - Noam Ross
 translator: Yanina Bellini Saibene
-date: '2026-01-09'
+date: '2026-03-02'
 slug: r_open_sci_dev_guide_1_0_0_trilingüe_y_mejorada
 tags:
 - Software Peer Review

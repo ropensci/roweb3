@@ -4,7 +4,7 @@ author:
   - Maëlle Salmon
   - Mark Padgham
   - Noam Ross
-date: '2026-01-09'
+date: '2026-03-02'
 slug: devguide-1.0.0
 tags:
   - Software Peer Review
