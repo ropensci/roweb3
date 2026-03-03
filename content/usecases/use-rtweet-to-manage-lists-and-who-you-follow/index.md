@@ -3,13 +3,13 @@ title: "Use rtweet to manage lists and who you follow"
 reporter: "Steph Locke"
 date: 2022-02-22
 image: use-rtweet-to-manage-lists-and-who-you-follow.jpeg
-resource: "rtweet"
+resource: "[rtweet](https://docs.ropensci.org/rtweet/)"
 original_url: "https://discuss.ropensci.org/t/use-rtweet-to-manage-lists-and-who-you-follow/2830"
 language: [English]
 ---
 
 #### rOpenSci package or resource used*
-rtweet
+[rtweet](https://docs.ropensci.org/rtweet/)
 
 #### What did you do? 
 After capturing a list of the people you follow, this workflow enables you to:

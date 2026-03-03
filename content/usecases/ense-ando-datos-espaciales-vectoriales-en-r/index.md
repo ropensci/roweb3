@@ -41,11 +41,8 @@ Academico
 
 agricultura 
 
-### URL de tu perfil en Mastodon
+### Redes sociales
 
-https://rstats.me/@yabellini
-
-### URL de tu perfil en Bluesky
-
-https://bsky.app/profile/yabellini.bsky.social
+Mastodon: https://rstats.me/@yabellini  
+Bluesky: https://bsky.app/profile/yabellini.bsky.social
 

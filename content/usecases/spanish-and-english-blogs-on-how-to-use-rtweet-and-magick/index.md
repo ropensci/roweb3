@@ -3,7 +3,7 @@ title: "Spanish and English blogs on how to use rtweet and magick"
 reporter: "Rayna Harris"
 date: 2020-08-01
 image: spanish-and-english-blogs-on-how-to-use-rtweet-and-magick.png
-resource: "rtweet, [magick](https://docs.ropensci.org/magick)"
+resource: "[rtweet](https://github.com/ropensci/rtweet), [magick](https://docs.ropensci.org/magick)"
 original_url: "https://discuss.ropensci.org/t/spanish-and-english-blogs-on-how-to-use-rtweet-and-magick/2188"
 language: [English]
 ---

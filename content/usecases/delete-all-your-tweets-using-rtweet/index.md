@@ -3,7 +3,7 @@ title: "Delete all your tweets using rtweet"
 reporter: "Julia Silge"
 date: 2022-11-22
 image: delete-all-your-tweets-using-rtweet.png
-resource: "rtweet"
+resource: "[rtweet](https://docs.ropensci.org/rtweet/)"
 original_url: "https://discuss.ropensci.org/t/delete-all-your-tweets-using-rtweet/3217"
 language: [English]
 ---
@@ -24,6 +24,8 @@ Before I started deleting my tweets, I made a visualization of how I have posted
 ![image|690x492](delete-all-your-tweets-using-rtweet.png)
 
 
-#### Mastodon handle
-<https://fosstodon.org/@juliasilge>
+#### Social Handles
+
+Mastodon: https://fosstodon.org/@juliasilge
+
 

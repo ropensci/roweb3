@@ -3,14 +3,14 @@ title: "Easily analyzing tweets using rtweet"
 reporter: "Amit Arora"
 date: 2021-05-12
 image: easily-analyzing-tweets-using-rtweet.png
-resource: "rtweet"
+resource: "[rtweet](https://github.com/ropensci/rtweet)"
 original_url: "https://discuss.ropensci.org/t/easily-analyzing-tweets-using-rtweet/2454"
 language: [English]
 ---
 
 
 #### rOpenSci package or resource used*
-rtweet
+[rtweet](https://github.com/ropensci/rtweet)
 
 #### What did you do? 
 After the #30DayChartChallenge was over on April 30th, I wanted to make a summary of the twitter activity related to my tweets on the #30DayChartChallenge. All of the data for this analysis such as the tweets and user information were retrieved using rtweet, data wrangling done using tidyverse and visualization using ggplot2 and leaflet.

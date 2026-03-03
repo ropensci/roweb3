@@ -36,7 +36,7 @@ academic
 biomedical research
 
 
-#### Mastodon handle
+#### Social Handles
 
-`@rmflight@mastodon.social`
+Mastodon: https://mastodon.social/@rmflight
 

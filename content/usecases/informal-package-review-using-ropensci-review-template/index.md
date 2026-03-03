@@ -2,7 +2,7 @@
 title: "Informal package review using rOpenSci review template"
 reporter: "Hugo Gruson"
 date: 2021-08-04
-resource: "Review template from the package development guide"
+resource: "[Review template](https://devguide.ropensci.org/reviewtemplate.html) from the [package development guide](https://devguide.ropensci.org/)"
 original_url: "https://discuss.ropensci.org/t/informal-package-review-using-ropensci-review-template/2570"
 language: [English]
 ---

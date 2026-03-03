@@ -34,6 +34,6 @@ Academic
 history, climate
 
 
-#### Mastodon profile link 
-@adamhsparks@rstats.me
+#### Social Handles
+Mastodon: https://rstats.me/@adamhsparks
 

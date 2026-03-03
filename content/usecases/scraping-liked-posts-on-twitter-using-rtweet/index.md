@@ -2,7 +2,7 @@
 title: "Scraping liked posts on Twitter using rtweet"
 reporter: "Isabella Velásquez"
 date: 2021-01-03
-resource: "rtweet"
+resource: "[rtweet](https://docs.ropensci.org/rtweet)"
 original_url: "https://discuss.ropensci.org/t/scraping-liked-posts-on-twitter-using-rtweet/2294"
 language: [English]
 ---

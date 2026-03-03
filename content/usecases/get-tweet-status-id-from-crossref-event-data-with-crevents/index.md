@@ -2,7 +2,7 @@
 title: "Get tweet status ID from CrossRef Event Data with crevents"
 reporter: "Tuija Sonkkila"
 date: 2019-04-12
-resource: "crevents"
+resource: "[crevents](https://github.com/ropensci/crevents/)"
 original_url: "https://discuss.ropensci.org/t/get-tweet-status-id-from-crossref-event-data-with-crevents/1665"
 language: [English]
 ---

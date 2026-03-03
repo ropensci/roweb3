@@ -10,9 +10,8 @@ language: [English]
 #### rOpenSci package or resource used
 [pdftools](https://docs.ropensci.org/pdftools/)
 
-other important packages:
+other important packages: purrr and glue
 
-purrr and glue
 #### What did you do?
 I wrote code snippet that shows how to 
 - create a list of URLs with glue::glue

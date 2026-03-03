@@ -3,7 +3,7 @@ title: "Analyze your Twitter timeline with rtweet and lubridate"
 reporter: "Albert Rapp"
 date: 2022-05-14
 image: analyze-your-twitter-timeline-with-rtweet-and-lubridate.png
-resource: "rtweet"
+resource: "[rtweet](https://github.com/ropensci/rtweet)"
 original_url: "https://discuss.ropensci.org/t/analyze-your-twitter-timeline-with-rtweet-and-lubridate/2931"
 language: [English]
 ---

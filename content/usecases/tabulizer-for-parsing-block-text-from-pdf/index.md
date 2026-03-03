@@ -3,13 +3,13 @@ title: "tabulizer for parsing block-text from .pdf"
 reporter: "Leungi"
 date: 2020-02-01
 image: tabulizer-for-parsing-block-text-from-pdf.gif
-resource: "tabulizer"
+resource: "[tabulizer](https://docs.ropensci.org/tabulizer/)"
 original_url: "https://discuss.ropensci.org/t/tabulizer-for-parsing-block-text-from-pdf/1930"
 language: [English]
 ---
 
 #### rOpenSci package or resource used*
- [tabulizer](https://github.com/ropensci/tabulizer)
+[tabulizer](https://github.com/ropensci/tabulizer)
 
 
 #### URL or code snippet for your use case*

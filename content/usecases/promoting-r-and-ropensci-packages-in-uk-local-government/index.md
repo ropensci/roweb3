@@ -2,14 +2,14 @@
 title: "Promoting R and rOpenSci packages in UK local government"
 reporter: "Henry Partridge"
 date: 2019-07-17
-resource: "ropenaq"
+resource: "[ropenaq](https://github.com/ropensci-archive/ropenaq)"
 original_url: "https://discuss.ropensci.org/t/promoting-r-and-ropensci-packages-in-uk-local-government/1776"
 language: [English]
 ---
 
 #### rOpenSci package or resource used*
 
-ropenaq
+[ropenaq](https://github.com/ropensci-archive/ropenaq)
 
 #### Description
 

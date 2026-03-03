@@ -36,6 +36,5 @@ Other
 
 Education
 
-### Mastodon profile URL
-
-https://fosstodon.org/@yabellini
+### Social Handles
+Mastodon: https://fosstodon.org/@yabellini

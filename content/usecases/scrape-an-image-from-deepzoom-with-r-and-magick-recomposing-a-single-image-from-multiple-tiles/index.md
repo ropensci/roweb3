@@ -9,7 +9,7 @@ language: [English]
 
 
 #### rOpenSci package or resource used*
-magick
+[magick](https://docs.ropensci.org/magick)
 
 #### What did you do? 
 

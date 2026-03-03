@@ -3,14 +3,14 @@ title: "Translating Carpentries workbench lessons with babeldown"
 reporter: "Hugo Gruson"
 date: 2024-07-16
 image: translating-carpentries-workbench-lessons-with-babeldown.png
-resource: "The [babeldown](https://docs.ropensci.org/babeldown) R package"
+resource: "[babeldown](https://docs.ropensci.org/babeldown)"
 original_url: "https://discuss.ropensci.org/t/translating-carpentries-workbench-lessons-with-babeldown/3960"
 language: [English]
 ---
 
 #### rOpenSci package or resource used
 
-The [babeldown R package](https://docs.ropensci.org/babeldown/).
+[babeldown](https://docs.ropensci.org/babeldown/)
 
 #### What did you do? 
 
@@ -41,7 +41,7 @@ academic, non-profit, government
 
 epidemiology, pedagogy
 
-#### Mastodon profile link 
+#### Social Handles
 
-https://mastodon.social/@grusonh
+Mastodon: https://mastodon.social/@grusonh
 

@@ -22,7 +22,7 @@ Code: https://github.com/seabbs/cv
 
 ![15|586x500,100%](academic-cv-using-vitae-scholar-to-pull-papers-and-tic-for-building-on-travis.png) 
 
-Link: samabbott.co.uk/cv/cv.pdf
+Link: <https://samabbott.co.uk/cv/cv.pdf>
 
 #### Sector
 

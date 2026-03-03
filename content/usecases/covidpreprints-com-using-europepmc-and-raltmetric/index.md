@@ -2,7 +2,7 @@
 title: "covidpreprints.com using europepmc and rAltmetric"
 reporter: "Zhanghe Goh"
 date: 2020-09-08
-resource: "[europepmc](https://docs.ropensci.org/europepmc), rAltmetric"
+resource: "[europepmc](https://docs.ropensci.org/europepmc), [rAltmetric](https://github.com/ropensci/rAltmetric)"
 original_url: "https://discuss.ropensci.org/t/covidpreprints-com-using-europepmc-and-raltmetric/2210"
 language: [English]
 ---

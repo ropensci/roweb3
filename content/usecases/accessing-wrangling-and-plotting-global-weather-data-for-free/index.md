@@ -3,13 +3,13 @@ title: "Accessing, wrangling and plotting global weather data (for free!)"
 reporter: "Jasper Slingsby"
 date: 2020-01-30
 image: accessing-wrangling-and-plotting-global-weather-data-for-free.png
-resource: "[rnoaa](https://docs.ropensci.org/rnoaa), lawn"
+resource: "[rnoaa](https://docs.ropensci.org/rnoaa), [lawn](https://docs.ropensci.org/lawn/)"
 original_url: "https://discuss.ropensci.org/t/accessing-wrangling-and-plotting-global-weather-data-for-free/1926"
 language: [English]
 ---
 
 #### rOpenSci package or resource used*
-[rnoaa](https://docs.ropensci.org/rnoaa/), [lawn](https://docs.ropensci.org/lawn/), 
+[rnoaa](https://docs.ropensci.org/rnoaa/), [lawn](https://docs.ropensci.org/lawn/)
 
 
 #### URL or code snippet for your use case*

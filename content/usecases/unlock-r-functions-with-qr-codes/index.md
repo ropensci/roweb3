@@ -3,14 +3,14 @@ title: "Unlock R functions with QR codes"
 reporter: "Matt Dray"
 date: 2023-11-02
 image: unlock-r-functions-with-qr-codes.gif
-resource: "The [opencv](https://docs.ropensci.org/opencv) package"
+resource: "[opencv](https://docs.ropensci.org/opencv)"
 original_url: "https://discuss.ropensci.org/t/unlock-r-functions-with-qr-codes/3681"
 language: [English]
 ---
 
 #### rOpenSci package or resource used
 
-The [opencv](https://docs.ropensci.org/opencv/) package.
+[opencv](https://docs.ropensci.org/opencv/)
 
 #### What did you do? 
 
@@ -58,7 +58,6 @@ Other.
 * The opportunity to generate multi-factor authentication via QR code, as [pointed out](https://fosstodon.org/@jeroenooms/111334491799517085) by @jeroenooms.
 
 
-#### ~~Twitter~~ Mastodon handle
-
-`@mattdray@fosstodon.org`
+#### Social Handles
+Mastodon: https://fosstodon.org/@mattdray
 

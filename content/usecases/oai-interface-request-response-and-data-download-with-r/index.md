@@ -9,7 +9,7 @@ language: [English]
 
 #### rOpenSci package or resource used
 
-oai
+[oai](https://docs.ropensci.org/oai)
 
 #### What did you do?
 
@@ -25,6 +25,6 @@ academic / non-profit
 #### Field(s) of application
 history, text and data mining, metadata 
 
-#### Mastodon profile link 
-[@jrglmn](https://mastodon.social/@jrglmn)
+#### Social Handles
+Mastodon: https://mastodon.social/@jrglmn
 

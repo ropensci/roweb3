@@ -8,7 +8,7 @@ language: [English]
 ---
 
 #### rOpenSci package or resource used*
-pdftools
+[pdftools](https://docs.ropensci.org/pdftools/)
 
 #### What did you do? 
 I used pdftools to scan a large number of pdfs from a folder, and then stringr::str_which() to search the body of each pdf for any RegEx expression you want. Pdfs with matching RegEx expressions are saved in a new folder of your choosing.

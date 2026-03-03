@@ -3,7 +3,7 @@ title: "US lawmakers on Twitter during a pandemic: some corpus linguistics metho
 reporter: "Jason Timm"
 date: 2020-06-09
 image: us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods.png
-resource: "rtweet"
+resource: "[rtweet](https://docs.ropensci.org/rtweet/)"
 original_url: "https://discuss.ropensci.org/t/us-lawmakers-on-twitter-during-a-pandemic-some-corpus-linguistics-methods/2124"
 language: [English]
 ---

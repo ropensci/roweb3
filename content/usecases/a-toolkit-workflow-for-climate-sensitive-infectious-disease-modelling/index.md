@@ -10,7 +10,7 @@ language: [English]
 Statistical modelling of Climate-Sensitive Infectious Disease (CSID) usually requires commons steps to harmonize and make compatible data from epidemiology and climate. Different teams do similar procedures in order to reach similar results for this purpose. But the actual coding of these steps involve lots of apparently small choices and details that, in the end, produce results very different and not directly comparable.
 
 #### rOpenSci package or resource used*
-targets, tarchetypes
+[targets](https://docs.ropensci.org/targets), [tarchetypes](https://docs.ropensci.org/tarchetypes)
 
 #### What did you do? 
 To approach this problem, I started to code some dedicated R packages and integrate its use using the [targets](https://docs.ropensci.org/targets/) and [tarchetypes](https://docs.ropensci.org/tarchetypes/).
@@ -42,7 +42,8 @@ academic
 health geography, epidemiology, climatology
 
 
-#### Twitter and Mastodon handles
+#### Social Handles
 
-You can reach me at Twitter (@rfsaldanhario) and at Fosstodon (@rfsaldanha@fosstodon.org)
+Mastodon: https://fostodon.org/@rfsaldanha  
+X: https://x.com/@rfsaldanhario 
 

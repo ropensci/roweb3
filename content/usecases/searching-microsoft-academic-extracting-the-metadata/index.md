@@ -2,7 +2,7 @@
 title: "Searching Microsoft Academic & extracting the metadata"
 reporter: "Alexei Lutay"
 date: 2020-03-27
-resource: "microdemic"
+resource: "[microdemic](https://docs.ropensci.org/microdemic/)"
 original_url: "https://discuss.ropensci.org/t/searching-microsoft-academic-extracting-the-metadata/2012"
 language: [English]
 ---

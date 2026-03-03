@@ -3,7 +3,7 @@ title: "bomrang with a third party package, stationaRy, to get hourly weather da
 reporter: "Adam Sparks"
 date: 2020-05-17
 image: bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses.png
-resource: "bomrang, clifro"
+resource: "[bomrang](https://docs.ropensci.org/bomrang/), [clifro](https://docs.ropensci.org/clifro/)"
 original_url: "https://discuss.ropensci.org/t/bomrang-with-a-third-party-package-stationary-to-get-hourly-weather-data-and-clifro-to-plot-wind-roses/2082"
 language: [English]
 ---

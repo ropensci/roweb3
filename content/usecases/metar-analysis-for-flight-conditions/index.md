@@ -11,7 +11,7 @@ Reporting on behalf of [Joseph Chou](https://github.com/jhchou)
 
 #### rOpenSci package or resource used
 
-riem
+[riem](https://docs.ropensci.org/riem)
 
 #### What did you do? 
 
@@ -38,7 +38,6 @@ Deployed using `shinylive` so can be served as a static webpage from GitHub Page
 * [Actual METAR analysis `shinylive` app](https://jhchou.github.io/metar_analysis/) -- be patient, loading time is a bit long, because it's loading WASM-compiled R + packages to the client
 
 
-#### Mastodon profile link 
-
-https://bsky.app/profile/incidentalfindings.org
+#### Social Handles
+Bluesky: https://bsky.app/profile/incidentalfindings.org
 

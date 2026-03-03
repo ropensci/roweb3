@@ -13,14 +13,6 @@ language: [English]
 [rorcid](https://cran.r-project.org/web/packages/rorcid/index.html)
 
 
-#### Code snippet
-https://gist.github.com/cjlortie/3e8be03ac576155ad1a352c9ed8b9bb0
-
-
-#### Image
-<iframe src="https://widgets.figshare.com/articles/10193060/embed?show_title=1" width="1754" height="1330" allowfullscreen="true" frameborder="0"></iframe>
-
-
 #### Sector
 Public relations
 

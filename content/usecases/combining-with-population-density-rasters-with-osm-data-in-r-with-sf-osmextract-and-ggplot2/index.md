@@ -2,6 +2,7 @@
 title: "Combining with Population Density Rasters with OSM data in R with {sf}, {osmextract} and {ggplot2}"
 reporter: "Aditya Dahiya"
 date: 2025-03-01
+image: image.jpg
 resource: "[osmextract](https://docs.ropensci.org/osmextract)"
 original_url: "https://discuss.ropensci.org/t/combining-with-population-density-rasters-with-osm-data-in-r-with-sf-osmextract-and-ggplot2/4182"
 language: [English]
@@ -10,12 +11,12 @@ language: [English]
 
 #### rOpenSci package or resource used*
 
-osmextract
+[osmextract](https://docs.ropensci.org/osmextract)
 
 #### What did you do? 
 
 
-![osm_packages_5|375x500](upload://7IwCFDWyp9RGYTqd5SWeIIEOPov.jpeg)
+![osm_packages_5|375x500](image.jpg)
 
 ### Combining with Population Density Raster Dataset with OSM maps
 

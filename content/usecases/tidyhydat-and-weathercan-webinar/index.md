@@ -3,7 +3,7 @@ title: "tidyhydat and weathercan webinar"
 reporter: "Sam Albers"
 date: 2019-10-29
 image: tidyhydat-and-weathercan-webinar.jpeg
-resource: "[tidyhydat](https://docs.ropensci.org/tidyhydat), [weathercan](https://docs.ropensci.org/weathercan), hydrology task view"
+resource: "[tidyhydat](https://docs.ropensci.org/tidyhydat), [weathercan](https://docs.ropensci.org/weathercan), [hydrology task view](https://github.com/ropensci/Hydrology)"
 original_url: "https://discuss.ropensci.org/t/tidyhydat-and-weathercan-webinar/1858"
 language: [English]
 ---

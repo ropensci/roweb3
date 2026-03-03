@@ -38,8 +38,8 @@ ne_states(country = "Italy", returnclass = "sf") %>%
 
 More information about the use cases of the **rnaturalearth** with covid19 dataset available on the following vignettes:
 
-**covid19italy** package - https://covid19r.github.io/covid19italy/articles/geospatial_visualization.html
-**covid19swiss** package - https://covid19r.github.io/covid19swiss/articles/spatial_dataviz.html
-Italy covid19 dashboard - https://ramikrispin.github.io/italy_dash/#summary
+- **covid19italy** package - https://covid19r.github.io/covid19italy/articles/geospatial_visualization.html
+- **covid19swiss** package - https://covid19r.github.io/covid19swiss/articles/spatial_dataviz.html
+- Italy covid19 dashboard - https://ramikrispin.github.io/italy_dash/#summary
 
 

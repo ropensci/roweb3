@@ -2,7 +2,7 @@
 title: "Visualizing Highways, Toll Booths with {ggplot2} in R with {osmextract}"
 reporter: "Aditya Dahiya"
 date: 2025-03-01
-image: visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract.jpeg
+image: highways.jpg
 resource: "[osmextract](https://docs.ropensci.org/osmextract)"
 original_url: "https://discuss.ropensci.org/t/visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract/4181"
 language: [English]
@@ -11,11 +11,11 @@ language: [English]
 
 #### rOpenSci package or resource used*
 
-osmextract
+[osmextract](https://docs.ropensci.org/osmextract)
 
 #### What did you do? 
 
-![osm_packages_6|400x500](visualizing-highways-toll-booths-with-ggplot2-in-r-with-osmextract.jpeg)
+![osm_packages_6|400x500](highways.jpg)
 
 
 This code chunk demonstrates the process of downloading geospatial data for the state of Haryana in India and performing some basic preprocessing. First, it uses the `osmextract` package to download points, lines, and polygon data from OpenStreetMap for Haryana using the `oe_get()` function. Then, the code fetches the district-wise boundary map for Haryana using the `geodata::gadm()` function to retrieve administrative boundaries, which are converted into simple features (`sf`) objects using the `sf` package. Lastly, the overall state boundary map for Haryana is retrieved similarly and cleaned up.

@@ -2,6 +2,7 @@
 title: "Translating course to Spanish and French"
 reporter: "Yann Say"
 date: 2025-03-25
+image: translating-course-to-spanish-and-french.png
 resource: "[babelquarto](https://docs.ropensci.org/babelquarto)"
 original_url: "https://discuss.ropensci.org/t/translating-course-to-spanish-and-french/4207"
 language: [English]
@@ -33,7 +34,7 @@ NOTE: we changed LMS during the process and it went almost smooth... For the Qua
 
 
 #### Image
-![image|690x224](upload://dNWp5NZk1YsESnM43PNXz2CK7DE.png)
+![image|690x224](translating-course-to-spanish-and-french.png)
 
 
 #### Sector
@@ -43,7 +44,6 @@ non-profit
 
 humanitarian, data pipeline
 
-#### Mastodon profile link 
-Not a Mastodon but bluesky if that work.
-@yannsay.bsky.social
+#### Social Handles
+Bluesky: @yannsay.bsky.social
 

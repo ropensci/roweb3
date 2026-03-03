@@ -10,7 +10,7 @@ language: [English]
 
 
 #### rOpenSci package or resource used*
-drake
+[drake](https://docs.ropensci.org/drake)
 
 #### What did you do? 
 I elaborated on how I use {drake} to create machine learning products end-to-end, using it in combination of the R package structure.

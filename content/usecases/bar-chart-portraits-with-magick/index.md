@@ -9,7 +9,7 @@ language: [English]
 ---
 
 #### rOpenSci package or resource used*
-magick
+[magick](https://docs.ropensci.org/magick)
 
 #### What did you do? 
 I used magick to resize and convert an image to grayscale, and then to get the pixel values that represent their brightness. The values were used to make horizontal bars at the position of each pixel, with the width of the bar corresponding to reverse brightness (longer bars = brighter pixels).

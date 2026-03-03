@@ -2,14 +2,13 @@
 title: "pdftools + tesseract para extraer texto en español"
 reporter: "Silvia Gutiérrez"
 date: 2021-07-15
-resource: "pdftoolstesseract"
+resource: "[pdftools](https://docs.ropensci.org/pdftools/), [tesseract](https://docs.ropensci.org/tesseract/)"
 original_url: "https://discuss.ropensci.org/t/pdftools-tesseract-para-extraer-texto-en-espanol/2544"
 language: [English]
 ---
 
 #### rOpenSci package or resource used*
-[pdftools](https://docs.ropensci.org/pdftools/)
-[tesseract](https://docs.ropensci.org/tesseract/)
+[pdftools](https://docs.ropensci.org/pdftools/), [tesseract](https://docs.ropensci.org/tesseract/)
 
 #### What did you do? 
 Convertí un texto-imagen en pdf a un texto legible para computadoras usando el OCR de Tesseract y la función de pdf_ocr_text()

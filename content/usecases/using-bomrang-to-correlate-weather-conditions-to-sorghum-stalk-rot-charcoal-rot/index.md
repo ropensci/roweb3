@@ -3,7 +3,7 @@ title: "Using bomrang to correlate weather conditions to sorghum stalk rot (char
 reporter: "Adam Sparks"
 date: 2019-07-01
 image: using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot.png
-resource: "bomrang"
+resource: "[bomrang](https://docs.ropensci.org/bomrang/)"
 original_url: "https://discuss.ropensci.org/t/using-bomrang-to-correlate-weather-conditions-to-sorghum-stalk-rot-charcoal-rot/1758"
 language: [English]
 ---

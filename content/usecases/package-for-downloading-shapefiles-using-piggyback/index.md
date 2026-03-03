@@ -9,7 +9,7 @@ language: [English]
 ---
 
 #### rOpenSci package or resource used*
-piggyback
+[piggyback](https://docs.ropensci.org/piggyback/)
 
 #### What did you do? 
 I created a package called {leaidr} to use facilitate the download and use of U.S. school district shapefiles. The shapefile is over GitHub's allowed limit of 100MB. Originally, I tried to use GitHub LFS as a way to upload the file. Unfortunately, GitHub LFS is not reproducible in that when others download the package, they wouldn't be able to access the file.

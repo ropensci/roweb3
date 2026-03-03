@@ -10,7 +10,7 @@ language: [English]
 
 
 #### Package or resource used*
-rotl, rgbif
+[rotl](https://docs.ropensci.org/rotl), [rgbif](https://docs.ropensci.org/rgbif)
 
 
 #### URL or code snippet for your use case*

@@ -34,11 +34,7 @@ Academic
 
 Taxonomy
 
-### Mastodon profile URL
-
-https://fosstodon.org/@joelnitta
-
-### Bluesky profile URL
-
-https://bsky.app/profile/joelnitta.com
+### Social Handles
+Mastodon: https://fosstodon.org/@joelnitta  
+Bluesky: https://bsky.app/profile/joelnitta.com
 

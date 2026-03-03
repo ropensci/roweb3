@@ -2,7 +2,7 @@
 title: "Using a targets pipeline to query data from the Water Quality Portal"
 reporter: "Julie"
 date: 2022-10-03
-resource: "targetsdataRetrieval"
+resource: "[targets](https://docs.ropensci.org/targets/), [dataRetrieval](https://waterdata.usgs.gov/blog/dataretrieval/)"
 original_url: "https://discuss.ropensci.org/t/using-a-targets-pipeline-to-query-data-from-the-water-quality-portal/3140"
 language: [English]
 ---

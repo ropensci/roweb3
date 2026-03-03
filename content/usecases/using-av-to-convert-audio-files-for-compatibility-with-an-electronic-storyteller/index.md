@@ -9,7 +9,7 @@ language: [English]
 
 #### rOpenSci package or resource used*
 
-av
+[av](https://docs.ropensci.org/av)
 
 #### What did you do? 
 
