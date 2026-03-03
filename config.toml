@@ -106,7 +106,7 @@ DefaultContentLanguage = "en"
   [markup.goldmark]
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.link]
-        enableDefault = false
+        useEmbedded = "never"
     [markup.goldmark.renderer]
       unsafe = true
       #https://gohugo.io/render-hooks/links/#default
@@ -118,7 +118,5 @@ DefaultContentLanguage = "en"
         title = true
 
 [caches]
-  [caches.getjson]
-    maxAge = "300s"
   [caches.getresource]
     maxAge = "300s"
