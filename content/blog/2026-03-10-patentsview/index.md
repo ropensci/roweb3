@@ -25,9 +25,15 @@ params:
 ---
 
 The [patentsview](http://docs.ropensci.org/patentsview/) R package was created by Chris Baker to simplify interactions with the 
-patentsiew API as announced in Chris' 
+PatentsView API as announced in Chris' 
 [blog post](/blog/2017/09/19/patentsview/) 
-in 2017.  Fast-forwarding to today finds us in a precarious
+in 2017.  The API can be queried for data from US patents granted since 1976 as well as
+patent applications since 2001 (not all going on to become granted patents).  
+As shown in the package's vignettes, location data can be mapped, charts of
+assignees can be created etc. using other R packages, only limited by the
+developer's imagination.
+
+Fast-forwarding to today finds us in a precarious
 position as the PatentsView API team had made breaking changes and obsoleted
 the original API (all calls to the original endpoints return 410 Gone).
 As such we have spent some time now updating patentsview to work with these API changes.
