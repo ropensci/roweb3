@@ -100,7 +100,7 @@ Note that the R package will retain its name, continue to use `library(patentsvi
    - [Accessing patent data with the patentsview package](/blog/2017/09/19/patentsview/), the blog post that announced the original version of the R package has been updated to work with the new version of the API
 3. The R package changed internally from using httr to httr2.  This only affects users if 
 they passed additional arguments (`...`) to `search_pv()`.  Previously if they passed `config = httr::timeout(40)`
-they'd now pass `timeout = 40` (name-value pairs of valid curl options, as found in curl::curl_options() see [req_options](https://httr2.r-lib.org/reference/req_options.html))
+they'd now pass `timeout = 40` (name-value pairs of valid curl options, as found in `curl::curl_options()` see [req_options](https://httr2.r-lib.org/reference/req_options.html))
 4. Now that the R package is using httr2, users can make use of its `last_request()` method to see what was sent to the API.  This could be useful when trying to fix an invalid request.  Also fun would be seeing the raw API response.
 ```
 httr2::last_request()
