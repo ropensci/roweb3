@@ -553,6 +553,17 @@
     "home": "https://www.lucymcgowan.com/"
   },
   {
+    "name": "Alec L. Robitaille",
+    "affiliation": "Memorial University of Newfoundland and Labrador, Canada",
+    "github": "robitalec",
+    "url": "https://robitalec.ca/",
+    "image": "/img/team/alec-robitaille.png",
+    "roles": [
+      "editor"
+    ],
+    "home": "https://robitalec.ca/"
+  },
+  {
     "name": "Kelly Hondula",
     "url": "https://www.sesync.org/users/khondula",
     "image": "/img/team/kelly-hondula.jpg",
