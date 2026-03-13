@@ -15,9 +15,9 @@ attendees:
   - Yanina Bellini Saibene
 author:
   - Yanina Bellini Saibene
-resources:
-  - title: Software Sustainability and Community Management
-    speaker: Yanina Bellini Saibene
+# resources:
+#   - title: Software Sustainability and Community Management
+#     speaker: Yanina Bellini Saibene
 ---
 
 [R/Medicine 2026](https://rconsortium.github.io/RMedicine_website/) will happen May 4-8, 2026.
