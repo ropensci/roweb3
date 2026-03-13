@@ -1,5 +1,5 @@
 ---
-title: Code Peer Review in practice: how we review code in open projects
+title: "Code Peer Review in practice: how we review code in open projects"
 dateStart: 2026-03-26T18:00:00 # UTC!!
 dateEnd: 2026-03-26T19:00:00 # UTC!!
 date: 2026-03-26T19:00:00 # UTC!! same as dateEnd
