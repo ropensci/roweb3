@@ -1,8 +1,8 @@
 ---
 title: "Code Peer Review in practice: how we review code in open projects"
-dateStart: 2026-03-26T18:00:00 # UTC!!
-dateEnd: 2026-03-26T19:00:00 # UTC!!
-date: 2026-03-26T19:00:00 # UTC!! same as dateEnd
+dateStart: 2026-03-26T21:00:00 # UTC!!
+dateEnd: 2026-03-26T22:00:00 # UTC!!
+date: 2026-03-26T22:00:00 # UTC!! same as dateEnd
 description: First RSE Argentina meetup of the year! A talk on code peer review in practice, led by Yanina Bellini Saibene. Event in Spanish.
 location: 'online' # free text
 slug: "rse-argentina-code-review-2026"
