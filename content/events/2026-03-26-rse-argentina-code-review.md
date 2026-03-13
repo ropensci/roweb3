@@ -15,9 +15,9 @@ attendees:
   - Yanina Bellini Saibene
 author:
   - Yanina Bellini Saibene
-resources:
-  - title: "Code Peer Review in practice: how we review code in open projects"
-    speaker: Yanina Bellini Saibene
+# resources:
+#  - title: "Code Peer Review in practice: how we review code in open projects"
+#    speaker: Yanina Bellini Saibene
 ---
 
 First RSE Argentina meetup of the year! Yanina Bellini Saibene will lead a talk on code peer review in practice: how we review code in open projects.
