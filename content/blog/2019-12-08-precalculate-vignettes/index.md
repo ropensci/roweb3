@@ -51,7 +51,7 @@ Our recently onboarded package [eia](https://github.com/ropensci/eia/blob/95cd1e
 
 The [eia vignettes directory](https://github.com/ropensci/eia/blob/95cd1e10ebda4143fd4fe24cf5836b10fa757a31/vignettes/) contains the `Rmd.orig` input files and the `.Rmd` files as pre-computed by the package author. Also note the vignettes directory contains a handy script [precompile.R](https://github.com/ropensci/eia/blob/95cd1e10ebda4143fd4fe24cf5836b10fa757a31/vignettes/precompile.R) that makes it easy for the package author to refresh the output vignettes locally.
 
-You could also script the moving of vignette figures to the correct place as the `jstor` package does with it's [precompile.R](https://github.com/ropensci/jstor/blob/de60013deed4a129617a9ead25a642145c2190a6/vignettes/precompile.R) script.
+You could also script the moving of vignette figures to the correct place as the `jstor` package does with its [precompile.R](https://github.com/ropensci/jstor/blob/de60013deed4a129617a9ead25a642145c2190a6/vignettes/precompile.R) script.
 
 ## Don't forget to update
 
