@@ -3,6 +3,7 @@ slug: precompute-vignettes
 title: Como pré-computar vinhetas de pacotes ou de artigos do pkgdown
 date: '2019-12-08'
 author: Jeroen Ooms
+editor: Eric Scott
 topicid: 1893
 tags:
 - documentação

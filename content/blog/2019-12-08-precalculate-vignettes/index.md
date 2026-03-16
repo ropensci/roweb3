@@ -3,6 +3,7 @@ slug: precompute-vignettes
 title: How to precompute package vignettes or pkgdown articles
 date: '2019-12-08'
 author: Jeroen Ooms
+editor: Eric Scott
 topicid: 1893
 tags:
   - docs

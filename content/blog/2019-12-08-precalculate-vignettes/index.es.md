@@ -3,6 +3,7 @@ slug: precompute-vignettes
 title: Cómo precomputar viñetas de paquetes o artículos pkgdown
 date: '2019-12-08'
 author: Jeroen Ooms
+editor: Eric Scott
 translator: 
 - Juan Cruz Enrique
 topicid: 1893
