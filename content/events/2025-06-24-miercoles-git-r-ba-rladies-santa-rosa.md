@@ -3,7 +3,7 @@ title: "¡Miércoles, Git! Manejo de errores en Git y no morir en el intento"
 dateStart: '2025-06-24T12:00:00'
 dateEnd: '2025-06-24T14:00:00'
 date: '2025-06-24T14:45:00' # UTC!! same as dateEnd
-displaytz: "America/Buenos_Aires"
+displaytz: "America/Argentina/Buenos_Aires"
 description: "Maëlle Salmon dará un taller sobre Git."
 location: 'Paris, France'
 country: "🌐" # emoji

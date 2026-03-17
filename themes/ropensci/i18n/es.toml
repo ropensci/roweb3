@@ -358,3 +358,30 @@
 [Interviews]
   other = "Entrevistas"
 
+[Guides]
+  other = 'Guías'
+
+[Packages-and-Peer-Review]
+  other = 'Paquetes y Revisión por Pares'
+
+[Communication-and-Outreach]
+  other = 'Comunicación y Difusión'
+
+[Guides-and-Books]
+  other = 'Guías y Libros'
+
+[GitHub-Organizations]
+  other = 'Organizaciones de GitHub'
+
+[Reporter]
+  other = 'Enviado por'
+[English]
+  other = 'Inglés'
+
+[Spanish]
+  other = 'Español'
+
+[Portuguese]
+  other = 'Portugués'
+
+

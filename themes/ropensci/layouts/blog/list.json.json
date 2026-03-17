@@ -22,16 +22,25 @@
      {{ else }}
        {{  $data.Set "authors" (slice .Params.author) }}
     {{ end }}
+    {{ if isset .Params "editor" }}
+  		{{ if eq (substr (jsonify .Params.editor) 0 1) "[" }}
+        {{ $data.Set "editors" .Params.editor }}
+     {{ else }}
+       {{  $data.Set "editors" (slice .Params.editor) }}
+    {{ end }}
+    {{ end }}
+    {{ if isset .Params "translator" }}
+  		{{ if eq (substr (jsonify .Params.translator) 0 1) "[" }}
+        {{ $data.Set "translators" .Params.translator }}
+     {{ else }}
+       {{  $data.Set "translators" (slice .Params.translator) }}
+    {{ end }}
+    {{ end }}
 			{
 				"id": "{{ printf "https://doi.org/%s" .Params.doi }}",
 				"title": "{{ .Title }}",
 				"language" : "{{ .Lang }}",
-				"authors": [{{ range $i, $e := ($data.Get "authors") }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}{{ $params := .Params }}{{ $name := $params.name }}{{ if $i }}, {{ end }}{{ range first 1 (where ($data.Get "pages") ".Params.name" $e) }}
-				{
-      "name": "{{ $name }}",
-	  {{ with .Params.orcid }}"url": "https://orcid.org/{{ . }}" ,{{ end }}
-      "avatar": "{{ ( partial "blogs/author-img" . ) }}"
-    }{{ end }}{{ end }}{{ end }}],
+				"authors": [{{ partial "blogs/combined-authors.html" . }}],
 				{{ with .Params.tags }} "tags": {{ . | uniq | jsonify}},{{ end }}
 				"content_html": {{ .Content | replaceRE "\n" "" | jsonify }},
 				"url": "{{ .Permalink }}",

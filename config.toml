@@ -4,7 +4,7 @@ title = "rOpenSci - open tools for open science"
 theme = "ropensci"
 ignoreErrors = ["error-remote-getjson"]
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "(^|/)renv$", "renv\\.lock$", "_cache$", "index\\.html"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "(^|/)renv$", "renv\\.lock$", "_cache$", "index\\.html", "hw-template"]
 footnotereturnlinkcontents = "↩"
 buildFuture = true
 preserveTaxonomyNames = true
@@ -57,7 +57,9 @@ DefaultContentLanguage = "en"
     blogs = ["blog", "technotes"]
     events = ["events", "commcalls"]
     githubsource = "https://github.com/ropensci/roweb3/blob/main/content/"
-    registry = "https://ropensci.github.io/roregistry/registry.json"
+    registry = "https://ropensci.r-universe.dev/api/packages/"
+    communitymultiverse = "https://community.r-multiverse.org/api/packages/"
+    stagingmultiverse = "https://staging.r-multiverse.org/api/packages/"
     citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
 
  
@@ -104,7 +106,7 @@ DefaultContentLanguage = "en"
   [markup.goldmark]
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.link]
-        enableDefault = false
+        useEmbedded = "never"
     [markup.goldmark.renderer]
       unsafe = true
       #https://gohugo.io/render-hooks/links/#default
@@ -116,5 +118,5 @@ DefaultContentLanguage = "en"
         title = true
 
 [caches]
-  [caches.getjson]
+  [caches.getresource]
     maxAge = "300s"

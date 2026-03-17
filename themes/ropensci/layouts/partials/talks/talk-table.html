@@ -3,7 +3,7 @@
     <!-- Header text -->
     <div class="row">
       <div class="col-md-8 content">
-        <h1>{{ .Title | markdownify }}</h1>
+        {{ if ne .Title "" }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
          {{ .Content }}
     </div>
     </div>

@@ -228,10 +228,10 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Check "New Maintainer Wanted" issues.
 * Update package categories in https://github.com/ropensci/roregistry/blob/gh-pages/scripts/update_categories.R (not directly related to the newsletter but good to do monthly!).
 * Update pinned repositories of github.com/ropensci to feature new packages.
-* Check metadata of posts on Rogue Scholar for the previous month (for instance authors). https://rogue-scholar.org/blogs/ropensci
+* Check metadata of posts on Rogue Scholar for the previous month (for instance authors). https://rogue-scholar.org/communities/ropensci/records?q=&l=list&p=1&s=10&sort=newest
 * Start a new post with the newsletter archetype, use the same title "rOpenSci News Digest, MONTH YEAR" and slug "ropensci-news-digest-month-YYYY" and tag "newsletter".
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
-* Source `scripts/use-cases/get_use_cases.R` to update use cases data (you need your GitHub token situation to be in order).
+* Source `scripts/generate_usecases.R` to create content pages for new use cases (you need your GitHub token situation to be in order).
 * Change the date of the last newsletter in the new post, knit it. 
   * Manually updated sections: rOpenSci HQ (issues in https://github.com/ropensci/biweekly that you should watch; look at recent/future events including comm calls; if needed poll staff), from the forum (interesting recent posts?), package development corner (poll package-maintenance channel; your recent reads), call for maintainers.
   * If a blog post was featured on the R Weekly highlights podcast, add a link to it.
@@ -271,20 +271,18 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
     * If you are a member of the rOpenSci team on Netlify, use the Netlify interface to re-trigger a deploy.
     * Alternatively make an empty commit `git commit -m "trigger deploy" --allow-empty` and push.
 
-* The website depends on the package registry (for packages pages, and for the search index) and on the citations JSON files that are hosted on GitHub pages. Therefore if GitHub pages is down see https://www.githubstatus.com/, the website can't be build. GitHub Pages often isn't down for long. Now if it is down for too long, 
+* The website depends on R-universe (for packages pages, and for the search index: https://ropensci.r-universe.dev/api/packages/) and on the citations JSON files that are hosted on GitHub pages. Therefore if GitHub pages is down see https://www.githubstatus.com/, the website can't be build. GitHub Pages often isn't down for long. Now if it is down for too long, 
 
-* Take https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json and https://github.com/ropensci/roregistry/blob/gh-pages/registry.json (hopefully GitHub itself isn't down) and save them in a local folder `hack`. Drag and drop this folder to create a [new site in Netlify](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
+* Take https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json(hopefully GitHub itself isn't down) and save it in a local folder `hack`. Drag and drop this folder to create a [new site in Netlify](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
 In `config.toml` change
 
 ```toml
-    registry = "https://ropensci.github.io/roregistry/registry.json"
     citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
 ```
 
 to 
 
 ```toml
-    registry = "URL-TO-NETLIFY-WEBSITE/registry.json"
     citations = "URL-TO-NETLIFY-WEBSITE/citations_all_parts_clean.json"
 ```
 

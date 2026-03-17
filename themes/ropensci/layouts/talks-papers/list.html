@@ -16,13 +16,6 @@
       {{ partial "resources/talk-card" . }}
       {{ end }}
     </div>
-    <h2 class="title mt-5" id="talks">Training</h2>
-        <p class="content">Most recent training sessions by the rOpenSci team or community members representing us, in various languages. Links to slides and videos are provided where available. <a href="/training">More training</a>.</p>
-    <div class="talk-cards">
-      {{ range ( first 3 (where (where ( where .Site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil)  ".Params.training" "==" true)) }}
-      {{ partial "resources/talk-card" . }}
-      {{ end }}
-    </div>
     <h2 class="title mt-5" id="publications">Publications</h2>
     <p class="content">Most recent papers about rOpenSci or rOpenSci-related projects involving members of the rOpenSci team. <a href="/papers">More papers</a>. Find out <a href="/how-to-cite-ropensci">how to cite rOpenSci</a> in your papers. </p>
       {{ range ( first 3 .Site.Data.papers.papers ) }}

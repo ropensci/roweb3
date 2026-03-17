@@ -1,0 +1,66 @@
+{{- $editors := .Params.editor -}}
+{{- if $editors -}}
+  {{- if ne (printf "%T" $editors) "[]string" -}}
+    {{- $editors = slice $editors -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $translators := .Params.translator -}}
+{{- if $translators -}}
+  {{- if ne (printf "%T" $translators) "[]string" -}}
+    {{- $translators = slice $translators -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $authors := .Params.author -}}
+{{- if $authors -}}
+  {{- if ne (printf "%T" $authors) "[]string" -}}
+    {{- $authors = slice $authors -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $interviewees := .Params.interviewee -}}
+{{- if $interviewees -}}
+  {{- if ne (printf "%T" $interviewees) "[]string" -}}
+    {{- $interviewees = slice $interviewees -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $allPeople := dict -}}
+
+{{- range $editors -}}
+  {{/* Look up current person in dictionary, return empty slice if not found */}}
+  {{- $existing := index $allPeople . | default slice -}}
+  {{/* Add "editor" to their roles and update the dictionary */}}
+  {{- $allPeople = merge $allPeople (dict . ($existing | append "editor")) -}}
+{{- end -}}
+
+{{- range $translators -}}
+  {{- $existing := index $allPeople . | default slice -}}
+  {{- $allPeople = merge $allPeople (dict . ($existing | append "translator")) -}}
+{{- end -}}
+
+{{- range $authors -}}
+  {{- $existing := index $allPeople . | default slice -}}
+  {{- $allPeople = merge $allPeople (dict . ($existing | append "author")) -}}
+{{- end -}}
+
+{{- range $interviewees -}}
+  {{- $existing := index $allPeople . | default slice -}}
+  {{- $allPeople = merge $allPeople (dict . ($existing | append "interviewee")) -}}
+{{- end -}}
+
+{{- $personIndex := 0 -}}
+{{- range $name, $roles := $allPeople -}}
+  {{- $personPage := index (where $.Site.Pages ".Params.name" $name) 0 -}}
+  {{- if $personPage -}}
+    {{- if $personIndex -}}, {{ end -}}
+    {
+      "name": "{{ $name }}",
+      "url": "{{ if $personPage.Params.orcid }}https://orcid.org/{{ $personPage.Params.orcid }}{{ else }}{{ $personPage.Permalink }}{{ end }}",
+      "avatar": "{{ ( partial "blogs/author-img" $personPage ) }}",
+      "_role": {{ $roles | jsonify }}
+    }
+    {{- $personIndex = add $personIndex 1 -}}
+  {{- end -}}
+{{- end -}}

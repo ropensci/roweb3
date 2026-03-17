@@ -4,6 +4,8 @@ description = "A mentoring & training program for Scientific Open Source Champio
 tags = ["champions"] 
 +++
 
+### The 2026 rOpenSci Champions Program is now open for applications!
+
 Research software *should serve everyone in our communities*, which means it needs to be *sustainable, open, and built by and for all groups*.
 Currently, however, there is a dismaying lack of diversity in open source communities in general and the R / research software community in particular.
 Developers in the R community are overwhelmingly white, male, and from a handful of countries.
