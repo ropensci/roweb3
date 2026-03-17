@@ -243,6 +243,7 @@ jobs:
 ```
 
 For Pro accounts using JWT, `use_gha_jwt_token()` generates a simpler workflow that injects JWT credentials as environment variables.
+You can see an example of this in the [R-Ladies meetup archive repository](https://github.com/rladies/meetup_archive/actions/runs/23193611609/workflow.)
 
 ## Complete user workflow
 
