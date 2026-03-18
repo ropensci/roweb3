@@ -28,14 +28,14 @@ Meet our new editors!
 
 {{< imgtxt src = "/img/team/alec-robitaille.jpg" width = "200" alt = "headshot of Alec Robitaille">}}
 
-Bio
+TODO: Add Bio
 
 {{< /imgtxt >}}
 
 Alec on [GitHub](https://github.com/robitalec), [Website](http://robitalec.ca/).
 
 {{< quote footer="Alec Robitaille" >}}
-
+TODO: Add quote
 
 {{< /quote >}}
 
@@ -44,14 +44,14 @@ Alec on [GitHub](https://github.com/robitalec), [Website](http://robitalec.ca/).
 
 {{< imgtxt src = "/img/team/lucy-dagostino-mcgowan.jpg" width = "200" alt = "headshot of Lucy D'Agostino McGowan" >}}
 
-Bio
+TODO: Add Bio
 
 {{< /imgtxt >}}
 
 Lucy on [GitHub](https://github.com/LucyMcGowan), [Website](https://www.lucymcgowan.com/).
 
 {{< quote footer="Lucy D'Agostino McGowan" >}}
-
+TODO: Add quote
 
 {{< /quote >}}
 
@@ -67,7 +67,7 @@ This program is possible thanks to the many community members: authors submittin
 Are you considering submitting your package for review? These resources will help:
 
 - About [rOpenSci Software Peer Review](/software-review/);
-- Browse the online book [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/);
+- Browse the online book [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/) and [rOpenSci Statistical Software Peer Review](https://stats-devguide.ropensci.org);
 - Read public [software review threads on GitHub](https://github.com/ropensci/software-review/issues)
 
 Would you like to review packages? Fill out the [rOpenSci Reviewer Sign-Up Form](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) to volunteer to review.
