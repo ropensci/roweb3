@@ -1,0 +1,308 @@
+---
+title: "Cache Me If You Can – httr2 OAuth Token Management for CI/CD"
+author:
+- Athanasia Mo Mowinckel
+- Maëlle Salmon
+editor:
+  -
+date: '2026-03-30'
+slug: httr2-cache
+description: Learn how to manage httr2 OAuth tokens in CI/CD, where interactive authentication is not possible.
+output: hugodown::md_document
+tags:
+  - oAuth
+  - tech notes
+crossposts:
+- name: R-Ladies blog blog
+  url: https://rladies.org/blog/2025/httr2-cache/
+params:
+  doi: ""
+---
+
+We ran into this problem while refactoring the [meetupr](https://github.com/rladies/meetupr) package, which wraps the Meetup API and is maintained by the R-Ladies organization.
+The package was switching from the superseded httr to httr2, which opens a browser for user authentication and makes it clear what permissions you're granting.
+
+R-Ladies uses meetupr in CI to archive Meetup groups and events, so we needed authentication that works without a human sitting at a keyboard.
+httr2 handles interactive OAuth well, but CI environments don't have browsers.
+This post walks through how we solved it — and the general pattern is useful for any R package wrapping an OAuth API.
+
+## Understanding httr2's OAuth flow
+
+httr2's `req_oauth_auth_code()` handles [OAuth2](https://blog.r-hub.io/2021/01/25/oauth-2.0/) authentication for local development:
+
+1. Opens the user's browser for authentication    
+2. Exchanges the authorization code for tokens (access + refresh)    
+3. Encrypts the token and caches it to disk (by default under the httr2 cache directory)    
+4. Automatically refreshes expired tokens using the refresh token    
+
+That last point matters.
+Access tokens are short-lived — often an hour — but refresh tokens can last weeks or months.
+As long as you have a valid refresh token, you can keep getting fresh access tokens without the browser dance.
+
+## The CI problem
+
+CI environments break this flow in two ways:
+
+1. No browser available for the initial authentication    
+2. Fresh environments every run — no cached credentials    
+
+### What about httr2's non-interactive methods?
+
+httr2 provides [several non-interactive authentication methods](https://httr2.r-lib.org/reference/req_oauth_auth_code.html#see-also) — device flow, service accounts, JWT.
+These are the right first choice when your API supports them.
+
+But not every API does.
+In the case of Meetup, we discovered that:
+
+- JWT authentication requires a Pro Meetup account    
+- Creating new OAuth applications requires a Pro account (existing apps are [grandfathered](https://en.wikipedia.org/wiki/Grandfather_clause))    
+- Device flow is not supported at all    
+
+So we needed two paths: JWT for Pro account holders, and something else for everyone with a grandfathered OAuth app.
+
+## The solution: encrypted token files
+
+The approach we landed on has three tiers, tried in order:
+
+1. _JWT_ — for Pro accounts that support it    
+2. _Encrypted token file_ — for regular OAuth apps in CI    
+3. _Interactive OAuth_ — the standard browser flow for local development    
+
+The request authentication function tries each method in sequence:
+
+```r
+req_auth <- function(req, client_name, cache = TRUE, ...) {
+  # Custom function that checks what authentication is available
+  auth <- meetupr_auth_status(silent = TRUE)
+
+  if (auth$jwt$available) {
+    # JWT bearer token (Pro accounts)
+    return(req |> httr2::req_oauth_bearer_jwt(
+      client = meetupr_client(...),
+      claim = httr2::jwt_claim(...)
+    ))
+  }
+
+  # Try encrypted token file
+  token <- tryCatch(
+    meetupr_encrypt_load(client_name = client_name),
+    error = function(e) NULL
+  )
+
+  if (!is.null(token)) {
+    return(httr2::req_auth_bearer_token(req, token))
+  }
+
+  # Fall back to interactive browser flow
+  req |> httr2::req_oauth_auth_code(
+    client = meetupr_client(...),
+    auth_url = meetupr_api_urls()$auth,
+    cache_disk = cache
+  )
+}
+```
+
+JWT is straightforward — if you have the credentials, httr2 handles the rest.
+The interesting part is the encrypted token path.
+
+### How it works
+
+The idea is simple: authenticate locally once, then encrypt and commit the token so CI can use it.
+Only the decryption password goes into CI secrets — the encrypted file itself lives in your repository.
+
+We use the [cyphr](https://cran.r-project.org/package=cyphr) and [sodium](https://cran.r-project.org/package=sodium) packages for encryption.
+The token object is saved as an RDS file, then encrypted with a randomly generated password using NaCl symmetric encryption.
+
+Here's the setup function, simplified for clarity:
+
+```r
+meetupr_encrypt_setup <- function(path = ".meetupr.rds", password = NULL) {
+  token <- httr2::oauth_token_cached(
+    client = meetupr_client(),
+    flow = httr2::oauth_flow_auth_code,
+    flow_params = meetupr_oauth_flow_params()
+  )
+
+  if (is.null(password)) {
+    password <- sodium::bin2hex(sodium::random(32))
+  }
+
+  key <- cyphr::key_sodium(sodium::hex2bin(password))
+  tmp <- tempfile(fileext = ".rds")
+  saveRDS(token, tmp)
+  cyphr::encrypt_file(tmp, key = key, dest = path)
+
+  cli::cli_bullets(c(
+    "v" = "Encrypted token saved to {.path {path}}",
+    "i" = "Commit this file to your repository",
+    "!" = "Add encryption password to CI secrets"
+  ))
+
+  invisible(password)
+}
+```
+
+The user runs `meetupr_auth()` to authenticate in the browser, then `meetupr_encrypt_setup()` to create the encrypted file.
+They commit that file and add the password as a CI secret.
+That's the entire local setup.
+
+### Loading and rotating tokens in CI
+
+On the CI side, `meetupr_encrypt_load()` does three things:
+
+1. Decrypts the token file using the password from the CI secret    
+2. Checks if the access token has expired    
+3. If expired, refreshes it using the refresh token and saves the rotated encrypted file back    
+
+```r
+meetupr_encrypt_load <- function(path, password) {
+  key <- cyphr::key_sodium(sodium::hex2bin(password))
+  tmp <- tempfile(fileext = ".rds")
+  cyphr::decrypt_file(path, key = key, dest = tmp)
+  token <- readRDS(tmp)
+
+  token_age <- Sys.time() - as.POSIXct(
+    token$expires_at, origin = "1970-01-01"
+  )
+  if (token_age < 0) return(token)
+
+  new_token <- refresh_oauth_token(token)
+  saveRDS(new_token, tmp)
+  cyphr::encrypt_file(tmp, key = key, dest = path)
+  new_token
+}
+```
+
+The rotation step is what makes this approach durable.
+Instead of the encrypted file going stale after the access token expires, it stays current.
+The caveat being, that every token refresh needs to be committed and pushed to the repo by the CI.
+
+### What we tried first
+
+Our first approach — suggested by [Noam Ross](https://www.noamross.net/) on the rOpenSci Slack — was to base64-encode the raw httr2 cache file and store it as a CI environment variable.
+This worked, but had drawbacks: environment variables have size limits on some CI providers, you had to store both the token content _and_ httr2's hash-based filename as separate secrets, and there was no natural way to write back a rotated token.
+
+The encrypted file approach is simpler for users — commit one file, set one secret — and gives CI a place to write back the refreshed token.
+
+## CI configuration
+
+meetupr provides helper functions that generate GitHub Actions workflow files.
+
+For encrypted token rotation:
+
+```r
+meetupr::use_gha_encrypted_token()
+```
+
+This creates a workflow that runs weekly, loads the encrypted token, refreshes it if needed, and commits the updated file back to the repository:
+
+```yaml
+name: Meetupr Token Rotation
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1"
+
+jobs:
+  rotate-token:
+    runs-on: ubuntu-latest
+    env:
+      meetupr_encrypt_pwd: ${{ secrets.ENCRYPT_PWD }}
+      meetupr_encrypt_path: .meetupr.rds
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install dependencies
+        run: |
+          install.packages('pak')
+          pak::pak('rladies/meetupr')
+        shell: Rscript {0}
+
+      - name: Load encrypted token and refresh
+        run: |
+          meetupr::meetupr_encrypt_load()
+        shell: Rscript {0}
+
+      - name: Run your script
+        run: Rscript your_script.R
+
+      - name: Commit and push updated token
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .meetupr.rds
+          git commit -m "Rotate meetupr token [skip ci]" || echo "No changes to commit"
+          git push
+```
+
+For Pro accounts using JWT, `use_gha_jwt_token()` generates a simpler workflow that injects JWT credentials as environment variables.
+You can see an example of this in the [R-Ladies meetup archive repository](https://github.com/rladies/meetup_archive/actions/runs/23193611609/workflow.)
+
+## Complete user workflow
+
+From a meetupr user's perspective:
+
+_One-time local setup:_
+
+```r
+library(meetupr)
+
+meetupr_auth()
+
+password <- meetupr_encrypt_setup()
+# → Encrypted token saved to .meetupr.rds
+# → Commit this file to your repository
+# → Add encryption password to CI secrets
+```
+
+_Repository setup:_
+
+1. Commit `.meetupr.rds` to your repository    
+2. Add the encryption password as a CI secret named `ENCRYPT_PWD`    
+3. Run `meetupr::use_gha_encrypted_token()` to create the workflow file    
+
+_In CI, your code works normally:_
+
+```r
+library(meetupr)
+result <- get_events("R-Ladies-Global")
+```
+
+The authentication happens transparently — `meetupr_encrypt_load()` is called internally when the package builds its API request.
+
+## The general pattern
+
+The specifics here are meetupr's, but the pattern generalizes to any R package wrapping an OAuth API that needs CI support:
+
+1. Authenticate interactively once and capture the httr2 token object    
+2. Encrypt it with cyphr/sodium and commit the encrypted file    
+3. In CI, decrypt, check expiration, refresh if needed, re-encrypt    
+4. Store only the decryption password as a CI secret    
+
+The encrypted file in the repository acts as a renewable credential.
+Each CI run that refreshes the token writes back the updated version, so the refresh token stays current.
+If the refresh token does eventually expire — say the user revokes access or the API provider has a short refresh window — the user re-runs the setup locally.
+
+## Security considerations
+
+The encrypted token file is safe to commit because it uses NaCl symmetric encryption via sodium.
+Without the password, the file is opaque.
+
+The password itself lives only in CI secrets, which are encrypted at rest and not exposed in logs.
+The token file contains OAuth tokens — not user credentials — so the blast radius of a compromised token is limited to the API permissions granted to that OAuth app.
+
+For sensitive environments, the weekly rotation workflow keeps the token fresh and gives you an audit trail of when tokens were last refreshed.
+
+## Resources
+
+- [httr2 OAuth documentation](https://httr2.r-lib.org/articles/oauth.html)    
+- [httr2 API wrapping guide](https://httr2.r-lib.org/articles/wrapping-apis.html)    
+- [cyphr package](https://cran.r-project.org/package=cyphr) — high-level encryption for R    
+- [meetupr package](https://github.com/rladies/meetupr) — the real-world implementation    
