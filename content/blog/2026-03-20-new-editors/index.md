@@ -20,7 +20,7 @@ params:
 
 At rOpenSci, we're continually grateful for the support and engagement of our community, who help make research open-source stronger, more inclusive, and more collaborative. The [software peer review program](/software-review/) continues to grow, and today we announce that our editorial team keeps expanding:
 
-We're excited to welcome _Alec Robitaille_ and _Lucy D'Agostino McGowan_ as new editors for our Statistical Software Peer Review team. Their expertise and dedication will help sustain and strengthen this program, ensuring that statistical software reviews continue to meet the highest standards of quality, transparency, and impact.
+We're excited to welcome _Alec Robitaille_ and _Lucy D'Agostino McGowan_ as new editors. Alec joins our general review team, and Lucy our statistical software review team. Their expertise and dedication will help sustain and strengthen software peer review, ensuring that software reviews continue to meet the highest standards of quality, transparency, and impact.
 
 Meet our new editors!
 
@@ -56,7 +56,7 @@ TODO: Add quote
 {{< /quote >}}
 
 
-## About the Statistical Software Peer Review Program
+## About the Software Peer Review Program
 
 rOpenSci's software peer review program brings together volunteers to collaboratively review scientific and statistical software according to transparent, constructive, and open standards. Editors manage submissions, coordinate reviewers, and help guide packages through review to improve code quality, documentation, and usability. 
 
