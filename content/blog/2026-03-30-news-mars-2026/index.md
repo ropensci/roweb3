@@ -26,7 +26,9 @@ rOpenSci Software Peer Review's guidance is gathered in an [online book](https:/
 
 ### Champions Program Update
 
-TODO YANI
+We are still going through the Champions selection process, and we’re excited to share that the new group of mentors has already been selected and is now actively reviewing champions applications.
+
+This cohort brings together a wonderful mix of returning Champions stepping into mentorship roles, mentors continuing their contributions, and new members joining the program. The 2026 mentors are Andrea Gomez Vargas, Pablo Paccioretti, Alber Hamersson Sánchez Ipia, Erick Isaac Navarro Delgado, Francisco Cardozo, Luis Verde Arregoitia, Monika Ávila Márquez, Guadalupe Pascal, Pao Corrales, and Elio Campitelli. Together, they represent a diverse and vibrant community across Colombia, Mexico, Argentina, Brazil, and Bolivia, with some currently based in Switzerland, Canada, the United States, and Australia. We’re very happy to see this growing, interconnected network supporting the next cohort of Champions.
 
 ### R-universe update
 
