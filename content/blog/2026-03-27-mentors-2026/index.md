@@ -108,7 +108,11 @@ Actualmente también formo parte de la comunidad de rOpenSci como campeona de la
 
 {{< figure src = "/img/team/andrea-vargas.png" width = "250" alt = "Foto de perfil de Andrea Gomez Vargas" class = "pull-left" caption = "<strong>Andrea Gomez Vargas </br> INDEC </br> R-Ladies, rOpenSci</strong>">}}
 
-[*Texto de presentación a completar por Andrea.*]
+Soy colombiana de origen y argentina por elección, donde hoy vivo, desarrollo mi carrera y participo activamente en la comunidad de R. Soy socióloga y trabajo en la oficina nacional de estadística de Argentina, en el área de estadísticas sociales, donde analizo información sobre la población para comprender desigualdades y condiciones de vida.
+
+La comunidad de R es mi espacio favorito para compartir conocimiento y construir colectivamente. Actualmente soy co-organizadora de [R en Buenos Aires](https://renbaires.github.io/) y [RSE Argentina](https://rse-argentina.github.io/), y además participo en iniciativas como R-Ladies, LatinR y rOpenSci, contribuyendo al fortalecimiento de redes a nivel local, regional y global,  promoviendo el aprendizaje y uso de herramientas abiertas en ciencia de datos.
+
+Fui [Campeona en la cohorte 2023–2024](https://ropensci.org/es/blog/2025/05/15/puentes-comunidades-campeones-ropensci/), donde desarrollé [{ARcenso}, un paquete que facilita el acceso a datos censales históricos de Argentina](https://soyandrea.github.io/arcenso/). Me motiva continuar en el programa como mentora para seguir impulsando el conocimiento abierto y acompañar a otras personas en el desarrollo de proyectos con impacto en sus comunidades.
 
 </br>
 
