@@ -34,11 +34,11 @@ Alec is a graduate student at Memorial University of Newfoundland and Labrador (
 
 Alec on [GitHub](https://github.com/robitalec), [Website](http://robitalec.ca/).
 
-{{< quote footer="Alec Robitaille" >}}
-TODO: Add quote
+{{< quote footer="Alec L. Robitaille" >}}
+
+I first connected with the rOpenSci community through the review process for the package spatsoc in 2018 as part of our manuscript submission at Methods in Ecology and Evolution. During the review, I was thoroughly impressed by how welcoming the community was, and how effective the process was in helping me learn how to improve the package. rOpenSci is a landmark in the R and open science ecosystems with an ever evolving community to learn from and to be a part of. I am very grateful to be given the opportunity to continue contributing to rOpenSci in this new role as editor.
 
 {{< /quote >}}
-
 
 ## Lucy D'Agostino McGowan
 
