@@ -28,7 +28,7 @@ Meet our new editors!
 
 {{< imgtxt src = "/img/team/alec-robitaille.jpg" width = "200" alt = "headshot of Alec Robitaille">}}
 
-TODO: Add Bio
+Alec is a graduate student at Memorial University of Newfoundland and Labrador (Canada) studying foraging ecology, habitat selection and social networks in caribou and other ungulates. Passionate about teaching open science and programming, he regularly mentors peers, runs workshops, develops example repositories, and organizes a Bayesian stats colearning group. He maintains the package [spatsoc](https://github.com/ropensci/spatsoc) ([reviewed](https://github.com/ropensci/software-review/issues/237) by rOpenSci in 2018) and has developed smaller packages with diverse applications including remote sensing ([irg](https://cran.r-project.org/web/packages/irg/)), social networks ([hwig](https://cran.r-project.org/web/packages/hwig/)), camera trap monitoring ([camtrapmonitoring](https://github.com/robitalec/camtrapmonitoring)), and animal movement ([distanceto](https://cran.r-project.org/web/packages/distanceto/)). He reviewed the [ohun](https://github.com/ropensci/software-review/issues/568), [chopin](https://github.com/ropensci/software-review/issues/638), and [emodnet.wfs](https://github.com/ropensci/software-review/issues/653) packages for rOpenSci, guest edited for the [rredlist](https://github.com/ropensci/software-review/issues/663) package and is currently handling the reviews for the [ActiGlobe](https://github.com/ropensci/software-review/issues/732), and [saperlipopette](https://github.com/ropensci/software-review/issues/754) packages.
 
 {{< /imgtxt >}}
 
