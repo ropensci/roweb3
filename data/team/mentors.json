@@ -1,10 +1,55 @@
 [
+{
+   "name": "Erick Isaac Navarro Delgado",
+   "url": "https://erick-navarrodelgado.netlify.app",
+   "image" : "/img/team/erick-navarro-delgado.jpg",
+   "affiliation": "The University of British Columbia",
+   "roles": [
+      "2026-2027"
+   ],
+   "github": "ErickNavarroD",
+   "home": "https://erick-navarrodelgado.netlify.app"
+},
+{
+   "name": "Guadalupe Pascal",
+   "url": "https://guadapascal.github.io",
+   "image" : "/img/team/guadalupe-pascal.jpg",
+   "affiliation": "Universidad Nacional de Lomas de Zamora - Universidad Católica Argentina",
+   "roles": [
+      "2026-2027"
+   ],
+   "github": "guadapascal",
+   "home": "https://guadapascal.github.io"
+},
+{
+   "name": "Monika Avila Marquez",
+   "url": "https://www.monikaavila.com/",
+   "image" : "/img/team/monika-avila-marquez.jpeg",
+   "affiliation": "Departamento de Métodos y Análisis de datos, Universidad de Ginebra",
+   "roles": [
+      "2026-2027"
+   ],
+   "github": "monikavila",
+   "home": "https://www.monikaavila.com/"
+},
+{
+   "name": "Andrea Gomez Vargas",
+   "url": "https://soyandrea.netlify.app/",
+   "image" : "/img/team/andrea-vargas.png",
+   "affiliation": "INDEC Argentina, R-Ladies Global, Latin-R",
+   "roles": [
+      "2026-2027"
+   ],
+   "github": "SoyAndrea",
+   "home": "https://soyandrea.netlify.app/"
+},
   {
    "name": "Paola Corrales",
    "image" : "/img/team/paola-corrales.png",
    "affiliation": "Australian National University & 21st century weather CoE",
    "roles": [
-      "2025-2026"
+      "2025-2026",
+      "2026-2027"
    ],
    "mastodon": "https://fosstodon.org/@paocorrales",
    "github": "paocorrales",
@@ -135,7 +180,8 @@
    "image" : "/img/team/francisco-cardozo.jpg",
    "roles": [
       "2023-2024",
-      "2025-2026"
+      "2025-2026",
+      "2026-2027"
    ],
    "github": "focardozom",
    "home": ""
@@ -148,7 +194,8 @@
    "image" : "/img/team/luis-verde.jpeg",
    "roles": [
       "2023-2024",
-      "2025-2026"
+      "2025-2026",
+      "2026-2027"
    ],
    "github": "luisDVA",
    "home": ""
@@ -231,7 +278,8 @@
    "image" : "/img/team/elio-campitelli.jpg",
    "roles": [
       "2022-2023",
-      "2025-2026"
+      "2025-2026",
+      "2026-2027"
    ],
    "mastodon": "https://mastodon.social/@eliocamp",
    "github": "eliocamp",
