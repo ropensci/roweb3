@@ -1,25 +1,24 @@
 [
 {
    "name": "Alber Hamersson Sánchez Ipia",
-   "url": "",
+   "url": "https://albhasan.github.io/",
    "image" : "/img/team/alber-sanchez.jpg",
-   "affiliation": "T",
+   "affiliation": "Instituto Nacional de Investigación Espacial (INPE)",
    "roles": [
       "2026-2027"
    ],
-   "github": "",
-   "home": ""
+   "github": "albhasan",
+   "home": "https://albhasan.github.io/"
 },
 {
-   "name": "",
+   "name": "Pablo Paccioretti",
    "url": "",
    "image" : "/img/team/",
-   "affiliation": "T",
+   "affiliation": "Universidad Nacional de Córdoba, Argentina - Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)",
    "roles": [
       "2026-2027"
    ],
-   "github": "",
-   "home": ""
+   "github": "PPaccioretti"
 },
 {
    "name": "Erick Isaac Navarro Delgado",
