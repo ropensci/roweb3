@@ -7,7 +7,7 @@ author:
   - Erick Navarro Delgado
   - Guadalupe Pascal
   - Andrea Gomez Vargas
-  - Monika Avila Márquez
+  - Monika Avila Marquez
   - Luis D. Verde Arregoitia
   - Francisco Cardozo
   - Elio Campitelli
