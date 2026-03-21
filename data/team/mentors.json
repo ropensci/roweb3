@@ -1,5 +1,27 @@
 [
 {
+   "name": "Alber Hamersson Sánchez Ipia",
+   "url": "",
+   "image" : "/img/team/alber-sanchez.jpg",
+   "affiliation": "T",
+   "roles": [
+      "2026-2027"
+   ],
+   "github": "",
+   "home": ""
+},
+{
+   "name": "",
+   "url": "",
+   "image" : "/img/team/",
+   "affiliation": "T",
+   "roles": [
+      "2026-2027"
+   ],
+   "github": "",
+   "home": ""
+},
+{
    "name": "Erick Isaac Navarro Delgado",
    "url": "https://erick-navarrodelgado.netlify.app",
    "image" : "/img/team/erick-navarro-delgado.jpg",
@@ -35,7 +57,7 @@
 {
    "name": "Andrea Gomez Vargas",
    "url": "https://soyandrea.netlify.app/",
-   "image" : "/img/team/andrea-vargas.png",
+   "image" : "/img/team/andrea-gomez-vargas.jpg",
    "affiliation": "INDEC Argentina, R-Ladies Global, Latin-R",
    "roles": [
       "2026-2027"
@@ -191,7 +213,7 @@
    "name": "Luis D. Verde Arregoitia",
    "affiliation": "Instituto de Ecología AC (INECOL)",
    "url": "https://liomys.mx",
-   "image" : "/img/team/luis-verde.jpeg",
+   "image" : "/img/team/luis-verde-arregoitia.jpg",
    "roles": [
       "2023-2024",
       "2025-2026",
