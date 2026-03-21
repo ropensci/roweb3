@@ -28,17 +28,17 @@ Meet our new editors!
 
 {{< imgtxt src = "/img/team/alec-robitaille.jpg" width = "200" alt = "headshot of Alec Robitaille">}}
 
-TODO: Add Bio
+Alec is a graduate student at Memorial University of Newfoundland and Labrador (Canada) studying foraging ecology, habitat selection and social networks in caribou and other ungulates. He has been involved in many projects along the way, from measuring muskrat habitat and lake ice dynamics at McGill University to estimating drought sensitivity in Canada's forests with the Canadian Forestry Service. Passionate about teaching open science and programming, he regularly mentors peers, runs workshops, develops example repositories, and organizes a Bayesian stats colearning group. He maintains the package [spatsoc](https://github.com/ropensci/spatsoc) ([reviewed](https://github.com/ropensci/software-review/issues/237) by rOpenSci in 2018) and has developed smaller packages with diverse applications including remote sensing ([irg](https://cran.r-project.org/web/packages/irg/)), social networks ([hwig](https://cran.r-project.org/web/packages/hwig/)), camera trap monitoring ([camtrapmonitoring](https://github.com/robitalec/camtrapmonitoring)), and animal movement ([distanceto](https://cran.r-project.org/web/packages/distanceto/)). He reviewed the [ohun](https://github.com/ropensci/software-review/issues/568), [chopin](https://github.com/ropensci/software-review/issues/638), and [emodnet.wfs](https://github.com/ropensci/software-review/issues/653) packages for rOpenSci, guest edited for the [rredlist](https://github.com/ropensci/software-review/issues/663) package and is currently handling the reviews for the [ActiGlobe](https://github.com/ropensci/software-review/issues/732), and [saperlipopette](https://github.com/ropensci/software-review/issues/754) packages.
 
 {{< /imgtxt >}}
 
 Alec on [GitHub](https://github.com/robitalec), [Website](http://robitalec.ca/).
 
-{{< quote footer="Alec Robitaille" >}}
-TODO: Add quote
+{{< quote footer="Alec L. Robitaille" >}}
+
+I first connected with the rOpenSci community through the review process for the package spatsoc in 2018 as part of our manuscript submission at Methods in Ecology and Evolution. During the review, I was thoroughly impressed by how welcoming the community was, and how effective the process was in helping me learn how to improve the package. rOpenSci is a landmark in the R and open science ecosystems with an ever evolving community to learn from and to be a part of. I am very grateful to be given the opportunity to continue contributing to rOpenSci in this new role as editor.
 
 {{< /quote >}}
-
 
 ## Lucy D'Agostino McGowan
 
