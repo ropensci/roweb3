@@ -165,7 +165,11 @@ Ya fui mentore en ediciones anteriores del programa. Fue una experiencia genial 
 
 {{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Foto de perfil de Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
 
+Tengo un doctorado en Ciencias Atmosféricas por la Universidad de Buenos Aires (Argentina) y actualmente trabajo en Australia para el _21st Century Weather Centre_ como ingeniera de software de investigación.
 
+Participo activamente en R-Ladies, R Forwards, The Carpentries, LatinR y rOpenSci, aprendiendo y compartiendo conocimientos sobre R en la comunidad. En 2023 participé en el Programa de Campeones como Campeona, presentando el paquete agroclimatico al proceso de revisión por pares de rOpenSci. Aprendí mucho y conecté con gente de todo el mundo. ¡Fue una experiencia excelente!
+
+Me apasiona enseñar y ayudar a otras personas a crecer en lo que hacen, a acceder a nuevas oportunidades y a desarrollarse profesionalmente y como personas. Estoy muy contenta de participar de nuevo este año como mentora en el Programa de Campeones de América Latina.
 
 ## Lo que viene
 
