@@ -57,6 +57,21 @@ TODO YANI
 
 You can now download artifacts and log files from R-universe without being logged in with a GitHub account, for example https://ropensci.r-universe.dev/opencv#checktable.
 
+### Software review and usage of AI tools
+
+Authors submitting new software for [peer review](https://github.com/ropensci/software-review/issues) are now required to explain usage of generative AI tools in their package development.
+All submission templates now include a mandatory check-box:
+
+```
+- [ ] Generative AI tools were used to produce some of the material in this submission.
+
+If so, please describe usage, and include links to any relevant aspects of your repository.
+```
+
+This is the start of our updates to accomodate generative AI tools in package development, as described in our [recent blog post](https://ropensci.org/blog/2026/02/26/ropensci-ai-policy/).
+The next phase will involve updates to our [_Dev Guide_](https://devguide.ropensci.org), explaining requirements and recommendations for authors, reviewers, and editors.
+All updates are intended to permit generative AI tools to be used in any useful way, while minimising the burden on those who volunteer their own time to keep our software peer review service running. 
+
 ### Software review bot updates
 
 The `ropensci-review-bot` now delivers an initial report to all new software pre-submissions and submissions, identifying the five most similar packages from both all rOpenSci packages, and all CRAN packages.
