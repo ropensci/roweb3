@@ -68,7 +68,7 @@ All submission templates now include a mandatory check-box:
 If so, please describe usage, and include links to any relevant aspects of your repository.
 ```
 
-This is the start of our updates to accomodate generative AI tools in package development, as described in our [recent blog post](https://ropensci.org/blog/2026/02/26/ropensci-ai-policy/).
+This is the start of our updates to accommodate generative AI tools in package development, as described in our [recent blog post](/blog/2026/02/26/ropensci-ai-policy/).
 The next phase will involve updates to our [_Dev Guide_](https://devguide.ropensci.org), explaining requirements and recommendations for authors, reviewers, and editors.
 All updates are intended to permit generative AI tools to be used in any useful way, while minimising the burden on those who volunteer their own time to keep our software peer review service running. 
 
