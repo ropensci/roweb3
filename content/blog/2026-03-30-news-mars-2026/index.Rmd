@@ -59,7 +59,7 @@ You can now download artifacts and log files from R-universe without being logge
 
 ### Software review and usage of AI tools
 
-Authors submitting new software for [peer review](https://github.com/ropensci/software-review/issues) are now required to explain usage of generative AI tools in their package development.
+Authors submitting new software for [peer review](/software-review/) are now required to explain usage of generative AI tools in their package development.
 All submission templates now include a mandatory check-box:
 
 ```
