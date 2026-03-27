@@ -131,6 +131,7 @@ It _reformats_ code blazingly fast.
 
 [Jarl](https://jarl.etiennebacher.com/), by Etienne Bacher, is a CLI built on Air, therefore also on tree-sitter, in Rust.
 It _lints_ and _fixes_ code, also blazingly fast.
+It can even detect [unreachable code](https://jarl.etiennebacher.com/rules/unreachable_code), [unused functions](https://jarl.etiennebacher.com/rules/unused_function) and [duplicated function definitions](https://jarl.etiennebacher.com/rules/duplicated_function_definition).
 
 For both these examples, the creation of _CLIs_ wrapping Rust bindings is more efficient than the creation of R packages wrapping the treesitter R package, for several reasons:
 

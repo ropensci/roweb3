@@ -13,7 +13,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: 0b59c6d804b97e55
+rmd_hash: 528e6fcbf30279b1
 
 ---
 
@@ -177,7 +177,7 @@ Speaking of CLIs...
 
 [Air](https://posit-dev.github.io/air/cli.html), by Davis Vaughan and Lionel Henry, is a CLI built on tree-sitter, in Rust. It *reformats* code blazingly fast.
 
-[Jarl](https://jarl.etiennebacher.com/), by Etienne Bacher, is a CLI built on Air, therefore also on tree-sitter, in Rust. It *lints* and *fixes* code, also blazingly fast.
+[Jarl](https://jarl.etiennebacher.com/), by Etienne Bacher, is a CLI built on Air, therefore also on tree-sitter, in Rust. It *lints* and *fixes* code, also blazingly fast. It can even detect [unreachable code](https://jarl.etiennebacher.com/rules/unreachable_code), [unused functions](https://jarl.etiennebacher.com/rules/unused_function) and [duplicated function definitions](https://jarl.etiennebacher.com/rules/duplicated_function_definition).
 
 For both these examples, the creation of *CLIs* wrapping Rust bindings is more efficient than the creation of R packages wrapping the treesitter R package, for several reasons:
 
