@@ -13,11 +13,11 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: 557850520672954a
+rmd_hash: 0b59c6d804b97e55
 
 ---
 
-A little bit less than two years ago, building on work by Jim Hester and Kevin Ushey, Davis Vaughan completed a very impactful JSON file for the R community: a grammar for R for the tree-sitter parsing generator. He even got a round of applause for it during a talk at the useR! 2024 conference! So, did he get cheered for... JSON? :sweat_smile: No, the audience got excited about the *improved developer experience for R* that this file unlocked. In this post, we'll explain what tree-sitter is, and what tools built upon it can bring to your workflow writing R software.
+A little bit less than two years ago, building on work by Jim Hester and Kevin Ushey, Davis Vaughan completed a very impactful JSON file for the R community: an R grammar for the tree-sitter parsing generator. He even got a round of applause for it during a talk at the useR! 2024 conference! So, did he get cheered for... JSON? :sweat_smile: No, the audience got excited about the *improved developer experience for R* that this file unlocked. In this post, we'll explain what tree-sitter is, and what tools built upon it can bring to your workflow writing R software.
 
 ## Code parsing: what is tree-sitter
 
@@ -121,10 +121,10 @@ Here's how to use the {treesitter} R package for the same code.
 <span><span class='nf'><a href='https://davisvaughan.github.io/r-tree-sitter/reference/parser-parse.html'>parser_parse</a></span><span class='o'>(</span><span class='nv'>parser</span>, <span class='nv'>text</span><span class='o'>)</span></span>
 <span><span class='c'>#&gt; &lt;tree_sitter_tree&gt;</span></span>
 <span><span class='c'>#&gt; </span></span>
-<span><span class='c'>#&gt; ── Text ───────────────────────────────────────────────────────────────────────────────────────────────────────────────</span></span>
+<span><span class='c'>#&gt; ── Text ───────────────────────────────────────────────────────────────────────────────</span></span>
 <span><span class='c'>#&gt; a &lt;- mean(x, na.rm = TRUE)</span></span>
 <span><span class='c'>#&gt; </span></span>
-<span><span class='c'>#&gt; ── S-Expression ───────────────────────────────────────────────────────────────────────────────────────────────────────</span></span>
+<span><span class='c'>#&gt; ── S-Expression ───────────────────────────────────────────────────────────────────────</span></span>
 <span><span class='c'>#&gt; <span style='color: #0000BB;'>(</span>program <span style='color: #555555;'>[(0, 0), (0, 26)]</span></span></span>
 <span><span class='c'>#&gt;   <span style='color: #00BB00;'>(</span>binary_operator <span style='color: #555555;'>[(0, 0), (0, 26)]</span></span></span>
 <span><span class='c'>#&gt;     lhs: <span style='color: #BB0000;'>(</span>identifier <span style='color: #555555;'>[(0, 0), (0, 1)]</span><span style='color: #BB0000;'>)</span></span></span>
