@@ -1,0 +1,97 @@
+---
+title: A better R programming experience thanks to tree-sitter
+author: 
+- Maëlle Salmon
+editor: 
+date: '2026-03-26'
+slug: tree-sitter-overview
+description: Modern tooling for parsing, searching, formatting, editing R code, just like for other programming languages.
+output: hugodown::md_document
+tags:
+  - package development
+  - tech notes
+params:
+  doi: "10.59350/57mzc-7e212"
+output: hugodown::md_document
+---
+
+A little bit less than two years ago, building on work by Jim Hester and Kevin Ushey, Davis Vaughan completed a very impactful JSON file for the R community:
+a grammar for R for the tree-sitter parsing generator.
+He even got a round of applause for it during a talk at the useR! 2024 conference!
+So, did he get cheered for... JSON? :sweat_smile:
+No, the audience got excited about the _improved developer experience for R_ that this file unlocked. 
+In this post, we'll explain what tree-sitter is, and what tools built upon it can bring to your workflow writing R software.
+
+## Code parsing: what is tree-sitter
+
+[Tree-sitter](https://en.wikipedia.org/wiki/Tree-sitter_(parser_generator)) is a code [parsing generator](https://tree-sitter.github.io/tree-sitter/) with bindings existing in several languages including Rust. 
+It is written in C, the CLI is written in Rust, parsers are generated from JSON files [using Node](https://github.com/tree-sitter/tree-sitter/blob/master/docs/src/6-contributing.md).
+
+Let's rewind a little bit.
+What does it mean to parse code?
+
+Basically, given a string of code like
+
+```r
+a <- mean(x, na.rm = TRUE)
+```
+
+How do you know that `mean` is a function name, `na.rm` an argument name, `TRUE` a logical?
+You have to _parse_ that code into what's called a parse tree.
+You do that in your head when reading R code. :smile_cat:
+
+R itself can obviously parse R code, you can use `parse()` and `getParseData()` to reproduce that behavior.
+
+```{r}
+parse(
+  text = "a <- mean(x, na.rm = TRUE)",
+  keep.source = TRUE
+) |>
+  getParseData()
+```
+
+Or you could transform that same data into XML using [{xmlparsedata}](https://r-lib.github.io/xmlparsedata/):
+
+```{r}
+parse(
+  text = "a <- mean(x, na.rm = TRUE)",
+  keep.source = TRUE
+) |>
+  xmlparsedata::xml_parse_data(pretty = TRUE) |>
+  xml2::read_xml() |>
+  as.character() |>
+  cat()
+```
+
+In both cases, you recognize words such as `LEFT_ASSIGN` or `SYMBOL_FUNCTION_CALL`.
+Parsing is useful to execute code if you're R,
+and otherwise to analyse code (does it call such and such function? and this without your own brittle regular expressions), to navigate it (going from a function call to the definition of that function), to modify it (replacing all occurrences of a function with another one).
+
+Now, tree-sitter allows such code parsing but **faster** especially thanks to its support of incremental parsing -- updating the syntax tree as you are typing in your editor for instance!
+Tree-sitter is agnostic in that it can parse any code as long as it gets the Rosetta stone for it. 
+It's been used for many languages which means many tools have been built around it.
+
+To make tree-sitter "learn" a new language you need to give it JSON containing the definition of the syntax of that language,
+what's called a _grammar_.
+This is where the aforementioned JSON file by Davis Vaughan and collaborators comes into play!
+Treesitter.r, that provides the R grammar, is key to all tools presented in this post. 
+The grammar is [data](https://github.com/r-lib/tree-sitter-r/blob/main/src/grammar.json) that can be used by other tools, not only R packages, even if the grammar is among other things shared as an R package called treesitter.r.
+
+
+## Browsing code interactively: Positron IDE, GitHub
+
+## Searching code: ast-grep
+
+## Formatting and linting: Air, Jarl, flir
+
+## Testing code: muttest
+
+https://github.com/jakubsob/muttest
+
+## Diffing code: difftastic
+
+## Conclusion: more to come?
+
+Modern
+
+Ecosystem in flux
