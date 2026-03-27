@@ -110,7 +110,7 @@ that [parses all of igraph R code](https://github.com/igraph/igraph.r2cdocs/blob
 for each exported function, whether it (in)directly calls a function whose name ends with `_impl`, 
 indicating a wrapper to a C igraph function whose docs can be then be linked from the manual of the R function.
 
-[ast-grep](https://ast-grep.github.io/) is an useful tool built on top for tree-sitter, for searching and re-writing code.
+[ast-grep](https://ast-grep.github.io/) is an useful tool built on top of tree-sitter, for searching and re-writing code, with an easier query syntax than tree-sitter's.
 Its name reminds of grep, but with ast-grep we do not need to write brittle regular expressions. :smile_cat:
 
 [{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep.
