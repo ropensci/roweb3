@@ -26,7 +26,7 @@ In this post, we'll explain what tree-sitter is, and what tools built upon it ca
 
 ## Code parsing: what is tree-sitter
 
-[Tree-sitter](https://en.wikipedia.org/wiki/Tree-sitter_(parser_generator)) is a code [parsing generator](https://tree-sitter.github.io/tree-sitter/) with bindings existing in several languages including Rust (and R!). 
+[Tree-sitter](https://tree-sitter.github.io/tree-sitter/) is a code [parsing generator](https://tree-sitter.github.io/tree-sitter/) with bindings existing in several languages including Rust (and R!). 
 It is written in C, the CLI is written in Rust, parsers are generated from JSON files [using Node](https://github.com/tree-sitter/tree-sitter/blob/master/docs/src/6-contributing.md).
 
 Let's rewind a little bit.
