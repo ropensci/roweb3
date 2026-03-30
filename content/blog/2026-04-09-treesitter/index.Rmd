@@ -67,7 +67,7 @@ parse(
 In both cases, you recognize words such as `LEFT_ASSIGN` or `SYMBOL_FUNCTION_CALL`.
 Parsing is an essential step before the code is actually executed, but parsed code can also be used for other purposes, such as analyzing code (does it call such and such function? and this without your own brittle regular expressions), navigating code (going from a function call to the definition of that function), modifying code (replacing all occurrences of a function with another one).
 
-Now, tree-sitter allows such code parsing but **faster** especially thanks to its support of incremental parsing -- updating the syntax tree as you are typing in your editor for instance!
+Now, tree-sitter allows such code parsing but **faster** especially thanks to its support of incremental parsing -- which is key to update the syntax tree as you are typing in your editor for instance!
 Tree-sitter is agnostic in that it can parse any code as long as it gets the Rosetta stone for it. 
 It's been used for many languages which means many tools have been built around it.
 
