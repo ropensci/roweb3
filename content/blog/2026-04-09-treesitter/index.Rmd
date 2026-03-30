@@ -145,7 +145,7 @@ For both these examples, the creation of _CLIs_ wrapping Rust bindings is more e
 
 ## More tools
 
-A honorable mention for these tools we've explored a bit less.
+A brief mention of some other interesting tools we've explored a bit less.
 
 ### Configuring: {ts} for parsing JSON and TOML
 
