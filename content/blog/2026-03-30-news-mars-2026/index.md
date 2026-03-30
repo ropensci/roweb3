@@ -6,11 +6,11 @@ author:
 date: '2026-03-30'
 tags:
   - newsletter
-description: trilingual dev guide
+description: trilingual dev guide, AI in software review, champions program, new package and package news
 params:
   last_newsletter: '2026-02-26'
   doi: "10.59350/fe3c2-6zc80"
-rmd_hash: 4c9995cb4609d9fc
+rmd_hash: 5c83e8ec5c74d1e7
 
 ---
 
@@ -74,7 +74,8 @@ The following package recently became a part of our software suite:
 
 
 
-
+-   [suwo](https://docs.ropensci.org/suwo), developed by Marcelo Araya-Salas together with Jorge Elizondo-Calvo and Alejandro Rico-Guevara: Streamline searching/downloading of nature media files (e.g. audios, photos) from online repositories. The package offers functions for obtaining media metadata from online repositories, downloading associated media files and updating data sets with new records. It has been [reviewed](https://github.com/ropensci/software-review/issues/729).
+    
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
@@ -209,6 +210,8 @@ A follow-up on our post ["Please Shut Up! Verbosity Control in Packages"](/blog/
 Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases. You can also support our work through [donations](/donate).
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
+
+
 
 
 
