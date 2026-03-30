@@ -15,7 +15,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: 060ccc56ef3d998f
+rmd_hash: b025ea79e12bc567
 
 ---
 
@@ -217,7 +217,7 @@ Compared to existing parsers in R for those formats, these two packages preserve
 
 ### Testing code: {muttest}
 
-[Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) is a kind of testing where you, say, randomly swap `+` with `-` in your code (you *mutate* it) and you run your tests to see whether they catch the mutant. The [{muttest} package](https://github.com/jakubsob/muttest) is an R package for mutation testing, that depends on the treesitter} R package.
+[Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) is a kind of testing where you, say, randomly swap `+` with `-` in your code (you *mutate* it) and you run your tests to see whether they catch the mutant. The [{muttest} package](https://github.com/jakubsob/muttest) is an R package for mutation testing, that depends on the {treesitter} R package.
 
 ### Diffing code: difftastic
 

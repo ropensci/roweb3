@@ -179,7 +179,7 @@ Compared to existing parsers in R for those formats, these two packages preserve
 ### Testing code: {muttest}
 
 [Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) is a kind of testing where you, say, randomly swap `+` with `-` in your code (you _mutate_ it) and you run your tests to see whether they catch the mutant.
-The [{muttest} package](https://github.com/jakubsob/muttest) is an R package for mutation testing, that depends on the treesitter} R package.
+The [{muttest} package](https://github.com/jakubsob/muttest) is an R package for mutation testing, that depends on the {treesitter} R package.
 
 ### Diffing code: difftastic
 
