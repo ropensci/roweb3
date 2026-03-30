@@ -10,19 +10,19 @@ description: trilingual dev guide
 params:
   last_newsletter: '2026-02-26'
   doi: "10.59350/fe3c2-6zc80"
-rmd_hash: 847937b5cc39a625
+rmd_hash: 4c9995cb4609d9fc
 
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
 
-Dear rOpenSci friends, it's time for our monthly news roundup! 
+Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/03/30/news-mars-2026). Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
 ### rOpenSci Dev Guide 1.0.0: Trilingual and Improved
 
-rOpenSci Software Peer Review's guidance is gathered in an [online book](https://devguide.ropensci.org/) that keeps improving! It is now available in English, [Spanish](https://devguide.ropensci.org/es/index.es.html) and [Portuguese](https://devguide.ropensci.org/pt/index.pt.html). Read more in the [release announcement](/blog/2026/03/02/devguide-1.0.0/)
+rOpenSci Software Peer Review's guidance is gathered in an online book that keeps improving! It is now available in [English](https://devguide.ropensci.org/), [Spanish](https://devguide.ropensci.org/es/index.es.html) and [Portuguese](https://devguide.ropensci.org/pt/index.pt.html). Read more in the [release announcement](/blog/2026/03/02/devguide-1.0.0/)
 
 ### Champions Program Update
 
@@ -30,9 +30,9 @@ We are still going through the Champions selection process, and we're excited to
 
 This cohort brings together a wonderful mix of returning Champions stepping into mentorship roles, mentors continuing their contributions, and new members joining the program. The 2026 mentors are Andrea Gómez Vargas, Pablo Paccioretti, Alber Hamersson Sánchez Ipia, Erick Isaac Navarro Delgado, Francisco Cardozo, Luis Verde Arregoitia, Monika Ávila Márquez, Guadalupe Pascal, Pao Corrales, and Elio Campitelli. Together, they represent a diverse and vibrant community across Colombia, Mexico, Argentina, Brazil, and Bolivia, with some currently based in Switzerland, Canada, the United States, and Australia. We're very happy to see this growing, interconnected network supporting the next cohort of Champions.
 
-### R-universe update
+### R-Universe update
 
-You can now download artifacts and log files from R-universe without being logged in with a GitHub account, for example <https://ropensci.r-universe.dev/opencv#checktable>.
+You can now download artifacts and log files from R-Universe without being logged in with a GitHub account, for example <https://ropensci.r-universe.dev/opencv#checktable>.
 
 ### Software review and usage of AI tools
 
@@ -52,9 +52,9 @@ The `ropensci-review-bot` now delivers an initial report to all new software pre
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
--   Tuesday April 7th 2026, 9:00 Americas Pacific (16:00 UTC) ["Getting to know the CSID Network"](/events/coworking-2026-04/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Irene Ramos](/author/irene-ramos/).
+-   Tuesday April 7th 2026, 9:00 Americas Pacific (16:00 UTC) ["Getting to know the CSID Network"](/events/coworking-2026-04/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohosts [Irene Ramos](/author/irene-ramos/) and [Adamu Saleh Saidu](/author/adamu-saleh-saidu).
     -   Learn more about the [CSID Network](https://csidnet.org/)
-    -   Meet cohost, Irene Ramos, and learn more about the CSID Network and how you might get involved.
+    -   Meet cohosts, Irene Ramos and Adamu Saleh Saidu, and learn more about the CSID Network and how you might get involved.
 -   Tuesday May 5th 2026, 9:00 Australia Western (01:00 UTC) ["Code Review with rOpenSci"](/events/coworking-2026-05/) with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Liz Hare](/author/liz-hare/).
     -   Explore resources for Code Review
     -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci
@@ -154,12 +154,10 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 -   [Software Review in the Era of AI: What We Are Testing at rOpenSci](/blog/2026/02/26/ropensci-ai-policy) by Mark Padgham, Noam Ross, Maëlle Salmon, Yanina Bellini Saibene, Mauro Lepore, Emily Riederer, Jouni Helske, and Francisco Rodriguez-Sanchez. rOpenSci is testing preliminary policies on the use of generative AI tools, with proposed updates to documentation and procedures for authors submitting software for review, for editors, and for reviewers.
 
--   [rOpenSci Dev Guide 1.0.0: Trilingual and Improved](/blog/2026/03/02/devguide-1.0.0) by Maëlle Salmon, Mark Padgham, and Noam Ross. Updates in version 1.0.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review'.
+-   [rOpenSci Dev Guide 1.0.0: Trilingual and Improved](/blog/2026/03/02/devguide-1.0.0) by Maëlle Salmon, Mark Padgham, and Noam Ross. Updates in version 1.0.0 of the online book 'rOpenSci Packages: Development, Maintenance, and Peer Review'. Other languages: <a href='/es/blog/2026/03/02/r_open_sci_dev_guide_1_0_0_trilingüe_y_mejorada' lang='es'>rOpenSci Dev Guide 1.0.0: Trilingüe y mejorada (es)</a>, <a href='/pt/blog/2026/03/02/guia_de_desenvolvimento_da_r_open_sci_1_0_0_trilíngue_e_aprimorado' lang='pt'>Guia de desenvolvimento da rOpenSci 1.0.0: trilíngue e aprimorado (pt)</a>.
 
 {{< figure class="center" src="cover.png" alt="cover of rOpenSci dev guide, showing a package production line with small humans discussing, examining and promoting packages" width="400" >}}
 
-
-Other languages: <a href='/es/blog/2026/03/02/r_open_sci_dev_guide_1_0_0_trilingüe_y_mejorada' lang='es'>rOpenSci Dev Guide 1.0.0: Trilingüe y mejorada (es)</a>, <a href='/pt/blog/2026/03/02/guia_de_desenvolvimento_da_r_open_sci_1_0_0_trilíngue_e_aprimorado' lang='pt'>Guia de desenvolvimento da rOpenSci 1.0.0: trilíngue e aprimorado (pt)</a>.
 
 -   [Breaking Release of the patentsview R Package](/blog/2026/03/10/patentsview-breaking-release) by Russ Allen and Chris Baker. Breaking Release of the patentsview R Package.
 

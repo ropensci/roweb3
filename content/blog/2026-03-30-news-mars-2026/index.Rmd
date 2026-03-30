@@ -549,6 +549,18 @@ format_post <- function(dir) {
     if (post$title == "How to Assess Usage of your Package") {
     string <- paste0(string, " This post was featured in the [R Weekly Highlights podcast](https://serve.podhome.fm/episodepage/r-weekly-highlights/216) hosted by Eric Nantz and Mike Thomas.")
   }
+   
+other_langs <- dir[which(dir[["language"]] != main_language),]
+  other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
+  if (length(other_langs) > 0) {
+    other_langs_text <- purrr::map_chr(
+      other_langs,
+      ~ sprintf("<a href='%s' lang='%s'>%s (%s)</a>", .x[["url"]], .x[["language"]], .x[["title"]], .x[["language"]])
+      ) |> 
+      toString()
+    other_langs_text <- sprintf("Other languages: %s.", other_langs_text)
+    string <- sprintf("%s %s", string, other_langs_text)
+  }
   if (post$socialImg != "") {
     if (!startsWith(post$socialImg, "https")) {
     img_file <- fs::path_file(post$socialImg)
@@ -564,18 +576,7 @@ format_post <- function(dir) {
       "\n```\n"
     )
   }
-  
-other_langs <- dir[which(dir[["language"]] != main_language),]
-  other_langs <- split(other_langs, sort(as.numeric(rownames(other_langs))))
-  if (length(other_langs) > 0) {
-    other_langs_text <- purrr::map_chr(
-      other_langs,
-      ~ sprintf("<a href='%s' lang='%s'>%s (%s)</a>", .x[["url"]], .x[["language"]], .x[["title"]], .x[["language"]])
-      ) |> 
-      toString()
-    other_langs_text <- sprintf("Other languages: %s.", other_langs_text)
-    string <- sprintf("%s %s", string, other_langs_text)
-  }
+ 
   
   string
 }
