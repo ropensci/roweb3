@@ -74,7 +74,7 @@ The following package recently became a part of our software suite:
 
 
 
--   [suwo](https://docs.ropensci.org/suwo), developed by Marcelo Araya-Salas together with Jorge Elizondo-Calvo and Alejandro Rico-Guevara: Streamline searching/downloading of nature media files (e.g. audios, photos) from online repositories. The package offers functions for obtaining media metadata from online repositories, downloading associated media files and updating data sets with new records. It has been [reviewed](https://github.com/ropensci/software-review/issues/729).
+-   [suwo](https://docs.ropensci.org/suwo), developed by Marcelo Araya-Salas together with Jorge Elizondo-Calvo and Alejandro Rico-Guevara: Streamline searching/downloading of nature media files (e.g. audios, photos) from online repositories. The package offers functions for obtaining media metadata from online repositories, downloading associated media files and updating data sets with new records. It has been [reviewed](https://github.com/ropensci/software-review/issues/729) by Eric R. Scott and Hugo Gruson.
     
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
