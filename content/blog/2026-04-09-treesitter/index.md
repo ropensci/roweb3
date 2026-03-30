@@ -15,7 +15,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: bc3d62a3d0e2f869
+rmd_hash: 9815dd82ecf722f5
 
 ---
 
@@ -221,9 +221,7 @@ Compared to existing parsers in R for those formats, these two packages preserve
 
 ### Diffing code: difftastic
 
-The difftastic CLI is "a structural diff tool that understands syntax". ✨ This means that difftastic doesn't only compare line or "words" but actual syntax by looking at lines around the lines that changed (by default, 3), Even better, it understands R out of the box.
-
-TODO Link to my post? <https://github.com/maelle/simplymaelle/pull/88>
+The difftastic CLI is "a structural diff tool that understands syntax". ✨ This means that difftastic doesn't only compare line or "words" but actual syntax by looking at lines around the lines that changed (by default, 3), Even better, it understands R out of the box. See this [blog post with examples of R code diffing](https://masalmon.eu/2026/03/30/difftastic/).
 
 ## Conclusion: more to come?
 
