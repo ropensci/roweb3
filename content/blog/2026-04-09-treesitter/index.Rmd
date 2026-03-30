@@ -3,6 +3,8 @@ title: A better R programming experience thanks to tree-sitter
 author: 
 - Maëlle Salmon
 editor: 
+- Etienne Bacher
+- Steffi LaZerte
 date: '2026-03-26'
 slug: tree-sitter-overview
 description: Modern tooling for parsing, searching, formatting, editing R code, just like for other programming languages.
@@ -135,9 +137,11 @@ It can even detect [unreachable code](https://jarl.etiennebacher.com/rules/unrea
 
 For both these examples, the creation of _CLIs_ wrapping Rust bindings is more efficient than the creation of R packages wrapping the treesitter R package, for several reasons:
 
-- the Rust CLIs can edit code very fast;
+- the Rust CLIs can edit code very fast[^rust];
 - the CLI are integrated in extensions for popular IDEs (for instance Positron);
 - a CLI is easier to install on CI than an R package that needs, well, an R installation.
+
+[^rust]: Rust is a lower level language than R so has less overhead; furthermore this kind of Rust code can be parallelized easily.
 
 ## More tools
 
