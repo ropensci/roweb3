@@ -21,7 +21,15 @@ A little bit less than two years ago, building on work by Jim Hester and Kevin U
 an R grammar for the tree-sitter parsing generator.
 He even got a round of applause for it during a talk at the useR! 2024 conference!
 So, did he get cheered for... JSON? :sweat_smile:
+
 No, the audience got excited about the _improved developer experience for R_ that this file unlocked. 
+R tooling around tree-sitter is how you get 
+
+- reformatting through [Air](https://posit-dev.github.io/air/) and linting through [Jarl](https://jarl.etiennebacher.com/);
+- auto-completion or help on hover in the [Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark);
+- better [search](https://github.com/orgs/community/discussions/120397) for R on GitHub;
+- ...
+
 In this post, we'll explain what tree-sitter is, and what tools built upon it can bring to your workflow writing R software.
 
 ## Code parsing: what is tree-sitter
