@@ -164,7 +164,7 @@ The [{muttest} package](https://github.com/jakubsob/muttest) is an R package for
 ### Diffing code: difftastic
 
 The difftastic CLI is “a structural diff tool that understands syntax”. ✨ 
-This means that difftastic doesn’t only compare line or “words” but actual syntax by looking at lines around the lines that changed (by default, 3), Even better, R understanding is built-in so that’s one worry less.
+This means that difftastic doesn’t only compare line or “words” but actual syntax by looking at lines around the lines that changed (by default, 3), Even better, it understands R out of the box.
 
 TODO Link to my post? https://github.com/maelle/simplymaelle/pull/88
 
