@@ -100,6 +100,15 @@ text <- "a <- mean(x, na.rm = TRUE)"
 parser_parse(parser, text)
 ```
 
+Tree-sitter is the workhorse of many tools, that we will present in this post.
+All of them are dependent on tree-sitter and the R grammar provided to it.
+Some of them use tree-sitter's Rust bindings.
+Some of them are CLI, while others are R packages.
+
+```{=html}
+{{< figure src="tree-sitter.png" alt="Diagram of tree-sitter tooling for R. At the center is tree-sitter especially its Rust bindings and the R grammar for treesitter. At the top is the input, R scripts. At the bottom from treesitter is the treesitter R package,; ast-grep that is used by astgrepr which is used by flir and that is used by the CLAUDE.md instructions for parsing code; Air that is used by Jarl; Ark that is used by the Positron IDE; R code browsing on GitHub." >}}
+```
+
 ## Browsing code interactively: Positron IDE, GitHub
 
 The real reason why the audience applauded Davis Vaughan is that he explained how the R grammar for tree-sitter had been [deployed to GitHub](https://github.com/orgs/community/discussions/120397) so that we get almost as good browsing experience browsing R code on GitHub than browsing, say, JS code.
@@ -183,9 +192,6 @@ TODO Link to my post? https://github.com/maelle/simplymaelle/pull/88
 
 In this post, we've presented an overview of tree-sitter based tooling for R or in R.
 
-```{=html}
-{{< figure src="tree-sitter.png" alt="Diagram of tree-sitter tooling for R. At the center is tree-sitter especially its Rust bindings and the R grammar for treesitter. At the top is the input, R scripts. At the bottom from treesitter is the treesitter R package,; ast-grep that is used by astgrepr which is used by flir and that is used by the CLAUDE.md instructions for parsing code; Air that is used by Jarl; Ark that is used by the Positron IDE; R code browsing on GitHub." >}}
-```
 
 Note that this ecosystem of tools is very actively developed, so some tools might come and go.
 However, the idea that plugging an R grammar into a general parsing generator brings cool features to us R developers, will remain true.
