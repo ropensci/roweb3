@@ -15,7 +15,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: ac133b48e3251c48
+rmd_hash: ad2c45d8e6e3c091
 
 ---
 
@@ -172,7 +172,7 @@ Let's dive into these tools in more details!
 
 ## Browsing code interactively: Positron IDE, GitHub
 
-The real reason why the audience applauded Davis Vaughan is that he explained how the R grammar for tree-sitter had been [deployed to GitHub](https://github.com/orgs/community/discussions/120397) so that we get almost as good browsing experience browsing R code on GitHub than browsing, say, JS code. If we search for a function name in a repository for instance, its definition will be indicated in the search results. See [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc).
+The real reason why the audience applauded Davis Vaughan is that he explained how the R grammar for tree-sitter had been [deployed to GitHub](https://github.com/orgs/community/discussions/120397) so that we get almost as good browsing experience browsing R code on GitHub than browsing, say, JS code. If we search for a function name in a repository for instance, its definition will be indicated in the search results. See [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc) (also available in [PDF](https://github.com/DavisVaughan/2024-07-09_useR-2024)).
 
 Also very useful is the use of tree-sitter by [Ark](https://github.com/posit-dev/ark), the R kernel [used in the Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark/#/language-server-protocol-1). Ark is how in Positron you get autocompletion, help on hover, etc. This use case of tree-sitter is also featured in [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc). See also Lionel Henry's and Davis Vaughan's talk about Ark at [posit conf 2024](https://youtu.be/8uRcB34Hhsw?si=UeWqIi9PtEOWqRsp&t=2109), especially the part about [code assistance](https://youtu.be/8uRcB34Hhsw?si=GBqntC6tW7D2WhBN&t=2455).
 
