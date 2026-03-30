@@ -15,7 +15,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: 99aca3bb073c1053
+rmd_hash: 3af0c11dcb50979c
 
 ---
 
@@ -182,7 +182,7 @@ Other development environments such as [Emacs](https://lists.gnu.org/archive/htm
 
 You can parse and search R code using the {treesitter} R package and [treesitter query syntax](https://tree-sitter.github.io/tree-sitter/4-code-navigation.html). The {treesitter} R package is a dependency of the [{gander} package](https://simonpcouch.github.io/gander/) by Simon Couch, that is meant to be used for a better experience with LLMs when writing R code. Another use case of the {treesitter} R package is the {igraph.r2cdocs} [extension](https://roxygen2.r-lib.org/dev/articles/extending.html) to {roxygen2} for the {igraph} package, that [parses all of igraph R code](https://github.com/igraph/igraph.r2cdocs/blob/6be2a327a18deb823302caeab8b60a916f6fac62/R/roxygen.R#L119) to then be able to identify, for each exported function, whether it (in)directly calls a function whose name ends with `_impl`, indicating a wrapper to a C igraph function whose docs can be then be linked from the manual of the R function.
 
-[ast-grep](https://ast-grep.github.io/) is an useful tool built on top of tree-sitter, for searching and re-writing code, with an easier query syntax than tree-sitter's. Its name reminds of grep, but with ast-grep we do not need to write brittle regular expressions. :smile_cat:
+[ast-grep](https://ast-grep.github.io/) is an useful tool built on top of tree-sitter, for searching and re-writing code, with an clearer query syntax than tree-sitter's. Its name reminds of grep, but with ast-grep we do not need to write brittle regular expressions. :smile_cat:
 
 [{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep. It is in particular used in Etienne's [{flir} package](https://flir.etiennebacher.com/) for [refactoring](https://flir.etiennebacher.com/articles/adding_rules) code.
 
