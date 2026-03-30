@@ -173,7 +173,7 @@ TODO Link to my post? https://github.com/maelle/simplymaelle/pull/88
 In this post, we've presented an overview of tree-sitter based tooling for R or in R.
 
 ```{=html}
-{{< figure src="tree-sitter.png" alt="Diagram of tree-sitter tooling for R. At the center is tree-sitter especially its Rust bindings. At the top is the input, R scripts, with an arrow allowed by the R grammar for treesitter. At the bottom from treesitter is the treesitter R package,; ast-grep that is used by astgrepr which is used by flir and that is used by the CLAUDE.md instructions for parsing code; Air that is used by Jarl; Ark that is used by the Positron IDE; R code browsing on GitHub." >}}
+{{< figure src="tree-sitter.png" alt="Diagram of tree-sitter tooling for R. At the center is tree-sitter especially its Rust bindings and the R grammar for treesitter. At the top is the input, R scripts. At the bottom from treesitter is the treesitter R package,; ast-grep that is used by astgrepr which is used by flir and that is used by the CLAUDE.md instructions for parsing code; Air that is used by Jarl; Ark that is used by the Positron IDE; R code browsing on GitHub." >}}
 ```
 
 Note that this ecosystem of tools is very actively developed, so some tools might come and go.
