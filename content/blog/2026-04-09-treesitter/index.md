@@ -15,7 +15,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: a795ee3efc44f999
+rmd_hash: 4cb3ad7a510dc944
 
 ---
 
@@ -117,7 +117,7 @@ Or you could transform that same data into XML using Gábor Csárdi's [{xmlparse
 
 </div>
 
-In both cases, you recognize words such as `LEFT_ASSIGN` or `SYMBOL_FUNCTION_CALL`. Parsing is an essential step before the code is actually executed, but parsed code can also be used for other purposes, such as analyzing code (does it call such and such function? and this without your own brittle regular expressions), navigating code (going from a function call to the definition of that function), modifying code (replacing all occurrences of a function with another one).
+In both cases, you recognize words such as `LEFT_ASSIGN` or `SYMBOL_FUNCTION_CALL`. Parsing is an essential step before the code is actually executed, but parsed code can also be used for other purposes, such as analyzing code (does it call such and such [function](https://nrennie.rbind.io/blog/how-to-make-your-own-rstats-wrapped/)? and this without your own brittle regular expressions), navigating code (going from a function call to the definition of that function), modifying code (replacing all occurrences of a function with another one).
 
 Now, tree-sitter allows such code parsing but **faster** especially thanks to its support of incremental parsing -- which is key to update the syntax tree as you are typing in your editor for instance! Tree-sitter is agnostic in that it can parse any code as long as it gets the Rosetta stone for it. It's been used for many languages which means many tools have been built around it.
 
@@ -128,12 +128,7 @@ Here's how to use the {treesitter} R package for the same code.
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span><span class='kr'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='o'>(</span><span class='nv'><a href='https://github.com/DavisVaughan/r-tree-sitter'>treesitter</a></span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; </span></span>
-<span><span class='c'>#&gt; Attaching package: 'treesitter'</span></span>
-<span></span><span><span class='c'>#&gt; The following object is masked from 'package:base':</span></span>
-<span><span class='c'>#&gt; </span></span>
-<span><span class='c'>#&gt;     range</span></span>
-<span></span><span><span class='nv'>language</span> <span class='o'>&lt;-</span> <span class='nf'>treesitter.r</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/pkg/treesitter.r/man/language.html'>language</a></span><span class='o'>(</span><span class='o'>)</span></span>
+<span><span class='nv'>language</span> <span class='o'>&lt;-</span> <span class='nf'>treesitter.r</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/pkg/treesitter.r/man/language.html'>language</a></span><span class='o'>(</span><span class='o'>)</span></span>
 <span><span class='nv'>parser</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://davisvaughan.github.io/r-tree-sitter/reference/parser.html'>parser</a></span><span class='o'>(</span><span class='nv'>language</span><span class='o'>)</span></span>
 <span><span class='nv'>text</span> <span class='o'>&lt;-</span> <span class='s'>"a &lt;- mean(x, na.rm = TRUE)"</span></span>
 <span><span class='nf'><a href='https://davisvaughan.github.io/r-tree-sitter/reference/parser-parse.html'>parser_parse</a></span><span class='o'>(</span><span class='nv'>parser</span>, <span class='nv'>text</span><span class='o'>)</span></span>
@@ -168,6 +163,8 @@ Here's how to use the {treesitter} R package for the same code.
 <span></span></code></pre>
 
 </div>
+
+Tree-sitter is the workhorse of many tools, that we will present in this post. All of them are dependent on tree-sitter and the R grammar provided to it. Some of them use tree-sitter's Rust bindings. Some of them are CLI, while others are R packages.
 
 {{< figure src="tree-sitter.png" alt="Diagram of tree-sitter tooling for R. At the center is tree-sitter especially its Rust bindings and the R grammar for treesitter. At the top is the input, R scripts. At the bottom from treesitter is the treesitter R package,; ast-grep that is used by astgrepr which is used by flir and that is used by the CLAUDE.md instructions for parsing code; Air that is used by Jarl; Ark that is used by the Positron IDE; R code browsing on GitHub." >}}
 
