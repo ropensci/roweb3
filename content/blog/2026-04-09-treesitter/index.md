@@ -15,7 +15,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: b025ea79e12bc567
+rmd_hash: ac133b48e3251c48
 
 ---
 
@@ -227,7 +227,7 @@ The difftastic CLI is "a structural diff tool that understands syntax". ✨ This
 
 In this post, we've presented an overview of tree-sitter based tooling for R or in R.
 
-Note that this ecosystem of tools is very actively developed, so some tools might come and go. However, the idea that plugging an R grammar into a general parsing generator brings cool features to us R developers, will remain true. Maybe *you* will contribute to this ecosystem, either in an existing tool or by creating a new one?
+Note that this ecosystem of tools is very actively developed, so some tools might come and go. However, the idea that plugging the R grammar into a general parsing generator brings cool features to us R developers, will remain true. Maybe *you* will contribute to this ecosystem, either in an existing tool or by creating a new one?
 
 [^1]: Rust is a lower level language than R so has less overhead; furthermore this kind of Rust code can be parallelized easily.
 

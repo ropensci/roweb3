@@ -193,6 +193,6 @@ In this post, we've presented an overview of tree-sitter based tooling for R or 
 
 
 Note that this ecosystem of tools is very actively developed, so some tools might come and go.
-However, the idea that plugging an R grammar into a general parsing generator brings cool features to us R developers, will remain true.
+However, the idea that plugging the R grammar into a general parsing generator brings cool features to us R developers, will remain true.
 Maybe _you_ will contribute to this ecosystem, either in an existing tool or by creating a new one?
 
