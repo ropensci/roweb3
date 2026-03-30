@@ -135,9 +135,7 @@ for each exported function, whether it (in)directly calls a function whose name 
 indicating a wrapper to a C igraph function whose docs can be then be linked from the manual of the R function.
 
 [ast-grep](https://ast-grep.github.io/) is an useful tool built on top of tree-sitter, for searching and re-writing code, with an clearer query syntax than tree-sitter's.
-Its name reminds of grep, but with ast-grep we do not need to write brittle regular expressions. :smile_cat:
-
-[{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep.
+Its name reminds of grep, but with ast-grep we do not need to write brittle regular expressions. :smile_cat:[{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep.
 It is in particular used in Etienne's [{flir} package](https://flir.etiennebacher.com/) for [refactoring](https://flir.etiennebacher.com/articles/adding_rules) code.
 
 The ast-grep command-line interface (CLI) itself is featured in an useful [blog post by Emil Hvitfeldt](https://emilhvitfeldt.com/post/ast-grep-r-claude-code/) where he explains how to document the usage of ast-grep for Claude.
@@ -169,7 +167,7 @@ For both these examples, the creation of _CLIs_ wrapping Rust bindings is more e
 
 A brief mention of some other interesting tools we've explored a bit less.
 
-### Configuring: {ts} for parsing JSON and TOML
+### Configuring: {ts} for parsing JSON and TOML (not R!)
 
 The [{ts}](https://github.com/r-lib/ts) package by Gábor Csárdi is the backbone of two packages useful for editing and manipulating, from R:
 
