@@ -116,7 +116,7 @@ Its name reminds of grep, but with ast-grep we do not need to write brittle regu
 [{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep.
 It is in particular used in Etienne's [{flir} package](https://flir.etiennebacher.com/) for [refactoring](https://flir.etiennebacher.com/articles/adding_rules) code.
 
-The ast-grep CLI itself is featured in an useful [blog post by Emil Hvitfeldt](https://emilhvitfeldt.com/post/ast-grep-r-claude-code/) where he explains how to document the usage of ast-grep for Claude.
+The ast-grep command-line interface (CLI) itself is featured in an useful [blog post by Emil Hvitfeldt](https://emilhvitfeldt.com/post/ast-grep-r-claude-code/) where he explains how to document the usage of ast-grep for Claude.
 
 ## Formatting and linting: Air, Jarl
 
