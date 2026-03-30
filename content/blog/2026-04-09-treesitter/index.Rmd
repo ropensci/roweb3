@@ -49,7 +49,12 @@ How do you know that `mean` is a function name, `na.rm` an argument name, `TRUE`
 You have to _parse_ that code into what's called a parse tree.
 You do that in your head when reading R code. :smile_cat:
 
-R itself can obviously parse R code, you can use `parse()` and `getParseData()` to reproduce that behavior.
+R itself can obviously parse R code, 
+thanks to its [grammar](https://github.com/wch/r-source/blob/trunk/src/main/gram.y).
+See for instance the [commit that introduced R's native pipe](https://github.com/wch/r-source/commit/a1425adea54bcc98eef86081522b5dbb3e149cdc#diff-ba804d7fa3fa053c1f57d46369f4432cb55c9c4f69f46ae6510d0d1fcc59f382), 
+which necessitated extending R's syntax thus modifying its grammar.
+
+You can use `parse()` and `getParseData()` to parse R code.
 
 ```{r}
 parse(
