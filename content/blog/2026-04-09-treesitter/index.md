@@ -16,11 +16,11 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: 759cf9f53986a75b
+rmd_hash: d9becbe3ecf6ad5e
 
 ---
 
-A little bit less than two years ago, building on work by Jim Hester and Kevin Ushey, Davis Vaughan completed a very impactful JSON file for the R community: an R grammar for the tree-sitter parsing generator. He even got a round of applause for it during a talk at the useR! 2024 conference! So, did he get cheered for... grammatical rules in a [JavaScript file](https://github.com/r-lib/tree-sitter-r/blob/next/grammar.js)? :sweat_smile:
+A little bit less than two years ago, building on work by Jim Hester and Kevin Ushey, Davis Vaughan completed a very impactful JavaScript file for the R community: an R grammar for the tree-sitter parsing generator. He even got a round of applause for it during a talk at the useR! 2024 conference! So, did he get cheered for... grammatical rules in a [JavaScript file](https://github.com/r-lib/tree-sitter-r/blob/next/grammar.js)? :sweat_smile:
 
 No, the audience got excited about the *improved developer experience for R* that this file unlocked. R tooling around tree-sitter is how you get
 
