@@ -21,7 +21,7 @@ output: hugodown::md_document
 A little bit less than two years ago, building on work by Jim Hester and Kevin Ushey, Davis Vaughan completed a very impactful JSON file for the R community:
 an R grammar for the tree-sitter parsing generator.
 He even got a round of applause for it during a talk at the useR! 2024 conference!
-So, did he get cheered for... JSON? :sweat_smile:
+So, did he get cheered for... grammatical rules in a [JS file](https://github.com/r-lib/tree-sitter-r/blob/next/grammar.js)? :sweat_smile:
 
 No, the audience got excited about the _improved developer experience for R_ that this file unlocked. 
 R tooling around tree-sitter is how you get 
