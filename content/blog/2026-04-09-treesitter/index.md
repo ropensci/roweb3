@@ -16,7 +16,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: 0a15edb042040505
+rmd_hash: 759cf9f53986a75b
 
 ---
 
@@ -131,12 +131,7 @@ Here's how to use the {treesitter} R package for the same code as earlier.
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span><span class='kr'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='o'>(</span><span class='nv'><a href='https://github.com/DavisVaughan/r-tree-sitter'>treesitter</a></span><span class='o'>)</span></span>
-<span><span class='c'>#&gt; </span></span>
-<span><span class='c'>#&gt; Attaching package: 'treesitter'</span></span>
-<span></span><span><span class='c'>#&gt; The following object is masked from 'package:base':</span></span>
-<span><span class='c'>#&gt; </span></span>
-<span><span class='c'>#&gt;     range</span></span>
-<span></span><span><span class='nv'>language</span> <span class='o'>&lt;-</span> <span class='nf'>treesitter.r</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/pkg/treesitter.r/man/language.html'>language</a></span><span class='o'>(</span><span class='o'>)</span></span>
+<span><span class='nv'>language</span> <span class='o'>&lt;-</span> <span class='nf'>treesitter.r</span><span class='nf'>::</span><span class='nf'><a href='https://rdrr.io/pkg/treesitter.r/man/language.html'>language</a></span><span class='o'>(</span><span class='o'>)</span></span>
 <span><span class='nv'>parser</span> <span class='o'>&lt;-</span> <span class='nf'><a href='https://davisvaughan.github.io/r-tree-sitter/reference/parser.html'>parser</a></span><span class='o'>(</span><span class='nv'>language</span><span class='o'>)</span></span>
 <span><span class='nv'>text</span> <span class='o'>&lt;-</span> <span class='s'>"a &lt;- mean(x, na.rm = TRUE)"</span></span>
 <span><span class='nf'><a href='https://davisvaughan.github.io/r-tree-sitter/reference/parser-parse.html'>parser_parse</a></span><span class='o'>(</span><span class='nv'>parser</span>, <span class='nv'>text</span><span class='o'>)</span></span>
@@ -184,7 +179,11 @@ The real reason why the audience applauded Davis Vaughan is that he explained ho
 
 {{< video src="searching-for-vetiver-model-r-new" >}}
 
-Also very useful is the use of tree-sitter by [Ark](https://github.com/posit-dev/ark), the R kernel [used in the Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark/#/language-server-protocol-1). Ark is how in Positron you get autocompletion, help on hover, etc. This use case of tree-sitter is also featured in [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc). See also Lionel Henry's and Davis Vaughan's talk about Ark at [posit conf 2024](https://youtu.be/8uRcB34Hhsw?si=UeWqIi9PtEOWqRsp&t=2109), especially the part about [code assistance](https://youtu.be/8uRcB34Hhsw?si=GBqntC6tW7D2WhBN&t=2455).
+Also very useful is the use of tree-sitter by [Ark](https://github.com/posit-dev/ark), the R kernel [used in the Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark/#/language-server-protocol-1). Ark is how in Positron you get autocompletion, help on hover, etc. The video below shows how in Positron you can extend the selection to further steps of a pipeline.
+
+{{< video src="expand-selection-2" >}}
+
+This use case of tree-sitter is also featured in [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc). See also Lionel Henry's and Davis Vaughan's talk about Ark at [posit conf 2024](https://youtu.be/8uRcB34Hhsw?si=UeWqIi9PtEOWqRsp&t=2109), especially the part about [code assistance](https://youtu.be/8uRcB34Hhsw?si=GBqntC6tW7D2WhBN&t=2455).
 
 Other development environments such as [Emacs](https://lists.gnu.org/archive/html/emacs-devel/2022-11/msg01443.html) have support for tree-sitter.
 

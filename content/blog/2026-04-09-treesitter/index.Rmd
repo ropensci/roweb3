@@ -126,6 +126,13 @@ or refer to the video below showing how typing `vetiver_model` in the search bar
 Also very useful is the use of tree-sitter by [Ark](https://github.com/posit-dev/ark), 
 the R kernel [used in the Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark/#/language-server-protocol-1).
 Ark is how in Positron you get autocompletion, help on hover, etc.
+The video below shows how in Positron you can extend the selection to further steps of a pipeline.
+
+
+```{=html}
+{{< video src="expand-selection-2" >}}
+```
+
 This use case of tree-sitter is also featured in [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc).
 See also Lionel Henry's and Davis Vaughan's talk about Ark at [posit conf 2024](https://youtu.be/8uRcB34Hhsw?si=UeWqIi9PtEOWqRsp&t=2109), especially the part about [code assistance](https://youtu.be/8uRcB34Hhsw?si=GBqntC6tW7D2WhBN&t=2455).
 
