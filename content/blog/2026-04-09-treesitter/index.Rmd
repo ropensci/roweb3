@@ -4,6 +4,7 @@ author:
 - Maëlle Salmon
 editor: 
 - Etienne Bacher
+- Davis Vaughan
 - Steffi LaZerte
 date: '2026-03-26'
 slug: tree-sitter-overview
