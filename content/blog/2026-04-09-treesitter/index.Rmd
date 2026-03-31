@@ -116,7 +116,12 @@ Let's dive into these tools in more details!
 
 The real reason why the audience applauded Davis Vaughan is that he explained how the R grammar for tree-sitter had been [deployed to GitHub](https://github.com/orgs/community/discussions/120397) so that we get almost as good experience browsing R code on GitHub as browsing, say, JS code.
 If we search for a function name in a repository for instance, its definition will be indicated in the search results.
-See [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc) (also available in [PDF](https://github.com/DavisVaughan/2024-07-09_useR-2024)).
+See [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc) (also available in [PDF](https://github.com/DavisVaughan/2024-07-09_useR-2024)), 
+or refer to the video below showing how typing `vetiver_model` in the search bar from the R vetiver repo makes the function definition the first result, on which one can click to land into the definition.
+
+```{=html}
+{{< video src="searching-for-vetiver-model-r-new" >}}
+```
 
 Also very useful is the use of tree-sitter by [Ark](https://github.com/posit-dev/ark), 
 the R kernel [used in the Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark/#/language-server-protocol-1).
