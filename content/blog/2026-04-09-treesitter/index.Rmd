@@ -112,7 +112,7 @@ Let's dive into these tools in more details!
 
 ## Browsing code interactively: Positron IDE, GitHub
 
-The real reason why the audience applauded Davis Vaughan is that he explained how the R grammar for tree-sitter had been [deployed to GitHub](https://github.com/orgs/community/discussions/120397) so that we get almost as good browsing experience browsing R code on GitHub than browsing, say, JS code.
+The real reason why the audience applauded Davis Vaughan is that he explained how the R grammar for tree-sitter had been [deployed to GitHub](https://github.com/orgs/community/discussions/120397) so that we get almost as good experience browsing R code on GitHub as browsing, say, JS code.
 If we search for a function name in a repository for instance, its definition will be indicated in the search results.
 See [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc) (also available in [PDF](https://github.com/DavisVaughan/2024-07-09_useR-2024)).
 
@@ -134,11 +134,11 @@ that [parses all of igraph R code](https://github.com/igraph/igraph.r2cdocs/blob
 for each exported function, whether it (in)directly calls a function whose name ends with `_impl`, 
 indicating a wrapper to a C igraph function whose docs can be then be linked from the manual of the R function.
 
-[ast-grep](https://ast-grep.github.io/) is an useful tool built on top of tree-sitter, for searching and re-writing code, with an clearer query syntax than tree-sitter's.
+[ast-grep](https://ast-grep.github.io/) is a useful tool built on top of tree-sitter, for searching and re-writing code, with a clearer query syntax than tree-sitter's.
 Its name reminds of grep, but with ast-grep we do not need to write brittle regular expressions. :smile_cat:[{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep.
 It is in particular used in Etienne's [{flir} package](https://flir.etiennebacher.com/) for [refactoring](https://flir.etiennebacher.com/articles/adding_rules) code.
 
-The ast-grep command-line interface (CLI) itself is featured in an useful [blog post by Emil Hvitfeldt](https://emilhvitfeldt.com/post/ast-grep-r-claude-code/) where he explains how to document the usage of ast-grep for Claude.
+The ast-grep command-line interface (CLI) itself is featured in a useful [blog post by Emil Hvitfeldt](https://emilhvitfeldt.com/post/ast-grep-r-claude-code/) where he explains how to document the usage of ast-grep for Claude.
 
 ## Formatting and linting: Air, Jarl
 
@@ -161,7 +161,7 @@ For both these examples, the creation of _CLIs_ wrapping Rust bindings is more e
 - the CLI are integrated in extensions for popular IDEs (for instance Positron);
 - a CLI is easier to install on CI than an R package that needs, well, an R installation.
 
-[^rust]: Rust is a lower level language than R so has less overhead; furthermore this kind of Rust code can be parallelized easily.
+[^rust]: Rust is a lower level language than R so has less overhead; furthermore this kind of Rust code can be easily parallelized.
 
 ## More tools
 
@@ -184,7 +184,7 @@ The [{muttest} package](https://github.com/jakubsob/muttest) is an R package for
 ### Diffing code: difftastic
 
 The difftastic CLI is “a structural diff tool that understands syntax”. ✨ 
-This means that difftastic doesn’t only compare line or “words” but actual syntax by looking at lines around the lines that changed (by default, 3), Even better, it understands R out of the box.
+This means that difftastic doesn’t only compare line or “words” but actual syntax by looking at lines around the lines that changed (by default, 3). Even better, it understands R out of the box.
 See this [blog post with examples of R code diffing](https://masalmon.eu/2026/03/30/difftastic/).
 
 ## Conclusion: more to come?
