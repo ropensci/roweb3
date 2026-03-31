@@ -21,7 +21,7 @@ output: hugodown::md_document
 A little bit less than two years ago, building on work by Jim Hester and Kevin Ushey, Davis Vaughan completed a very impactful JSON file for the R community:
 an R grammar for the tree-sitter parsing generator.
 He even got a round of applause for it during a talk at the useR! 2024 conference!
-So, did he get cheered for... grammatical rules in a [JS file](https://github.com/r-lib/tree-sitter-r/blob/next/grammar.js)? :sweat_smile:
+So, did he get cheered for... grammatical rules in a [JavaScript file](https://github.com/r-lib/tree-sitter-r/blob/next/grammar.js)? :sweat_smile:
 
 No, the audience got excited about the _improved developer experience for R_ that this file unlocked. 
 R tooling around tree-sitter is how you get 
@@ -82,16 +82,17 @@ In both cases, you recognize words such as `LEFT_ASSIGN` or `SYMBOL_FUNCTION_CAL
 Parsing is an essential step before the code is actually executed, but parsed code can also be used for other purposes, such as analyzing code (does it call such and such [function](https://nrennie.rbind.io/blog/how-to-make-your-own-rstats-wrapped/)? and this without your own brittle regular expressions), navigating code (going from a function call to the definition of that function), modifying code (replacing all occurrences of a function with another one).
 
 Now, tree-sitter allows such code parsing but **faster** especially thanks to its support of incremental parsing -- which is key to update the syntax tree as you are typing in your editor for instance!
-Tree-sitter is agnostic in that it can parse any code as long as it gets the Rosetta stone for it. 
+Tree-sitter is agnostic in that it can parse any code as long as there is a grammar for it (think, Rosetta Stone plugins). 
 It's been used for many languages which means many tools have been built around it.
 
-To make tree-sitter "learn" a new language you need to give it JSON containing the definition of the syntax of that language,
+To make tree-sitter "learn" a new language you need to give it a file containing the definition of the syntax of that language,
 what's called a _grammar_.
-This is where the aforementioned JSON file by Davis Vaughan and collaborators comes into play!
-Treesitter.r, that provides a translation of the R grammar in the format expected by tree-sitter, is key to all tools presented in this post that use R code as their input. 
-The grammar is provided as [data](https://github.com/r-lib/tree-sitter-r/blob/main/src/grammar.json) that can be used by other tools, not only R packages, even if the grammar is among other things shared as an R package called {treesitter.r}.
+This is where the aforementioned JavaScript file by Davis Vaughan and collaborators comes into play!
+The treesitter-r repo, which provides a translation of the R grammar in the format expected by tree-sitter, is key to all tools presented in this post that use R code as their input. 
 
-Here's how to use the {treesitter} R package for the same code.
+The JavaScript file, when run through tree-sitter at the command line, outputs different files including one called `parser.c` which gets linked in to tools like the R package for treesitter.r.
+
+Here's how to use the {treesitter} R package for the same code as earlier.
 
 ```{r}
 library(treesitter)
