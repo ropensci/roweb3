@@ -1,0 +1,236 @@
+---
+slug: reviser
+title: "reviser: Analyzing Real-Time Data Revisions in R"
+package_version: 0.1.0.9001
+author:
+  - Marc Burri
+date: '2026-04-13'
+tags:
+  - Software Peer Review
+  - tech notes
+  - community
+  - packages
+  - reviser
+  - R
+  - Economics
+description: A short introduction to reviser for analyzing real-time data vintages and revisions in R.
+editor: ~
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "",
+  comment = ""
+)
+
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "{{< figure src=",
+      '"', x, '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}\n"
+    )
+  }
+)
+
+knitr::knit_hooks$set(
+  source = function(x, options) {
+    hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+        paste0(
+          "{",
+          glue::glue_collapse(
+            glue::glue('{names(hlopts)}={hlopts}'),
+            sep = ","
+          ),
+          "}"
+        )
+      },
+      "\n", glue::glue_collapse(x, sep = "\n"), "\n```\n"
+    )
+  }
+)
+```
+
+Economic data are rarely static.
+GDP, inflation, employment, and other official statistics arrive as early estimates, then get revised as new source data arrive, seasonal adjustment is updated, or benchmarking changes are applied.
+Those revisions matter because they can change the narrative around turning points, policy mistakes, and forecast performance.
+
+`reviser` is an R package for working with these vintage datasets directly.
+It gives you a consistent workflow to:
+
+- reshape release vintages between wide and tidy formats;
+- extract revisions relative to earlier or final releases;
+- summarize bias, dispersion, and serial dependence in revisions;
+- identify the first release that is statistically close to the eventual benchmark;
+- nowcast future revisions with state-space models.
+
+The package is aimed at users who already work with real-time macroeconomic data and want tools that go beyond plotting revision triangles by hand.
+One design goal is to keep that workflow in pure R.
+
+`reviser` was reviewed through [rOpenSci statistical software peer review](https://github.com/ropensci/software-review/issues/709).
+Many thanks to reviewers [Alex Gibberd](https://github.com/AlexGibberd), and [Tanguy Barthelemy](https://github.com/TanguyBarthelemy), and to editor [Rebecca Killick](https://github.com/rkillick), for feedback that improved the package.
+
+## Why revision analysis deserves its own workflow
+
+Revisions are not just measurement noise.
+They encode how information enters the data-production process.
+
+- Some revisions reflect genuinely new information.
+- Others reflect noise that could, in principle, have been reduced earlier.
+- Still others come from methodological changes or benchmark updates.
+
+That distinction matters if you are evaluating early data releases, building nowcasts, or asking whether first releases are already efficient summaries of the available information.
+
+The `reviser` vignettes organize this workflow into three layers:
+
+1. Structure vintages consistently.
+2. Measure and test revision properties.
+3. Model the revision process when you want to predict future changes.
+
+## A compact example with GDP vintages
+
+The package ships with a GDP example dataset in long vintage format.
+Suppose we want to focus on U.S. GDP growth, visualize how estimates moved during the financial crisis, and then ask whether early releases were systematically biased relative to a later benchmark.
+
+```{r gdp-example-setup, message = FALSE, warning = FALSE}
+library(reviser)
+library(dplyr)
+library(tsbox)
+
+gdp_us <- gdp |>
+  filter(id == "US") |>
+  tsbox::ts_pc() |>
+  tsbox::ts_span(start = "1980-01-01")
+
+gdp_wide <- vintages_wide(gdp_us)
+gdp_long <- vintages_long(gdp_wide, keep_na = FALSE)
+```
+
+```{r gdp-example-plot, dev = "svg", fig.width = 10, fig.height = 6, hugoopts = list(alt = "Multiple vintage paths for U.S. GDP growth, highlighting how estimates published in 2009 changed over time.", caption = "GDP growth vintages for the United States during the financial crisis.", width = "100%")}
+plot_vintages(
+  gdp_long |>
+    filter(
+      pub_date >= as.Date("2009-01-01"),
+      pub_date < as.Date("2010-01-01"),
+      time > as.Date("2008-01-01"),
+      time < as.Date("2010-01-01")
+    ),
+  type = "line",
+  title = "Revisions of GDP during the financial crisis",
+  subtitle = "qoq growth rates"
+)
+```
+
+This first step is mainly about making the release history visible.
+During volatile periods, the vintage paths can diverge enough that the story told by the first release is noticeably different from the story told a year later.
+
+Once the data are in tidy vintage form, you can compare a set of early releases to a later benchmark release.
+
+```{r gdp-example-analysis}
+final_release <- get_nth_release(gdp_long, n = 10)
+early_releases <- get_nth_release(gdp_long, n = 0:6)
+
+summary_tbl <- get_revision_analysis(early_releases, final_release)
+
+summary_tbl |>
+  select(id, release, `Bias (mean)`, `Bias (robust p-value)`, `Noise/Signal`)
+```
+
+This is where `reviser` moves beyond a reshape-and-plot package.
+The revision summary reports quantities that applied work often needs but usually rebuilds ad hoc: mean bias, quantiles, volatility, noise-to-signal ratios, and hypothesis tests for bias, serial correlation, and news-versus-noise interpretations.
+
+In the bundled example, the early U.S. GDP releases over this sample show little evidence of systematic bias relative to the later benchmark.
+The package also supports efficient-release diagnostics, where the question is not only whether revisions exist, but when additional revisions stop adding meaningful information.
+
+```{r gdp-example-efficient}
+efficient_release <- get_first_efficient_release(early_releases, final_release)
+summary(efficient_release)
+```
+
+That is exactly the kind of result that is hard to see from a revision triangle alone but straightforward to formalize once the workflow is standardized.
+
+## From descriptive analysis to revision nowcasting
+
+For many users, revision summaries will be the main use case.
+But `reviser` also includes model-based tools for users who want to treat revisions as an explicit latent-data problem.
+
+Two vignettes walk through nowcasting revisions with:
+
+- the generalized Kishor-Koenig family via `kk_nowcast()`;
+- the Jacobs-Van Norden model via `jvn_nowcast()`.
+
+Both approaches cast the revision problem into state-space form, which makes it possible to estimate the dynamics of news and noise in successive data releases.
+For technical users, this is the part of the package that turns revision analysis from retrospective diagnosis into a forecasting problem.
+
+Here is a compact `kk_nowcast()` example following the Kishor-Koenig workflow from the vignette.
+The key idea is to first identify an efficient release `e`, then estimate the revision system on the corresponding panel of releases.
+
+```{r kk-nowcast-example, dev = "svg", fig.width = 10, fig.height = 6, hugoopts = list(alt = "Diagnostic plot from a Kishor-Koenig nowcast model for euro area GDP revisions, summarizing the fitted revision dynamics.", caption = "Diagnostic plot from the Kishor-Koenig nowcast example.", width = "100%")}
+
+gdp_ea <- reviser::gdp |>
+  tsbox::ts_pc() |>
+  dplyr::filter(
+    id == "EA",
+    time >= min(pub_date),
+    time <= as.Date("2020-01-01")
+  )
+
+releases <- get_nth_release(gdp_ea, n = 0:14)
+final_release <- get_nth_release(gdp_ea, n = 15)
+
+efficient_release <- get_first_efficient_release(releases, final_release)
+
+fit_kk <- kk_nowcast(
+  df = efficient_release$data,
+  e = efficient_release$e,
+  model = "KK",
+  method = "MLE"
+)
+
+summary(fit_kk)
+plot(fit_kk)
+```
+
+The fitted object contains estimated parameters, filtered and smoothed latent states, and plotting methods for the implied efficient-release path.
+That gives you a direct route from descriptive revision analysis to a state-space nowcast of future revisions.
+
+## What reviser adds
+
+What stands out in `reviser` is not a single function, but the coherence of the workflow:
+
+- the package has explicit conventions for vintage data;
+- descriptive revision analysis and formal testing sit in the same API;
+- efficient-release analysis connects directly to applied questions about which release to trust;
+- nowcasting tools extend the same workflow rather than forcing a separate modeling stack.
+
+If you work with real-time macroeconomic data, that combination is useful because revision analysis is usually fragmented across custom scripts, one-off spreadsheets, and package combinations that do not share a common data structure.
+
+## Try it and push it further
+
+You can install the package from the rOpenSci R-universe:
+
+```{r install, eval = FALSE}
+install.packages(
+  "reviser",
+  repos = c("https://ropensci.r-universe.dev", "https://cloud.r-project.org")
+)
+```
+
+Then start with the package site and vignettes:
+
+- docs: <https://docs.ropensci.org/reviser>
+- source: <https://github.com/ropensci/reviser>
+
+If you have a real-time dataset with a different release structure, that is a good stress test for the package.
+If you find gaps in the workflow or have a use case to share, open an issue or contribute an example.
+Revision analysis gets more useful as it becomes easier to compare workflows across datasets rather than rebuilding them from scratch each time.
