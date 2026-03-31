@@ -16,7 +16,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: d9becbe3ecf6ad5e
+rmd_hash: d084b23a6c551982
 
 ---
 
@@ -187,9 +187,47 @@ This use case of tree-sitter is also featured in [Davis' slides](https://www.you
 
 Other development environments such as [Emacs](https://lists.gnu.org/archive/html/emacs-devel/2022-11/msg01443.html) have support for tree-sitter.
 
-## Searching/browsing code: {treesitter}, ast-grep
+## Searching/browsing code: {treesitter}, tree-sitter, ast-grep
 
 You can parse and search R code using the {treesitter} R package and [treesitter query syntax](https://tree-sitter.github.io/tree-sitter/4-code-navigation.html). The {treesitter} R package is a dependency of the [{gander} package](https://simonpcouch.github.io/gander/) by Simon Couch, that is meant to be used for a better experience with LLMs when writing R code. Another use case of the {treesitter} R package is the {igraph.r2cdocs} [extension](https://roxygen2.r-lib.org/dev/articles/extending.html) to {roxygen2} for the {igraph} package, that [parses all of igraph R code](https://github.com/igraph/igraph.r2cdocs/blob/6be2a327a18deb823302caeab8b60a916f6fac62/R/roxygen.R#L119) to then be able to identify, for each exported function, whether it (in)directly calls a function whose name ends with `_impl`, indicating a wrapper to a C igraph function whose docs can be then be linked from the manual of the R function.
+
+The {pkgdepends} package calls tree-sitter ([C](https://github.com/r-lib/pkgdepends/blob/main/src/tree-sitter.c)) to detect [dependencies in files](https://github.com/r-lib/pkgdepends/blob/634661a7d91b41476fd1ab653fe3087a6e40b8a9/R/scan-deps.R#L340). Below we run it on the source of the [saperlipopette R package](https://docs.ropensci.org/saperlipopette/).
+
+<div class="highlight">
+
+<pre class='chroma'><code class='language-r' data-lang='r'><span><span class='nf'>pkgdepends</span><span class='nf'>::</span><span class='nf'><a href='https://r-lib.github.io/pkgdepends/reference/scan_deps.html'>scan_deps</a></span><span class='o'>(</span></span>
+<span>  <span class='s'>"../../../../../CHAMPIONS/saperlipopette"</span>,</span>
+<span>  <span class='s'>"../../../../../CHAMPIONS"</span></span>
+<span><span class='o'>)</span></span>
+<span><span class='c'>#&gt; </span></span>
+<span><span class='c'>#&gt; <span style='color: #BBBB00;'>Dependencies:</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>brio          </span><span style='color: #555555;'> @ R/blame.R, R/check-editor.R, R/clean-dir.R, R/committed-to-main.R, R/committed-to-wron…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>cli           </span><span style='color: #555555;'> @ inst/exo_bisect-Rprofile.en.R, inst/exo_bisect-Rprofile.es.R, inst/exo_bisect-Rprofile…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>devtools      </span><span style='color: #555555;'> @ saperlipopette.Rproj</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>fs            </span><span style='color: #555555;'> @ R/blame.R, R/check-editor.R, R/clean-dir.R, R/committed-to-main.R, R/committed-to-wron…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>gert          </span><span style='color: #555555;'> @ inst/exo_check_editor-Rprofile.en.R, inst/exo_check_editor-Rprofile.es.R, inst/exo_che…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>knitr         </span><span style='color: #555555;'> @ README.Rmd</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>parsedate     </span><span style='color: #555555;'> @ R/utils-git.R</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>purrr         </span><span style='color: #555555;'> @ R/create-all.R, R/debug.R, R/log-deleted-file.R, R/log-deleted-line.R, R/revparse.R, R…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>rlang         </span><span style='color: #555555;'> @ R/create-all.R, R/roxygen2.R, R/utils-fs.R, R/utils-usethis.R, R/zzz.R</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>rmarkdown     </span><span style='color: #555555;'> @ README.Rmd, vignettes/saperlipopette.qmd</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>roxygen2      </span><span style='color: #555555;'> @ R/roxygen2.R, saperlipopette.Rproj</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>saperlipopette</span><span style='color: #555555;'> @ README.Rmd, vignettes/saperlipopette.qmd</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>tibble        </span><span style='color: #555555;'> @ R/roxygen2.R</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>usethis       </span><span style='color: #555555;'> @ R/blame.R, R/check-editor.R, R/clean-dir.R, R/committed-to-main.R, R/committed-to-wron…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>vctrs         </span><span style='color: #555555;'> @ R/roxygen2.R</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>withr         </span><span style='color: #555555;'> @ R/blame.R, R/check-editor.R, R/clean-dir.R, R/committed-to-main.R, R/committed-to-wron…</span></span></span>
+<span><span class='c'>#&gt; </span></span>
+<span><span class='c'>#&gt; <span style='color: #BBBB00;'>Test dependencies:</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>fs            </span><span style='color: #555555;'> @ tests/testthat/test-blame.R, tests/testthat/test-check-editor.R, tests/testthat/test-c…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>gert          </span><span style='color: #555555;'> @ tests/testthat/test-blame.R, tests/testthat/test-clean-dir.R, tests/testthat/test-comm…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>rlang         </span><span style='color: #555555;'> @ tests/testthat/test-blame.R, tests/testthat/test-check-editor.R, tests/testthat/test-c…</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>saperlipopette</span><span style='color: #555555;'> @ tests/testthat.R</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>testthat      </span><span style='color: #555555;'> @ tests/testthat.R</span></span></span>
+<span><span class='c'>#&gt; <span style='color: #555555;'>+ </span><span style='color: #0000BB;'>withr         </span><span style='color: #555555;'> @ tests/testthat/test-blame.R, tests/testthat/test-check-editor.R, tests/testthat/test-c…</span></span></span>
+<span></span></code></pre>
+
+</div>
 
 [ast-grep](https://ast-grep.github.io/) is a useful tool built on top of tree-sitter, for searching and re-writing code, with a clearer query syntax than tree-sitter's. Its name reminds of grep, but with ast-grep we do not need to write brittle regular expressions. :smile_cat:[{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep. It is in particular used in Etienne's [{flir} package](https://flir.etiennebacher.com/) for [refactoring](https://flir.etiennebacher.com/articles/adding_rules) code.
 
