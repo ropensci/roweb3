@@ -16,7 +16,7 @@ tags:
 params:
   doi: "10.59350/57mzc-7e212"
 output: hugodown::md_document
-rmd_hash: d084b23a6c551982
+rmd_hash: 7c0f222f3719a3ce
 
 ---
 
@@ -264,11 +264,11 @@ Compared to existing parsers in R for those formats, these two packages preserve
 
 ### Testing code: {muttest}
 
-[Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) is a kind of testing where you, say, randomly swap `+` with `-` in your code (you *mutate* it) and you run your tests to see whether they catch the mutant. The [{muttest} package](https://github.com/jakubsob/muttest) is an R package for mutation testing, that depends on the {treesitter} R package.
+[Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) is a kind of testing where you, say, randomly swap `+` with `-` in your code (you *mutate* it) and you run your tests to see whether they catch the mutant. The [{muttest} package](https://github.com/jakubsob/muttest) by Jakub Sobolewski is an R package for mutation testing, that depends on the {treesitter} R package.
 
 ### Diffing code: difftastic
 
-The difftastic CLI is "a structural diff tool that understands syntax". ✨ This means that difftastic doesn't only compare line or "words" but actual syntax by looking at lines around the lines that changed (by default, 3). Even better, it understands R out of the box. See this [blog post with examples of R code diffing](https://masalmon.eu/2026/03/30/difftastic/).
+The difftastic CLI by Wilfred Hughes is "a structural diff tool that understands syntax". ✨ This means that difftastic doesn't only compare line or "words" but actual syntax by looking at lines around the lines that changed (by default, 3). Even better, it understands R out of the box. See this [blog post with examples of R code diffing](https://masalmon.eu/2026/03/30/difftastic/).
 
 ## Conclusion: more to come?
 
