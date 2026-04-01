@@ -11,7 +11,7 @@ tags:
   - bioconductor
 photogallery: true
 featured: true
-description: ""
+description: "R-universe is collaborating with Bioconductor to help gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes."
 params:
   doi: "10.59350/sj9wy-g8055"
 ---
