@@ -22,7 +22,7 @@ At the same time, the infrastructure that supports such a long-standing and larg
 
 This collaboration reflects a core principle of R-universe as an R Consortium Infrastructure Steering Committee (ISC) top-level project: supporting reviewed package repositories such as rOpenSci and Bioconductor, and providing modern, open, and reusable infrastructure that strengthens the broader R ecosystem.
 
-## A Shared Mission: Tooling for Managed Repositories
+## A shared mission: Tooling for managed repositories
 
 R-universe was designed as a next-generation package distribution and build system for R. It provides:
 
