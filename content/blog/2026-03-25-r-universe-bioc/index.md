@@ -43,7 +43,7 @@ For Bioconductor, this means incrementally adopting piece-wise functionality, wi
 
 By taking small gradual steps towards adopting R-universe components, everyone gets the opportunity to experiment with new tooling and evaluate where adjustments may be needed in order to minimize disruption to existing practices.
 
-A significant milestone in this collaboration is that Bioconductor now uses R-Universe to build the Windows and Mac binaries. Taking advantage of R-universe’s scalable, cloud-native build system has significantly reduced maintenance load on the Bioconductor team. Beyond binary distribution, we are currently working toward deeper integration of R-universe’s continuous check results into Bioconductor’s quality control and release processes. 
+An important milestone in this collaboration is that Bioconductor now uses R-universe to build the Windows and macOS binaries. This has significantly reduced the maintenance load on the Bioconductor team. Beyond binary distribution, we are currently working on deeper integration of R-universe’s continuous check results into Bioconductor’s quality control and release processes. 
 
 ## Two Universes: Release and Development
 
