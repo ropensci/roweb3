@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-bioc"
-title: "Collaboration between Bioconductor and R-universe: towards Development of Common Infrastructure"
+title: "Collaborating between Bioconductor and R-universe on Development of Common Infrastructure"
 author:
   - The rOpenSci Team
   - The Bioconductor Team
@@ -14,13 +14,18 @@ featured: true
 description: "R-universe is collaborating with Bioconductor to help gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes."
 params:
   doi: "10.59350/sj9wy-g8055"
+crossposts:
+- name: rOpenSci
+  url: https://ropensci.org/blog/
+- name: Bioconductor
+  url: https://blog.bioconductor.org/
+- name: R-Consortium
+  url: https://r-consortium.org/blog/
 ---
-
-<small>_This article is cross-posted on [Bioconductor](https://blog.bioconductor.org/), [rOpenSci](https://ropensci.org/blog/), and [R-Consortium](https://r-consortium.org/blog/)._</small>
 
 For more than two decades, the [Bioconductor project](https://www.bioconductor.org/) has been a cornerstone of the R ecosystem, providing high-quality, peer-reviewed tools for bioinformatics and computational biology. Its curated repository model, rigorous review standards, and tightly coordinated release process have helped establish Bioconductor as one of the most trusted distribution channels in scientific computing.
 
-However the infrastructure that supports such a long-standing and large-scale project inevitably accumulates technical debt. Legacy build systems, bespoke tooling, and historically grown workflows add up to costly and unsustainable maintenance work. For this reason, Bioconductor is collaborating with [R-universe](https://r-universe.dev/) to help gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes. In turn, Bioconductor is helping R-universe expand and refine its features as we learn to serve the complex needs of the Bioconductor community.
+However the infrastructure that supports such a long-standing and large-scale project inevitably accumulates technical debt. Legacy build systems, bespoke tooling, and historically grown workflows add up to costly and unsustainable maintenance work. For this reason, Bioconductor is collaborating with [R-universe](https://r-universe.dev/) to gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes. In turn, Bioconductor is helping R-universe expand and refine its features as we learn to serve the complex needs of the Bioconductor community.
 
 This collaboration reflects a core principle of R-universe as an R Consortium [Infrastructure Steering Committee (ISC)](https://r-consortium.org/all-projects/) top-level project: supporting reviewed package repositories such as rOpenSci and Bioconductor, and providing modern, open, and reusable infrastructure that strengthens the broader R ecosystem.
 
