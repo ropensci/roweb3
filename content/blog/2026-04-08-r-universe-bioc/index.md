@@ -4,7 +4,7 @@ title: "A New Collaboration: Modernizing Bioconductor Infrastructure with R-univ
 author:
   - The rOpenSci Team
   - The Bioconductor Team
-date: '2026-03-25'
+date: '2026-04-08'
 tags:
   - r-universe
   - infrastructure
