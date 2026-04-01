@@ -45,7 +45,7 @@ For Bioconductor, this means incrementally introducing piece-wise functionality,
 
 By taking small gradual steps towards adopting R-universe components, everyone gets the opportunity to experiment with new tooling and evaluate where adjustments may be needed in order to minimize disruption to existing practices.
 
-An important milestone in this collaboration is that Bioconductor now uses R-universe to build the Windows and macOS binaries, which significantly reduces costs and the maintenance load on the Bioconductor team. Beyond binary distribution, we are currently exploring on deeper integration of R-universe’s continuous check results into Bioconductor’s quality control and release processes. 
+An important milestone in this venture is that Bioconductor now uses R-universe to build the Windows and macOS binaries, which significantly reduces costs and the maintenance load on the Bioconductor team. Beyond binary distribution, we are currently exploring on deeper integration of R-universe’s continuous check results into Bioconductor’s quality control and release processes. 
 
 ## Two Universes: Release and Development
 
@@ -88,7 +88,7 @@ As the collaboration evolves and new components get introduced, the documentatio
 
 Adopting new infrastructure inevitably involves adjustments. For Bioconductor developers, integrating with a new build and distribution system will likely require some changes to workflows, and time to become familiar with new or different package checks, build diagnostics, and binary distribution.
 
-However, by gradually moving toward common infrastructure, the Bioconductor project will benefit from improvements that are being continuously developed and maintained for the broader R ecosystem. A system based on modern CI will provide developers with improved tooling, and will give the core team more time to focus on community coordination and quality control, rather than on maintaining costly infrastructure. At the same time, a shared platform can increase the visibility and accessibility of Bioconductor software to the greater R community.
+However, by gradually moving toward common infrastructure, the Bioconductor project will benefit from improvements that are being continuously developed and maintained for the broader R ecosystem. A system based on modern CI will provide developers with improved tooling, and will give the core team more time to focus on community coordination and quality control, rather than on maintaining costly infrastructure. At the same time, the shared platform provided by R-universe can help to increase the visibility and accessibility of Bioconductor software to the greater R community.
 
-We look forward to continuing this collaboration and to working with the Bioconductor community to ensure that the next generation of infrastructure supports the project for many years to come.
+We look forward to continuing this alliance and to working with the Bioconductor community to ensure that the next generation of infrastructure supports the project for many years to come.
 
