@@ -12,6 +12,8 @@ tags:
 photogallery: true
 featured: true
 description: ""
+params:
+  doi: "10.59350/sj9wy-g8055"
 ---
 
 For more than two decades, the Bioconductor project has been a cornerstone of the R ecosystem, providing high-quality, peer-reviewed tools for bioinformatics and computational biology. Its curated repository model, rigorous review standards, and tightly coordinated release process have helped establish Bioconductor as one of the most trusted distribution channels in scientific computing.
