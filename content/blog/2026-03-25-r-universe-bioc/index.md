@@ -36,9 +36,9 @@ From the outset, a key objective has been to support curated and reviewed commun
 
 For Bioconductor, this means incrementally adopting piece-wise functionality, with consideration for established release cycles and quality control mechanisms:
 
-  1. First, we have set up independent build and dashboard tooling, replicating processes from legacy Bioconductor build systems on r-universe infrastructure.  
-  2. Then started mirroring windows/mac binaries produced on r-universe to bioconductor.  
-  3. Next, we explore further integration of results and metadata produced by r-universe for bioconductor health/activity monitoring and aiding the curation processes.  
+  1. First, we set up independent build and dashboard tooling, replicating processes from the legacy Bioconductor build systems on R-universe infrastructure.  
+  2. We then started mirroring Windows/macOS binaries produced on R-universe to Bioconductor.  
+  3. Next, we explored further integration of results and metadata produced by R-universe for Bioconductor health/activity monitoring and aiding the curation processes.  
   4. Potential future steps toward deeper automation and harmonization
 
 By taking small gradual steps towards adopting R-universe components, everyone gets the opportunity to experiment with new tooling and evaluate where adjustments may be needed in order to minimize disruption to existing practices.
