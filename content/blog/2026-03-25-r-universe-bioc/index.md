@@ -18,7 +18,7 @@ params:
 
 For more than two decades, the Bioconductor project has been a cornerstone of the R ecosystem, providing high-quality, peer-reviewed tools for bioinformatics and computational biology. Its curated repository model, rigorous review standards, and tightly coordinated release process have helped establish Bioconductor as one of the most trusted distribution channels in scientific computing.
 
-At the same time, the infrastructure that supports such a long-standing and large-scale project inevitably accumulates technical debt. Legacy build systems, bespoke tooling, and historically grown workflows add up to costly and unsustainable maintenance work. For this reason, R-universe is collaborating with Bioconductor to gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes. In turn, Bioconductor is helping R-Universe expand and refine its features as we have learned to serve the complex needs of the Bioconductor community.
+At the same time, the infrastructure that supports such a long-standing and large-scale project inevitably accumulates technical debt. Legacy build systems, bespoke tooling, and historically grown workflows add up to costly and unsustainable maintenance work. For this reason, R-universe is collaborating with Bioconductor to help gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes. In turn, Bioconductor is helping R-Universe expand and refine its features as we have learned to serve the complex needs of the Bioconductor community.
 
 This collaboration reflects a core principle of R-universe as an R Consortium Infrastructure Steering Committee (ISC) top-level project: supporting reviewed package repositories such as rOpenSci and Bioconductor, and providing modern, open, and reusable infrastructure that strengthens the broader R ecosystem.
 
@@ -34,11 +34,11 @@ R-universe was designed as a next-generation package distribution and build syst
 
 From the outset, a key objective has been to support curated and reviewed communities — such as rOpenSci and Bioconductor — by offering modern infrastructure without requiring them to redesign their governance or review processes.
 
-For Bioconductor, this means incrementally adopting piece-wise functionality, with consideration for established release cycles and quality control mechanisms:
+For Bioconductor, this means incrementally introducing piece-wise functionality, with consideration for established release cycles and quality control mechanisms:
 
-  1. First, we set up independent build and dashboard tooling, replicating processes from the legacy Bioconductor build systems on R-universe infrastructure.  
-  2. We then started mirroring Windows/macOS binaries produced on R-universe to Bioconductor.  
-  3. Next, we explored further integration of results and metadata produced by R-universe for Bioconductor health/activity monitoring and aiding the curation processes.  
+  1. Setting up independent build and dashboard tooling, replicating processes from the current Bioconductor build systems on R-universe infrastructure.
+  2. Mirorring Windows/macOS binaries produced on R-universe to Bioconductor.
+  3. Exploring further integration of results and metadata produced by R-universe for Bioconductor health/activity monitoring and aiding the curation processes.
   4. Potential future steps toward deeper automation and harmonization
 
 By taking small gradual steps towards adopting R-universe components, everyone gets the opportunity to experiment with new tooling and evaluate where adjustments may be needed in order to minimize disruption to existing practices.
