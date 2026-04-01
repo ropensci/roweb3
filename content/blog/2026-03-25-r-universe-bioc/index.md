@@ -16,11 +16,11 @@ params:
   doi: "10.59350/sj9wy-g8055"
 ---
 
-For more than two decades, the Bioconductor project has been a cornerstone of the R ecosystem, providing high-quality, peer-reviewed tools for bioinformatics and computational biology. Its curated repository model, rigorous review standards, and tightly coordinated release process have helped establish Bioconductor as one of the most trusted distribution channels in scientific computing.
+For more than two decades, the [Bioconductor project](https://www.bioconductor.org/) has been a cornerstone of the R ecosystem, providing high-quality, peer-reviewed tools for bioinformatics and computational biology. Its curated repository model, rigorous review standards, and tightly coordinated release process have helped establish Bioconductor as one of the most trusted distribution channels in scientific computing.
 
-At the same time, the infrastructure that supports such a long-standing and large-scale project inevitably accumulates technical debt. Legacy build systems, bespoke tooling, and historically grown workflows add up to costly and unsustainable maintenance work. For this reason, R-universe is collaborating with Bioconductor to help gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes. In turn, Bioconductor is helping R-Universe expand and refine its features as we have learned to serve the complex needs of the Bioconductor community.
+At the same time, the infrastructure that supports such a long-standing and large-scale project inevitably accumulates technical debt. Legacy build systems, bespoke tooling, and historically grown workflows add up to costly and unsustainable maintenance work. For this reason, [R-universe](https://r-universe.dev/) is collaborating with Bioconductor to help gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes. In turn, Bioconductor is helping R-Universe expand and refine its features as we have learned to serve the complex needs of the Bioconductor community.
 
-This collaboration reflects a core principle of R-universe as an R Consortium Infrastructure Steering Committee (ISC) top-level project: supporting reviewed package repositories such as rOpenSci and Bioconductor, and providing modern, open, and reusable infrastructure that strengthens the broader R ecosystem.
+This collaboration reflects a core principle of R-universe as an R Consortium [Infrastructure Steering Committee (ISC)](https://r-consortium.org/all-projects/) top-level project: supporting reviewed package repositories such as rOpenSci and Bioconductor, and providing modern, open, and reusable infrastructure that strengthens the broader R ecosystem.
 
 ## A shared mission: Tooling for managed repositories
 
@@ -86,7 +86,7 @@ As the collaboration evolves and new components get adopted, the documentation w
 
 Adopting new infrastructure inevitably involves adjustments. For Bioconductor developers, integrating with a new build and distribution system will likely require some changes to workflows, and time to become familiar with new or different package checks, build diagnostics, and binary distribution.
 
-However, by gradually moving toward common infrastructure, the Bioconductor project will benefit from improvements that are being continuously developed and maintained for the broader R ecosystem. A system based on modern CI will provide developers with improved tooling, and will give the core team more time to focus on community coordination and quality control, rather than on maintaining costly infrastructure.
+However, by gradually moving toward common infrastructure, the Bioconductor project will benefit from improvements that are being continuously developed and maintained for the broader R ecosystem. A system based on modern CI will provide developers with improved tooling, and will give the core team more time to focus on community coordination and quality control, rather than on maintaining costly infrastructure. Moreover, using a shared platform will increase the visibility and accessibility of BioConductor software to the greater R community.
 
 We look forward to continuing this collaboration and to working with the Bioconductor community to ensure that the next generation of infrastructure supports the project for many years to come.
 
