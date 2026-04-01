@@ -86,7 +86,7 @@ As the collaboration evolves and new components get adopted, the documentation w
 
 Adopting new infrastructure inevitably involves adjustments. For Bioconductor developers, integrating with a new build and distribution system will likely require some changes to workflows, and time to become familiar with new or different package checks, build diagnostics, and binary distribution.
 
-However this overhaul is ultimately in the interest of the entire Bioconductor community. As the project continues to grow, maintaining custom build systems and tooling becomes increasingly costly for both package authors and the Bioconductor core team. By gradually moving toward shared infrastructure, the project benefits from improvements that are continuously developed and maintained for the broader R ecosystem. A system based on modern CI will eventually provide developers with much improved tooling, and lets the core team focus on community coordination and quality control, rather than maintaining costly infrastructure.
+However, by gradually moving toward shared infrastructure, the Bioconductor project will benefit from R-universe improvements that are being continuously developed and maintained for the broader R ecosystem. A system based on modern CI will provide developers with improved tooling, and will give the core team more time to focus on community coordination and quality control, rather than on maintaining costly infrastructure.
 
 We look forward to continuing this collaboration and to working with the Bioconductor community to ensure that the next generation of infrastructure supports the project for many years to come.
 
