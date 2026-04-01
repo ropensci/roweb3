@@ -1,6 +1,6 @@
 ---
 slug: "r-universe-bioc"
-title: "Collaboration beteen Bioconductor and R-universe towards Development of Common Infrastructure"
+title: "Collaboration between Bioconductor and R-universe: towards Development of Common Infrastructure"
 author:
   - The rOpenSci Team
   - The Bioconductor Team
