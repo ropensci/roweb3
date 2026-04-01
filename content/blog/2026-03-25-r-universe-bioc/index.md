@@ -74,7 +74,7 @@ Information about each package is available on `https://bioc.r-universe.dev/{pkg
 {{< figureforgallery src="https://docs.r-universe.dev/img/bioc-pkg.png" alt="screenshot of r-universe package" >}}
 
 
-If this is the first time you visit R-universe, we recommend clicking the "Website Tour" button which will walk you through the most important information in 1 or 2 minutes.
+If this your first time visiting R-universe, we recommend clicking the "Website Tour" button which will walk you through the most important information in 1 or 2 minutes.
 
 ## Technical Documentation for Bioconductor Maintainers
 
