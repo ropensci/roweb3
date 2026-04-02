@@ -11,12 +11,10 @@ tags:
   - bioconductor
 photogallery: true
 featured: true
-description: "R-universe is collaborating with Bioconductor to help gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes."
+description: "R-consortium ISC top-level project R-universe is working with Bioconductor to help gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes."
 params:
   doi: "10.59350/sj9wy-g8055"
 crossposts:
-- name: rOpenSci
-  url: https://ropensci.org/blog/
 - name: Bioconductor
   url: https://blog.bioconductor.org/
 - name: R-Consortium
