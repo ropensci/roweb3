@@ -1,5 +1,5 @@
 ---
-title: A better R programming experience thanks to tree-sitter
+title: A Better R Programming Experience Thanks to Tree-sitter
 author: 
 - Maëlle Salmon
 editor: 
@@ -19,12 +19,12 @@ output: hugodown::md_document
 ---
 
 A little bit less than two years ago, building on work by Jim Hester and Kevin Ushey, Davis Vaughan completed a very impactful JavaScript file for the R community:
-an R grammar for the tree-sitter parsing generator.
+an R grammar for the Tree-sitter parsing generator.
 He even got a round of applause for it during a talk at the useR! 2024 conference!
 So, did he get cheered for... grammatical rules in a [JavaScript file](https://github.com/r-lib/tree-sitter-r/blob/next/grammar.js)? :sweat_smile:
 
-No, the audience got excited about the _improved developer experience for R_ that this file unlocked. 
-R tooling around tree-sitter is how you get 
+No, the audience was excited about the _improved developer experience for R_ that this file unlocked. 
+R tooling around Tree-sitter is how you get 
 
 - reformatting through [Air](https://posit-dev.github.io/air/) and linting through [Jarl](https://jarl.etiennebacher.com/);
 - auto-completion or help on hover in the [Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark);
@@ -110,14 +110,13 @@ All of them are dependent on tree-sitter and the R grammar provided to it.
 Some of them are command-line interfaces (CLIs), while others are R packages.
 
 ```{=html}
-{{< figure src="tree-sitter.png" alt="Diagram of tree-sitter tooling for R. At the center is tree-sitter especially its Rust bindings and the R grammar for treesitter. At the top is the input, R scripts. At the bottom from treesitter is the treesitter R package,; ast-grep that is used by astgrepr which is used by flir and that is used by the CLAUDE.md instructions for parsing code; Air that is used by Jarl; Ark that is used by the Positron IDE; R code browsing on GitHub." >}}
+{{< figure src="tree-sitter.png" alt="Diagram of Tree-sitter tooling for R. At the center is Tree-sitter especially its Rust bindings and the R grammar for treesitter. At the top is the input, R scripts. At the bottom from treesitter is the treesitter R package,; ast-grep that is used by astgrepr which is used by flir and that is used by the CLAUDE.md instructions for parsing code; Air that is used by Jarl; Ark that is used by the Positron IDE; R code browsing on GitHub." >}}
 ```
 
-Let's dive into these tools in more details!
 
 ## Browsing code interactively: Positron IDE, GitHub
 
-The real reason why the audience applauded Davis Vaughan is that he explained how the R grammar for tree-sitter had been [deployed to GitHub](https://github.com/orgs/community/discussions/120397) so that we get almost as good experience browsing R code on GitHub as browsing, say, JS code.
+The real reason why the audience applauded Davis Vaughan is that he explained how the R grammar for Tree-sitter had been [deployed to GitHub](https://github.com/orgs/community/discussions/120397) so that we get almost as good experience browsing R code on GitHub as browsing, say, JS code.
 If we search for a function name in a repository for instance, its definition will be indicated in the search results.
 See [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc) (also available in [PDF](https://github.com/DavisVaughan/2024-07-09_useR-2024)), 
 or refer to the video below showing how typing `vetiver_model` in the search bar from the R vetiver repo makes the function definition the first result, on which one can click to land into the definition.
@@ -126,22 +125,22 @@ or refer to the video below showing how typing `vetiver_model` in the search bar
 {{< video src="searching-for-vetiver-model-r-new" >}}
 ```
 
-Also very useful is the use of tree-sitter by [Ark](https://github.com/posit-dev/ark), 
+Also very useful is the use of Tree-sitter by [Ark](https://github.com/posit-dev/ark), 
 the R kernel [used in the Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark/#/language-server-protocol-1).
-Ark is how in Positron you get autocompletion, help on hover, etc.
-The video below shows how in Positron you can extend the selection to further steps of a pipeline.
+Ark is how you get autocompletion and help on hover in Positron.
+The video below shows how you can extend the selection to further steps of a pipeline in Positron.
 
 
 ```{=html}
 {{< video src="expand-selection-2" >}}
 ```
 
-This use case of tree-sitter is also featured in [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc).
+This use case of Tree-sitter is also featured in [Davis' slides](https://www.youtube.com/watch?v=Gm0ikRBAfwc).
 See also Lionel Henry's and Davis Vaughan's talk about Ark at [posit conf 2024](https://youtu.be/8uRcB34Hhsw?si=UeWqIi9PtEOWqRsp&t=2109), especially the part about [code assistance](https://youtu.be/8uRcB34Hhsw?si=GBqntC6tW7D2WhBN&t=2455).
 
-Other development environments such as [Emacs](https://lists.gnu.org/archive/html/emacs-devel/2022-11/msg01443.html) have support for tree-sitter.
+Other development environments such as [Emacs](https://lists.gnu.org/archive/html/emacs-devel/2022-11/msg01443.html) also have support for Tree-sitter.
 
-## Searching/browsing code: {treesitter}, tree-sitter, ast-grep
+## Searching/browsing code
 
 You can parse and search R code using the {treesitter} R package and [treesitter query syntax](https://tree-sitter.github.io/tree-sitter/4-code-navigation.html).
 The {treesitter} R package is a dependency of the [{gander} package](https://simonpcouch.github.io/gander/) by Simon Couch, 
@@ -151,7 +150,7 @@ that [parses all of igraph R code](https://github.com/igraph/igraph.r2cdocs/blob
 for each exported function, whether it (in)directly calls a function whose name ends with `_impl`, 
 indicating a wrapper to a C igraph function whose docs can be then be linked from the manual of the R function.
 
-The {pkgdepends} package calls tree-sitter ([C](https://github.com/r-lib/pkgdepends/blob/main/src/tree-sitter.c)) to detect [dependencies in files](https://github.com/r-lib/pkgdepends/blob/634661a7d91b41476fd1ab653fe3087a6e40b8a9/R/scan-deps.R#L340).
+The {pkgdepends} package calls Tree-sitter ([C](https://github.com/r-lib/pkgdepends/blob/main/src/tree-sitter.c)) to detect [dependencies in files](https://github.com/r-lib/pkgdepends/blob/634661a7d91b41476fd1ab653fe3087a6e40b8a9/R/scan-deps.R#L340).
 Below we run it on the source of the [saperlipopette R package](https://docs.ropensci.org/saperlipopette/).
 
 ```{r}
@@ -161,9 +160,8 @@ pkgdepends::scan_deps(
 )
 ```
 
-[ast-grep](https://ast-grep.github.io/) is a useful tool built on top of tree-sitter, for searching and re-writing code, with a clearer query syntax than tree-sitter's.
-Its name reminds of grep, but with ast-grep we do not need to write brittle regular expressions. :smile_cat:[{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep.
-It is in particular used in Etienne's [{flir} package](https://flir.etiennebacher.com/) for [refactoring](https://flir.etiennebacher.com/articles/adding_rules) code.
+[ast-grep](https://ast-grep.github.io/) is a useful tool built on Tree-sitter for searching and re-writing code, with a clearer query syntax than Tree-sitter's.
+Its name is reminiscent of grep, but with ast-grep we do not need to write brittle regular expressions :smile_cat:. [{astgrepr}](https://astgrepr.etiennebacher.com/) by Etienne Bacher is an R wrapper to the Rust bindings of ast-grep, and is used in Etienne's [{flir} package](https://flir.etiennebacher.com/) for [refactoring](https://flir.etiennebacher.com/articles/adding_rules) code.
 
 The ast-grep command-line interface (CLI) itself is featured in a useful [blog post by Emil Hvitfeldt](https://emilhvitfeldt.com/post/ast-grep-r-claude-code/) where he explains how to document the usage of ast-grep for Claude.
 
@@ -175,17 +173,17 @@ Speaking of CLIs...
 {{< figure src="meme.png" alt="Cute kitten attacked by robots. The text says 'Everytime you use Claude for something a CLI can do, a kitten dies'." >}}
 ```
 
-[Air](https://posit-dev.github.io/air/cli.html), by Davis Vaughan and Lionel Henry, is a CLI built on tree-sitter, in Rust.
+[Air](https://posit-dev.github.io/air/cli.html), by Davis Vaughan and Lionel Henry, is a CLI built on Tree-sitter, in Rust.
 It _reformats_ code blazingly fast.
 
-[Jarl](https://jarl.etiennebacher.com/), by Etienne Bacher, is a CLI built on Air, therefore also on tree-sitter, in Rust.
+[Jarl](https://jarl.etiennebacher.com/), by Etienne Bacher, is a CLI built on Air, therefore also on Tree-sitter, in Rust.
 It _lints_ and _fixes_ code, also blazingly fast.
 It can even detect [unreachable code](https://jarl.etiennebacher.com/rules/unreachable_code), [unused functions](https://jarl.etiennebacher.com/rules/unused_function) and [duplicated function definitions](https://jarl.etiennebacher.com/rules/duplicated_function_definition).
 
-For both these examples, the creation of _CLIs_ wrapping Rust bindings is more efficient than the creation of R packages wrapping the treesitter R package, for several reasons:
+In both of these examples, the creation of _CLIs_ wrapping Rust bindings was more efficient than the creation of R packages wrapping the {treesitter} R package, for several reasons:
 
-- the Rust CLIs can edit code very fast[^rust];
-- the CLI are integrated in extensions for popular IDEs (for instance Positron);
+- Rust CLIs can edit code very fast[^rust];
+- CLIs are integrated in extensions for popular IDEs (for instance Positron);
 - a CLI is easier to install on CI than an R package that needs, well, an R installation.
 
 [^rust]: Rust is a lower level language than R so has less overhead; furthermore this kind of Rust code can be easily parallelized.
@@ -196,10 +194,10 @@ A brief mention of some other interesting tools we've explored a bit less.
 
 ### Configuring: {ts} for parsing JSON and TOML (not R!)
 
-The [{ts}](https://github.com/r-lib/ts) package by Gábor Csárdi is the backbone of two packages useful for editing and manipulating, from R:
+The [{ts}](https://github.com/r-lib/ts) package by Gábor Csárdi is the backbone of two R packages used for editing and manipulating:
 
-- TOML ([{tstoml}](https://gaborcsardi.github.io/tstoml/));
-- JSON ([{tsjson}](https://gaborcsardi.github.io/tsjsonc/)).
+- TOML [{tstoml}](https://gaborcsardi.github.io/tstoml/);
+- JSON [{tsjson}](https://gaborcsardi.github.io/tsjsonc/).
 
 Compared to existing parsers in R for those formats, these two packages preserve comments.
 
@@ -216,10 +214,10 @@ See this [blog post with examples of R code diffing](https://masalmon.eu/2026/03
 
 ## Conclusion: more to come?
 
-In this post, we've presented an overview of tree-sitter based tooling for R or in R.
+In this post, we've presented an overview of Tree-sitter based tooling for R or in R.
 
 
 Note that this ecosystem of tools is very actively developed, so some tools might come and go.
 However, the idea that plugging the R grammar into a general parsing generator brings cool features to us R developers, will remain true.
-Maybe _you_ will contribute to this ecosystem, either in an existing tool or by creating a new one?
+Maybe _you_ will contribute to this ecosystem, either through an existing tool or by creating a new one?
 
