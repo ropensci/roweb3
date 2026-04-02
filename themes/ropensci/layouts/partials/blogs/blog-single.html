@@ -41,7 +41,7 @@
            {{ if or ( .Params.preface ) ( .Params.crossposts ) }}
                 <div class="small font-italic">
                   {{ with .Params.crossposts }} 
-                    This article is cross-posted on {{ range $i, $e := .}}{{ if $i }}, {{ end }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}.
+                    This article is cross-posted on {{ range $i, $e := .}}{{ if $i }} and {{ end }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}.
                   {{ end }}
                   {{ with .Params.preface }}<p>{{ . | markdownify }}</p>{{ end }}
                   
