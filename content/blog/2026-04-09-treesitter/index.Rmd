@@ -29,11 +29,11 @@ R tooling around tree-sitter is how you get
 - reformatting through [Air](https://posit-dev.github.io/air/) and linting through [Jarl](https://jarl.etiennebacher.com/);
 - auto-completion or help on hover in the [Positron IDE](https://lionel-.github.io/slidedecks/2024-07-11-ark);
 - better [search](https://github.com/orgs/community/discussions/120397) for R on GitHub;
-- ...
+- and more!
 
-In this post, we'll explain what tree-sitter is, and what tools built upon it can bring to your workflow writing R software.
+In this post, we'll explain what Tree-sitter is, and how tools built on Tree-sitter can benefit your R development workflow.
 
-## Code parsing: what is tree-sitter
+## Code parsing: what is Tree-sitter?
 
 [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) is a code parsing generator written in C, with bindings existing in several languages including Rust (and R!). 
 
@@ -79,20 +79,23 @@ parse(
 ```
 
 In both cases, you recognize words such as `LEFT_ASSIGN` or `SYMBOL_FUNCTION_CALL`.
-Parsing is an essential step before the code is actually executed, but parsed code can also be used for other purposes, such as analyzing code (does it call such and such [function](https://nrennie.rbind.io/blog/how-to-make-your-own-rstats-wrapped/)? and this without your own brittle regular expressions), navigating code (going from a function call to the definition of that function), modifying code (replacing all occurrences of a function with another one).
+Parsing is an essential step before the code is actually executed, but parsed code can also be used for other purposes, such as analyzing code without brittle regular expressions (does it call a particular [function](https://nrennie.rbind.io/blog/how-to-make-your-own-rstats-wrapped/)?), navigating code (going from a function call to the definition of that function), or modifying code (replacing all occurrences of a function with another one).
 
-Now, tree-sitter allows such code parsing but **faster** especially thanks to its support of incremental parsing -- which is key to update the syntax tree as you are typing in your editor for instance!
+Now, Tree-sitter performs this same code parsing but **faster** especially thanks to its support of incremental parsing -- which is key to updating the syntax tree as you are typing in your editor for instance!
 Tree-sitter is agnostic in that it can parse any code as long as there is a grammar for it (think, Rosetta Stone plugins). 
 It's been used for many languages which means many tools have been built around it.
 
-To make tree-sitter "learn" a new language you need to give it a file containing the definition of the syntax of that language,
+To have Tree-sitter "learn" a new language you need to give it a file containing the definition of the syntax of that language,
 what's called a _grammar_.
 This is where the aforementioned JavaScript file by Davis Vaughan and collaborators comes into play!
-The treesitter-r repo, which provides a translation of the R grammar in the format expected by tree-sitter, is key to all tools presented in this post that use R code as their input. 
+The [treesitter-r repo](https://github.com/r-lib/tree-sitter-r), which provides a translation of the R grammar in the format expected by Tree-sitter, is the base of all tools presented in this post which use R code as their input. 
 
-The JavaScript file, when run through tree-sitter at the command line, outputs different files including one called `parser.c` which gets linked in to tools like the R package for treesitter.r.
 
 Here's how to use the {treesitter} R package for the same code as earlier.
+The {treesitter} R package allows us to use Tree-sitter from R. 
+To parse R code with it, we need the `language()` function from {treesitter.r}[^other].
+
+[^other]: We could also parse C code with it using [{treesitter.c}](https://sounkou-bioinfo.github.io/treesitter.c/).
 
 ```{r}
 library(treesitter)
@@ -104,7 +107,7 @@ parser_parse(parser, text)
 
 Tree-sitter is the workhorse of many tools, that are mentioned in the diagram below.
 All of them are dependent on tree-sitter and the R grammar provided to it.
-Some of them are CLI, while others are R packages.
+Some of them are command-line interfaces (CLIs), while others are R packages.
 
 ```{=html}
 {{< figure src="tree-sitter.png" alt="Diagram of tree-sitter tooling for R. At the center is tree-sitter especially its Rust bindings and the R grammar for treesitter. At the top is the input, R scripts. At the bottom from treesitter is the treesitter R package,; ast-grep that is used by astgrepr which is used by flir and that is used by the CLAUDE.md instructions for parsing code; Air that is used by Jarl; Ark that is used by the Positron IDE; R code browsing on GitHub." >}}
