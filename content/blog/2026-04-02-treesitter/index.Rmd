@@ -6,7 +6,7 @@ editor:
 - Etienne Bacher
 - Davis Vaughan
 - Steffi LaZerte
-date: '2026-03-26'
+date: '2026-04-02'
 slug: tree-sitter-overview
 description: Modern tooling for parsing, searching, formatting, editing R code, just like for other programming languages.
 tags:
