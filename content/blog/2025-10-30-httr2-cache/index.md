@@ -55,7 +55,7 @@ But not every API does.
 In the case of Meetup, we discovered that:
 
 - JWT authentication requires a Pro Meetup account    
-- Creating new OAuth applications requires a Pro account (existing apps are [grandfathered](https://en.wikipedia.org/wiki/Grandfather_clause))    
+- Creating new OAuth applications also requires a Meetup Pro account (existing apps are [grandfathered](https://en.wikipedia.org/wiki/Grandfather_clause))    
 - Device flow is not supported at all    
 
 So we needed two paths: JWT for Pro account holders, and something else for everyone with a grandfathered OAuth app.
