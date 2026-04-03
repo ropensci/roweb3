@@ -104,6 +104,7 @@ req_auth <- function(req, client_name, cache = TRUE, ...) {
 
 JWT is straightforward — if you have the credentials, httr2 handles the rest.
 The interesting part is the encrypted token path.
+The one we wanted to use in our CI workflows!
 
 ### How it works
 
