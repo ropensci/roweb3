@@ -32,6 +32,7 @@ This post walks through how we solved it — and the general pattern is useful f
 ## Understanding httr2's OAuth flow
 
 httr2's `req_oauth_auth_code()` handles [OAuth2](https://blog.r-hub.io/2021/01/25/oauth-2.0/) authentication for local development:
+httr2's `req_oauth_auth_code()` handles [OAuth2](https://httr2.r-lib.org/articles/oauth.html) ([see also this R-hub post](https://blog.r-hub.io/2021/01/25/oauth-2.0/)) authentication for local development:
 
 1. Opens the user's browser for authentication
 2. Exchanges the authorization code for tokens (access + refresh)
@@ -56,8 +57,8 @@ These are the right first choice when your API supports them.
 But not every API does.
 In the case of Meetup, we discovered that:
 
-- JWT authentication requires a Pro Meetup account  
-- Creating new OAuth applications also requires a Meetup Pro account (existing apps are [grandfathered](https://en.wikipedia.org/wiki/Grandfather_clause))  
+- JWT authentication requires a Pro Meetup account :money_mouth_face:
+- Creating new OAuth applications also requires a Meetup Pro account (existing apps are [grandfathered](https://en.wikipedia.org/wiki/Grandfather_clause)) :moneybag:  
 - Device flow is not supported at all  
 
 So we needed two paths: JWT for Pro account holders, and something else for everyone with a grandfathered OAuth app.
@@ -118,10 +119,15 @@ Only the decryption password goes into CI secrets — the encrypted file itself 
 We use the [cyphr](https://cran.r-project.org/package=cyphr) and [sodium](https://cran.r-project.org/package=sodium) packages for encryption.
 The token object is saved as an RDS file, then encrypted with a randomly generated password using NaCl symmetric encryption.
 
-Here's the setup function, simplified for clarity:
+  **Security note:**  
+  The encrypted token file uses NaCl's symmetric encryption (XSalsa20-Poly1305) via sodium. This is a modern, widely trusted cryptographic standard. Brute-forcing a strong, randomly generated 32-byte (256-bit) password is computationally infeasible with current technology. 
+  The main risk is exposure of the password itself, so it should only be stored in CI secrets, never in code or logs.
+
+Now, the setup function:
 
 ```r
 meetupr_encrypt_setup <- function(path = ".meetupr.rds", password = NULL) {
+  
   token <- httr2::oauth_token_cached(
     client = meetupr_client(),
     flow = httr2::oauth_flow_auth_code,
@@ -190,9 +196,17 @@ The caveat being, that every token refresh needs to be committed and pushed to t
 Our first approach — suggested by [Noam Ross](https://www.noamross.net/) on the rOpenSci Slack — was to base64-encode the raw httr2 cache file and store it as a CI environment variable.
 This worked, but had drawbacks: environment variables have size limits on some CI providers, you had to store both the token content _and_ httr2's hash-based filename as separate secrets, and there was no natural way to write back a rotated token.
 
-The encrypted file approach is simpler for users — commit one file, set one secret — and gives CI a place to write back the refreshed token.
+It is a bit surprising! 
+Many CI/CD systems are designed for stateless, ephemeral runs, so persisting and updating secrets (like OAuth tokens) isn't a built-in feature. 
+Most CI providers treat secrets as write-only environment variables, not as files that can be updated and committed back. 
+This makes token rotation awkward: you can't just "update the secret" from within the workflow.
 
-## CI configuration
+The encrypted file approach is simpler for users — commit one file, set one secret — and gives CI a place to write back the refreshed token.
+By using an encrypted file in the repository, you sidestep this limitation. 
+The file acts as a renewable credential that CI can update and push, while the decryption password remains protected as a CI secret.
+This pattern is not common in most documentation, but it works well for R packages and similar use cases.
+
+## CI
 
 meetupr provides helper functions that generate GitHub Actions workflow files.
 
@@ -301,10 +315,10 @@ If the refresh token does eventually expire — say the user revokes access or t
 ## Security considerations
 
 The encrypted token file is safe to commit because it uses NaCl symmetric encryption via sodium.
-Without the password, the file is opaque.
-
 The password itself lives only in CI secrets, which are encrypted at rest and not exposed in logs.
 The token file contains OAuth tokens — not user credentials — so the [blast radius](https://en.wikipedia.org/wiki/Blast_radius#Cloud_Computing) of a compromised token is limited to the API permissions granted to that OAuth app.
+
+For an added layer of protection, you can also make your GitHub repository private. This ensures that even the encrypted token file is not publicly accessible, further reducing the risk of exposure. Only collaborators with access to the private repository would be able to obtain the encrypted file, while the decryption password remains secured in CI secrets.
 
 For sensitive environments, the weekly rotation workflow keeps the token fresh and gives you an audit trail of when tokens were last refreshed.
 
