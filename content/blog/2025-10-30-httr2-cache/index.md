@@ -20,7 +20,7 @@ params:
 ---
 
 We ran into this problem while refactoring the [meetupr](https://github.com/rladies/meetupr) package, which wraps the Meetup API and is maintained by the R-Ladies organization.
-The package was switching from the superseded httr to httr2, which opens a browser for user authentication and makes it clear what permissions you're granting.
+The package was switching from the superseded [httr](https://httr.r-lib.org/) to [httr2](https://httr2.r-lib.org/), which opens a browser for user authentication and makes it clear what permissions you're granting.
 
 R-Ladies uses meetupr in CI to archive Meetup groups and events, so we needed authentication that works without a human sitting at a keyboard.
 httr2 handles interactive OAuth well, but CI environments don't have browsers.
