@@ -296,7 +296,7 @@ The encrypted token file is safe to commit because it uses NaCl symmetric encryp
 Without the password, the file is opaque.
 
 The password itself lives only in CI secrets, which are encrypted at rest and not exposed in logs.
-The token file contains OAuth tokens — not user credentials — so the blast radius of a compromised token is limited to the API permissions granted to that OAuth app.
+The token file contains OAuth tokens — not user credentials — so the [blast radius](https://en.wikipedia.org/wiki/Blast_radius#Cloud_Computing) of a compromised token is limited to the API permissions granted to that OAuth app.
 
 For sensitive environments, the weekly rotation workflow keeps the token fresh and gives you an audit trail of when tokens were last refreshed.
 
