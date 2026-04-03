@@ -266,7 +266,7 @@ _Repository setup:_
 
 1. Commit `.meetupr.rds` to your repository    
 2. Add the encryption password as a CI secret named `ENCRYPT_PWD`    
-3. Run `meetupr::use_gha_encrypted_token()` to create the workflow file    
+3. Run `meetupr::use_gha_encrypted_token()` to create the workflow file, commit it to your repository
 
 _In CI, your code works normally:_
 
