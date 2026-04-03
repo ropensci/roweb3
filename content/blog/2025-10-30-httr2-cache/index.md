@@ -144,7 +144,8 @@ meetupr_encrypt_setup <- function(path = ".meetupr.rds", password = NULL) {
 ```
 
 The user runs `meetupr_auth()` to authenticate in the browser, then `meetupr_encrypt_setup()` to create the encrypted file.
-They commit that file and add the password as a CI secret.
+They commit and push that file. 
+Then they add the password for deencryption as a CI secret.
 That's the entire local setup.
 
 ### Loading and rotating tokens in CI
