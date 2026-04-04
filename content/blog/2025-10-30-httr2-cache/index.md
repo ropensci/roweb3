@@ -79,10 +79,12 @@ req_auth <- function(req, client_name, cache = TRUE, ...) {
 
   if (auth$jwt$available) {
     # JWT bearer token (Pro accounts)
-    return(req |> httr2::req_oauth_bearer_jwt(
-      client = meetupr_client(...),
-      claim = httr2::jwt_claim(...)
-    ))
+  req <- req |> 
+  httr2::req_oauth_bearer_jwt(
+        client = meetupr_client(...),
+        claim = httr2::jwt_claim(...)
+      ))
+    return(req)
   }
 
   # Try encrypted token file
