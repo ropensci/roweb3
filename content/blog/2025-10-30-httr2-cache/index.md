@@ -58,7 +58,7 @@ In the case of Meetup, we discovered that:
 - Creating new OAuth applications also requires a Meetup Pro account (existing apps are [grandfathered](https://en.wikipedia.org/wiki/Grandfather_clause)) :moneybag:  
 - Device flow is not supported at all  
 
-So we needed two paths: JWT for Pro account holders, and something else for everyone with a grandfathered OAuth app.
+So we needed two paths: JWT for Pro account holders, and something else for everyone with a grandfathered OAuth app, and for those without even that!
 
 ## The solution: encrypted token files
 
