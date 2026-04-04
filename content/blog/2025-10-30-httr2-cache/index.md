@@ -3,8 +3,6 @@ title: "Cache Me If You Can – httr2 OAuth Token Management for CI/CD"
 author:
 - Athanasia Mo Mowinckel
 - Maëlle Salmon
-editor:
-  -
 date: '2026-03-30'
 slug: httr2-cache
 description: Learn how to manage httr2 OAuth tokens in CI/CD, where interactive authentication is not possible.
