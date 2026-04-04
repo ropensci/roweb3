@@ -319,7 +319,6 @@ The token file contains OAuth tokens — not user credentials — so the [blast 
 
 For an added layer of protection, you can also make your GitHub repository private. This ensures that even the encrypted token file is not publicly accessible, further reducing the risk of exposure. Only collaborators with access to the private repository would be able to obtain the encrypted file, while the decryption password remains secured in CI secrets.
 
-For sensitive environments, the weekly rotation workflow keeps the token fresh and gives you an audit trail of when tokens were last refreshed.
 
 ## Resources
 
