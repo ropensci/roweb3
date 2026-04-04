@@ -29,7 +29,6 @@ This post walks through how we solved it — and the general pattern is useful f
 
 ## Understanding httr2's OAuth flow
 
-httr2's `req_oauth_auth_code()` handles [OAuth2](https://blog.r-hub.io/2021/01/25/oauth-2.0/) authentication for local development:
 httr2's `req_oauth_auth_code()` handles [OAuth2](https://httr2.r-lib.org/articles/oauth.html) ([see also this R-hub post](https://blog.r-hub.io/2021/01/25/oauth-2.0/)) authentication for local development:
 
 1. Opens the user's browser for authentication
