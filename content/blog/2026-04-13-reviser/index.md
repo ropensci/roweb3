@@ -20,7 +20,7 @@ editor: ~
 
 
 Economic data are rarely static.
-GDP, inflation, employment, and other official statistics arrive as early estimates, then get revised as new source data arrive, seasonal adjustment is updated, or benchmarking changes are applied.
+Gross domestic product (GDP), inflation, employment, and other official statistics arrive as early estimates, then get revised as new source data arrive, seasonal adjustment is updated, or benchmarking changes are applied.
 Those revisions matter because they can change the narrative around turning points, policy mistakes, and forecast performance.
 
 `reviser` is an R package for working with these vintage datasets directly.
@@ -58,7 +58,7 @@ The `reviser` vignettes organize this workflow into three layers:
 ## A compact example with GDP vintages
 
 The package ships with a GDP example dataset in long vintage format.
-Suppose we want to focus on U.S. GDP growth, visualize how estimates moved during the financial crisis, and then ask whether early releases were systematically biased relative to a later benchmark.
+Suppose we want to focus on U.S. GDP growth, visualize how estimates moved during the 2008-09 global financial crisis, and then ask whether early releases were systematically biased relative to a later benchmark.
 
 ```r 
 library(reviser)
@@ -84,11 +84,11 @@ plot_vintages(
       time < as.Date("2010-01-01")
     ),
   type = "line",
-  title = "Revisions of GDP during the financial crisis",
+  title = "Revisions of GDP during the 2008-09 global financial crisis",
   subtitle = "qoq growth rates"
 )
 ```
-{{< figure src="gdp-example-plot-1.svg" alt="Multiple vintage paths for U.S. GDP growth, highlighting how estimates published in 2009 changed over time." caption="GDP growth vintages for the United States during the financial crisis." width="100%">}}
+{{< figure src="gdp-example-plot-1.svg" alt="Multiple vintage paths for U.S. GDP growth, highlighting how estimates published in 2009 changed over time." caption="GDP growth vintages for the United States during the 2008-09 global financial crisis." width="100%">}}
 
 This first step is mainly about making the release history visible.
 During volatile periods, the vintage paths can diverge enough that the story told by the first release is noticeably different from the story told a year later.
