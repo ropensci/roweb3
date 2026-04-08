@@ -60,10 +60,10 @@ The `reviser` vignettes organize this workflow into three layers:
 
 ## A compact example with GDP vintages
 
+The first step is to reshape the data into a tidy vintage format, where each row corresponds to an observed value, the date it refers to, and the publication date of that estimate.
+
 The package ships with a GDP example dataset in long vintage format.
 Suppose we want to focus on U.S. GDP growth, visualize how estimates moved during the 2008-09 global financial crisis, and then ask whether early releases were systematically biased relative to a later benchmark.
-
-The first step is to reshape the data into a tidy vintage format, where each row corresponds to an observed value, the date it refers to, and the publication date of that estimate.
 
 ```r 
 library(reviser)
@@ -324,7 +324,7 @@ Then start with the package site and vignettes:
 - docs: <https://docs.ropensci.org/reviser>
 - source: <https://github.com/ropensci/reviser>
 
-I would be happy to hear feedback from those of you trying out the package with different datasets.
+We would be happy to hear feedback from those of you trying out the package with different datasets.
 If you have a real-time dataset with a different release structure, that would be a good stress test for the package.
 If you find gaps in the workflow or have a use case to share, open an issue or contribute an example.
 Revision analysis gets more useful as it becomes easier to compare workflows across datasets rather than rebuilding them from scratch each time.
