@@ -71,7 +71,7 @@ Economic data are rarely static.
 Gross domestic product (GDP), inflation, employment, and other official statistics arrive as early estimates, then get revised as new source data arrive, seasonal adjustment is updated, or benchmarking changes are applied.
 Those revisions matter because they can change the narrative around turning points, policy mistakes, and forecast performance.
 
-[`reviser`](https://docs.ropensci.org/reviser/) is an R package for working with these vintage datasets directly.
+[`reviser`](https://docs.ropensci.org/reviser/) is an R package by Marc Burri and Philipp Wegmüller for working with these vintage datasets directly.
 A vintage dataset records multiple published versions of the same time series, so you can compare what was known at each release date with what was reported later.
 `reviser` gives you a consistent workflow to:
 
