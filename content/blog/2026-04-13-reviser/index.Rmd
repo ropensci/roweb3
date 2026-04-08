@@ -71,9 +71,9 @@ Economic data are rarely static.
 Gross domestic product (GDP), inflation, employment, and other official statistics arrive as early estimates, then get revised as new source data arrive, seasonal adjustment is updated, or benchmarking changes are applied.
 Those revisions matter because they can change the narrative around turning points, policy mistakes, and forecast performance.
 
-`reviser` is an R package for working with these vintage datasets directly.
+[`reviser`](https://docs.ropensci.org/reviser/) is an R package for working with these vintage datasets directly.
 A vintage dataset records multiple published versions of the same time series, so you can compare what was known at each release date with what was reported later.
-It gives you a consistent workflow to:
+`reviser` gives you a consistent workflow to:
 
 - reshape release vintages between wide and tidy formats;
 - extract revisions relative to earlier or final releases;
@@ -185,7 +185,7 @@ Two vignettes walk through nowcasting revisions with:
 Both approaches cast the revision problem into state-space form, which makes it possible to estimate the dynamics of news and noise in successive data releases.
 For technical users, this is the part of the package that turns revision analysis from retrospective diagnosis into a forecasting problem.
 
-Here is a compact `kk_nowcast()` example following the Kishor-Koenig workflow from the vignette.
+Here is a compact `kk_nowcast()` example following the Kishor-Koenig workflow from the [vignette](https://docs.ropensci.org/reviser/articles/nowcasting-revisions-kk.html) for the Euro Area (EA).  
 The key idea is to first identify an efficient release `e`, then estimate the revision system on the corresponding panel of releases.
 In this euro area example, the efficient-release step selects `e = 2`, so the model treats the third published release as the earliest one that is already close to the later benchmark.
 That is a useful substantive result on its own: it suggests that most of the economically relevant signal arrives within the first few releases, while later revisions are smaller adjustments around that path.
