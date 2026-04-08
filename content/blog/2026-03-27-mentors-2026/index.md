@@ -118,10 +118,14 @@ Fui [Campeona en la cohorte 2023–2024](https://ropensci.org/es/blog/2025/05/15
 
 ## Monika Ávila Márquez
 
-{{< figure src = "/img/team/monika-avila.jpg" width = "250" alt = "Foto de perfil de Monika Ávila Márquez" class = "pull-right" caption = "<strong>Monika Ávila Márquez </br> [Afiliación] </br> [Comunidades]</strong>">}}
+{{< figure src = "/img/team/monika-avila.jpg" width = "250" alt = "Foto de perfil de Monika Ávila Márquez" class = "pull-right" caption = "<strong>Monika Ávila Márquez </br> Universidad de Ginebra </br> R-Ladies, rOpenSci</strong>">}}
 
 
-[*Texto de presentación a completar por Monika.*]
+Hola, soy Monika, investigadora postdoctoral en estadística en la Universidad de Ginebra, donde trabajo en métodos de inferencia causal y aprendizaje automático para datos de panel. Tengo un doctorado en econometría y mi investigación se enfoca en el desarrollo de estimadores semiparamétricos que combinan técnicas de machine learning con fundamentos econométricos para la estimación de modelos de datos de panel. También trabajo en la selección de modelos de efectos mixtos y en inferencia causal con interferencia.
+
+Soy co-organizadora del capítulo de R-Ladies Ginebra, donde me esfuerzo por construir una comunidad de práctica inclusiva para personas que usan R en la investigación.
+
+Participo como mentora en este programa porque quiero retribuir todo lo que rOpenSci me ha dado. Esta comunidad me ha acompañado en mi desarrollo profesional —como fuente de recursos, como espacio de aprendizaje y como ejemplo de lo que significa hacer ciencia abierta con rigor y generosidad. Hoy tengo la oportunidad de ofrecer ese mismo acompañamiento a otras personas, y eso me entusiasma profundamente.
 
 </br>
 
