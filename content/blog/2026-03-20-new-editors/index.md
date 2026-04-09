@@ -44,7 +44,7 @@ I first connected with the rOpenSci community through the review process for the
 
 {{< imgtxt src = "/img/team/lucy-dagostino-mcgowan.jpg" width = "200" alt = "headshot of Lucy D'Agostino McGowan" >}}
 
-TODO: Add Bio
+Lucy D’Agostino McGowan is an associate professor in the Department of Statistical Sciences at Wake Forest University. She received her PhD in Biostatistics from Vanderbilt University and completed her postdoctoral training at Johns Hopkins University Bloomberg School of Public Health. Her research focuses on causal inference, statistical communication, analytic design theory, and data science pedagogy. Lucy can be found blogging at [livefreeordichotomize.com](https://livefreeordichotomize.com/), on Blue Sky [@LucyStats.bsky.social](https://bsky.app/profile/lucystats.bsky.social), and podcasting on [Casual Inference](https://open.spotify.com/show/1L8TqB17Peo7jNgXuPObwi).
 
 {{< /imgtxt >}}
 
