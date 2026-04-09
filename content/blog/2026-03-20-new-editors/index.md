@@ -12,10 +12,10 @@ tags:
   - Software Peer Review
   - editors
   - rOpenSci team
-featured: false
+featured: true
 description: Introducing two new editors for rOpenSci statistical software peer review
 params:
-  doi: ""
+  doi: 10.59350/v939m-qkj86
 ---
 
 At rOpenSci, we're continually grateful for the support and engagement of our community, who help make research open-source stronger, more inclusive, and more collaborative. The [software peer review program](/software-review/) continues to grow, and today we announce that our editorial team keeps expanding:
