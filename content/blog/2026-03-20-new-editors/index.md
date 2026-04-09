@@ -51,7 +51,7 @@ Lucy D’Agostino McGowan is an associate professor in the Department of Statist
 Lucy on [GitHub](https://github.com/LucyMcGowan), [Website](https://www.lucymcgowan.com/).
 
 {{< quote footer="Lucy D'Agostino McGowan" >}}
-TODO: Add quote
+I am so thrilled to join the rOpenSci editorial team! I love the rOpenSci community and mission and am grateful for the opportunity to contribute.
 
 {{< /quote >}}
 
