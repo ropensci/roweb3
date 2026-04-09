@@ -26,7 +26,7 @@ Meet our new editors!
 
 ## Alec Robitaille
 
-{{< imgtxt src = "/img/team/alec-robitaille.jpg" width = "200" alt = "headshot of Alec Robitaille">}}
+{{< imgtxt src = "/img/team/alec-robitaille.png" width = "200" alt = "headshot of Alec Robitaille">}}
 
 Alec is a graduate student at Memorial University of Newfoundland and Labrador (Canada) studying foraging ecology, habitat selection and social networks in caribou and other ungulates. He has been involved in many projects along the way, from measuring muskrat habitat and lake ice dynamics at McGill University to estimating drought sensitivity in Canada's forests with the Canadian Forestry Service. Passionate about teaching open science and programming, he regularly mentors peers, runs workshops, develops example repositories, and organizes a Bayesian stats colearning group. He maintains the package [spatsoc](https://github.com/ropensci/spatsoc) ([reviewed](https://github.com/ropensci/software-review/issues/237) by rOpenSci in 2018) and has developed smaller packages with diverse applications including remote sensing ([irg](https://cran.r-project.org/web/packages/irg/)), social networks ([hwig](https://cran.r-project.org/web/packages/hwig/)), camera trap monitoring ([camtrapmonitoring](https://github.com/robitalec/camtrapmonitoring)), and animal movement ([distanceto](https://cran.r-project.org/web/packages/distanceto/)). He reviewed the [ohun](https://github.com/ropensci/software-review/issues/568), [chopin](https://github.com/ropensci/software-review/issues/638), and [emodnet.wfs](https://github.com/ropensci/software-review/issues/653) packages for rOpenSci, guest edited for the [rredlist](https://github.com/ropensci/software-review/issues/663) package and is currently handling the reviews for the [ActiGlobe](https://github.com/ropensci/software-review/issues/732), and [saperlipopette](https://github.com/ropensci/software-review/issues/754) packages.
 
@@ -42,7 +42,7 @@ I first connected with the rOpenSci community through the review process for the
 
 ## Lucy D'Agostino McGowan
 
-{{< imgtxt src = "/img/team/lucy-dagostino-mcgowan.jpg" width = "200" alt = "headshot of Lucy D'Agostino McGowan" >}}
+{{< imgtxt src = "/img/team/lucy-dagonstino-mcgowan.jpg" width = "200" alt = "headshot of Lucy D'Agostino McGowan" >}}
 
 Lucy D’Agostino McGowan is an associate professor in the Department of Statistical Sciences at Wake Forest University. She received her PhD in Biostatistics from Vanderbilt University and completed her postdoctoral training at Johns Hopkins University Bloomberg School of Public Health. Her research focuses on causal inference, statistical communication, analytic design theory, and data science pedagogy. Lucy can be found blogging at [livefreeordichotomize.com](https://livefreeordichotomize.com/), on Blue Sky [@LucyStats.bsky.social](https://bsky.app/profile/lucystats.bsky.social), and podcasting on [Casual Inference](https://open.spotify.com/show/1L8TqB17Peo7jNgXuPObwi).
 
