@@ -1,66 +1,66 @@
 ---
-slug: "mentors-2026"
-title: Nuevo equipo de mentor(a|e)s con experiencia y nuevas voces.
+slug: mentors-2026
+title: New mentoring team with experienced mentors and new voices.
 author:
-  - Alber Hamersson Sánchez Ipia
-  - Pablo Paccioretti
-  - Erick Navarro Delgado
-  - Guadalupe Pascal
-  - Andrea Gomez Vargas
-  - Monika Avila Marquez
-  - Luis D. Verde Arregoitia
-  - Francisco Cardozo
-  - Elio Campitelli
-  - Pao Corrales
-  - Yanina Bellini Saibene
-date: 2026-03-27
+- Alber Hamersson Sánchez Ipia
+- Pablo Paccioretti
+- Erick Navarro Delgado
+- Guadalupe Pascal
+- Andrea Gomez Vargas
+- Monika Avila Marquez
+- Luis D. Verde Arregoitia
+- Francisco Cardozo
+- Elio Campitelli
+- Pao Corrales
+- Yanina Bellini Saibene
+date: '2026-03-27'
 tags:
-  - programa campeones
-  - mentoria
-  - comunidad
+- champion program
+- mentor
+- community
 params:
-  doi: ""
-
-description: Conocé al nuevo equipo de mentor(a|e)s que durante un año van a acompañar a nuestros campeon(a|e)s en sus proyectos, compartiendo experiencia, guía y entusiasmo.
+  doi: 10.59350/gdrkz-acg32
+description: Meet the new team of mentors who will accompany our champions in their
+  projects for a year, sharing experience, guidance and enthusiasm.
 editor:
-  - Steffi LaZerte
+- Steffi LaZerte
 ---
 
-¡Nos alegra presentar al nuevo equipo de mentor(a|e)s del programa de Campeon(e|a)s de rOpenSci 2026! Este año contamos con diez personas comprometidas con la ciencia abierta, que suman una rica diversidad de trayectorias y perspectivas. El equipo está integrado por personas que se unen al programa por primera vez, por ex campeon(a|e)s que regresan ahora en el rol de mentoras y mentores, y por mentores con experiencia en ediciones anteriores que vuelven para seguir fortaleciendo esta comunidad.
+We are excited to introduce the new team of mentors for the rOpenSci 2026 Champion program! This year we have ten individuals committed to open science, bringing together a rich diversity of backgrounds and perspectives. The team is made up of people joining the program for the first time, former champions who are returning as mentors, and mentors with experience from previous editions who are returning to continue to strengthen this community.
 
-Estas personas provienen de distintas disciplinas y países y son voces activas en la comunidad de R en América Latina y más allá. Con su acompañamiento, el nuevo grupo de Campeon(e|a)s no solo desarrollará sus proyectos, sino que también crecerá como líderes en ciencia abierta y desarrollo de software de investigación.
+These people come from different disciplines and countries and are active voices in the R community in Latin America and beyond. With their guidance, the new group of Campeon(e|a)s will not only develop their projects, but also grow as leaders in open science and research software development.
 
-## Personas que se suman por primera vez
+## First-time members
 
 ## Alber Hamersson Sánchez Ipia
 
 {{< figure src = "/img/team/alber-sanchez.jpg" width = "250" alt = "Foto de perfil de Alber Hamersson Sánchez Ipia" class = "pull-left" caption = "<strong>Alber Hamersson Sánchez Ipia </br> Instituto Nacional de Investigación Espacial del Brasil </br> rOpenSci</strong>">}}
 
-¡Hola! Soy Alber y voy a ser mentor de rOpenSci de este año.
+Hi, I'm Alber and I'm going to be this year's rOpenSci mentor.
 
-Nací en Colombia, en el departamento del Cauca, en una de las regiones
-más montañosas del país, llamada Tierradentro. Soy ingeniero Catastral y
-Geodesta de la Universidad Distrital Francisco José de Caldas en
-Colombia, en donde hice una maestría en Ciencias de la Información y las
-Comunicaciones; adicionalmente, hice otra maestría en GeoInformática en
-la Universidad de Münster, en Alemania, y después hice un doctorado en
-Ciencia del Sistema Terrestre, en el Instituto Nacional de Investigación
-Espacial del Brasil (INPE). Actualmente, vivo y trabajo en Brasil y me
-desempeño como asistente de investigación en el mismo INPE.
+I was born in Colombia, in the department of Cauca, in one of the most important regions of the country.
+of the most mountainous regions of the country, called Tierradentro. I am a cadastral engineer and
+Geodesist from the Universidad Distrital Francisco José de Caldas, in
+Colombia, where I did a master's degree in Information Science and Geodesy.
+Communications; additionally, I did another master's degree in GeoInformatics at
+at the University of Münster, Germany, and then I did a Ph.
+D. in Earth System Science at the National Research Institute of the
+Research Institute of Brazil (INPE). Currently, I live and work in Brazil and
+as a research assistant at the same INPE.
 
-Parte de mi trabajo diario consiste en escribir código en R para
-procesar datos espaciales y asegurar la reproducibilidad de los
-resultados de experimentos científicos, por lo que estoy familiarizado
-con el desarrollo de paquetes de R. Adicionalmente, soy coautor del
-paquete segmetric, el cual se encuentra actualmente disponible en CRAN,
-y hago mantenimiento de una de las lecciones de Data Carpentry,
-específicamente la de introducción a R para datos geoespaciales.
+Part of my daily work consists of writing code in R for
+process spatial data and ensure the reproducibility of the data.
+results of scientific experiments, so I am familiar with R code.
+with the development of R packages. Additionally, I am a co-author of the
+segmetric package, which is currently available on CRAN,
+and I maintain one of the Data Carpentry lessons,
+specifically the introduction to R for geospatial data.
 
-Me interesa compartir el conocimiento y la experiencia que he acumulado
-hasta ahora con quien vaya a escribir software científico o estadístico,
-particularmente en español. Por este motivo me uno al rOpenSci, donde
-espero ser parte y ayudar a formar una comunidad de desarrolladores
-científicos.
+I am interested in sharing the knowledge and experience I have accumulated.
+so far with anyone who is going to write scientific or statistical software,
+particularly in Spanish. For this reason I am joining the rOpenSci, where
+I hope to be part of it and help to form a community of developers.
+scientists.
 
 </br>
 
@@ -70,25 +70,25 @@ científicos.
 
 {{< figure src = "/img/team/pablo-paccioretti.jpg" width = "250" alt = "Foto de perfil de Pablo Paccioretti" class = "pull-right" caption = "<strong>Pablo Paccioretti </br> Universidad Nacional de Córdoba (UNC) & CONICET, Argentina </br> rOpenSci</strong>">}}
 
-Hola! soy Pablo, Ingeniero Agrónomo y Doctor por la Universidad Nacional de Córdoba (Argentina), donde me desempeño como investigador y docente. Desde mis años de estudiante me interesó la Estadística, lo que orientó mi trabajo hacia el análisis de datos. En particular, aplico y desarrollo metodologías y herramientas de software para analizar datos georreferenciados provenientes de ensayos a campo y plataformas de monitoreo agrícola.
+Hello! I am Pablo, Agricultural Engineer and PhD from the National University of Córdoba (Argentina), where I work as a researcher and teacher. Since my student years I have been interested in Statistics, which oriented my work towards data analysis. In particular, I apply and develop methodologies and software tools to analyze georeferenced data from field trials and agricultural monitoring platforms.
 
-Me interesa el desarrollo de herramientas abiertas para el procesamiento y análisis de datos. He desarrollado software científico, incluyendo paquetes de R orientados al análisis de datos georreferenciados.
+I am interested in the development of open tools for data processing and analysis. I have developed scientific software, including R packages oriented to georeferenced data analysis.
 
-Mi participación en el Programa de Campeones surge del interés por fortalecer los vínculos entre el análisis de datos aplicado y la programación, promoviendo buenas prácticas en ambas áreas. A través de este programa espero contribuir a la comunidad compartiendo experiencias y recursos, y al mismo tiempo aprender de otros profesionales que trabajan en distintos contextos y disciplinas.
-
-</br>
+My participation in the Champions Program arises from an interest in strengthening the links between applied data analysis and programming, promoting good practices in both areas. Through this program I hope to contribute to the community by sharing experiences and resources, and at the same time learn from other professionals working in different contexts and disciplines.
 
 </br>
 
-## De campeon(a|e)s a mentor(a|e)s
+</br>
+
+## From champion(s) to mentor(s).
 
 ## Erick Navarro Delgado
 
 {{< figure src = "/img/team/erick-navarro.jpg" width = "250" alt = "Foto de perfil de Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> rOpenSci</strong>">}}
 
-¡Hola! Mi nombre es Erick Navarro, y soy licenciado en biología por la Universidad Nacional Autónoma de México, y candidato a Doctor en Bioinformática en The University of British Columbia. Nací y crecí en la Ciudad de México, pero actualmente vivo en Vancouver. Mi línea de investigación está enfocada en desarrollar herramientas computacionales para entender cómo los factores genéticos y exposiciones ambientales/experiencias vividas actúan de forma conjunta o separada para moldear nuestro panorama molecular. 
+Hello! My name is Erick Navarro, and I have a degree in biology from the Universidad Nacional Autónoma de México, and I am a PhD candidate in Bioinformatics at The University of British Columbia. I was born and raised in Mexico City, but currently live in Vancouver. My line of research is focused on developing computational tools to understand how genetic factors and environmental exposures/lived experiences act together or separately to shape our molecular landscape.
 
-Me entusiasma participar en el programa de rOpenSci porque creo que la ciencia abierta y accesible es esencial para conducir investigación relevante cuyos resultados beneficien a todas los personas en nuestra sociedad. En este programa espero conectar con nuevos miembros de la comunidad de ciencia abierta, compartir mis conocimientos de programación, e impulsar el desarrollo de software en Latinoamérica. 
+I am excited to participate in the rOpenSci program because I believe that open and accessible science is essential for conducting relevant research whose results benefit everyone in our society. In this program I hope to connect with new members of the open science community, share my programming skills, and drive software development in Latin America.
 
 </br>
 
@@ -96,11 +96,11 @@ Me entusiasma participar en el programa de rOpenSci porque creo que la ciencia a
 
 {{< figure src = "/img/team/guadalupe-pascal.jpg" width = "250" alt = "Foto de perfil de Guadalupe Pascal" class = "pull-right" caption = "<strong>Guadalupe Pascal </br> UNLZ-UCA-UGR </br>rOpenSci</strong>">}}
 
-Hola! Mi nombre es Guadalupe. 
+Hello, my name is Guadalupe.
 
-Soy investigadora y coordinadora de proyectos en optimización y ciencia de datos para la toma de decisiones en sistemas sociales, con una perspectiva transfeminista, de ciencia abierta y con mirada regional. También soy profesora asociada de optimización y métodos cuantitativos (UNLZ-UCA) y profesora en cursos de ciencia de datos e inteligencia artificial (UGR). Soy máster en Ingeniería en Sistemas de Decisión por la URJC (España) e ingeniera industrial por la UNLZ (Argentina), estudiante de doctorado en Tecnologías de la Información e Ingeniería (URJC-UNLZ), diplomada en Géneros y Sociedad (UNLZ), diplomada en Neurociencia Cognitiva (Neurotransmitiendo) y diplomada en Educación en la Era de la Inteligencia Artificial (UMET). Formo parte de la Cátedra Abierta Latinoamericana Matilda y las mujeres en ingeniería, como miembro fundadora y referente de la Red de Género de las Facultades de Ingeniería de Argentina. 
+I am a researcher and project coordinator in optimization and data science for decision making in social systems, with a transfeminist, open science and regional perspective. I am also associate professor of optimization and quantitative methods (UNLZ-UCA) and lecturer in data science and artificial intelligence courses (UGR). I am a Master in Decision Systems Engineering from URJC (Spain) and Industrial Engineer from UNLZ (Argentina), PhD student in Information Technology and Engineering (URJC-UNLZ), graduate in Gender and Society (UNLZ), graduate in Cognitive Neuroscience (Neurotransmitting) and graduate in Education in the Age of Artificial Intelligence (UMET). I am part of the Cátedra Abierta Latinoamericana Matilda y las mujeres en ingeniería, as founding member and referent of the Red de Género de las Facultades de Ingeniería de Argentina.
 
-Actualmente también formo parte de la comunidad de rOpenSci como campeona de la cohorte 2025-2026, y me entusiasma mucho ser mentora del presente programa por diversos motivos. Por un lado, debido a la profunda gratificación que me brinda estar comprometida con la cohorte actual. Desde una mirada sencilla, la calidad y la rigurosidad con que se implementa el programa en todas sus instancias tienen impactos directos en la calidad y la rigurosidad de mi propio trabajo. Y desde una mirada integral, eso constituye una evidencia sumamente valiosa y contundente para recordar la sinergia de las comunidades de práctica en el desarrollo de habilidades y en la producción de conocimientos situados: el programa de campeones de rOpenSci es un ejemplo concreto y real de que en las comunidades se comparten saberes y, fundamentalmente, valores, perspectivas y aprendizajes encarnados. Por otro lado, me ilusiona el desafío que supone para mí ser mentora en este programa, porque, si bien es un rol que ya he desempeñado en otros entornos, nunca lo he hecho en el desarrollo de un paquete en R de otra persona. Por último, me gustaría trabajar en este rol para compartir en comunidad las experiencias que he tenido como mentora y mentee. Creo que acompañarnos en un proceso formativo y transformador es una de las dimensiones más humanas de este ecosistema en el que trabajamos. 
+I am also currently part of the rOpenSci community as a champion of the 2025-2026 cohort, and I am very excited to be a mentor for this program for several reasons. On the one hand, because of the deep gratification I get from being engaged with the current cohort. From a simple point of view, the quality and rigor with which the program is implemented in all its instances have a direct impact on the quality and rigor of my own work. And from an integral point of view, this is extremely valuable and convincing evidence of the synergy of communities of practice in the development of skills and the production of situated knowledge: the rOpenSci champions program is a concrete and real example of how communities share knowledge and, fundamentally, values, perspectives and embodied learning. On the other hand, I am looking forward to the challenge of being a mentor in this program because, although it is a role that I have played in other environments, I have never done it in the development of someone else's R package. Finally, I would like to work in this role to share in community the experiences I have had as a mentor and mentee. I believe that accompanying each other in a formative and transformative process is one of the most human dimensions of this ecosystem in which we work.
 
 </br>
 
@@ -108,52 +108,49 @@ Actualmente también formo parte de la comunidad de rOpenSci como campeona de la
 
 {{< figure src = "/img/team/andrea-vargas.png" width = "250" alt = "Foto de perfil de Andrea Gomez Vargas" class = "pull-left" caption = "<strong>Andrea Gomez Vargas </br> INDEC </br> R-Ladies, rOpenSci</strong>">}}
 
-Soy colombiana de origen y argentina por elección, donde hoy vivo, desarrollo mi carrera y participo activamente en la comunidad de R. Soy socióloga y trabajo en la oficina nacional de estadística de Argentina, en el área de estadísticas sociales, donde analizo información sobre la población para comprender desigualdades y condiciones de vida.
+I am Colombian by origin and Argentinean by choice, where today I live, develop my career and actively participate in the community of R. I am a sociologist and work in the national statistics office of Argentina, in the area of social statistics, where I analyze information about the population to understand inequalities and living conditions.
 
-La comunidad de R es mi espacio favorito para compartir conocimiento y construir colectivamente. Actualmente soy co-organizadora de [R en Buenos Aires](https://renbaires.github.io/) y [RSE Argentina](https://rse-argentina.github.io/), y además participo en iniciativas como R-Ladies, LatinR y rOpenSci, contribuyendo al fortalecimiento de redes a nivel local, regional y global,  promoviendo el aprendizaje y uso de herramientas abiertas en ciencia de datos.
+The R community is my favorite space to share knowledge and build collectively. I am currently co-organizer of [R in Buenos Aires](https://renbaires.github.io/) y [CSR Argentina](https://rse-argentina.github.io/) I also participate in initiatives such as R-Ladies, LatinR and rOpenSci, contributing to the strengthening of networks at local, regional and global level, promoting the learning and use of open tools in data science.
 
-Fui [Campeona en la cohorte 2023–2024](https://ropensci.org/es/blog/2025/05/15/puentes-comunidades-campeones-ropensci/), donde desarrollé [{ARcenso}, un paquete que facilita el acceso a datos censales históricos de Argentina](https://soyandrea.github.io/arcenso/). Me motiva continuar en el programa como mentora para seguir impulsando el conocimiento abierto y acompañar a otras personas en el desarrollo de proyectos con impacto en sus comunidades.
+I was [Champion in the 2023-2024 cohort.](https://ropensci.org/es/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) where I developed [{ARcenso} a package that facilitates access to historical census data for Argentina.](https://soyandrea.github.io/arcenso/). I am motivated to continue in the program as a mentor to continue promoting open knowledge and accompany other people in the development of projects with impact on their communities.
 
 </br>
 
-## Monika Ávila Márquez
+## Monika Avila Marquez
 
 {{< figure src = "/img/team/monika-avila.jpg" width = "250" alt = "Foto de perfil de Monika Ávila Márquez" class = "pull-right" caption = "<strong>Monika Ávila Márquez </br> Universidad de Ginebra </br> R-Ladies, rOpenSci</strong>">}}
 
+Hi, I am Monika, a postdoctoral researcher in statistics at the University of Geneva, where I work on causal inference and machine learning methods for panel data. I have a PhD in econometrics and my research focuses on the development of semi-parametric estimators that combine machine learning techniques with econometric foundations for estimating panel data models. I also work on mixed effects model selection and causal inference with interference.
 
-Hola, soy Monika, investigadora postdoctoral en estadística en la Universidad de Ginebra, donde trabajo en métodos de inferencia causal y aprendizaje automático para datos de panel. Tengo un doctorado en econometría y mi investigación se enfoca en el desarrollo de estimadores semiparamétricos que combinan técnicas de machine learning con fundamentos econométricos para la estimación de modelos de datos de panel. También trabajo en la selección de modelos de efectos mixtos y en inferencia causal con interferencia.
+I am co-organizer of the R-Ladies Geneva chapter, where I strive to build an inclusive community of practice for people using R in research.
 
-Soy co-organizadora del capítulo de R-Ladies Ginebra, donde me esfuerzo por construir una comunidad de práctica inclusiva para personas que usan R en la investigación.
-
-Participo como mentora en este programa porque quiero retribuir todo lo que rOpenSci me ha dado. Esta comunidad me ha acompañado en mi desarrollo profesional —como fuente de recursos, como espacio de aprendizaje y como ejemplo de lo que significa hacer ciencia abierta con rigor y generosidad. Hoy tengo la oportunidad de ofrecer ese mismo acompañamiento a otras personas, y eso me entusiasma profundamente.
+I participate as a mentor in this program because I want to give back for all that rOpenSci has given me. This community has accompanied me in my professional development - as a source of resources, as a learning space and as an example of what it means to do open science with rigor and generosity. Today I have the opportunity to offer that same support to others, and that excites me deeply.
 
 </br>
 
-## Mentor(a|e)s que regresan
+## Returning Mentor(a|e)s
 
 ## Luis D. Verde Arregoitia
 
 {{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Foto de perfil de Luis D. Verde Arregoitia" class = "pull-left" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL</br>LatinR, rOpenSci, The Carpentries</strong>">}}
 
-Hola, soy Luis D. Verde Arregoitia, mexicano viviendo en Xalapa, México. Biólogo y Doctor en Ciencias Biológicas. Soy especialista en mamíferos con experiencia en programación R para el análisis de datos, visualización y modelado estadístico. También soy instructor certificado y autor de varios paquetes. 
+Hi, I'm Luis D. Verde Arregoitia, Mexican living in Xalapa, Mexico. Biologist and PhD in Biological Sciences. I am a mammal specialist with experience in R programming for data analysis, visualization and statistical modeling. I am also a certified instructor and author of several packages.
 
-Fui mentor en dos cohortes anteriores del programa donde ha apoyado a desarrolladores de software en de América Latina y regreso con mucho entusiasmo a esta nueva cohorte.
+I was a mentor in two previous cohorts of the program where I have supported software developers in Latin America and I return with much enthusiasm to this new cohort.
 
 ## Francisco Cardozo
 
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
 
-
-
 ## Elio Campitelli
 
 {{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University - rOpenSci</strong>">}}
 
-Soy de Argentina pero hace dos años me mudé a Australia porque es el único otro país que empieza con A y usa el mismo tipo de enchufe. 
+I am from Argentina but two years ago I moved to Australia because it is the only other country that starts with A and uses the same type of plug.
 
-Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones entre el hielo marino de la Antártida y la atmósfera.
+I am doing a postdoc at Monash University researching interactions between Antarctic sea ice and the atmosphere.
 
-Ya fui mentore en ediciones anteriores del programa. Fue una experiencia genial que quiero repetir una vez más.
+I was already a mentor in previous editions of the program. It was a great experience that I want to repeat once again.
 
 </br>
 
@@ -169,14 +166,16 @@ Ya fui mentore en ediciones anteriores del programa. Fue una experiencia genial 
 
 {{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Foto de perfil de Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
 
-Tengo un doctorado en Ciencias Atmosféricas por la Universidad de Buenos Aires (Argentina) y actualmente trabajo en Australia para el _21st Century Weather Centre_ como ingeniera de software de investigación.
+I have a PhD in Atmospheric Sciences from the University of Buenos Aires (Argentina) and am currently working in Australia for the *21st Century Weather Centre* as a research software engineer.
 
-Participo activamente en R-Ladies, R Forwards, The Carpentries, LatinR y rOpenSci, aprendiendo y compartiendo conocimientos sobre R en la comunidad. En 2023 participé en el Programa de Campeones como Campeona, presentando el paquete agroclimatico al proceso de revisión por pares de rOpenSci. Aprendí mucho y conecté con gente de todo el mundo. ¡Fue una experiencia excelente!
+I actively participate in R-Ladies, R Forwards, The Carpentries, LatinR and rOpenSci, learning and sharing knowledge about R in the community. In 2023 I participated in the Champions Program as a Champion, submitting the agroclimate package to the rOpenSci peer review process. I learned a lot and connected with people from all over the world. it was an excellent experience!
 
-Me apasiona enseñar y ayudar a otras personas a crecer en lo que hacen, a acceder a nuevas oportunidades y a desarrollarse profesionalmente y como personas. Estoy muy contenta de participar de nuevo este año como mentora en el Programa de Campeones de América Latina.
+I am passionate about teaching and helping other people grow in what they do, access new opportunities and develop professionally and as individuals. I am very excited to participate again this year as a mentor in the Latin America Champions Program.
 
-## Lo que viene
+## What's next
 
-Estamos felices de contar con este equipo diverso y talentoso de mentores y mentoras, que encarna los valores de colaboración y compromiso con el crecimiento colectivo. Su acompañamiento será clave para que los y las nuevas Campeon(a|e)s puedan llevar adelante sus ideas y proyectos, y contribuir al desarrollo de una comunidad de ciencia abierta más fuerte y diversa.
+We are happy to have this diverse and talented team of mentors, who embody the values of collaboration and commitment to collective growth. Their support will be key to helping the new Champions move their ideas and projects forward and contribute to the development of a stronger and more diverse open science community.
 
-En estos momentos estamos ultimando la selección de Campeonas y Campeones y estaremos anunciándoles próximamente.
+We are currently finalizing the selection of Champions and will be announcing them soon.
+
+
