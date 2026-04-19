@@ -175,6 +175,16 @@ Participo activamente en R-Ladies, R Forwards, The Carpentries, LatinR y rOpenSc
 
 Me apasiona enseñar y ayudar a otras personas a crecer en lo que hacen, a acceder a nuevas oportunidades y a desarrollarse profesionalmente y como personas. Estoy muy contenta de participar de nuevo este año como mentora en el Programa de Campeones de América Latina.
 
+## Milagros Mendoza
+
+{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-left" caption = "<strong>Milagros Mendoza </br> Universidade Federal Rural de Pernambuco</br> R-Ladies Natal, rOpenSci</strong>">}}
+
+Hola mi nombre es Milagros, soy ecóloga y estadística, motivada por comprender los sistemas complejos que entrelazan la naturaleza, la sociedad y los datos. A lo largo de mi trayectoria, he trabajado con información interdisciplinar en el campo de clima, demografia y ecologia, buscando siempre traducirla en conocimiento que dialogue con la realidad y aporte a decisiones más conscientes. Actualmente realizo un posdoctorado en el Instituto Tecnológico Vale, en Brasil, donde formo parte del grupo de investigación en territorios y recursos naturales.
+
+Decidí desempeñarme como mentora en Ropensciene porque me siento motivada en contribuir a que más personas desarrollen confianza en el uso de herramientas científicas, consoliden su pensamiento crítico y se posicionen activamente dentro de la comunidad académica. En este sentido, concibo la mentoría como un espacio formativo orientado al diálogo y al crecimiento mútuo.   
+
+
+
 ## Lo que viene
 
 Estamos felices de contar con este equipo diverso y talentoso de mentores y mentoras, que encarna los valores de colaboración y compromiso con el crecimiento colectivo. Su acompañamiento será clave para que los y las nuevas Campeon(a|e)s puedan llevar adelante sus ideas y proyectos, y contribuir al desarrollo de una comunidad de ciencia abierta más fuerte y diversa.

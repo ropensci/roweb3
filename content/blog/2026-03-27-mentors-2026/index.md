@@ -142,6 +142,7 @@ I was a mentor in two previous cohorts of the program where I have supported sof
 
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
 
+
 ## Elio Campitelli
 
 {{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University - rOpenSci</strong>">}}
@@ -171,6 +172,14 @@ I have a PhD in Atmospheric Sciences from the University of Buenos Aires (Argent
 I actively participate in R-Ladies, R Forwards, The Carpentries, LatinR and rOpenSci, learning and sharing knowledge about R in the community. In 2023 I participated in the Champions Program as a Champion, submitting the agroclimate package to the rOpenSci peer review process. I learned a lot and connected with people from all over the world. it was an excellent experience!
 
 I am passionate about teaching and helping other people grow in what they do, access new opportunities and develop professionally and as individuals. I am very excited to participate again this year as a mentor in the Latin America Champions Program.
+
+## Milagros Mendoza
+
+{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Milagros Mendoza's Profile Picture " class = "pull-left" caption = "<strong>Milagros Mendoza </br> Universidade Federal Rural de Pernambuco</br> R-Ladies Natal, rOpenSci</strong>">}}
+
+Hello, my name is Milagros. I am an ecologist and statistician driven by a desire to understand the complex systems that intertwine nature, society, and data. Throughout my career, I have worked with interdisciplinary data in the fields of climate, demography, and ecology, always striving to translate that data into knowledge that engages with reality and contributes to more informed decision-making. I am currently pursuing a postdoctoral fellowship at the Vale Institute of Technology in Brazil, where I am part of the research group on territories and natural resources.
+
+I decided to serve as a mentor at rOpenSci because I am motivated to help more people develop confidence in using scientific tools, strengthen their critical thinking, and actively engage within the academic community. In this sense, I view mentoring as a learning space focused on dialogue and mutual growth.
 
 ## What's next
 
