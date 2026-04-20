@@ -52,7 +52,7 @@ Nosso pacote recentemente incorporado [eia](https://github.com/ropensci/eia/blob
 
 O [diretório de vinhetas do eia](https://github.com/ropensci/eia/blob/95cd1e10ebda4143fd4fe24cf5836b10fa757a31/vignettes/precompile.R) contém os arquivos de entrada `Rmd.orig` e os arquivos `.Rmd` pré-computados pelo autor do pacote. Observe também que o diretório de vinhetas contém um script útil chamado [precompile.R](https://github.com/ropensci/jstor/blob/de60013deed4a129617a9ead25a642145c2190a6/vignettes/precompile.R) que facilita para o autor do pacote atualizar as vinhetas de saída localmente.
 
-Você também pode criar um script para mover as figuras de vinheta para o local correto como o `jstor` faz com seu pacote [precompile.R](https://github.com/ropensci/jstor/blob/de60013deed4a129617a9ead25a642145c2190a6/vignettes/precompile.R) script.
+Você também pode criar um script para mover as figuras de vinheta para o local correto como o `jstor` faz com o seu pacote [precompile.R](https://github.com/ropensci/jstor/blob/de60013deed4a129617a9ead25a642145c2190a6/vignettes/precompile.R) script.
 
 ## Não se esqueça de atualizar
 
