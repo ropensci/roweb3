@@ -48,6 +48,12 @@ Now let's dive into the activity at and around rOpenSci!
 
 TODO YANI?
 
+### Collaborating between Bioconductor and R-universe on Development of Common Infrastructure
+
+Bioconductor is collaborating with R-universe to gradually modernize parts of its infrastructure, while accommodating the project’s scale, governance, and established processes. 
+In turn, Bioconductor is helping R-universe expand and refine its features as we learn to serve the complex needs of the Bioconductor community.
+Read more in the [blog post](/blog/2026/04/08/r-universe-bioc/).
+
 ### Yanina Bellini Saibene at R/Medicine 2026
 
 Yanina Bellini Saibene will deliver her keynote talk ["Software Sustainability and Community Management"](/events/r-medicine-2026-keynote/) on Thursday May 7th, 11:15AM–12:15PM ET.
@@ -311,7 +317,7 @@ text <- nice_string(all_releases)
 
 The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the last newsletter: `r text`.
 
-Post on dfms release: [Releasing dfms 1.0: Fast and Feature-Rich Estimation of Dynamic Factor Models in R](https://sebkrantz.github.io/Rblog/2026/01/29/releasing-dfms-1-0-fast-and-feature-rich-estimation-of-dynamic-factor-models-in-r/).
+The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney!
 
 ## Software Peer Review
 
