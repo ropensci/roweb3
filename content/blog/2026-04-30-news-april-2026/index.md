@@ -18,6 +18,12 @@ rmd_hash: 9d0e9f77a0318920
 
 Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/04/30/news-april-2026). Now let's dive into the activity at and around rOpenSci!
 
+## Tomáš Kalibera (1978–2026)
+
+The rOpenSci team is deeply saddened at the loss of Tomáš Kalibera, a member of R-Core and contributor to the R community for almost 10 years, who passed away on April 1.  Our thoughts are with Tomáš's friends and family at this time.  
+
+Read [Jan Vitek's remembrance of Tomáš](https://prl-prg.github.io/tomas-kalibera.html).
+
 ## rOpenSci HQ
 
 ### New editors Alec Robitaille and Lucy D'Agostino McGowan
