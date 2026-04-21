@@ -10,7 +10,7 @@ description: Bioconductor collaboration, R/Medecine, goodpractice, targets VSCod
 params:
   last_newsletter: '2026-03-30'
   doi: "10.59350/4qpnx-96e10"
-rmd_hash: 9d0e9f77a0318920
+rmd_hash: 274cf8086df462a5
 
 ---
 
@@ -18,9 +18,9 @@ rmd_hash: 9d0e9f77a0318920
 
 Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/04/30/news-april-2026). Now let's dive into the activity at and around rOpenSci!
 
-## Tomáš Kalibera (1978–2026)
+## Tomáš Kalibera (1978--2026)
 
-The rOpenSci team is deeply saddened at the loss of Tomáš Kalibera, a member of R-Core and contributor to the R community for almost 10 years, who passed away on April 1.  Our thoughts are with Tomáš's friends and family at this time.  
+The rOpenSci team is deeply saddened at the loss of Tomáš Kalibera, a member of R-Core and contributor to the R community for almost 10 years, who passed away on April 1.  Our thoughts are with Tomáš's friends and family at this time. 
 
 Read [Jan Vitek's remembrance of Tomáš](https://prl-prg.github.io/tomas-kalibera.html).
 
@@ -92,13 +92,13 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 The following eight packages have had an update since the last newsletter: [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.6.0`](https://github.com/ropensci/osmextract/releases/tag/v0.6.0)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.1`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.1)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.5`](https://github.com/ropensci/readODS/releases/tag/v2.3.5)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.5.2`](https://github.com/ropensci/git2rdata/releases/tag/v0.5.2)), [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v3.0.0`](https://github.com/ropensci/weatherOz/releases/tag/v3.0.0)), [promoutils](https://docs.ropensci.org/promoutils "Utilities for Promoting rOpenSci on Social Media") ([`v0.5.0`](https://github.com/ropensci-org/promoutils/releases/tag/v0.5.0)), [allcontributors](https://docs.ropensci.org/allcontributors "Acknowledge all Contributors to a Project") ([`v0.2.3`](https://github.com/ropensci/allcontributors/releases/tag/v0.2.3)), and [reviser](https://docs.ropensci.org/reviser "Analyzing Revisions in Real-Time Time Series Vintages") ([`v0.1.1`](https://github.com/ropensci/reviser/releases/tag/v0.1.1)).
 
-The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney!
+The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney. NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issues/116#issuecomment-4280937012).
 
 ## Software Peer Review
 
 <div class="highlight">
 
-There are sixteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
+There are seventeen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
 -   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
@@ -136,7 +136,9 @@ There are sixteen recently closed and active submissions and 4 submissions on ho
 
     -   [fcmconfr](https://github.com/ropensci/software-review/issues/740), Fuzzy Cognitive Map Analysis in R. Submitted by [benroston](https://github.com/bhroston). (Stats).
 
--   Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+-   Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+
+    -   [EpiStrainDynamics](https://github.com/ropensci/software-review/issues/763), Infer temporal trends of multiple pathogens. Submitted by [Saras Windecker](http://www.smwindecker.com).
 
     -   [lakefetch](https://github.com/ropensci/software-review/issues/762), Calculate Fetch and Wave Exposure for Lake Sampling Points. Submitted by [jeremylfarrell](https://github.com/jeremylfarrell).
 

@@ -41,6 +41,13 @@ Dear rOpenSci friends, it's time for our monthly news roundup!
 You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
+## Tomáš Kalibera (1978–2026)
+
+The rOpenSci team is deeply saddened at the loss of Tomáš Kalibera, a member of R-Core and contributor to the R community for almost 10 years, who passed away on April 1.  
+Our thoughts are with Tomáš's friends and family at this time.  
+
+Read [Jan Vitek's remembrance of Tomáš](https://prl-prg.github.io/tomas-kalibera.html).
+
 ## rOpenSci HQ
 
 ### New editors Alec Robitaille and Lucy D’Agostino McGowan
@@ -323,7 +330,8 @@ text <- nice_string(all_releases)
 
 The following `r if (length(releases) > 1) english(length(releases))` package`r if (length(releases) > 1) "s"` `r if (length(releases) > 1) "have" else "has"` had an update since the last newsletter: `r text`.
 
-The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney!
+The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney.
+NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issues/116#issuecomment-4280937012).
 
 ## Software Peer Review
 
