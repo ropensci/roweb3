@@ -143,7 +143,7 @@ Fui mentor en dos cohortes anteriores del programa donde ha apoyado a desarrolla
 
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
 
-
+Me llamo Francisco Cardozo. Soy originario de Colombia y vine a Estados Unidos para cursar mis estudios de doctorado. Actualmente trabajo en la Universidad de Miami como investigador posdoctoral en el centro de investigación IMPAC, una institución dedicada a ampliar nuestros conocimientos sobre el desarrollo de los adolescentes. He participado en el Programa de Campeon(a|e)s de rOpenSci en varias ocasiones. Gran parte de mi labor profesional se ha centrado en el diseño de investigaciones y la aplicación de métodos estadísticos, especialmente mediante el uso del entorno de software R.
 
 ## Elio Campitelli
 
