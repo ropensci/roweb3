@@ -589,6 +589,18 @@
     "home": "https://www.njtierney.com/"
   },
   {
+    "name": "Joel Nitta",
+    "affiliation": "Chiba University",
+    "github": "joelnitta",
+    "url": "https://joelnitta.com/",
+    "image": "/img/team/joel-nitta.png",
+    "roles": [
+      "editor"
+    ],
+    "stats": true,
+    "home": "https://joelnitta.com/"
+  },
+  {
     "name": "Kelly Hondula",
     "url": "https://www.sesync.org/users/khondula",
     "image": "/img/team/kelly-hondula.jpg",
