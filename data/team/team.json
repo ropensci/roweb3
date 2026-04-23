@@ -577,6 +577,18 @@
     "home": "https://robitalec.ca/"
   },
   {
+    "name": "Nicholas Tierney",
+    "affiliation": "",
+    "github": "njtierney",
+    "url": "https://www.njtierney.com/",
+    "image": "/img/team/nick-tierney.jpg",
+    "roles": [
+      "editor"
+    ],
+    "stats": true,
+    "home": "https://www.njtierney.com/"
+  },
+  {
     "name": "Joel Nitta",
     "affiliation": "Chiba University",
     "github": "joelnitta",
