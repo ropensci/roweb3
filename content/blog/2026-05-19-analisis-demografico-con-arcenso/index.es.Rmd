@@ -1,0 +1,336 @@
+---
+title: 'De Datos Censales a Análisis Demográficos Con {arcenso}: Un Flujo De Trabajo
+  Reproducible en R'
+author: 
+- Andrea Gomez Vargas
+- Emanuel Ciardullo
+date: '2026-05-19'
+slug: analisis-demografico-con-arcenso
+package_version: 0.2.1
+tags:
+  - acceso a datos
+  - censo
+  - arcenso
+  - Argentina
+  - packages
+---
+
+Trabajar con datos censales puede ser complejo si no se cuenta con un flujo de trabajo organizado y reproducible. [{ARcenso} es un paquete desarrollado en el marco del programa Champions de rOpenSci](https://soyandrea.github.io/arcenso/) con el objetivo de facilitar el acceso y el uso reproducible de datos censales de Argentina en R.
+
+Los datos censales constituyen un insumo fundamental tanto para la investigación como para el diseño y la evaluación de políticas públicas, ya que permiten caracterizar la estructura y dinámica de la población en distintos niveles geográficos.
+
+En este post, quienes desarrollamos {ARcenso} compartimos cómo trabajar con datos censales históricos de forma simple y reproducible. Mostramos cómo pasar de datos a resultados de análisis demográfico, combinando visualizaciones y tablas para explorar la estructura de la población a partir de datos censales históricos, utilizando como ejemplo los censos de 1970 y 1980.
+
+
+> Todo el código presentado en este post puede ejecutarse en una sesión limpia de R.
+
+
+## ¿Cómo empezar? 
+
+Para reproducir este análisis, es necesario contar con un entorno de trabajo en R con los paquetes requeridos. {arcenso} puede instalarse desde GitHub y los demás paquetes desde CRAN *(este paso puede omitirse si los paquetes ya están instalados)*.
+
+```{r eval= FALSE}
+# Si no tenés remotes
+install.packages("remotes")
+
+# Instalar {arcenso} desde GitHub
+remotes::install_github("soyandrea/arcenso")
+
+# Instalar paquetes necesarios desde CRAN
+install.packages(c("dplyr", "tidyr", "ggplot2", "gt"))
+```
+
+Luego, cargamos los paquetes necesarios para trabajar con los datos censales y construir indicadores para el análisis:
+
+```{r message=FALSE, warning=FALSE}
+library(arcenso) # obtención de datos censales 
+library(dplyr)   # procesamiento de datos
+library(tidyr)   # orden y transformación de datos
+library(ggplot2) # diseño de gráficos
+library(gt)      # diseño de tablas
+```
+
+
+##  Acceso a datos censales
+
+Para comenzar, utilizamos {arcenso} para acceder a datos censales de manera estructurada. El paquete permite seleccionar información según el año, el tema y la geografía de interés a partir de los códigos geográficos oficiales definidos por el Instituto Nacional de Estadística y Censos (INDEC) de Argentina.
+
+
+En {arcenso}, el argumento `topic` define el tipo de información a consultar (por ejemplo, estructura de la población), mientras que `geo_code` identifica la geografía de interés.
+
+Si no conocés los valores disponibles para estos argumentos, podés explorarlos directamente desde la consola. El objeto `geo_metadata` permite identificar las geografías y sus códigos, mientras que `census_metadata` contiene información sobre los temas y cuadros disponibles en el paquete.
+
+
+En este ejemplo, trabajamos con datos de estructura de la población `(topic = "estructura")` para el total del país `(geo_code = "00")`. Antes de descargar los datos, podemos verificar qué información está disponible utilizando la función `check_repository()`.
+
+```{r}
+check_repository(topic = "estructura", geo_code = "00")
+```
+
+El resultado de `check_repository()` muestra los años disponibles para esa combinación de tema y geografía, junto con los identificadores de los cuadros y su título. A partir de esta consulta, seleccionamos los identificadores  `1970_00_estructura_01` y `1980_00_estructura_03`, correspondientes a tabulados sobre la población total del país según sexo y grupo de edad, que utilizaremos en el análisis.
+
+
+> **Bonustrack**: Como alternativa, también es posible explorar los datos de forma interactiva con `arcenso_app()`, desde donde se puede copiar el identificador del cuadro necesario para luego utilizarlo en el análisis.
+
+
+## Preparación de los datos
+
+Una vez identificados los cuadros de interés, utilizamos `get_census()` para descargarlos directamente a partir de su identificador. En este ejemplo, trabajamos con dos cuadros correspondientes al total del país en 1970 y 1980.
+
+Dado que las estructuras de ambos tabulados no son idénticas, realizamos algunas transformaciones para armonizar las variables y construir una base comparable entre censos. En particular, seleccionamos la población por sexo y grupo quinquenal de edad, recodificamos las categorías etarias para que tengan una estructura común y agregamos una variable que identifica el año censal.
+
+### Censo 1970
+
+```{r}
+# Total del país
+poblacion_1970 <- get_census(id = "1970_00_estructura_01") 
+
+pob_1970 <- poblacion_1970 |> 
+  filter(sexo != "Total") |> 
+  mutate(censo = 1970,
+         grupo_de_edad = case_when(
+                grupo_de_edad == "0-4" ~ "00-04",
+                grupo_de_edad == "5-9" ~ "05-09",
+                TRUE ~ grupo_de_edad)
+         ) |> 
+  rename(grupo_edad = grupo_de_edad) |> 
+  select(censo, sexo, grupo_edad, poblacion)
+```
+
+
+> En el caso del censo de 1970, la información ya se encuentra agrupada en grupos quinquenales de edad, por lo que solo es necesario ajustar el formato de algunas etiquetas y conservar las variables relevantes para el análisis.
+
+### Censo 1980 
+
+```{r warning=FALSE}
+poblacion_1980 <- get_census(id = "1980_00_estructura_03")
+
+pob_1980 <-  poblacion_1980 |> 
+  filter(urbano_rural == "Total",
+         sexo != "Total",
+         edad != "Total") |> 
+  mutate(censo = 1980,
+         edad_num = ifelse(edad == "85 y más", 85, as.numeric(edad)),
+         grupo_edad = case_when(
+           edad_num %in% c(0:4)   ~ "00-04",
+           edad_num %in% c(5:9)   ~ "05-09",
+           edad_num %in% c(10:14) ~ "10-14",
+           edad_num %in% c(15:19) ~ "15-19",
+           edad_num %in% c(20:24) ~ "20-24",
+           edad_num %in% c(25:29) ~ "25-29",
+           edad_num %in% c(30:34) ~ "30-34",
+           edad_num %in% c(35:39) ~ "35-39",
+           edad_num %in% c(40:44) ~ "40-44",
+           edad_num %in% c(45:49) ~ "45-49",
+           edad_num %in% c(50:54) ~ "50-54",
+           edad_num %in% c(55:59) ~ "55-59",
+           edad_num %in% c(60:64) ~ "60-64",
+           edad_num %in% c(65:69) ~ "65-69",
+           edad_num %in% c(70:74) ~ "70-74",
+           edad_num %in% c(75:79) ~ "75-79",
+           edad_num %in% c(80:84) ~ "80-84",
+           TRUE ~ "85 y más")
+         ) |> 
+  select(-edad, -urbano_rural, -edad_num) |> 
+  select(censo, sexo, grupo_edad, poblacion)
+```
+
+> En cambio, el cuadro de 1980 presenta la edad en valores simples y añade otras desagregaciones, por lo que es necesario filtrar las categorías de interés y reconstruir los grupos quinquenales de edad (intervalos de 5 años) para hacerlos comparables con los de 1970.
+
+
+### Construcción de la base integrada
+
+Una vez procesados ambos cuadros, unimos la información en una sola base y definimos el formato final de las variables, dejándolas listas para construir visualizaciones y explorar indicadores demográficos.
+
+
+```{r}
+# Unimos ambas geografías y dejamos variables listas para trabajar
+poblacion <- 
+  bind_rows(
+      pob_1970,
+      pob_1980) |> 
+  mutate(
+      poblacion = as.numeric(poblacion),
+      sexo = factor(sexo, levels = c("Varones", "Mujeres")),
+      grupo_edad = factor(
+        grupo_edad,
+        levels = c(
+          "00-04", "05-09", "10-14", "15-19", "20-24",
+          "25-29", "30-34", "35-39", "40-44", "45-49",
+          "50-54", "55-59", "60-64", "65-69", "70-74",
+          "75-79", "80-84", "85 y más"))
+  )
+```
+
+
+
+
+## Estructura de la población 
+
+A partir de la base integrada, contamos con una estructura de datos que combina ambos años censales y organiza la información por sexo, grupo de edad y año. Esta organización permite comparar de manera consistente la composición de la población entre distintos momentos en el tiempo.
+
+La organización de la población por sexo y grupos quinquenales de edad permite analizar su estructura mediante distintas visualizaciones. En este caso, utilizamos una pirámide poblacional, que facilita la lectura conjunta de ambas dimensiones.
+
+
+### Pirámide poblacional
+
+
+Este tipo de gráfico permite representar la distribución de la población por edad y sexo de manera simultánea, ubicando habitualmente a los varones hacia la izquierda y a las mujeres hacia la derecha. A partir de la proporción de personas en cada grupo de edad quinquenal, la pirámide resume la composición de la población en un formato visual fácil de interpretar.
+
+En este caso, calculamos la distribución relativa de la población dentro de cada censo, lo que permite comparar la estructura poblacional entre 1970 y 1980 independientemente del tamaño total. Además, la forma de la pirámide permite identificar características generales, como una mayor concentración en edades jóvenes o un perfil relativamente más envejecido.
+
+
+A continuación, calculamos la distribución relativa de la población en cada censo y construimos una pirámide poblacional para comparar ambos años.
+
+
+```{r}
+# Base para la pirámide poblacional
+piramide <- poblacion |> 
+  group_by(censo, sexo) |> 
+  mutate(
+    poblacion_rel = if_else(
+      sexo == "Varones",
+      -poblacion / sum(poblacion),
+      poblacion / sum(poblacion)
+    )
+  ) |> 
+  ungroup()
+
+# Pirámide comparativa
+piramide |> 
+  ggplot(aes(x = poblacion_rel, y = grupo_edad, fill = sexo)) +
+  geom_col() +
+  facet_wrap(~ censo, ncol = 2) +
+  scale_fill_manual(values = c("#00f59b", "#7014f2")) +
+  scale_x_continuous(
+    labels = function(x) paste0(abs(round(x * 100, 1)), "%"),
+    limits = c(-0.15, 0.15),
+    breaks = seq(-0.15, 0.15, by = 0.05)) +
+  labs(
+    title = "Gráfico 1. Estructura de la población por sexo y grupo quinquenal de edad.",
+    subtitle = "Argentina. Años 1970 y 1980",
+    x = "Porcentaje",
+    y = "Grupo quinquenal de edad",
+    caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con {arcenso}.",
+    fill = "Sexo") +
+  theme_bw() +
+  theme(
+    legend.position = "bottom",
+    strip.text = element_text(face = "bold", size = 12))
+```
+
+
+> En ambos censos se observa una estructura poblacional joven, con una alta concentración en los primeros grupos de edad. No obstante, hacia 1980 comienza a evidenciarse un ligero desplazamiento hacia edades adultas, indicando un incipiente proceso de envejecimiento de la población.
+
+## Construcción de indicadores demográficos 
+
+Si bien la pirámide poblacional permite una lectura general de la estructura de la población, los indicadores demográficos ofrecen medidas sintéticas que permiten cuantificar y comparar estos patrones de manera más precisa. A continuación, calculamos dos indicadores para profundizar el análisis.
+
+
+### Índice de envejecimiento
+
+### Índice de envejecimiento
+
+Compara la cantidad de personas mayores (65 años y más) con la población más joven (0 a 14 años). Permite ver de forma simple si la población tiene más peso en las edades jóvenes o en las edades más avanzadas.
+
+
+```{r}
+
+envejecimiento <- poblacion |> 
+  group_by(censo) |> 
+  summarise(
+    poblacion_0a14   = sum(poblacion[grupo_edad %in% c("00-04","05-09","10-14")]),
+    poblacion_65ymas = sum(poblacion[grupo_edad %in% c("65-69","70-74","75-79","80-84","85 y más")]),
+    indice = round(poblacion_65ymas / poblacion_0a14* 100 , 0)
+  )
+
+
+gt(envejecimiento) |> 
+  tab_header(
+    title = "Comparación del índice de envejecimiento",
+    subtitle = "Argentina. Años 1970 y 1980"  ) |>
+  tab_spanner(
+    label = "Población",
+    columns = c(poblacion_0a14, poblacion_65ymas)) |>
+  fmt_number(columns = c(poblacion_0a14, poblacion_65ymas),
+             decimals =  0,
+             sep_mark = "." ) |> 
+  cols_label(
+      poblacion_0a14 = "0 a 14 años", 
+      poblacion_65ymas = "65 años y más",
+      indice = "Indice") |>   
+  tab_source_note(
+    source_note = md("**Fuente:** elaboración propia en base a datos de INDEC (Censos Nacionales de Población 1970 y 1980)."))
+```
+
+
+> El aumento del índice de envejecimiento refleja un cambio en la estructura etaria entre 1970 y 1980, lo que indica un mayor peso relativo de la población de 65 años y más en relación con la población joven, es decir, una población relativamente más envejecida.
+
+### Índice de feminidad
+
+
+Este indicador muestra cuántas mujeres hay por cada 100 varones en un grupo de población. En este caso, lo analizamos en edades mayores a partir de los 60 años, donde suelen aparecer diferencias más marcadas entre hombres y mujeres.
+
+```{r}
+
+feminidad <- poblacion |> 
+  filter(
+    grupo_edad %in% c("60-64","65-69","70-74","75-79","80-84","85 y más")
+  ) |>
+  group_by(censo, grupo_edad, sexo) |> 
+  summarise(poblacion = sum(poblacion), .groups = "drop") |> 
+  pivot_wider( names_from = sexo, values_from = poblacion) |> 
+  mutate(
+    indice_feminidad = round(Mujeres / Varones * 100,0)
+  ) |> 
+  select(-Varones, -Mujeres) 
+
+
+feminidad_plot <- feminidad |> 
+  pivot_wider(names_from = censo, 
+              values_from = indice_feminidad,
+              names_prefix = "censo_") |> 
+  ggplot(aes(y = grupo_edad)) +
+    geom_segment(
+      aes(x = censo_1970,
+          xend = censo_1980,
+          yend = grupo_edad),
+      color = "grey85",
+      linewidth = 1) +
+    geom_point(
+      aes(x = censo_1970),
+      color = "#ff0f7b",
+      size = 3) +
+    geom_point(
+      aes(x = censo_1980),
+      color = "#f89b29",
+      size = 3) +
+    geom_text(
+      aes(x = censo_1970, label = censo_1970),
+      hjust = 1.4,
+      size = 3) +
+    geom_text(
+      aes(x = censo_1980, label = censo_1980),
+      hjust = -0.4,
+      size = 3) +
+    labs(
+      x = "Mujeres por cada 100 varones",
+      y = "Grupo de edad",
+      title = "Cambio en el índice de feminidad de la población de 60 años y más",
+      subtitle = "Argentina, Años 1970 y 1980",
+      caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con {arcenso}.") +  
+    theme_minimal()
+
+feminidad_plot
+```
+
+> El índice de feminidad muestra una mayor presencia de mujeres en las edades más avanzadas, diferencia que se acentúa entre 1970 y 1980 en todos los grupos de edad analizados, lo que refleja patrones de mayor supervivencia femenina.
+
+## ¿Qué nos deja este análisis?
+
+
+Este ejercicio muestra cómo, a partir de datos censales estandarizados y organizados, es posible comprender mejor la estructura y dinámica de nuestras sociedades. La combinación de visualizaciones e indicadores permite pasar de los datos a una lectura más clara de los procesos demográficos.
+
+Este tipo de información es un insumo clave tanto para la investigación como para la política pública, donde entender cómo cambia la población resulta fundamental.
+
+Y todo esto, además, es posible gracias a herramientas abiertas como R y al trabajo de la comunidad que las hace crecer.
