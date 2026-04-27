@@ -58,7 +58,12 @@ Read more in the [post introducing them](/blog/2026/04/16/editors2026/)!
 
 ### Champions Program Update
 
-TODO YANI?
+We’re excited to share that we’ve finished selecting the new cohort for the rOpenSci Champions Program!
+This was not an easy process. The quality of the proposals was exceptionally high, which made the selection both challenging and inspiring. We’re grateful to everyone who applied and shared their ideas with us.
+Please join us in welcoming our new Champions: Bastián Olea Herrera, Durga Valentina Linares Herrera, José Daniel Conejeros, Denisse Fierro Arcos, Evelia Lorena Coss Navarrete, Gladys Choque Ulloa, Linda Jazmín Cabrera Orellana, Patricia Andrea Loto, Marina Cecilia Cock, María Florencia Tames, and Estefanía Torrejón. 
+
+Over the coming months, they will contribute to the R Community through developing new packages, reviewing, and submitting packages for peer review.
+We’re looking forward to working with this amazing group and supporting their projects!
 
 ### Collaborating between Bioconductor and R-universe on Development of Common Infrastructure
 
