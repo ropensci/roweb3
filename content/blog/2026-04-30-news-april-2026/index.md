@@ -10,7 +10,7 @@ description: Bioconductor collaboration, R/Medecine, goodpractice, targets VSCod
 params:
   last_newsletter: '2026-03-30'
   doi: "10.59350/4qpnx-96e10"
-rmd_hash: 274cf8086df462a5
+rmd_hash: ff3ecec46c497ca5
 
 ---
 
@@ -32,7 +32,9 @@ We're excited to welcome Alec Robitaille and Lucy D'Agostino McGowan as new edit
 
 ### Champions Program Update
 
-TODO YANI?
+We're excited to share that we've finished selecting the new cohort for the rOpenSci Champions Program! This was not an easy process. The quality of the proposals was exceptionally high, which made the selection both challenging and inspiring. We're grateful to everyone who applied and shared their ideas with us. Please join us in welcoming our new Champions: Bastián Olea Herrera, Durga Valentina Linares Herrera, José Daniel Conejeros, Denisse Fierro Arcos, Evelia Lorena Coss Navarrete, Gladys Choque Ulloa, Linda Jazmín Cabrera Orellana, Patricia Andrea Loto, Marina Cecilia Cock, María Florencia Tames, and Estefanía Torrejón.
+
+Over the coming months, they will contribute to the R Community through developing new packages, reviewing, and submitting packages for peer review. We're looking forward to working with this amazing group and supporting their projects!
 
 ### Collaborating between Bioconductor and R-universe on Development of Common Infrastructure
 
@@ -90,7 +92,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following eight packages have had an update since the last newsletter: [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.6.0`](https://github.com/ropensci/osmextract/releases/tag/v0.6.0)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.1`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.1)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.5`](https://github.com/ropensci/readODS/releases/tag/v2.3.5)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.5.2`](https://github.com/ropensci/git2rdata/releases/tag/v0.5.2)), [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v3.0.0`](https://github.com/ropensci/weatherOz/releases/tag/v3.0.0)), [promoutils](https://docs.ropensci.org/promoutils "Utilities for Promoting rOpenSci on Social Media") ([`v0.5.0`](https://github.com/ropensci-org/promoutils/releases/tag/v0.5.0)), [allcontributors](https://docs.ropensci.org/allcontributors "Acknowledge all Contributors to a Project") ([`v0.2.3`](https://github.com/ropensci/allcontributors/releases/tag/v0.2.3)), and [reviser](https://docs.ropensci.org/reviser "Analyzing Revisions in Real-Time Time Series Vintages") ([`v0.1.1`](https://github.com/ropensci/reviser/releases/tag/v0.1.1)).
+The following ten packages have had an update since the last newsletter: [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.6.0`](https://github.com/ropensci/osmextract/releases/tag/v0.6.0)), [Athlytics](https://docs.ropensci.org/Athlytics "Academic R Package for Sports Physiology Analysis from Local Strava Data") ([`v1.0.5`](https://github.com/ropensci/Athlytics/releases/tag/v1.0.5)), [emodnet.wfs](https://docs.ropensci.org/emodnet.wfs "Access EMODnet Web Feature Service Data") ([`v2.1.2`](https://github.com/EMODnet/emodnet.wfs/releases/tag/v2.1.2)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.1`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.1)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.5`](https://github.com/ropensci/readODS/releases/tag/v2.3.5)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.5.2`](https://github.com/ropensci/git2rdata/releases/tag/v0.5.2)), [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v3.0.0`](https://github.com/ropensci/weatherOz/releases/tag/v3.0.0)), [promoutils](https://docs.ropensci.org/promoutils "Utilities for Promoting rOpenSci on Social Media") ([`v0.5.0`](https://github.com/ropensci-org/promoutils/releases/tag/v0.5.0)), [allcontributors](https://docs.ropensci.org/allcontributors "Acknowledge all Contributors to a Project") ([`v0.2.3`](https://github.com/ropensci/allcontributors/releases/tag/v0.2.3)), and [reviser](https://docs.ropensci.org/reviser "Analyzing Revisions in Real-Time Time Series Vintages") ([`v0.1.1`](https://github.com/ropensci/reviser/releases/tag/v0.1.1)).
 
 The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney. NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issues/116#issuecomment-4280937012).
 
@@ -98,13 +100,15 @@ The writexl package has a [new maintainer](https://github.com/ropensci/writexl/p
 
 <div class="highlight">
 
-There are seventeen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
+There are eighteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
 -   One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
-    -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](https://marcburri.github.io/).
+    -   [reviser](https://github.com/ropensci/software-review/issues/709), Tools for Studying Revision Properties in Real-Time Time Series Vintages. Submitted by [Marc Burri](https://marcburri.github.io/). (Stats).
 
--   One at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
+-   Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
+
+    -   [saperlipopette](https://github.com/ropensci/software-review/issues/754), Create Example Git Messes. Submitted by [Maëlle Salmon](https://masalmon.eu/).
 
     -   [pkgmatch](https://github.com/ropensci/software-review/issues/671), Find R Packages Matching Either Descriptions or Other R Packages. Submitted by [mark padgham](https://mpadge.github.io).
 
@@ -120,9 +124,9 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
 -   Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
 
-    -   [saperlipopette](https://github.com/ropensci/software-review/issues/754), Create Example Git Messes. Submitted by [Maëlle Salmon](https://masalmon.eu/).
-
     -   [nycOpenData](https://github.com/ropensci/software-review/issues/750), Convenient Access to NYC Open Data API Endpoints. Submitted by [Christian Martinez](https://github.com/martinezc1).
+
+    -   [RAMEN](https://github.com/ropensci/software-review/issues/743), RAMEN: Regional Association of Methylome variability with the Exposome and geNome. Submitted by [Erick Navarro-Delgado](https://erick-navarrodelgado.netlify.app).
 
     -   [ernest](https://github.com/ropensci/software-review/issues/730), A Toolkit for Nested Sampling. Submitted by [Kyle Dewsnap](https://github.com/kylesnap). (Stats).
 
@@ -130,17 +134,17 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
     -   [priorsense](https://github.com/ropensci/software-review/issues/704), Prior Diagnostics and Sensitivity Analysis. Submitted by [Noa Kallioinen](https://github.com/n-kall). (Stats).
 
--   Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
+-   Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
 
-    -   [RAMEN](https://github.com/ropensci/software-review/issues/743), RAMEN: Regional Association of Methylome variability with the Exposome and geNome. Submitted by [Erick Navarro-Delgado](https://erick-navarrodelgado.netlify.app).
+    -   [EpiStrainDynamics](https://github.com/ropensci/software-review/issues/763), Infer temporal trends of multiple pathogens. Submitted by [Saras Windecker](http://www.smwindecker.com). (Stats).
+
+    -   [lakefetch](https://github.com/ropensci/software-review/issues/762), Calculate Fetch and Wave Exposure for Lake Sampling Points. Submitted by [jeremylfarrell](https://github.com/jeremylfarrell).
 
     -   [fcmconfr](https://github.com/ropensci/software-review/issues/740), Fuzzy Cognitive Map Analysis in R. Submitted by [benroston](https://github.com/bhroston). (Stats).
 
--   Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+-   Three at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
-    -   [EpiStrainDynamics](https://github.com/ropensci/software-review/issues/763), Infer temporal trends of multiple pathogens. Submitted by [Saras Windecker](http://www.smwindecker.com).
-
-    -   [lakefetch](https://github.com/ropensci/software-review/issues/762), Calculate Fetch and Wave Exposure for Lake Sampling Points. Submitted by [jeremylfarrell](https://github.com/jeremylfarrell).
+    -   [ciecl](https://github.com/ropensci/software-review/issues/765), International Classification of Diseases ICD-10/ICD-11 for Chile. Submitted by [Rodolfo Tasso](https://github.com/Rodotasso).
 
     -   [RAQSAPI](https://github.com/ropensci/software-review/issues/744), A Simple Interface to the US EPA Air Quality System Data Mart API. Submitted by [mccroweyclinton-EPA](https://github.com/mccroweyclinton-EPA).
 
