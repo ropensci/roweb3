@@ -24,5 +24,7 @@ zoomurl: https://numfocus-org.zoom.us/j/82913187083?pwd=mJbKYavwadRtGaAYTvT64q5w
 
 **Join us for an hour Tuesday May 19, 16:00 Europe Central (14:00 UTC) for rOpenSci Software Peer Review Editors' Office Hours**
 
+Drop in to ask questions about rOpenSci Software Peer Review.
+
 We are exploring hosting a new event, Editors' Office Hours, on or near the third Tuesday of each month, alternating among
 timezones to accommodate different parts of the world.
