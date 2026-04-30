@@ -109,13 +109,13 @@ I was a [Champion in the 2023-2024 cohort.](https://ropensci.org/es/blog/2025/05
 
 ### Monika Avila Marquez
 
-{{< figure src = "/img/team/monika-avila.jpg" width = "250" alt = "Foto de perfil de Monika Ávila Márquez" class = "pull-right" caption = "<strong>Monika Ávila Márquez </br> Universidad de Ginebra </br> R-Ladies, rOpenSci</strong>">}}
+{{< figure src = "/img/team/monika-avila-marquez.jpeg" width = "250" alt = "Profile photo of Monika Ávila Márquez" class = "pull-right" caption = "<strong>Monika Ávila Márquez </br> Universidad de Ginebra </br> R-Ladies, rOpenSci</strong>">}}
 
 Hi, I am Monika, a postdoctoral researcher in statistics at the University of Geneva, where I work on causal inference and machine learning methods for panel data. I have a PhD in econometrics and my research focuses on the development of semi-parametric estimators that combine machine learning techniques with econometric foundations for estimating panel data models. I also work on mixed effects model selection and causal inference with interference.
 
 I am co-organizer of the R-Ladies Geneva chapter, where I strive to build an inclusive community of practice for people using R in research.
 
-I participate as a mentor in this program because I want to give back for all that rOpenSci has given me. This community has accompanied me in my professional development - as a source of resources, as a learning space and as an example of what it means to do open science with rigor and generosity. Today I have the opportunity to offer that same support to others, and that excites me deeply.
+I am participating as a mentor in this program because I want to give back for all that rOpenSci has given me. This community has accompanied me in my professional development - as a source of resources, as a learning space and as an example of what it means to do open science with rigor and generosity. Today I have the opportunity to offer that same support to others, and that excites me deeply.
 
 </br>
 
