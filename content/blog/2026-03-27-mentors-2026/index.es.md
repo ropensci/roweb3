@@ -30,7 +30,7 @@ editor:
 
 Estas personas provienen de distintas disciplinas y países y son voces activas en la comunidad de R en América Latina y más allá. Con su acompañamiento, el nuevo grupo de Campeon(e|a)s no solo desarrollará sus proyectos, sino que también crecerá como líderes en ciencia abierta y desarrollo de software de investigación.
 
-## Personas que se suman por primera vez
+## Nuevos mentores
 
 ### Alber Hamersson Sánchez Ipia
 
