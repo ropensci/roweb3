@@ -134,15 +134,15 @@ I was a mentor in two previous cohorts of the program where I have supported sof
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Profile photo of Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
 My name is Francisco Cardozo. I am originally from Colombia and came to the United States to pursue my doctoral studies. I am currently working at the University of Miami as a postdoctoral researcher in the IMPAC research center, an institution dedicated to advancing our understanding of adolescent development. I have participated in the Champions Program on several occasions. Much of my professional work has focused on research design and the application of statistical methods, particularly through the use of the R software environment.
 
-## Elio Campitelli
+### Elio Campitelli
 
-{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University - rOpenSci</strong>">}}
+{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Profile photo of Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University - rOpenSci</strong>">}}
 
 I am from Argentina but two years ago I moved to Australia because it is the only other country that starts with A and uses the same type of plug.
 
 I am doing a postdoc at Monash University researching interactions between Antarctic sea ice and the atmosphere.
 
-I was already a mentor in previous editions of the program. It was a great experience that I want to repeat once again.
+I have been a mentor to previous cohorts of the program. It was a great experience that I want to repeat once more.
 
 </br>
 
@@ -150,9 +150,6 @@ I was already a mentor in previous editions of the program. It was a great exper
 
 </br>
 
-</br>
-
-</br>
 
 ## Pao Corrales
 
