@@ -119,11 +119,11 @@ I am participating as a mentor in this program because I want to give back for a
 
 </br>
 
-## Returning Mentor(a|e)s
+## Returning mentors
 
-## Luis D. Verde Arregoitia
+### Luis D. Verde Arregoitia
 
-{{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Foto de perfil de Luis D. Verde Arregoitia" class = "pull-left" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL</br>LatinR, rOpenSci, The Carpentries</strong>">}}
+{{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Profile photo of Luis D. Verde Arregoitia" class = "pull-left" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL</br>LatinR, rOpenSci, The Carpentries</strong>">}}
 
 Hi, I'm Luis D. Verde Arregoitia, Mexican living in Xalapa, Mexico. Biologist and PhD in Biological Sciences. I am a mammal specialist with experience in R programming for data analysis, visualization and statistical modeling. I am also a certified instructor and author of several packages.
 
