@@ -161,7 +161,7 @@ I actively participate in R-Ladies, R Forwards, The Carpentries, LatinR and rOpe
 
 I am passionate about teaching and helping other people grow in what they do, access new opportunities and develop professionally and as individuals. I am very excited to participate again this year as a mentor in the Latin America Champions Program.
 
-## Milagros Mendoza
+### Milagros Mendoza
 
 {{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Milagros Mendoza's Profile Picture " class = "pull-left" caption = "<strong>Milagros Mendoza </br> Universidade Federal Rural de Pernambuco</br> R-Ladies Natal, rOpenSci</strong>">}}
 
