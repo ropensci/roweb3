@@ -6,11 +6,11 @@ author:
 date: '2026-04-30'
 tags:
   - newsletter
-description: Bioconductor collaboration, R/Medecine, goodpractice, targets VSCode extension, new packages and package news
+description: Bioconductor collaboration, R/Medicine, goodpractice, targets VSCode extension, new packages and package news
 params:
   last_newsletter: '2026-03-30'
   doi: "10.59350/4qpnx-96e10"
-rmd_hash: ff3ecec46c497ca5
+rmd_hash: 3b2fbf368b84059e
 
 ---
 
@@ -20,7 +20,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ## Tomáš Kalibera (1978--2026)
 
-The rOpenSci team is deeply saddened at the loss of Tomáš Kalibera, a member of R-Core and contributor to the R community for almost 10 years, who passed away on April 1.  Our thoughts are with Tomáš's friends and family at this time. 
+The rOpenSci team is deeply saddened at the loss of Tomáš Kalibera, a member of R-Core and contributor to the R community for almost 10 years. Tomáš passed away on April 1.  Our thoughts are with Tomáš's friends and family at this time. 
 
 Read [Jan Vitek's remembrance of Tomáš](https://prl-prg.github.io/tomas-kalibera.html).
 
@@ -28,31 +28,31 @@ Read [Jan Vitek's remembrance of Tomáš](https://prl-prg.github.io/tomas-kalibe
 
 ### New editors Alec Robitaille and Lucy D'Agostino McGowan
 
-We're excited to welcome Alec Robitaille and Lucy D'Agostino McGowan as new editors. Alec joins our general review team, and Lucy our statistical software review team. Read more in the [post introducing them](/blog/2026/04/16/editors2026/)!
+We're excited to welcome [Alec Robitaille](/author/alec-robitaille/) and [Lucy D'Agostino McGowan](/author/lucy-dagostino-mcgowan/) as new editors. Alec joins our general review team, and Lucy our statistical software review team. Read more in the [post introducing them](/blog/2026/04/16/editors2026/)!
 
-### Champions Program Update
+### Champions Program update
 
 We're excited to share that we've finished selecting the new cohort for the rOpenSci Champions Program! This was not an easy process. The quality of the proposals was exceptionally high, which made the selection both challenging and inspiring. We're grateful to everyone who applied and shared their ideas with us. Please join us in welcoming our new Champions: Bastián Olea Herrera, Durga Valentina Linares Herrera, José Daniel Conejeros, Denisse Fierro Arcos, Evelia Lorena Coss Navarrete, Gladys Choque Ulloa, Linda Jazmín Cabrera Orellana, Patricia Andrea Loto, Marina Cecilia Cock, María Florencia Tames, and Estefanía Torrejón.
 
-Over the coming months, they will contribute to the R Community through developing new packages, reviewing, and submitting packages for peer review. We're looking forward to working with this amazing group and supporting their projects!
+Over the coming months, they will contribute to the R Community through developing new packages, reviewing packages, and submitting packages for peer review. We're looking forward to working with this amazing group and supporting their projects!
 
 ### Collaborating between Bioconductor and R-universe on Development of Common Infrastructure
 
 Bioconductor is collaborating with R-universe to gradually modernize parts of its infrastructure, while accommodating the project's scale, governance, and established processes. In turn, Bioconductor is helping R-universe expand and refine its features as we learn to serve the complex needs of the Bioconductor community. Read more in the [blog post](/blog/2026/04/08/r-universe-bioc/).
 
-### Yanina Bellini Saibene at R/Medicine 2026
+### rOpenSci Staff presentations
 
-Yanina Bellini Saibene will deliver her keynote talk ["Software Sustainability and Community Management"](/events/r-medicine-2026-keynote/) on Thursday May 7th, 11:15AM--12:15PM ET.
+#### Yanina Bellini Saibene at R/Medicine 2026
 
-### Jeroen Ooms at "Where Do R Packages Live?"
+Yani will deliver her keynote talk ["Software Sustainability and Community Management"](/events/r-medicine-2026-keynote/) on Thursday May 7th, 11:15AM--12:15PM ET.
 
-Jeroen Ooms will take part in an online discussion panel on Wednesday 20 May at 5:00 PM - 6:00 PM (AEST). The panel is organized by the Statistical Computing and Visualisation section of the Statistical Society of Australia.
+#### Jeroen Ooms at "Where Do R Packages Live?"
 
-[More details](https://statsoc.org.au/event-6653060).
+Jeroen will take part in an online discussion panel on Wednesday 20 May at 5:00 PM - 6:00 PM (AEST). The panel is organized by the Statistical Computing and Visualisation section of the Statistical Society of Australia ([details](https://statsoc.org.au/event-6653060)).
 
 ### Updates to the goodpractice R package
 
-We have long recommended the [goodpractice package](https://docs.ropensci.org/goodpractice), which identifies issues with R packages, and advises how to fix them. Thanks to a huge amount of work by valued community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/), goodpractice has been extended and improved to include entirely new suites of checks, and improved ability to control which checks are run. A blog post describing the updates will be published very soon, but in the meantime, we encourage you to install the current [development version](https://docs.ropensci.org/goodpractice/#installation) and try it out yourself.
+We have long recommended the [goodpractice package](https://docs.ropensci.org/goodpractice), which identifies issues with R packages, and advises how to fix them. Thanks to a huge amount of work by valued community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/), goodpractice has been extended and improved to include entirely new suites of checks, and improved ability to control which checks are run. A blog post describing the updates will be published soon, but in the meantime, we encourage you to install the current [development version](https://docs.ropensci.org/goodpractice/#installation) and try it out yourself.
 
 ### Analyse your targets pipeline
 
@@ -66,31 +66,48 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
     -   Explore resources for Code Review
     -   Sign up to volunteer to do [software peer-review](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) at rOpenSci
     -   Meet cohost, Liz Hare, and discuss resources for Code Review with rOpenSci.
+-   Tuesday June 2nd 2026, 14:00 Europe Central (12:00 UTC) \[theme to be determined\], with [Steffi LaZerte](/author/steffi-lazerte/) and cohost to be determined.
+    -   Explore resources related to the theme
+    -   Meet the cohost, and other attendees, and discuss the theme or other topics.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+### Editors' Office Hours
+
+We are exploring hosting a new event, Editors' Office Hours, where you can drop in to ask questions about rOpenSci Software Peer Review on or near the third Tuesday of each month, alternating among timezones to accommodate different parts of the world.
+
+Upcoming office hours:
+
+-   Tuesday May 19, 16:00-17:00 Europe Central (14:00-15:00 UTC) ((event)(/events/office-hours-2026-05/))
+
+### useR! 2026 Diversity Scholarship Program
+
+useR! 2026 is offering diversity scholarships to support participation from people in underrepresented or historically marginalized groups within the R community. The program includes both registration fee waivers and full needs-based scholarships, which cover conference registration as well as travel and lodging (via reimbursement). Applications are open to eligible participants worldwide **until May 10**, and will be reviewed based on need, eligibility, and potential impact by a committee from Forwards, RLadies+ Global, and rOpenSci.
+
+Found all the details and important links on the conference website: <https://user2026.r-project.org/additional/diversity_scholarship.html>
 
 ## Software :package:
 
 ### New packages
 
-<div class="highlight">
 
-</div>
+
+
 
 The following package recently became a part of our software suite:
 
-<div class="highlight">
+
 
 -   [reviser](https://docs.ropensci.org/reviser), developed by Marc Burri together with Philipp Wegmueller: Analyzes revisions in real-time time series vintages. The package converts between wide revision triangles and tidy long vintages, extracts selected releases, computes revision series, visualizes vintage paths, and summarizes revision properties such as bias, dispersion, autocorrelation, and news-noise diagnostics. It also identifies efficient releases and estimates state-space models for revision nowcasting. Methods are based on Howrey (1978) <https://doi.org/10.2307/1924972>, Jacobs and Van Norden (2011) <https://doi.org/10.1016/j.jeconom.2010.04.010>, and Kishor and Koenig (2012) <https://doi.org/10.1198/jbes.2010.08169>. It has been [reviewed](https://github.com/ropensci/software-review/issues/709).
-    </div>
+    
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-<div class="highlight">
 
-</div>
+
+
 
 The following ten packages have had an update since the last newsletter: [osmextract](https://docs.ropensci.org/osmextract "Download and Import Open Street Map Data Extracts") ([`v0.6.0`](https://github.com/ropensci/osmextract/releases/tag/v0.6.0)), [Athlytics](https://docs.ropensci.org/Athlytics "Academic R Package for Sports Physiology Analysis from Local Strava Data") ([`v1.0.5`](https://github.com/ropensci/Athlytics/releases/tag/v1.0.5)), [emodnet.wfs](https://docs.ropensci.org/emodnet.wfs "Access EMODnet Web Feature Service Data") ([`v2.1.2`](https://github.com/EMODnet/emodnet.wfs/releases/tag/v2.1.2)), [fellingdater](https://docs.ropensci.org/fellingdater "Tree-ring dating and estimating felling dates of historical timbers") ([`v1.2.1`](https://github.com/ropensci/fellingdater/releases/tag/v1.2.1)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.5`](https://github.com/ropensci/readODS/releases/tag/v2.3.5)), [git2rdata](https://docs.ropensci.org/git2rdata "Store and Retrieve Data.frames in a Git Repository") ([`v0.5.2`](https://github.com/ropensci/git2rdata/releases/tag/v0.5.2)), [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v3.0.0`](https://github.com/ropensci/weatherOz/releases/tag/v3.0.0)), [promoutils](https://docs.ropensci.org/promoutils "Utilities for Promoting rOpenSci on Social Media") ([`v0.5.0`](https://github.com/ropensci-org/promoutils/releases/tag/v0.5.0)), [allcontributors](https://docs.ropensci.org/allcontributors "Acknowledge all Contributors to a Project") ([`v0.2.3`](https://github.com/ropensci/allcontributors/releases/tag/v0.2.3)), and [reviser](https://docs.ropensci.org/reviser "Analyzing Revisions in Real-Time Time Series Vintages") ([`v0.1.1`](https://github.com/ropensci/reviser/releases/tag/v0.1.1)).
 
@@ -98,7 +115,7 @@ The writexl package has a [new maintainer](https://github.com/ropensci/writexl/p
 
 ## Software Peer Review
 
-<div class="highlight">
+
 
 There are eighteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
@@ -150,7 +167,7 @@ There are eighteen recently closed and active submissions and 4 submissions on h
 
     -   [coevolve](https://github.com/ropensci/software-review/issues/717), Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan. Submitted by [Scott Claessens](https://scottclaessens.github.io/). (Stats).
 
-        </div>
+        
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -158,11 +175,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
 
-</div>
 
-<div class="highlight">
+
+
+
 
 ### Software Review
 
@@ -176,7 +193,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 -   [A Better R Programming Experience Thanks to Tree-sitter](/blog/2026/04/02/tree-sitter-overview) by Maëlle Salmon. Modern tooling for parsing, searching, formatting, editing R code, just like for other programming languages.
 
-</div>
+
 
 ## Calls for contributions
 
@@ -200,7 +217,7 @@ Some useful information for R package developers. :eyes:
 
 ### Useless code, duplicated function? Refactoring with Jarl
 
-The Jarl CLI by Étienne Bacher got useful new features for package developers:
+The Jarl CLI by Étienne Bacher received several useful new features for package developers:
 
 -   [`unused_function`](https://jarl.etiennebacher.com/rules/unused_function)
 -   [`duplicated_function_definition`](https://jarl.etiennebacher.com/rules/duplicated_function_definition).
@@ -211,9 +228,9 @@ Read more in the [release announcement](https://www.etiennebacher.com/posts/2026
 
 ### Git commands to get to know a project
 
-Ally Piechowski wrote an insightful post entitled ["The Git Commands I Run Before Reading Any Code"](https://piechowski.io/post/git-commands-before-reading-code/), for instance a command to determine which files recently changed the most!
+Ally Piechowski wrote an insightful post entitled ["The Git Commands I Run Before Reading Any Code"](https://piechowski.io/post/git-commands-before-reading-code/), which suggests Git commands which are useful for understanding the code base. For instance a command to determine which files recently changed the most!
 
-Garrick Aden-Buie wrote ["a little `git-recon` bash script that runs them in series, complete with some ascii bar plots."](https://gist.github.com/gadenbuie/463ff1e9f3b0f48cddc44db2224d286b).
+To complement this post, Garrick Aden-Buie wrote ["a little `git-recon` bash script that runs them in series, complete with some ascii bar plots"](https://gist.github.com/gadenbuie/463ff1e9f3b0f48cddc44db2224d286b).
 
 ### Another R mailing list archive
 
@@ -225,13 +242,13 @@ Andrew Heiss published an useful and interesting deep dive into [random seeds](h
 
 ### Enforcing the coalesce operator
 
-If you enjoy the coalesce operator `%||%` introduced in [R 4.4.0](https://cran.r-project.org/bin/windows/base/old/4.4.0/NEWS.R-4.4.0.html)
+Are you enjoying the coalesce operator `%||%` introduced in [R 4.4.0](https://cran.r-project.org/bin/windows/base/old/4.4.0/NEWS.R-4.4.0.html)?
 
 > `L %||% R` newly in base is an expressive idiom for the phrases `if(!is.null(L)) L else R or if(is.null(L)) R else L`.
 
-You can enforce it via [Jarl](https://jarl.etiennebacher.com/rules/coalesce) or [lintr](https://lintr.r-lib.org/reference/coalesce_linter.html).
+Consider enforcing it via [Jarl](https://jarl.etiennebacher.com/rules/coalesce) or [lintr](https://lintr.r-lib.org/reference/coalesce_linter.html).
 
-As a reminder, the operator is supported by the [backports](https://github.com/r-lib/backports/pull/81/changes) R package and is exported by rlang.
+As a reminder, the operator can be used in older versions of R through the [backports](https://github.com/r-lib/backports/pull/81/changes) R package or by importing it from [rlang](https://rlang.r-lib.org/reference/op-null-default.html).
 
 ### Positive AI reading
 
@@ -246,7 +263,7 @@ Thanks for reading! If you want to get involved with rOpenSci, check out our [Co
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
 
-</div>
 
-</div>
+
+
 

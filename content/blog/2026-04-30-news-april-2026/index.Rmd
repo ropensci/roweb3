@@ -113,7 +113,8 @@ We are exploring hosting a new event, Editors' Office Hours, where you can drop 
 
 Upcoming office hours:
 
-- Tuesday May 19, 16:00-17:00 Europe Central (14:00-15:00 UTC) ((event)[/events/office-hours-2026-05/))
+- Tuesday May 19, 16:00-17:00 Europe Central (14:00-15:00 UTC) ((event)(/events/office-hours-2026-05/))
+
 ### useR! 2026 Diversity Scholarship Program
 
 useR! 2026 is offering diversity scholarships to support participation from people in underrepresented or historically marginalized groups within the R community. The program includes both registration fee waivers and full needs-based scholarships, which cover conference registration as well as travel and lodging (via reimbursement). Applications are open to eligible participants worldwide **until May 10**, and will be reviewed based on need, eligibility, and potential impact by a committee from Forwards, RLadies+ Global, and rOpenSci.
