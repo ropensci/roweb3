@@ -151,13 +151,13 @@ I have been a mentor to previous cohorts of the program. It was a great experien
 </br>
 
 
-## Pao Corrales
+### Pao Corrales
 
-{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Foto de perfil de Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
+{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Profile photo of Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
 
-I have a PhD in Atmospheric Sciences from the University of Buenos Aires (Argentina) and am currently working in Australia for the *21st Century Weather Centre* as a research software engineer.
+I have a PhD in Atmospheric Sciences from the University of Buenos Aires (Argentina) and am currently working in Australia at the *21st Century Weather Centre* as a research software engineer.
 
-I actively participate in R-Ladies, R Forwards, The Carpentries, LatinR and rOpenSci, learning and sharing knowledge about R in the community. In 2023 I participated in the Champions Program as a Champion, submitting the agroclimate package to the rOpenSci peer review process. I learned a lot and connected with people from all over the world. it was an excellent experience!
+I actively participate in R-Ladies, R Forwards, The Carpentries, LatinR and rOpenSci, learning and sharing knowledge about R in the community. In 2023 I participated in the Champions Program as a Champion, submitting the agroclimate package to the rOpenSci peer review process. I learned a lot and connected with people from all over the world. Tt was an excellent experience!
 
 I am passionate about teaching and helping other people grow in what they do, access new opportunities and develop professionally and as individuals. I am very excited to participate again this year as a mentor in the Latin America Champions Program.
 
