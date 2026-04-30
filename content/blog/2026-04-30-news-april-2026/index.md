@@ -78,7 +78,7 @@ We are exploring hosting a new event, Editors' Office Hours, where you can drop 
 
 Upcoming office hours:
 
--   Tuesday May 19, 16:00-17:00 Europe Central (14:00-15:00 UTC) ((event)(/events/office-hours-2026-05/))
+-   Tuesday May 19, 16:00-17:00 Europe Central (14:00-15:00 UTC) ([event](/events/office-hours-2026-05/))
 
 ### useR! 2026 Diversity Scholarship Program
 
