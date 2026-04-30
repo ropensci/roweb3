@@ -1,6 +1,6 @@
 ---
 slug: "mentors-2026"
-title: Nuevo equipo de mentor(a|e)s con experiencia y nuevas voces.
+title: Nuevo equipo de mentor(a|e)s con experiencia y nuevas voces
 author:
   - Alber Hamersson Sánchez Ipia
   - Pablo Paccioretti
@@ -32,7 +32,7 @@ Estas personas provienen de distintas disciplinas y países y son voces activas 
 
 ## Personas que se suman por primera vez
 
-## Alber Hamersson Sánchez Ipia
+### Alber Hamersson Sánchez Ipia
 
 {{< figure src = "/img/team/alber-sanchez.jpg" width = "250" alt = "Foto de perfil de Alber Hamersson Sánchez Ipia" class = "pull-left" caption = "<strong>Alber Hamersson Sánchez Ipia </br> Instituto Nacional de Investigación Espacial del Brasil </br> rOpenSci</strong>">}}
 
@@ -66,11 +66,11 @@ científicos.
 
 </br>
 
-## Pablo Paccioretti
+### Pablo Paccioretti
 
 {{< figure src = "/img/team/pablo-paccioretti.jpg" width = "250" alt = "Foto de perfil de Pablo Paccioretti" class = "pull-right" caption = "<strong>Pablo Paccioretti </br> Universidad Nacional de Córdoba (UNC) & CONICET, Argentina </br> rOpenSci</strong>">}}
 
-Hola! soy Pablo, Ingeniero Agrónomo y Doctor por la Universidad Nacional de Córdoba (Argentina), donde me desempeño como investigador y docente. Desde mis años de estudiante me interesó la Estadística, lo que orientó mi trabajo hacia el análisis de datos. En particular, aplico y desarrollo metodologías y herramientas de software para analizar datos georreferenciados provenientes de ensayos a campo y plataformas de monitoreo agrícola.
+¡Hola! soy Pablo, Ingeniero Agrónomo y Doctor por la Universidad Nacional de Córdoba (Argentina), donde me desempeño como investigador y docente. Desde mis años de estudiante me interesó la Estadística, lo que orientó mi trabajo hacia el análisis de datos. En particular, aplico y desarrollo metodologías y herramientas de software para analizar datos georreferenciados provenientes de ensayos a campo y plataformas de monitoreo agrícola.
 
 Me interesa el desarrollo de herramientas abiertas para el procesamiento y análisis de datos. He desarrollado software científico, incluyendo paquetes de R orientados al análisis de datos georreferenciados.
 
@@ -82,9 +82,9 @@ Mi participación en el Programa de Campeones surge del interés por fortalecer 
 
 ## De campeon(a|e)s a mentor(a|e)s
 
-## Erick Navarro Delgado
+### Erick Navarro Delgado
 
-{{< figure src = "/img/team/erick-navarro.jpg" width = "250" alt = "Foto de perfil de Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> rOpenSci</strong>">}}
+{{< figure src = "/img/team/erick-navarro-delgado.jpg" width = "250" alt = "Foto de perfil de Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> rOpenSci</strong>">}}
 
 ¡Hola! Mi nombre es Erick Navarro, y soy licenciado en biología por la Universidad Nacional Autónoma de México, y candidato a Doctor en Bioinformática en The University of British Columbia. Nací y crecí en la Ciudad de México, pero actualmente vivo en Vancouver. Mi línea de investigación está enfocada en desarrollar herramientas computacionales para entender cómo los factores genéticos y exposiciones ambientales/experiencias vividas actúan de forma conjunta o separada para moldear nuestro panorama molecular. 
 
@@ -92,11 +92,11 @@ Me entusiasma participar en el programa de rOpenSci porque creo que la ciencia a
 
 </br>
 
-## Guadalupe Pascal
+### Guadalupe Pascal
 
 {{< figure src = "/img/team/guadalupe-pascal.jpg" width = "250" alt = "Foto de perfil de Guadalupe Pascal" class = "pull-right" caption = "<strong>Guadalupe Pascal </br> UNLZ-UCA-UGR </br>rOpenSci</strong>">}}
 
-Hola! Mi nombre es Guadalupe. 
+¡Hola! Mi nombre es Guadalupe. 
 
 Soy investigadora y coordinadora de proyectos en optimización y ciencia de datos para la toma de decisiones en sistemas sociales, con una perspectiva transfeminista, de ciencia abierta y con mirada regional. También soy profesora asociada de optimización y métodos cuantitativos (UNLZ-UCA) y profesora en cursos de ciencia de datos e inteligencia artificial (UGR). Soy máster en Ingeniería en Sistemas de Decisión por la URJC (España) e ingeniera industrial por la UNLZ (Argentina), estudiante de doctorado en Tecnologías de la Información e Ingeniería (URJC-UNLZ), diplomada en Géneros y Sociedad (UNLZ), diplomada en Neurociencia Cognitiva (Neurotransmitiendo) y diplomada en Educación en la Era de la Inteligencia Artificial (UMET). Formo parte de la Cátedra Abierta Latinoamericana Matilda y las mujeres en ingeniería, como miembro fundadora y referente de la Red de Género de las Facultades de Ingeniería de Argentina. 
 
@@ -104,7 +104,7 @@ Actualmente también formo parte de la comunidad de rOpenSci como campeona de la
 
 </br>
 
-## Andrea Gomez Vargas
+### Andrea Gomez Vargas
 
 {{< figure src = "/img/team/andrea-vargas.png" width = "250" alt = "Foto de perfil de Andrea Gomez Vargas" class = "pull-left" caption = "<strong>Andrea Gomez Vargas </br> INDEC </br> R-Ladies, rOpenSci</strong>">}}
 
@@ -112,13 +112,13 @@ Soy colombiana de origen y argentina por elección, donde hoy vivo, desarrollo m
 
 La comunidad de R es mi espacio favorito para compartir conocimiento y construir colectivamente. Actualmente soy co-organizadora de [R en Buenos Aires](https://renbaires.github.io/) y [RSE Argentina](https://rse-argentina.github.io/), y además participo en iniciativas como R-Ladies, LatinR y rOpenSci, contribuyendo al fortalecimiento de redes a nivel local, regional y global,  promoviendo el aprendizaje y uso de herramientas abiertas en ciencia de datos.
 
-Fui [Campeona en la cohorte 2023–2024](https://ropensci.org/es/blog/2025/05/15/puentes-comunidades-campeones-ropensci/), donde desarrollé [{ARcenso}, un paquete que facilita el acceso a datos censales históricos de Argentina](https://soyandrea.github.io/arcenso/). Me motiva continuar en el programa como mentora para seguir impulsando el conocimiento abierto y acompañar a otras personas en el desarrollo de proyectos con impacto en sus comunidades.
+Fui [Campeona en la cohorte 2023–2024](/es/blog/2025/05/15/puentes-comunidades-campeones-ropensci/), donde desarrollé [{ARcenso}, un paquete que facilita el acceso a datos censales históricos de Argentina](https://soyandrea.github.io/arcenso/). Me motiva continuar en el programa como mentora para seguir impulsando el conocimiento abierto y acompañar a otras personas en el desarrollo de proyectos con impacto en sus comunidades.
 
 </br>
 
-## Monika Ávila Márquez
+### Monika Ávila Márquez
 
-{{< figure src = "/img/team/monika-avila.jpg" width = "250" alt = "Foto de perfil de Monika Ávila Márquez" class = "pull-right" caption = "<strong>Monika Ávila Márquez </br> Universidad de Ginebra </br> R-Ladies, rOpenSci</strong>">}}
+{{< figure src = "/img/team/monika-avila-marquez.jpeg" width = "250" alt = "Foto de perfil de Monika Ávila Márquez" class = "pull-right" caption = "<strong>Monika Ávila Márquez </br> Universidad de Ginebra </br> R-Ladies, rOpenSci</strong>">}}
 
 
 Hola, soy Monika, investigadora postdoctoral en estadística en la Universidad de Ginebra, donde trabajo en métodos de inferencia causal y aprendizaje automático para datos de panel. Tengo un doctorado en econometría y mi investigación se enfoca en el desarrollo de estimadores semiparamétricos que combinan técnicas de machine learning con fundamentos econométricos para la estimación de modelos de datos de panel. También trabajo en la selección de modelos de efectos mixtos y en inferencia causal con interferencia.
@@ -131,7 +131,7 @@ Participo como mentora en este programa porque quiero retribuir todo lo que rOpe
 
 ## Mentor(a|e)s que regresan
 
-## Luis D. Verde Arregoitia
+### Luis D. Verde Arregoitia
 
 {{< figure src = "/img/team/luis-verde.jpeg" width = "250" alt = "Foto de perfil de Luis D. Verde Arregoitia" class = "pull-left" caption = "<strong>Luis D. Verde Arregoitia</br>Instituto de Ecología AC - INECOL</br>LatinR, rOpenSci, The Carpentries</strong>">}}
 
@@ -139,13 +139,13 @@ Hola, soy Luis D. Verde Arregoitia, mexicano viviendo en Xalapa, México. Biólo
 
 Fui mentor en dos cohortes anteriores del programa donde ha apoyado a desarrolladores de software en de América Latina y regreso con mucho entusiasmo a esta nueva cohorte.
 
-## Francisco Cardozo
+### Francisco Cardozo
 
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
 
 Me llamo Francisco Cardozo. Soy originario de Colombia y vine a Estados Unidos para cursar mis estudios de doctorado. Actualmente trabajo en la Universidad de Miami como investigador posdoctoral en el centro de investigación IMPAC, una institución dedicada a ampliar nuestros conocimientos sobre el desarrollo de los adolescentes. He participado en el Programa de Campeon(a|e)s de rOpenSci en varias ocasiones. Gran parte de mi labor profesional se ha centrado en el diseño de investigaciones y la aplicación de métodos estadísticos, especialmente mediante el uso del entorno de software R.
 
-## Elio Campitelli
+### Elio Campitelli
 
 {{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University - rOpenSci</strong>">}}
 
@@ -165,7 +165,7 @@ Ya fui mentore en ediciones anteriores del programa. Fue una experiencia genial 
 
 </br>
 
-## Pao Corrales
+### Pao Corrales
 
 {{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Foto de perfil de Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
 
@@ -175,7 +175,7 @@ Participo activamente en R-Ladies, R Forwards, The Carpentries, LatinR y rOpenSc
 
 Me apasiona enseñar y ayudar a otras personas a crecer en lo que hacen, a acceder a nuevas oportunidades y a desarrollarse profesionalmente y como personas. Estoy muy contenta de participar de nuevo este año como mentora en el Programa de Campeones de América Latina.
 
-## Milagros Mendoza
+### Milagros Mendoza
 
 {{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-left" caption = "<strong>Milagros Mendoza </br> Universidade Federal Rural de Pernambuco</br> R-Ladies Natal, rOpenSci</strong>">}}
 
