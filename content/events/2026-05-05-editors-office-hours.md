@@ -1,7 +1,7 @@
 ---
 title: rOpenSci Software Review Editors Office Hours
 dateStart: 2026-05-19T14:00:00 # UTC!!
-dateEnd: 2026-05-19T14:00:00 # UTC!!
+dateEnd: 2026-05-19T15:00:00 # UTC!!
 date: 2026-05-19T14:00:00 # UTC!! same as dateEnd
 description: Drop in to ask questions during office hours for rOpenSci Software Peer Review.
 coworking: true
