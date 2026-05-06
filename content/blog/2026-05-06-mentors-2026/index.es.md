@@ -142,6 +142,8 @@ Fui mentor en dos cohortes anteriores del programa donde ha apoyado a desarrolla
 </br>
 </br>
 </br>
+</br>
+</br>
 
 ### Pao Corrales
 

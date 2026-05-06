@@ -133,7 +133,8 @@ I was a mentor in two previous cohorts of the program where I have supported sof
 </br>
 </br>
 </br>
-
+</br>
+</br>
 
 ### Pao Corrales
 
@@ -186,6 +187,6 @@ I have been a mentor to previous cohorts of the program. It was a great experien
 
 We are happy to have this diverse and talented team of mentors, who embody the values of collaboration and commitment to collective growth. Their support will be key to helping the new Champions move their ideas and projects forward and contribute to the development of a stronger and more diverse open science community.
 
-We are currently finalizing the selection of Champions and will be announcing them soon.
+The selection of Champions is now complete, and we’ll be announcing them soon.
 
 
