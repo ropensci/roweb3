@@ -75,7 +75,7 @@ My participation in the Champions Program arises from an interest in strengtheni
 
 ### Erick Navarro Delgado
 
-{{< figure src = "/img/team/erick-navarro-delgado.jpg width = "250" alt = "Profile photo of Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> rOpenSci</strong>">}}
+{{< figure src = "/img/team/erick-navarro-delgado.jpg" width = "250" alt = "Profile photo of Erick Navarro Delgado" class = "pull-left" caption = "<strong>Erick Navarro Delgado </br> The University of British Columbia </br> rOpenSci</strong>">}}
 
 Hello! My name is Erick Navarro, and I have a degree in biology from the Universidad Nacional Autónoma de México, and I am a PhD candidate in Bioinformatics at The University of British Columbia. I was born and raised in Mexico City, but currently live in Vancouver, Canada. My line of research is focused on developing computational tools to understand how genetic factors and environmental exposures/lived experiences act together or separately to shape our molecular landscape.
 
@@ -132,6 +132,7 @@ I was a mentor in two previous cohorts of the program where I have supported sof
 ### Francisco Cardozo
 
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Profile photo of Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
+
 My name is Francisco Cardozo. I am originally from Colombia and came to the United States to pursue my doctoral studies. I am currently working at the University of Miami as a postdoctoral researcher in the IMPAC research center, an institution dedicated to advancing our understanding of adolescent development. I have participated in the Champions Program on several occasions. Much of my professional work has focused on research design and the application of statistical methods, particularly through the use of the R software environment.
 
 ### Elio Campitelli
