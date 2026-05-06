@@ -129,11 +129,29 @@ Hi, I'm Luis D. Verde Arregoitia, a Mexican living in Xalapa, Mexico. Biologist 
 
 I was a mentor in two previous cohorts of the program where I have supported software developers in Latin America and I return with much enthusiasm to this new cohort.
 
+### Pao Corrales
+
+{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Profile photo of Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
+
+I have a PhD in Atmospheric Sciences from the University of Buenos Aires (Argentina) and am currently working in Australia at the *21st Century Weather Centre* as a research software engineer.
+
+I actively participate in R-Ladies, R Forwards, The Carpentries, LatinR and rOpenSci, learning and sharing knowledge about R in the community. In 2023 I participated in the Champions Program as a Champion, submitting the agroclimate package to the rOpenSci peer review process. I learned a lot and connected with people from all over the world. Tt was an excellent experience!
+
+I am passionate about teaching and helping other people grow in what they do, access new opportunities and develop professionally and as individuals. I am very excited to participate again this year as a mentor in the Latin America Champions Program.
+
 ### Francisco Cardozo
 
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Profile photo of Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
 
 My name is Francisco Cardozo. I am originally from Colombia and came to the United States to pursue my doctoral studies. I am currently working at the University of Miami as a postdoctoral researcher in the IMPAC research center, an institution dedicated to advancing our understanding of adolescent development. I have participated in the Champions Program on several occasions. Much of my professional work has focused on research design and the application of statistical methods, particularly through the use of the R software environment.
+
+### Milagros Mendoza
+
+{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Milagros Mendoza's Profile Picture " class = "pull-left" caption = "<strong>Milagros Mendoza </br> Universidade Federal Rural de Pernambuco</br> R-Ladies Natal, rOpenSci</strong>">}}
+
+Hello, my name is Milagros. I am an ecologist and statistician driven by a desire to understand the complex systems that intertwine nature, society, and data. Throughout my career, I have worked with interdisciplinary data in the fields of climate, demography, and ecology, always striving to translate that data into knowledge that engages with reality and contributes to more informed decision-making. I am currently pursuing a postdoctoral fellowship at the Vale Institute of Technology in Brazil, where I am part of the research group on territories and natural resources.
+
+I decided to serve as a mentor at rOpenSci because I am motivated to help more people develop confidence in using scientific tools, strengthen their critical thinking, and actively engage within the academic community. In this sense, I view mentoring as a learning space focused on dialogue and mutual growth.
 
 ### Elio Campitelli
 
@@ -145,30 +163,6 @@ I am doing a postdoc at Monash University researching interactions between Antar
 
 I have been a mentor to previous cohorts of the program. It was a great experience that I want to repeat once more.
 
-</br>
-
-</br>
-
-</br>
-
-
-### Pao Corrales
-
-{{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Profile photo of Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
-
-I have a PhD in Atmospheric Sciences from the University of Buenos Aires (Argentina) and am currently working in Australia at the *21st Century Weather Centre* as a research software engineer.
-
-I actively participate in R-Ladies, R Forwards, The Carpentries, LatinR and rOpenSci, learning and sharing knowledge about R in the community. In 2023 I participated in the Champions Program as a Champion, submitting the agroclimate package to the rOpenSci peer review process. I learned a lot and connected with people from all over the world. Tt was an excellent experience!
-
-I am passionate about teaching and helping other people grow in what they do, access new opportunities and develop professionally and as individuals. I am very excited to participate again this year as a mentor in the Latin America Champions Program.
-
-### Milagros Mendoza
-
-{{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Milagros Mendoza's Profile Picture " class = "pull-left" caption = "<strong>Milagros Mendoza </br> Universidade Federal Rural de Pernambuco</br> R-Ladies Natal, rOpenSci</strong>">}}
-
-Hello, my name is Milagros. I am an ecologist and statistician driven by a desire to understand the complex systems that intertwine nature, society, and data. Throughout my career, I have worked with interdisciplinary data in the fields of climate, demography, and ecology, always striving to translate that data into knowledge that engages with reality and contributes to more informed decision-making. I am currently pursuing a postdoctoral fellowship at the Vale Institute of Technology in Brazil, where I am part of the research group on territories and natural resources.
-
-I decided to serve as a mentor at rOpenSci because I am motivated to help more people develop confidence in using scientific tools, strengthen their critical thinking, and actively engage within the academic community. In this sense, I view mentoring as a learning space focused on dialogue and mutual growth.
 
 ## What's next
 
