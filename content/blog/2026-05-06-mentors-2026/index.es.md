@@ -195,4 +195,4 @@ Ya fui mentore en ediciones anteriores del programa. Fue una experiencia genial 
 
 Estamos felices de contar con este equipo diverso y talentoso de mentores y mentoras, que encarna los valores de colaboración y compromiso con el crecimiento colectivo. Su acompañamiento será clave para que los y las nuevas Campeon(a|e)s puedan llevar adelante sus ideas y proyectos, y contribuir al desarrollo de una comunidad de ciencia abierta más fuerte y diversa.
 
-En estos momentos estamos ultimando la selección de Campeonas y Campeones y estaremos anunciándoles próximamente.
+Ya hemos terminado de seleccionar a los Campeonas y Campeones y estaremos anunciándoles próximamente.
