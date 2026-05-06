@@ -13,21 +13,50 @@ tags:
   - arcenso
   - Argentina
   - packages
+description: Cómo acceder y procesar los censos argentinos de 1970 y 1980 desde R
+socialImg: blog/2026-05-19-analisis-demografico-con-arcenso/portada-blog.png
+socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos de 1970 y 1980
+editor: ~
 ---
 
-Trabajar con datos censales puede ser complejo si no se cuenta con un flujo de trabajo organizado y reproducible. [{ARcenso} es un paquete desarrollado en el marco del programa Champions de rOpenSci](https://soyandrea.github.io/arcenso/) con el objetivo de facilitar el acceso y el uso reproducible de datos censales de Argentina en R.
-
-Los datos censales constituyen un insumo fundamental tanto para la investigación como para el diseño y la evaluación de políticas públicas, ya que permiten caracterizar la estructura y dinámica de la población en distintos niveles geográficos.
-
-En este post, quienes desarrollamos {ARcenso} compartimos cómo trabajar con datos censales históricos de forma simple y reproducible. Mostramos cómo pasar de datos a resultados de análisis demográfico, combinando visualizaciones y tablas para explorar la estructura de la población a partir de datos censales históricos, utilizando como ejemplo los censos de 1970 y 1980.
+Los censos de población son una fuente clave para comprender cómo está compuesta y cómo cambia la población. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas. Permiten caracterizar la estructura y dinámica de la población en cada territorio del país.
 
 
-> Todo el código presentado en este post puede ejecutarse en una sesión limpia de R.
+Trabajar con estos datos suele implicar varios pasos previos: identificar qué información está disponible, descargar los datos, organizarlos y dejarlos listos para el análisis. Cuando esa información se encuentra dispersa y en formatos heterogéneos, el proceso puede volverse complejo.
+
+
+<div style="display: flex; align-items: flex-start; gap: 24px;">
+
+<div style="flex: 1;">
+
+<br>
+
+![Portada blog ARcenso](portada-blog.png){fig-alt="Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." style="width: 100%;"}
+
+</div>
+
+<div style="flex: 1;">
+
+<br>
+
+En esta nota de blog, quienes desarrollamos [{ARcenso}](https://soyandrea.github.io/arcenso/) mostramos cómo trabajar de forma simple y reproducible con los datos censales históricos disponibles en el paquete. Este paquete surge para simplificar este proceso y facilitar el acceso a datos censales de Argentina desde R, desarrollado en el marco del programa de campeones de rOpenSci.
+
+
+A partir de datos oficiales que se encuentran originalmente  en cuadros de Excel, construimos tablas estructuradas y estandarizadas listas para su análisis en R. Con ellas, generamos resultados de análisis demográfico combinando visualizaciones y tablas para explorar la estructura de la población, utilizando como ejemplo los [censos de 1970 y 1980](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41).
+
+</div>
+
+</div>
+
+<br>
+
+
+> *El código presentado permite reproducir los resultados partiendo de un entorno de R sin objetos ni configuraciones previas.*
 
 
 ## ¿Cómo empezar? 
 
-Para reproducir este análisis, es necesario contar con un entorno de trabajo en R con los paquetes requeridos. {arcenso} puede instalarse desde GitHub y los demás paquetes desde CRAN *(este paso puede omitirse si los paquetes ya están instalados)*.
+Para reproducir este análisis, es necesario contar con un entorno de trabajo en R con los paquetes requeridos. {ARcenso} puede instalarse desde GitHub y los demás paquetes desde CRAN *(este paso puede omitirse si los paquetes ya están instalados)*.
 
 ```{r eval= FALSE}
 # Si no tenés remotes
@@ -53,10 +82,10 @@ library(gt)      # diseño de tablas
 
 ##  Acceso a datos censales
 
-Para comenzar, utilizamos {arcenso} para acceder a datos censales de manera estructurada. El paquete permite seleccionar información según el año, el tema y la geografía de interés a partir de los códigos geográficos oficiales definidos por el Instituto Nacional de Estadística y Censos (INDEC) de Argentina.
+Para comenzar, utilizamos {ARcenso} para acceder a los datos censales de los años 1970 y 1980. El paquete permite seleccionar información según el año, el tema y la geografía de interés a partir de los códigos geográficos oficiales definidos por el Instituto Nacional de Estadística y Censos (INDEC) de Argentina.
 
 
-En {arcenso}, el argumento `topic` define el tipo de información a consultar (por ejemplo, estructura de la población), mientras que `geo_code` identifica la geografía de interés.
+En {ARcenso}, el argumento `topic` define el tipo de información a consultar (por ejemplo, estructura de la población), mientras que `geo_code` identifica el dominio geográfico de interés.
 
 Si no conocés los valores disponibles para estos argumentos, podés explorarlos directamente desde la consola. El objeto `geo_metadata` permite identificar las geografías y sus códigos, mientras que `census_metadata` contiene información sobre los temas y cuadros disponibles en el paquete.
 
@@ -67,7 +96,7 @@ En este ejemplo, trabajamos con datos de estructura de la población `(topic = "
 check_repository(topic = "estructura", geo_code = "00")
 ```
 
-El resultado de `check_repository()` muestra los años disponibles para esa combinación de tema y geografía, junto con los identificadores de los cuadros y su título. A partir de esta consulta, seleccionamos los identificadores  `1970_00_estructura_01` y `1980_00_estructura_03`, correspondientes a tabulados sobre la población total del país según sexo y grupo de edad, que utilizaremos en el análisis.
+El resultado de `check_repository()` muestra los años disponibles para esa combinación de tema y geografía, junto con los identificadores de los cuadros (IDs) y su título. A partir de esta consulta, seleccionamos los identificadores  `1970_00_estructura_01` y `1980_00_estructura_03`, correspondientes a tabulados sobre la población total del país según sexo y grupo de edad, que utilizaremos en el análisis.
 
 
 > **Bonustrack**: Como alternativa, también es posible explorar los datos de forma interactiva con `arcenso_app()`, desde donde se puede copiar el identificador del cuadro necesario para luego utilizarlo en el análisis.
@@ -75,9 +104,9 @@ El resultado de `check_repository()` muestra los años disponibles para esa comb
 
 ## Preparación de los datos
 
-Una vez identificados los cuadros de interés, utilizamos `get_census()` para descargarlos directamente a partir de su identificador. En este ejemplo, trabajamos con dos cuadros correspondientes al total del país en 1970 y 1980.
+Una vez identificados los cuadros de interés, utilizamos `get_census()` para incorporarlos directamente al entorno de trabajo a partir de su identificador. 
 
-Dado que las estructuras de ambos tabulados no son idénticas, realizamos algunas transformaciones para armonizar las variables y construir una base comparable entre censos. En particular, seleccionamos la población por sexo y grupo quinquenal de edad, recodificamos las categorías etarias para que tengan una estructura común y agregamos una variable que identifica el año censal.
+Dado que las estructuras de ambas tablas no son idénticas, realizamos algunas transformaciones para armonizar las variables y construir una base comparable entre censos. En particular, recodificamos las categorías etarias en grupos quinquenales para que tengan una estructura común y agregamos una columna que identifica el año censal.
 
 ### Censo 1970
 
@@ -135,12 +164,12 @@ pob_1980 <-  poblacion_1980 |>
   select(censo, sexo, grupo_edad, poblacion)
 ```
 
-> En cambio, el cuadro de 1980 presenta la edad en valores simples y añade otras desagregaciones, por lo que es necesario filtrar las categorías de interés y reconstruir los grupos quinquenales de edad (intervalos de 5 años) para hacerlos comparables con los de 1970.
+> El cuadro de 1980, en cambio, presenta la edad en valores simples y añade información adicional que no es relevante para este análisis, por lo que es necesario seleccionar las categorías de interés y construir los grupos quinquenales de edad (intervalos de 5 años) para hacerlos comparables con los de 1970.
 
 
 ### Construcción de la base integrada
 
-Una vez procesados ambos cuadros, unimos la información en una sola base y definimos el formato final de las variables, dejándolas listas para construir visualizaciones y explorar indicadores demográficos.
+Una vez procesados ambos cuadros, unimos la información en una sola tabla y definimos el formato final de las variables, dejándolas listas para construir visualizaciones y explorar indicadores demográficos.
 
 
 ```{r}
@@ -160,20 +189,23 @@ poblacion <-
           "50-54", "55-59", "60-64", "65-69", "70-74",
           "75-79", "80-84", "85 y más"))
   )
+
 ```
-
-
 
 
 ## Estructura de la población 
 
-A partir de la base integrada, contamos con una estructura de datos que combina ambos años censales y organiza la información por sexo, grupo de edad y año. Esta organización permite comparar de manera consistente la composición de la población entre distintos momentos en el tiempo.
+Ahora que contamos con una estructura de datos que combina ambos censos y organiza los absolutos poblacionales por año censal, sexo y grupo de edad. Podemos comparar de manera consistente la composición de la población entre distintos momentos en el tiempo.
 
-La organización de la población por sexo y grupos quinquenales de edad permite analizar su estructura mediante distintas visualizaciones. En este caso, utilizamos una pirámide poblacional, que facilita la lectura conjunta de ambas dimensiones.
 
+```{r}
+head(poblacion)
+```
+
+La organización de la población por sexo y grupos quinquenales de edad permite analizar su estructura mediante distintas 
+visualizaciones. En este caso, utilizamos una pirámide poblacional, que facilita la lectura conjunta de ambas dimensiones.
 
 ### Pirámide poblacional
-
 
 Este tipo de gráfico permite representar la distribución de la población por edad y sexo de manera simultánea, ubicando habitualmente a los varones hacia la izquierda y a las mujeres hacia la derecha. A partir de la proporción de personas en cada grupo de edad quinquenal, la pirámide resume la composición de la población en un formato visual fácil de interpretar.
 
@@ -183,7 +215,8 @@ En este caso, calculamos la distribución relativa de la población dentro de ca
 A continuación, calculamos la distribución relativa de la población en cada censo y construimos una pirámide poblacional para comparar ambos años.
 
 
-```{r}
+```{r fig.cap="Estructura de la población por sexo y grupos quinquenales de edad. Argentina, 1970 y 1980.", fig.alt= "Pirámides poblacionales que comparan la distribución por edad y sexo en Argentina entre 1970 y 1980. Se observa una base más estrecha en 1980 y un leve aumento relativo de la población en edades adultas y mayores, con diferencias entre varones y mujeres."}
+
 # Base para la pirámide poblacional
 piramide <- poblacion |> 
   group_by(censo, sexo) |> 
@@ -229,8 +262,6 @@ Si bien la pirámide poblacional permite una lectura general de la estructura de
 
 ### Índice de envejecimiento
 
-### Índice de envejecimiento
-
 Compara la cantidad de personas mayores (65 años y más) con la población más joven (0 a 14 años). Permite ver de forma simple si la población tiene más peso en las edades jóvenes o en las edades más avanzadas.
 
 
@@ -269,9 +300,9 @@ gt(envejecimiento) |>
 ### Índice de feminidad
 
 
-Este indicador muestra cuántas mujeres hay por cada 100 varones en un grupo de población. En este caso, lo analizamos en edades mayores a partir de los 60 años, donde suelen aparecer diferencias más marcadas entre hombres y mujeres.
+Este indicador muestra cuántas mujeres hay por cada 100 varones en un grupo especifico de población. En este caso, lo analizamos en edades mayores a 60 años, donde suelen aparecer diferencias más marcadas entre hombres y mujeres.
 
-```{r}
+```{r fig.alt= "Gráfico que compara el índice de feminidad (mujeres por cada 100 varones) en la población de 60 años y más entre 1970 y 1980, por grupos quinquenales de edad. En todos los grupos se observa un aumento del índice, con valores más altos en las edades más avanzadas, lo que indica una mayor presencia relativa de mujeres.", fig.cap= "Cambio en el índice de feminidad de la población de 60 años y más, por grupo de edad. Argentina, 1970 y 1980."}
 
 feminidad <- poblacion |> 
   filter(
@@ -324,13 +355,19 @@ feminidad_plot <- feminidad |>
 feminidad_plot
 ```
 
+
 > El índice de feminidad muestra una mayor presencia de mujeres en las edades más avanzadas, diferencia que se acentúa entre 1970 y 1980 en todos los grupos de edad analizados, lo que refleja patrones de mayor supervivencia femenina.
+
 
 ## ¿Qué nos deja este análisis?
 
 
-Este ejercicio muestra cómo, a partir de datos censales estandarizados y organizados, es posible comprender mejor la estructura y dinámica de nuestras sociedades. La combinación de visualizaciones e indicadores permite pasar de los datos a una lectura más clara de los procesos demográficos.
+Al trabajar con datos en análisis demográfico, la parte más laboriosa no suele estar en la construcción de indicadores o visualizaciones, sino en todo lo que ocurre antes: identificar qué información existe para cada censo, comprender cómo está organizada y construir una base coherente que permita comparar distintos momentos en el tiempo.
 
-Este tipo de información es un insumo clave tanto para la investigación como para la política pública, donde entender cómo cambia la población resulta fundamental.
 
-Y todo esto, además, es posible gracias a herramientas abiertas como R y al trabajo de la comunidad que las hace crecer.
+En este ejemplo, eso implicó localizar los cuadros relevantes, entender las diferencias de estructura entre los censos de 1970 y 1980 y reconstruir variables a partir de la información disponible. Es justamente este proceso el que {ARcenso} busca simplificar: con `check_repository()` es posible identificar qué tablas están disponibles, con `get_census()` acceder a los datos de forma estructurada, y con `arcenso_app()` explorar el repositorio de manera interactiva.
+
+
+Este ejercicio muestra que, una vez resuelta la organización de los datos, el análisis se vuelve más accesible y reproducible, permitiendo ampliar y adaptar los resultados a nuevas preguntas.
+
+Sabemos que este es un proceso en construcción: todavía queda trabajo por hacer para incorporar más censos y seguir ampliando las posibilidades de análisis. {ARcenso} nace de esa necesidad de ordenar y hacer accesibles datos que no siempre lo están, y también del trabajo colaborativo de la comunidad que impulsa este tipo de iniciativas. Si te interesa seguir explorando, en las *vignettes* del paquete vas a encontrar más ejemplos para trabajar con estos datos.
