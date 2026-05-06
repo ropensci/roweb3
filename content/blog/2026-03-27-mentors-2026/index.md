@@ -103,7 +103,7 @@ I am Colombian by origin and Argentinean by choice, where today I live, develop 
 
 The R community is my favorite space to share knowledge and build collectively. Currently, I am co-organizer of [R in Buenos Aires](https://renbaires.github.io/) and [RSE Argentina](https://rse-argentina.github.io/), and I also participate in communities such as R-Ladies, LatinR and rOpenSci, contributing to the strengthening of networks at local, regional and global levels, promoting the learning and use of open tools in data science.
 
-I was a [Champion in the 2023-2024 cohort.](/en/blog/2025/05/15/puentes-comunidades-campeones-ropensci/) where I developed [{ARcenso} a package that facilitates access to historical census data for Argentina](https://soyandrea.github.io/arcenso/). I am motivated to continue in the program as a mentor to continue promoting open knowledge and to accompany other people in the development of projects with an impact on their communities.
+I was a [Champion in the 2023-2024 cohort.](//blog/2025/05/15/puentes-comunidades-campeones-ropensci/) where I developed [{ARcenso} a package that facilitates access to historical census data for Argentina](https://soyandrea.github.io/arcenso/). I am motivated to continue in the program as a mentor to continue promoting open knowledge and to accompany other people in the development of projects with an impact on their communities.
 
 </br>
 
