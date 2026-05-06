@@ -25,7 +25,7 @@ editor:
   - Steffi LaZerte
 ---
 
-¡Nos alegra presentar al nuevo equipo de mentor(a|e)s del programa de Campeon(e|a)s de rOpenSci 2026! Este año contamos con diez personas comprometidas con la ciencia abierta, que suman una rica diversidad de trayectorias y perspectivas. El equipo está integrado por personas que se unen al programa por primera vez, por ex campeon(a|e)s que regresan ahora en el rol de mentoras y mentores, y por mentores con experiencia en ediciones anteriores que vuelven para seguir fortaleciendo esta comunidad.
+¡Nos alegra presentar al nuevo equipo de mentor(a|e)s del programa de Campeon(e|a)s de rOpenSci 2026! Este año contamos con once personas comprometidas con la ciencia abierta, que suman una rica diversidad de trayectorias y perspectivas. El equipo está integrado por personas que se unen al programa por primera vez, por ex campeon(a|e)s que regresan ahora en el rol de mentoras y mentores, y por mentores con experiencia en ediciones anteriores que vuelven para seguir fortaleciendo esta comunidad.
 
 Estas personas provienen de distintas disciplinas y países y son voces activas en la comunidad de R en América Latina y más allá. Con su acompañamiento, el nuevo grupo de Campeon(e|a)s no solo desarrollará sus proyectos, sino que también crecerá como líderes en ciencia abierta y desarrollo de software de investigación.
 
@@ -140,6 +140,8 @@ Fui mentor en dos cohortes anteriores del programa donde ha apoyado a desarrolla
 
 </br>
 </br>
+</br>
+</br>
 
 ### Pao Corrales
 
@@ -156,6 +158,8 @@ Me apasiona enseñar y ayudar a otras personas a crecer en lo que hacen, a acced
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
 
 Me llamo Francisco Cardozo. Soy originario de Colombia y vine a Estados Unidos para cursar mis estudios de doctorado. Actualmente trabajo en la Universidad de Miami como investigador posdoctoral en el centro de investigación IMPAC, una institución dedicada a ampliar nuestros conocimientos sobre el desarrollo de los adolescentes. He participado en el Programa de Campeon(a|e)s de rOpenSci en varias ocasiones. Gran parte de mi labor profesional se ha centrado en el diseño de investigaciones y la aplicación de métodos estadísticos, especialmente mediante el uso del entorno de software R.
+</br>
+</br>
 </br>
 </br>
 
@@ -177,6 +181,8 @@ Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones
 
 Ya fui mentore en ediciones anteriores del programa. Fue una experiencia genial que quiero repetir una vez más.
 
+</br>
+</br>
 </br>
 </br>
 </br>

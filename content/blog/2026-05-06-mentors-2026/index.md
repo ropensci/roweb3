@@ -26,7 +26,7 @@ editor:
 - Steffi LaZerte
 ---
 
-We are excited to introduce the new team of mentors for the rOpenSci 2026 Champions Program! This year we have ten individuals committed to open science, bringing together a rich diversity of backgrounds and perspectives. The team is made up of people joining the program for the first time, former Champions returning as mentors, and experienced mentors from previous cohorts returning to continue to strengthen this community.
+We are excited to introduce the new team of mentors for the rOpenSci 2026 Champions Program! This year we have eleven individuals committed to open science, bringing together a rich diversity of backgrounds and perspectives. The team is made up of people joining the program for the first time, former Champions returning as mentors, and experienced mentors from previous cohorts returning to continue to strengthen this community.
 
 This year's mentors come from a variety of disciplines and countries, and are active voices in the R community in Latin America and beyond. With their guidance, the new group of Champions will not only develop their projects, but also grow as leaders in open science and research software development.
 
@@ -130,8 +130,10 @@ Hi, I'm Luis D. Verde Arregoitia, a Mexican living in Xalapa, Mexico. Biologist 
 I was a mentor in two previous cohorts of the program where I have supported software developers in Latin America and I return with much enthusiasm to this new cohort.
 
 </br>
-
 </br>
+</br>
+</br>
+
 
 ### Pao Corrales
 
@@ -150,7 +152,8 @@ I am passionate about teaching and helping other people grow in what they do, ac
 My name is Francisco Cardozo. I am originally from Colombia and came to the United States to pursue my doctoral studies. I am currently working at the University of Miami as a postdoctoral researcher in the IMPAC research center, an institution dedicated to advancing our understanding of adolescent development. I have participated in the Champions Program on several occasions. Much of my professional work has focused on research design and the application of statistical methods, particularly through the use of the R software environment.
 
 </br>
-
+</br>
+</br>
 </br>
 
 
@@ -172,6 +175,8 @@ I am doing a postdoc at Monash University researching interactions between Antar
 
 I have been a mentor to previous cohorts of the program. It was a great experience that I want to repeat once more.
 
+</br>
+</br>
 </br>
 </br>
 </br>
