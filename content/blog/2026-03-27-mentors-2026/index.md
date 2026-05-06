@@ -40,7 +40,7 @@ Hi! I'm Alber and I'm going to be an rOpenSci mentor this year.
 
 I was born in Colombia, in the department of Cauca, in one of the country's most mountainous regions, called Tierradentro. 
 I am a Cadastral and Geodetic Engineer from the Francisco José de Caldas District University in Colombia, where I earned a Master's in Information and Communication Sciences; 
-additionally, I completed another Master's degree in Geoinformatics at
+additionally, I completed another Master's degree in Geoinformatics
 at the University of Münster in Germany, and later earned a PhD in Earth System Science at the National Institute for Space Research (INPE) in Brazil. Currently, I live and work in Brazil and serve as a research assistant at the same INPE.
 
 Part of my daily work involves writing R code to process spatial data and ensure the reproducibility of the scientific experiment results, so I am familiar with R package development. 
