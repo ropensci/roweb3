@@ -1,5 +1,5 @@
 ---
-slug: "mentors-2026"
+slug: "mentoras_es-2026"
 title: Nuevo equipo de mentor(a|e)s con experiencia y nuevas voces
 author:
   - Alber Hamersson Sánchez Ipia
@@ -13,14 +13,13 @@ author:
   - Elio Campitelli
   - Pao Corrales
   - Yanina Bellini Saibene
-date: 2026-03-27
+date: 2026-05-26
 tags:
   - programa campeones
   - mentoria
   - comunidad
 params:
   doi: 10.59350/49hew-fh96
-
 description: Conocé al nuevo equipo de mentor(a|e)s que durante un año van a acompañar a nuestros campeon(a|e)s en sus proyectos, compartiendo experiencia, guía y entusiasmo.
 editor:
   - Steffi LaZerte
@@ -139,30 +138,7 @@ Hola, soy Luis D. Verde Arregoitia, mexicano viviendo en Xalapa, México. Biólo
 
 Fui mentor en dos cohortes anteriores del programa donde ha apoyado a desarrolladores de software en de América Latina y regreso con mucho entusiasmo a esta nueva cohorte.
 
-### Francisco Cardozo
-
-{{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
-
-Me llamo Francisco Cardozo. Soy originario de Colombia y vine a Estados Unidos para cursar mis estudios de doctorado. Actualmente trabajo en la Universidad de Miami como investigador posdoctoral en el centro de investigación IMPAC, una institución dedicada a ampliar nuestros conocimientos sobre el desarrollo de los adolescentes. He participado en el Programa de Campeon(a|e)s de rOpenSci en varias ocasiones. Gran parte de mi labor profesional se ha centrado en el diseño de investigaciones y la aplicación de métodos estadísticos, especialmente mediante el uso del entorno de software R.
-
-### Elio Campitelli
-
-{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University - rOpenSci</strong>">}}
-
-Soy de Argentina pero hace dos años me mudé a Australia porque es el único otro país que empieza con A y usa el mismo tipo de enchufe. 
-
-Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones entre el hielo marino de la Antártida y la atmósfera.
-
-Ya fui mentore en ediciones anteriores del programa. Fue una experiencia genial que quiero repetir una vez más.
-
 </br>
-
-</br>
-
-</br>
-
-</br>
-
 </br>
 
 ### Pao Corrales
@@ -175,6 +151,14 @@ Participo activamente en R-Ladies, R Forwards, The Carpentries, LatinR y rOpenSc
 
 Me apasiona enseñar y ayudar a otras personas a crecer en lo que hacen, a acceder a nuevas oportunidades y a desarrollarse profesionalmente y como personas. Estoy muy contenta de participar de nuevo este año como mentora en el Programa de Campeones de América Latina.
 
+### Francisco Cardozo
+
+{{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Foto de perfil de Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
+
+Me llamo Francisco Cardozo. Soy originario de Colombia y vine a Estados Unidos para cursar mis estudios de doctorado. Actualmente trabajo en la Universidad de Miami como investigador posdoctoral en el centro de investigación IMPAC, una institución dedicada a ampliar nuestros conocimientos sobre el desarrollo de los adolescentes. He participado en el Programa de Campeon(a|e)s de rOpenSci en varias ocasiones. Gran parte de mi labor profesional se ha centrado en el diseño de investigaciones y la aplicación de métodos estadísticos, especialmente mediante el uso del entorno de software R.
+</br>
+</br>
+
 ### Milagros Mendoza
 
 {{< figure src = "/img/team/milagros-mendoza.jpeg" width = "250" alt = "Foto de perfil de Milagros Mendoza" class = "pull-left" caption = "<strong>Milagros Mendoza </br> Universidade Federal Rural de Pernambuco</br> R-Ladies Natal, rOpenSci</strong>">}}
@@ -183,7 +167,21 @@ Hola mi nombre es Milagros, soy ecóloga y estadística, motivada por comprender
 
 Decidí desempeñarme como mentora en Ropensciene porque me siento motivada en contribuir a que más personas desarrollen confianza en el uso de herramientas científicas, consoliden su pensamiento crítico y se posicionen activamente dentro de la comunidad académica. En este sentido, concibo la mentoría como un espacio formativo orientado al diálogo y al crecimiento mútuo.   
 
+### Elio Campitelli
 
+{{< figure src = "/img/team/elio-campitelli.jpg" width = "250" alt = "Foto de perfil de Elio Campitelli" class = "pull-left" caption = "<strong>Elio Campitelli </br> Monash University - rOpenSci</strong>">}}
+
+Soy de Argentina pero hace dos años me mudé a Australia porque es el único otro país que empieza con A y usa el mismo tipo de enchufe. 
+
+Estoy haciendo un postdoc en la Universidad de Monash investigando interacciones entre el hielo marino de la Antártida y la atmósfera.
+
+Ya fui mentore en ediciones anteriores del programa. Fue una experiencia genial que quiero repetir una vez más.
+
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ## Lo que viene
 

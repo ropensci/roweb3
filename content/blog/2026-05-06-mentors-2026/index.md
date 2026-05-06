@@ -13,7 +13,7 @@ author:
 - Elio Campitelli
 - Pao Corrales
 - Yanina Bellini Saibene
-date: '2026-03-27'
+date: '2026-05-06'
 tags:
 - champions program
 - mentor
@@ -129,6 +129,10 @@ Hi, I'm Luis D. Verde Arregoitia, a Mexican living in Xalapa, Mexico. Biologist 
 
 I was a mentor in two previous cohorts of the program where I have supported software developers in Latin America and I return with much enthusiasm to this new cohort.
 
+</br>
+
+</br>
+
 ### Pao Corrales
 
 {{< figure src = "/img/team/paola-corrales.png" width = "250" alt = "Profile photo of Pao Corrales" class = "pull-right" caption = "<strong>Pao Corrales</br>Australian National University & 21st century weather CoE </br> R-Ladies, LatinR, rOpenSci, The Carpentries, RForwards </strong>">}}
@@ -144,6 +148,11 @@ I am passionate about teaching and helping other people grow in what they do, ac
 {{< figure src = "/img/team/francisco-cardozo.jpg" width = "250" alt = "Profile photo of Francisco Cardozo" class = "pull-right" caption = "<strong>Francisco Cardozo</br>[Afiliacion universidad] </br> rOpenSci - The Carpentries</strong>">}}
 
 My name is Francisco Cardozo. I am originally from Colombia and came to the United States to pursue my doctoral studies. I am currently working at the University of Miami as a postdoctoral researcher in the IMPAC research center, an institution dedicated to advancing our understanding of adolescent development. I have participated in the Champions Program on several occasions. Much of my professional work has focused on research design and the application of statistical methods, particularly through the use of the R software environment.
+
+</br>
+
+</br>
+
 
 ### Milagros Mendoza
 
@@ -163,6 +172,10 @@ I am doing a postdoc at Monash University researching interactions between Antar
 
 I have been a mentor to previous cohorts of the program. It was a great experience that I want to repeat once more.
 
+</br>
+</br>
+</br>
+</br>
 
 ## What's next
 
