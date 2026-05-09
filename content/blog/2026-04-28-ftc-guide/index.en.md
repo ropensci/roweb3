@@ -34,7 +34,7 @@ Last year we were grateful to receive funding from NumFOCUS to organize a series
 
 There are many barriers[^1] to first time contributions, but it can be such an empowering experience.
 
-To support contributors to translation efforts, we hosted a Portuguese Community Call Portuguese Community Call ( [A comunidade R fala português](/commcalls/translation-portuguese/)) followed by a [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
+To support contributors to translation efforts, we hosted a Portuguese Community Call ( [A comunidade R fala português](/commcalls/translation-portuguese/)) followed by a [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
 We then hosted an English Community Call ( [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/)) followed by two [mini hackathons](/events/coworking-2025-02/) to support contributors to coding projects.
 
 Part of the grant we received also allowed us to write up our processes and findings as a guide book "[From User to Contributor: Organizing Events for First-Time Contributors](https://ftc-guide.ropensci.org/)", which we are excited to share with you!
