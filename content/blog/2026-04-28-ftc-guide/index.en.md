@@ -36,7 +36,9 @@ There are many barriers[^1] to first time contributions, but it can be such an e
 
 To support contributors to translation efforts, we hosted a Portuguese Community Call ( [A comunidade R fala português](/commcalls/translation-portuguese/)) followed by a [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
 We then hosted an English Community Call ( [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/)) followed by two [mini hackathons](/events/coworking-2025-02/) to support contributors to coding projects.
+A mini-hackathon is a short (typically ~2-hour), live, online coworking session designed to help people make their first contributions to open-source software. Participants work on small, well-prepared tasks such as fixing bugs, improving code, or updating documentation. Maintainers and mentors are available in real time to guide them, answer questions, and support the contribution process. The focus is on learning by doing in a collaborative and supportive environment.
 
+A mini-translathon is a similar short, live coworking session, but focused on translation and localization contributions. Participants review and improve translations of documentation, websites, or other resources. They also work with guidance from mentors and editors, often collaborating in language-specific groups. The goal is to make content accessible in multiple languages while helping newcomers learn translation workflows and tools.
 Part of the grant we received also allowed us to write up our processes and findings as a guide book "[From User to Contributor: Organizing Events for First-Time Contributors](https://ftc-guide.ropensci.org/)", which we are excited to share with you!
 
 In our guide we start by discussing [why supporting first time contributors is important](https://ftc-guide.ropensci.org/).
