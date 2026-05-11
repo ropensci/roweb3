@@ -22,6 +22,7 @@ description: "We introduce our Guide book for organizing events to support first
 # this field is for the storing the name(s) of the editor(s) of your post
 # you can leave it empty until you know who'll review your PR
 editor:
+	- Maëlle Salmon
 params:
   doi: "10.59350/w9z54-fv077"
 ---
