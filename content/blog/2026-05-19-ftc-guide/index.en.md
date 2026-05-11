@@ -41,7 +41,7 @@ The goal is to make content accessible in multiple languages while helping newco
 
 We paired our mini-translathon with a Portuguese Community Call ( [*A comunidade R fala português*](/commcalls/translation-portuguese/))[^2] which preceded the [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
 
-[^1]: "The R community speaks Portuguese"
+[^2]: "The R community speaks Portuguese"
 
 Similarly, a mini-hackathon is a short (typically ~2-hour), live, online coworking session designed to help people make their first contributions to open-source software.
 Participants work on small, well-prepared tasks such as fixing bugs, improving code, or updating documentation.
