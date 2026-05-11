@@ -39,7 +39,7 @@ Participants review and improve translations of documentation, websites, or othe
 They also work with guidance from mentors and editors, often collaborating in language-specific groups.
 The goal is to make content accessible in multiple languages while helping newcomers learn translation workflows and tools.
 
-We paired our mini-translathon with a Portuguese Community Call ( [*A comunidade R fala português*](/commcalls/translation-portuguese/))[^2] which preceded the [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
+We paired our mini-translathon with a Portuguese Community Call ( [*A comunidade R fala português*](/commcalls/translation-portuguese/)[^2]) which preceded the [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
 
 [^2]: "The R community speaks Portuguese"
 
