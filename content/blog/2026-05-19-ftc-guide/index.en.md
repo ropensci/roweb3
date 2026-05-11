@@ -4,8 +4,6 @@ title: Introducing our Guide to Organizing Events for First-time Contributors to
 author:
   - Steffi LaZerte
   - Yanina Bellini Saibene
-editor:
-  - Maëlle Salmon
 # Set the date below to the publication date of your post
 date: 2026-05-19
 # Minimal tags for a post about a community-contributed package 
