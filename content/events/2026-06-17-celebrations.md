@@ -4,7 +4,6 @@ dateStart: 2026-06-17T01:00:00 # UTC!!
 dateEnd: 2026-06-17T02:30:00 # UTC!!
 date: 2026-06-17T02:30:00 # UTC!! same as dateEnd
 description: Join us for a casual community celebration where we'll all have the chance to reflect on rOpenSci's past and future.
-coworking: true
 location: 'online' # free text
 slug: 'celebrations-2026-06-17'
 country: "🌐" # emoji
