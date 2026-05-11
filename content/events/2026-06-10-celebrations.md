@@ -12,7 +12,7 @@ ropensci: yes
 outputs:
   - HTML
   - Calendar
-attendees:
+author:
   - Noam Ross
   - Yanina Bellini Saibene
   - Steffi LaZerte
