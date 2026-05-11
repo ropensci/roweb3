@@ -46,6 +46,8 @@ Again, we paired our mini-hackathons with an English Community Call ([From Novic
 
 Part of the grant we received also allowed us to write up our processes and findings as a guide book "[From User to Contributor: Organizing Events for First-Time Contributors](https://ftc-guide.ropensci.org/)", which we are excited to share with you!
 
+{{< figure src = "ftc_guide.png" alt = "Screenshot of the introduction to the FTC Guide showing the Table of Contents including 'Preface', 'Pilot', 'Events Overview', 'Community Calls', 'Mini-translathons', 'Mini-hackathons', and 'Appendices'" >}}
+
 In our guide we start by discussing [why supporting first time contributors is important](https://ftc-guide.ropensci.org/).
 We describe our [pilot events](https://ftc-guide.ropensci.org/pilot.html), how they went, feedback we received, and ideas for future improvement.
 The main chapters of the guide then cover how to run these events in greater detail.
