@@ -50,7 +50,11 @@ En los últimos años, con la intención de desarrollar nuevas habilidades en un
 {{< figure src = "/img/team/evelia-coss.jpg" width = "250" alt = "Foto de perfil de Evelia Lorena Coss Navarrete" class = "pull-right" caption = "<strong>Evelia Lorena Coss Navarrete </br> LIIGH-UNAM</strong>">}}
 
 
-TODO: add text for champion 
+Soy investigadora posdoctoral especializada en transcriptómica y análisis de datos de célula única. Mi investigación se centra en el estudio de perfiles transcriptómicos de pacientes mexicanas con lupus, con el objetivo de comprender mejor los mecanismos biológicos de la enfermedad y aportar herramientas bioinformáticas reproducibles que fortalezcan tanto la investigación biomédica como la formación académica en México y Latinoamérica.
+
+Soy Ingeniera en Biotecnología por la Universidad Politécnica de Sinaloa (UPSIN), originaria de Mazatlán, y realicé la Maestría y el Doctorado en Biotecnología de Plantas en Cinvestav, donde estudié la conservación de lncRNAs en plantas.
+
+Mi participación en el Champions Program de rOpenSci busca fortalecer comunidades como VieRnes de Bioinformática, R-Ladies Morelia y RSG-México, promoviendo la creación de paquetes en R con estándares internacionales, documentación reproducible y revisión abierta. Mi visión es tender un puente entre la comunidad global de rOpenSci y las iniciativas locales en Latinoamérica, impulsando una ciencia más abierta, inclusiva y sostenible.
 
 ## Gladys Choque Ulloa
 
