@@ -34,7 +34,7 @@ Last year we were grateful to receive funding from NumFOCUS to organize a series
 
 There are many barriers[^1] to first time contributions, but it can be such an empowering experience.
 
-To support contributors to translation efforts, we hosted a Portuguese Community Call ( [A comunidade R fala português](/commcalls/translation-portuguese/)) followed by a [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
+To support contributors to translation efforts, we hosted a Portuguese Community Call ([_A comunidade R fala português_](/commcalls/translation-portuguese/)) followed by a [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
 We then hosted an English Community Call ([From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/)) followed by two [mini hackathons](/events/coworking-2025-02/) to support contributors to coding projects.
 A mini-hackathon is a short (typically ~2-hour), live, online coworking session designed to help people make their first contributions to open-source software. Participants work on small, well-prepared tasks such as fixing bugs, improving code, or updating documentation. Maintainers and mentors are available in real time to guide them, answer questions, and support the contribution process. The focus is on learning by doing in a collaborative and supportive environment.
 
