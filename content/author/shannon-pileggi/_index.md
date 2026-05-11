@@ -2,7 +2,7 @@
 name: Shannon Pileggi
 link: https://www.pipinghotdata.com/
 twitter: Twitter username
-linkedin: https://www.linkedin.com/in/shannon-m-pileggi/
+linkedin: shannon-m-pileggi
 mastodon: https://fosstodon.org/@PipingHotData
 bluesky: https://bsky.app/profile/pipinghotdata.com
 github: shannonpileggi
