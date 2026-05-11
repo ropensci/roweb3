@@ -21,21 +21,21 @@ Te invitamos a conocer a cada una de estas personas y los proyectos en los que t
 
 ## Bastián Olea Herrera
 
-{{< figure src = "/img/team/bastion-olea.jpeg" width = "250" alt = "Foto de perfil de Bastián Olea Herrera" class = "pull-left" caption = "<strong>Bastián Olea Herrera </br> Subsecretaría de Desarrollo Regional y Administrativo </br> Gobierno de Chile</strong>">}}
+{{< figure src = "/img/team/bastian-olea-herrera.jpg" width = "250" alt = "Foto de perfil de Bastián Olea Herrera" class = "pull-left" caption = "<strong>Bastián Olea Herrera </br> Subsecretaría de Desarrollo Regional y Administrativo </br> Gobierno de Chile</strong>">}}
 
 Mi nombre es Bastián, vivo en Chile, soy sociólogx de formación y poseo un magíster en sociología. Me gusta crear contenido y tutoriales sobre R, y recientemente estamos organizando una comunidad de usuari@s de R en Santiago, mi ciudad. Me dedico al análisis de datos en el sector público, donde trabajo principalmente con datos sociales a distintos niveles territoriales. Este tipo de datos necesita siempre los mismos tipos de limpieza y correcciones, pero a su vez suelen variar mucho en pequeños detalles entre cada fuente. Por eso me presenté al programa para desarrollar un paquete que facilite trabajar con datos de nivel comunal y regional de Chile. Espero poder conocer a otrxs usuarixs de R y aprender en conjunto, así como recibir apoyo de personas con mayor experiencia y conocimiento, para que creemos herramientas útiles para muchas personas!
 
 
 ## Denisse Fierro Arcos
 
-{{< figure src = "/img/team/denisse-fierro.jpg" width = "250" alt = "Foto de perfil de Denisse Fierro Arcos" class = "pull-right" caption = "<strong>Denisse Fierro Arcos </br> Institute for Marine and Antarctic Studies </br> University of Tasmania</strong>">}}
+{{< figure src = "/img/team/denisse-fierro-arcos.JPG" width = "250" alt = "Foto de perfil de Denisse Fierro Arcos" class = "pull-right" caption = "<strong>Denisse Fierro Arcos </br> Institute for Marine and Antarctic Studies </br> University of Tasmania</strong>">}}
 
 Mi nombre es Denisse Fierro Arcos, soy científica marina originalmente de Ecuador pero vivo en Australia. Al momento estoy cerca de terminar mi programa de doctorado que en términos sencillos se enfoca en desarrollar buenas prácticas para el uso de modelos oceanográficos en estudios sobre ecosistemas marinos. Actualmente también estoy trabajando como investigadora en la Universidad de Tasmania donde estoy desarrollando un modelo de ecosistemas marinos que nos permita proyectar los posibles impactos del cambio climático en especies marinas y pesquerías. Es justamente este modelo con el que trabajo el enfoque de mi proyecto con el Champions Program. Queremos publicar un paquete en R que permita a otros investigadores marinos correr nuestro modelo con facilidad.
 
 
 ## Durga Valentina Linares Herrera
 
-{{< figure src = "/img/team/durga-linares.jpeg" width = "250" alt = "Foto de perfil de Durga Valentina Linares Herrera" class = "pull-left" caption = "<strong>Durga Valentina Linares Herrera </br> Centro de Investigación de la Universidad del Pacífico (CIUP)</strong>">}}
+{{< figure src = "/img/team/valentina-linares.jpeg" width = "250" alt = "Foto de perfil de Durga Valentina Linares Herrera" class = "pull-left" caption = "<strong>Durga Valentina Linares Herrera </br> Centro de Investigación de la Universidad del Pacífico (CIUP)</strong>">}}
 
 ¡Hola! Mi nombre es Durga Valentina Linares Herrera y resido en Lima, Perú. Soy científica social, graduada en Ciencia Política por la Universidad Antonio Ruiz de Montoya y diplomada en Ciencia de Datos para las Ciencias Sociales y la Gestión Pública por la Pontificia Universidad Católica del Perú. Trabajo como asistente de investigación en el Centro de Investigación de la Universidad del Pacífico, donde exploro la intersección entre tecnología y trabajo desde una perspectiva sociológica y con metodologías mixtas. Mis proyectos actuales giran en torno al mercado laboral peruano y su exposición a la inteligencia artificial, y a la evolución de la huelga como fenómeno social en el Perú de las últimas tres décadas.
 
@@ -46,7 +46,7 @@ En los últimos años, con la intención de desarrollar nuevas habilidades en un
 
 ## Evelia Lorena Coss Navarrete
 
-{{< figure src = "/img/team/evelia-coss.jpg" width = "250" alt = "Foto de perfil de Evelia Lorena Coss Navarrete" class = "pull-right" caption = "<strong>Evelia Lorena Coss Navarrete </br> LIIGH-UNAM</strong>">}}
+{{< figure src = "/img/team/evelia-lorena-coss-navarrete.jpg" width = "250" alt = "Foto de perfil de Evelia Lorena Coss Navarrete" class = "pull-right" caption = "<strong>Evelia Lorena Coss Navarrete </br> LIIGH-UNAM</strong>">}}
 
 
 Soy investigadora posdoctoral especializada en transcriptómica y análisis de datos de célula única. Mi investigación se centra en el estudio de perfiles transcriptómicos de pacientes mexicanas con lupus, con el objetivo de comprender mejor los mecanismos biológicos de la enfermedad y aportar herramientas bioinformáticas reproducibles que fortalezcan tanto la investigación biomédica como la formación académica en México y Latinoamérica.
@@ -81,7 +81,7 @@ A través de este programa, espero fortalecer mis capacidades en desarrollo de s
 
 ## Linda Cabrera Orellana
 
-{{< figure src = "/img/team/linda-cabrera.png" width = "250" alt = "Foto de perfil de Linda Cabrera Orellana" class = "pull-left" caption = "<strong>Linda Cabrera Orellana </br> R-Ladies Ecuador</strong>">}}
+{{< figure src = "/img/team/linda-cabrera-orellana.png" width = "250" alt = "Foto de perfil de Linda Cabrera Orellana" class = "pull-left" caption = "<strong>Linda Cabrera Orellana </br> R-Ladies Ecuador</strong>">}}
 
 Hola! Mi nombre es Linda, soy ecuatoriana y actualmente resido en Granada, España. Trabajo como Senior Data Analyst en una agencia de marketing digital y comparto mi experiencia como docente en escuelas de negocio, donde imparto clases sobre IA aplicada a la analítica y la visualización de datos.
 Mi proyecto consiste en desarrollar un paquete de R con enfoque educativo para detectar, explicar y ayudar a corregir errores estructurales comunes en datasets creados manualmente, especialmente pensado para personas sin formación técnica en datos.
@@ -101,7 +101,7 @@ También me motiva el enfoque del programa en la comunidad y en el trabajo en es
 
 ## Marina Cecilia Cock
 
-{{< figure src = "/img/team/marina-cock.jpg" width = "250" alt = "Foto de perfil de Marina Cecilia Cock" class = "pull-left" caption = "<strong>Marina Cecilia Cock </br> INCITAP (CONICET-UNLPam) </br> Universidad Nacional de La Pampa</strong>">}}
+{{< figure src = "/img/team/marina-cecilia-cock.JPG" width = "250" alt = "Foto de perfil de Marina Cecilia Cock" class = "pull-left" caption = "<strong>Marina Cecilia Cock </br> INCITAP (CONICET-UNLPam) </br> Universidad Nacional de La Pampa</strong>">}}
 
 Soy de Santa Rosa, La Pampa, Argentina. Soy Ingeniera en Recursos Naturales y Medio Ambiente de la Universidad Nacional de La Pampa (UNLPam) y Dra. en Ciencias Agrarias con orientación en Ecología de la Universidad de Buenos Aires (UBA). 
 
@@ -112,7 +112,7 @@ Me presenté al programa para aprender sobre el proceso de revisión de paquetes
 
 ## Patricia Andrea Loto
 
-{{< figure src = "/img/team/patricia-loto.png" width = "250" alt = "Foto de perfil de Patricia Andrea Loto" class = "pull-right" caption = "<strong>Patricia Andrea Loto </br> FACENA, Universidad Nacional del Nordeste (UNNE)</strong>">}}
+{{< figure src = "/img/team/patricia-loto.jpg" width = "250" alt = "Foto de perfil de Patricia Andrea Loto" class = "pull-right" caption = "<strong>Patricia Andrea Loto </br> FACENA, Universidad Nacional del Nordeste (UNNE)</strong>">}}
 
 Soy Licenciada en Sistemas de Información y Diplomada en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones. Actualmente curso una Maestría en Tecnologías de la Información en la Universidad Nacional del Nordeste. Vivo y trabajo en Argentina.
 Me desempeño como desarrolladora de software y analista de datos en el sector público, y como docente universitaria en el área de sistemas y programación. Soy co-fundadora de RSE Argentina, miembro del comité organizador de LatinR y co-organizadora de R-Ladies Resistencia-Corrientes. Desde estos espacios trabajo para promover la ciencia abierta, el software de investigación reproducible y la inclusión en tecnología en Latinoamérica.
