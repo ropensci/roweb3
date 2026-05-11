@@ -15,6 +15,10 @@ author:
   - Noam Ross
   - Yanina Bellini Saibene
   - Steffi LaZerte
+attendees:
+  - Noam Ross
+  - Yanina Bellini Saibene
+  - Steffi LaZerte
 deets: |
     Meeting ID: 849 0838 1262
     Passcode: socialize
