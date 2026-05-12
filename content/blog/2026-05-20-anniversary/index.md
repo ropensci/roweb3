@@ -28,7 +28,7 @@ Stay tuned to this blog and our newsletter for announcements as the year unfolds
 
 ## First up: co-working session and virtual casual community celebration
 
-We're kicking things off with one [co-working session]() and two virtual community events on [Wednesday, June 10]() and [Wednesday, June 17]() in different timezones, so as many people as possible can join.
+We're kicking things off with one [co-working session on Tuesday, June xx]() and two virtual community events on [Wednesday, June 10]() and [Wednesday, June 17]() in different timezones, so as many people as possible can join.
 
 Each 90-minute session is built around rotating small-group conversations. You'll meet community members you may not know yet, and together you'll dig into questions to reflect on rOpenSci's past and future.
 
