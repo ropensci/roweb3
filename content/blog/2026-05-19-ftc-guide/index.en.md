@@ -1,6 +1,6 @@
 ---
 slug: "ftc-guide"
-title: A New Guide: Organizing Events for First-time Contributors
+title: "A New Guide: Organizing Events for First-time Contributors"
 author:
   - Steffi LaZerte
   - Yanina Bellini Saibene
