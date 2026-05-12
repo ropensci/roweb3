@@ -39,7 +39,7 @@ To help reduce some of these barriers we hosted two types of events: **mini-tran
 A **mini-translathon** is a short, live, coworking session, focused on translation and localization contributions.
 Participants review and improve translations of documentation, websites, or other resources.
 They also work with guidance from mentors and editors, often collaborating in language-specific groups.
-The goal is to make content accessible in multiple languages while helping newcomers learn [translation workflows and tools](https://ropensci.org/multilingual-publishing/).
+The goal is to make content accessible in multiple languages while helping newcomers learn [translation workflows and tools](/multilingual-publishing/).
 
 We paired our mini-translathon with a Portuguese Community Call ([*A comunidade R fala português*](/commcalls/translation-portuguese/)[^2]) which preceded the [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR 2024.
 
