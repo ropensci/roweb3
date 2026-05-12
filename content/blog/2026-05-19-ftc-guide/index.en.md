@@ -1,6 +1,6 @@
 ---
 slug: "ftc-guide"
-title: Introducing our Guide to Organizing Events for First-time Contributors to FOSS!
+title: A New Guide: Organizing Events for First-time Contributors
 author:
   - Steffi LaZerte
   - Yanina Bellini Saibene
@@ -30,16 +30,18 @@ params:
 > 
 > -- [rOpenSci FTC Guide](https://ftc-guide.ropensci.org/)
 
-Last year we were grateful to receive funding from NumFOCUS to organize a series of events designed to reduce barriers restricting First-Time Contributors to Free and Open Source Software (FOSS).
+Last year we were grateful to receive funding from NumFOCUS[^3] to organize a series of events designed to reduce barriers restricting First-Time Contributors to Free and Open Source Software (FOSS).
 There are many barriers[^1] to first time contributions, but making these contributions can be a very empowering experience.
 To help reduce some of these barriers we hosted two types of events: **mini-translathons** and **mini-hackathons**.
+
+[^3]: [NumFocus](https://numfocus.org/) is rOpenSci's fiscal sponsor.
 
 A **mini-translathon** is a short, live, coworking session, focused on translation and localization contributions.
 Participants review and improve translations of documentation, websites, or other resources.
 They also work with guidance from mentors and editors, often collaborating in language-specific groups.
-The goal is to make content accessible in multiple languages while helping newcomers learn translation workflows and tools.
+The goal is to make content accessible in multiple languages while helping newcomers learn [translation workflows and tools](https://ropensci.org/multilingual-publishing/).
 
-We paired our mini-translathon with a Portuguese Community Call ([*A comunidade R fala português*](/commcalls/translation-portuguese/)[^2]) which preceded the [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR.
+We paired our mini-translathon with a Portuguese Community Call ([*A comunidade R fala português*](/commcalls/translation-portuguese/)[^2]) which preceded the [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR 2024.
 
 [^2]: "The R community speaks Portuguese"
 
