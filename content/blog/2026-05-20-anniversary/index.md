@@ -21,6 +21,8 @@ On July 13, 2011, an email was sent with the idea of a shared blog, a clever dom
 
 That was 15 years ago. This year, we celebrate. 🎉
 
+{{< figure src = "PixelArt15yearrOpenSci.png" alt = "Retro pixel-art graphic celebrating rOpenSci's 15th anniversary. The text 'rOpenSci' appears at the top in pixel font, flanked by three pixel-art balloons. A browser window frames the central message: '15 YEARS / TRANSFORMING OPEN SCIENCE' in bold pixel letters, overlaid on the rOpenSci geometric network pattern. A pixel badge reads 'OMG'. A pixel folder and sparkle icons complete the design." >}}
+
 ## _Quinceañera_ time 🎂
 
 Fifteen years is a milestone worth marking properly, that is why we want to celebrate with our community. We have a full year of activities planned, and we want you along for all of it.
