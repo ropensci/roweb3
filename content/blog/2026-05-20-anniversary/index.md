@@ -2,14 +2,17 @@
 slug: anniversary2026
 title: '15 years of rOpenSci, and we're just getting started 🎉'
 author:
-    - rOpenSci Team
+    - The rOpenSci Team
 date: '2026-05-20'
 tags:
   - rOpenSci Team
 featured: true
 description: 
+socialImg: blog/2026/05/20/aniversary/PixelArt15yearrOpenSci.png
+socialAlt: 'Retro pixel-art graphic celebrating rOpenSci's 15th anniversary. The text "rOpenSci" appears at the top in pixel font, flanked by three pixel-art balloons. A browser window frames the central message: "15 YEARS / TRANSFORMING OPEN SCIENCE" in bold pixel letters, overlaid on the rOpenSci geometric network pattern. A pixel badge reads "OMG." A pixel folder and sparkle icons complete the design.'
+social: 'It started with an email in July 2011, and 15 years later, rOpenSci is throwing a Quinceañera! 🎂 We're marking the anniversary with a year of community activities, kicking off with virtual celebration events in June'
 params:
-  doi: 
+  doi: 10.59350/cz2sy-c7z69
 ---
 
 Digging through our memory box, we came across a conversation in which we tried to piece together when it all began with rOpenSci. 
