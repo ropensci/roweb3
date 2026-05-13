@@ -1,6 +1,6 @@
 ---
 slug: anniversary2026
-title: '15 years of rOpenSci, and we're just getting started 🎉'
+title: "15 years of rOpenSci, and we're just getting started 🎉"
 author:
     - The rOpenSci Team
 date: '2026-05-20'
