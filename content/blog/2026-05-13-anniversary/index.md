@@ -3,7 +3,7 @@ slug: anniversary2026
 title: "15 Years of rOpenSci, and We're Just Getting Started 🎉"
 author:
     - The rOpenSci Team
-date: '2026-05-20'
+date: '2026-05-13'
 tags:
   - rOpenSci Team
   - community
