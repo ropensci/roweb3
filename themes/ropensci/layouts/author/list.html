@@ -80,6 +80,18 @@
       {{ .Render "post-short-summary" }}
       {{ end }}
     {{ end }}
+   {{ if isset .Params "github" }}
+{{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
+{{ $packages := (where $registry "_maintainer.login" .Params.github )}}
+    {{ if ne (len $packages) 0 }}
+    <div class="mt-5">
+    <h2 class="title">{{ if eq (len $packages) 1 }}{{ i18n "Package" }}{{ else }}{{ i18n "Packages" }}{{ end }}</h2>
+        </div>
+      {{ range $packages }}
+      {{ partial "packages/package-short-summary" (dict "Package" .Package "Title" .Title) }}
+      {{ end }}
+    {{ end }}
+    {{ end }}
       </div>
   </div>
 </section>
