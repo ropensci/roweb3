@@ -758,6 +758,11 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful information for R package developers. :eyes:
 
+### devtools' install functions now officially deprecated
+
+The `devtools::install_` functions like `devtools::install_github()` have now been officially [deprecated](https://devtools.r-lib.org/reference/install-deprecated.html) in favor of [pak](https://pak.r-lib.org/).
+The [manual page](https://devtools.r-lib.org/reference/install-deprecated.html) contains a migration guide.
+Time to update older READMEs!
 
 ### New Git commands!
 

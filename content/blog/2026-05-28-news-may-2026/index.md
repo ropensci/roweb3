@@ -10,7 +10,7 @@ description: new packages and package news
 params:
   last_newsletter: '2026-04-30'
   doi: "10.59350/8bear-txs95"
-rmd_hash: 2002da5c30accf4c
+rmd_hash: 4164b168050a811f
 
 ---
 
@@ -185,6 +185,10 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 ## Package development corner
 
 Some useful information for R package developers. :eyes:
+
+### devtools' install functions now officially deprecated
+
+The `devtools::install_` functions like [`devtools::install_github()`](https://devtools.r-lib.org/reference/install-deprecated.html) have now been officially [deprecated](https://devtools.r-lib.org/reference/install-deprecated.html) in favor of [pak](https://pak.r-lib.org/). The [manual page](https://devtools.r-lib.org/reference/install-deprecated.html) contains a migration guide. Time to update older READMEs!
 
 ### New Git commands!
 
