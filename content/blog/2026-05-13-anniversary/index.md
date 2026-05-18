@@ -10,7 +10,7 @@ tags:
   - welcome  
 featured: true
 description: 
-socialImg: blog/2026/05/20/aniversary/PixelArt15yearrOpenSci.png
+socialImg: blog/2026/05/13/anniversary2026/PixelArt15yearrOpenSci.png
 socialAlt: "Retro pixel-art graphic celebrating rOpenSci's 15th anniversary. The text 'rOpenSci' appears at the top in pixel font, flanked by three pixel-art balloons. A browser window frames the central message: '15 YEARS / TRANSFORMING OPEN SCIENCE' in bold pixel letters, overlaid on the rOpenSci geometric network pattern. A pixel badge reads 'OMG'. A pixel folder and sparkle icons complete the design."
 social: "It started with an email in July 2011, and 15 years later, rOpenSci is throwing a Quinceañera! 🎂 We're marking the anniversary with a year of community activities, kicking off with virtual celebration events in June"
 params:
