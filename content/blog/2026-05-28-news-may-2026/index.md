@@ -10,7 +10,7 @@ description: new packages and package news
 params:
   last_newsletter: '2026-04-30'
   doi: "10.59350/8bear-txs95"
-rmd_hash: 7b6de4482f52f9f3
+rmd_hash: 2002da5c30accf4c
 
 ---
 
@@ -19,6 +19,22 @@ rmd_hash: 7b6de4482f52f9f3
 Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/05/28/news-may-2026). Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
+### 15 Years of rOpenSci, and We're Just Getting Started 🎉
+
+This year we celebrate 15 years of rOpenSci! First up: co-working session and casual virtual community celebration. Read more in our [blog post](/blog/2026/05/13/anniversary2026/).
+
+### Champions Program Update
+
+TODO YANI
+
+### May, Maintainer Month
+
+TODO YANI
+
+### Software-Review Update
+
+TODO MARK
 
 ### Social media cards for R-universe
 

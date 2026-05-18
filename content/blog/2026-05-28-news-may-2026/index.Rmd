@@ -53,6 +53,24 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
+### 15 Years of rOpenSci, and We’re Just Getting Started 🎉
+
+This year we celebrate 15 years of rOpenSci!
+First up: co-working session and casual virtual community celebration.
+Read more in our [blog post](/blog/2026/05/13/anniversary2026/).
+
+### Champions Program Update
+
+TODO YANI
+
+### May, Maintainer Month
+
+TODO YANI
+
+### Software-Review Update
+
+TODO MARK
+
 ### Social media cards for R-universe
 
 When posting about your package or universe on social media, you can get a pretty social media card featuring important information on respectively:
