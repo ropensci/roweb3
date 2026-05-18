@@ -122,9 +122,13 @@ Postulé al programa de campeones porque lo veo como un puente: entre donde esto
 
 ## Estefania Torrejón
 
-{{< figure src = "/img/team/nombre.jpeg" width = "250" alt = "Foto de perfil de nombre" class = "pull-left" caption = "<strong>Nombre </br> Institución </br> País</strong>">}}
+{{< figure src = "/img/team/estefania-torrejon.png" width = "250" alt = "Foto de perfil de Estefania Torrejón" class = "pull-left" caption = "<strong>Estefania Torrejón </br> NOVA Medical School. Lisboa, Portugal</br> País</strong>">}}
 
-TODO: add text for champion 11
+Soy peruana y bióloga egresada de la Universidad Nacional Mayor de San Marcos (UNMSM), con una maestría en Ciencias Biomédicas por el Instituto de Higiene y Medicina Tropical (IHMT) de Lisboa, Portugal. Actualmente resido en Portugal, donde me desempeño como investigadora predoctoral en bioinformática en el Metabolic Diseases Research Lab de NOVA Medical School. Asimismo, soy directora del Departamento de Relaciones Internacionales de la Sociedad Peruana de Bioinformática y Biología Computacional.
+
+El proyecto que desarrollo en el marco del programa de campeones de rOpenSci consiste en la preparación y envío de mi paquete de R, EV-Net, al repositorio CRAN. EV-Net es una herramienta bioinformática que permite identificar y priorizar moléculas presentes en la carga de vesículas extracelulares (EVs) con alto potencial regulador sobre un tejido receptor de interés. Las EVs son estructuras rodeadas por una bicapa lipídica que transportan una gran diversidad de moléculas activas. Estas vesículas pueden desplazarse a través del organismo y alcanzar tejidos específicos, por lo que han sido reconocidas como mediadoras clave de la comunicación célula a célula (CCC). Sin embargo, la mayoría de las herramientas bioinformáticas disponibles para estudiar la CCC no consideran la comunicación mediada por EVs. Para abordar esta limitación, desarrollamos EV-Net junto con mis colaboradores y supervisores.
+
+Ser Campeona de rOpenSci representa para mí una oportunidad invaluable para recibir la capacitación, el acompañamiento y la mentoría necesarios para que EV-Net cumpla con los estándares de calidad exigidos y pueda ser incorporado exitosamente en CRAN.
 
 
 ## Siguientes pasos
