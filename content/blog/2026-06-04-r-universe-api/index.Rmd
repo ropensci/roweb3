@@ -60,6 +60,8 @@ For instance, for the list of packages at the bottom of [Jeroen Ooms' author pag
 
 On a Quarto website, you could have a code chunk using R to query the R-universe APIs, through the [universe R package](https://docs.ropensci.org/universe/) for instance.
 
+In any case, if you use server-side requests, you need to re-render your website fairly regularly to avoid your packages' listing to get out-of-date.
+
 
 ## Conclusion
 

@@ -12,7 +12,7 @@ tags:
 params:
   doi: "10.59350/vrv9q-27605"
 output: hugodown::md_document
-rmd_hash: 16ac3087bab9548c
+rmd_hash: fb2e953bf7d04c4d
 
 ---
 
@@ -45,6 +45,8 @@ The rOpenSci website uses, for the package listings on the author pages and pack
 {{< figure src="jeroen.png" alt="Screenshot of Jeroen Ooms' author page on the rOpenSci website, featuring the list of rOpenSci packages that he maintains." >}}
 
 On a Quarto website, you could have a code chunk using R to query the R-universe APIs, through the [universe R package](https://docs.ropensci.org/universe/) for instance.
+
+In any case, if you use server-side requests, you need to re-render your website fairly regularly to avoid your packages' listing to get out-of-date.
 
 ## Conclusion
 
