@@ -2,8 +2,9 @@
 slug: neweditors2026
 title: ''
 author:
-    - 
-    - 
+    - Ronny Hernandez Mora
+    - Joel Nitta
+    - Nicholas Tierney
     - Yanina Bellini Saibene
 editor:
     - Mark Padgham
@@ -21,7 +22,7 @@ params:
 
 Meet our new editors!
 
-## 
+## Ronny Hernandez Mora
 
 {{< imgtxt src = "/img/team/" width = "200" alt = "Headshot of ">}}
 
@@ -37,7 +38,10 @@ Quote
 {{< /quote >}}
 
 
-## TODO: add the other people
+
+## Joel Nitta
+
+## Nicholas Tierney
 
 ## About the Software Peer Review Program
 
