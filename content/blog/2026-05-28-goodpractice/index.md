@@ -63,3 +63,12 @@ The number of checks has been increased from 230 to 338, as listed in the output
 The goodpractice package has always been designed for console output.
 This updated version now provides immediate and consistent detail on check progress while running.
 The [cli package](https://cli.r-lib.org) is also used to give consistently formatted output for all check groups.
+
+The large increase in numbers of checks also means that directly printing goodpractice results may fill several screens of output.
+This update also adds a `groups` parameter to the [`print()` method](https://docs.ropensci.org/goodpractice/reference/print.goodPractice.html), to enable printing check results only for specified groups.
+That way you can run the main [`gp()` function](https://docs.ropensci.org/goodpractice/reference/gp.html) once, then step through each check group by printing results only for that group, fixing those, and then moving on to the next group.
+
+## Let us know what you think
+
+Like all rOpenSci packages, goodpractice is a community effort that lives through community use and feedback.
+We'd love to hear what you think, via social media, or through issues on the [GitHub repository](https://github.com/ropensci-review-tools/goodpractice).
