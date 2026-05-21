@@ -4,7 +4,7 @@ title: "Our goodpractice package has new superpowers"
 author:
     - Mark Padgham
     - Athanasia Mo Mowinckel
-date: '2026-05-27'
+date: '2026-05-28'
 tags:
   - package development
   - tech notes
