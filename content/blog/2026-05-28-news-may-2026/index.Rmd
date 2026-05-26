@@ -65,7 +65,12 @@ TODO YANI
 
 ### May, Maintainer Month
 
-TODO YANI
+Open source software doesn't sustain itself. Behind every R package, there is at least one person who responds to issues, reviews pull requests, keeps up with dependency changes, and makes sure everything still works.
+
+We joined the #MaintainerMonth celebration with a month-long series of rOpenSci's maintainers spotlights: **36 maintainers from 15 countries across 4 continents**, maintaining more than 50 packages that together serve thousands of researchers and data practitioners around the world.
+
+Follow our social media and the official hashtag to check it all. 
+**Thank you** to those who agreed to participate and to all the maintainers in our community. 
 
 ### Software-Review Update
 
