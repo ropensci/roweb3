@@ -6,7 +6,7 @@ author:
 date: '2026-05-28'
 tags:
   - newsletter
-description: new packages and package news
+description: 15 years of rOpenSci; champions program; maintainer month; new packages and package news
 params:
   last_newsletter: '2026-04-30'
   doi: "10.59350/8bear-txs95"
@@ -59,19 +59,24 @@ This year we celebrate 15 years of rOpenSci!
 First up: co-working session and casual virtual community celebration.
 Read more in our [blog post](/blog/2026/05/13/anniversary2026/).
 
+Our blog post about 15 years of rOpenSci was featured in the R Weekly Highlights [podcast](https://serve.podhome.fm/episodepage/r-weekly-highlights/227) hosted by Eric Nantz and Mike Thomas.
+
 ### Champions Program Update
 
 The rOpenSci Champions Program is currently running two very active cohorts, with many activities happening across the program, and everything is on track! 
 
-The 2025–2026 cohort is wrapping up their projects and outreach activities, with several Champions presenting their work at events such as R/Pharma, useR!, Posit, and LatinR 2026. Check out our event pages to see where Champions will be presenting and connecting with the community. We also recently held a cohort meeting bringing together Champions and mentors from the 2025–2026 cohort and one meeting for mentors only, to share tips and tricks on the mentoring role. 
+The **2025–2026 cohort** is wrapping up their projects and outreach activities, with several Champions presenting their work at events such as R/Pharma, useR!, Posit, and LatinR 2026. 
+We also recently held a cohort meeting bringing together Champions and mentors from the 2025–2026 cohort and one meeting for mentors only, to share tips and tricks on the mentoring role. 
 
-Meanwhile, the 2026–2027 cohort has started their training activities, including three weekly training workshops for Champions and a mentor training workshop. Mentors and Champions have also had their first meetings together to get to know each other and begin planning their collaboration.
+Meanwhile, the **2026–2027 cohort** has started their training activities, including three weekly training workshops for Champions and a mentor training workshop. 
+Mentors and Champions have also had their first meetings together to get to know each other and begin planning their collaboration.
 
-Stay tuned to our event page to check Champions outreach activities and our blog to get to know more about Champions projects.
+Stay tuned to our [events page](/events) to check Champions outreach activities and our blog to get to know more about Champions projects.
 
 ### May, Maintainer Month
 
-Open source software doesn't sustain itself. Behind every R package, there is at least one person who responds to issues, reviews pull requests, keeps up with dependency changes, and makes sure everything still works.
+Open source software doesn't sustain itself. 
+Behind every R package, there is at least one person who responds to issues, reviews pull requests, keeps up with dependency changes, and makes sure everything still works.
 
 We joined the #MaintainerMonth celebration with a month-long series of rOpenSci's maintainers spotlights: **36 maintainers from 15 countries across 4 continents**, maintaining more than 50 packages that together serve thousands of researchers and data practitioners around the world.
 

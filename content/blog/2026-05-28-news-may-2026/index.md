@@ -6,11 +6,11 @@ author:
 date: '2026-05-28'
 tags:
   - newsletter
-description: new packages and package news
+description: 15 years of rOpenSci; champions program; maintainer month; new packages and package news
 params:
   last_newsletter: '2026-04-30'
   doi: "10.59350/8bear-txs95"
-rmd_hash: 4164b168050a811f
+rmd_hash: 1a019fe7b5ffb407
 
 ---
 
@@ -24,19 +24,25 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 This year we celebrate 15 years of rOpenSci! First up: co-working session and casual virtual community celebration. Read more in our [blog post](/blog/2026/05/13/anniversary2026/).
 
+Our blog post about 15 years of rOpenSci was featured in the R Weekly Highlights [podcast](https://serve.podhome.fm/episodepage/r-weekly-highlights/227) hosted by Eric Nantz and Mike Thomas.
+
 ### Champions Program Update
 
-The rOpenSci Champions Program is currently running two very active cohorts, with many activities happening across the program, and everything is on track! 
+The rOpenSci Champions Program is currently running two very active cohorts, with many activities happening across the program, and everything is on track!
 
-The 2025–2026 cohort is wrapping up their projects and outreach activities, with several Champions presenting their work at events such as R/Pharma, useR!, Posit, and LatinR 2026. Check out our event pages to see where Champions will be presenting and connecting with the community. We also recently held a cohort meeting bringing together Champions and mentors from the 2025–2026 cohort and one meeting for mentors only, to share tips and tricks on the mentoring role. 
+The **2025--2026 cohort** is wrapping up their projects and outreach activities, with several Champions presenting their work at events such as R/Pharma, useR!, Posit, and LatinR 2026. We also recently held a cohort meeting bringing together Champions and mentors from the 2025--2026 cohort and one meeting for mentors only, to share tips and tricks on the mentoring role.
 
-Meanwhile, the 2026–2027 cohort has started their training activities, including three weekly training workshops for Champions and a mentor training workshop. Mentors and Champions have also had their first meetings together to get to know each other and begin planning their collaboration.
+Meanwhile, the **2026--2027 cohort** has started their training activities, including three weekly training workshops for Champions and a mentor training workshop. Mentors and Champions have also had their first meetings together to get to know each other and begin planning their collaboration.
 
-Stay tuned to our event page to check Champions outreach activities and our blog to get to know more about Champions projects.
+Stay tuned to our [events page](/events) to check Champions outreach activities and our blog to get to know more about Champions projects.
 
 ### May, Maintainer Month
 
-TODO YANI
+Open source software doesn't sustain itself. Behind every R package, there is at least one person who responds to issues, reviews pull requests, keeps up with dependency changes, and makes sure everything still works.
+
+We joined the #MaintainerMonth celebration with a month-long series of rOpenSci's maintainers spotlights: **36 maintainers from 15 countries across 4 continents**, maintaining more than 50 packages that together serve thousands of researchers and data practitioners around the world.
+
+Follow our social media and the official hashtag to check it all. **Thank you** to those who agreed to participate and to all the maintainers in our community.
 
 ### Software-Review Update
 
@@ -70,33 +76,33 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ### New packages
 
-<div class="highlight">
 
-</div>
+
+
 
 The following package recently became a part of our software suite:
 
-<div class="highlight">
 
-</div>
+
+
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-<div class="highlight">
 
-</div>
 
-The following eight packages have had an update since the last newsletter: [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (cff) Metadata for R Packages") ([`v1.4.0`](https://github.com/ropensci/cffr/releases/tag/v1.4.0)), [medrxivr](https://docs.ropensci.org/medrxivr "Access and Search MedRxiv and BioRxiv Preprint Data") ([`snapshot`](https://github.com/ropensci/medrxivr/releases/tag/snapshot)), [saperlipopette](https://docs.ropensci.org/saperlipopette "Create Example Git Messes") ([`v1.0.0`](https://github.com/ropensci-training/saperlipopette/releases/tag/v1.0.0)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.5.1`](https://github.com/ropensci/gutenbergr/releases/tag/v0.5.1)), [textreuse](https://docs.ropensci.org/textreuse "Detect Text Reuse and Document Similarity") ([`v1.0.1`](https://github.com/ropensci/textreuse/releases/tag/v1.0.1)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v2.1.0`](https://github.com/ropensci/EDIutils/releases/tag/v2.1.0)), [rsi](https://docs.ropensci.org/rsi "Efficiently Retrieve and Process Satellite Imagery") ([`v0.3.3`](https://github.com/Permian-Global-Research/rsi/releases/tag/v0.3.3)), and [UCSCXenaTools](https://docs.ropensci.org/UCSCXenaTools "Download and Explore Datasets from UCSC Xena Data Hubs") ([`v1.7.0`](https://github.com/ropensci/UCSCXenaTools/releases/tag/v1.7.0)).
+
+
+The following ten packages have had an update since the last newsletter: [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.5.1`](https://github.com/ropensci/gutenbergr/releases/tag/v0.5.1)), [dataset](https://docs.ropensci.org/dataset "Create Data Frames for Exchange and Reuse") ([`0.4.4`](https://github.com/ropensci/dataset/releases/tag/0.4.4)), [sofa](https://docs.ropensci.org/sofa "Connector to CouchDB") ([`v0.4.1`](https://github.com/ropensci/sofa/releases/tag/v0.4.1)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (CFF) Metadata for R Packages") ([`v1.4.0`](https://github.com/ropensci/cffr/releases/tag/v1.4.0)), [saperlipopette](https://docs.ropensci.org/saperlipopette "Create Example Git Messes") ([`v1.0.0`](https://github.com/ropensci-training/saperlipopette/releases/tag/v1.0.0)), [medrxivr](https://docs.ropensci.org/medrxivr "Access and Search MedRxiv and BioRxiv Preprint Data") ([`snapshot`](https://github.com/ropensci/medrxivr/releases/tag/snapshot)), [textreuse](https://docs.ropensci.org/textreuse "Detect Text Reuse and Document Similarity") ([`v1.0.1`](https://github.com/ropensci/textreuse/releases/tag/v1.0.1)), [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v2.1.0`](https://github.com/ropensci/EDIutils/releases/tag/v2.1.0)), [rsi](https://docs.ropensci.org/rsi "Efficiently Retrieve and Process Satellite Imagery") ([`v0.3.3`](https://github.com/Permian-Global-Research/rsi/releases/tag/v0.3.3)), and [UCSCXenaTools](https://docs.ropensci.org/UCSCXenaTools "Download and Explore Datasets from UCSC Xena Data Hubs") ([`v1.7.0`](https://github.com/ropensci/UCSCXenaTools/releases/tag/v1.7.0)).
 
 The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney. NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issues/116#issuecomment-4280937012).
 
 ## Software Peer Review
 
-<div class="highlight">
 
-There are nineteen recently closed and active submissions and 3 submissions on hold. Issues are at different stages:
+
+There are nineteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
 - One at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
@@ -118,11 +124,11 @@ There are nineteen recently closed and active submissions and 3 submissions on h
 
   - [logolink](https://github.com/ropensci/software-review/issues/741), An Interface for Running NetLogo Simulations. Submitted by [Daniel Vartanian](http://danielvartan.com).
 
-  - [ActiGlobe](https://github.com/ropensci/software-review/issues/732), Wearable Recording Processor for Time Shift Adjustment and Data Analysis. Submitted by [C. William Yao](https://scholar.google.ca/citations?user=T7y9ckwAAAAJ&hl=en).
-
   - [priorsense](https://github.com/ropensci/software-review/issues/704), Prior Diagnostics and Sensitivity Analysis. Submitted by [Noa Kallioinen](https://github.com/n-kall). (Stats).
 
   - [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.github.io/). (Stats).
+
+  - [nycOpenData](https://github.com/ropensci/software-review/issues/750), Convenient Access to NYC Open Data API Endpoints. Submitted by [Christian Martinez](https://github.com/martinezc1).
 
 - Two at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
 
@@ -148,7 +154,7 @@ There are nineteen recently closed and active submissions and 3 submissions on h
 
   - [LBDiscoverAnalysis](https://github.com/ropensci/software-review/issues/725), Co-occurrence Discovery Models and Visualization for Biomedical LBD. Submitted by [Chao Liu](https://github.com/chaoliu-cl).
 
-    </div>
+    
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -156,11 +162,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
 
-</div>
 
-<div class="highlight">
+
+
+
 
 - [New Mentoring Team with Experienced Mentors and New Voices](/blog/2026/05/06/mentors-2026) by Alber Hamersson Sánchez Ipia, Pablo Paccioretti, Erick Navarro Delgado, Guadalupe Pascal, Andrea Gomez Vargas, Monika Avila Marquez, Luis D. Verde Arregoitia, Francisco Cardozo, Elio Campitelli, Pao Corrales, and Yanina Bellini Saibene. Meet the new team of mentors who will accompany our Champions in their projects for a year, sharing experience, guidance and enthusiasm. Other languages: <a href='/es/blog/2026/05/26/mentoras_es-2026' lang='es'>Nuevo equipo de mentor(a\|e)s con experiencia y nuevas voces (es)</a>.
 
@@ -168,7 +174,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 {{< figure class="center" src="PixelArt15yearrOpenSci.png" alt="Retro pixel-art graphic celebrating rOpenSci's 15th anniversary. The text 'rOpenSci' appears at the top in pixel font, flanked by three pixel-art balloons. A browser window frames the central message: '15 YEARS / TRANSFORMING OPEN SCIENCE' in bold pixel letters, overlaid on the rOpenSci geometric network pattern. A pixel badge reads 'OMG'. A pixel folder and sparkle icons complete the design." width="400" >}}
 
-</div>
+
 
 ## Calls for contributions
 
@@ -247,5 +253,5 @@ Thanks for reading! If you want to get involved with rOpenSci, check out our [Co
 
 If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
 
-</div>
+
 
