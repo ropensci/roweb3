@@ -10,7 +10,7 @@ description: 15 years of rOpenSci; champions program; maintainer month; new pack
 params:
   last_newsletter: '2026-04-30'
   doi: "10.59350/8bear-txs95"
-rmd_hash: 1a019fe7b5ffb407
+rmd_hash: 2f974afab6a78151
 
 ---
 
@@ -46,7 +46,11 @@ Follow our social media and the official hashtag to check it all. **Thank you** 
 
 ### Software-Review Update
 
-TODO MARK
+This month saw a slight policy shift in the way editors handle new software review submissions, assisted by an internal update to our bot system. Our rotating Editor-in-Chief (EiC) used to be solely responsible for initial decisions on whether to proceed with submissions. Once a decision had been reached, a handling editor took over, and generally guided each submission through to approval. Recent increases in submissions have been too much for one EiC to handle, so submissions will be passed more quickly to handling editors who will then make initial scope and fit decisions.
+
+As part of that, the EiC can now ask the bot to "ping editors", in response to which all editors will receive an email alerting them of a new submission. Each time an editor clicks on a link in the email, the EiC will receive an email notification. Once an editor has been assigned, all links will be automatically deactivated.
+
+For anybody interested in how to develop an email alert system like this, please contact us and we'll have happy to share what we learnt along the way. Full code is in [this R file](https://github.com/ropensci-review-tools/roreviewapi/blob/main/R/editor-search.R).
 
 ### Social media cards for R-universe
 
