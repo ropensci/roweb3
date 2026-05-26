@@ -61,7 +61,13 @@ Read more in our [blog post](/blog/2026/05/13/anniversary2026/).
 
 ### Champions Program Update
 
-TODO YANI
+The rOpenSci Champions Program is currently running two very active cohorts, with many activities happening across the program, and everything is on track! 
+
+The 2025–2026 cohort is wrapping up their projects and outreach activities, with several Champions presenting their work at events such as R/Pharma, useR!, Posit, and LatinR 2026. Check out our event pages to see where Champions will be presenting and connecting with the community. We also recently held a cohort meeting bringing together Champions and mentors from the 2025–2026 cohort and one meeting for mentors only, to share tips and tricks on the mentoring role. 
+
+Meanwhile, the 2026–2027 cohort has started their training activities, including three weekly training workshops for Champions and a mentor training workshop. Mentors and Champions have also had their first meetings together to get to know each other and begin planning their collaboration.
+
+Stay tuned to our event page to check Champions outreach activities and our blog to get to know more about Champions projects.
 
 ### May, Maintainer Month
 
