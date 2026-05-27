@@ -1,6 +1,6 @@
 ---
 slug: "champions-2026"
-title: 'Once voces latinoamericanas para la ciencia abierta: Campeon(a|e) rOpenSci 2026'
+title: 'Once voces latinoamericanas para la ciencia abierta: la nueva cohorte de Campeon(a|e)s rOpenSci 2026'
 author:
   - Bastián Olea Herrera
   - Denisse Fierro Arcos
