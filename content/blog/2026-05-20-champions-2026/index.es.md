@@ -36,6 +36,8 @@ Te invitamos a conocer a cada una de estas personas y los proyectos en los que t
 
 Mi nombre es Bastián, vivo en Chile, soy sociólogx de formación y poseo un magíster en sociología. Me gusta crear contenido y tutoriales sobre R, y recientemente estamos organizando una comunidad de usuari@s de R en Santiago, mi ciudad. Me dedico al análisis de datos en el sector público, donde trabajo principalmente con datos sociales a distintos niveles territoriales. Este tipo de datos necesita siempre los mismos tipos de limpieza y correcciones, pero a su vez suelen variar mucho en pequeños detalles entre cada fuente. Por eso me presenté al programa para desarrollar un paquete que facilite trabajar con datos de nivel comunal y regional de Chile. Espero poder conocer a otrxs usuarixs de R y aprender en conjunto, así como recibir apoyo de personas con mayor experiencia y conocimiento, para que creemos herramientas útiles para muchas personas!
 
+</br>
+</br>
 
 ## Denisse Fierro Arcos
 
@@ -43,6 +45,8 @@ Mi nombre es Bastián, vivo en Chile, soy sociólogx de formación y poseo un ma
 
 Mi nombre es Denisse Fierro Arcos, soy científica marina originalmente de Ecuador pero vivo en Australia. Al momento estoy cerca de terminar mi programa de doctorado que en términos sencillos se enfoca en desarrollar buenas prácticas para el uso de modelos oceanográficos en estudios sobre ecosistemas marinos. Actualmente también estoy trabajando como investigadora en la Universidad de Tasmania donde estoy desarrollando un modelo de ecosistemas marinos que nos permita proyectar los posibles impactos del cambio climático en especies marinas y pesquerías. Es justamente este modelo con el que trabajo el enfoque de mi proyecto con el Champions Program. Queremos publicar un paquete en R que permita a otros investigadores marinos correr nuestro modelo con facilidad.
 
+</br>
+</br>
 
 ## Durga Valentina Linares Herrera
 
@@ -66,6 +70,9 @@ Soy Ingeniera en Biotecnología por la Universidad Politécnica de Sinaloa (UPSI
 
 Mi participación en el Champions Program de rOpenSci busca fortalecer comunidades como VieRnes de Bioinformática, R-Ladies Morelia y RSG-México, promoviendo la creación de paquetes en R con estándares internacionales, documentación reproducible y revisión abierta. Mi visión es tender un puente entre la comunidad global de rOpenSci y las iniciativas locales en Latinoamérica, impulsando una ciencia más abierta, inclusiva y sostenible.
 
+</br>
+</br>
+
 ## Gladys Choque Ulloa
 
 {{< figure src = "/img/team/gladys-choque.jpeg" width = "250" alt = "Foto de perfil de Gladys Choque Ulloa" class = "pull-left" caption = "<strong>Gladys Choque Ulloa </br> Universidad de São Paulo </br> Fundadora de Women in DataLab</strong>">}}
@@ -76,6 +83,8 @@ Me postulé al rOpenSci Champions Program porque creo firmemente en el poder de 
 
 Mis redes: https://linktr.ee/gladyschoqueulloa
 
+</br>
+</br>
 
 ## José Daniel Conejeros Pavez
 
@@ -95,20 +104,29 @@ A través de este programa, espero fortalecer mis capacidades en desarrollo de s
 {{< figure src = "/img/team/linda-cabrera-orellana.png" width = "250" alt = "Foto de perfil de Linda Cabrera Orellana" class = "pull-left" caption = "<strong>Linda Cabrera Orellana </br> R-Ladies Ecuador</strong>">}}
 
 Hola! Mi nombre es Linda, soy ecuatoriana y actualmente resido en Granada, España. Trabajo como Senior Data Analyst en una agencia de marketing digital y comparto mi experiencia como docente en escuelas de negocio, donde imparto clases sobre IA aplicada a la analítica y la visualización de datos.
+
 Mi proyecto consiste en desarrollar un paquete de R con enfoque educativo para detectar, explicar y ayudar a corregir errores estructurales comunes en datasets creados manualmente, especialmente pensado para personas sin formación técnica en datos.
 Me presento al programa porque quiero convertir mi experiencia práctica y docente en una contribución real al ecosistema de software científico abierto, y fortalecer mis habilidades en diseño, documentación y mantenimiento de paquetes de R.
+
 Espero también que el proyecto sirva como recurso educativo en universidades de Ecuador y en la comunidad de R-Ladies, y que tienda un puente entre quienes recolectan datos y quienes los analizan, promoviendo la alfabetización en datos en español.
 
+</br>
+</br>
 
 ## María Florencia Tames
 
 {{< figure src = "/img/team/maria-tames.png" width = "250" alt = "Foto de perfil de María Florencia Tames" class = "pull-right" caption = "<strong>María Florencia Tames </br> Universidad Nacional de Córdoba </br> Argentina</strong>">}}
 
 Mi nombre es María Florencia Tames, soy docente en la Universidad Nacional de Córdoba (Argentina) y trabajo en investigación en el área de calidad del aire, la exposición a contaminantes atmosféricos y las desigualdades ambientales en contextos urbanos de América Latina.
+
 Desarrollé junto a un equipo el paquete AirExposure, una herramienta en R orientada a estimar la exposición diaria a contaminantes del aire integrando información sobre concentraciones ambientales, movilidad y rutinas diarias. A través del Programa de Campeon(a|e)s de rOpenSci, mi objetivo es mejorar y consolidar este paquete como una herramienta abierta, reproducible y accesible para la comunidad.
+
 Me interesa especialmente fortalecer mis habilidades en el desarrollo de software abierto, incorporar buenas prácticas como documentación, testing y revisión por pares, y aprender a construir herramientas que puedan ser utilizadas más allá de su contexto original de investigación.
+
 También me motiva el enfoque del programa en la comunidad y en el trabajo en español, ya que muchas veces el acceso a recursos y formación en programación está limitado por el idioma. Espero poder compartir lo aprendido a través de actividades de formación y contribuir al desarrollo de una comunidad de software científico abierto en América Latina.
 
+</br>
+</br>
 
 ## Marina Cecilia Cock
 
@@ -120,14 +138,19 @@ Actualmente me desempeño como profesional asistente de investigación en el Con
 
 Me presenté al programa para aprender sobre el proceso de revisión de paquetes de R. Me interesa participar porque considero especialmente valioso integrarme a una comunidad donde el aprendizaje sea compartido y colaborativo. Busco fortalecer mi conocimiento en R y luego poder transmitirlo tanto en mi rol docente como dentro de la comunidad de R.
 
+</br>
+</br>
 
 ## Patricia Andrea Loto
 
 {{< figure src = "/img/team/patricia-loto.jpg" width = "250" alt = "Foto de perfil de Patricia Andrea Loto" class = "pull-right" caption = "<strong>Patricia Andrea Loto </br> FACENA, Universidad Nacional del Nordeste (UNNE)</strong>">}}
 
 Soy Licenciada en Sistemas de Información y Diplomada en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones. Actualmente curso una Maestría en Tecnologías de la Información en la Universidad Nacional del Nordeste. Vivo y trabajo en Argentina.
+
 Me desempeño como desarrolladora de software y analista de datos en el sector público, y como docente universitaria en el área de sistemas y programación. Soy co-fundadora de RSE Argentina, miembro del comité organizador de LatinR y co-organizadora de R-Ladies Resistencia-Corrientes. Desde estos espacios trabajo para promover la ciencia abierta, el software de investigación reproducible y la inclusión en tecnología en Latinoamérica.
+
 En la cohorte 2026 participo como mentee, con la guía de Guadalupe Pascal. Mi proyecto es un paquete de R para sistematizar la creación de Planes de Gestión de Software y Datos mediante plantillas estandarizadas desarrolladas con Quarto, que faciliten la documentación, preservación y reutilización de datos y código científico bajo estándares internacionales de ciencia abierta.
+
 Postulé al programa de campeones porque lo veo como un puente: entre donde estoy técnicamente y donde quiero estar. Espero aprender sobre el proceso de revisión por pares de rOpenSci, profundizar en testing, documentación técnica y todo lo que hace que un paquete sea realmente útil para otros. También busco conectarme con una red de desarrolladores e investigadores que compartan valores de ciencia abierta. Finalmente, quiero que el software de investigación desarrollado desde el Sur Global tenga mayor visibilidad y que nuestras contribuciones sean reconocidas, creo que rOpenSci es la plataforma ideal para eso.
 
 
