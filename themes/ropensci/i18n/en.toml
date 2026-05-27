@@ -216,6 +216,8 @@
   other = 'Team'
 [Packages]
   other = 'Packages'
+[Package]
+  other = 'Package'
   
 [View-all-packages]
   other = 'View all packages'
