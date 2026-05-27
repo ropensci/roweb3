@@ -38,6 +38,7 @@ That wasn't easy!
 This update finally makes it easier to control checks, by defining them in "groups", which generally corresponding to the separate packages which run the actual checks.
 The groups can be seen with the new [`all_check_groups()` function](https://docs.ropensci.org/goodpractice/reference/all_check_groups.html), and controlled with the [`checks_by_group()` function](https://docs.ropensci.org/goodpractice/reference/checks_by_group.html).
 Checks can be controlled by simply naming the check groups you want to run, like this:
+
 ``` r
 gp(checks = checks_by_group("description", "lintr"))
 ```
