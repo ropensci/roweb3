@@ -26,25 +26,50 @@ We welcome *Ronny Hernandez Mora*, *Joel Nitta*, and *Nicholas Tierney* as new e
 
 ## Ronny Hernandez Mora
 
-{{< imgtxt src = "/img/team/" width = "200" alt = "Headshot of ">}}
+{{< imgtxt src = "/img/team/ronny-hernandez-mora.png" width = "200" alt = "Headshot of Ronny">}}
 
 
+TODO: add Ronny's bio
 {{< /imgtxt >}}
 
 xx on [GitHub](), [Website]().
 
-{{< quote footer="name" >}}
+{{< quote footer="Ronny" >}}
 
-Quote
+TODO: Add Ronny's Quote about rOpenSci
 
 {{< /quote >}}
 
 
 
 ## Joel Nitta
+{{< imgtxt src = "/img/team/joel-nitta.png" width = "200" alt = "Headshot of Joel">}}
 
+TODO: Add Joel's bio.
+
+{{< /imgtxt >}}
+
+Joel on [GitHub](), [Website]().
+
+{{< quote footer="Joel" >}}
+
+TODO: Add Joel's quote about rOpenSci
+
+{{< /quote >}}
 ## Nicholas Tierney
+{{< imgtxt src = "/img/team/nick-tierney.jpg" width = "200" alt = "Headshot of ">}}
 
+TODO: Add Nick's bio.
+
+{{< /imgtxt >}}
+
+Nick on [GitHub](), [Website]().
+
+{{< quote footer="Nick" >}}
+
+TODO: Add Nick's quote about rOpenSci
+
+{{< /quote >}}
 ## About the Software Peer Review Program
 
 rOpenSci's software peer review program brings together volunteers to collaboratively review scientific and statistical software according to transparent, constructive, and open standards. 
