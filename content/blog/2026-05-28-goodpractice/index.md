@@ -69,7 +69,8 @@ The [cli package](https://cli.r-lib.org) is also used to give consistently forma
 
 The large increase in numbers of checks also means that directly printing goodpractice results may fill several screens of output.
 This update also adds a `groups` parameter to the [`print()` method](https://docs.ropensci.org/goodpractice/reference/print.goodPractice.html), to enable printing check results only for specified groups.
-That way you can run the main [`gp()` function](https://docs.ropensci.org/goodpractice/reference/gp.html) once, then step through each check group by printing results only for that group, fixing those, and then moving on to the next group.
+So you can run the main [`gp()` function](https://docs.ropensci.org/goodpractice/reference/gp.html) once, then step through each check group by printing results only for that group, fixing those, and then moving on to the next.
+We've found this turns what could feel like an overwhelming wall of output into a manageable to-do list.
 
 ## Let us know what you think
 
