@@ -98,13 +98,13 @@ These markdown files are placed within a `.opencode/command` or `.claude/command
 The most important of these is [`designlens.retrospective.md`](https://github.com/ropensci-review-tools/designlens/blob/main/commands/designlens.retrospective.md).
 This is run at the end of each design phase, and generates a "design-decisions.md" document that summarises all key design decisions of that phase.
 The use of [designlens](https://github.com/ropensci-review-tools/designlens) throughout the development of software submitted for peer-review will thus include a full history of all major design decisions behind that software.
-This history will in turn help focus a review on the human decisions behind the software, and will avoid the problem of requesting reviewers to evaluate machine-generated code.
+This history will in turn help focus a review on the human decisions behind the software, and can alleviate the problem of requesting reviewers to evaluate machine-generated code.
 
 #### Using designlens at later stages
 
 Most spec-driven development tools will only start recording systematic artefacts from the point in design history when they are first used.
-Because the point of [designlens](https://github.com/ropensci-review-tools/designlens) is to provide a full history of design decisions, it can also be applied to existing repositories to generate a history of design decisions up the point at which `designlens init` is first run.
-Just running `/designlens.status` should generate an initial overview of design decisions up to that point, or explicitly running `/designlens.retrospective` will do the same.
+Because the point of [designlens](https://github.com/ropensci-review-tools/designlens) is to provide a full history of design decisions, it includes additional functionality that enables it to be applied to existing repositories to generate a history of design decisions up the point at which `designlens init` is first run.
+Just running `/designlens.status` should then generate an initial overview of design decisions up to that point, or explicitly running `/designlens.retrospective` will do the same.
 This history is generated through several systematic trawls of a project's Git history (see [the `init` file for details](https://github.com/ropensci-review-tools/designlens/blob/206113cbd2fb0b3147cb4ca7e037b4218b61af7f/lib/init.sh#L134-L249)).
 
 ### General recommendations for using generative AI tools in software submitted to rOpenSci
@@ -148,8 +148,8 @@ However, comparison with what was written by actual reviewers revealed generativ
 Most importantly, the excessive focus on (minor) technical issues would make any direct use of their outputs as part of a review unduly negative and critical.
 
 We at rOpenSci are duly proud of our long history of ["transparent, constructive, non-adversarial and open review"](https://ropensci.org/software-review/), and are confident that our volunteer reviewers will remain as committed as ever to maintaining this constructive culture.
-We are accordingly confident that where reviewers do use such tools, they will do so with an awareness that the outputs of such tools is generally only useful in revealing technical issues, and to do that with no general ability to gauge the severity of such issues.
-Software can only be productively reviewed by humans with an expert familiarity with how that software is likely to actually be used within professional contexts.
+We are accordingly confident that where reviewers do use such tools, they will do so with an awareness that the outputs of such tools is generally only useful in revealing technical issues, and do that with no general ability to gauge the severity of such issues.
+Our experiments convinced us that software can only be productively reviewed by humans with an expert familiarity with how that software is likely to actually be used within professional contexts.
 
 ### Generative AI reviews of statistical software
 
@@ -173,3 +173,5 @@ The [statistical software review template](https://stats-devguide.ropensci.org/p
 We found generative AI tools to be less capable at this task.
 They often generated longer lists than did human reviewers (extending to over twice the length), yet with reasons which seemed implausible or impractical.
 The presence of such tenuous reasoning within output intended to guide concrete suggestions made generative AI outputs in these contexts decidedly less useful that were the initial summary outputs of overall compliance.
+
+## Conclusions
