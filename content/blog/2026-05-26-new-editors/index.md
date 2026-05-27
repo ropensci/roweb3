@@ -1,6 +1,6 @@
 ---
 slug: neweditors2026
-title: 'Ronny Hernandez Mora, Joel Nitta, and Nicholas Tierney Join rOpenSci Software Peer Review Editorial Team'
+title: 'Ronny Hernandez Mora, Joel Nitta, and Nick Tierney Join rOpenSci Software Peer Review Editorial Team'
 author:
     - Ronny Hernandez Mora
     - Joel Nitta
@@ -16,7 +16,7 @@ tags:
 featured: true
 description: Introducing three new editors for rOpenSci software peer review
 params:
-  doi: 
+  doi: 10.59350/f2n2n-4y807
 ---
 
 
