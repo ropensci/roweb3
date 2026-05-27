@@ -19,7 +19,7 @@ We used to ask our editors to manually run goodpractice on all packages submitte
 It is now integrated within our own [pkgcheck system](https://docs.ropensci.org/pkgcheck), and used to automatically identify any goodpractice issues with all new submissions.
 The package has transitioned maintenance [several times](/blog/2024-06-21-news-june-2024/index.md) before Gabor gave the green light for us to take over maintenance of the package [exactly two years ago (28th May 2024)](https://github.com/ropensci-review-tools/goodpractice/commit/c3f0b8e4c8e2cd7d88361bb670dd79284e6494d1).
 
-We are pleased to announce that we have recently implemented a host of updates and extensions to the package.
+We're really pleased to share that we've recently rolled out a host of updates and extensions to the package.
 These make it both easier to use, and more powerful.
 
 ## Easier control of checks
