@@ -31,7 +31,7 @@ The only way to control which checks were run was to pass a `checks` parameter t
 So, for example, if you wanted to skip the [rcmdcheck](https://rcmdcheck.r-lib.org) checks, you had to do something like this:
 ``` r
 mychecks <- all_checks()[which(!grepl("^rcmdcheck", all_checks()))]
-gp(checks=mychecks)
+gp(checks = mychecks)
 ```
 That wasn't easy!
 
