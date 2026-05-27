@@ -1,5 +1,5 @@
 ---
-name: Linda Jazmín Cabrera Orellana
+name: Linda Cabrera Orellana
 bio: Senior Data Analyst, SIDN Digital Thinking
 github: lindateachtech
 linkedin: lindateachtech
