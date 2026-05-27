@@ -47,7 +47,7 @@ We paired our mini-translathon with a Portuguese Community Call ([*A comunidade 
 
 [^2]: "The R community speaks Portuguese"
 
-{{< figure src = "Translathon-LatinR-3.png" alt = "Screenshot of the Zoom call for the translathon, showing participants and a screenshare of the pull-request translation process." >}}
+{{< figure src = "Translathon-LatinR-3.png" alt = "Screenshot of the Zoom call for the translathon, showing participants and a screenshare of the pull-request translation process." caption = "Demonstrating the PR process during the translathon">}}
 
 Similarly, a **mini-hackathon** is a short (typically ~2-hour), live, online coworking session designed to help people make their first contributions to open-source software.
 Participants work on small, well-prepared tasks such as fixing bugs, improving code, or updating documentation.
@@ -56,7 +56,7 @@ The focus is on learning by doing in a collaborative and supportive environment.
 
 Again, we paired our mini-hackathons with an English Community Call ([From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/)) which was then followed by the two [mini-hackathons](/events/coworking-2025-02/) to support contributors to coding projects.
 
-{{< figure src = "Yani-JuanCruz-miniHackathon.jpg" alt = "Photo of two participants of the mini-hackathon participating on their computers from the same location." caption = "Yani and Juan participate in the mini-hackathon together">}}
+{{< figure src = "Yani-JuanCruz-miniHackathon.jpg" alt = "Photo of two participants of the mini-hackathon participating on their computers from the same location." caption = "Yani and Juan Cruz participate in the mini-hackathon together">}}
 
 Part of the grant we received also allowed us to write up our processes and findings as a **guide book** "[From User to Contributor: Organizing Events for First-Time Contributors](https://ftc-guide.ropensci.org/)", which we are excited to share with you!
 
