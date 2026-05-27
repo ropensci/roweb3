@@ -5,7 +5,7 @@ author:
   - Steffi LaZerte
   - Yanina Bellini Saibene
 # Set the date below to the publication date of your post
-date: 2026-05-19
+date: 2026-07-02
 # Minimal tags for a post about a community-contributed package 
 # that has passed software peer review are listed below
 # Consult the Technical Guidelines for information on choosing tags
@@ -31,7 +31,7 @@ params:
 > -- [rOpenSci FTC Guide](https://ftc-guide.ropensci.org/)
 
 Last year we were grateful to receive funding from NumFOCUS[^3] to organize a series of events designed to reduce barriers restricting First-Time Contributors to Free and Open Source Software (FOSS).
-There are many barriers[^1] to first time contributions, but making these contributions can be a very empowering experience.
+There are many barriers[^1] to first time contributions, but making these contributions can be an empowering experience.
 To help reduce some of these barriers we hosted two types of events: **mini-translathons** and **mini-hackathons**.
 
 [^3]: [NumFocus](https://numfocus.org/) is rOpenSci's fiscal sponsor.
@@ -41,9 +41,13 @@ Participants review and improve translations of documentation, websites, or othe
 They also work with guidance from mentors and editors, often collaborating in language-specific groups.
 The goal is to make content accessible in multiple languages while helping newcomers learn [translation workflows and tools](/multilingual-publishing/).
 
+<!--- cSpell: language en,pt --->
+
 We paired our mini-translathon with a Portuguese Community Call ([*A comunidade R fala português*](/commcalls/translation-portuguese/)[^2]) which preceded the [mini-translathon](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR 2024.
 
 [^2]: "The R community speaks Portuguese"
+
+{{< figure src = "Translathon-LatinR-3.png" alt = "Screenshot of the Zoom call for the translathon, showing participants and a screenshare of the pull-request translation process." >}}
 
 Similarly, a **mini-hackathon** is a short (typically ~2-hour), live, online coworking session designed to help people make their first contributions to open-source software.
 Participants work on small, well-prepared tasks such as fixing bugs, improving code, or updating documentation.
@@ -51,6 +55,8 @@ Maintainers and mentors are available in real time to guide them, answer questio
 The focus is on learning by doing in a collaborative and supportive environment.
 
 Again, we paired our mini-hackathons with an English Community Call ([From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/)) which was then followed by the two [mini-hackathons](/events/coworking-2025-02/) to support contributors to coding projects.
+
+{{< figure src = "Yani-JuanCruz-miniHackathon.jpg" alt = "Photo of two participants of the mini-hackathon participating on their computers from the same location." caption = "Yani and Juan participate in the mini-hackathon together">}}
 
 Part of the grant we received also allowed us to write up our processes and findings as a **guide book** "[From User to Contributor: Organizing Events for First-Time Contributors](https://ftc-guide.ropensci.org/)", which we are excited to share with you!
 
@@ -66,6 +72,8 @@ We hope that this guide can be useful to other communities beyond rOpenSci.
 If you use this guide to create your own events to support first time contributors, we hope [you'll let us know](/usecases/)!
 
 Thanks to NumFOCUS for the Small Development Grant to support this work.
+  
+<!--- cSpell: ignore CSCW --->
 
 [^1]: Steinmacher et al. identified 13 social barriers. 
 Igor Steinmacher, Tayana Conte, Marco Aurélio Gerosa, and David Redmiles. 2015.
