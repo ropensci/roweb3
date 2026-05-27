@@ -58,7 +58,7 @@ The documentation for the [`all_check_groups()` function](https://docs.ropensci.
 - [urlchecker](https://urlchecker.r-lib.org/) to check whether all URLs are valid.
 - A "vignette" group to check that vignette code does not use either `rm()` or `setwd()`.
 
-Many of these checks are powered by [treesitter](https://davisvaughan.github.io/r-tree-sitter/), the extremely efficient syntax parsing library used by GitHub.
+Many of these checks are powered by [treesitter](https://davisvaughan.github.io/r-tree-sitter/), the extremely efficient syntax parsing library used by GitHub — which is genuinely neat to have working in R.
 The number of checks has been increased from 230 to 338, with all listed in the output of the [`all_checks()` function](https://docs.ropensci.org/goodpractice/reference/all_checks.html).
 
 ## Improved check reporting
