@@ -2,18 +2,18 @@
 slug: "champions-2026"
 title: 'Once voces latinoamericanas para la ciencia abierta: Campeon(a|e) rOpenSci 2026'
 author:
-- Bastián Olea Herrera
-- Denisse Fierro Arcos
-- Durga Valentina Linares Herrera
-- Evelia Lorena Coss Navarrete
-- Gladys Choque Ulloa
-- José Daniel Conejeros
-- Linda Cabrera Orellana
-- María Florencia Tames
-- Marina Cecilia Cock
-- Patricia A. Loto
-- Estefania Torrejón
- - Yanina Bellini Saibene
+  - Bastián Olea Herrera
+  - Denisse Fierro Arcos
+  - Durga Valentina Linares Herrera
+  - Evelia Lorena Coss Navarrete
+  - Gladys Choque Ulloa
+  - José Daniel Conejeros
+  - Linda Cabrera Orellana
+  - María Florencia Tames
+  - Marina Cecilia Cock
+  - Patricia A. Loto
+  - Estefania Torrejón
+  - Yanina Bellini Saibene
 date: 2026-05-20
 featured: true
 tags:
