@@ -7,13 +7,13 @@ author:
 - Durga Valentina Linares Herrera
 - Evelia Lorena Coss Navarrete
 - Gladys Choque Ulloa
-- José Daniel Conejeros Pavez
+- José Daniel Conejeros
 - Linda Cabrera Orellana
 - María Florencia Tames
 - Marina Cecilia Cock
 - Patricia A. Loto
 - Estefania Torrejón
-  - Yanina Bellini Saibene
+ - Yanina Bellini Saibene
 date: 2026-05-20
 featured: true
 tags:
