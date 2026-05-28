@@ -20,9 +20,9 @@ params:
 ---
 
 
-What makes [rOpenSci's software peer review](/software-review/) work is people who care deeply about the quality and usability of scientific software, and who give their time and expertise to help others build it better. Today, we're glad to share that three such people are joining our editorial team.
+What makes [rOpenSci's software peer review](/software-review/) work is people who care deeply about the quality and usability of scientific software, and who give their time and expertise to help others build it better. Today, we're pleased to announce three new members of our editorial team.
 
-We welcome *Ronny Hernandez Mora*, *Joel Nitta*, and *Nicholas Tierney* as new editors. Each brings a distinct perspective shaped by their work, their communities, and their experience with open-source R development. Together, they strengthen our capacity to serve the growing number of package authors who submit their work for review, and to uphold the collaborative, friendly and transparent standards that rOpenSci software peer review is known for.
+We welcome *Joel Nitta*, and *Nicholas Tierney* as new editors, and formally introduce *Ronny Hernandez Mora*, who joined the editorial team in August 2025. Each brings a distinct perspective shaped by their work, their communities, and their experience with open-source R development. Together, they strengthen our capacity to serve the growing number of package authors who submit their work for review, and to uphold the collaborative, friendly and transparent standards that rOpenSci software peer review is known for.
 
 ## Ronny Hernandez Mora
 
