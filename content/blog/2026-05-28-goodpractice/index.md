@@ -84,4 +84,4 @@ print(x, "description")
 ## Let us know what you think
 
 Like all rOpenSci packages, goodpractice is a community effort that lives through community use and feedback.
-We'd love to hear what you think, via social media, or through issues on the [GitHub repository](https://github.com/ropensci-review-tools/goodpractice).
+We'd love to hear what you think, via email, or through issues on the [GitHub repository](https://github.com/ropensci-review-tools/goodpractice).
