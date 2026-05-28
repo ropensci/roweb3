@@ -53,64 +53,66 @@ Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
-### 15 Years of rOpenSci, and We’re Just Getting Started 🎉
+### 15 Years of rOpenSci, and we're just getting started 🎉
 
 This year we celebrate 15 years of rOpenSci!
-First up: co-working session and casual virtual community celebration.
-Read more in our [blog post](/blog/2026/05/13/anniversary2026/).
+First up we have a coworking session followed by a couple casual virtual community celebrations.
+Please join us! 
+Read more in our [blog post](/blog/2026/05/13/anniversary2026/) about these upcoming events.
 
-Our blog post about 15 years of rOpenSci was featured in the R Weekly Highlights [podcast](https://serve.podhome.fm/episodepage/r-weekly-highlights/227) hosted by Eric Nantz and Mike Thomas.
+Also exciting is that this blog post about our 15 year anniversary was featured in the R Weekly Highlights [podcast](https://serve.podhome.fm/episodepage/r-weekly-highlights/227) hosted by Eric Nantz and Mike Thomas.
 
-### Champions Program Update
+### Champions Program update
 
 The rOpenSci Champions Program is currently running two very active cohorts, with many activities happening across the program, and everything is on track! 
 
 The **2025–2026 cohort** is wrapping up their projects and outreach activities, with several Champions presenting their work at events such as R/Pharma, useR!, Posit, and LatinR 2026. 
-We also recently held a cohort meeting bringing together Champions and mentors from the 2025–2026 cohort and one meeting for mentors only, to share tips and tricks on the mentoring role. 
+We also recently held a cohort meeting bringing together Champions and mentors from the 2025–2026 cohort and one meeting for mentors only, to share mentoring tips and tricks.
 
 Meanwhile, the **2026–2027 cohort** has started their training activities, including three weekly training workshops for Champions and a mentor training workshop. 
 Mentors and Champions have also had their first meetings together to get to know each other and begin planning their collaboration.
 
-Stay tuned to our [events page](/events) to check Champions outreach activities and our blog to get to know more about Champions projects.
+Stay tuned to our [events page](/events) for Champions outreach activities and to our blog to learn more about Champions' projects.
 
-### May, Maintainer Month
+### May is Maintainer Month
 
 Open source software doesn't sustain itself. 
 Behind every R package, there is at least one person who responds to issues, reviews pull requests, keeps up with dependency changes, and makes sure everything still works.
 
-We joined the #MaintainerMonth celebration with a month-long series of rOpenSci's maintainers spotlights: **36 maintainers from 15 countries across 4 continents**, maintaining more than 50 packages that together serve thousands of researchers and data practitioners around the world.
+We joined the #MaintainerMonth celebration with a month-long series of rOpenSci's maintainer spotlights: **36 maintainers from 15 countries across 4 continents**, maintaining more than 50 packages that together serve thousands of researchers and data practitioners around the world.
 
-Follow our social media and the official hashtag to check it all. 
+Follow our social media ([Mastodon](https://hachyderm.io/@rOpenSci) and [LinkedIn](https://www.linkedin.com/company/ropensci/)) and the official hashtag (#MaintainerMonth) to learn more about the maintainers who support open source software. 
 **Thank you** to those who agreed to participate and to all the maintainers in our community. 
 
-### Software-Review Update
+### Software-Review update
 
 This month saw a slight policy shift in the way editors handle new software review submissions, assisted by an internal update to our bot system.
-Our rotating Editor-in-Chief (EiC) used to be solely responsible for initial decisions on whether to proceed with submissions.
-Once a decision had been reached, a handling editor took over, and generally guided each submission through to approval.
-Recent increases in submissions have been too much for one EiC to handle, so submissions will be passed more quickly to handling editors who will then make initial scope and fit decisions.
+Previously, our rotating Editor-in-Chief (EiC) was solely responsible for initial decisions on whether to proceed with submissions.
+Once a decision was reached, a handling editor took over, and generally guided each submission through to approval.
+However, recent increases in submissions have been too much for one EiC to handle. 
+Submissions will now be passed on more quickly to handling editors who will then make initial scope and fit decisions.
 
-As part of that, the EiC can now ask the bot to "ping editors", in response to which all editors will receive an email alerting them of a new submission.
-Each time an editor clicks on a link in the email, the EiC will receive an email notification.
-Once an editor has been assigned, all links will be automatically deactivated.
+As part of this change, the EiC can now ask the bot to "ping editors". 
+Editors will receive an email alerting them of this new submission and can then decide whether to take it on as editor.
+Each time an editor clicks on a link in the email, the EiC will receive an email notification, and once an editor is assigned, all links will be automatically deactivated.
 
 For anybody interested in how to develop an email alert system like this, please contact us and we'll have happy to share what we learnt along the way.
 Full code is in [this R file](https://github.com/ropensci-review-tools/roreviewapi/blob/main/R/editor-search.R).
 
 ### Social media cards for R-universe
 
-When posting about your package or universe on social media, you can get a pretty social media card featuring important information on respectively:
+When posting about your package or universe on social media, you can get a pretty social media card featuring important information about (respectively):
 
-- the package such as its maintainer, its [keywords](#keywords), its URL, its version, its number of stars, etc.
+- the package such as its maintainer, its [keywords](https://docs.r-universe.dev/publish/metadata.html#keywords), its URL, its version, its number of stars, etc.
 
 ```{=html}
-{{< figure src="https://ropensci.r-universe.dev/targets/card.png" alt="">}}
+{{< figure src="https://ropensci.r-universe.dev/targets/card.png" width = "600" class = "center" alt="">}}
 ```
 
 - the universe such as its number of packages and contributors, etc.
 
 ```{=html}
-{{< figure src="https://ropensci.r-universe.dev/card.png" alt="">}}
+{{< figure src="https://ropensci.r-universe.dev/card.png" width = "600" class = "center" alt="">}}
 ```
 
 
@@ -121,10 +123,15 @@ When posting about your package or universe on social media, you can get a prett
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
  
- - Tuesday June 2nd 2026, 14:00 Europe Central (12:00 UTC) [theme to be determined], with [Steffi LaZerte](/author/steffi-lazerte/) and cohost to be determined.  
-    -   Explore resources related to the theme
-    -   Meet the cohost, and other attendees, and discuss the theme or other topics.
+ - Tuesday June 2nd 2026, 14:00 Europe Central (12:00 UTC) ["15 years with rOpenSci"](/events/coworking-2026-06/), with [Steffi LaZerte](/author/steffi-lazerte/) and cohost [Noam Ross](/author/noam-ross).  
+    -   Explore rOpenSci projects
+    -   Do a deep dive into the rOpenSci blog history
+    -   Meet rOpenSci's Executive Director, Noam Ross, and discuss how rOpenSci has evolved over the last 15 years.
 
+ - Tuesday July 7nd 2026, 09:00 Americas Pacific (16:00 UTC) ["Debugging in R"](/events/coworking-2026-07/), with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and cohost [Shannon Pileggi](/author/shannon-pileggi).
+    -   Read up on debugging in R
+    -   Meet community host, Shannon Pileggi, and discuss tips and tricks for debugging in R.
+ 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
 
@@ -803,34 +810,31 @@ Imagine...
 😰 Oops, that old commit is too big!
 😌 git history split <commit-id> (to split it into two commits)
 
-[Git release notes](https://
-github.blog/open-source/git/highlights-from-git-2-54/#h-rewrite-history-with-git-history); [Git docs](https://
-git-scm.com/docs/git-history).
+[Git release notes](https://github.blog/open-source/git/highlights-from-git-2-54/#h-rewrite-history-with-git-history); [Git docs](https://git-scm.com/docs/git-history).
 
 ### roxygen2 0.8.0
 
 A new version of roxygen2 hit CRAN.
-Among the highlights are improvements for R6, S7, inheritance... and better documentation of roxygen2 itself, including the [vignette on extending roxygen2 with your own tags and roclets](https://roxygen2.r-lib.org/articles/extending.html).
+Among the highlights are improvements for R6, S7, inheritance, and better documentation of roxygen2 itself, including the [vignette on extending roxygen2 with your own tags and roclets](https://roxygen2.r-lib.org/articles/extending.html).
 [Release announcement](https://opensource.posit.co/blog/2026-05-01_roxygen2-8-0-0/).
 
 ### Comment `DESCRIPTION` files
 
 Have you noticed this line in the release notes of R 4.6.0?
 
-> `read.dcf()` now recognizes lines starting with ‘⁠#⁠’ as comment lines. By Dirk Eddelbuettel, Laurent Gatto and Hugo Gruson.
+> `read.dcf()` now recognizes lines starting with `#` as comment lines. By Dirk Eddelbuettel, Laurent Gatto and Hugo Gruson.
 
-It means it's becoming possible to add comments to `DESCRIPTION` files, for instance to note why a given dependency was added.
+This means it's becoming possible to add comments to `DESCRIPTION` files, for instance to note why you added a given dependency.
 
 
 ### {cross} R package for running code with different package versions
 
 Have you ever used [Git worktree](https://masalmon.eu/2024/01/23/git-worktree/) to load several R package versions at once (in different sessions), for instance to create a benchmark?
-Davis Vaughan made such endeavors much smoother with his [cross R package](https://github.com/DavisVaughan/cross):
+Davis Vaughan made such endeavors much smoother with his [cross R package](https://github.com/DavisVaughan/cross). 
+cross uses Git worktree under the hood to install different package versions in temporary libraries and then runs R code with these different versions.
+Furthermore, it has a user-friendly interface!
 
-- cross does use Git worktree under the hood, installs different package versions in temporary libraries and runs R code with the different versions...
-- but it has a user-friendly interface!
-
-Example:
+For example, to compare the released version of vctrs to the developement version on GitHub, you could run the following.
 
 ```r
 cross::bench_versions(pkgs = c("vctrs", "r-lib/vctrs"), {
@@ -842,12 +846,14 @@ cross::bench_versions(pkgs = c("vctrs", "r-lib/vctrs"), {
 
 ### On attribution with a footnote
 
-James Balamuta wrote two thoughtful posts on a [tricky situation and how it was resolved](https://blog.thecoatlessprofessor.com/posts/closing-the-footnote-loop/).
-Tldr; James' work on portable R was used in another repo and only acknowledged with a footnote in a comment. Thankfully, all concerned people had a helpful conversation.
+James Balamuta wrote two thoughtful posts on a [tricky situation and its resolution](https://blog.thecoatlessprofessor.com/posts/closing-the-footnote-loop/).
+TL;DR James' work on portable R was used in another repository with only minimal acknowledgement through a footnote in a comment.
+However, those involved came together to work out a resolution through meaningful conversation.
 
 ## Last words
 
-Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org) that can help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways like sharing use cases.
+Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org). This guide will help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways such as through sharing use cases.
 You can also support our work through [donations](/donate).
 
-If you haven't subscribed to our newsletter yet, you can [do so via a form](/news/). Until it's time for our next newsletter, you can keep in touch with us via our [website](/) and [Mastodon account](https://hachyderm.io/@rOpenSci).
+If you haven't subscribed to our newsletter yet, you can [do so though our signup form](/news/). Until it's time for our next newsletter, you can keep in touch with us through our [website](/), [Mastodon](https://hachyderm.io/@rOpenSci), or [LinkedIn](https://www.linkedin.com/company/ropensci/). 
+See you soon!
