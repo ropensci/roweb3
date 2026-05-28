@@ -82,18 +82,6 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-
-
-
-
-The following package recently became a part of our software suite:
-
-
-
-
-
-Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
-
 ### New versions
 
 
