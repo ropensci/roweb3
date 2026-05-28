@@ -137,7 +137,6 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-### New packages
 
 ```{r new-packages, cache = TRUE}
 cran_unquote <- function(string) {
