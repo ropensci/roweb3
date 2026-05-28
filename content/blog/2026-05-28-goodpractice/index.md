@@ -74,7 +74,7 @@ The large increase in checks also means that directly printing goodpractice resu
 This update also adds a `groups` parameter to the [`print()` method](https://docs.ropensci.org/goodpractice/reference/print.goodPractice.html), to enable printing check results only for specified groups.
 This means you can run the main [`gp()` function](https://docs.ropensci.org/goodpractice/reference/gp.html) once, then step through each check group by printing results only for that group, fixing those, and then moving on to the next.
 We've found this turns what could feel like an overwhelming wall of output into a manageable to-do list.
-Like this:
+For example:
 ``` r
 x <- gp()
 print(x, "description")
