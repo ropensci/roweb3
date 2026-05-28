@@ -779,8 +779,7 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 - [landscapetools](https://docs.ropensci.org/landscapetools), R package for some of the less-glamorous tasks involved in landscape analysis. [Issue for volunteering](https://github.com/ropensci/landscapetools/issues/48).
 
 - [hddtools](https://docs.ropensci.org/hddtools), Tools to discover hydrological data, accessing catalogues and databases from various data providers. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/36).
-        
-- [qualtRics](https://docs.ropensci.org/qualtRics/), download Qualtrics survey data. [Issue for volunteering](https://github.com/ropensci/qualtRics/issues/383).
+      
 
 ### Calls for contributions
 
