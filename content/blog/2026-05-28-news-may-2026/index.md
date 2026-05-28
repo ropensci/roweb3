@@ -58,11 +58,11 @@ When posting about your package or universe on social media, you can get a prett
 
 - the package such as its maintainer, its [keywords](https://docs.r-universe.dev/publish/metadata.html#keywords), its URL, its version, its number of stars, etc.
 
-{{< figure src="https://ropensci.r-universe.dev/targets/card.png" width = "600" class = "center" alt="">}}
+{{< figure src="https://ropensci.r-universe.dev/targets/card.png" width="600" class = "center" alt="">}}
 
 - the universe such as its number of packages and contributors, etc.
 
-{{< figure src="https://ropensci.r-universe.dev/card.png" width = "600" class = "center" alt="">}}
+{{< figure src="https://ropensci.r-universe.dev/card.png" width="600" class = "center" alt="">}}
 
 [More information in the R-universe documentation](https://docs.r-universe.dev/browse/packages.html#social-media-cards).
 
@@ -82,13 +82,13 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-<div class="highlight">
+
 
 
 
 The following package recently became a part of our software suite:
 
-<div class="highlight">
+
 
 
 
@@ -96,7 +96,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 ### New versions
 
-<div class="highlight">
+
 
 
 
@@ -106,7 +106,7 @@ The writexl package has a [new maintainer](https://github.com/ropensci/writexl/p
 
 ## Software Peer Review
 
-<div class="highlight">
+
 
 There are eighteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
@@ -166,11 +166,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
 
 
 
-<div class="highlight">
+
+
 
 - [New Mentoring Team with Experienced Mentors and New Voices](/blog/2026/05/06/mentors-2026) by Alber Hamersson Sánchez Ipia, Pablo Paccioretti, Erick Navarro Delgado, Guadalupe Pascal, Andrea Gomez Vargas, Monika Avila Marquez, Luis D. Verde Arregoitia, Francisco Cardozo, Elio Campitelli, Pao Corrales, and Yanina Bellini Saibene. Meet the new team of mentors who will accompany our Champions in their projects for a year, sharing experience, guidance and enthusiasm. Other languages: <a href='/es/blog/2026/05/26/mentoras_es-2026' lang='es'>Nuevo equipo de mentor(a\|e)s con experiencia y nuevas voces (es)</a>.
 
