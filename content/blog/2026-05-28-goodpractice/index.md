@@ -70,7 +70,7 @@ The goodpractice package has always been designed for console output.
 This updated version now provides immediate and consistent detail on check progress while running.
 The [cli package](https://cli.r-lib.org) is also used to give consistently formatted output for all check groups.
 
-The large increase in numbers of checks also means that directly printing goodpractice results may fill several screens of output.
+The large increase in checks also means that directly printing goodpractice results may fill several screens of output.
 This update also adds a `groups` parameter to the [`print()` method](https://docs.ropensci.org/goodpractice/reference/print.goodPractice.html), to enable printing check results only for specified groups.
 So you can run the main [`gp()` function](https://docs.ropensci.org/goodpractice/reference/gp.html) once, then step through each check group by printing results only for that group, fixing those, and then moving on to the next.
 We've found this turns what could feel like an overwhelming wall of output into a manageable to-do list.
