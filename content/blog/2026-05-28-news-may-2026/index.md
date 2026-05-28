@@ -58,11 +58,11 @@ When posting about your package or universe on social media, you can get a prett
 
 - the package such as its maintainer, its [keywords](https://docs.r-universe.dev/publish/metadata.html#keywords), its URL, its version, its number of stars, etc.
 
-{{< figure src="https://ropensci.r-universe.dev/targets/card.png" width="600" class = "center" alt="">}}
+{{< figure src="https://ropensci.r-universe.dev/targets/card.png" width="600" class="center" alt="">}}
 
 - the universe such as its number of packages and contributors, etc.
 
-{{< figure src="https://ropensci.r-universe.dev/card.png" width="600" class = "center" alt="">}}
+{{< figure src="https://ropensci.r-universe.dev/card.png" width="600" class="center" alt="">}}
 
 [More information in the R-universe documentation](https://docs.r-universe.dev/browse/packages.html#social-media-cards).
 
