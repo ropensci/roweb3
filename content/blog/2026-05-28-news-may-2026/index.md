@@ -216,7 +216,7 @@ Imagine...
 
 [Git release notes](https://github.blog/open-source/git/highlights-from-git-2-54/#h-rewrite-history-with-git-history); [Git docs](https://git-scm.com/docs/git-history).
 
-### roxygen2 0.8.0
+### roxygen2 8.0.0
 
 A new version of roxygen2 hit CRAN. Among the highlights are improvements for R6, S7, inheritance, and better documentation of roxygen2 itself, including the [vignette on extending roxygen2 with your own tags and roclets](https://roxygen2.r-lib.org/articles/extending.html). [Release announcement](https://opensource.posit.co/blog/2026-05-01_roxygen2-8-0-0/).
 
