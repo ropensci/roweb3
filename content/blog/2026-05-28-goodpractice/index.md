@@ -78,7 +78,21 @@ Like this:
 ``` r
 x <- gp()
 print(x, "description")
-#> [1] Aww! Shining package! Keep up the priceless work!
+#> Aww! Shining package! Keep up the priceless work!
+
+print(x, "namespace")
+#> ── It is good practice to ─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+#>
+#> ✖ remove or use internal functions that are defined but never called. Dead code increases maintenance burden.
+#>
+#>     R/utils.R:3
+#>     R/utils.R:73
+#>
+#> ✖ define exported (user-facing) functions before internal helper functions within each R source file.
+#>
+#>     R/api.R:85
+#>
+#> ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ```
 
 ## Let us know what you think
