@@ -30,7 +30,7 @@ Checks were identifiable with the single function, [`all_checks()`](https://docs
 The only way to control which checks were run was to pass a `checks` parameter to the main function as a character vector of the names of checks you wanted to run.
 So, for example, if you wanted to skip the [rcmdcheck](https://rcmdcheck.r-lib.org) checks, you had to do something like this:
 ``` r
-mychecks <- all_checks()[which(!grepl("^rcmdcheck", all_checks()))]
+mychecks <- grepv("^rcmdcheck", all_checks(), invert = TRUE)
 gp(checks = mychecks)
 ```
 That wasn't easy!
