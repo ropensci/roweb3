@@ -17,10 +17,12 @@ params:
 The [goodpractice package](https://docs.ropensci.org/goodpractice) has been recommended by rOpenSci since it was first started just over 10 years ago by [Gábor Csárdi](https://gaborcsardi.org/).
 We used to ask our editors to manually run goodpractice on all packages submitted to software peer-review, and then to ask authors to fix any notable issues flagged by the package.
 It is now integrated within our own [pkgcheck system](https://docs.ropensci.org/pkgcheck), and used to automatically identify any goodpractice issues with all new submissions.
-The package changed maintainers [several times](/blog/2024/06/21/ropensci-news-june-2024/#ropensci-takes-over-maintenance-of-the-goodpractice-package) before Gábor gave the green light for us to take over maintenance of the package [two years ago (28th May 2024)](https://github.com/ropensci-review-tools/goodpractice/commit/c3f0b8e4c8e2cd7d88361bb670dd79284e6494d1).
+The package changed maintainers [several times](/blog/2024/06/21/ropensci-news-june-2024/#ropensci-takes-over-maintenance-of-the-goodpractice-package) before the previous maintainers gave the green light for us to take over maintenance of the package [two years ago (28th May 2024)](https://github.com/ropensci-review-tools/goodpractice/commit/c3f0b8e4c8e2cd7d88361bb670dd79284e6494d1).
 
 We're really pleased to share that we've recently rolled out a host of updates and extensions to the package.
 These make it both easier to use, and more powerful.
+This was a collaborative effort between new package author, Athanasia Mo Mowinckel, current maintainer, Mark Padgham, and the generative AI tool Claude.
+We describe the process at the end of this tech note.
 
 ## Easier control of checks
 
@@ -95,7 +97,11 @@ print(x, "namespace")
 #> ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ```
 
-## A note from Mo (Athanasia) on the process
+---
+
+## Notes on the development process
+
+### From Mo (Athanasia)
 
 I'll be honest with you: a lot of this contribution was done with an AI assistant (Claude Code using Opux 4.5) at my elbow. 
 I want to say something about that, because I think the honest version is more useful than the marketing version.
@@ -129,7 +135,7 @@ We had to agree: suggestions get accepted on GitHub, not retyped.
 And then there's the unglamorous part. 
 It would often forget instructions, despite having them documented in agents.md and local memory for the project. 
 These were mostly trivial, but at times fairly bad.
-Some of the first PRs we made, Mark pointed out that the solutions were using regexp rather than AST.
+Some of the first PRs we made, Mark pointed out that the solutions were using regexp rather than AST (Abstrat Syntax Trees).
 I have to admit, I didn't really know about AST before starting this project, and I am so glad I know of it.
 Now, despite being told very clearly that we wanted AST solutions, it would often forget and implement regexp based solutions. 
 It would also very often revert to using for-loops rather than vectorization, and creating nested for-loops into the 3rd or 4th level — which is just horrible to follow as a human.
@@ -141,9 +147,31 @@ The speed-ups taught me where I could trust the loop.
 
 It's a different way of working, and I'm still figuring out the shape of it, but it has enabled me to contribute to this project despite some very severe health issues making it hard for me to work as normal.
 
-
 And one thing Claude always does better than me: writing good commit messages.
 I have found myself writing my own code, but asking claude to commit them (making it look like claude wrote the code, but I don't care) because the commit messages are just so much better than what I write.
+
+### From Mark
+
+The entire idea for this major update was initiated and driven by Mo.
+It was also my first real foray into using generative AI tools directly in rOpenSci packages, and I learnt a lot.
+After I rejected the initial monster PR, things settled down into much smaller and manageable PRs that were always focussed on one specific thing.
+
+From that point, Mo was effectively the coder (assisted by Claude), and I was the reviewer.
+I never knew how much of the actual code was typed versus machine-generated, but was generally pleasantly surprised that I felt no need to inquire.
+Nearly every PR was obviously going to improve the package, and many of them were genuinely creative ideas.
+(That's where I disagree slightly with Mo's general description of the process: I am convinced a lot of the work behind this update came directly from her brilliant insights and experience, rather than her passive description of looking over pre-existing PRs.)
+
+The process started in Feb 2026, and involved [70 pull requests](https://github.com/ropensci-review-tools/goodpractice/pulls?q=sort%3Aupdated-desc%20is%3Apr%20is%3Aclosed%20author%3Adrmowinckels).
+So many of these really were independent and new ideas.
+That enabled me to view each one with fresh eyes, and to think about whether I might approach anything in different ways.
+Over so many PRs, there was a lot of back-and-forth, from pushing back on Claude insisting on nested loops, to figuring out whether code was best parsed and analysed as text, or as a syntax tree.
+As Mo indicated, a lot of those discussions ultimately converged towards us bringing the power of treesitter in to the package, and even helping to replace previous text-based code checks with more efficient and accurate AST approaches.
+
+Our collaboration was very pleasant and enriching, and really felt like a direct cooperation between Mo as the ideas factory, me as the reviewer, and Claude as nothing more than a mediator of our ideas.
+The key role of Claude throughout the process was in handling all of the fiddly, technical details.
+We both looked carefully at every single line of code, but the use of Claude enabled our conversations to remain at higher, conceptual levels than what would have happened if we had to actually do all the technical implementation ourselves.
+I think that is the aspect that I found most surprising: That the use of Claude made our collaboration feel less technical, and therefore somehow even more human.
+And gave us the ability to work though 70 pull requests representing over 100 new checks, all ready for everybody to use.
 
 ## Let us know what you think
 
