@@ -95,6 +95,56 @@ print(x, "namespace")
 #> ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ```
 
+## A note from Mo (Athanasia) on the process
+
+I'll be honest with you: a lot of this contribution was done with an AI assistant (Claude Code using Opux 4.5) at my elbow. 
+I want to say something about that, because I think the honest version is more useful than the marketing version.
+The way Mark approached reviewing this work was very thoughtful and helpful. 
+
+Based on his feedback and how it was structured, I've learned alot about how a good code review can look like, and its been absolutely wonderful.
+As a person who has mainly worked on their own code-bases alone, I have adopted a style of working that often creates diff monsters (hundreds of files changed), which would make reviewing very hard.
+Indeed, my first PR to this project was such a monster, and Mark pushed back asking for several smaller PRs he could actually manage to review. 
+This is also where I learned about [git worktrees](https://git-scm.com/docs/git-worktree) (Thank you [Maëlle](https://ropensci.org/author/ma%C3%ABlle-salmon/)!) and asking Claude to split the work up into several worktrees for easier review, was actually the first substantial change to how I now approach working with an AI assistant. 
+Through this collaboration I learned a lot about splitting my work into better sizes and chunks.
+
+The shape of it was something like this:
+
+I'd locate an issue I thought was meaningful to tackle, and provide Claude Code with the issue context and possibly an idea of how to solve it.
+Once it had a solution, I'd review it, push back where it felt off, and we'd iterate. 
+Mark would then review the PR and point out the things I'd missed. 
+Three-way collaboration, more or less, with the AI doing the typing and me doing the deciding.      
+
+What worked well was scaffolding. 
+Drafting a new check, wiring up the prep step that goes with it, generating the test cases for the edge paths I'd otherwise forget — that kind of work compresses really nicely with an AI. 
+I would often ask it to generate some tests first, then create code that would pass the tests.
+This way we had a clear idea of what we wanted the new code to do, and then solve it. 
+
+What worked less well was anything involving judgement I hadn't articulated yet. 
+The first few times Claude opened a  PR for me, it left the test-plan checkboxes unticked — even when the tests already passed. 
+That's not wrong exactly, but it's misleading to a reviewer. 
+I had to say "no, check the box if the test exists and passes; an unchecked box reads as TODO." 
+Similarly, when Mark left inline code suggestions on a PR, Claude tried to helpfully re-implement them locally — which would have stripped Mark's attribution off his own contribution. 
+We had to agree: suggestions get accepted on GitHub, not retyped.
+
+And then there's the unglamorous part. 
+It would often forget instructions, despite having them documented in agents.md and local memory for the project. 
+These were mostly trivial, but at times fairly bad.
+Some of the first PRs we made, Mark pointed out that the solutions were using regexp rather than AST.
+I have to admit, I didn't really know about AST before starting this project, and I am so glad I know of it.
+Now, despite being told very clearly that we wanted AST solutions, it would often forget and implement regexp based solutions. 
+It would also very often revert to using for-loops rather than vectorization, and creating nested for-loops into the 3rd or 4th level — which is just horrible to follow as a human.
+
+If you take one thing from this aside, take this: AI-assisted contribution didn't mean handing the package over to a machine. 
+It meant I could move faster on the parts I already understood, explore more confidently on the parts I didn't, and spend my actual attention on the decisions that mattered — what to check for, how to group it, what to call it, and what to leave out. 
+The friction taught me where to watch closely. 
+The speed-ups taught me where I could trust the loop.
+
+It's a different way of working, and I'm still figuring out the shape of it, but it has enabled me to contribute to this project despite some very severe health issues making it hard for me to work as normal.
+
+
+And one thing Claude always does better than me: writing good commit messages.
+I have found myself writing my own code, but asking claude to commit them (making it look like claude wrote the code, but I don't care) because the commit messages are just so much better than what I write.
+
 ## Let us know what you think
 
 Like all rOpenSci packages, goodpractice is a community effort that lives through community use and feedback.
