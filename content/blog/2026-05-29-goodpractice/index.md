@@ -103,7 +103,7 @@ print(x, "namespace")
 
 ### From Mo (Athanasia)
 
-I'll be honest with you: a lot of this contribution was done with an AI assistant (Claude Code using Opux 4.5) at my elbow. 
+I'll be honest with you: a lot of this contribution was done with an AI assistant (Claude Code using Opus 4.5) at my elbow. 
 I want to say something about that, because I think the honest version is more useful than the marketing version.
 The way Mark approached reviewing this work was very thoughtful and helpful. 
 
