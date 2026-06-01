@@ -14,7 +14,7 @@ author:
   - Patricia A. Loto
   - Estefania Torrejón
   - Yanina Bellini Saibene
-date: 2026-05-20
+date: 2026-06-09
 featured: true
 tags:
   - programa campeones
