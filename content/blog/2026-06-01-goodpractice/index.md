@@ -1,6 +1,6 @@
 ---
 slug: goodpractice
-title: "Our goodpractice package has new superpowers"
+title: "Our goodpractice Package Has New Superpowers"
 author:
     - Mark Padgham
     - Athanasia Mo Mowinckel
