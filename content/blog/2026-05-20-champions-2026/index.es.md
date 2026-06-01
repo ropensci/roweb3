@@ -21,7 +21,7 @@ tags:
   - comunidad
 params:
   doi: "10.59350/8fn33-4e805"
-description: "Presentamos a 11 nuevas personas que se suman como Campeones y Campeonas de rOpenSci, "
+description: "Presentamos a 11 nuevas personas que se suman como Campeones y Campeonas de rOpenSci"
 editor:
 - Alejandra Bellini
 ---
