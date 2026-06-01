@@ -148,7 +148,7 @@ The speed-ups taught me where I could trust the loop.
 It's a different way of working, and I'm still figuring out the shape of it, but it has enabled me to contribute to this project despite some very severe health issues making it hard for me to work as normal.
 
 And one thing Claude always does better than me: writing good commit messages.
-I have found myself writing my own code, but asking claude to commit them (making it look like claude wrote the code, but I don't care) because the commit messages are just so much better than what I write.
+I have found myself writing my own code, but asking Claude to commit them (making it look like Claude wrote the code, but I don't care) because the commit messages are just so much better than what I write.
 
 ### From Mark
 
