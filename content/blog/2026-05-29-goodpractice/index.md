@@ -126,7 +126,7 @@ I would often ask it to generate some tests first, then create code that would p
 This way we had a clear idea of what we wanted the new code to do, and then solve it. 
 
 What worked less well was anything involving judgement I hadn't articulated yet. 
-The first few times Claude opened a  PR for me, it left the test-plan checkboxes unticked — even when the tests already passed. 
+The first few times Claude opened a PR for me, it left the test-plan checkboxes unticked — even when the tests already passed. 
 That's not wrong exactly, but it's misleading to a reviewer. 
 I had to say "no, check the box if the test exists and passes; an unchecked box reads as TODO." 
 Similarly, when Mark left inline code suggestions on a PR, Claude tried to helpfully re-implement them locally — which would have stripped Mark's attribution off his own contribution. 
