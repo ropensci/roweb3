@@ -67,7 +67,11 @@ Nick on [GitHub](https://github.com/njtierney), [Website](https://www.njtierney.
 
 {{< quote footer="Nick" >}}
 
-TODO: Add Nick's quote about rOpenSci
+I remember seeing rOpenSci online in 2014, at their first [rOpenSci hackathon](https://unconf14.ropensci.org/) in San Francisco, USA. I was inspired by not just the projects they worked on, but the collective of people who were kind and generous as much as they were brilliant. I helped run an offshoot of the rOpenSci Unconf in Australia, which ran in [2016](https://auunconf.ropensci.org/), [2017](https://ozunconf17.ropensci.org/), [2018](https://ozunconf18.ropensci.org/), and [2019](https://ozunconf19.ropensci.org/). I received amazing mentorship and support from Karthik Ram and Stefanie Butland in learning how to run these unconferences. I think these have had a lasting impact on connecting people from Australia and New Zealand. 
+
+I had my R package, [visdat](https://docs.ropensci.org/visdat/), reviewed by rOpenSci in 2017, and this experience was formative to my understanding of software review, and greatly improved my own day to day practice. In 2024, with [Eric Scott](https://github.com/Aariq), and [Andrew Brown](https://github.com/brownag), we submitted the [geotargets](https://github.com/ropensci/geotargets) package to rOpenSci. 
+
+rOpenSci has always been at the forefront of building a community of practice, and their model of peer review is a gold standard. Science would be better if more journals practised such transparency and kindness. It is an enormous honour to be able to give back to a community that has been so formative in my career and my life.
 
 {{< /quote >}}
 ## About the Software Peer Review Program
