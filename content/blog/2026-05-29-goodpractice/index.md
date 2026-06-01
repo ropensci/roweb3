@@ -7,7 +7,6 @@ author:
 date: '2026-05-29'
 tags:
   - package development
-  - tech notes
   - best practice  
 description: We have worked hard over the past few months on major upgrades to our goodpractice package. Checks are now grouped into categories, making it easier to control which checks are run. The biggest change has been adding over 100 new checks, from new lints to many new CRAN checks. 
 params:
