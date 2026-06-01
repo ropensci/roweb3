@@ -81,7 +81,6 @@ Mi participación en el Champions Program de rOpenSci busca fortalecer comunidad
 
 Me postulé al rOpenSci Champions Program porque creo firmemente en el poder de la ciencia abierta y el software reproducible para democratizar el conocimiento. Durante el programa, mi objetivo es perfeccionar mis capacidades en el desarrollo de herramientas en R y software científico bajo estándares globales. Con esta experiencia quiero fortalecer mi perfil técnico y actuar como un puente para que más investigadores en América Latina adopten prácticas colaborativas y abiertas, potenciando el impacto de nuestra comunidad científica a nivel internacional.
 
-Mis redes: https://linktr.ee/gladyschoqueulloa
 
 </br>
 </br>
