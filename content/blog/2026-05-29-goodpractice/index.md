@@ -171,7 +171,7 @@ Our collaboration was very pleasant and enriching, and really felt like a direct
 The key role of Claude throughout the process was in handling all of the fiddly, technical details.
 We both looked carefully at every single line of code, but the use of Claude enabled our conversations to remain at higher, conceptual levels than what would have happened if we had to actually do all the technical implementation ourselves.
 I think that is the aspect that I found most surprising: That the use of Claude made our collaboration feel less technical, and therefore somehow even more human.
-And gave us the ability to work though 70 pull requests representing over 100 new checks, all ready for everybody to use.
+And that gave us the ability to work though 70 pull requests representing over 100 new checks, all ready for everybody to use.
 
 ## Let us know what you think
 
