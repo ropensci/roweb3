@@ -155,7 +155,7 @@ Postulé al programa de campeones porque lo veo como un puente: entre donde esto
 
 ## Estefania Torrejón
 
-{{< figure src = "/img/team/estefania-torrejon.png" width = "250" alt = "Foto de perfil de Estefania Torrejón" class = "pull-left" caption = "<strong>Estefania Torrejón </br> NOVA Medical School. Lisboa, Portugal</br> País</strong>">}}
+{{< figure src = "/img/team/estefania-torrejon.png" width = "250" alt = "Foto de perfil de Estefania Torrejón" class = "pull-left" caption = "<strong>Estefania Torrejón </br> NOVA Medical School. Lisboa, Portugal</br> </strong>">}}
 
 Soy peruana y bióloga egresada de la Universidad Nacional Mayor de San Marcos (UNMSM), con una maestría en Ciencias Biomédicas por el Instituto de Higiene y Medicina Tropical (IHMT) de Lisboa, Portugal. Actualmente resido en Portugal, donde me desempeño como investigadora predoctoral en bioinformática en el Metabolic Diseases Research Lab de NOVA Medical School. Asimismo, soy directora del Departamento de Relaciones Internacionales de la Sociedad Peruana de Bioinformática y Biología Computacional.
 
