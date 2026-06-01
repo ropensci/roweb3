@@ -59,11 +59,11 @@ TODO: Add Joel's quote about rOpenSci
 ## Nicholas Tierney
 {{< imgtxt src = "/img/team/nick-tierney.jpg" width = "200" alt = "Headshot of ">}}
 
-TODO: Add Nick's bio.
+Nicholas (Nick) Tierney is a statistician, [Research Software Engineer](https://researchsoftware.org/), and freelance consultant with a PhD in Statistics who specialises in data analytics, R package development, and teaching. Previously, he worked with [Professor Nick Golding](https://www.thekids.org.au/contact-us/our-people/g/nick-golding/) at [The Kids Research Institute Australia](https://www.thekids.org.au/) and was a Research Fellow at Monash University with [Professor Dianne Cook](https://www.dicook.org/), where he developed tools for exploratory data analysis including [visdat](https://docs.ropensci.org/visdat/), [naniar](https://naniar.njtierney.com/), and [brolgar](https://brolgar.njtierney.com/). Nick actively writes about R related projects at his blog, ["credibly curious"](https://www.njtierney.com/). When not coding, Nick enjoys outdoor adventures and hiked the entire Pacific Crest Trail in 2023, documenting his journey at [njt.micro.blog](https://njt.micro.blog/).
 
 {{< /imgtxt >}}
 
-Nick on [GitHub](), [Website]().
+Nick on [GitHub](https://github.com/njtierney), [Website](https://www.njtierney.com/).
 
 {{< quote footer="Nick" >}}
 
