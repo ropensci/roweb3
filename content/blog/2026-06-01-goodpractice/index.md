@@ -111,7 +111,7 @@ The way Mark approached reviewing this work was very thoughtful and helpful.
 Based on his feedback and how it was structured, I've learned a lot about what a good code review looks like, and it's been absolutely wonderful.
 As a person who has mainly worked on their own code-bases alone, I have adopted a style of working that often creates diff monsters (hundreds of files changed), which can make reviewing very hard.
 Indeed, my first PR to this project was such a monster, and Mark pushed back asking for several smaller PRs he could actually manage to review. 
-This is also where I learned about [git worktrees](https://git-scm.com/docs/git-worktree) (Thank you [Maëlle](/author/ma%C3%ABlle-salmon/)!) and asking Claude to split the work up into several worktrees for easier review, was actually the first substantial change to how I now approach working with an AI assistant. 
+This is also where I learned about [git worktrees](https://git-scm.com/docs/git-worktree) (Thank you [Maëlle](https://masalmon.eu/2026/04/23/git-worktree-again/)!) and asking Claude to split the work up into several worktrees for easier review, was actually the first substantial change to how I now approach working with an AI assistant. 
 Through this collaboration I learned a lot about splitting my work into better sizes and chunks.
 
 The shape of it was something like this:
