@@ -136,9 +136,9 @@ And then there's the unglamorous part.
 It would often forget instructions, despite having them documented in agents.md and local memory for the project. 
 These were mostly trivial, but at times fairly bad.
 Some of the first PRs we made, Mark pointed out that the solutions were using regexp rather than AST (Abstrat Syntax Trees).
-I have to admit, I didn't really know about AST before starting this project, and I am so glad I know of it.
-Now, despite being told very clearly that we wanted AST solutions, it would often forget and implement regexp based solutions. 
-It would also very often revert to using for-loops rather than vectorization, and creating nested for-loops into the 3rd or 4th level — which is just horrible to follow as a human.
+I have to admit, I didn't really know about AST before starting this project, and I am so glad I now know of it.
+Claude, despite being told very clearly that we wanted AST solutions, would often forget and implement regexp based solutions. 
+It would also often revert to using for-loops rather than vectorization, and creating nested for-loops into the 3rd or 4th level — which is just horrible to follow as a human.
 
 If you take one thing from this aside, take this: AI-assisted contribution didn't mean handing the package over to a machine. 
 It meant I could move faster on the parts I already understood, explore more confidently on the parts I didn't, and spend my actual attention on the decisions that mattered — what to check for, how to group it, what to call it, and what to leave out. 
