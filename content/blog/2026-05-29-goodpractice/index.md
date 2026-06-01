@@ -165,7 +165,7 @@ The process started in Feb 2026, and involved [70 pull requests](https://github.
 So many of these really were independent and new ideas.
 That enabled me to view each one with fresh eyes, and to think about whether I might approach anything in different ways.
 Over so many PRs, there was a lot of back-and-forth, from pushing back on Claude insisting on nested loops, to figuring out whether code was best parsed and analysed as text, or as a syntax tree.
-As Mo indicated, a lot of those discussions ultimately converged towards us bringing the power of treesitter in to the package, and even helping to replace previous text-based code checks with more efficient and accurate AST approaches.
+As Mo indicated, a lot of those discussions ultimately converged towards us bringing the power of treesitter into the package, and even helping to replace previous text-based code checks with more efficient and accurate AST approaches.
 
 Our collaboration was very pleasant and enriching, and really felt like a direct cooperation between Mo as the ideas factory, me as the reviewer, and Claude as nothing more than a mediator of our ideas.
 The key role of Claude throughout the process was in handling all of the fiddly, technical details.
