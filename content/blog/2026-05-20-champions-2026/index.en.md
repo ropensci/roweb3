@@ -148,7 +148,7 @@ I also hope that the project will serve as an educational resource in universiti
 
 ## María Florencia Tames
 
-{{\< figure src = "/img/team/maria-tames.png" width = "250" alt = "Profile photo for María Florencia Tames" class = "pull-right" caption = "<strong>María Florencia Tames </br> National University of Córdoba </br> Argentina</strong>">}}
+{{< figure src = "/img/team/maria-tames.png" width = "250" alt = "Profile photo for María Florencia Tames" class = "pull-right" caption = "<strong>María Florencia Tames </br> National University of Córdoba </br> Argentina</strong>">}}
 
 My name is María Florencia Tames, I am a professor at the National University of Córdoba (Argentina) and I work in research in the area of air quality, exposure to air pollutants and environmental inequalities in urban contexts in Latin America.
 
