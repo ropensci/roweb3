@@ -22,21 +22,25 @@ params:
 
 What makes [rOpenSci's software peer review](/software-review/) work is people who care deeply about the quality and usability of scientific software, and who give their time and expertise to help others build it better. Today, we're pleased to announce three new members of our editorial team.
 
-We welcome *Joel Nitta*, and *Nicholas Tierney* as new editors, and formally introduce *Ronny Hernandez Mora*, who joined the editorial team in August 2025. Each brings a distinct perspective shaped by their work, their communities, and their experience with open-source R development. Together, they strengthen our capacity to serve the growing number of package authors who submit their work for review, and to uphold the collaborative, friendly and transparent standards that rOpenSci software peer review is known for.
+We welcome *Joel Nitta*, and *Nicholas Tierney* as new editors, and formally introduce *Ronny Hernández Mora*, who joined the editorial team in August 2025. Each brings a distinct perspective shaped by their work, their communities, and their experience with open-source R development. Together, they strengthen our capacity to serve the growing number of package authors who submit their work for review, and to uphold the collaborative, friendly and transparent standards that rOpenSci software peer review is known for.
 
-## Ronny Hernandez Mora
+## Ronny Hernández Mora
 
 {{< imgtxt src = "/img/team/ronny-hernandez-mora.png" width = "200" alt = "Headshot of Ronny">}}
 
+Ronny is a PhD student at the University of Alberta and a research software developer with a background in data analysis and remote sensing. His current research explores how perception-driven drone systems can support detection, monitoring, and decision making in real world settings.
 
-TODO: add Ronny's bio
+Before starting his PhD, Ronny worked as a data developer at [ixpantia](https://www.ixpantia.com/en/), developing data tools, automation pipelines, APIs, and production analytical applications for organizations across Latin America and the United States. Alongside his PhD, he works with [Openscapes](https://openscapes.org/) and contributes to opensource communities through teaching, mentorship, talks, and collaborative software projects.
+
 {{< /imgtxt >}}
 
-xx on [GitHub](), [Website]().
+Ronny on [GitHub](https://github.com/ronnyhdez), [Website](https://ronnyale.com/).
 
 {{< quote footer="Ronny" >}}
 
-TODO: Add Ronny's Quote about rOpenSci
+I first heard about rOpenSci through a [Data Latam podcast episode](https://www.datalatam.com/29/), and from there I started following the organization and its work. Over time, I got to know people connected to the community, but it was not until 2024 that I became directly involved by volunteering as a package reviewer.
+
+I have always liked the idea of building software collaboratively: creating tools that can be understood, reviewed, reused, and improved by others. That is one of the things I value most about rOpenSci: the way it combines technical review with openness, care, and constructive feedback. I am grateful for the opportunity to contribute as an editor and to support authors and reviewers through that process and continue learning through this community effort.
 
 {{< /quote >}}
 
