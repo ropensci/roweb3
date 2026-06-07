@@ -11,6 +11,7 @@ photogallery: true
 featured: true
 params:
   doi: "10.59350/yw9nq-n2878"
+  socialImg: "https://ropensci.r-universe.dev/card.png"
 ---
 
 One of the challenges of working on R-universe is that there is never really a release day.
