@@ -54,7 +54,7 @@ So therefore we now also serve the [PACKAGES.rds](https://ropensci.r-universe.de
 
 ## 3. Fancy sort/filter bars in the WebUI 
 
-{{< figureforgallery src="searchbar.png" alt="A screenshot of the new search bar" >}}
+{{< figureforgallery src="cover.png" alt="A screenshot of the new search bar" >}}
 
 
 The styling of universe-level pages that list packages, articles, and datasets have been improved, gaining some nice interactive filter and sort capabilities. For example the [`/packages`](https://ropensci.r-universe.dev/packages) page now allows you to do a (fuzzy) search looking for keywords that appear in package descriptions/tags/authors/etc, and sort the packages based on their of stars / downloads / dependents / etc. 
