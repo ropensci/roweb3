@@ -77,7 +77,7 @@ Para comenzar, utilizamos ARcenso para acceder a los datos censales de los años
 
 En ARcenso, el argumento `topic` define el tipo de información a consultar (por ejemplo, estructura de la población), mientras que `geo_code` identifica el dominio geográfico de interés.
 
-Si no conocés los valores disponibles para estos argumentos, podés explorarlos directamente desde la consola. El objeto `geo_metadata` permite identificar las geografías y sus códigos, mientras que `census_metadata` contiene información sobre los temas y cuadros disponibles en el paquete.
+Si no conocés los valores disponibles para estos argumentos, podés explorarlos directamente en el paquete: el objeto `geo_metadata` contiene todas las geografías y sus códigos, mientras que `census_metadata` contiene información sobre los temas y los cuadros disponibles en el paquete.
 
 
 En este ejemplo, trabajamos con datos de estructura de la población `(topic = "estructura")` para el total del país `(geo_code = "00")`. Antes de descargar los datos, podemos verificar qué información está disponible utilizando la función `check_repository()`.
