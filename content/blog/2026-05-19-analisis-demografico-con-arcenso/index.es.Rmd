@@ -1,22 +1,23 @@
 ---
-title: 'De Datos Censales a Análisis Demográficos Con {arcenso}: Un Flujo De Trabajo
+title: 'De Datos Censales a Análisis Demográficos Con ARcenso: Un Flujo De Trabajo
   Reproducible en R'
-author: 
+author:
 - Andrea Gomez Vargas
 - Emanuel Ciardullo
-date: '2026-05-19'
-slug: analisis-demografico-con-arcenso
+date: "2026-05-19"
+slug: "analisis-demografico-con-arcenso"
 package_version: 0.2.1
 tags:
-  - acceso a datos
-  - censo
-  - arcenso
-  - Argentina
-  - packages
+- acceso a datos
+- censo
+- arcenso
+- Argentina
+- packages
 description: Cómo acceder y procesar los censos argentinos de 1970 y 1980 desde R
-socialImg: blog/2026-05-19-analisis-demografico-con-arcenso/portada-blog.png
-socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos de 1970 y 1980
-editor: ~
+socialImg: "blog/2026-05-19-analisis-demografico-con-arcenso/portada-blog.png"
+socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos de
+  1970 y 1980
+editor: null
 ---
 
 Los censos de población son una fuente clave para comprender cómo está compuesta y cómo cambia la población. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas. Permiten caracterizar la estructura y dinámica de la población en cada territorio del país.
@@ -25,28 +26,17 @@ Los censos de población son una fuente clave para comprender cómo está compue
 Trabajar con estos datos suele implicar varios pasos previos: identificar qué información está disponible, descargar los datos, organizarlos y dejarlos listos para el análisis. Cuando esa información se encuentra dispersa y en formatos heterogéneos, el proceso puede volverse complejo.
 
 
-<div style="display: flex; align-items: flex-start; gap: 24px;">
-
-<div style="flex: 1;">
-
 <br>
 
-![Portada blog ARcenso](portada-blog.png){fig-alt="Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." style="width: 100%;"}
+{{< figure src = "portada-blog.png" width = "250" alt = "Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." class = "pull-left" caption = "Portada blog ARcenso">}} 
 
-</div>
 
-<div style="flex: 1;">
-
-<br>
-
-En esta nota de blog, quienes desarrollamos [{ARcenso}](https://soyandrea.github.io/arcenso/) mostramos cómo trabajar de forma simple y reproducible con los datos censales históricos disponibles en el paquete. Este paquete surge para simplificar este proceso y facilitar el acceso a datos censales de Argentina desde R, desarrollado en el marco del programa de campeones de rOpenSci.
+En esta nota de blog, quienes desarrollamos [ARcenso](https://soyandrea.github.io/arcenso/) mostramos cómo trabajar de forma simple y reproducible con los datos censales históricos disponibles en el paquete. Este paquete surge para simplificar este proceso y facilitar el acceso a datos censales de Argentina desde R, desarrollado en el marco del programa de campeones de rOpenSci.
 
 
 A partir de datos oficiales que se encuentran originalmente  en cuadros de Excel, construimos tablas estructuradas y estandarizadas listas para su análisis en R. Con ellas, generamos resultados de análisis demográfico combinando visualizaciones y tablas para explorar la estructura de la población, utilizando como ejemplo los [censos de 1970 y 1980](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41).
 
-</div>
 
-</div>
 
 <br>
 
@@ -56,13 +46,13 @@ A partir de datos oficiales que se encuentran originalmente  en cuadros de Excel
 
 ## ¿Cómo empezar? 
 
-Para reproducir este análisis, es necesario contar con un entorno de trabajo en R con los paquetes requeridos. {ARcenso} puede instalarse desde GitHub y los demás paquetes desde CRAN *(este paso puede omitirse si los paquetes ya están instalados)*.
+Para reproducir este análisis, es necesario contar con un entorno de trabajo en R con los paquetes requeridos. ARcenso puede instalarse desde GitHub y los demás paquetes desde CRAN *(este paso puede omitirse si los paquetes ya están instalados)*.
 
 ```{r eval= FALSE}
 # Si no tenés remotes
 install.packages("remotes")
 
-# Instalar {arcenso} desde GitHub
+# Instalar ARcenso desde GitHub
 remotes::install_github("soyandrea/arcenso")
 
 # Instalar paquetes necesarios desde CRAN
@@ -82,10 +72,10 @@ library(gt)      # diseño de tablas
 
 ##  Acceso a datos censales
 
-Para comenzar, utilizamos {ARcenso} para acceder a los datos censales de los años 1970 y 1980. El paquete permite seleccionar información según el año, el tema y la geografía de interés a partir de los códigos geográficos oficiales definidos por el Instituto Nacional de Estadística y Censos (INDEC) de Argentina.
+Para comenzar, utilizamos ARcenso para acceder a los datos censales de los años 1970 y 1980. El paquete permite seleccionar información según el año, el tema y la geografía de interés a partir de los códigos geográficos oficiales definidos por el Instituto Nacional de Estadística y Censos (INDEC) de Argentina.
 
 
-En {ARcenso}, el argumento `topic` define el tipo de información a consultar (por ejemplo, estructura de la población), mientras que `geo_code` identifica el dominio geográfico de interés.
+En ARcenso, el argumento `topic` define el tipo de información a consultar (por ejemplo, estructura de la población), mientras que `geo_code` identifica el dominio geográfico de interés.
 
 Si no conocés los valores disponibles para estos argumentos, podés explorarlos directamente desde la consola. El objeto `geo_metadata` permite identificar las geografías y sus códigos, mientras que `census_metadata` contiene información sobre los temas y cuadros disponibles en el paquete.
 
@@ -102,6 +92,8 @@ El resultado de `check_repository()` muestra los años disponibles para esa comb
 > **Bonustrack**: Como alternativa, también es posible explorar los datos de forma interactiva con `arcenso_app()`, desde donde se puede copiar el identificador del cuadro necesario para luego utilizarlo en el análisis.
 
 
+{{< figure src = "shiny-arcenso.png" width = "600" alt = "Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." class = "pull-left" caption = "Explorador interactivo de datos censales con `arcenso_app()`" >}}
+
 ## Preparación de los datos
 
 Una vez identificados los cuadros de interés, utilizamos `get_census()` para incorporarlos directamente al entorno de trabajo a partir de su identificador. 
@@ -109,6 +101,10 @@ Una vez identificados los cuadros de interés, utilizamos `get_census()` para in
 Dado que las estructuras de ambas tablas no son idénticas, realizamos algunas transformaciones para armonizar las variables y construir una base comparable entre censos. En particular, recodificamos las categorías etarias en grupos quinquenales para que tengan una estructura común y agregamos una columna que identifica el año censal.
 
 ### Censo 1970
+
+
+En el caso del censo de 1970, la información ya se encuentra agrupada en grupos quinquenales de edad, por lo que solo es necesario ajustar el formato de algunas etiquetas y conservar las variables relevantes para el análisis.
+
 
 ```{r}
 # Total del país
@@ -127,9 +123,9 @@ pob_1970 <- poblacion_1970 |>
 ```
 
 
-> En el caso del censo de 1970, la información ya se encuentra agrupada en grupos quinquenales de edad, por lo que solo es necesario ajustar el formato de algunas etiquetas y conservar las variables relevantes para el análisis.
-
 ### Censo 1980 
+
+El cuadro de 1980, en cambio, presenta la edad en valores simples y añade información adicional que no es relevante para este análisis, por lo que es necesario seleccionar las categorías de interés y construir los grupos quinquenales de edad (intervalos de 5 años) para hacerlos comparables con los de 1970.
 
 ```{r warning=FALSE}
 poblacion_1980 <- get_census(id = "1980_00_estructura_03")
@@ -164,7 +160,6 @@ pob_1980 <-  poblacion_1980 |>
   select(censo, sexo, grupo_edad, poblacion)
 ```
 
-> El cuadro de 1980, en cambio, presenta la edad en valores simples y añade información adicional que no es relevante para este análisis, por lo que es necesario seleccionar las categorías de interés y construir los grupos quinquenales de edad (intervalos de 5 años) para hacerlos comparables con los de 1970.
 
 
 ### Construcción de la base integrada
@@ -244,7 +239,7 @@ piramide |>
     subtitle = "Argentina. Años 1970 y 1980",
     x = "Porcentaje",
     y = "Grupo quinquenal de edad",
-    caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con {arcenso}.",
+    caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con ARcenso.",
     fill = "Sexo") +
   theme_bw() +
   theme(
@@ -253,7 +248,7 @@ piramide |>
 ```
 
 
-> En ambos censos se observa una estructura poblacional joven, con una alta concentración en los primeros grupos de edad. No obstante, hacia 1980 comienza a evidenciarse un ligero desplazamiento hacia edades adultas, indicando un incipiente proceso de envejecimiento de la población.
+En ambos censos se observa una estructura poblacional joven, con una alta concentración en los primeros grupos de edad. No obstante, hacia 1980 comienza a evidenciarse un ligero desplazamiento hacia edades adultas, indicando un incipiente proceso de envejecimiento de la población.
 
 ## Construcción de indicadores demográficos 
 
@@ -295,7 +290,7 @@ gt(envejecimiento) |>
 ```
 
 
-> El aumento del índice de envejecimiento refleja un cambio en la estructura etaria entre 1970 y 1980, lo que indica un mayor peso relativo de la población de 65 años y más en relación con la población joven, es decir, una población relativamente más envejecida.
+El aumento del índice de envejecimiento refleja un cambio en la estructura etaria entre 1970 y 1980, lo que indica un mayor peso relativo de la población de 65 años y más en relación con la población joven, es decir, una población relativamente más envejecida.
 
 ### Índice de feminidad
 
@@ -323,40 +318,28 @@ feminidad_plot <- feminidad |>
               names_prefix = "censo_") |> 
   ggplot(aes(y = grupo_edad)) +
     geom_segment(
-      aes(x = censo_1970,
-          xend = censo_1980,
-          yend = grupo_edad),
-      color = "grey85",
-      linewidth = 1) +
+      aes(x = censo_1970, xend = censo_1980, yend = grupo_edad), color = "grey85", linewidth = 1) +
     geom_point(
-      aes(x = censo_1970),
-      color = "#ff0f7b",
-      size = 3) +
+      aes(x = censo_1970), color = "#ff0f7b", size = 3) +
     geom_point(
-      aes(x = censo_1980),
-      color = "#f89b29",
-      size = 3) +
+      aes(x = censo_1980), color = "#f89b29", size = 3) +
     geom_text(
-      aes(x = censo_1970, label = censo_1970),
-      hjust = 1.4,
-      size = 3) +
+      aes(x = censo_1970, label = censo_1970), hjust = 1.4, size = 3) +
     geom_text(
-      aes(x = censo_1980, label = censo_1980),
-      hjust = -0.4,
-      size = 3) +
+      aes(x = censo_1980, label = censo_1980), hjust = -0.4,size = 3) +
     labs(
       x = "Mujeres por cada 100 varones",
       y = "Grupo de edad",
       title = "Cambio en el índice de feminidad de la población de 60 años y más",
       subtitle = "Argentina, Años 1970 y 1980",
-      caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con {arcenso}.") +  
+      caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con ARcenso.") +  
     theme_minimal()
 
 feminidad_plot
 ```
 
 
-> El índice de feminidad muestra una mayor presencia de mujeres en las edades más avanzadas, diferencia que se acentúa entre 1970 y 1980 en todos los grupos de edad analizados, lo que refleja patrones de mayor supervivencia femenina.
+El índice de feminidad muestra una mayor presencia de mujeres en las edades más avanzadas, diferencia que se acentúa entre 1970 y 1980 en todos los grupos de edad analizados, lo que refleja patrones de mayor supervivencia femenina.
 
 
 ## ¿Qué nos deja este análisis?
@@ -365,9 +348,9 @@ feminidad_plot
 Al trabajar con datos en análisis demográfico, la parte más laboriosa no suele estar en la construcción de indicadores o visualizaciones, sino en todo lo que ocurre antes: identificar qué información existe para cada censo, comprender cómo está organizada y construir una base coherente que permita comparar distintos momentos en el tiempo.
 
 
-En este ejemplo, eso implicó localizar los cuadros relevantes, entender las diferencias de estructura entre los censos de 1970 y 1980 y reconstruir variables a partir de la información disponible. Es justamente este proceso el que {ARcenso} busca simplificar: con `check_repository()` es posible identificar qué tablas están disponibles, con `get_census()` acceder a los datos de forma estructurada, y con `arcenso_app()` explorar el repositorio de manera interactiva.
+En este ejemplo, eso implicó localizar los cuadros relevantes, entender las diferencias de estructura entre los censos de 1970 y 1980 y reconstruir variables a partir de la información disponible. Es justamente este proceso el que ARcenso busca simplificar: con `check_repository()` es posible identificar qué tablas están disponibles, con `get_census()` acceder a los datos de forma estructurada, y con `arcenso_app()` explorar el repositorio de manera interactiva.
 
 
 Este ejercicio muestra que, una vez resuelta la organización de los datos, el análisis se vuelve más accesible y reproducible, permitiendo ampliar y adaptar los resultados a nuevas preguntas.
 
-Sabemos que este es un proceso en construcción: todavía queda trabajo por hacer para incorporar más censos y seguir ampliando las posibilidades de análisis. {ARcenso} nace de esa necesidad de ordenar y hacer accesibles datos que no siempre lo están, y también del trabajo colaborativo de la comunidad que impulsa este tipo de iniciativas. Si te interesa seguir explorando, en las *vignettes* del paquete vas a encontrar más ejemplos para trabajar con estos datos.
+Sabemos que este es un proceso en construcción: todavía queda trabajo por hacer para incorporar más censos y seguir ampliando las posibilidades de análisis. ARcenso nace de esa necesidad de ordenar y hacer accesibles datos que no siempre lo están, y también del trabajo colaborativo de la comunidad que impulsa este tipo de iniciativas. Si te interesa seguir explorando, en las *vignettes* del paquete vas a encontrar más ejemplos para trabajar con estos datos.
