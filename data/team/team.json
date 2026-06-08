@@ -577,6 +577,42 @@
     "home": "https://robitalec.ca/"
   },
   {
+    "name": "Nicholas Tierney",
+    "affiliation": "",
+    "github": "njtierney",
+    "url": "https://www.njtierney.com/",
+    "image": "/img/team/nick-tierney.jpg",
+    "roles": [
+      "editor"
+    ],
+    "stats": true,
+    "home": "https://www.njtierney.com/"
+  },
+  {
+    "name": "Joel Nitta",
+    "affiliation": "Chiba University",
+    "github": "joelnitta",
+    "url": "https://joelnitta.com/",
+    "image": "/img/team/joel-nitta.png",
+    "roles": [
+      "editor"
+    ],
+    "stats": true,
+    "home": "https://joelnitta.com/"
+  },
+  {
+    "name": "Ronny A. Hernández Mora",
+    "affiliation": "",
+    "linkedin": "https://www.linkedin.com/in/ronny-hernandez-mora/",
+    "github": "ronnyhdez",
+    "url": "https://ronnyale.com/",
+    "image": "/img/team/ronny-hernandez-mora.png",
+    "roles": [
+      "editor"
+    ],
+    "home": "https://ronnyale.com/"
+  },
+  {
     "name": "Kelly Hondula",
     "url": "https://www.sesync.org/users/khondula",
     "image": "/img/team/kelly-hondula.jpg",

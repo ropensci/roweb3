@@ -22,23 +22,23 @@ DefaultContentLanguage = "en"
 [languages]
   [languages.en]
     title = "rOpenSci - open tools for open science"
-    languageName = "English"
+    label = "English"
     weight = 2
   [languages.es]
     title = "rOpenSci - herramientas abiertas para una ciencia abierta"
-    languageName = "Español"
+    label = "Español"
     weight = 2
   [languages.fr]
     title = "rOpenSci - open tools for open science"
-    languageName = "Français"
+    label = "Français"
     weight = 3
   [languages.pt]
     title = "rOpenSci - open tools for open science"
-    languageName = "Português"
+    label = "Português"
     weight = 4
   [languages.tr]
     title = "rOpenSci - open tools for open science"
-    languageName = "Türkçe"
+    label = "Türkçe"
     weight = 5  
 
 
