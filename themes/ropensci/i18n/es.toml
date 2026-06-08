@@ -217,6 +217,9 @@
   other = 'Equipo'
 [Packages]
   other = 'Paquetes'
+
+[Package]
+  other = 'Paquete'
   
 [View-all-packages]
   other = 'Ver todos los paquetes'

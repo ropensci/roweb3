@@ -3,6 +3,7 @@ slug: precompute-vignettes
 title: Cómo precomputar viñetas de paquetes o artículos pkgdown
 date: '2019-12-08'
 author: Jeroen Ooms
+editor: Eric Scott
 translator: 
 - Juan Cruz Enrique
 topicid: 1893
@@ -14,7 +15,6 @@ tags:
 params:
   doi: 10.59350/yscyn-6eb34
 ---
-
 Desde principios de este año [construimos automáticamente](/technotes/2019/06/07/ropensci-docs/) binarios y documentación pkgdown para [todos los paquetes de rOpenSci](https://docs.ropensci.org). Pero un problema que hemos encontrado es que algunos paquetes incluyen viñetas que requieren algunas herramientas/datos/credenciales especiales, que no están disponibles en los servidores de compilación genéricos.
 
 Este post explica cómo incluir esas viñetas y artículos en tu paquete.
@@ -47,14 +47,14 @@ En el [paquete jsonlite](https://github.com/jeroen/jsonlite/tree/v1.6/vignettes)
 
 Un inconveniente de este truco es que si el resultado de la viñeta incluye figuras, tienes que guardar las imágenes en la carpeta de viñetas. También es una buena idea nombrar explícitamente tus trozos knitr de rmarkdown, para que las imágenes tengan nombres de archivos sensatos.
 
-Nuestro paquete recientemente incorporado [eia](https://github.com/ropensci/eia/tree/master/vignettes) de Matt Leonawicz es un buen ejemplo. Este paquete proporciona un cliente R para la API de Datos Abiertos de la Administración de Información Energética de EEUU. La página de [documentación de eia](https://docs.ropensci.org/eia/articles/) se genera automáticamente para cada confirmación del [servidor de documentación de rOpenSci](https://ropensci.org/technotes/2019/06/07/ropensci-docs/) aunque el código de las viñetas requieran en realidad una clave API (que el servidor de documentos no tiene).
+Nuestro paquete recientemente incorporado [eia](https://github.com/ropensci/eia/blob/95cd1e10ebda4143fd4fe24cf5836b10fa757a31/vignettes/precompile.R) de Matt Leonawicz es un buen ejemplo. Este paquete proporciona un cliente R para la API de Datos Abiertos de la Administración de Información Energética de EEUU. La página de [documentación de eia](https://docs.ropensci.org/eia/articles/) se genera automáticamente para cada confirmación del [servidor de documentación de rOpenSci](https://ropensci.org/technotes/2019/06/07/ropensci-docs/) aunque el código de las viñetas requieran en realidad una clave API (que el servidor de documentos no tiene).
 
 {{< figure alt="captura de pantalla"  src="W5NDdOA.png" link="https://docs.ropensci.org/ei">}}
 
-El sitio [directorio de viñetas eia](https://github.com/ropensci/eia/blob/master/vignettes/) contiene las `Rmd.orig` archivos de entrada y los `.Rmd` calculados previamente por el autor del paquete. Ten en cuenta también que el directorio de viñetas contiene un práctico script [precompilar.R](https://github.com/ropensci/eia/blob/master/vignettes/precompile.R) que facilita al autor del paquete la actualización local de las viñetas de salida.
+El sitio [directorio de viñetas eia](https://github.com/ropensci/eia/blob/95cd1e10ebda4143fd4fe24cf5836b10fa757a31/vignettes/precompile.R) contiene las `Rmd.orig` archivos de entrada y los `.Rmd` calculados previamente por el autor del paquete. Ten en cuenta también que el directorio de viñetas contiene un práctico script [precompilar.R](https://github.com/ropensci/jstor/blob/de60013deed4a129617a9ead25a642145c2190a6/vignettes/precompile.R) que facilita al autor del paquete la actualización local de las viñetas de salida.
+
+También podrías guionizar el movimiento de las figuras de la viñeta al lugar correcto como el `jstor` paquete con su [precompilar.R](https://github.com/ropensci/jstor/blob/de60013deed4a129617a9ead25a642145c2190a6/vignettes/precompile.R) script.
 
 ## No olvides actualizar
 
 El inconveniente de este enfoque es que los documentos ya no se actualizan automáticamente cuando cambia el paquete. Por lo tanto, sólo debes precompilar las viñetas y artículos que sean problemáticos, y tomar nota para volver a redactar la viñeta de vez en cuando, por ejemplo, antes de la publicación de un paquete. Añadir un [guión](https://github.com/ropensci/eia/blob/master/vignettes/precompile.R) a tus carpetas de viñetas que lo haga ser un recordatorio útil.
-
-
