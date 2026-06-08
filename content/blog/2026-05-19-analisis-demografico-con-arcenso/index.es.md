@@ -20,30 +20,26 @@ socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos
 editor: null
 ---
 
-Los censos de población son una fuente clave para comprender cómo está compuesta y cómo cambia la población. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas. Permiten caracterizar la estructura y dinámica de la población en cada territorio del país.
+Los censos de población son una fuente clave para comprender cómo se compone y cambia la población en cada territorio del país. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas.
 
 Trabajar con estos datos suele implicar varios pasos previos: identificar qué información está disponible, descargar los datos, organizarlos y dejarlos listos para el análisis. Cuando esa información se encuentra dispersa y en formatos heterogéneos, el proceso puede volverse complejo.
 
 <br>
 
-{{< figure src = “portada-blog.png” width = “250” alt = “Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980.” class = “pull-left” caption = “Portada blog ARcenso”\>}}
+{{< figure src=“portada-blog.png” width=“250” alt=“Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980.” class=“pull-left” caption=“Portada blog ARcenso”\>}}
 
-[{ARcenso}](https://soyandrea.github.io/arcenso/) es un paquete que surge para facilitar el acceso a datos censales de población en Argentina y simplificar el proceso de análisis de datos en R. Fue desarrollado en el marco del [programa de campeones de rOpenSci](/es/champions/).
+[ARcenso](https://soyandrea.github.io/arcenso/) es un paquete desarrollado en el marco del [programa de campeones de rOpenSci](/es/champions/) que surge para facilitar el acceso a datos censales de Argentina y simplificar su análisis.
 
 En este artículo, quienes desarrollamos ARcenso mostramos cómo trabajar de forma simple y reproducible con los datos censales históricos disponibles en el paquete.
 
-A partir de datos oficiales que se encuentran originalmente en cuadros de Excel, construimos tablas estructuradas y estandarizadas listas para su análisis en R. Con ellas, generamos resultados de análisis demográfico combinando visualizaciones y tablas para explorar la estructura de la población, utilizando como ejemplo los [censos de 1970 y 1980](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41).
-
-<br>
-
-> *El código presentado permite reproducir los resultados partiendo de un entorno de R sin objetos ni configuraciones previas.*
+A partir de datos oficiales disponibles en el paquete, generamos un análisis demográfico que combina visualizaciones y tablas para explorar la estructura de la población. Es decir, cómo se distribuye según edad y sexo. Este tipo de análisis permite caracterizar cambios poblacionales entre períodos, información clave para la investigación y el diseño de políticas públicas. Como ejemplo, trabajamos con los censos de 1970 y 1980 a nivel nacional.
 
 ## ¿Cómo empezar?
 
-Para reproducir este análisis, es necesario contar con un entorno de trabajo en R con los paquetes requeridos. ARcenso puede instalarse desde GitHub y los demás paquetes desde CRAN *(este paso puede omitirse si los paquetes ya están instalados)*.
+Todo el código de este artículo podés copiarlo y ejecutarlo directamente en tu computadora. Solo necesitás tener instalados los siguientes paquetes, si ya los tenés podés saltear este paso.
 
 ``` r
-# Si no tenés remotes
+# Si no tenés pak
 install.packages("pak")
 
 # Instalar ARcenso desde GitHub
@@ -89,7 +85,7 @@ El resultado de `check_repository()` muestra los años disponibles para esa comb
 
 > **Bonustrack**: Como alternativa, también es posible explorar los datos de forma interactiva con `arcenso_app()`, desde donde se puede copiar el identificador del cuadro necesario para luego utilizarlo en el análisis.
 
-{{< figure src = “shiny-arcenso.png” width = “600” alt = “Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970.” class = “pull-left” caption = “Explorador interactivo de datos censales con `arcenso_app()`” >}}
+{{< figure src=“shiny-arcenso.png” width=“600” alt=“Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970.” class=“pull-left” caption=“Explorador interactivo de datos censales con `arcenso_app()`” >}}
 
 ## Preparación de los datos
 
@@ -290,20 +286,20 @@ gt(envejecimiento) |>
     source_note = md("**Fuente:** elaboración propia en base a datos de INDEC (Censos Nacionales de Población 1970 y 1980)."))
 ```
 
-<div id="hfpkfziexd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#hfpkfziexd table {
+<div id="qliqzvfzit" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qliqzvfzit table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-&#10;#hfpkfziexd thead, #hfpkfziexd tbody, #hfpkfziexd tfoot, #hfpkfziexd tr, #hfpkfziexd td, #hfpkfziexd th {
+&#10;#qliqzvfzit thead, #qliqzvfzit tbody, #qliqzvfzit tfoot, #qliqzvfzit tr, #qliqzvfzit td, #qliqzvfzit th {
   border-style: none;
 }
-&#10;#hfpkfziexd p {
+&#10;#qliqzvfzit p {
   margin: 0;
   padding: 0;
 }
-&#10;#hfpkfziexd .gt_table {
+&#10;#qliqzvfzit .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -328,11 +324,11 @@ gt(envejecimiento) |>
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_caption {
+&#10;#qliqzvfzit .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-&#10;#hfpkfziexd .gt_title {
+&#10;#qliqzvfzit .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -343,7 +339,7 @@ gt(envejecimiento) |>
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-&#10;#hfpkfziexd .gt_subtitle {
+&#10;#qliqzvfzit .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -354,7 +350,7 @@ gt(envejecimiento) |>
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-&#10;#hfpkfziexd .gt_heading {
+&#10;#qliqzvfzit .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -365,12 +361,12 @@ gt(envejecimiento) |>
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_bottom_border {
+&#10;#qliqzvfzit .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_col_headings {
+&#10;#qliqzvfzit .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -384,7 +380,7 @@ gt(envejecimiento) |>
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_col_heading {
+&#10;#qliqzvfzit .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -403,7 +399,7 @@ gt(envejecimiento) |>
   padding-right: 5px;
   overflow-x: hidden;
 }
-&#10;#hfpkfziexd .gt_column_spanner_outer {
+&#10;#qliqzvfzit .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -414,13 +410,13 @@ gt(envejecimiento) |>
   padding-left: 4px;
   padding-right: 4px;
 }
-&#10;#hfpkfziexd .gt_column_spanner_outer:first-child {
+&#10;#qliqzvfzit .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-&#10;#hfpkfziexd .gt_column_spanner_outer:last-child {
+&#10;#qliqzvfzit .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-&#10;#hfpkfziexd .gt_column_spanner {
+&#10;#qliqzvfzit .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -431,10 +427,10 @@ gt(envejecimiento) |>
   display: inline-block;
   width: 100%;
 }
-&#10;#hfpkfziexd .gt_spanner_row {
+&#10;#qliqzvfzit .gt_spanner_row {
   border-bottom-style: hidden;
 }
-&#10;#hfpkfziexd .gt_group_heading {
+&#10;#qliqzvfzit .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -459,7 +455,7 @@ gt(envejecimiento) |>
   vertical-align: middle;
   text-align: left;
 }
-&#10;#hfpkfziexd .gt_empty_group_heading {
+&#10;#qliqzvfzit .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -473,13 +469,13 @@ gt(envejecimiento) |>
   border-bottom-color: #D3D3D3;
   vertical-align: middle;
 }
-&#10;#hfpkfziexd .gt_from_md > :first-child {
+&#10;#qliqzvfzit .gt_from_md > :first-child {
   margin-top: 0;
 }
-&#10;#hfpkfziexd .gt_from_md > :last-child {
+&#10;#qliqzvfzit .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-&#10;#hfpkfziexd .gt_row {
+&#10;#qliqzvfzit .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -497,7 +493,7 @@ gt(envejecimiento) |>
   vertical-align: middle;
   overflow-x: hidden;
 }
-&#10;#hfpkfziexd .gt_stub {
+&#10;#qliqzvfzit .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -509,7 +505,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#hfpkfziexd .gt_stub_row_group {
+&#10;#qliqzvfzit .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -522,13 +518,13 @@ gt(envejecimiento) |>
   padding-right: 5px;
   vertical-align: top;
 }
-&#10;#hfpkfziexd .gt_row_group_first td {
+&#10;#qliqzvfzit .gt_row_group_first td {
   border-top-width: 2px;
 }
-&#10;#hfpkfziexd .gt_row_group_first th {
+&#10;#qliqzvfzit .gt_row_group_first th {
   border-top-width: 2px;
 }
-&#10;#hfpkfziexd .gt_summary_row {
+&#10;#qliqzvfzit .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -537,14 +533,14 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#hfpkfziexd .gt_first_summary_row {
+&#10;#qliqzvfzit .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_first_summary_row.thick {
+&#10;#qliqzvfzit .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
-&#10;#hfpkfziexd .gt_last_summary_row {
+&#10;#qliqzvfzit .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -553,7 +549,7 @@ gt(envejecimiento) |>
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_grand_summary_row {
+&#10;#qliqzvfzit .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -562,7 +558,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#hfpkfziexd .gt_first_grand_summary_row {
+&#10;#qliqzvfzit .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -571,7 +567,7 @@ gt(envejecimiento) |>
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_last_grand_summary_row_top {
+&#10;#qliqzvfzit .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -580,10 +576,10 @@ gt(envejecimiento) |>
   border-bottom-width: 6px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_striped {
+&#10;#qliqzvfzit .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-&#10;#hfpkfziexd .gt_table_body {
+&#10;#qliqzvfzit .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -591,7 +587,7 @@ gt(envejecimiento) |>
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_footnotes {
+&#10;#qliqzvfzit .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -604,7 +600,7 @@ gt(envejecimiento) |>
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_footnote {
+&#10;#qliqzvfzit .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -612,7 +608,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#hfpkfziexd .gt_sourcenotes {
+&#10;#qliqzvfzit .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -625,64 +621,64 @@ gt(envejecimiento) |>
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#hfpkfziexd .gt_sourcenote {
+&#10;#qliqzvfzit .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#hfpkfziexd .gt_left {
+&#10;#qliqzvfzit .gt_left {
   text-align: left;
 }
-&#10;#hfpkfziexd .gt_center {
+&#10;#qliqzvfzit .gt_center {
   text-align: center;
 }
-&#10;#hfpkfziexd .gt_right {
+&#10;#qliqzvfzit .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-&#10;#hfpkfziexd .gt_font_normal {
+&#10;#qliqzvfzit .gt_font_normal {
   font-weight: normal;
 }
-&#10;#hfpkfziexd .gt_font_bold {
+&#10;#qliqzvfzit .gt_font_bold {
   font-weight: bold;
 }
-&#10;#hfpkfziexd .gt_font_italic {
+&#10;#qliqzvfzit .gt_font_italic {
   font-style: italic;
 }
-&#10;#hfpkfziexd .gt_super {
+&#10;#qliqzvfzit .gt_super {
   font-size: 65%;
 }
-&#10;#hfpkfziexd .gt_footnote_marks {
+&#10;#qliqzvfzit .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
-&#10;#hfpkfziexd .gt_asterisk {
+&#10;#qliqzvfzit .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
-&#10;#hfpkfziexd .gt_indent_1 {
+&#10;#qliqzvfzit .gt_indent_1 {
   text-indent: 5px;
 }
-&#10;#hfpkfziexd .gt_indent_2 {
+&#10;#qliqzvfzit .gt_indent_2 {
   text-indent: 10px;
 }
-&#10;#hfpkfziexd .gt_indent_3 {
+&#10;#qliqzvfzit .gt_indent_3 {
   text-indent: 15px;
 }
-&#10;#hfpkfziexd .gt_indent_4 {
+&#10;#qliqzvfzit .gt_indent_4 {
   text-indent: 20px;
 }
-&#10;#hfpkfziexd .gt_indent_5 {
+&#10;#qliqzvfzit .gt_indent_5 {
   text-indent: 25px;
 }
-&#10;#hfpkfziexd .katex-display {
+&#10;#qliqzvfzit .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
-&#10;#hfpkfziexd div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+&#10;#qliqzvfzit div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -786,8 +782,8 @@ El índice de feminidad muestra una mayor presencia de mujeres en las edades má
 
 Al trabajar con datos en análisis demográfico, la parte más laboriosa no suele estar en la construcción de indicadores o visualizaciones, sino en todo lo que ocurre antes: identificar qué información existe para cada censo, comprender cómo está organizada y construir una base coherente que permita comparar distintos momentos en el tiempo.
 
-En este ejemplo, eso implicó localizar los cuadros relevantes, entender las diferencias de estructura entre los censos de 1970 y 1980 y reconstruir variables a partir de la información disponible. Es justamente este proceso el que ARcenso busca simplificar: con `check_repository()` es posible identificar qué tablas están disponibles, con `get_census()` acceder a los datos de forma estructurada, y con `arcenso_app()` explorar el repositorio de manera interactiva.
+En este ejemplo, eso proceso implicó localizar los cuadros relevantes, entender las diferencias de estructura entre los censos de 1970 y 1980 y reconstruir variables a partir de la información disponible. Es justamente este proceso el que ARcenso busca simplificar: con `check_repository()` es posible identificar qué tablas están disponibles, con `get_census()` acceder a los datos de forma estructurada, y con `arcenso_app()` explorar el repositorio de manera interactiva.
 
-Este ejercicio muestra que, una vez resuelta la organización de los datos, el análisis se vuelve más accesible y reproducible, permitiendo ampliar y adaptar los resultados a nuevas preguntas.
+Este ejemplo muestra que, una vez resuelta la organización de los datos, el análisis se vuelve más accesible y reproducible, permitiendo ampliar y adaptar los resultados a nuevas preguntas.
 
-Sabemos que este es un proceso en construcción: todavía queda trabajo por hacer para incorporar más censos y seguir ampliando las posibilidades de análisis. ARcenso nace de esa necesidad de ordenar y hacer accesibles datos que no siempre lo están, y también del trabajo colaborativo de la comunidad que impulsa este tipo de iniciativas. Si te interesa seguir explorando, en las *vignettes* del paquete vas a encontrar más ejemplos para trabajar con estos datos.
+Sabemos que este es un proceso en construcción: aún hay trabajo por delante para incorporar más censos y seguir ampliando las posibilidades de análisis. ARcenso nace de esa necesidad de ordenar y hacer accesibles datos que no siempre lo están, y también del trabajo colaborativo de la comunidad que impulsa este tipo de iniciativas. Si te interesa seguir explorando, en las [*vignettes*](https://soyandrea.github.io/arcenso/articles/indicadores_demograficos.html) del paquete vas a encontrar más ejemplos para trabajar con estos datos.
