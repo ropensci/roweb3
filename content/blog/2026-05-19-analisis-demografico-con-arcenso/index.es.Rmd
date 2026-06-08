@@ -28,7 +28,7 @@ Trabajar con estos datos suele implicar varios pasos previos: identificar qué i
 
 <br>
 
-{{< figure src = "portada-blog.png" width = "250" alt = "Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." class = "pull-left" caption = "Portada blog ARcenso">}} 
+{{< figure src="portada-blog.png" width="250" alt="Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." class="pull-left" caption="Portada blog ARcenso">}} 
 
 
 [{ARcenso}](https://soyandrea.github.io/arcenso/) es un paquete que surge para facilitar el acceso a datos censales de población en Argentina y simplificar el proceso de análisis de datos en R. Fue desarrollado en el marco del [programa de campeones de rOpenSci](/es/champions/).
@@ -94,7 +94,7 @@ El resultado de `check_repository()` muestra los años disponibles para esa comb
 > **Bonustrack**: Como alternativa, también es posible explorar los datos de forma interactiva con `arcenso_app()`, desde donde se puede copiar el identificador del cuadro necesario para luego utilizarlo en el análisis.
 
 
-{{< figure src = "shiny-arcenso.png" width = "600" alt = "Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." class = "pull-left" caption = "Explorador interactivo de datos censales con `arcenso_app()`" >}}
+{{< figure src="shiny-arcenso.png" width="600" alt="Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." class="pull-left" caption="Explorador interactivo de datos censales con `arcenso_app()`" >}}
 
 ## Preparación de los datos
 
