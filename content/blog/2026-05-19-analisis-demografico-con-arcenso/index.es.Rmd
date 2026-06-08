@@ -20,7 +20,7 @@ socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos
 editor: null
 ---
 
-Los censos de población son una fuente clave para comprender cómo está compuesta y cómo cambia la población. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas. Permiten caracterizar la estructura y dinámica de la población en cada territorio del país.
+Los censos de población son una fuente clave para comprender cómo se compone y cambia la población en cada territorio del país. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas.
 
 
 Trabajar con estos datos suele implicar varios pasos previos: identificar qué información está disponible, descargar los datos, organizarlos y dejarlos listos para el análisis. Cuando esa información se encuentra dispersa y en formatos heterogéneos, el proceso puede volverse complejo.
@@ -31,27 +31,22 @@ Trabajar con estos datos suele implicar varios pasos previos: identificar qué i
 {{< figure src="portada-blog.png" width="250" alt="Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." class="pull-left" caption="Portada blog ARcenso">}} 
 
 
-[{ARcenso}](https://soyandrea.github.io/arcenso/) es un paquete que surge para facilitar el acceso a datos censales de población en Argentina y simplificar el proceso de análisis de datos en R. Fue desarrollado en el marco del [programa de campeones de rOpenSci](/es/champions/).
+[ARcenso](https://soyandrea.github.io/arcenso/) es un paquete desarrollado en el marco del [programa de campeones de rOpenSci](/es/champions/) que surge para facilitar el acceso a datos censales de Argentina y simplificar su análisis.
 
 En este artículo, quienes desarrollamos ARcenso mostramos cómo trabajar de forma simple y reproducible con los datos censales históricos disponibles en el paquete.
 
 
-A partir de datos oficiales que se encuentran originalmente  en cuadros de Excel, construimos tablas estructuradas y estandarizadas listas para su análisis en R. Con ellas, generamos resultados de análisis demográfico combinando visualizaciones y tablas para explorar la estructura de la población, utilizando como ejemplo los [censos de 1970 y 1980](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41).
+A partir de datos oficiales disponibles en el paquete, generamos un análisis demográfico que combina visualizaciones y tablas para explorar la estructura de la población. Es decir, cómo se distribuye según edad y sexo. Este tipo de análisis permite caracterizar cambios poblacionales entre períodos, información clave para la investigación y el diseño de políticas públicas. Como ejemplo, trabajamos con los censos de 1970 y 1980 a nivel nacional.
 
-
-
-<br>
-
-
-> *El código presentado permite reproducir los resultados partiendo de un entorno de R sin objetos ni configuraciones previas.*
 
 
 ## ¿Cómo empezar? 
 
-Para reproducir este análisis, es necesario contar con un entorno de trabajo en R con los paquetes requeridos. ARcenso puede instalarse desde GitHub y los demás paquetes desde CRAN *(este paso puede omitirse si los paquetes ya están instalados)*.
+Todo el código de este artículo podés copiarlo y ejecutarlo directamente en tu computadora. Solo necesitás tener instalados los siguientes paquetes, si ya los tenés podés saltear este paso.
+
 
 ```{r eval= FALSE}
-# Si no tenés remotes
+# Si no tenés pak
 install.packages("pak")
 
 # Instalar ARcenso desde GitHub
@@ -350,9 +345,9 @@ El índice de feminidad muestra una mayor presencia de mujeres en las edades má
 Al trabajar con datos en análisis demográfico, la parte más laboriosa no suele estar en la construcción de indicadores o visualizaciones, sino en todo lo que ocurre antes: identificar qué información existe para cada censo, comprender cómo está organizada y construir una base coherente que permita comparar distintos momentos en el tiempo.
 
 
-En este ejemplo, eso implicó localizar los cuadros relevantes, entender las diferencias de estructura entre los censos de 1970 y 1980 y reconstruir variables a partir de la información disponible. Es justamente este proceso el que ARcenso busca simplificar: con `check_repository()` es posible identificar qué tablas están disponibles, con `get_census()` acceder a los datos de forma estructurada, y con `arcenso_app()` explorar el repositorio de manera interactiva.
+En este ejemplo, eso proceso implicó localizar los cuadros relevantes, entender las diferencias de estructura entre los censos de 1970 y 1980 y reconstruir variables a partir de la información disponible. Es justamente este proceso el que ARcenso busca simplificar: con `check_repository()` es posible identificar qué tablas están disponibles, con `get_census()` acceder a los datos de forma estructurada, y con `arcenso_app()` explorar el repositorio de manera interactiva.
 
 
-Este ejercicio muestra que, una vez resuelta la organización de los datos, el análisis se vuelve más accesible y reproducible, permitiendo ampliar y adaptar los resultados a nuevas preguntas.
+Este ejemplo muestra que, una vez resuelta la organización de los datos, el análisis se vuelve más accesible y reproducible, permitiendo ampliar y adaptar los resultados a nuevas preguntas.
 
-Sabemos que este es un proceso en construcción: todavía queda trabajo por hacer para incorporar más censos y seguir ampliando las posibilidades de análisis. ARcenso nace de esa necesidad de ordenar y hacer accesibles datos que no siempre lo están, y también del trabajo colaborativo de la comunidad que impulsa este tipo de iniciativas. Si te interesa seguir explorando, en las *vignettes* del paquete vas a encontrar más ejemplos para trabajar con estos datos.
+Sabemos que este es un proceso en construcción: aún hay trabajo por delante para incorporar más censos y seguir ampliando las posibilidades de análisis. ARcenso nace de esa necesidad de ordenar y hacer accesibles datos que no siempre lo están, y también del trabajo colaborativo de la comunidad que impulsa este tipo de iniciativas. Si te interesa seguir explorando, en las [*vignettes*](https://soyandrea.github.io/arcenso/articles/indicadores_demograficos.html) del paquete vas a encontrar más ejemplos para trabajar con estos datos.
