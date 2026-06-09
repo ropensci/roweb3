@@ -1,0 +1,37 @@
+---
+title: "Mentorear es aprender a través de otra persona"
+author:
+  - name: "Lourdes Milagros Mendoza Villavicencio"
+    url: "https://github.com/lumimevi"
+    affiliation: "Especialista en ciencia de datos"
+date: "2026-06-09"
+slug: "experiencia-mentoria-campeones"
+categories: ["community", "mentoring", "career"]
+tags: ["mentoring", "learning", "community", "champions-program"]
+description: "Un relato reflexivo sobre los aprendizajes y el impacto bidireccional de actuar como mentora en la primera cohorte del Programa de Campeones de rOpenSci."
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
+En un entorno tan cambiante como el desarrollo de software científico y la investigación abierta, aprendí que lo más valioso que podía ofrecer como mentora no era tener todas las respuestas, sino estar presente.
+
+Escuchar con atención. Compartir experiencias reales. Hablar también de los errores, las dudas y los momentos difíciles que forman parte de cualquier camino profesional.
+
+Desde el inicio, busqué crear un espacio de confianza, donde la persona mentoreada pudiera pensar con libertad, hacer preguntas y clarificar sus propias metas. Mi papel no fue decidir por ella, sino acompañarla para que pudiera tomar sus decisiones con más seguridad y autonomía.
+
+La mentoría también me transformó a mí.
+
+Me ayudó a mirar de otra manera la toma de decisiones, la incertidumbre y los desafíos que enfrentamos cuando trabajamos en ciencia abierta y software científico. También me recordó algo muy simple: a veces, una conversación honesta, una pregunta o una palabra de apoyo pueden tener un impacto enorme.
+
+Lo que más me sorprendió fue entender que, al acompañar el crecimiento de otra persona, también fortalecí mi propia claridad, mi confianza profesional y mi sentido de comunidad.
+
+El Programa de Campeones me mostró que la mentoría no es un proceso en una sola dirección. Es un intercambio real, humano y valioso.
+
+Si estás pensando en ser mentora o mentor en las próximas cohortes de rOpenSci, o en alguna iniciativa similar, mi recomendación es simple: hazlo.
+
+No necesitas saberlo todo. Nadie lo sabe. Lo importante es tener disposición para escuchar, acompañar y compartir desde la experiencia.
+
+La mentoría es una forma concreta de aportar a la comunidad. Pero también es una oportunidad para aprender sobre ti, crecer con otras personas y recordar que el conocimiento se fortalece cuando se comparte.
+
+

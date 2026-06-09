@@ -1,2 +1,0 @@
-  {{ $pages := where .Site.Pages ".Params.attendees" "!=" nil }}
-  {{ partial "calendar.html" (dict "pages" $pages "Site" $.Site "intervalleft" $.Page.Params.date) }}

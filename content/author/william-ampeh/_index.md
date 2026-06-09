@@ -1,3 +1,0 @@
----
-name: William Ampeh
----

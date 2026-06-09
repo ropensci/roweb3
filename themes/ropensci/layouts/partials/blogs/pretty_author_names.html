@@ -1,6 +1,0 @@
-{{ $who := .who }}
-{{ if ne (substr (jsonify .who ) 0 1) "[" }}
-{{ $who = (slice .who ) }}
-{{ end }}
-{{ $pages := .Site.Pages.ByPublishDate.Reverse }}
-{{ range $index, $val := $who }}{{ $profilepage := (first 1 (where $pages ".Params.name" $val )) }}{{ if gt $index 0 }}, {{ end }}<a href="{{ range $profilepage }}{{.RelPermalink}}{{ end }}">{{$val}}</a>{{ end }}

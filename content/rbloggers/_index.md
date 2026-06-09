@@ -1,5 +1,0 @@
----
-outputs:
-  - RSS
-  - JSON
----

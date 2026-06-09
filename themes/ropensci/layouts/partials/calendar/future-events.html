@@ -1,2 +1,0 @@
-{{ $pages := (where ( where .Site.AllPages "Type" "in" .Site.Params.events ) ".Date.UTC" ">=" now.UTC ) }}
-{{ return $pages }}
