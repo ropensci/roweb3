@@ -22,7 +22,7 @@ params:
 
 What makes [rOpenSci's software peer review](/software-review/) work is people who care deeply about the quality and usability of scientific software, and who give their time and expertise to help others build it better. Today, we're pleased to announce three new members of our editorial team.
 
-We welcome *Joel Nitta*, and *Nicholas Tierney* as new editors, and formally introduce *Ronny Hernández Mora*, who joined the editorial team in August 2025. Each brings a distinct perspective shaped by their work, their communities, and their experience with open-source R development. Together, they strengthen our capacity to serve the growing number of package authors who submit their work for review, and to uphold the collaborative, friendly and transparent standards that rOpenSci software peer review is known for.
+We welcome *Joel H. Nitta*, and *Nicholas Tierney* as new editors, and formally introduce *Ronny Hernández Mora*, who joined the editorial team in August 2025. Each brings a distinct perspective shaped by their work, their communities, and their experience with open-source R development. Together, they strengthen our capacity to serve the growing number of package authors who submit their work for review, and to uphold the collaborative, friendly and transparent standards that rOpenSci software peer review is known for.
 
 ## Ronny Hernández Mora
 
@@ -44,20 +44,18 @@ I have always liked the idea of building software collaboratively: creating tool
 
 {{< /quote >}}
 
-
-
-## Joel Nitta
+## Joel H. Nitta
 {{< imgtxt src = "/img/team/joel-nitta.png" width = "200" alt = "Headshot of Joel">}}
 
-TODO: Add Joel's bio.
+Joel is currently an associate professor at [Chiba University](https://www.las.chiba-u.jp/research/faculty/nitta.html), Japan, where he studies the evolution and ecology of ferns. Throughout his career as a botanist, he has also cultivated a keen interest in reproducible data analysis and has authored several R packages. Two of these are currently part of rOpenSci, [canaper](https://docs.ropensci.org/canaper/) for spatial phylogenetic analysis, and [dwctaxon](https://docs.ropensci.org/dwctaxon/) for validation and maintenance of taxonomic databases. He is also an official maintainer of two rOpenSci packages, [rgnparser](https://docs.ropensci.org/rgnparser/) for parsing taxonomic names, and [restez](https://docs.ropensci.org/restez/) for querying the GenBank DNA database. Outside of rOpenSci, Joel is active in the [Bio"Pack"athon](https://sites.google.com/view/biopackathon/) community in Japan, serves on the organizing committee of the [Pteridophyte Phylogeny Group](https://pteridogroup.github.io/), and is a certified instructor for [The Carpentries](https://carpentries.org/community/instructors/). Joel's hobbies include various forms of being active outside (hiking, running, backpacking, botanizing, cycling), playing the euphonium, and tabletop games.
 
 {{< /imgtxt >}}
 
-Joel on [GitHub](), [Website]().
+Joel on [GitHub](https://github.com/joelnitta), [Website](https://www.joelnitta.com).
 
 {{< quote footer="Joel" >}}
 
-TODO: Add Joel's quote about rOpenSci
+rOpenSci has been incredibly important in my journey with data science and R. Above all, the extremely knowledgeable and helpful rOpenSci community has provided invaluable support as I transitioned from "R package user" to "R package developer". While it may be possible to do this on your own, it is much more enjoyable and efficient when you are in the company of like-minded people. I especially appreciate this because I did not study computer science in undergrad and I am largely self-taught when it comes to R, having first learned it out of necessity during my graduate studies. I am very excited to officially join the editorial team and have the opportunity to give back to the organization that has supported me so much.
 
 {{< /quote >}}
 ## Nicholas Tierney
