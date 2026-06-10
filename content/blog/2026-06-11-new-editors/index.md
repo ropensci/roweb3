@@ -1,5 +1,5 @@
 ---
-slug: neweditors2026
+slug: neweditorsQ22026
 title: 'Ronny Hernandez Mora, Joel Nitta, and Nick Tierney Join rOpenSci Software Peer Review Editorial Team'
 author:
     - Ronny Hernandez Mora
@@ -8,7 +8,7 @@ author:
     - Yanina Bellini Saibene
 editor:
     - Mark Padgham
-date: '2026-05-26'
+date: '2026-06-11'
 tags:
   - Software Peer Review
   - editors
