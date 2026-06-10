@@ -90,6 +90,7 @@ Thinking about submitting a package? Start here:
 -  [rOpenSci Packages: Development, Maintenance, and Peer Review](https://github.com/ropensci/software-review/issues): the full guide for package authors;
 -  [rOpenSci Statistical Software Peer Review](https://stats-devguide.ropensci.org): the full guide for statistical software submissions;
 - Public [software review threads on GitHub](https://github.com/ropensci/software-review/issues): see software peer review in action.
-- Would you like to contribute as a reviewer? We'd love to have you. Fill out the [rOpenSci Reviewer Sign-Up Form](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) and we'll match you with packages that fit your expertise.
+
+Would you like to contribute as a reviewer? We'd love to have you. Fill out the [rOpenSci Reviewer Sign-Up Form](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw) and we'll match you with packages that fit your expertise.
 
 A warm welcome to **Ronny, Joel, and Nick**! We're very glad to have you with us. 
