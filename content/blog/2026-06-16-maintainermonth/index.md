@@ -41,6 +41,8 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 ## Meet all 37 maintainers
 
+Here is the full list of maintainers participant in rOpenSci campaing.
+
 {{< figure src = "Maintainermonth.png"  alt = "All 37 maintainers' profile pictures inside hex geometrics form" >}}
 
 * **Alex Koiter** 🇨🇦 maintains {mbquartR}, for working with Manitoba's quarter-section land survey system in watershed and land management research.
