@@ -55,17 +55,33 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 * **Francesca Palmeira** 🇧🇷 maintains {pcir}, for modeling species interaction data and food web structures in conservation research.
 
+* **Guadalupe Pascal** 🇦🇷 maintains {matildaNLP}, a package with a specialized corpus of Spanish texts from the Matilda initiative to support research on gender-aware language processing and policy.  
+
+* **Haydée Svab** 🇧🇷 maintains {odbr}, for accessing open data urban mobility from a series of cities in Brazil.
+
+* **Jeroen Ooms** 🇳🇱 maintains {magick}, {pdftools}, and {gert} — packages for image processing, PDF manipulation, and Git operations in R. Jeroen is also rOpenSci's Staff Research Engineer and the project lead for R-universe.
+
+* **Jonathan Keane** maintains {dittodb}, which makes testing database-backed code easy by recording and replaying real database interactions so tests can run without a live connection.
+
+* **Julia Silge** 🇺🇸 maintains {qualtRics}, for importing survey data from the Qualtrics platform directly into R.
+
 * **Karl Broman** 🇺🇸 maintains {chromer} and {aRxiv}, for accessing chromosome data and the arXiv preprint server.
 
 * **Maëlle Salmon** 🇫🇷 maintains {saperlipopette}, {babelquarto}, and {babeldown}, tools for R package development, multilingual Quarto documents, and more.
 
 * **Marcelo S. Perlin** 🇧🇷 maintains {yfR}, for importing financial data from Yahoo Finance into R.
 
+* **Marcos Prunello** 🇦🇷 maintains {Karel}, a package that brings the Karel the Robot programming environment to R, designed to teach programming concepts and computational thinking to beginners. Marcos is an rOpenSci Champion.
+
 * **Mark Padgham** 🇩🇪 maintains {pkgcheck}, which automates software checks for packages submitted to rOpenSci peer review. Mark is rOpenSci's software review lead.
 
 * **Mauro Loprete** 🇺🇾 maintains {metasurvey}, for processing and analyzing household survey microdata using a metadata-driven approach.
 
+* **Micha Silver** 🇮🇱 maintains {rOPTRAM}, implementing the OPtical TRApezoid Model for estimating soil moisture from satellite imagery.
+
 * **Moritz Hennicke** 🇧🇪 maintains {nuts}, for working with the EU's Nomenclature of Territorial Units for Statistics, useful in regional economics and policy research.
+
+* **Pao Corrales** 🇦🇷🇦🇺 maintains {agroclimatico}, for calculating agroclimatic indices and bioclimatic variables for agricultural and environmental research.
 
 * **Peter Desmet** 🇧🇪 maintains {frictionless}, for working with open data standards and publishing datasets.
 
@@ -73,33 +89,10 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 * **Sam Albers** 🇨🇦 maintains {tidyhydat}, for accessing Canadian hydrometric data in a tidy format.
 
-* **Tad Dallas** 🇺🇸 maintains {helminthR}, for accessing the London Natural History Museum's host-parasite database.
-
-
-
-
-
-* **Julia Silge** 🇺🇸 maintains {qualtRics}, for importing survey data from the Qualtrics platform directly into R.
-
-
-
-* Haydée Svab 🇧🇷 maintains {odbr}, for accessing open data about Brazil, including urban mobility, transport, and city datasets.
-
-* Marcos Prunello 🇦🇷 maintains {Karel}, a package that brings the Karel the Robot programming environment to R, designed to teach programming concepts and computational thinking to beginners. Marcos is an rOpenSci Champion.
-
-* Guadalupe Pascal 🇦🇷 maintains {matildaNLP}, a package 
-
-* Micha Silver 🇮🇱 maintains {rOPTRAM}, implementing the OPtical TRApezoid Model for estimating soil moisture from satellite imagery.
-
-* Pao Corrales 🇦🇷🇦🇺 maintains {agroclimatico}, for calculating agroclimatic indices and bioclimatic variables for agricultural and environmental research.
-
-
-* Steffi Lazerte 🇨🇦 maintains {weathercan}, for downloading Canadian weather data directly from Environment and Climate Change Canada. Steffi is also an rOpenSci Community Assistant.
+* **Steffi Lazerte** 🇨🇦 maintains {weathercan}, for downloading Canadian weather data directly from Environment and Climate Change Canada. Steffi is also an rOpenSci Community Assistant.
 Web & Interoperability
 
-* Jeroen Ooms 🇳🇱 maintains {magick}, {pdftools}, and {gert} — packages for image processing, PDF manipulation, and Git operations in R. Jeroen is also rOpenSci's Staff Research Engineer and the project lead for R-universe.
-
-* Jonathan Keane maintains {dittodb}, which makes testing database-backed code easy by recording and replaying real database interactions so tests can run without a live connection.
+* **Tad Dallas** 🇺🇸 maintains {helminthR}, for accessing the London Natural History Museum's host-parasite database.
 
 * **Ronald M. Visser** 🇳🇱 maintains {dendroNetwork}, for creating and analyzing networks in dendrochronological research, combining archaeology and data science.
 
@@ -116,6 +109,7 @@ Web & Interoperability
 * **Yi-Chin Sunny Tseng** 🇨🇦 maintains {bbsTaiwan}, for accessing and analyzing data from Taiwan's Breeding Bird Survey.
 
 * **Zhian Kamvar** 🇺🇸 maintains {tinkr}, for reading and writing Markdown documents in R as XML.
+
 
 ## Thank you Maintainers!
 
