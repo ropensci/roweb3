@@ -125,6 +125,7 @@ Here is the full list of maintainers participant in rOpenSci campaing.
 Maintaining open source software is an act of generosity. It takes time that could be spent elsewhere, and it often goes unacknowledged.
 Every bug fix, every answered issue, every new feature and update is a small gift to the people who depend on that package.
 
-We are grateful to all the rOpenSci maintainers. If you use any of these packages, consider saying thank you. 
+We are grateful to all the rOpenSci maintainers. 
+If you use any of these packages, consider saying thank you. 
 
-Want to learn more? Explore the rOpenSci's packages in our website and check all the other packages universes in R-Universe. 
+Want to learn more? Explore the [rOpenSci's packages](/packages) in our website and check all the other [packages universes](https://r-universe.dev/search) in R-Universe. 
