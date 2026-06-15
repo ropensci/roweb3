@@ -59,7 +59,7 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 * **Haydée Svab** 🇧🇷 maintains {odbr}, for accessing open data urban mobility from a series of cities in Brazil.
 
-* **Jeroen Ooms** 🇳🇱 maintains {magick}, {pdftools}, and {gert} — packages for image processing, PDF manipulation, and Git operations in R. Jeroen is also rOpenSci's Staff Research Engineer and the project lead for R-universe.
+* **Jeroen Ooms** 🇳🇱 maintains {magick}, {pdftools}, and {gert} — packages for image processing, PDF manipulation, and Git operations in R. 
 
 * **Jonathan Keane** maintains {dittodb}, which makes testing database-backed code easy by recording and replaying real database interactions so tests can run without a live connection.
 
@@ -67,13 +67,13 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 * **Karl Broman** 🇺🇸 maintains {chromer} and {aRxiv}, for accessing chromosome data and the arXiv preprint server.
 
-* **Maëlle Salmon** 🇫🇷 maintains {saperlipopette}, {babelquarto}, and {babeldown}, tools for R package development, multilingual Quarto documents, and more.
+* **Maëlle Salmon** 🇫🇷 maintains {saperlipopette}, {babelquarto}, and {babeldown}, tools for learn how to use git, create multilingual Quarto documents, and support translations workflows.
 
 * **Marcelo S. Perlin** 🇧🇷 maintains {yfR}, for importing financial data from Yahoo Finance into R.
 
-* **Marcos Prunello** 🇦🇷 maintains {Karel}, a package that brings the Karel the Robot programming environment to R, designed to teach programming concepts and computational thinking to beginners. Marcos is an rOpenSci Champion.
+* **Marcos Prunello** 🇦🇷 maintains {Karel}, a package that brings the Karel the Robot programming environment to R, designed to teach programming concepts and computational thinking to beginners. 
 
-* **Mark Padgham** 🇩🇪 maintains {pkgcheck}, which automates software checks for packages submitted to rOpenSci peer review. Mark is rOpenSci's software review lead.
+* **Mark Padgham** 🇩🇪 maintains {pkgcheck}, which automates software checks for packages submitted to rOpenSci peer review. 
 
 * **Mauro Loprete** 🇺🇾 maintains {metasurvey}, for processing and analyzing household survey microdata using a metadata-driven approach.
 
