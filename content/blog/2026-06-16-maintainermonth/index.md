@@ -35,46 +35,53 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 ## Meet all 37 maintainers
 
-* **Peter Desmet** 🇧🇪 maintains {frictionless}, for working with open data standards and publishing datasets.
+* **Alex Koiter** 🇨🇦 maintains {mbquartR}, for working with Manitoba's quarter-section land survey system in watershed and land management research.
 
-* **Will Gearty** 🇺🇸 maintains {rredlist}, for accessing IUCN Red List data on threatened species.
-
-* **Francesca Palmeira** 🇧🇷 maintains {pcir}, for modeling species interaction data and food web structures in conservation research.
-
-* **Philippe Massicotte** 🇨🇦 maintains {rnaturalearth}, {rnaturalearthdata}, and {gitignore}, for working with natural earth map data and project utilities.
-
-* **Tad Dallas** 🇺🇸 maintains {helminthR}, for accessing the London Natural History Museum's host-parasite database.
-
-* **Yi-Chin Sunny Tseng** 🇨🇦 maintains {bbsTaiwan}, for accessing and analyzing data from Taiwan's Breeding Bird Survey.
+* **Andrea Gomez Vargas** 🇨🇴🇦🇷 maintains {ARcenso}, for accessing and analyzing Argentina's national census data in R.
 
 * **Austin Koontz** 🇺🇸 maintains {SymbiotaR2}, an R interface to the Symbiota platform for accessing and managing biodiversity occurrence data from natural history collections.
 
+* **Bilikisu Wunmi Olatunji** 🇳🇬 maintains {chartkickR}, an R wrapper for the Chartkick JavaScript library that makes it easy to create beautiful interactive charts and visualizations from R.
+
+* **Carolina Pradier** 🇦🇷🇨🇦 maintains {eph}, for downloading and analyzing microdata from Argentina's Permanent Household Survey, supporting labour and socioeconomic research.
+
+* **Daniel Vartanian** 🇧🇷 maintains {mctq}, for processing data from the Munich Chronotype Questionnaire in sleep and chronobiology research.
+
+* **Erick Navarro Delgado** 🇨🇦🇲🇽 maintains {RAMEN}, for identifying associations between environmental exposures and molecular outcomes in multi-omics research.
+
+* **Erika Siregar** 🇺🇸 maintains {rplaywright}, an R interface to Microsoft Playwright for browser automation and web testing.
+
+* **Ezekiel Adebayo Ogundepo** 🇳🇬 maintains {bulkreadr}, for simplifying the bulk import of multiple files into R across a range of formats.
+
+* **Francesca Palmeira** 🇧🇷 maintains {pcir}, for modeling species interaction data and food web structures in conservation research.
 
 * **Karl Broman** 🇺🇸 maintains {chromer} and {aRxiv}, for accessing chromosome data and the arXiv preprint server.
 
-* Julia Silge 🇺🇸 maintains {qualtRics}, for importing survey data from the Qualtrics platform directly into R.
+* **Maëlle Salmon** 🇫🇷 maintains {saperlipopette}, {babelquarto}, and {babeldown}, tools for R package development, multilingual Quarto documents, and more.
 
-* Sam Albers 🇨🇦 maintains {tidyhydat}, for accessing Canadian hydrometric data in a tidy format.
+* **Marcelo S. Perlin** 🇧🇷 maintains {yfR}, for importing financial data from Yahoo Finance into R.
 
-* Will Landau 🇺🇸 maintains {targets}, a pipeline toolkit that makes data analysis in R faster and fully reproducible by tracking dependencies and only re-running what has changed.
+* **Mark Padgham** 🇩🇪 maintains {pkgcheck}, which automates software checks for packages submitted to rOpenSci peer review. Mark is rOpenSci's software review lead.
 
-* Marcelo S. Perlin 🇧🇷 maintains {yfR}, for importing financial data from Yahoo Finance into R.
+* **Mauro Loprete** 🇺🇾 maintains {metasurvey}, for processing and analyzing household survey microdata using a metadata-driven approach.
 
-* Daniel Vartanian 🇧🇷 maintains {mctq}, for processing data from the Munich Chronotype Questionnaire in sleep and chronobiology research.
+* **Moritz Hennicke** 🇧🇪 maintains {nuts}, for working with the EU's Nomenclature of Territorial Units for Statistics, useful in regional economics and policy research.
 
-* Bilikisu Wunmi Olatunji 🇳🇬 maintains {chartkickR}, an R wrapper for the Chartkick JavaScript library that makes it easy to create beautiful interactive charts and visualizations from R.
+* **Peter Desmet** 🇧🇪 maintains {frictionless}, for working with open data standards and publishing datasets.
 
-* Ezekiel Adebayo Ogundepo 🇳🇬 maintains {bulkreadr}, for simplifying the bulk import of multiple files into R across a range of formats.
+* **Philippe Massicotte** 🇨🇦 maintains {rnaturalearth}, {rnaturalearthdata}, and {gitignore}, for working with natural earth map data and project utilities.
 
-* Mauro Loprete 🇺🇾 maintains {metasurvey}, for processing and analyzing household survey microdata using a metadata-driven approach.
+* **Sam Albers** 🇨🇦 maintains {tidyhydat}, for accessing Canadian hydrometric data in a tidy format.
 
-* Andrea Gomez Vargas 🇨🇴🇦🇷 maintains {ARcenso}, for accessing and analyzing Argentina's national census data in R.
+* **Tad Dallas** 🇺🇸 maintains {helminthR}, for accessing the London Natural History Museum's host-parasite database.
 
-* Carolina Pradier 🇦🇷🇨🇦 maintains {eph}, for downloading and analyzing microdata from Argentina's Permanent Household Survey, supporting labour and socioeconomic research.
 
-* Moritz Hennicke 🇧🇪 maintains {nuts}, for working with the EU's Nomenclature of Territorial Units for Statistics, useful in regional economics and policy research.
 
-* Victor Ordu 🇳🇬🇺🇸 maintains {naijR}, a package of tools and utilities for working with data about Nigeria.
+
+
+* **Julia Silge** 🇺🇸 maintains {qualtRics}, for importing survey data from the Qualtrics platform directly into R.
+
+
 
 * Haydée Svab 🇧🇷 maintains {odbr}, for accessing open data about Brazil, including urban mobility, transport, and city datasets.
 
@@ -86,30 +93,29 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 * Pao Corrales 🇦🇷🇦🇺 maintains {agroclimatico}, for calculating agroclimatic indices and bioclimatic variables for agricultural and environmental research.
 
-* Alex Koiter 🇨🇦 maintains {mbquartR}, for working with Manitoba's quarter-section land survey system in watershed and land management research.
 
 * Steffi Lazerte 🇨🇦 maintains {weathercan}, for downloading Canadian weather data directly from Environment and Climate Change Canada. Steffi is also an rOpenSci Community Assistant.
 Web & Interoperability
 
 * Jeroen Ooms 🇳🇱 maintains {magick}, {pdftools}, and {gert} — packages for image processing, PDF manipulation, and Git operations in R. Jeroen is also rOpenSci's Staff Research Engineer and the project lead for R-universe.
 
-* Mark Padgham 🇩🇪 maintains {pkgcheck}, which automates software checks for packages submitted to rOpenSci peer review. Mark is rOpenSci's software review lead.
-
-* Maëlle Salmon 🇫🇷 maintains {saperlipopette}, {babelquarto}, and {babeldown}, tools for R package development, multilingual Quarto documents, and more.
-
-* Zhian Kamvar 🇺🇸 maintains {tinkr}, for reading and writing Markdown documents in R as XML.
-
 * Jonathan Keane maintains {dittodb}, which makes testing database-backed code easy by recording and replaying real database interactions so tests can run without a live connection.
 
-* Erika Siregar 🇺🇸 maintains {rplaywright}, an R interface to Microsoft Playwright for browser automation and web testing.
+* **Ronald M. Visser** 🇳🇱 maintains {dendroNetwork}, for creating and analyzing networks in dendrochronological research, combining archaeology and data science.
 
-Sehrish Kanwal 🇦🇺 maintains {RNAsum}, for summarising and visualising RNA-seq data analysis results in clinical cancer genomics workflows.
+* **Sehrish Kanwal** 🇦🇺 maintains {RNAsum}, for summarising and visualising RNA-seq data analysis results in clinical cancer genomics workflows.
 
-Erick Navarro Delgado 🇨🇦🇲🇽 maintains {RAMEN}, for identifying associations between environmental exposures and molecular outcomes in multi-omics research.
+* **Victor Ordu** 🇳🇬🇺🇸 maintains {naijR}, a package of tools and utilities for working with data about Nigeria.
 
-Ronald M. Visser 🇳🇱 maintains {dendroNetwork}, for creating and analyzing networks in dendrochronological research, combining archaeology and data science.
+* **Will Gearty** 🇺🇸 maintains {rredlist}, for accessing IUCN Red List data on threatened species.
 
-Will Pearse 🇬🇧 maintains {suppdata}, for downloading supplementary data files directly from published scientific articles across major journals.
+* **Will Landau** 🇺🇸 maintains {targets}, a pipeline toolkit that makes data analysis in R faster and fully reproducible by tracking dependencies and only re-running what has changed.
+
+* **Will Pearse** 🇬🇧 maintains {suppdata}, for downloading supplementary data files directly from published scientific articles across major journals.
+
+* **Yi-Chin Sunny Tseng** 🇨🇦 maintains {bbsTaiwan}, for accessing and analyzing data from Taiwan's Breeding Bird Survey.
+
+* **Zhian Kamvar** 🇺🇸 maintains {tinkr}, for reading and writing Markdown documents in R as XML.
 
 ## Thank you Maintainers!
 
