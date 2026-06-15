@@ -89,8 +89,7 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 * **Sam Albers** 🇨🇦 maintains {tidyhydat}, for accessing Canadian hydrometric data in a tidy format.
 
-* **Steffi Lazerte** 🇨🇦 maintains {weathercan}, for downloading Canadian weather data directly from Environment and Climate Change Canada. Steffi is also an rOpenSci Community Assistant.
-Web & Interoperability
+* **Steffi Lazerte** 🇨🇦 maintains {weathercan}, for downloading Canadian weather data directly from Environment and Climate Change Canada. 
 
 * **Tad Dallas** 🇺🇸 maintains {helminthR}, for accessing the London Natural History Museum's host-parasite database.
 
@@ -98,7 +97,7 @@ Web & Interoperability
 
 * **Sehrish Kanwal** 🇦🇺 maintains {RNAsum}, for summarising and visualising RNA-seq data analysis results in clinical cancer genomics workflows.
 
-* **Victor Ordu** 🇳🇬🇺🇸 maintains {naijR}, a package of tools and utilities for working with data about Nigeria.
+* **Victor Ordu** 🇳🇬🇺🇸 maintains {naijR}, a package of tools and utilities for working with data and maps about Nigeria.
 
 * **Will Gearty** 🇺🇸 maintains {rredlist}, for accessing IUCN Red List data on threatened species.
 
