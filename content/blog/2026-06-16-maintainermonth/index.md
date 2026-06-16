@@ -126,6 +126,7 @@ Maintaining open source software is an act of generosity. It takes time that cou
 Every bug fix, every answered issue, every new feature and update is a small gift to the people who depend on that package.
 
 We are grateful to all the rOpenSci maintainers. 
-If you use any of these packages, consider saying thank you. 
+If you use any of these packages, consider saying _thank you_.
+You can also let us know how do you use it by [sharing your use case](https://github.com/orgs/ropensci/discussions), that we will [feature in our website](/usecases/). 
 
 Want to learn more? Explore the [rOpenSci's packages](/packages) in our website and check all the other [packages universes](https://r-universe.dev/search) in R-Universe. 
