@@ -1,4 +1,3 @@
--
 Aaron
 Abigail
 Adam
@@ -32,6 +31,7 @@ aorsf
 April
 Araya-Salas
 Archer
+Arcos
 Aria
 arkdb
 Arnold
@@ -60,6 +60,7 @@ Barry
 Bart
 baRulho
 BaseSet
+Bastián
 beastier
 beautier
 Beja
@@ -120,6 +121,7 @@ Cheryl
 chirps
 chlorpromazineR
 chopin
+Choque
 Chris
 Christoph
 Christopher
@@ -142,9 +144,11 @@ commonmark
 commonmetar
 comtradr
 concstats
+Conejeros
 Constantine-Cooke
 CoordinateCleaner
 Corrales
+Coss
 coworking
 credentials
 CRediTas
@@ -169,6 +173,7 @@ dbparser
 de
 Dean
 dendroNetwork
+Denisse
 Denney
 deposits
 Desmet
@@ -184,6 +189,7 @@ drake
 Drost
 Dubois
 Dunn
+Durga
 dwctaxon
 Dylan
 dynamite
@@ -206,9 +212,11 @@ Erik
 Erika
 Eryk
 essurvey
+Estefania
 Eunseop
 europepmc
 Evan
+Evelia
 excluder
 exoplanets
 ezknitr
@@ -217,6 +225,7 @@ fastMatMR
 FedData
 fellingdater
 Fernández
+Fierro
 Filipe
 fingertipsR
 fireexposuR
@@ -259,6 +268,7 @@ git2rdata
 gitcellar
 gitignore
 gittargets
+Gladys
 GLMMcosinor
 Gonzalez-Akre
 Goodman
@@ -296,6 +306,7 @@ Hennicke
 Henry
 Hernangómez
 Herold
+Herrera
 Hien
 historydata
 hoardr
@@ -339,6 +350,7 @@ Jones
 Jordan
 Jorge
 Jorrit
+José
 Josep
 Joseph
 jqr
@@ -378,9 +390,12 @@ Leonawicz
 Li
 lightr
 Lim
+Linares
 lingtypology
 Littlefield
 Lluís
+Lorena
+Loto
 Lovelace
 Luigi
 Luisa
@@ -400,6 +415,7 @@ Marc
 Marcelo
 Marco
 Marcos
+María
 Mario
 Mark
 Markowska
@@ -445,6 +461,7 @@ Najko
 nasapower
 Nathan
 natserv
+Navarrete
 neotoma
 Nicenboim
 Nicholas
@@ -466,6 +483,7 @@ Odell
 Oggioni
 ohun
 OJ
+Olea
 Onkelinx
 Ooms
 openalexR
@@ -473,6 +491,7 @@ opencage
 opencv
 opentripplanner
 Ordu
+Orellana
 orgmetrics
 Orozco-Mulfinger
 osfr
@@ -496,6 +515,7 @@ parzer
 patentsview
 pathviewr
 Paul
+Pavez
 pdftools
 Pearse
 Pérez
@@ -732,6 +752,7 @@ tinkr
 tokenizers
 Tony
 Tord
+Torrejón
 tracerer
 Tracey
 tradestatistics
@@ -748,12 +769,14 @@ tsbox
 Turner
 Tyler
 UCSCXenaTools
+Ulloa
 Unai
 unifir
 universe
 unrtf
 USAboundaries
 USAboundariesData
+Valentina
 Van
 Vanhoorne.
 Vantas
