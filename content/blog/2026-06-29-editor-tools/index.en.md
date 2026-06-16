@@ -12,6 +12,8 @@ tags:
 description: "An exploration of four editorial tools used to streamline editing rOpenSci blog posts"
 social: "@steffilazerte@fosstodon.org shares four tools she uses to streamline editing rOpenSci blog posts."
 editor:
+params:
+  doi: "10.59350/3rymp-he260"
 ---
 
 <!--- cSpell: ignore xkcd wordlists roweb chrischinchilla jolars  --->
