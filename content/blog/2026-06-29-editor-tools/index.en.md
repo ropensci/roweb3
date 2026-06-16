@@ -14,9 +14,11 @@ social: "@steffilazerte@fosstodon.org shares four tools she uses to streamline e
 editor:
 ---
 
+<!--- cSpell: ignore xkcd wordlists roweb chrischinchilla jolars  --->
+
 I recently had the opportunity to learn what the term "nerd sniping" meant.
 [Maëlle](/author/maëlle-salmon) pointed out a conversation on the rOpenSci Slack about sometime called Vale, meant for text linting.
-I'd seen the comment, but honestly hadn't really undestood what it was all about until Maëlle asked if I thought it'd be useful for editing the blog...
+I'd seen the comment, but honestly hadn't really understood what it was all about until Maëlle asked if I thought it'd be useful for editing the blog...
 
 ...time passes...
 
@@ -25,10 +27,7 @@ I've been sucked down a rabbit hole of Vale setup, custom rules, and overrides.
 
 It turns out that "Nerd Sniping" refers to the practice of throwing problems at nerds that distract them from what they were doing.
 
-<!-- panache-ignore-format-start -->
-{{< figure src = "nerd_sniping.png" caption = "[xkcd Nerd Sniping](https://xkcd.com/356)" class = "center" width = 500 
-alt = "xkcd comic #356 Nerd Sniping. A comic where a shouted physics problem stops an engineer crossing the street so they are hit by a bus while contemplating the solution." >}}
-<!-- panache-ignore-format-end -->
+{{< figure src = "nerd_sniping.png" caption = "[xkcd Nerd Sniping](https://xkcd.com/356)" class = "center" width = 500 alt = "xkcd comic #356 Nerd Sniping. A comic where a shouted physics problem stops an engineer crossing the street so they are hit by a bus while contemplating the solution." >}}
 
 That being said, it was a glorious hole to fall down!
 It was just too bad that Maëlle sniped me two more times by asking me about my spell check setup in Positron and then by asking if Panache would help with translations.
@@ -101,7 +100,7 @@ I use the [Code Spell Checker (cSpell)](https://github.com/streetsidesoftware/vs
 
 Alternatively, you could also install the [`CSpell Bundled Dictionaries`](https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme) instead.
 
-To configure this extension, I added a project-level `cspell.json` file which lists language overrides (to ensure `index.es.md` files go through the Spanish spellchecker, while `index.pt.md` files go through the Portugese spellchecker, etc.), and dictionaries of words to consider 'correct'.
+To configure this extension, I added a project-level `cspell.json` file which lists language overrides (to ensure `index.es.md` files go through the Spanish spellchecker, while `index.pt.md` files go through the Portuguese spellchecker, etc.), and dictionaries of words to consider 'correct'.
 
 These dictionaries are initially created by functions from my [promoutils](https://docs.ropensci.org/promoutils) package (an R package for all my rOpenSci community workflows).
 `wordlist_create()` creates a wordlist based on rOpenSci packages and author names, so they don't trigger the spell check if they aren't recognized.
@@ -115,10 +114,12 @@ I should also note that I have a personal list of user words stored in my Positr
 which I want to be considered correct across all projects.
 
 When writing posts, we can also override the language settings within a post using a special comment.
-For example if we want to use [English and Portugese for a post](https://github.com/ropensci/roweb3/blob/98a419ebb3efc5dcecc35b05265e83e6baa4f32a/content/blog/2026-06-02-ftc-guide/index.en.md?plain=1#L44) we could add `<--- cSpell: language en,pt-->` to the document.
+For example if we want to use [English and Portuguese for a post](https://github.com/ropensci/roweb3/blob/98a419ebb3efc5dcecc35b05265e83e6baa4f32a/content/blog/2026-06-02-ftc-guide/index.en.md?plain=1#L44) we could add `<--- cSpell: language en,pt-->` to the document.
 
 We can also include post-specific words to ignore, which is handy for acronyms.
 For example, if we wanted to [ignore the acronym `CSCW`](https://github.com/ropensci/roweb3/blob/98a419ebb3efc5dcecc35b05265e83e6baa4f32a/content/blog/2026-06-02-ftc-guide/index.en.md?plain=1#L76) we could use `<!--- cSpell: ignore CSCW --->`.
+
+Spell check issues pop up as a warning in my text window, or as a list under "Spell Checker Issues By File" my lower window pane so I can review them, add them to word lists, or just mentally ignore them.
 
 ### Vale
 
@@ -137,15 +138,27 @@ I `.gitignore` all rules which are installed, but track and push custom rules.
 
 Vale is where I've made the most customizations, especially with the rOpenSci Blog.
 
+<!-- TODO: Add links to the configuration file for these items -->
+
 - I've added a specific Blog vocab list to ensure proper capitalization of rOpenSci projects and (not to mention "rOpenSci" 😉)
-- I've turned off a lot of specific rules which are a bit too aggressive for a blog which allows people to write casually and informally as they like (including using words like "very" 😄 ADD LINK TO LINE).
+- I've turned off a lot of specific rules which are a bit too aggressive for a blog which allows people to write casually and informally as they like (including using words like "very" 😄).
 - I've created custom rules to modify existing rules [^5]
 - I've created custom rules to enforce our style guide, like using Title Case for blog post titles[^6], sentence case for subheadings, and using relative links for ropensci.org pages.
 
-[^5]: For example, `[alex](https://github.com/get-alex/alex)/Race.yml` worries that the word "Mexican" is racist, but at rOpenSci, it's usually stated with pride and I don't want our community members being flagged to just because of mentioning their nationality 😅
+[^5]: For example, [`alex`](https://github.com/get-alex/alex) worries that the word "Mexican" is racist, but at rOpenSci, it's usually stated with pride and I don't want Vale to flag our community members for mentioning their nationality 😅
 
 [^6]: But awesomely, we can enforce this rule for English, but not Spanish posts!
     (ADD LINK TO LINE)
+
+This is just the start!
+I imagine the more I use these rules the more fine tuning I'll do.
+
+Vale problems are classified as messages, warnings, or errors, and are highlighted in the text window as a quick fix and listed in the Problems pane in my lower window.
+
+I should also note that for all the rules I've disabled, there are a lot of opinionated rules left.
+We keep them as prompts to think about our writing, not because we *must* follow them!
+
+{{< figure src = "there_is.png" class = "center" caption = "Vale's write-good rule doesn't want me to start a sentence with 'There is', but I'm going to anyway!" width = 500 alt = "" >}}
 
 ### Panache
 
@@ -158,7 +171,7 @@ However, this file instructs Panache to do one super awesome thing for us, espec
 wrap = "sentence"
 ```
 
-If you set up Positron to format on save, Panache automatically wraps text by sentence everytime you save the file.
+If you set up Positron to format on save, Panache automatically wraps text by sentence every time you save the file.
 This means that when a blog post is sent for a first pass translation using babeldown, the translation comes back pretty good.
 Alternatively, if the line breaks are in the middle of a sentence, the translation can become garbled as lines are treated as disjointed sections of text.
 
@@ -168,7 +181,7 @@ For my other work, I use `wrap = "reflow"`, set in my user configuration file in
 
 Each of these tools provides me a specific solution to a problem.
 There is some overlap among them; Vale can do spell checks, and Panache can do linting.
-However, I find that by using the tools separately I can achieve an especially detailed and customized setup that works really well with the rOpenSci blog styles and needs in particular, and with my work in general.
+However, I find that by using the tools separately I can achieve an especially detailed and customized setup that works really well with the rOpenSci blog in particular, and with my work in general.
 
 By including the configuration files in the roweb3 repository, people who also use these tools will automatically use the configurations we've setup for the rOpenSci blog when they write a post.
 However, even if other writers don't use these tools, it's still very useful for me to see a list of potential problems to double check at the end of my review without having to remember to check for them manually.
