@@ -1,15 +1,15 @@
 ---
 title: "Mentorear es aprender a través de otra persona"
 author:
-  - name: "Milagros Mendoza Villavicencio"
-    url: "https://github.com/lumimevi"
-    affiliation: "Vale institute of Technology"
+  - Milagros Mendoza Villavicencio
 date: "2026-06-09"
 slug: "experiencia-mentoria-campeones"
-categories: ["community", "mentoring", "career"]
-tags: ["mentoring", "learning", "community", "champions-program"]
+tags: 
+- mentoreo
+-  aprender
+- comunidad
+- programa de campeones
 description: "Un relato como mentora en la primera cohorte en español del Programa de Campeones de rOpenSci."
-output: html_document
 ---
 En el Programa de Campeones de rOpenSci aprendí que mentorear no significa tener todas las respuestas, sino estar presente.
 
