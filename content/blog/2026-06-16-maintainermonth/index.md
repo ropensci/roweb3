@@ -40,7 +40,7 @@ This campaign brought together 37 maintainers from 15 countries, maintaining mor
 
 The diversity of this group reflects the diversity of the rOpenSci community: archaeologists, bioinformaticians, ecologists, economists, statisticians, sociologists, professors, PhD students, engineers and educators.
 
-We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to BlueSky. All the posts were shared by other people and organizations, received reactions and comments of grateful users. 
+We created 39 posts on our accounts on LinkedIn and Mastodon, which is bridge to BlueSky. All the posts were shared by other people and organizations and received comments from grateful users. 
 
 
 ## Meet all 37 maintainers
