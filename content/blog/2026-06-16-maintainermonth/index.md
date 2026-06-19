@@ -70,11 +70,11 @@ Here is the full list of maintainers we celebrated in May.
 
 - **Francesca Palmeira** 🇧🇷 maintains [{pcir}](https://fblpalmeira.github.io/pcir/), for modeling species interaction data and food web structures in conservation research. Champions project.
 
-- **Guadalupe Pascal** 🇦🇷 maintains [{matildaNLP}](https://docs.ropensci.org/matildaNLP), a package with a specialized corpus of Spanish texts from the Matilda initiative to support research on gender-aware language processing and policy.
+- **Guadalupe Pascal** 🇦🇷 maintains [{matildaNLP}](https://docs.ropensci.org/matildaNLP), a package with a specialized corpus of Spanish texts from the Matilda initiative to support research on gender-aware language processing and policy. Champions project.
 
-- **Haydée Svab** 🇧🇷 maintains [{odbr}](https://hsvab.github.io/odbr/), for accessing open data urban mobility from a series of cities in Brazil.
+- **Haydée Svab** 🇧🇷 maintains [{odbr}](https://hsvab.github.io/odbr/), for accessing open data urban mobility from a series of cities in Brazil. Champions project.
 
-- **Jeroen Ooms** 🇳🇱 maintains [{magick}](https://docs.ropensci.org/magick), [{pdftools}](https://docs.ropensci.org/pdftools), and [{gert}](https://docs.ropensci.org/gert) --- packages for image processing, PDF manipulation, and Git operations in R.
+- **Jeroen Ooms** 🇳🇱 maintains [{magick}](https://docs.ropensci.org/magick), [{pdftools}](https://docs.ropensci.org/pdftools), and [{gert}](https://docs.ropensci.org/gert), packages for image processing, PDF manipulation, and Git operations in R.
 
 - **Jonathan Keane** maintains [{dittodb}](https://docs.ropensci.org/dittodb), which makes testing database-backed code easy by recording and replaying real database interactions so tests can run without a live connection.
 
@@ -112,7 +112,7 @@ Here is the full list of maintainers we celebrated in May.
 
 - **Sehrish Kanwal** 🇦🇺 maintains [{RNAsum}](https://umccr.github.io/RNAsum/), for summarising and visualising RNA-seq data analysis results in clinical cancer genomics workflows. Champions project.
 
-- **Victor Ordu** 🇳🇬🇺🇸 maintains [{naijR}](https://docs.ropensci.org/naijR), a package of tools and utilities for working with data and maps about Nigeria.
+- **Victor Ordu** 🇳🇬🇺🇸 maintains [{naijR}](https://docs.ropensci.org/naijR), a package of tools and utilities for working with data and maps about Nigeria. Champions project.
 
 - **Will Gearty** 🇺🇸 maintains [{rredlist}](https://docs.ropensci.org/rredlist), for accessing IUCN Red List data on threatened species.
 
