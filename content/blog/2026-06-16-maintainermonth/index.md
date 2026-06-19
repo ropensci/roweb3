@@ -131,6 +131,6 @@ Every bug fix, every answered issue, every new feature and update is a small gif
 
 We are grateful to all the rOpenSci maintainers. 
 If you use any of these packages, consider saying _thank you_.
-You can also let us know how do you use it by [sharing your use case](https://github.com/orgs/ropensci/discussions), that we will [feature in our website](/usecases/). 
+You can also let us know how you use these packages by [sharing your use case](https://github.com/orgs/ropensci/discussions), that we will [feature in our website](/usecases/). 
 
 Want to learn more? Explore the [rOpenSci's packages](/packages) in our website and check all the other [packages universes](https://r-universe.dev/search) in R-Universe. 
