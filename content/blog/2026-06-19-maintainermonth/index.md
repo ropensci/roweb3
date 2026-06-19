@@ -3,7 +3,7 @@ slug: "maintainers-month"
 title: Celebrating Our Maintainers during Maintainers Month
 author:
   - Yanina Bellini Saibene
-date: 2026-06-16
+date: 2026-06-19
 tags:
   - Software Peer Review
   - packages
@@ -13,7 +13,6 @@ tags:
 description: "A Look Back at our Maintainer Month 2026 social media campaign"
 editor:
   - Steffi LaZerte
-  - 
 params:
   doi: "10.59350/8gbzt-c4951"
 ---
