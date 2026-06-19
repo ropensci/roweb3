@@ -25,7 +25,7 @@ During Maintainer Month we wanted to celebrate rOpenSci's package maintainer com
 ## The social media campaign
 
 One of our commitments to our community is to amplify the people who make it work. 
-To run this campaign, we first needed permission from our maintainers to feature them. In our yearly maintainers survey, we asked whether they would be willing to be featured in a public spotlight, and many said yes.
+To run this campaign, we first needed permission from our maintainers to feature them. In our annual maintainer survey, we asked maintainers whether they would like to be featured in a public spotlight, and many said yes.
 
 We also reached out to current and past Champions from our Champions Program, which trains and supports R developers from historically underrepresented groups in the open science community.
 
