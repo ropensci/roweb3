@@ -45,7 +45,7 @@ We did 39 post on our accounts on LinkedIn and Mastodon, which is bridge to Blue
 
 ## Meet all 37 maintainers
 
-Here is the full list of maintainers participant in rOpenSci campaing.
+Here is the full list of maintainers we celebrated in May.
 
 {{< figure src = "Maintainermonth.png"  alt = "All 37 maintainers' profile pictures inside hex geometrics form" >}}
 
