@@ -61,7 +61,7 @@ Here is the full list of maintainers we celebrated in May.
 - **Erick Navarro Delgado** 🇨🇦🇲🇽 maintains [{RAMEN}](https://ericknavarrod.github.io/RAMEN/), for identifying associations between environmental exposures and molecular outcomes in multi-omics research.
   Champions project.
 
-- **Erika Siregar** 🇺🇸 maintains [{rplaywright}](https://erikaris.github.io/rplaywright/), an R interface to Microsoft Playwright for browser automation and web testing. Champions project.
+- **Erika Siregar** 🇮🇩🇬🇧 maintains [{rplaywright}](https://erikaris.github.io/rplaywright/), an R interface to Microsoft Playwright for browser automation and web testing. Champions project.
 
 - **Ezekiel Adebayo Ogundepo** 🇳🇬 maintains [{bulkreadr}](https://gbganalyst.github.io/bulkreadr/), for simplifying the bulk import of multiple files into R across a range of formats. Champions project.
 
@@ -117,7 +117,7 @@ Here is the full list of maintainers we celebrated in May.
 
 - **Will Pearse** 🇬🇧 maintains [{suppdata}](https://docs.ropensci.org/suppdata), for downloading supplementary data files directly from published scientific articles across major journals.
 
-- **Yi-Chin Sunny Tseng** 🇨🇦 maintains [{bbsTaiwan}](https://sunnytseng.github.io/bbsTaiwan/), for accessing and analyzing data from Taiwan's Breeding Bird Survey. Champions project.
+- **Yi-Chin Sunny Tseng** 🇨🇦🇹🇼 maintains [{bbsTaiwan}](https://sunnytseng.github.io/bbsTaiwan/), for accessing and analyzing data from Taiwan's Breeding Bird Survey. Champions project.
 
 - **Zhian Kamvar** 🇺🇸 maintains [{tinkr}](https://docs.ropensci.org/tinkr), for reading and writing Markdown documents in R as XML.
 
