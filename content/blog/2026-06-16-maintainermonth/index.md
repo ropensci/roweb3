@@ -49,79 +49,80 @@ Here is the full list of maintainers we celebrated in May.
 
 {{< figure src = "Maintainermonth.png"  alt = "All 37 maintainers' profile pictures inside hex geometrics form" >}}
 
-* **Alex Koiter** 🇨🇦 maintains {mbquartR}, for working with Manitoba's quarter-section land survey system in watershed and land management research.
+- **Alex Koiter** 🇨🇦 maintains [{mbquartR}](https://docs.ropensci.org/mbquartR), for working with Manitoba's quarter-section land survey system in watershed and land management research.
 
-* **Andrea Gomez Vargas** 🇨🇴🇦🇷 maintains {ARcenso}, for accessing and analyzing Argentina's national census data in R.
+- **Andrea Gomez Vargas** 🇨🇴🇦🇷 maintains [{ARcenso}](https://soyandrea.github.io/arcenso/), for accessing and analyzing Argentina's national census data in R. Champions project.
 
-* **Austin Koontz** 🇺🇸 maintains {SymbiotaR2}, an R interface to the Symbiota platform for accessing and managing biodiversity occurrence data from natural history collections.
+- **Austin Koontz** 🇺🇸 maintains [{SymbiotaR2}](https://docs.ropensci.org/SymbiotaR2), an R interface to the Symbiota platform for accessing and managing biodiversity occurrence data from natural history collections.
 
-* **Bilikisu Wunmi Olatunji** 🇳🇬 maintains {chartkickR}, an R wrapper for the Chartkick JavaScript library that makes it easy to create beautiful interactive charts and visualizations from R.
+- **Bilikisu Wunmi Olatunji** 🇳🇬 maintains [{chartkickR}](https://github.com/BWOlatunji/chartkickR), an R wrapper for the Chartkick JavaScript library that makes it easy to create beautiful interactive charts and visualizations from R. Champions project.
 
-* **Carolina Pradier** 🇦🇷🇨🇦 maintains {eph}, for downloading and analyzing microdata from Argentina's Permanent Household Survey, supporting labour and socioeconomic research.
+- **Carolina Pradier** 🇦🇷🇨🇦 maintains [{eph}](https://docs.ropensci.org/eph), for downloading and analyzing microdata from Argentina's Permanent Household Survey, supporting labour and socioeconomic research. Champions project.
 
-* **Daniel Vartanian** 🇧🇷 maintains {mctq}, for processing data from the Munich Chronotype Questionnaire in sleep and chronobiology research.
+- **Daniel Vartanian** 🇧🇷 maintains [{mctq}](https://docs.ropensci.org/mctq), for processing data from the Munich Chronotype Questionnaire in sleep and chronobiology research.
 
-* **Erick Navarro Delgado** 🇨🇦🇲🇽 maintains {RAMEN}, for identifying associations between environmental exposures and molecular outcomes in multi-omics research.
+- **Erick Navarro Delgado** 🇨🇦🇲🇽 maintains [{RAMEN}](https://ericknavarrod.github.io/RAMEN/), for identifying associations between environmental exposures and molecular outcomes in multi-omics research.
+  Champions project.
 
-* **Erika Siregar** 🇺🇸 maintains {rplaywright}, an R interface to Microsoft Playwright for browser automation and web testing.
+- **Erika Siregar** 🇺🇸 maintains [{rplaywright}](https://erikaris.github.io/rplaywright/), an R interface to Microsoft Playwright for browser automation and web testing. Champions project.
 
-* **Ezekiel Adebayo Ogundepo** 🇳🇬 maintains {bulkreadr}, for simplifying the bulk import of multiple files into R across a range of formats.
+- **Ezekiel Adebayo Ogundepo** 🇳🇬 maintains [{bulkreadr}](https://gbganalyst.github.io/bulkreadr/), for simplifying the bulk import of multiple files into R across a range of formats. Champions project.
 
-* **Francesca Palmeira** 🇧🇷 maintains {pcir}, for modeling species interaction data and food web structures in conservation research.
+- **Francesca Palmeira** 🇧🇷 maintains [{pcir}](https://fblpalmeira.github.io/pcir/), for modeling species interaction data and food web structures in conservation research. Champions project.
 
-* **Guadalupe Pascal** 🇦🇷 maintains {matildaNLP}, a package with a specialized corpus of Spanish texts from the Matilda initiative to support research on gender-aware language processing and policy.  
+- **Guadalupe Pascal** 🇦🇷 maintains [{matildaNLP}](https://docs.ropensci.org/matildaNLP), a package with a specialized corpus of Spanish texts from the Matilda initiative to support research on gender-aware language processing and policy.
 
-* **Haydée Svab** 🇧🇷 maintains {odbr}, for accessing open data urban mobility from a series of cities in Brazil.
+- **Haydée Svab** 🇧🇷 maintains [{odbr}](https://hsvab.github.io/odbr/), for accessing open data urban mobility from a series of cities in Brazil.
 
-* **Jeroen Ooms** 🇳🇱 maintains {magick}, {pdftools}, and {gert} — packages for image processing, PDF manipulation, and Git operations in R. 
+- **Jeroen Ooms** 🇳🇱 maintains [{magick}](https://docs.ropensci.org/magick), [{pdftools}](https://docs.ropensci.org/pdftools), and [{gert}](https://docs.ropensci.org/gert) --- packages for image processing, PDF manipulation, and Git operations in R.
 
-* **Jonathan Keane** maintains {dittodb}, which makes testing database-backed code easy by recording and replaying real database interactions so tests can run without a live connection.
+- **Jonathan Keane** maintains [{dittodb}](https://docs.ropensci.org/dittodb), which makes testing database-backed code easy by recording and replaying real database interactions so tests can run without a live connection.
 
-* **Julia Silge** 🇺🇸 maintains {qualtRics}, for importing survey data from the Qualtrics platform directly into R.
+- **Julia Silge** 🇺🇸 maintains [{qualtRics}](https://docs.ropensci.org/qualtRics), for importing survey data from the Qualtrics platform directly into R.
 
-* **Karl Broman** 🇺🇸 maintains {chromer} and {aRxiv}, for accessing chromosome data and the arXiv preprint server.
+- **Karl Broman** 🇺🇸 maintains [{chromer}](https://docs.ropensci.org/chromer) and [{aRxiv}](https://docs.ropensci.org/aRxiv), for accessing chromosome data and the arXiv preprint server.
 
-* **Maëlle Salmon** 🇫🇷 maintains {saperlipopette}, {babelquarto}, and {babeldown}, tools for learn how to use git, create multilingual Quarto documents, and support translations workflows.
+- **Maëlle Salmon** 🇫🇷 maintains [{saperlipopette}](https://docs.ropensci.org/saperlipopette), [{babelquarto}](https://docs.ropensci.org/babelquarto), and [{babeldown}](https://docs.ropensci.org/babeldown), tools for learn how to use git, create multilingual Quarto documents, and support translations workflows.
 
-* **Marcelo S. Perlin** 🇧🇷 maintains {yfR}, for importing financial data from Yahoo Finance into R.
+- **Marcelo S. Perlin** 🇧🇷 maintains [{yfR}](https://docs.ropensci.org/yfR), for importing financial data from Yahoo Finance into R.
 
-* **Marcos Prunello** 🇦🇷 maintains {Karel}, a package that brings the Karel the Robot programming environment to R, designed to teach programming concepts and computational thinking to beginners. 
+- **Marcos Prunello** 🇦🇷 maintains [{karel}](https://docs.ropensci.org/karel/), a package that brings the Karel the Robot programming environment to R, designed to teach programming concepts and computational thinking to beginners. Champions project.
 
-* **Mark Padgham** 🇩🇪 maintains {pkgcheck}, which automates software checks for packages submitted to rOpenSci peer review. 
+- **Mark Padgham** 🇩🇪 maintains [{pkgcheck}](https://docs.ropensci.org/pkgcheck), which automates software checks for packages submitted to rOpenSci peer review.
 
-* **Mauro Loprete** 🇺🇾 maintains {metasurvey}, for processing and analyzing household survey microdata using a metadata-driven approach.
+- **Mauro Loprete** 🇺🇾 maintains [{metasurvey}](https://metasurveyr.github.io/metasurvey/), for processing and analyzing household survey microdata using a metadata-driven approach. Champions project.
 
-* **Micha Silver** 🇮🇱 maintains {rOPTRAM}, implementing the OPtical TRApezoid Model for estimating soil moisture from satellite imagery.
+- **Micha Silver** 🇮🇱 maintains [{rOPTRAM}](https://docs.ropensci.org/rOPTRAM), implementing the OPtical TRApezoid Model for estimating soil moisture from satellite imagery.
 
-* **Moritz Hennicke** 🇧🇪 maintains {nuts}, for working with the EU's Nomenclature of Territorial Units for Statistics, useful in regional economics and policy research.
+- **Moritz Hennicke** 🇧🇪 maintains [{nuts}](https://docs.ropensci.org/nuts), for working with the EU's Nomenclature of Territorial Units for Statistics, useful in regional economics and policy research.
 
-* **Pao Corrales** 🇦🇷🇦🇺 maintains {agroclimatico}, for calculating agroclimatic indices and bioclimatic variables for agricultural and environmental research.
+- **Pao Corrales** 🇦🇷🇦🇺 maintains [{agroclimatico}](https://docs.ropensci.org/agroclimatico), for calculating agroclimatic indices and bioclimatic variables for agricultural and environmental research. Champions project.
 
-* **Peter Desmet** 🇧🇪 maintains {frictionless}, for working with open data standards and publishing datasets.
+- **Peter Desmet** 🇧🇪 maintains [{frictionless}](https://docs.ropensci.org/frictionless), for working with open data standards and publishing datasets.
 
-* **Philippe Massicotte** 🇨🇦 maintains {rnaturalearth}, {rnaturalearthdata}, and {gitignore}, for working with natural earth map data and project utilities.
+- **Philippe Massicotte** 🇨🇦 maintains [{rnaturalearth}](https://docs.ropensci.org/rnaturalearth), [{rnaturalearthdata}](https://docs.ropensci.org/rnaturalearthdata), and [{gitignore}](https://docs.ropensci.org/gitignore), for working with natural earth map data and project utilities.
 
-* **Sam Albers** 🇨🇦 maintains {tidyhydat}, for accessing Canadian hydrometric data in a tidy format.
+- **Sam Albers** 🇨🇦 maintains [{tidyhydat}](https://docs.ropensci.org/tidyhydat), for accessing Canadian hydrometric data in a tidy format.
 
-* **Steffi Lazerte** 🇨🇦 maintains {weathercan}, for downloading Canadian weather data directly from Environment and Climate Change Canada. 
+- **Steffi Lazerte** 🇨🇦 maintains [{weathercan}](https://docs.ropensci.org/weathercan), for downloading Canadian weather data directly from Environment and Climate Change Canada.
 
-* **Tad Dallas** 🇺🇸 maintains {helminthR}, for accessing the London Natural History Museum's host-parasite database.
+- **Tad Dallas** 🇺🇸 maintains [{helminthR}](https://docs.ropensci.org/helminthR), for accessing the London Natural History Museum's host-parasite database.
 
-* **Ronald M. Visser** 🇳🇱 maintains {dendroNetwork}, for creating and analyzing networks in dendrochronological research, combining archaeology and data science.
+- **Ronald M. Visser** 🇳🇱 maintains [{dendroNetwork}](https://docs.ropensci.org/dendroNetwork), for creating and analyzing networks in dendrochronological research, combining archaeology and data science.
 
-* **Sehrish Kanwal** 🇦🇺 maintains {RNAsum}, for summarising and visualising RNA-seq data analysis results in clinical cancer genomics workflows.
+- **Sehrish Kanwal** 🇦🇺 maintains [{RNAsum}](https://umccr.github.io/RNAsum/), for summarising and visualising RNA-seq data analysis results in clinical cancer genomics workflows. Champions project.
 
-* **Victor Ordu** 🇳🇬🇺🇸 maintains {naijR}, a package of tools and utilities for working with data and maps about Nigeria.
+- **Victor Ordu** 🇳🇬🇺🇸 maintains [{naijR}](https://docs.ropensci.org/naijR), a package of tools and utilities for working with data and maps about Nigeria.
 
-* **Will Gearty** 🇺🇸 maintains {rredlist}, for accessing IUCN Red List data on threatened species.
+- **Will Gearty** 🇺🇸 maintains [{rredlist}](https://docs.ropensci.org/rredlist), for accessing IUCN Red List data on threatened species.
 
-* **Will Landau** 🇺🇸 maintains {targets}, a pipeline toolkit that makes data analysis in R faster and fully reproducible by tracking dependencies and only re-running what has changed.
+- **Will Landau** 🇺🇸 maintains [{targets}](https://docs.ropensci.org/targets), a pipeline toolkit that makes data analysis in R faster and fully reproducible by tracking dependencies and only re-running what has changed.
 
-* **Will Pearse** 🇬🇧 maintains {suppdata}, for downloading supplementary data files directly from published scientific articles across major journals.
+- **Will Pearse** 🇬🇧 maintains [{suppdata}](https://docs.ropensci.org/suppdata), for downloading supplementary data files directly from published scientific articles across major journals.
 
-* **Yi-Chin Sunny Tseng** 🇨🇦 maintains {bbsTaiwan}, for accessing and analyzing data from Taiwan's Breeding Bird Survey.
+- **Yi-Chin Sunny Tseng** 🇨🇦 maintains [{bbsTaiwan}](https://sunnytseng.github.io/bbsTaiwan/), for accessing and analyzing data from Taiwan's Breeding Bird Survey. Champions project.
 
-* **Zhian Kamvar** 🇺🇸 maintains {tinkr}, for reading and writing Markdown documents in R as XML.
+- **Zhian Kamvar** 🇺🇸 maintains [{tinkr}](https://docs.ropensci.org/tinkr), for reading and writing Markdown documents in R as XML.
 
 
 ## Thank you Maintainers!
