@@ -88,6 +88,7 @@ Jeroen Ooms [describes five recent additions](/blog/2026/06/07/r-universe-update
 
 In other news, R-universe user Tom Palmer also wrote about five things: ["Five tips for managing your R-universe 🚀"](https://remlapmot.github.io/post/2026/runiverse-tips/).
 You won't believe the fifth one. :wink:
+
 ### Yanina Joins the 2026 Sovereign Tech Fellowship
 
 We're excited to share that our Community Manager, Yani Bellini Saibene, [has been selected as a 2026 Sovereign Tech Fellow](https://www.sovereign.tech/news/meet-the-2026-sovereign-tech-fellows). During the fellowship, she will focus on making open source more accessible through improved contribution guidance, newcomer-focused mini-hackathons, multilingual training resources, and more sustainable localization practices across communities in the R ecosystem. These efforts will build on and extend rOpenSci's work in community building, mentorship, and open science.
