@@ -24,7 +24,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 TODO Yani
 
-The 2026--2027 cohort is continuing their training activities... and has been formally introduced on our blog! Read all about the [11 new champions](/blog/2026/06/09/champions-2026/).
+The 2026--2027 cohort is continuing their training activities, meeting with their mentors, and starting to work on their packages, and they have been formally introduced on our blog! Read all about the [11 new champions](/blog/2026/06/09/champions-2026/).
 
 ### New editors Ronny Hernandez Mora, Joel Nitta, and Nick Tierney
 
