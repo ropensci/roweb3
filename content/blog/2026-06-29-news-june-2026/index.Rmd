@@ -56,9 +56,11 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Champions Program update
 
-TODO Yani
+We have two concurrent cohorts, both in Spanish. 
 
-The 2026–2027 cohort is continuing their training activities... and has been formally introduced on our blog!
+The 2025–2026 cohort is nearing the end of its participation in the program, so we are organizing the closing meeting and the overall evaluation.
+
+The 2026--2027 cohort is continuing their training activities, meeting with their mentors, and starting to work on their packages, and they have been formally introduced on our blog! 
 Read all about the [11 new champions](/blog/2026/06/09/champions-2026/).
 
 
@@ -86,6 +88,13 @@ Jeroen Ooms [describes five recent additions](/blog/2026/06/07/r-universe-update
 
 In other news, R-universe user Tom Palmer also wrote about five things: ["Five tips for managing your R-universe 🚀"](https://remlapmot.github.io/post/2026/runiverse-tips/).
 You won't believe the fifth one. :wink:
+### Yanina Joins the 2026 Sovereign Tech Fellowship
+
+We're excited to share that our Community Manager, Yani Bellini Saibene, [has been selected as a 2026 Sovereign Tech Fellow](https://www.sovereign.tech/news/meet-the-2026-sovereign-tech-fellows). During the fellowship, she will focus on making open source more accessible through improved contribution guidance, newcomer-focused mini-hackathons, multilingual training resources, and more sustainable localization practices across communities in the R ecosystem. These efforts will build on and extend rOpenSci's work in community building, mentorship, and open science.
+### _Quinceañera_: celebrating 15 years together 
+
+In June, we held three community events to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of the thing that has always made rOpenSci what it is: how genuinely welcoming it is to everyone who wants to participate. 
+There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
 
 ### Coworking 
 
