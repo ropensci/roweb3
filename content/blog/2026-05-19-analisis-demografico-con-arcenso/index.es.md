@@ -26,7 +26,7 @@ Trabajar con estos datos suele implicar varios pasos previos: identificar qué i
 
 <br>
 
-{{< figure src=“portada-blog.png” width=“250” alt=“Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980.” class=“pull-left” caption=“Portada blog ARcenso”\>}}
+{{< figure src="portada-blog.png" width="250" alt="Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." class="pull-left" caption="Portada blog ARcenso">}} 
 
 [ARcenso](https://soyandrea.github.io/arcenso/) es un paquete desarrollado en el marco del [programa de campeones de rOpenSci](/es/champions/) que surge para facilitar el acceso a datos censales de Argentina y simplificar su análisis.
 
@@ -52,11 +52,11 @@ install.packages(c("dplyr", "tidyr", "ggplot2", "gt"))
 Luego, cargamos los paquetes necesarios para trabajar con los datos censales y construir indicadores para el análisis:
 
 ``` r
-library(arcenso) # obtención de datos censales 
-library(dplyr)   # procesamiento de datos
-library(tidyr)   # orden y transformación de datos
+library(arcenso) # obtención de datos censales
+library(dplyr) # procesamiento de datos
+library(tidyr) # orden y transformación de datos
 library(ggplot2) # diseño de gráficos
-library(gt)      # diseño de tablas
+library(gt) # diseño de tablas
 ```
 
 ## Acceso a datos censales
@@ -85,7 +85,7 @@ El resultado de `check_repository()` muestra los años disponibles para esa comb
 
 > **Bonustrack**: Como alternativa, también es posible explorar los datos de forma interactiva con `arcenso_app()`, desde donde se puede copiar el identificador del cuadro necesario para luego utilizarlo en el análisis.
 
-{{< figure src=“shiny-arcenso.png” width=“600” alt=“Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970.” class=“pull-left” caption=“Explorador interactivo de datos censales con `arcenso_app()`” >}}
+{{< figure src="shiny-arcenso.png" width="600" alt="Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." class="pull-left" caption="Explorador interactivo de datos censales con `arcenso_app()`" >}}
 
 ## Preparación de los datos
 
@@ -99,17 +99,19 @@ En el caso del censo de 1970, la información ya se encuentra agrupada en grupos
 
 ``` r
 # Total del país
-poblacion_1970 <- get_census(id = "1970_00_estructura_01") 
+poblacion_1970 <- get_census(id = "1970_00_estructura_01")
 
-pob_1970 <- poblacion_1970 |> 
-  filter(sexo != "Total") |> 
-  mutate(censo = 1970,
-         grupo_de_edad = case_when(
-                grupo_de_edad == "0-4" ~ "00-04",
-                grupo_de_edad == "5-9" ~ "05-09",
-                TRUE ~ grupo_de_edad)
-         ) |> 
-  rename(grupo_edad = grupo_de_edad) |> 
+pob_1970 <- poblacion_1970 |>
+  filter(sexo != "Total") |>
+  mutate(
+    censo = 1970,
+    grupo_de_edad = case_when(
+      grupo_de_edad == "0-4" ~ "00-04",
+      grupo_de_edad == "5-9" ~ "05-09",
+      TRUE ~ grupo_de_edad
+    )
+  ) |>
+  rename(grupo_edad = grupo_de_edad) |>
   select(censo, sexo, grupo_edad, poblacion)
 ```
 
@@ -120,33 +122,33 @@ El cuadro de 1980, en cambio, presenta la edad en valores simples y añade infor
 ``` r
 poblacion_1980 <- get_census(id = "1980_00_estructura_03")
 
-pob_1980 <-  poblacion_1980 |> 
-  filter(urbano_rural == "Total",
-         sexo != "Total",
-         edad != "Total") |> 
-  mutate(censo = 1980,
-         edad_num = ifelse(edad == "85 y más", 85, as.numeric(edad)),
-         grupo_edad = case_when(
-           edad_num %in% c(0:4)   ~ "00-04",
-           edad_num %in% c(5:9)   ~ "05-09",
-           edad_num %in% c(10:14) ~ "10-14",
-           edad_num %in% c(15:19) ~ "15-19",
-           edad_num %in% c(20:24) ~ "20-24",
-           edad_num %in% c(25:29) ~ "25-29",
-           edad_num %in% c(30:34) ~ "30-34",
-           edad_num %in% c(35:39) ~ "35-39",
-           edad_num %in% c(40:44) ~ "40-44",
-           edad_num %in% c(45:49) ~ "45-49",
-           edad_num %in% c(50:54) ~ "50-54",
-           edad_num %in% c(55:59) ~ "55-59",
-           edad_num %in% c(60:64) ~ "60-64",
-           edad_num %in% c(65:69) ~ "65-69",
-           edad_num %in% c(70:74) ~ "70-74",
-           edad_num %in% c(75:79) ~ "75-79",
-           edad_num %in% c(80:84) ~ "80-84",
-           TRUE ~ "85 y más")
-         ) |> 
-  select(-edad, -urbano_rural, -edad_num) |> 
+pob_1980 <- poblacion_1980 |>
+  filter(urbano_rural == "Total", sexo != "Total", edad != "Total") |>
+  mutate(
+    censo = 1980,
+    edad_num = ifelse(edad == "85 y más", 85, as.numeric(edad)),
+    grupo_edad = case_when(
+      edad_num %in% c(0:4) ~ "00-04",
+      edad_num %in% c(5:9) ~ "05-09",
+      edad_num %in% c(10:14) ~ "10-14",
+      edad_num %in% c(15:19) ~ "15-19",
+      edad_num %in% c(20:24) ~ "20-24",
+      edad_num %in% c(25:29) ~ "25-29",
+      edad_num %in% c(30:34) ~ "30-34",
+      edad_num %in% c(35:39) ~ "35-39",
+      edad_num %in% c(40:44) ~ "40-44",
+      edad_num %in% c(45:49) ~ "45-49",
+      edad_num %in% c(50:54) ~ "50-54",
+      edad_num %in% c(55:59) ~ "55-59",
+      edad_num %in% c(60:64) ~ "60-64",
+      edad_num %in% c(65:69) ~ "65-69",
+      edad_num %in% c(70:74) ~ "70-74",
+      edad_num %in% c(75:79) ~ "75-79",
+      edad_num %in% c(80:84) ~ "80-84",
+      TRUE ~ "85 y más"
+    )
+  ) |>
+  select(-edad, -urbano_rural, -edad_num) |>
   select(censo, sexo, grupo_edad, poblacion)
 ```
 
@@ -156,20 +158,37 @@ Una vez procesados ambos cuadros, unimos la información en una sola tabla y def
 
 ``` r
 # Unimos ambas geografías y dejamos variables listas para trabajar
-poblacion <- 
+poblacion <-
   bind_rows(
-      pob_1970,
-      pob_1980) |> 
+    pob_1970,
+    pob_1980
+  ) |>
   mutate(
-      poblacion = as.numeric(poblacion),
-      sexo = factor(sexo, levels = c("Varones", "Mujeres")),
-      grupo_edad = factor(
-        grupo_edad,
-        levels = c(
-          "00-04", "05-09", "10-14", "15-19", "20-24",
-          "25-29", "30-34", "35-39", "40-44", "45-49",
-          "50-54", "55-59", "60-64", "65-69", "70-74",
-          "75-79", "80-84", "85 y más"))
+    poblacion = as.numeric(poblacion),
+    sexo = factor(sexo, levels = c("Varones", "Mujeres")),
+    grupo_edad = factor(
+      grupo_edad,
+      levels = c(
+        "00-04",
+        "05-09",
+        "10-14",
+        "15-19",
+        "20-24",
+        "25-29",
+        "30-34",
+        "35-39",
+        "40-44",
+        "45-49",
+        "50-54",
+        "55-59",
+        "60-64",
+        "65-69",
+        "70-74",
+        "75-79",
+        "80-84",
+        "85 y más"
+      )
+    )
   )
 ```
 
@@ -204,38 +223,41 @@ A continuación, calculamos la distribución relativa de la población en cada c
 
 ``` r
 # Base para la pirámide poblacional
-piramide <- poblacion |> 
-  group_by(censo, sexo) |> 
+piramide <- poblacion |>
+  group_by(censo, sexo) |>
   mutate(
     poblacion_rel = if_else(
       sexo == "Varones",
       -poblacion / sum(poblacion),
       poblacion / sum(poblacion)
     )
-  ) |> 
+  ) |>
   ungroup()
 
 # Pirámide comparativa
-piramide |> 
+piramide |>
   ggplot(aes(x = poblacion_rel, y = grupo_edad, fill = sexo)) +
   geom_col() +
-  facet_wrap(~ censo, ncol = 2) +
+  facet_wrap(~censo, ncol = 2) +
   scale_fill_manual(values = c("#00f59b", "#7014f2")) +
   scale_x_continuous(
     labels = function(x) paste0(abs(round(x * 100, 1)), "%"),
     limits = c(-0.15, 0.15),
-    breaks = seq(-0.15, 0.15, by = 0.05)) +
+    breaks = seq(-0.15, 0.15, by = 0.05)
+  ) +
   labs(
     title = "Gráfico 1. Estructura de la población por sexo y grupo quinquenal de edad.",
     subtitle = "Argentina. Años 1970 y 1980",
     x = "Porcentaje",
     y = "Grupo quinquenal de edad",
     caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con ARcenso.",
-    fill = "Sexo") +
+    fill = "Sexo"
+  ) +
   theme_bw() +
   theme(
     legend.position = "bottom",
-    strip.text = element_text(face = "bold", size = 12))
+    strip.text = element_text(face = "bold", size = 12)
+  )
 ```
 
 <div class="figure">
@@ -259,47 +281,59 @@ Si bien la pirámide poblacional permite una lectura general de la estructura de
 Compara la cantidad de personas mayores (65 años y más) con la población más joven (0 a 14 años). Permite ver de forma simple si la población tiene más peso en las edades jóvenes o en las edades más avanzadas.
 
 ``` r
-envejecimiento <- poblacion |> 
-  group_by(censo) |> 
+envejecimiento <- poblacion |>
+  group_by(censo) |>
   summarise(
-    poblacion_0a14   = sum(poblacion[grupo_edad %in% c("00-04","05-09","10-14")]),
-    poblacion_65ymas = sum(poblacion[grupo_edad %in% c("65-69","70-74","75-79","80-84","85 y más")]),
-    indice = round(poblacion_65ymas / poblacion_0a14* 100 , 0)
+    poblacion_0a14 = sum(poblacion[
+      grupo_edad %in% c("00-04", "05-09", "10-14")
+    ]),
+    poblacion_65ymas = sum(poblacion[
+      grupo_edad %in% c("65-69", "70-74", "75-79", "80-84", "85 y más")
+    ]),
+    indice = round(poblacion_65ymas / poblacion_0a14 * 100, 0)
   )
 
 
-gt(envejecimiento) |> 
+gt(envejecimiento) |>
   tab_header(
     title = "Comparación del índice de envejecimiento",
-    subtitle = "Argentina. Años 1970 y 1980"  ) |>
+    subtitle = "Argentina. Años 1970 y 1980"
+  ) |>
   tab_spanner(
     label = "Población",
-    columns = c(poblacion_0a14, poblacion_65ymas)) |>
-  fmt_number(columns = c(poblacion_0a14, poblacion_65ymas),
-             decimals =  0,
-             sep_mark = "." ) |> 
+    columns = c(poblacion_0a14, poblacion_65ymas)
+  ) |>
+  fmt_number(
+    columns = c(poblacion_0a14, poblacion_65ymas),
+    decimals = 0,
+    sep_mark = "."
+  ) |>
   cols_label(
-      poblacion_0a14 = "0 a 14 años", 
-      poblacion_65ymas = "65 años y más",
-      indice = "Indice") |>   
+    poblacion_0a14 = "0 a 14 años",
+    poblacion_65ymas = "65 años y más",
+    indice = "Indice"
+  ) |>
   tab_source_note(
-    source_note = md("**Fuente:** elaboración propia en base a datos de INDEC (Censos Nacionales de Población 1970 y 1980)."))
+    source_note = md(
+      "**Fuente:** elaboración propia en base a datos de INDEC (Censos Nacionales de Población 1970 y 1980)."
+    )
+  )
 ```
 
-<div id="qliqzvfzit" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#qliqzvfzit table {
+<div id="imjithshqm" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#imjithshqm table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-&#10;#qliqzvfzit thead, #qliqzvfzit tbody, #qliqzvfzit tfoot, #qliqzvfzit tr, #qliqzvfzit td, #qliqzvfzit th {
+&#10;#imjithshqm thead, #imjithshqm tbody, #imjithshqm tfoot, #imjithshqm tr, #imjithshqm td, #imjithshqm th {
   border-style: none;
 }
-&#10;#qliqzvfzit p {
+&#10;#imjithshqm p {
   margin: 0;
   padding: 0;
 }
-&#10;#qliqzvfzit .gt_table {
+&#10;#imjithshqm .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -324,11 +358,11 @@ gt(envejecimiento) |>
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_caption {
+&#10;#imjithshqm .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-&#10;#qliqzvfzit .gt_title {
+&#10;#imjithshqm .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -339,7 +373,7 @@ gt(envejecimiento) |>
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-&#10;#qliqzvfzit .gt_subtitle {
+&#10;#imjithshqm .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -350,7 +384,7 @@ gt(envejecimiento) |>
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-&#10;#qliqzvfzit .gt_heading {
+&#10;#imjithshqm .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -361,12 +395,12 @@ gt(envejecimiento) |>
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_bottom_border {
+&#10;#imjithshqm .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_col_headings {
+&#10;#imjithshqm .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -380,7 +414,7 @@ gt(envejecimiento) |>
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_col_heading {
+&#10;#imjithshqm .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -399,7 +433,7 @@ gt(envejecimiento) |>
   padding-right: 5px;
   overflow-x: hidden;
 }
-&#10;#qliqzvfzit .gt_column_spanner_outer {
+&#10;#imjithshqm .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -410,13 +444,13 @@ gt(envejecimiento) |>
   padding-left: 4px;
   padding-right: 4px;
 }
-&#10;#qliqzvfzit .gt_column_spanner_outer:first-child {
+&#10;#imjithshqm .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-&#10;#qliqzvfzit .gt_column_spanner_outer:last-child {
+&#10;#imjithshqm .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-&#10;#qliqzvfzit .gt_column_spanner {
+&#10;#imjithshqm .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -427,10 +461,10 @@ gt(envejecimiento) |>
   display: inline-block;
   width: 100%;
 }
-&#10;#qliqzvfzit .gt_spanner_row {
+&#10;#imjithshqm .gt_spanner_row {
   border-bottom-style: hidden;
 }
-&#10;#qliqzvfzit .gt_group_heading {
+&#10;#imjithshqm .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -455,7 +489,7 @@ gt(envejecimiento) |>
   vertical-align: middle;
   text-align: left;
 }
-&#10;#qliqzvfzit .gt_empty_group_heading {
+&#10;#imjithshqm .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -469,13 +503,13 @@ gt(envejecimiento) |>
   border-bottom-color: #D3D3D3;
   vertical-align: middle;
 }
-&#10;#qliqzvfzit .gt_from_md > :first-child {
+&#10;#imjithshqm .gt_from_md > :first-child {
   margin-top: 0;
 }
-&#10;#qliqzvfzit .gt_from_md > :last-child {
+&#10;#imjithshqm .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-&#10;#qliqzvfzit .gt_row {
+&#10;#imjithshqm .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -493,7 +527,7 @@ gt(envejecimiento) |>
   vertical-align: middle;
   overflow-x: hidden;
 }
-&#10;#qliqzvfzit .gt_stub {
+&#10;#imjithshqm .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -505,7 +539,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#qliqzvfzit .gt_stub_row_group {
+&#10;#imjithshqm .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -518,13 +552,13 @@ gt(envejecimiento) |>
   padding-right: 5px;
   vertical-align: top;
 }
-&#10;#qliqzvfzit .gt_row_group_first td {
+&#10;#imjithshqm .gt_row_group_first td {
   border-top-width: 2px;
 }
-&#10;#qliqzvfzit .gt_row_group_first th {
+&#10;#imjithshqm .gt_row_group_first th {
   border-top-width: 2px;
 }
-&#10;#qliqzvfzit .gt_summary_row {
+&#10;#imjithshqm .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -533,14 +567,14 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#qliqzvfzit .gt_first_summary_row {
+&#10;#imjithshqm .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_first_summary_row.thick {
+&#10;#imjithshqm .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
-&#10;#qliqzvfzit .gt_last_summary_row {
+&#10;#imjithshqm .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -549,7 +583,7 @@ gt(envejecimiento) |>
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_grand_summary_row {
+&#10;#imjithshqm .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -558,7 +592,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#qliqzvfzit .gt_first_grand_summary_row {
+&#10;#imjithshqm .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -567,7 +601,7 @@ gt(envejecimiento) |>
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_last_grand_summary_row_top {
+&#10;#imjithshqm .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -576,10 +610,10 @@ gt(envejecimiento) |>
   border-bottom-width: 6px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_striped {
+&#10;#imjithshqm .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-&#10;#qliqzvfzit .gt_table_body {
+&#10;#imjithshqm .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -587,7 +621,7 @@ gt(envejecimiento) |>
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_footnotes {
+&#10;#imjithshqm .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -600,7 +634,7 @@ gt(envejecimiento) |>
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_footnote {
+&#10;#imjithshqm .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -608,7 +642,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#qliqzvfzit .gt_sourcenotes {
+&#10;#imjithshqm .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -621,64 +655,64 @@ gt(envejecimiento) |>
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#qliqzvfzit .gt_sourcenote {
+&#10;#imjithshqm .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#qliqzvfzit .gt_left {
+&#10;#imjithshqm .gt_left {
   text-align: left;
 }
-&#10;#qliqzvfzit .gt_center {
+&#10;#imjithshqm .gt_center {
   text-align: center;
 }
-&#10;#qliqzvfzit .gt_right {
+&#10;#imjithshqm .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-&#10;#qliqzvfzit .gt_font_normal {
+&#10;#imjithshqm .gt_font_normal {
   font-weight: normal;
 }
-&#10;#qliqzvfzit .gt_font_bold {
+&#10;#imjithshqm .gt_font_bold {
   font-weight: bold;
 }
-&#10;#qliqzvfzit .gt_font_italic {
+&#10;#imjithshqm .gt_font_italic {
   font-style: italic;
 }
-&#10;#qliqzvfzit .gt_super {
+&#10;#imjithshqm .gt_super {
   font-size: 65%;
 }
-&#10;#qliqzvfzit .gt_footnote_marks {
+&#10;#imjithshqm .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
-&#10;#qliqzvfzit .gt_asterisk {
+&#10;#imjithshqm .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
-&#10;#qliqzvfzit .gt_indent_1 {
+&#10;#imjithshqm .gt_indent_1 {
   text-indent: 5px;
 }
-&#10;#qliqzvfzit .gt_indent_2 {
+&#10;#imjithshqm .gt_indent_2 {
   text-indent: 10px;
 }
-&#10;#qliqzvfzit .gt_indent_3 {
+&#10;#imjithshqm .gt_indent_3 {
   text-indent: 15px;
 }
-&#10;#qliqzvfzit .gt_indent_4 {
+&#10;#imjithshqm .gt_indent_4 {
   text-indent: 20px;
 }
-&#10;#qliqzvfzit .gt_indent_5 {
+&#10;#imjithshqm .gt_indent_5 {
   text-indent: 25px;
 }
-&#10;#qliqzvfzit .katex-display {
+&#10;#imjithshqm .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
-&#10;#qliqzvfzit div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+&#10;#imjithshqm div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -727,41 +761,59 @@ El aumento del índice de envejecimiento refleja un cambio en la estructura etar
 Este indicador muestra cuántas mujeres hay por cada 100 varones en un grupo especifico de población. En este caso, lo analizamos en edades mayores a 60 años, donde suelen aparecer diferencias más marcadas entre hombres y mujeres.
 
 ``` r
-feminidad <- poblacion |> 
+feminidad <- poblacion |>
   filter(
-    grupo_edad %in% c("60-64","65-69","70-74","75-79","80-84","85 y más")
+    grupo_edad %in% c("60-64", "65-69", "70-74", "75-79", "80-84", "85 y más")
   ) |>
-  group_by(censo, grupo_edad, sexo) |> 
-  summarise(poblacion = sum(poblacion), .groups = "drop") |> 
-  pivot_wider( names_from = sexo, values_from = poblacion) |> 
+  group_by(censo, grupo_edad, sexo) |>
+  summarise(poblacion = sum(poblacion), .groups = "drop") |>
+  pivot_wider(names_from = sexo, values_from = poblacion) |>
   mutate(
-    indice_feminidad = round(Mujeres / Varones * 100,0)
-  ) |> 
-  select(-Varones, -Mujeres) 
+    indice_feminidad = round(Mujeres / Varones * 100, 0)
+  ) |>
+  select(-Varones, -Mujeres)
 
 
-feminidad_plot <- feminidad |> 
-  pivot_wider(names_from = censo, 
-              values_from = indice_feminidad,
-              names_prefix = "censo_") |> 
+feminidad_plot <- feminidad |>
+  pivot_wider(
+    names_from = censo,
+    values_from = indice_feminidad,
+    names_prefix = "censo_"
+  ) |>
   ggplot(aes(y = grupo_edad)) +
-    geom_segment(
-      aes(x = censo_1970, xend = censo_1980, yend = grupo_edad), color = "grey85", linewidth = 1) +
-    geom_point(
-      aes(x = censo_1970), color = "#ff0f7b", size = 3) +
-    geom_point(
-      aes(x = censo_1980), color = "#f89b29", size = 3) +
-    geom_text(
-      aes(x = censo_1970, label = censo_1970), hjust = 1.4, size = 3) +
-    geom_text(
-      aes(x = censo_1980, label = censo_1980), hjust = -0.4,size = 3) +
-    labs(
-      x = "Mujeres por cada 100 varones",
-      y = "Grupo de edad",
-      title = "Cambio en el índice de feminidad de la población de 60 años y más",
-      subtitle = "Argentina, Años 1970 y 1980",
-      caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con ARcenso.") +  
-    theme_minimal()
+  geom_segment(
+    aes(x = censo_1970, xend = censo_1980, yend = grupo_edad),
+    color = "grey85",
+    linewidth = 1
+  ) +
+  geom_point(
+    aes(x = censo_1970),
+    color = "#ff0f7b",
+    size = 3
+  ) +
+  geom_point(
+    aes(x = censo_1980),
+    color = "#f89b29",
+    size = 3
+  ) +
+  geom_text(
+    aes(x = censo_1970, label = censo_1970),
+    hjust = 1.4,
+    size = 3
+  ) +
+  geom_text(
+    aes(x = censo_1980, label = censo_1980),
+    hjust = -0.4,
+    size = 3
+  ) +
+  labs(
+    x = "Mujeres por cada 100 varones",
+    y = "Grupo de edad",
+    title = "Cambio en el índice de feminidad de la población de 60 años y más",
+    subtitle = "Argentina, Años 1970 y 1980",
+    caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con ARcenso."
+  ) +
+  theme_minimal()
 
 feminidad_plot
 ```
