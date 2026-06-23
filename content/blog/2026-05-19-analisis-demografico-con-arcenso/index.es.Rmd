@@ -20,6 +20,56 @@ socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos
 editor: null
 ---
 
+
+```{r setup, include=FALSE}
+# Options to have images saved in the post folder
+# And to disable symbols before output
+knitr::opts_chunk$set(fig.path = "", comment = "")
+
+# knitr hook to make images output use Hugo options
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "`{{< figure src=",
+      '"',
+      x,
+      '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}`{=html}\n"
+    )
+  }
+)
+
+# knitr hook to use Hugo highlighting options
+knitr::knit_hooks$set(
+  source = function(x, options) {
+    hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+        paste0(
+          "{",
+          glue::glue_collapse(
+            glue::glue('{names(hlopts)}={hlopts}'),
+            sep = ","
+          ),
+          "}"
+        )
+      },
+      "\n",
+      glue::glue_collapse(x, sep = "\n"),
+      "\n```\n"
+    )
+  }
+)
+```
+
 Los censos de población son una fuente clave para comprender cómo se compone y cambia la población en cada territorio del país. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas.
 
 

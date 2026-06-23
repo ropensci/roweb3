@@ -73,13 +73,13 @@ En este ejemplo, trabajamos con datos de estructura de la población `(topic = "
 check_repository(topic = "estructura", geo_code = "00")
 ```
 
-    ## # A tibble: 4 × 3
-    ##   id_cuadro              anio titulo                                            
-    ##   <chr>                 <dbl> <chr>                                             
-    ## 1 1970_00_estructura_01  1970 Cuadro 1. Total del país. Población total, por gr…
-    ## 2 1980_00_estructura_01  1980 Cuadro G3. Centros urbanos según tamaño y poblaci…
-    ## 3 1980_00_estructura_02  1980 Cuadro G1. Total del país. Población total según …
-    ## 4 1980_00_estructura_03  1980 Cuadro G2. Total del país. Población según sexo y…
+    # A tibble: 4 × 3
+      id_cuadro              anio titulo                                            
+      <chr>                 <dbl> <chr>                                             
+    1 1970_00_estructura_01  1970 Cuadro 1. Total del país. Población total, por gr…
+    2 1980_00_estructura_01  1980 Cuadro G3. Centros urbanos según tamaño y poblaci…
+    3 1980_00_estructura_02  1980 Cuadro G1. Total del país. Población total según …
+    4 1980_00_estructura_03  1980 Cuadro G2. Total del país. Población según sexo y…
 
 El resultado de `check_repository()` muestra los años disponibles para esa combinación de tema y geografía, junto con los identificadores de los cuadros (IDs) y su título. A partir de esta consulta, seleccionamos los identificadores `1970_00_estructura_01` y `1980_00_estructura_03`, correspondientes a tabulados sobre la población total del país según sexo y grupo de edad, que utilizaremos en el análisis.
 
@@ -200,15 +200,15 @@ Ahora que contamos con una estructura de datos que combina ambos censos y organi
 head(poblacion)
 ```
 
-    ## # A tibble: 6 × 4
-    ##   censo sexo    grupo_edad poblacion
-    ##   <dbl> <fct>   <fct>          <dbl>
-    ## 1  1970 Varones 00-04        1196950
-    ## 2  1970 Mujeres 00-04        1158350
-    ## 3  1970 Varones 05-09        1163050
-    ## 4  1970 Mujeres 05-09        1133950
-    ## 5  1970 Varones 10-14        1114300
-    ## 6  1970 Mujeres 10-14        1086850
+    # A tibble: 6 × 4
+      censo sexo    grupo_edad poblacion
+      <dbl> <fct>   <fct>          <dbl>
+    1  1970 Varones 00-04        1196950
+    2  1970 Mujeres 00-04        1158350
+    3  1970 Varones 05-09        1163050
+    4  1970 Mujeres 05-09        1133950
+    5  1970 Varones 10-14        1114300
+    6  1970 Mujeres 10-14        1086850
 
 La organización de la población por sexo y grupos quinquenales de edad permite analizar su estructura mediante distintas
 visualizaciones. En este caso, utilizamos una pirámide poblacional, que facilita la lectura conjunta de ambas dimensiones.
@@ -260,15 +260,7 @@ piramide |>
   )
 ```
 
-<div class="figure">
-
-<img src="{{< blogdown/postref >}}index.es_files/figure-html/unnamed-chunk-8-1.png" alt="Pirámides poblacionales que comparan la distribución por edad y sexo en Argentina entre 1970 y 1980. Se observa una base más estrecha en 1980 y un leve aumento relativo de la población en edades adultas y mayores, con diferencias entre varones y mujeres." width="672" />
-<p class="caption">
-
-<span id="fig:unnamed-chunk-8"></span>Figure 1: Estructura de la población por sexo y grupos quinquenales de edad. Argentina, 1970 y 1980.
-</p>
-
-</div>
+{{< figure src="unnamed-chunk-8-1.png" >}}
 
 En ambos censos se observa una estructura poblacional joven, con una alta concentración en los primeros grupos de edad. No obstante, hacia 1980 comienza a evidenciarse un ligero desplazamiento hacia edades adultas, indicando un incipiente proceso de envejecimiento de la población.
 
@@ -320,20 +312,20 @@ gt(envejecimiento) |>
   )
 ```
 
-<div id="efcmkukwoy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#efcmkukwoy table {
+<div id="rmkwcuovih" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#rmkwcuovih table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-&#10;#efcmkukwoy thead, #efcmkukwoy tbody, #efcmkukwoy tfoot, #efcmkukwoy tr, #efcmkukwoy td, #efcmkukwoy th {
+&#10;#rmkwcuovih thead, #rmkwcuovih tbody, #rmkwcuovih tfoot, #rmkwcuovih tr, #rmkwcuovih td, #rmkwcuovih th {
   border-style: none;
 }
-&#10;#efcmkukwoy p {
+&#10;#rmkwcuovih p {
   margin: 0;
   padding: 0;
 }
-&#10;#efcmkukwoy .gt_table {
+&#10;#rmkwcuovih .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -358,11 +350,11 @@ gt(envejecimiento) |>
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_caption {
+&#10;#rmkwcuovih .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-&#10;#efcmkukwoy .gt_title {
+&#10;#rmkwcuovih .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -373,7 +365,7 @@ gt(envejecimiento) |>
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-&#10;#efcmkukwoy .gt_subtitle {
+&#10;#rmkwcuovih .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -384,7 +376,7 @@ gt(envejecimiento) |>
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-&#10;#efcmkukwoy .gt_heading {
+&#10;#rmkwcuovih .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -395,12 +387,12 @@ gt(envejecimiento) |>
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_bottom_border {
+&#10;#rmkwcuovih .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_col_headings {
+&#10;#rmkwcuovih .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -414,7 +406,7 @@ gt(envejecimiento) |>
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_col_heading {
+&#10;#rmkwcuovih .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -433,7 +425,7 @@ gt(envejecimiento) |>
   padding-right: 5px;
   overflow-x: hidden;
 }
-&#10;#efcmkukwoy .gt_column_spanner_outer {
+&#10;#rmkwcuovih .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -444,13 +436,13 @@ gt(envejecimiento) |>
   padding-left: 4px;
   padding-right: 4px;
 }
-&#10;#efcmkukwoy .gt_column_spanner_outer:first-child {
+&#10;#rmkwcuovih .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-&#10;#efcmkukwoy .gt_column_spanner_outer:last-child {
+&#10;#rmkwcuovih .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-&#10;#efcmkukwoy .gt_column_spanner {
+&#10;#rmkwcuovih .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -461,10 +453,10 @@ gt(envejecimiento) |>
   display: inline-block;
   width: 100%;
 }
-&#10;#efcmkukwoy .gt_spanner_row {
+&#10;#rmkwcuovih .gt_spanner_row {
   border-bottom-style: hidden;
 }
-&#10;#efcmkukwoy .gt_group_heading {
+&#10;#rmkwcuovih .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -489,7 +481,7 @@ gt(envejecimiento) |>
   vertical-align: middle;
   text-align: left;
 }
-&#10;#efcmkukwoy .gt_empty_group_heading {
+&#10;#rmkwcuovih .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -503,13 +495,13 @@ gt(envejecimiento) |>
   border-bottom-color: #D3D3D3;
   vertical-align: middle;
 }
-&#10;#efcmkukwoy .gt_from_md > :first-child {
+&#10;#rmkwcuovih .gt_from_md > :first-child {
   margin-top: 0;
 }
-&#10;#efcmkukwoy .gt_from_md > :last-child {
+&#10;#rmkwcuovih .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-&#10;#efcmkukwoy .gt_row {
+&#10;#rmkwcuovih .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -527,7 +519,7 @@ gt(envejecimiento) |>
   vertical-align: middle;
   overflow-x: hidden;
 }
-&#10;#efcmkukwoy .gt_stub {
+&#10;#rmkwcuovih .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -539,7 +531,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#efcmkukwoy .gt_stub_row_group {
+&#10;#rmkwcuovih .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -552,13 +544,13 @@ gt(envejecimiento) |>
   padding-right: 5px;
   vertical-align: top;
 }
-&#10;#efcmkukwoy .gt_row_group_first td {
+&#10;#rmkwcuovih .gt_row_group_first td {
   border-top-width: 2px;
 }
-&#10;#efcmkukwoy .gt_row_group_first th {
+&#10;#rmkwcuovih .gt_row_group_first th {
   border-top-width: 2px;
 }
-&#10;#efcmkukwoy .gt_summary_row {
+&#10;#rmkwcuovih .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -567,14 +559,14 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#efcmkukwoy .gt_first_summary_row {
+&#10;#rmkwcuovih .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_first_summary_row.thick {
+&#10;#rmkwcuovih .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
-&#10;#efcmkukwoy .gt_last_summary_row {
+&#10;#rmkwcuovih .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -583,7 +575,7 @@ gt(envejecimiento) |>
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_grand_summary_row {
+&#10;#rmkwcuovih .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -592,7 +584,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#efcmkukwoy .gt_first_grand_summary_row {
+&#10;#rmkwcuovih .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -601,7 +593,7 @@ gt(envejecimiento) |>
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_last_grand_summary_row_top {
+&#10;#rmkwcuovih .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -610,10 +602,10 @@ gt(envejecimiento) |>
   border-bottom-width: 6px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_striped {
+&#10;#rmkwcuovih .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-&#10;#efcmkukwoy .gt_table_body {
+&#10;#rmkwcuovih .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -621,7 +613,7 @@ gt(envejecimiento) |>
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_footnotes {
+&#10;#rmkwcuovih .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -634,7 +626,7 @@ gt(envejecimiento) |>
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_footnote {
+&#10;#rmkwcuovih .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -642,7 +634,7 @@ gt(envejecimiento) |>
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#efcmkukwoy .gt_sourcenotes {
+&#10;#rmkwcuovih .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -655,64 +647,64 @@ gt(envejecimiento) |>
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#efcmkukwoy .gt_sourcenote {
+&#10;#rmkwcuovih .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#efcmkukwoy .gt_left {
+&#10;#rmkwcuovih .gt_left {
   text-align: left;
 }
-&#10;#efcmkukwoy .gt_center {
+&#10;#rmkwcuovih .gt_center {
   text-align: center;
 }
-&#10;#efcmkukwoy .gt_right {
+&#10;#rmkwcuovih .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-&#10;#efcmkukwoy .gt_font_normal {
+&#10;#rmkwcuovih .gt_font_normal {
   font-weight: normal;
 }
-&#10;#efcmkukwoy .gt_font_bold {
+&#10;#rmkwcuovih .gt_font_bold {
   font-weight: bold;
 }
-&#10;#efcmkukwoy .gt_font_italic {
+&#10;#rmkwcuovih .gt_font_italic {
   font-style: italic;
 }
-&#10;#efcmkukwoy .gt_super {
+&#10;#rmkwcuovih .gt_super {
   font-size: 65%;
 }
-&#10;#efcmkukwoy .gt_footnote_marks {
+&#10;#rmkwcuovih .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
-&#10;#efcmkukwoy .gt_asterisk {
+&#10;#rmkwcuovih .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
-&#10;#efcmkukwoy .gt_indent_1 {
+&#10;#rmkwcuovih .gt_indent_1 {
   text-indent: 5px;
 }
-&#10;#efcmkukwoy .gt_indent_2 {
+&#10;#rmkwcuovih .gt_indent_2 {
   text-indent: 10px;
 }
-&#10;#efcmkukwoy .gt_indent_3 {
+&#10;#rmkwcuovih .gt_indent_3 {
   text-indent: 15px;
 }
-&#10;#efcmkukwoy .gt_indent_4 {
+&#10;#rmkwcuovih .gt_indent_4 {
   text-indent: 20px;
 }
-&#10;#efcmkukwoy .gt_indent_5 {
+&#10;#rmkwcuovih .gt_indent_5 {
   text-indent: 25px;
 }
-&#10;#efcmkukwoy .katex-display {
+&#10;#rmkwcuovih .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
-&#10;#efcmkukwoy div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+&#10;#rmkwcuovih div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -818,15 +810,7 @@ feminidad_plot <- feminidad |>
 feminidad_plot
 ```
 
-<div class="figure">
-
-<img src="{{< blogdown/postref >}}index.es_files/figure-html/unnamed-chunk-10-1.png" alt="Gráfico que compara el índice de feminidad (mujeres por cada 100 varones) en la población de 60 años y más entre 1970 y 1980, por grupos quinquenales de edad. En todos los grupos se observa un aumento del índice, con valores más altos en las edades más avanzadas, lo que indica una mayor presencia relativa de mujeres." width="672" />
-<p class="caption">
-
-<span id="fig:unnamed-chunk-10"></span>Figure 2: Cambio en el índice de feminidad de la población de 60 años y más, por grupo de edad. Argentina, 1970 y 1980.
-</p>
-
-</div>
+{{< figure src="unnamed-chunk-10-1.png" >}}
 
 El índice de feminidad muestra una mayor presencia de mujeres en las edades más avanzadas, diferencia que se acentúa entre 1970 y 1980 en todos los grupos de edad analizados, lo que refleja patrones de mayor supervivencia femenina.
 
