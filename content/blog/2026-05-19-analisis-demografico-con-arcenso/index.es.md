@@ -85,7 +85,7 @@ El resultado de `check_repository()` muestra los años disponibles para esa comb
 
 > **Bonustrack**: Como alternativa, también es posible explorar los datos de forma interactiva con `arcenso_app()`, desde donde se puede copiar el identificador del cuadro necesario para luego utilizarlo en el análisis.
 
-{{< figure src="shiny-arcenso.png" width="600" alt="Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." class="pull-left" caption="Explorador interactivo de datos censales con `arcenso_app()`" >}}
+{{< figure src="shiny-arcenso.es.png" width="600" alt="Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." class="pull-left" caption="Explorador interactivo de datos censales con `arcenso_app()`" >}}
 
 ## Preparación de los datos
 
