@@ -10,7 +10,7 @@ description: 15 years of rOpenSci; champions program; maintainer month; new pack
 params:
   last_newsletter: '2026-05-28'
   doi: "10.59350/312sy-1dt83"
-rmd_hash: e618ac2f19667303
+rmd_hash: 47fb939d77deda38
 
 ---
 
@@ -22,7 +22,9 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### Champions Program update
 
-TODO Yani
+We have two concurrent cohorts, both in Spanish.
+
+The 2025--2026 cohort is nearing the end of its participation in the program, so we are organizing the closing meeting and the overall evaluation.
 
 The 2026--2027 cohort is continuing their training activities, meeting with their mentors, and starting to work on their packages, and they have been formally introduced on our blog! Read all about the [11 new champions](/blog/2026/06/09/champions-2026/).
 
@@ -46,6 +48,14 @@ Steffi LaZerte and Yanina Bellini Saibene released a fantastic new rOpenSci guid
 
 In other news, R-universe user Tom Palmer also wrote about five things: ["Five tips for managing your R-universe 🚀"](https://remlapmot.github.io/post/2026/runiverse-tips/). You won't believe the fifth one. :wink:
 
+### Yanina Joins the 2026 Sovereign Tech Fellowship
+
+We're excited to share that our Community Manager, Yani Bellini Saibene, [has been selected as a 2026 Sovereign Tech Fellow](https://www.sovereign.tech/news/meet-the-2026-sovereign-tech-fellows). During the fellowship, she will focus on making open source more accessible through improved contribution guidance, newcomer-focused mini-hackathons, multilingual training resources, and more sustainable localization practices across communities in the R ecosystem. These efforts will build on and extend rOpenSci's work in community building, mentorship, and open science.
+
+### *Quinceañera*: celebrating 15 years together
+
+In June, we held three community events to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of the thing that has always made rOpenSci what it is: how genuinely welcoming it is to everyone who wants to participate. There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
@@ -65,23 +75,23 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
+<div class="highlight">
 
-
-
+</div>
 
 The following package recently became a part of our software suite:
 
+<div class="highlight">
 
-
-
+</div>
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
+<div class="highlight">
 
-
-
+</div>
 
 The following eleven packages have had an update since the last newsletter: [dfms](https://docs.ropensci.org/dfms "Dynamic Factor Models") ([`v1.0.1`](https://github.com/ropensci/dfms/releases/tag/v1.0.1)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v1.0.0`](https://github.com/ropensci/weathercan/releases/tag/v1.0.0)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v2.0.0`](https://github.com/ropensci/lightr/releases/tag/v2.0.0)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.4.0`](https://github.com/ropensci/osmdata/releases/tag/v0.4.0)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (CFF) Metadata for R Packages") ([`v1.4.1`](https://github.com/ropensci/cffr/releases/tag/v1.4.1)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.20`](https://github.com/ropensci/aRxiv/releases/tag/0.20)), [goodpractice](https://docs.ropensci.org/goodpractice "Advice on R Package Building") ([`v1.1`](https://github.com/ropensci-review-tools/goodpractice/releases/tag/v1.1)), [Athlytics](https://docs.ropensci.org/Athlytics "A Reproducible Framework for Endurance Data Analysis") ([`v1.0.6`](https://github.com/ropensci/Athlytics/releases/tag/v1.0.6)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`3.1.1`](https://github.com/ropensci/ReLTER/releases/tag/3.1.1)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.3`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.3)), and [read.abares](https://docs.ropensci.org/read.abares "Read Australian Agricultural Data from Government Agencies") ([`v3.0.0`](https://github.com/ropensci/read.abares/releases/tag/v3.0.0)).
 
@@ -89,7 +99,7 @@ The writexl package has a [new maintainer](https://github.com/ropensci/writexl/p
 
 ## Software Peer Review
 
-
+<div class="highlight">
 
 There are nineteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
@@ -143,7 +153,7 @@ There are nineteen recently closed and active submissions and 4 submissions on h
 
   - [LBDiscoverAnalysis](https://github.com/ropensci/software-review/issues/725), Co-occurrence Discovery Models and Visualization for Biomedical LBD. Submitted by [Chao Liu](https://github.com/chaoliu-cl).
 
-    
+    </div>
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -151,11 +161,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
+<div class="highlight">
 
+</div>
 
-
-
-
+<div class="highlight">
 
 ### Software Review
 
@@ -169,7 +179,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 - [Eleven Latin American Voices for Open Science: The New Cohort of Champions rOpenSci 2026](/blog/2026/06/09/champions-2026) by Bastián Olea Herrera, Denisse Fierro Arcos, Durga Valentina Linares Herrera, Evelia Lorena Coss Navarrete, Gladys Choque Ulloa, José Daniel Conejeros, Linda Cabrera Orellana, María Florencia Tames, Marina Cecilia Cock, Patricia A. Loto, Estefania Torrejón, and Yanina Bellini Saibene. Introducing 11 new rOpenSci Champions. Other languages: <a href='/es/blog/2026/06/09/champions-2026' lang='es'>Once voces latinoamericanas para la ciencia abierta: la nueva cohorte de Campeon(a\|e)s rOpenSci 2026 (es)</a>.
 
-
+</div>
 
 ## Calls for contributions
 
@@ -230,5 +240,5 @@ Thanks for reading! If you want to get involved with rOpenSci, check out our [Co
 
 If you haven't subscribed to our newsletter yet, you can [do so though our signup form](/news/). Until it's time for our next newsletter, you can keep in touch with us through our [website](/), [Mastodon](https://hachyderm.io/@rOpenSci), or [LinkedIn](https://www.linkedin.com/company/ropensci/). See you soon!
 
-
+</div>
 
