@@ -1,6 +1,5 @@
 ---
 title: 'De datos censales a análisis demográficos con ARcenso: un flujo de trabajo reproducible en R'
-  Reproducible en R'
 author:
 - Andrea Gomez Vargas
 - Emanuel Ciardullo
