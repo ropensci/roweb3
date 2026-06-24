@@ -1,5 +1,5 @@
 ---
-title: 'De Datos Censales a Análisis Demográficos Con ARcenso: Un Flujo De Trabajo
+title: 'De datos censales a análisis demográficos con ARcenso: un flujo de trabajo reproducible en R'
   Reproducible en R'
 author:
 - Andrea Gomez Vargas
