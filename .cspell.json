@@ -24,9 +24,14 @@
         "name": "names",
         "path": ".wordlists/names.txt",
         "addWords": true
+      },
+      {
+        "name": "words",
+        "path": ".wordlists/words.txt",
+        "addWords": true
       }
     ],
-    "dictionaries": ["names"],
+    "dictionaries": ["names", "words"],
     "ignorePaths": [
         ".cspell.json",
         "package-lock.json",
