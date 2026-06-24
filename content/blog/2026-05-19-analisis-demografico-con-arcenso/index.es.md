@@ -12,7 +12,7 @@ tags:
 - arcenso
 - Argentina
 - packages
-description: Cómo acceder y procesar los censos argentinos de 1970 y 1980 desde R
+description: 'Cómo acceder y procesar los censos argentinos de 1970 y 1980 desde R'
 socialImg: "blog/2026-05-19-analisis-demografico-con-arcenso/portada-blog.png"
 socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos de
   1970 y 1980
