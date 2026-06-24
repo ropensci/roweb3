@@ -34,7 +34,7 @@ Trabajar con estos datos suele implicar varios pasos previos: identificar qué i
 
 En este artículo, quienes desarrollamos ARcenso mostramos cómo trabajar de forma simple y reproducible con los datos censales históricos disponibles en el paquete.
 
-A partir de datos oficiales disponibles en el paquete, generamos un análisis demográfico que combina visualizaciones y tablas para explorar la estructura de la población. Es decir, cómo se distribuye según edad y sexo. Este tipo de análisis permite caracterizar cambios poblacionales entre períodos, información clave para la investigación y el diseño de políticas públicas. Como ejemplo, trabajamos con los censos de 1970 y 1980 a nivel nacional.
+El objetivo es realizar un análisis demográfico con los datos nacionales oficiales de los censos de 1970 y 1980 que combina visualizaciones y tablas para explorar la estructura de la población. Es decir, cómo se distribuye según edad y sexo. Este tipo de análisis permite caracterizar cambios poblacionales entre períodos, información clave para la investigación y el diseño de políticas públicas. 
 
 ## ¿Cómo empezar?
 
