@@ -140,8 +140,10 @@ El resultado de `check_repository()` muestra los años disponibles para esa comb
 
 
 ```{=html}
-{{< figure src="shiny-arcenso.png" width="600" alt="Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." class="pull-left" caption="Explorador interactivo de datos censales con `arcenso_app()`" >}}
+{{< figure src="shiny-arcenso.png" width="600" alt="Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." caption="Explorador interactivo de datos censales con `arcenso_app()`" >}}
 ```
+
+
 
 ## Preparación de los datos
 
@@ -316,6 +318,7 @@ piramide |>
   )
 ```
 
+<br>
 
 En ambos censos se observa una estructura poblacional joven, con una alta concentración en los primeros grupos de edad. No obstante, hacia 1980 comienza a evidenciarse un ligero desplazamiento hacia edades adultas, indicando un incipiente proceso de envejecimiento de la población.
 
@@ -437,6 +440,7 @@ feminidad_plot <- feminidad |>
 feminidad_plot
 ```
 
+<br>
 
 El índice de feminidad muestra una mayor presencia de mujeres en las edades más avanzadas, diferencia que se acentúa entre 1970 y 1980 en todos los grupos de edad analizados, lo que refleja patrones de mayor supervivencia femenina.
 
