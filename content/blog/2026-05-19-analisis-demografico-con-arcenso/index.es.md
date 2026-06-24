@@ -262,7 +262,7 @@ piramide |>
   )
 ```
 
-{{< figure src="piramide_poblacional_1.png" alt="">}}
+{{< figure src="piramide_poblacional_1.png" alt="Pirámides poblacionales que comparan la distribución por edad y sexo en Argentina entre 1970 y 1980. Se observa una base más estrecha en 1980 y un leve aumento relativo de la población en edades adultas y mayores, con diferencias entre varones y mujeres.">}}
 
 En ambos censos se observa una estructura poblacional joven, con una alta concentración en los primeros grupos de edad. No obstante, hacia 1980 comienza a evidenciarse un ligero desplazamiento hacia edades adultas, indicando un incipiente proceso de envejecimiento de la población.
 
@@ -812,7 +812,7 @@ feminidad_plot <- feminidad |>
 feminidad_plot
 ```
 
-{{< figure src="unnamed-chunk-10-1.png" >}}
+{{< figure src="indice_feminidad.png" alt="Gráfico que compara el índice de feminidad (mujeres por cada 100 varones) en la población de 60 años y más entre 1970 y 1980, por grupos quinquenales de edad. En todos los grupos se observa un aumento del índice, con valores más altos en las edades más avanzadas, lo que indica una mayor presencia relativa de mujeres.">}}
 
 El índice de feminidad muestra una mayor presencia de mujeres en las edades más avanzadas, diferencia que se acentúa entre 1970 y 1980 en todos los grupos de edad analizados, lo que refleja patrones de mayor supervivencia femenina.
 

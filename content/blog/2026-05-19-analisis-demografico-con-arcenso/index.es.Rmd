@@ -207,7 +207,6 @@ pob_1980 <- poblacion_1980 |>
       TRUE ~ "85 y más"
     )
   ) |>
-  select(-edad, -urbano_rural, -edad_num) |>
   select(censo, sexo, grupo_edad, poblacion)
 ```
 
