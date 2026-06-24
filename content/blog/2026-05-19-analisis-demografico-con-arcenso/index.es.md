@@ -28,7 +28,7 @@ Trabajar con estos datos suele implicar varios pasos previos: identificar qué i
 
 <br>
 
-{{< figure src="portada-blog.png" width="250" alt="Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." class="pull-left" caption="Portada blog ARcenso">}} 
+{{< figure src="portada-blog.png" width="250" alt="Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." caption="Portada blog ARcenso">}} 
 
 [ARcenso](https://soyandrea.github.io/arcenso/) es un paquete desarrollado en el marco del [programa de campeones de rOpenSci](/es/champions/) que surge para facilitar el acceso a datos censales de Argentina y simplificar su análisis.
 
