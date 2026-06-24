@@ -262,7 +262,7 @@ piramide |>
   )
 ```
 
-{{< figure src="unnamed-chunk-8-1.png" >}}
+{{< figure src="piramide_poblacional_1.png" alt="">}}
 
 En ambos censos se observa una estructura poblacional joven, con una alta concentración en los primeros grupos de edad. No obstante, hacia 1980 comienza a evidenciarse un ligero desplazamiento hacia edades adultas, indicando un incipiente proceso de envejecimiento de la población.
 
