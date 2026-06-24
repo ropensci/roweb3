@@ -38,7 +38,7 @@ El objetivo es realizar un análisis demográfico con los datos nacionales ofici
 
 ## ¿Cómo empezar?
 
-Todo el código de este artículo podés copiarlo y ejecutarlo directamente en tu computadora. Solo necesitás tener instalados los siguientes paquetes, si ya los tenés podés saltear este paso.
+Para poder copiar y ejecutar el código de este artículo en tu computadora necesitás tener instalados los siguientes paquetes:
 
 ``` r
 # Si no tenés pak
