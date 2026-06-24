@@ -1,0 +1,8 @@
+extends: capitalization
+message: "Should be title case: '%s' \n Capitalize the first word and the last word of the title.\n
+    Do not capitalize articles (a, an, the), coordinating conjunctions (and, but, or, for, nor), and prepositions, regardless of length."
+level: error
+scope: text.frontmatter.title
+match: $title
+style: Chicago
+threshold: 0.9
