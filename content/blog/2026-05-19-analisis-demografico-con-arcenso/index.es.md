@@ -196,7 +196,7 @@ poblacion <-
 
 ## Estructura de la población
 
-Ahora que contamos con una estructura de datos que combina ambos censos y organiza los absolutos poblacionales por año censal, sexo y grupo de edad. Podemos comparar de manera consistente la composición de la población entre distintos momentos en el tiempo.
+Ahora que contamos con una estructura de datos que combina ambos censos y organiza los absolutos poblacionales por año censal, sexo y grupo de edad, podemos comparar de manera consistente la composición de la población entre distintos momentos en el tiempo.
 
 ``` r
 head(poblacion)
