@@ -16,7 +16,10 @@ description: 'Cómo acceder y procesar los censos argentinos de 1970 y 1980 desd
 socialImg: "blog/2026-05-19-analisis-demografico-con-arcenso/portada-blog.png"
 socialAlt: 'Hex logo de ARcenso sobre documentos históricos de censos argentinos de
   1970 y 1980'
-editor: null
+editor:
+- Yanina Bellini Saibene
+params:
+  doi: "10.59350/xvqq6-nd376"
 ---
 
 Los censos de población son una fuente clave para comprender cómo se compone y cambia la población en cada territorio del país. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas.
