@@ -102,12 +102,13 @@ I use the [Code Spell Checker (cSpell)](https://github.com/streetsidesoftware/vs
 
 Alternatively, you could also install the [`CSpell Bundled Dictionaries`](https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme) instead.
 
-To configure this extension, I added a project-level `cspell.json` file which lists language overrides (to ensure `index.es.md` files go through the Spanish spellchecker, while `index.pt.md` files go through the Portuguese spellchecker, etc.), and dictionaries of words to consider 'correct'.
+To configure this extension, I added a project-level [`.cspell.json`](https://github.com/ropensci/roweb3/blob/main/.cspell.json) file which lists language overrides (to ensure `index.es.md` files go through the Spanish spellchecker, while `index.pt.md` files go through the Portuguese spellchecker, etc.), and dictionaries of words to consider 'correct'.
 
 These dictionaries are initially created by functions from my [promoutils](https://docs.ropensci.org/promoutils) package (an R package for all my rOpenSci community workflows).
 `wordlist_create()` creates a wordlist based on rOpenSci packages and author names, so they don't trigger the spell check if they aren't recognized.
 `wordlist_update()` updates this list with new names as we need.
 
+We keep these dictionaries in a [`.wordlists`](https://github.com/ropensci/roweb3/tree/main/.wordlists) folder.
 Names are stored in the `.wordlists/names.txt` file, and we also have a `.wordlists/words.txt` file which stores words which are considered correct in the rOpenSci context (like 'usecases').
 
 Finally, I include a list of globs for file paths we can ignore (I'm really not interested in spelling mistakes in the .git folder).
@@ -129,9 +130,9 @@ For linting text (checking the *style* and *meaning* of the words) I use the [Va
 
 [^3]: There is also [Vale](https://github.com/vale-cli/vale-vscode) by errata-ai, but this extension has been [deprecated](https://github.com/vale-cli/vale-vscode#vale--vs-code) in favour of Vale VSCode.
 
-To setup Vale I created a project-specific vale configuration file `.vale.ini` [^4] in the roweb3 repository.
+To setup Vale I created a project-specific vale configuration file [`.vale.ini`](https://github.com/ropensci/roweb3/blob/main/.vale.ini) [^4] in the roweb3 repository.
 I keep my personal `.vale.ini` file in a higher level folder that holds all my R projects.
-In addition to the Vale configuration file, I also created a Vale styles folder in `roweb3/.vale-styles`.
+In addition to the Vale configuration file, I also created a Vale styles folder in [`roweb3/.vale-styles`](https://github.com/ropensci/roweb3/tree/main/.vale-styles/).
 This is where Vale rules are installed if we use predefined rules, and where I can put rOpenSci-specific rules for the blog.
 The first time you use Vale you'll want to run `vale sync` in the terminal to install the rules.
 I `.gitignore` all rules which are installed, but track and push custom rules.
@@ -142,15 +143,14 @@ Vale is where I've made the most customizations, especially with the rOpenSci Bl
 
 <!-- TODO: Add links to the configuration file for these items -->
 
-- I've added a specific Blog vocab list to ensure proper capitalization of rOpenSci projects and (not to mention "rOpenSci" 😉)
-- I've turned off a lot of specific rules which are a bit too aggressive for a blog which allows people to write casually and informally as they like (including using words like "very" 😄).
+- I've added a [specific Blog vocab list](https://github.com/ropensci/roweb3/blob/main/.vale-styles/config/vocabularies/Blog/accept.txt) to ensure proper capitalization of rOpenSci projects and (not to mention "rOpenSci" 😉)
+- I've [turned off a lot of specific rules](https://github.com/ropensci/roweb3/blob/4d7e22b1487a589b3e639109aa5fdc320acf21ff/.vale.ini#L18) which are a bit too aggressive for a blog which allows people to write casually and informally as they like (including using words like "very" 😄).
 - I've created custom rules to modify existing rules [^5]
-- I've created custom rules to enforce our style guide, like using Title Case for blog post titles[^6], sentence case for subheadings, and using relative links for ropensci.org pages.
+- I've created custom rules to enforce our style guide, like using [Title Case](https://github.com/ropensci/roweb3/blob/main/.vale-styles/rOpenSci/title.yml) for blog post titles[^6], sentence case for subheadings, and using [relative links](https://github.com/ropensci/roweb3/blob/main/.vale-styles/rOpenSci/ropensci_links.yml) for ropensci.org pages.
 
 [^5]: For example, [`alex`](https://github.com/get-alex/alex) worries that the word "Mexican" is racist, but at rOpenSci, it's usually stated with pride and I don't want Vale to flag our community members for mentioning their nationality 😅
 
 [^6]: But awesomely, we can enforce this rule for English, but not Spanish posts!
-    (ADD LINK TO LINE)
 
 This is just the start!
 I imagine the more I use these rules the more fine tuning I'll do.
@@ -165,7 +165,7 @@ We keep them as prompts to think about our writing, not because we *must* follow
 ### Panache
 
 Finally, I use the [Panache](https://github.com/jolars/panache) extension by jolars to format the (R)markdown files for the blog.
-This is probably the smallest amount of setup, as all we need is a minimal `.panache.toml` configuration file in the roweb3 repository.
+This is probably the smallest amount of setup, as all we need is a minimal [`.panache.toml`](https://github.com/ropensci/roweb3/blob/main/.panache.toml) configuration file in the roweb3 repository.
 However, this file instructs Panache to do one super awesome thing for us, especially for multilingual publishing and translations:
 
 ```
