@@ -53,10 +53,10 @@ These aren't complicated fixes, but if you have to remember to keep an eye out f
 
 Maëlle's timely sniping helped me finalize my collection of tools to help streamline editorial tasks.
 
-- Edits to GitHub PR suggestions with [GitHub Pull Requests](https://github.com/Microsoft/vscode-pull-request-github)
 - Text Linting with [Vale](https://vale.sh/)
 - Text Formatting with [Panache](https://panache.bz/)
 - Text Spell checking with [CSpell](https://cspell.org/)
+- Edits to GitHub PR suggestions with [GitHub Pull Requests](https://github.com/Microsoft/vscode-pull-request-github)
 
 All of these tools can be installed and used in different ways.
 They are also powerful with many different ways they can be customized or configured.
@@ -71,27 +71,9 @@ Configurations can usually be specified at three different levels: the user (you
 This means you can have different rules for different projects, and override them as needed.
 In the following examples, I'll show you how I do this for posts on the rOpenSci blog.
 
-### GitHub Pull Requests
-
-The [GitHub Pull Requests](https://github.com/Microsoft/vscode-pull-request-github) extension is really handy if you find yourself making many small suggested changes to GitHub PRs.
-I use this to convert my edits on a post's (R)md file to GitHub PR review suggestions.
-
-To review blog posts, I fetch the PR with `usethis::pr_fetch()`, and then open the blog post (R)md file in Positron side by side with the html preview of the post in my web browser.
-
-Then I review the html preview and make the edits directly in the (R)md file.
-When I'm done, I right click on the edited file name in the Source Control > Changes and select Create Pull Request Suggestions.
-
-{{< figure src = "suggestions.png" width = "500" alt = "" class = "center" >}}
-
-This converts my edits to GitHub PR review suggestions which I can then review in Positron, or as I prefer, in a web browser (and fix weird ones, as it's not always a perfect process).
-Once all the suggestions are converted, the extension asks me if I want to revert my changes (which I usually do).
-
-A note of caution, I find this tool a bit confusing to use on a PR that has a lot of comments already.
-The comments it makes are sometimes hidden or split in odd ways and it's easy to accidentally create duplicates.
-
 ### Code Spell Checker (CSpell)
 
-Next is my spell checker, which probably doesn't need much explanation.
+First is my spell checker, which probably doesn't need much explanation.
 However, it's nice to use a spell checker which also works on code.
 I use the [Code Spell Checker (cSpell)](https://github.com/streetsidesoftware/vscode-spell-checker) extension by Street Side Software and installed the languages extensions individually:
 
@@ -164,7 +146,7 @@ We keep them as prompts to think about our writing, not because we *must* follow
 
 ### Panache
 
-Finally, I use the [Panache](https://github.com/jolars/panache) extension by jolars to format the (R)markdown files for the blog.
+For formatting text, I use the [Panache](https://github.com/jolars/panache) extension by jolars to format the (R)markdown files for the blog.
 This is probably the smallest amount of setup, as all we need is a minimal [`.panache.toml`](https://github.com/ropensci/roweb3/blob/main/.panache.toml) configuration file in the roweb3 repository.
 However, this file instructs Panache to do one super awesome thing for us, especially for multilingual publishing and translations:
 
@@ -178,6 +160,25 @@ This means that when a blog post is sent for a first pass translation using babe
 Alternatively, if the line breaks are in the middle of a sentence, the translation can become garbled as lines are treated as disjointed sections of text.
 
 For my other work, I use `wrap = "reflow"`, set in my user configuration file in `~/.config/panache/config.toml`.
+
+### GitHub Pull Requests
+
+Finally, once I've got all the fiddly edits ready to go, I use the [GitHub Pull Requests](https://github.com/Microsoft/vscode-pull-request-github) extension.
+This is really handy if you find yourself making many small suggested changes to GitHub PRs.
+I use this to convert my edits on a post's (R)md file to GitHub PR review suggestions.
+
+To review blog posts, I fetch the PR with `usethis::pr_fetch()`, and then open the blog post (R)md file in Positron side by side with the html preview of the post in my web browser.
+
+Then I review the html preview and make the edits directly in the (R)md file.
+When I'm done, I right click on the edited file name in the Source Control > Changes and select Create Pull Request Suggestions.
+
+{{< figure src = "suggestions.png" width = "500" alt = "" class = "center" >}}
+
+This converts my edits to GitHub PR review suggestions which I can then review in Positron, or as I prefer, in a web browser (and fix weird ones, as it's not always a perfect process).
+Once all the suggestions are converted, the extension asks me if I want to revert my changes (which I usually do).
+
+A note of caution, I find this tool a bit confusing to use on a PR that has a lot of comments already.
+The comments it makes are sometimes hidden or split in odd ways and it's easy to accidentally create duplicates.
 
 ## Why so many tools?
 
