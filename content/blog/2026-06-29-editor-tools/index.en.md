@@ -9,7 +9,7 @@ tags:
   - editor
   - welcome
   - how-to
-description: "An exploration of four editorial tools used to streamline editing rOpenSci blog posts"
+description: "How we streamlined the editing of our blog posts using 4 open-source tools that you could adopt too"
 social: "@steffilazerte@fosstodon.org shares four tools she uses to streamline editing rOpenSci blog posts."
 editor:
 params:
@@ -19,7 +19,7 @@ params:
 <!--- cSpell: ignore xkcd wordlists roweb chrischinchilla jolars  --->
 
 I recently had the opportunity to learn what the term "nerd sniping" meant.
-[Maëlle](/author/maëlle-salmon) pointed out a conversation on the rOpenSci Slack about sometime called Vale, meant for text linting.
+[Maëlle](/author/maëlle-salmon) pointed out a conversation on the rOpenSci Slack about something called Vale, meant for text linting.
 I'd seen the comment, but honestly hadn't really understood what it was all about until Maëlle asked if I thought it'd be useful for editing the blog...
 
 ...time passes...
@@ -104,7 +104,7 @@ Alternatively, you could also install the [`CSpell Bundled Dictionaries`](https:
 
 To configure this extension, I added a project-level [`.cspell.json`](https://github.com/ropensci/roweb3/blob/main/.cspell.json) file which lists language overrides (to ensure `index.es.md` files go through the Spanish spellchecker, while `index.pt.md` files go through the Portuguese spellchecker, etc.), and dictionaries of words to consider 'correct'.
 
-These dictionaries are initially created by functions from my [promoutils](https://docs.ropensci.org/promoutils) package (an R package for all my rOpenSci community workflows).
+These dictionaries are initially created by functions from my [promoutils](https://docs.ropensci.org/promoutils) package, an R package for all my rOpenSci community workflows.
 `wordlist_create()` creates a wordlist based on rOpenSci packages and author names, so they don't trigger the spell check if they aren't recognized.
 `wordlist_update()` updates this list with new names as we need.
 
@@ -126,11 +126,11 @@ Spell check issues pop up as a warning in my text window, or as a list under "Sp
 
 ### Vale
 
-For linting text (checking the *style* and *meaning* of the words) I use the [Vale VSCode](https://github.com/chrischinchilla/vale-vscode) extension by chrischinchilla [^3].
+For linting text (checking the *style* and *meaning* of the words) I use the [Vale VSCode](https://github.com/chrischinchilla/vale-vscode) extension by chrischinchilla[^3].
 
 [^3]: There is also [Vale](https://github.com/vale-cli/vale-vscode) by errata-ai, but this extension has been [deprecated](https://github.com/vale-cli/vale-vscode#vale--vs-code) in favour of Vale VSCode.
 
-To setup Vale I created a project-specific vale configuration file [`.vale.ini`](https://github.com/ropensci/roweb3/blob/main/.vale.ini) [^4] in the roweb3 repository.
+To setup Vale I created a project-specific vale configuration file [`.vale.ini`](https://github.com/ropensci/roweb3/blob/main/.vale.ini)[^4] in the roweb3 repository.
 I keep my personal `.vale.ini` file in a higher level folder that holds all my R projects.
 In addition to the Vale configuration file, I also created a Vale styles folder in [`roweb3/.vale-styles`](https://github.com/ropensci/roweb3/tree/main/.vale-styles/).
 This is where Vale rules are installed if we use predefined rules, and where I can put rOpenSci-specific rules for the blog.
