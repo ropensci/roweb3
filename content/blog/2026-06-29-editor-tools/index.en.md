@@ -1,6 +1,6 @@
 ---
 slug: "editor-tools"
-title: Editorial Tools for the rOpenSci Blog
+title: "FOSS Tools for Lazy Editors"
 author:
   - Steffi LaZerte
 date: 2026-06-29
