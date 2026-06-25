@@ -18,7 +18,7 @@ params:
 
 <!--- cSpell: ignore xkcd wordlists roweb chrischinchilla jolars  --->
 
-I recently had the opportunity to learn what the term "nerd sniping" meant.
+I recently had the opportunity to learn what the term "Nerd Sniping" meant.
 [Maëlle](/author/maëlle-salmon) pointed out a conversation on the rOpenSci Slack about something called Vale, meant for text linting.
 I'd seen the comment, but honestly hadn't really understood what it was all about until Maëlle asked if I thought it'd be useful for editing the blog...
 
@@ -61,7 +61,7 @@ Maëlle's timely sniping helped me finalize my collection of tools to help strea
 [^3]: "Linting" with respect to text or prose means checking the *style* and *meaning* of the words.
 
 All of these tools can be installed and used in different ways.
-They are also powerful with many different ways they can be customized or configured.
+They are also powerful with many different possible customizations and configurations.
 Here, I'll share with you how I use these tools as extensions in [Positron](https://positron.posit.co/) to help make it easier to write and edit posts for the rOpenSci blog.
 Hopefully this inspires you to explore how you might set them up to support your workflows!
 Further, if you're interested in setting up your own tools, perhaps you want to check out this [blog post](/blog/2025/09/18/markdown-programmatic-parsing/) on "All the Ways to Programmatically Edit or Parse R Markdown / Quarto Documents".
@@ -71,9 +71,12 @@ Further, if you're interested in setting up your own tools, perhaps you want to 
 For each tool, you'll want to install the Positron extension, and then set up your configuration.
 Configurations can usually be specified at three different levels:
 
-- **User**: Your system-wide setup which is how you want things to work in general
-- **Project**: Project-wide setup which overrides your user setup if the project does things differently
-- **File**: File or file section setup which works at a very local scale
+- **User**: Your system-wide setup which is how you want things to work in general across projects.
+  User config files are generally stored somewhere in your home directory.
+- **Project**: Project-wide setup which overrides your user setup if the project does things differently.
+  These config files are stored in the project directly (like `roweb3`, for the rOpenSci blog).
+- **File**: File or file section setup which works at a very local scale.
+  Usually this configuration is indicated by in-file comments.
 
 This means you can have different rules for different projects, and override them as needed.
 In the following examples, I'll show you how I do this for posts on the rOpenSci blog.
@@ -94,14 +97,14 @@ I use the [Code Spell Checker (cSpell)](https://github.com/streetsidesoftware/vs
 
 Alternatively, you could also install the [`CSpell Bundled Dictionaries`](https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme) instead.
 
-To configure this extension, I added a two types of files: a project-level configuration file, and dictionaries of words to consider 'correct'.
+To configure this extension, I added two types of files: a project-level configuration file, and two dictionaries of words to consider 'correct'.
 
 The project level configuration file, [`.cspell.json`](https://github.com/ropensci/roweb3/blob/5af882c6c3794048391543ced8a10bad39371f72/.cspell.json), lists languages to use for different files (to ensure `index.es.md` files go through the Spanish spellchecker, while `index.pt.md` files go through the Portuguese spellchecker, etc.).
 It also includes a list of globs for file paths we can ignore (I'm really not interested in spelling mistakes in the .git folder), as well as pointing to dictionaries.
 
 These dictionaries are initially created by functions from my [promoutils](https://docs.ropensci.org/promoutils) package, an R package for all my rOpenSci community workflows.
 `wordlist_create()` creates a wordlist based on rOpenSci packages and author names, so they don't trigger the spell check if they aren't recognized.
-`wordlist_update()` updates this list with new names as we need.
+`wordlist_update()` updates this list with new names as needed.
 
 We keep these dictionaries in a [`.wordlists`](hhttps://github.com/ropensci/roweb3/tree/5af882c6c3794048391543ced8a10bad39371f72/.wordlists) folder.
 Names are stored in the `.wordlists/names.txt` file, and we also have a `.wordlists/words.txt` file which stores words which are considered correct in the rOpenSci context (like 'usecases').
@@ -113,22 +116,22 @@ When writing posts, we can also override the language settings within a post usi
 For example if we want to use [English and Portuguese for a post](https://github.com/ropensci/roweb3/blob/98a419ebb3efc5dcecc35b05265e83e6baa4f32a/content/blog/2026-06-02-ftc-guide/index.en.md?plain=1#L44) we could add `<--- cSpell: language en,pt-->` to the document.
 
 We can also include post-specific words to ignore, which is handy for acronyms.
-For example, if we wanted to [ignore the acronym `CSCW`](https://github.com/ropensci/roweb3/blob/98a419ebb3efc5dcecc35b05265e83e6baa4f32a/content/blog/2026-06-02-ftc-guide/index.en.md?plain=1#L76) we could use `<!--- cSpell: ignore CSCW --->`.
+For example, if we wanted to [ignore the acronym `CSCW`](https://github.com/ropensci/roweb3/blob/98a419ebb3efc5dcecc35b05265e83e6baa4f32a/content/blog/2026-06-02-ftc-guide/index.en.md?plain=1#L76) we could use `<!--- cSpell: ignore CSCW --->` at the top of a post.
 
 Spell check issues pop up as a warning in my text window, or as a list under "Spell Checker Issues By File" my lower window pane so I can review them, add them to word lists, or just mentally ignore them.
 
 ### Vale
 
 For linting text (checking the *style* and *meaning* of the words) I use the [Vale VSCode](https://github.com/chrischinchilla/vale-vscode) extension by chrischinchilla[^5].
-Vale helps me check that the [Blog Style](https://blogguide.ropensci.org/authortechnical.html#styleguide) rules are respected, and gives suggestions for alternative word choices to avoid common mistakes (such as words or expressions which might derogatory).
+Vale helps me check that the [Blog Style](https://blogguide.ropensci.org/authortechnical.html#styleguide) rules are respected, and gives suggestions for alternative word choices to avoid common mistakes (such as words or expressions which might be derogatory).
 
 [^5]: There is also [Vale](https://github.com/vale-cli/vale-vscode) by errata-ai, but this extension has been [deprecated](https://github.com/vale-cli/vale-vscode#vale--vs-code) in favour of Vale VSCode.
 
-To setup Vale I created a project-specific vale configuration file [`.vale.ini`](https://github.com/ropensci/roweb3/blob/5af882c6c3794048391543ced8a10bad39371f72/.vale.ini)[^6] in the roweb3 repository.
+To setup Vale I created a project-specific Vale configuration file [`.vale.ini`](https://github.com/ropensci/roweb3/blob/5af882c6c3794048391543ced8a10bad39371f72/.vale.ini)[^6] in the roweb3 repository.
 I keep my personal `.vale.ini` file in a higher level folder that holds all my R projects.
 In addition to the Vale configuration file, I also created a Vale styles folder in [`roweb3/.vale-styles`](https://github.com/ropensci/roweb3/tree/5af882c6c3794048391543ced8a10bad39371f72/.vale-styles).
 This is where Vale rules are installed if we use predefined rules, and where I can put rOpenSci-specific rules for the blog.
-The first time you use Vale you'll want to run `vale sync` in the terminal to install the rules.
+The first time you use Vale you'll want to run `vale sync` in the terminal to install the standard, non-custom, rules.
 I `.gitignore` all rules which are installed, but track and push custom rules.
 
 [^6]: If you get an error on startup, you may need to tell Vale where this is explicitly by modifying Projects' settings.json file to include `"vale.valeCLI.config": ".vale.ini"`
@@ -142,7 +145,7 @@ Vale is where I've made the most customizations, especially with the rOpenSci Bl
 - I've created custom rules to modify existing rules [^7]
 - I've created custom rules to enforce our style guide, like using [Title Case](https://github.com/ropensci/roweb3/blob/main/.vale-styles/rOpenSci/title.yml) for blog post titles[^8], sentence case for subheadings, and using [relative links](https://github.com/ropensci/roweb3/blob/main/.vale-styles/rOpenSci/ropensci_links.yml) for ropensci.org pages.
 
-[^7]: For example, [`alex`](https://github.com/get-alex/alex) worries that the word "Mexican" is racist, but at rOpenSci, it's usually stated with pride and I don't want Vale to flag our community members for mentioning their nationality 😅
+[^7]: For example, [`alex`](https://github.com/get-alex/alex) worries that the word "Mexican" might be used in a racist manner, but at rOpenSci, it's stated with pride and I don't want Vale to flag our community members for mentioning their nationality 😅
 
 [^8]: But awesomely, we can enforce this rule for English, but not Spanish posts!
 
@@ -168,7 +171,7 @@ wrap = "sentence"
 ```
 
 If you set up Positron to format on save, Panache automatically wraps text by sentence every time you save the file.
-This means that when a blog post is sent for a first pass translation using babeldown, the translation comes back pretty good.
+This means that when a blog post is sent for a first pass translation using [babeldown](https://docs.ropensci.org/babeldown/), the translation comes back pretty good.
 Alternatively, if the line breaks are in the middle of a sentence, the translation can become garbled as lines are treated as disjointed sections of text.
 
 For my other work, I use `wrap = "reflow"`, set in my user configuration file in `~/.config/panache/config.toml`.
@@ -199,6 +202,8 @@ There is some overlap among them; Vale could do spell checks, and Panache could 
 However, I find that by using the tools separately I can achieve an especially detailed and customized setup that works really well with the rOpenSci blog in particular, and with my work in general.
 
 By including the configuration files in the roweb3 repository, people who also use these tools will automatically use the configurations we've setup for the rOpenSci blog when they write a post.
-We'll also add instructions for how to use these tools to the [Blog Guide](https://blogguide.ropensci.org/), which should help people learn if they don't already know how to use these tools but would like to.
+We also plan to add instructions for how to use these tools to the [Blog Guide](https://blogguide.ropensci.org/).
+This should give blog writers the option of using these tools if they would like to.
+
 However, even if other writers don't use these tools, it's still very useful for me to see a list of potential problems to double check at the end of my review without having to remember to check for them manually.
 It means I can focus more on the review of the content rather than worry about whether it's Ropensci or rOpenSci 😄
