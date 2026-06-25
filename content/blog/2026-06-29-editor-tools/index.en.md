@@ -64,6 +64,7 @@ All of these tools can be installed and used in different ways.
 They are also powerful with many different ways they can be customized or configured.
 Here, I'll share with you how I use these tools as extensions in [Positron](https://positron.posit.co/) to help make it easier to write and edit posts for the rOpenSci blog.
 Hopefully this inspires you to explore how you might set them up to support your workflows!
+Further, if you're interested in setting up your own tools, perhaps you want to check out this [blog post](/blog/2025/09/18/markdown-programmatic-parsing/) on "All the Ways to Programmatically Edit or Parse R Markdown / Quarto Documents".
 
 ## General setup
 
