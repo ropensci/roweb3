@@ -100,6 +100,16 @@ We're excited to share that our Community Manager, Yani Bellini Saibene, [has be
 In June, we held three community events to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of the thing that has always made rOpenSci what it is: how genuinely welcoming it is to everyone who wants to participate. 
 There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
 
+### Software Peer-Review Updates
+
+Valued community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) has started a new AI agent "skills" repo at [`ropensci-review-tools/ropensci-skills`](https://github.com/ropensci-review-tools/ropensci-skills).
+The repo holds a variety of skills for AI agents to assist in preparing software for peer-review.
+Anybody thinking about using AI systems to prepare software for peer-review is encouraged to try these skills out, and to help us improve them for others by opening issues or pull requests in [the GitHub repo](https://github.com/ropensci-review-tools/ropensci-skills).
+
+Our recent updates to the [goodpractice package](/blog/2026/06/01/goodpractice/) have also been enhanced with an all-new "skill".
+The "skill" is a human-readable [markdown file](https://github.com/ropensci-review-tools/goodpractice/blob/main/inst/skills/goodpractice4agents.md) with instructions for agents to edit and improve your package's code to comply with the full suite of goodpractice checks.
+You can try it out with the package's new [`use_skill_gp()` function](https://docs.ropensci.org/goodpractice/reference/use_skill_gp.html).
+
 ### Coworking 
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
