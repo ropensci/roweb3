@@ -61,24 +61,24 @@ We have two concurrent cohorts, both in Spanish.
 The 2025–2026 cohort is nearing the end of its participation in the program, so we are organizing the closing meeting and the overall evaluation.
 
 The 2026--2027 cohort is continuing their training activities, meeting with their mentors, and starting to work on their packages, and they have been formally introduced on our blog! 
-Read all about the [11 new champions](/blog/2026/06/09/champions-2026/).
+Read all about the [11 new Champions](/blog/2026/06/09/champions-2026/).
 
 
 ### New editors Ronny Hernandez Mora, Joel Nitta, and Nick Tierney
 
 We're thrilled to [introduce](/blog/2026/06/11/neweditorsq22026/) new editors Ronny Hernandez Mora, Joel Nitta, and Nick Tierney.
-An official welcome and thank you to the three of them!
+An official welcome and thank you to all three!
 
-### A New Guide: Organizing Events for First-time Contributors
+### A new guide: Organizing Events for First-time Contributors
 
 Steffi LaZerte and Yanina Bellini Saibene released a fantastic new rOpenSci guide!
 Learn how to organize events for first-time contributors such as mini-hackathons and mini-translathons.
 Read more in the [release announcement](/blog/2026/06/02/ftc-guide/).
 
-### R-universe updates
+### R-Universe updates
 
-"Five recent R-universe features you might have missed": A clickbait title for a blog post you don't want to miss! :wink:
-Jeroen Ooms [describes five recent additions](/blog/2026/06/07/r-universe-updates/) to the R-universe platform:
+"Five recent R-Universe features you might have missed": A clickbait title for a blog post you don't want to miss! :wink:
+Jeroen Ooms [describes five recent additions](/blog/2026/06/07/r-universe-updates/) to the R-Universe platform:
 
 - Social media cards that actually look good 
 - PACKAGES.rds support (or: implementing R internals in JavaScript) 
@@ -91,22 +91,23 @@ You won't believe the fifth one. :wink:
 
 ### Yanina Joins the 2026 Sovereign Tech Fellowship
 
-We're excited to share that our Community Manager, Yani Bellini Saibene, [has been selected as a 2026 Sovereign Tech Fellow](https://www.sovereign.tech/news/meet-the-2026-sovereign-tech-fellows). During the fellowship, she will focus on making open source more accessible through improved contribution guidance, newcomer-focused mini-hackathons, multilingual training resources, and more sustainable localization practices across communities in the R ecosystem. These efforts will build on and extend rOpenSci's work in community building, mentorship, and open science.
-
-
+We're excited to share that our Community Manager, Yanina Bellini Saibene, [has been selected as a 2026 Sovereign Tech Fellow](https://www.sovereign.tech/news/meet-the-2026-sovereign-tech-fellows).
+During the fellowship, she will focus on making open source more accessible through improved contribution guidance, newcomer-focused mini-hackathons, multilingual training resources, and more sustainable localization practices across communities in the R ecosystem.
+These efforts will build on and extend rOpenSci's work in community building, mentorship, and open science.
 
 ### _Quinceañera_: celebrating 15 years together 
 
-In June, we held three community events to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of the thing that has always made rOpenSci what it is: how genuinely welcoming it is to everyone who wants to participate. 
+In June, we held two community events to mark rOpenSci's 15th anniversary.
+Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of how genuinely welcoming rOpenSci *and* it's community are.
 There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
 
-### Software Peer-Review Updates
+### Software Peer-Review updates
 
-Valued community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) has started a new AI agent "skills" repo at [`ropensci-review-tools/ropensci-skills`](https://github.com/ropensci-review-tools/ropensci-skills).
+Community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) has started a new AI agent "skills" repo at [`ropensci-review-tools/ropensci-skills`](https://github.com/ropensci-review-tools/ropensci-skills).
 The repo holds a variety of "skills", which are human-readable markdown files, for AI agents to assist in preparing software for peer-review.
-Anybody thinking about using AI systems to prepare software for peer-review is encouraged to try these skills out, and to help us improve them for others by opening issues or pull requests in [the GitHub repo](https://github.com/ropensci-review-tools/ropensci-skills).
+Anybody thinking about using AI systems to prepare software for peer-review is encouraged to try out these experimental skills, and to help us improve them for others by opening issues or pull requests in [the GitHub repo](https://github.com/ropensci-review-tools/ropensci-skills).
 
-Our recent updates to the [goodpractice package](/blog/2026/06/01/goodpractice/) have also been enhanced with an all-new "skill".
+Our recent updates to the [goodpractice package](/blog/2026/06/01/goodpractice/) have also been enhanced with an all-new AI "skill".
 [This skill](https://github.com/ropensci-review-tools/goodpractice/blob/main/inst/skills/goodpractice4agents.md) instructs agents to edit and improve your package's code to comply with the full suite of goodpractice checks.
 You can try it out with the package's new [`use_skill_gp()` function](https://docs.ropensci.org/goodpractice/reference/use_skill_gp.html).
 
@@ -116,17 +117,17 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 
 
 - Tuesday July 7nd 2026, 09:00 Americas Pacific (16:00 UTC) ["Debugging in R"](/events/coworking-2026-07/), with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and cohost [Shannon Pileggi](/author/shannon-pileggi).
-    -   Read up on debugging in R.
-    -   Meet community host, Shannon Pileggi, and discuss tips and tricks for debugging in R.
+  - Read up on debugging in R.
+  - Meet community host, Shannon Pileggi, and discuss tips and tricks for debugging in R.
 
-- Tuesday Tuesday August 04, 09:00 Australia Western (01:00 UTC) ["Vale and Text Linting"](/events/coworking-2026-08/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Jonathan Carroll](/author/jonathan-carroll/).
-    - Read up on text linting and learn more about vale.
-    - Setup a linting framework for your projects.
-    - Meet co-host, Jonathan Carroll, and discuss Vale and text linting.
+- Tuesday August 4th, 09:00 Australia Western (01:00 UTC) ["Vale and Text Linting"](/events/coworking-2026-08/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Jonathan Carroll](/author/jonathan-carroll/).
+  - Read up on text linting.
+  - Setup a linting framework for your projects.
+  - Meet co-host, Jonathan Carroll, and discuss Vale and text linting.
 
-- Tuesday September 01, 14:00 Europe Central (12:00 UTC) ["Getting to Know SORTEE"](/events/coworking-2026-09/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Ed Ivimey-Cook](/author/ed-ivimey-cook/).
-    - Visit SORTEE (Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology).
-    - Meet co-host, Ed Ivimey-Cook, and learn more about SORTEE and how you might get involved.
+- Tuesday September 1st, 14:00 Europe Central (12:00 UTC) ["Getting to Know SORTEE"](/events/coworking-2026-09/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Ed Ivimey-Cook](/author/ed-ivimey-cook/).
+  - Visit [SORTEE](https://sortee.org/) (Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology).
+  - Meet co-host, Ed Ivimey-Cook, and learn more about SORTEE and how you might get involved.
  
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
@@ -322,7 +323,6 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 ### New versions
 
-```{r news, cache=TRUE}
 registry <- dplyr::filter(
   registry,
   !grepl("ropenscilabs\\/", url),
@@ -388,7 +388,6 @@ NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issue
 
 ## Software Peer Review
 
-```{r software-review, results='asis'}
 # from pkgdown https://github.com/r-lib/pkgdown/blob/1ca166905f1b019ed4af9642617ea09fa2b8fc17/R/utils.r#L176
 
 get_description <- function(body) {
@@ -569,7 +568,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-```{r blog}
 parse_one_post <- function(path) {
   lines <- suppressWarnings(readLines(path, encoding = "UTF-8"))
 
@@ -719,9 +717,7 @@ format_post <- function(dir) {
 
   string
 }
-```
 
-```{r, results='asis'}
 software_review <- posts[purrr::map_lgl(
   posts,
   ~ any(.x[["software_peer_review"]])
@@ -769,25 +765,26 @@ if (length(tech_notes) > 0) {
 
 If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
 
-- [charlatan](https://docs.ropensci.org/charlatan), create fake data in R. [Issue for volunteering](https://github.com/ropensci/charlatan/issues/150).
+- [charlatan](https://docs.ropensci.org/charlatan), create fake data in R.
+  [Issue for volunteering](https://github.com/ropensci/charlatan/issues/150).
 
-- [hddtools](https://docs.ropensci.org/hddtools), Tools to discover hydrological data, accessing catalogues and databases from various data providers. [Issue for volunteering](https://github.com/ropensci/hddtools/issues/36).
-      
+- [hddtools](https://docs.ropensci.org/hddtools), Tools to discover hydrological data, accessing catalogues and databases from various data providers.
+  [Issue for volunteering](https://github.com/ropensci/hddtools/issues/36).
 
 ### Calls for contributions
 
 Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
-
 ## Package development corner
 
-Some useful information for R package developers. :eyes:
+Some useful information for R package developers.
+:eyes:
 
 ### goodpractice's new features and behind-the-scene notes
 
-Software Review Lead Mark Padgham and long-time community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) have written a blog post most relevant to package developers for two reasons:
+Software Review Lead Mark Padgham and long-time community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) have written a blog post particularly relevant to package developers for two reasons:
 
-- Learn how goodpractice, that help make your package better, has improved.
+- Learn how goodpractice, which helps make your package better, has improved.
 - Read how Mark and Mo collaborated, including their use of LLMs in the development process.
 
 ### Dumb Ways for an Open Source Project to Die
@@ -801,8 +798,7 @@ Hannah Frick and Maëlle Salmon wrote ["Refactoring with Jarl: a coffee chat"](h
 ### A strategy for recovering data on request interruption
 
 Gábor Csárdi summarized [recent changes to the gh package](https://gaborcsardi.org/2026/gh-1-6-0-recover-from-interruption/).
-Especially interesting is his strategy for [interruptions](https://gaborcsardi.org/2026/gh-1-6-0-recover-from-interruption/#Interrupts): the user starts a long query then interrupts the process...
-how to not lose the data that's already been received?
+Especially interesting is his strategy for [interruptions](https://gaborcsardi.org/2026/gh-1-6-0-recover-from-interruption/#Interrupts): the user starts a long query then interrupts the process... how to not lose the data that's already been received?
 The solution is to make it accessible through `rlang::last_error()`.
 More details in the [post](https://gaborcsardi.org/2026/gh-1-6-0-recover-from-interruption/#Interrupts).
 
@@ -821,12 +817,15 @@ Nelson Figueroa wrote an interesting [overview](https://nelson.cloud/.gitignore-
 
 ### How to work with LLMs without losing your skills
 
-Vicki Boykis wrote an insightful post ["We should be more tired than the model"](https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/) including pratical tips such as "Starting to use the agent only after I’ve spent 20 minutes on the problem" or "Discussing an agent’s proposed implementation with another person instead".
+Vicki Boykis wrote an insightful post ["We should be more tired than the model"](https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/) including pratical tips such as "Starting to use the agent only after I've spent 20 minutes on the problem" or "Discussing an agent's proposed implementation with another person instead".
 
 ## Last words
 
-Thanks for reading! If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org). This guide will help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways such as through sharing use cases.
+Thanks for reading!
+If you want to get involved with rOpenSci, check out our [Contributing Guide](https://contributing.ropensci.org).
+This guide will help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways such as through sharing use cases.
 You can also support our work through [donations](/donate).
 
-If you haven't subscribed to our newsletter yet, you can [do so though our signup form](/news/). Until it's time for our next newsletter, you can keep in touch with us through our [website](/), [Mastodon](https://hachyderm.io/@rOpenSci), or [LinkedIn](https://www.linkedin.com/company/ropensci/). 
+If you haven't subscribed to our newsletter yet, you can [do so though our signup form](/news/).
+Until it's time for our next newsletter, you can keep in touch with us through our [website](/), [Mastodon](https://hachyderm.io/@rOpenSci), or [LinkedIn](https://www.linkedin.com/company/ropensci/).
 See you soon!
