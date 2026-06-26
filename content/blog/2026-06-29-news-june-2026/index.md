@@ -10,7 +10,7 @@ description: 15 years of rOpenSci; champions program; maintainer month; new pack
 params:
   last_newsletter: '2026-05-28'
   doi: "10.59350/312sy-1dt83"
-rmd_hash: 2b5583658fdbdacc
+rmd_hash: 9c25e9ecaa75e7e2
 
 ---
 
@@ -26,19 +26,19 @@ We have two concurrent cohorts, both in Spanish.
 
 The 2025--2026 cohort is nearing the end of its participation in the program, so we are organizing the closing meeting and the overall evaluation.
 
-The 2026--2027 cohort is continuing their training activities, meeting with their mentors, and starting to work on their packages, and they have been formally introduced on our blog! Read all about the [11 new champions](/blog/2026/06/09/champions-2026/).
+The 2026--2027 cohort is continuing their training activities, meeting with their mentors, and starting to work on their packages, and they have been formally introduced on our blog! Read all about the [11 new Champions](/blog/2026/06/09/champions-2026/).
 
 ### New editors Ronny Hernandez Mora, Joel Nitta, and Nick Tierney
 
-We're thrilled to [introduce](/blog/2026/06/11/neweditorsq22026/) new editors Ronny Hernandez Mora, Joel Nitta, and Nick Tierney. An official welcome and thank you to the three of them!
+We're thrilled to [introduce](/blog/2026/06/11/neweditorsq22026/) new editors Ronny Hernandez Mora, Joel Nitta, and Nick Tierney. An official welcome and thank you to all three!
 
-### A New Guide: Organizing Events for First-time Contributors
+### A new guide: Organizing Events for First-time Contributors
 
 Steffi LaZerte and Yanina Bellini Saibene released a fantastic new rOpenSci guide! Learn how to organize events for first-time contributors such as mini-hackathons and mini-translathons. Read more in the [release announcement](/blog/2026/06/02/ftc-guide/).
 
-### R-universe updates
+### R-Universe updates
 
-"Five recent R-universe features you might have missed": A clickbait title for a blog post you don't want to miss! :wink: Jeroen Ooms [describes five recent additions](/blog/2026/06/07/r-universe-updates/) to the R-universe platform:
+"Five recent R-Universe features you might have missed": A clickbait title for a blog post you don't want to miss! :wink: Jeroen Ooms [describes five recent additions](/blog/2026/06/07/r-universe-updates/) to the R-Universe platform:
 
 - Social media cards that actually look good
 - PACKAGES.rds support (or: implementing R internals in JavaScript)
@@ -50,17 +50,17 @@ In other news, R-universe user Tom Palmer also wrote about five things: ["Five t
 
 ### Yanina Joins the 2026 Sovereign Tech Fellowship
 
-We're excited to share that our Community Manager, Yani Bellini Saibene, [has been selected as a 2026 Sovereign Tech Fellow](https://www.sovereign.tech/news/meet-the-2026-sovereign-tech-fellows). During the fellowship, she will focus on making open source more accessible through improved contribution guidance, newcomer-focused mini-hackathons, multilingual training resources, and more sustainable localization practices across communities in the R ecosystem. These efforts will build on and extend rOpenSci's work in community building, mentorship, and open science.
+We're excited to share that our Community Manager, Yanina Bellini Saibene, [has been selected as a 2026 Sovereign Tech Fellow](https://www.sovereign.tech/news/meet-the-2026-sovereign-tech-fellows). During the fellowship, she will focus on making open source more accessible through improved contribution guidance, newcomer-focused mini-hackathons, multilingual training resources, and more sustainable localization practices across communities in the R ecosystem. These efforts will build on and extend rOpenSci's work in community building, mentorship, and open science.
 
 ### *Quinceañera*: celebrating 15 years together
 
-In June, we held three community events to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of the thing that has always made rOpenSci what it is: how genuinely welcoming it is to everyone who wants to participate. There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
+In June, we held two community events to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of how genuinely welcoming rOpenSci *and* it's community are. There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
 
-### Software Peer-Review Updates
+### Software Peer-Review updates
 
-Valued community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) has started a new AI agent "skills" repo at [`ropensci-review-tools/ropensci-skills`](https://github.com/ropensci-review-tools/ropensci-skills). The repo holds a variety of "skills", which are human-readable markdown files, for AI agents to assist in preparing software for peer-review. Anybody thinking about using AI systems to prepare software for peer-review is encouraged to try these skills out, and to help us improve them for others by opening issues or pull requests in [the GitHub repo](https://github.com/ropensci-review-tools/ropensci-skills).
+Community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) has started a new AI agent "skills" repo at [`ropensci-review-tools/ropensci-skills`](https://github.com/ropensci-review-tools/ropensci-skills). The repo holds a variety of "skills", which are human-readable markdown files, for AI agents to assist in preparing software for peer-review. Anybody thinking about using AI systems to prepare software for peer-review is encouraged to try out these experimental skills, and to help us improve them for others by opening issues or pull requests in [the GitHub repo](https://github.com/ropensci-review-tools/ropensci-skills).
 
-Our recent updates to the [goodpractice package](/blog/2026/06/01/goodpractice/) have also been enhanced with an all-new "skill". [This skill](https://github.com/ropensci-review-tools/goodpractice/blob/main/inst/skills/goodpractice4agents.md) instructs agents to edit and improve your package's code to comply with the full suite of goodpractice checks. You can try it out with the package's new [`use_skill_gp()` function](https://docs.ropensci.org/goodpractice/reference/use_skill_gp.html).
+Our recent updates to the [goodpractice package](/blog/2026/06/01/goodpractice/) have also been enhanced with an all-new AI "skill". [This skill](https://github.com/ropensci-review-tools/goodpractice/blob/main/inst/skills/goodpractice4agents.md) instructs agents to edit and improve your package's code to comply with the full suite of goodpractice checks. You can try it out with the package's new [`use_skill_gp()` function](https://docs.ropensci.org/goodpractice/reference/use_skill_gp.html).
 
 ### Coworking
 
@@ -69,12 +69,12 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 - Tuesday July 7nd 2026, 09:00 Americas Pacific (16:00 UTC) ["Debugging in R"](/events/coworking-2026-07/), with [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and cohost [Shannon Pileggi](/author/shannon-pileggi).
   - Read up on debugging in R.
   - Meet community host, Shannon Pileggi, and discuss tips and tricks for debugging in R.
-- Tuesday Tuesday August 04, 09:00 Australia Western (01:00 UTC) ["Vale and Text Linting"](/events/coworking-2026-08/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Jonathan Carroll](/author/jonathan-carroll/).
-  - Read up on text linting and learn more about vale.
+- Tuesday August 4th, 09:00 Australia Western (01:00 UTC) ["Vale and Text Linting"](/events/coworking-2026-08/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Jonathan Carroll](/author/jonathan-carroll/).
+  - Read up on text linting.
   - Setup a linting framework for your projects.
   - Meet co-host, Jonathan Carroll, and discuss Vale and text linting.
-- Tuesday September 01, 14:00 Europe Central (12:00 UTC) ["Getting to Know SORTEE"](/events/coworking-2026-09/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Ed Ivimey-Cook](/author/ed-ivimey-cook/).
-  - Visit SORTEE (Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology).
+- Tuesday September 1st, 14:00 Europe Central (12:00 UTC) ["Getting to Know SORTEE"](/events/coworking-2026-09/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Ed Ivimey-Cook](/author/ed-ivimey-cook/).
+  - Visit [SORTEE](https://sortee.org/) (Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology).
   - Meet co-host, Ed Ivimey-Cook, and learn more about SORTEE and how you might get involved.
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
@@ -99,7 +99,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 </div>
 
-The following fourteen packages have had an update since the last newsletter: [goodpractice](https://docs.ropensci.org/goodpractice "Advice on R Package Building") ([`v1.1`](https://github.com/ropensci-review-tools/goodpractice/releases/tag/v1.1)), [srr](https://docs.ropensci.org/srr "rOpenSci Software Review Roclets") ([`v1.0.0`](https://github.com/ropensci-review-tools/srr/releases/tag/v1.0.0)), [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.4`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.4)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.3`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.3)), [slopes](https://docs.ropensci.org/slopes "Calculate Slopes of Roads, Rivers and Trajectories") ([`v2.0.0`](https://github.com/ropensci/slopes/releases/tag/v2.0.0)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (CFF) Metadata for R Packages") ([`v1.4.1`](https://github.com/ropensci/cffr/releases/tag/v1.4.1)), [dfms](https://docs.ropensci.org/dfms "Dynamic Factor Models") ([`v1.0.1`](https://github.com/ropensci/dfms/releases/tag/v1.0.1)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v1.0.0`](https://github.com/ropensci/weathercan/releases/tag/v1.0.0)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v2.0.0`](https://github.com/ropensci/lightr/releases/tag/v2.0.0)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.4.0`](https://github.com/ropensci/osmdata/releases/tag/v0.4.0)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.20`](https://github.com/ropensci/aRxiv/releases/tag/0.20)), [Athlytics](https://docs.ropensci.org/Athlytics "A Reproducible Framework for Endurance Data Analysis") ([`v1.0.6`](https://github.com/ropensci/Athlytics/releases/tag/v1.0.6)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`3.1.1`](https://github.com/ropensci/ReLTER/releases/tag/3.1.1)), and [read.abares](https://docs.ropensci.org/read.abares "Read Australian Agricultural Data from Government Agencies") ([`v3.0.0`](https://github.com/ropensci/read.abares/releases/tag/v3.0.0)).
+The following fifteen packages have had an update since the last newsletter: [slopes](https://docs.ropensci.org/slopes "Calculate Slopes of Roads, Rivers and Trajectories") ([`v2.0.0`](https://github.com/ropensci/slopes/releases/tag/v2.0.0)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.3.0`](https://github.com/ropensci/qualtRics/releases/tag/v3.3.0)), [srr](https://docs.ropensci.org/srr "rOpenSci Software Review Roclets") ([`v1.0.0`](https://github.com/ropensci-review-tools/srr/releases/tag/v1.0.0)), [goodpractice](https://docs.ropensci.org/goodpractice "Advice on R Package Building") ([`v1.1`](https://github.com/ropensci-review-tools/goodpractice/releases/tag/v1.1)), [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.4`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.4)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.3`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (CFF) Metadata for R Packages") ([`v1.4.1`](https://github.com/ropensci/cffr/releases/tag/v1.4.1)), [dfms](https://docs.ropensci.org/dfms "Dynamic Factor Models") ([`v1.0.1`](https://github.com/ropensci/dfms/releases/tag/v1.0.1)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v1.0.0`](https://github.com/ropensci/weathercan/releases/tag/v1.0.0)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v2.0.0`](https://github.com/ropensci/lightr/releases/tag/v2.0.0)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.4.0`](https://github.com/ropensci/osmdata/releases/tag/v0.4.0)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.20`](https://github.com/ropensci/aRxiv/releases/tag/0.20)), [Athlytics](https://docs.ropensci.org/Athlytics "A Reproducible Framework for Endurance Data Analysis") ([`v1.0.6`](https://github.com/ropensci/Athlytics/releases/tag/v1.0.6)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`3.1.1`](https://github.com/ropensci/ReLTER/releases/tag/3.1.1)), and [read.abares](https://docs.ropensci.org/read.abares "Read Australian Agricultural Data from Government Agencies") ([`v3.0.0`](https://github.com/ropensci/read.abares/releases/tag/v3.0.0)).
 
 The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney. NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issues/116#issuecomment-4280937012).
 
@@ -107,11 +107,13 @@ The writexl package has a [new maintainer](https://github.com/ropensci/writexl/p
 
 <div class="highlight">
 
-There are nineteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
+There are eighteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
-- Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
+- Four at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
   - [pvEBayes](https://github.com/ropensci/software-review/issues/760), Empirical Bayes Methods for Pharmacovigilance. Submitted by [Yihao Tan](https://github.com/YihaoTancn). (Stats).
+
+  - [nycOpenData](https://github.com/ropensci/software-review/issues/750), Convenient Access to NYC Open Data API Endpoints. Submitted by [Christian Martinez](https://github.com/martinezc1).
 
   - [ernest](https://github.com/ropensci/software-review/issues/730), A Toolkit for Nested Sampling. Submitted by [Kyle Dewsnap](https://github.com/kylesnap). (Stats).
 
@@ -119,31 +121,27 @@ There are nineteen recently closed and active submissions and 4 submissions on h
 
 - Two at ['5/awaiting-reviewer(s)-response'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%225/awaiting-reviewer(s)-response%22):
 
-  - [nycOpenData](https://github.com/ropensci/software-review/issues/750), Convenient Access to NYC Open Data API Endpoints. Submitted by [Christian Martinez](https://github.com/martinezc1).
+  - [lakefetch](https://github.com/ropensci/software-review/issues/762), Calculate Fetch and Wave Exposure for Lake Sampling Points. Submitted by [jeremylfarrell](https://github.com/jeremylfarrell).
 
   - [priorsense](https://github.com/ropensci/software-review/issues/704), Prior Diagnostics and Sensitivity Analysis. Submitted by [Noa Kallioinen](https://github.com/n-kall). (Stats).
 
-- Four at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
-
-  - [RAMEN](https://github.com/ropensci/software-review/issues/743), RAMEN: Regional Association of Methylome variability with the Exposome and geNome. Submitted by [Erick Navarro-Delgado](https://erick-navarrodelgado.netlify.app).
-
-  - [logolink](https://github.com/ropensci/software-review/issues/741), An Interface for Running NetLogo Simulations. Submitted by [Daniel Vartanian](http://danielvartan.com).
-
-  - [rcrisp](https://github.com/ropensci/software-review/issues/718), Automate the Delineation of Urban River Spaces. Submitted by [Claudiu Forgaci](https://github.com/cforgaci). (Stats).
-
-  - [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](http://osorensen.no). (Stats).
-
-- Five at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
-
-  - [ciecl](https://github.com/ropensci/software-review/issues/765), International Classification of Diseases ICD-10/ICD-11 for Chile. Submitted by [Rodolfo Tasso](https://github.com/Rodotasso).
-
-  - [EpiStrainDynamics](https://github.com/ropensci/software-review/issues/763), Infer temporal trends of multiple pathogens. Submitted by [Saras Windecker](http://www.smwindecker.com). (Stats).
-
-  - [lakefetch](https://github.com/ropensci/software-review/issues/762), Calculate Fetch and Wave Exposure for Lake Sampling Points. Submitted by [jeremylfarrell](https://github.com/jeremylfarrell).
+- Five at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
   - [RAQSAPI](https://github.com/ropensci/software-review/issues/744), A Simple Interface to the US EPA Air Quality System Data Mart API. Submitted by [mccroweyclinton-EPA](https://github.com/mccroweyclinton-EPA).
 
-  - [lakefetch](https://github.com/ropensci/software-review/issues/762), Calculate Fetch and Wave Exposure for Lake Sampling Points. Submitted by [jeremylfarrell](https://github.com/jeremylfarrell).
+  - [RAMEN](https://github.com/ropensci/software-review/issues/743), RAMEN: Regional Association of Methylome variability with the Exposome and geNome. Submitted by [Erick Navarro-Delgado](https://erick-navarrodelgado.netlify.app).
+
+  - [logolink](https://github.com/ropensci/software-review/issues/741), An Interface for Running NetLogo Simulations. Submitted by [Daniel Vartanian](https://danielvartan.com).
+
+  - [rcrisp](https://github.com/ropensci/software-review/issues/718), Automate the Delineation of Urban River Spaces. Submitted by [Claudiu Forgaci](https://github.com/cforgaci). (Stats).
+
+  - [galamm](https://github.com/ropensci/software-review/issues/615), Generalized Additive Latent and Mixed Models. Submitted by [Øystein Sørensen](https://osorensen.no). (Stats).
+
+- Two at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+
+  - [ciecl](https://github.com/ropensci/software-review/issues/765), International Classification of Diseases ICD-10/ICD-11 for Chile. Submitted by [Rodolfo Tasso](https://github.com/Rodotasso).
+
+  - [EpiStrainDynamics](https://github.com/ropensci/software-review/issues/763), Infer temporal trends of multiple pathogens. Submitted by [Saras Windecker](https://www.smwindecker.com). (Stats).
 
 - Two at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
 
@@ -166,10 +164,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ## On the blog
 
 <!-- Do not forget to rebase your branch! -->
-
-<div class="highlight">
-
-</div>
 
 <div class="highlight">
 
@@ -207,9 +201,9 @@ Some useful information for R package developers. :eyes:
 
 ### goodpractice's new features and behind-the-scene notes
 
-Software Review Lead Mark Padgham and long-time community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) have written a blog post most relevant to package developers for two reasons:
+Software Review Lead Mark Padgham and long-time community member [Athanasia Mo Mowinckel](/author/athanasia-mo-mowinckel/) have written a blog post particularly relevant to package developers for two reasons:
 
-- Learn how goodpractice, that help make your package better, has improved.
+- Learn how goodpractice, which helps make your package better, has improved.
 - Read how Mark and Mo collaborated, including their use of LLMs in the development process.
 
 ### Dumb Ways for an Open Source Project to Die

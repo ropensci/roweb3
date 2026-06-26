@@ -323,6 +323,7 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 ### New versions
 
+```{r news, cache=TRUE}
 registry <- dplyr::filter(
   registry,
   !grepl("ropenscilabs\\/", url),
@@ -388,6 +389,9 @@ NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issue
 
 ## Software Peer Review
 
+```{r pkgs}
+#| cache: true
+#| results: 'asis'
 # from pkgdown https://github.com/r-lib/pkgdown/blob/1ca166905f1b019ed4af9642617ea09fa2b8fc17/R/utils.r#L176
 
 get_description <- function(body) {
@@ -414,17 +418,9 @@ get_user_text <- function(issue) {
   info <- gh::gh("GET /users/{username}", username = issue$user$login)
   name <- info$name %||% issue$user$login
 
-  if (name == "Ryan Zomorrodi") {
-    return("[Ryan Zomorrodi](https://ryanzomorrodi.github.io/)")
-  }
-
-  if (name == "Marc Burri") {
-    return("[Marc Burri](https://marcburri.github.io/)")
-  }
-
   url <- if (nzchar(info$blog)) info$blog else info$html_url
-  if (!grepl("^https?:", url)) {
-    url <- paste0("http://", url)
+  if (!startsWith(url, "https")) {
+    url <- paste0("https://", url)
   }
   sprintf("[%s](%s)", name, url)
 }
@@ -454,7 +450,7 @@ tidy_issue <- function(issue) {
       text = sprintf(
         "    * [%s](%s), %s. Submitted by %s. %s",
         name,
-        sub("http\\:", "https:", url),
+        url,
         description,
         user,
         stats
@@ -567,7 +563,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ## On the blog
 
 <!-- Do not forget to rebase your branch! -->
-
+```{r blog, cache=TRUE}
+#| results: 'asis'
 parse_one_post <- function(path) {
   lines <- suppressWarnings(readLines(path, encoding = "UTF-8"))
 
