@@ -53,7 +53,7 @@ These aren't complicated fixes, but if you have to remember to keep an eye out f
 
 Maëlle's timely sniping helped me finalize my collection of tools to help streamline editorial tasks.
 
-- **Spell checking** with [CSpell](https://cspell.org/)
+- **Spell checking** with [cSpell](https://cspell.org/)
 - **Linting**[^3] with [Vale](https://vale.sh/)
 - **Formatting** with [Panache](https://panache.bz/)
 - **Creating GitHub PR suggestions** with [GitHub Pull Requests](https://github.com/Microsoft/vscode-pull-request-github)
@@ -91,7 +91,7 @@ File    | [Inline Comments](https://cspell.org/docs/Configuration/document-setti
 This means you can have different rules for different projects, and override them as needed.
 In the following examples, I'll show you how I do this for posts on the rOpenSci blog.
 
-### Code Spell Checker (CSpell)
+### Code Spell Checker (cSpell)
 
 First is my spell checker, which probably doesn't need much explanation.
 However, it's nice to use a spell checker which also works on code.
@@ -105,7 +105,7 @@ I use the [Code Spell Checker (cSpell)](https://github.com/streetsidesoftware/vs
 [^4]: I'm Canadian so generally follow Canadian spelling (a mix of British and American for those of you new to the complex world of English spelling differences).
     At rOpenSci, we generally just ask an author to pick one and stick to it.
 
-Alternatively, you could also install the [`CSpell Bundled Dictionaries`](https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme) instead.
+Alternatively, you could also install the [`cSpell Bundled Dictionaries`](https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme) instead.
 
 To configure this extension, I added two types of files: a project-level configuration file, and two dictionaries of words to consider 'correct'.
 
