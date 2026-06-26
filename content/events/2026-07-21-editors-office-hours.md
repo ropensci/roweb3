@@ -27,4 +27,4 @@ zoomurl: https://numfocus-org.zoom.us/j/82913187083?pwd=mJbKYavwadRtGaAYTvT64q5w
 
 Drop in to ask questions about rOpenSci Software Peer Review.
 
-We are exploring hosting a new event, Editors' Office Hours, on or near the third Tuesday of each month, alternating among timezones to accommodate different parts of the world.
+We are exploring hosting a new event, Editors' Office Hours, on or near the third Tuesday of each month.
