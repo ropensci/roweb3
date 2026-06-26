@@ -810,7 +810,7 @@ Sumner Evans wrote an interesting post [criticizing the conventional commits con
 
 ### More than .gitignore
 
-Nelson Figueroa wrote an interesting [overview](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/) of the different ways to make Git ignore some files.
+Nelson Figueroa wrote a useful [overview](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/) of the different ways to make Git ignore some files.
 
 ### How to work with LLMs without losing your skills
 

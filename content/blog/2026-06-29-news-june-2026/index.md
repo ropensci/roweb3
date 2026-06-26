@@ -10,7 +10,7 @@ description: 15 years of rOpenSci; champions program; maintainer month; new pack
 params:
   last_newsletter: '2026-05-28'
   doi: "10.59350/312sy-1dt83"
-rmd_hash: 9c25e9ecaa75e7e2
+rmd_hash: 95c4c48394f34fd3
 
 ---
 
@@ -228,7 +228,7 @@ Sumner Evans wrote an interesting post [criticizing the conventional commits con
 
 ### More than .gitignore
 
-Nelson Figueroa wrote an interesting [overview](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/) of the different ways to make Git ignore some files.
+Nelson Figueroa wrote a useful [overview](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/) of the different ways to make Git ignore some files.
 
 ### How to work with LLMs without losing your skills
 
