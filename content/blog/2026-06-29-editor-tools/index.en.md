@@ -78,6 +78,16 @@ Configurations can usually be specified at three different levels:
 - **File**: File or file section setup which works at a very local scale.
   Usually this configuration is indicated by in-file comments.
 
+More specifically here are (some) of the locations/names for configuration files and links to their documentation sections for more details.
+
+<!-- panache-ignore-format-start -->
+Level   | cSpell                                                            | Vale | Panache |
+------- | ------------------------------------------------------------------- | ---- | ------- |
+User    | [Positron settings](https://streetsidesoftware.com/vscode-spell-checker/#vs-code-configuration-settings) |[`.vale.ini` in any parent dir. or global config](https://docs.vale.sh/topics/.vale.ini#search-process) | [`~/.config/panache/config.toml`](https://panache.bz/guide/configuration.html) 
+Project | [`.cspell.json`]((https://cspell.org/docs/Configuration)) | [`.vale.ini`](docs.vale.sh/topics/.vale.ini#creating-a-valeini-file) | [`.panache.toml`](https://panache.bz/guide/configuration.html) 
+File    | [Inline Comments](https://cspell.org/docs/Configuration/document-settings) | [Inline Comments](https://docs.vale.sh/formats/html) | [Inline Comments](https://panache.bz/getting-started.html#ignore-directives)
+<!-- panache-ignore-format-end -->
+
 This means you can have different rules for different projects, and override them as needed.
 In the following examples, I'll show you how I do this for posts on the rOpenSci blog.
 
