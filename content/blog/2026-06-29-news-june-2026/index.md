@@ -54,7 +54,7 @@ We're excited to share that our Community Manager, Yanina Bellini Saibene, [has 
 
 ### *Quinceañera*: celebrating 15 years together
 
-In June, we held two community events to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of how genuinely welcoming rOpenSci *and* it's community are. There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
+In June, we held two community events and a co-working sesion to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of how genuinely welcoming rOpenSci *and* it's community are. There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
 
 ### Software Peer-Review updates
 
