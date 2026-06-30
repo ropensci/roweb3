@@ -10,13 +10,13 @@ description: New editors; champions program; Sovereign Tech Fellowship; Quincea√
 params:
   last_newsletter: '2026-05-28'
   doi: "10.59350/312sy-1dt83"
-rmd_hash: b6aa0ae22b8796a2
+rmd_hash: bbc49c1ca9ee47b3
 
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
 
-Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/06/29/news-june-2026). Now let's dive into the activity at and around rOpenSci!
+Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/06/30/news-june-2026). Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
@@ -174,6 +174,8 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 ### Software Review
 
 - [Ronny Hernandez Mora, Joel Nitta, and Nick Tierney Join rOpenSci Software Peer Review Editorial Team](/blog/2026/06/11/neweditorsQ22026) by Ronny Hernandez Mora, Joel Nitta, Nicholas Tierney, and Yanina Bellini Saibene. Introducing three new editors for rOpenSci software peer review.
+
+- [Celebrating Our Maintainers during Maintainers Month](/blog/2026/06/19/maintainers-month) by Yanina Bellini Saibene. A Look Back at our Maintainer Month 2026 social media campaign.
 
 - [Our goodpractice Package Has New Superpowers](/blog/2026/06/01/goodpractice) by Mark Padgham and Athanasia Mo Mowinckel. We have worked hard over the past few months on major upgrades to our goodpractice package. Checks are now grouped into categories, making it easier to control which checks are run. The biggest change has been adding over 100 new checks, from new lints to many new CRAN checks.
 
