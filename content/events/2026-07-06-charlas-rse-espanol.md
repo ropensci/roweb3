@@ -7,7 +7,7 @@ description: Yanina Bellini Saibene presenta en las Charlas RSE en español cóm
 location: 'Bentham House UCL, Tutorial Room 302, Endsleigh Gardens, London WC1H 0EG (+ online)'
 slug: 'charlas-rse-espanol-2026-07-06'
 country: "🇬🇧" # emoji
-ropensci: yes
+ropensci: no
 outputs:
   - HTML
   - Calendar
