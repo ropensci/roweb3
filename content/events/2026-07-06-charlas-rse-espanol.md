@@ -29,8 +29,7 @@ El evento será el lunes 6 de julio de 2026 a las 4pm (hora del Reino Unido) / 1
 
 Mantener software de investigación es un desafío que trasciende los aspectos técnicos. La documentación, la incorporación de nuevas personas colaboradoras, la gobernanza, la mentoría y la construcción de comunidades son aspectos clave para que los proyectos puedan perdurar en el tiempo. En esta charla compartiremos cómo rOpenSci aborda estos desafíos a través de programas e iniciativas que apoyan tanto a quienes desarrollan software como a las comunidades que lo sostienen. A partir de ejemplos concretos, exploraremos estrategias para fortalecer la sostenibilidad del software de investigación desde una perspectiva centrada en las personas.
 
-### Cómo unirse
 
-- 📅 [Descarga el calendario con los datos de Zoom](https://drive.usercontent.google.com/u/0/uc?id=1CnJor-6Wv1vKRjECGLm9IUC26GRCt42M&export=download)
-- 📍 En persona (lugares limitados): [Bentham House UCL, Tutorial Room 302, Endsleigh Gardens, London WC1H 0EG](https://maps.app.goo.gl/6cUMZvEKh7FyFtrP8) — RSVP a charlas.rse.espanol@gmail.com
+En persona (lugares limitados): [Bentham House UCL, Tutorial Room 302, Endsleigh Gardens, London WC1H 0EG](https://maps.app.goo.gl/6cUMZvEKh7FyFtrP8) — RSVP a charlas.rse.espanol@gmail.com
 
+Online usa el link que dice "Join" en este página. 
