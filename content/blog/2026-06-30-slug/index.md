@@ -3,7 +3,7 @@ slug: TBD
 title: 'From Peer Review to Mentorship: My rOpenSci Story'
 author:
     - Eunseop Kim
-date: '2026-MM-DD'
+date: '2026-06-30'
 tags:
 - community
 - Software Peer Review
