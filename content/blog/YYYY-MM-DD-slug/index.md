@@ -1,65 +1,55 @@
 ---
-slug: "post-template"
-title: Post Title in Title Case
-# Delete the package_version line below if your post is not about a package
-package_version: 0.1.0
+slug: TBD
+title: 'From Peer Review to Mentorship: My rOpenSci Story'
 author:
-  - Author Name1
-  - Author Name2
-# Set the date below to the publication date of your post
-date: 2020-03-10
-# Minimal tags for a post about a community-contributed package 
-# that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing tags
+    - Eunseop Kim
+date: '2026-MM-DD'
 tags:
-  - Software Peer Review
-  - packages
-  - R
-  - community
-# The summary below will be used by e.g. Mastodon preview cards
-description: "A very short summary of your post (~ 100 characters)"
-# If you have no preferred image for Mastodon preview cards,
-# delete the socialImg and socialAlt lines below 
-# - Note "/" between year/month/day
-socialImg: blog/2019/06/04/post-template/name-of-image.png
-socialAlt: "Alternative description of the image"
-# the text below is for populating the "share on Mastodon" button
-# if deleted, the title of the post will be used
-social: "A post about blabla by @username@server.extension!"
-# this field is for the storing the name(s) of the editor(s) of your post
-# you can leave it empty until you know who'll review your PR
-editor:
+- community
+- Software Peer Review
+- Champions Program
+description: 'From submitting a package, to reviewing one, to mentoring a Champion: my path with rOpenSci.'
 ---
 
-This is the Markdown (.md) template for a blog post or tech note. 
-To generate your post with R Markdown (.Rmd), use that template instead.
+## Getting Involved with rOpenSci
 
-Throughout this template, including the YAML, 
-you should change "post-template" to the slug of your post, 
-and "2019-06-04" to your publication date.
+I first came to rOpenSci in 2022, though at the time I barely knew what it was.
+I was getting a statistical package of mine ready to submit to the Journal of Statistical Software, and that is how I was pointed toward rOpenSci review: the journal directs authors to rOpenSci's statistical software standards, so going through the review looked like a convenient step along the way.
+At the time, my focus was on polishing the software for the journal submission, not on rOpenSci itself.
 
-Save this file under /content/blog/YYYY-MM-DD-slug/index.md in the local copy of your roweb3 fork.
+What I did not expect was how much the process itself would change my perspective.
+Coming from an academic background, the open review on GitHub felt very different from the closed, anonymous process I was used to.
+It was rigorous without being adversarial.
+An editor and two reviewers examined the package carefully, and their feedback was constructive and grounded in rOpenSci's well-defined standards and guidelines.
+The review improved the package, and it also gave me a greater appreciation for the collaborative approach behind open-source software review.
 
-## Section heading in sentence case
+I was later invited to review a package myself.
+The experience gave me a different perspective on the review process.
+As a reviewer, I saw that the goal was not simply to determine whether a package met some standards or merits, but to help authors improve their software through constructive feedback.
+When applications opened for the Champions Program, mentoring felt like a natural next step.
+Having experienced rOpenSci as both a software author and a reviewer, it seemed like a meaningful way to contribute to the community.
 
-Citation of the primary literature[^1]. 
+## Mentoring in the Champions Program
 
-Citation of a website[^2]. 
+I was matched with Sunny Tseng as her mentor.
+Over the program, Sunny built [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/), an R package that makes Taiwan's Breeding Bird Survey data much easier to access and analyze.
+It was a real package solving a real problem for people who study Taiwan's birds, which made it a pleasure to work on together.
 
-Citation of an R package[^3].
+Mostly, what I gave was time and attention.
+We worked through package scope, unit testing, version control, and the other practical aspects of building an R package.
+Many of our conversations were not about solving a particular technical problem, but about discussing trade-offs, identifying useful resources, and thinking through the next steps.
+Those conversations ended up being one of my favorite parts of the program.
 
-### Subsection heading
+What I valued most, though, was seeing how Sunny's work was used after the project.
+It is easy to think of a package as code made available for others to use, but in this case it became a tool that supported people working with the same data.
+While visiting Taiwan, she also ran a session introducing it to members of that community.
+This reinforced my view that open-source software is not just code shared in public, but a way of bringing people together around shared work.
 
-We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images,, videos, gists, etc.
+## Looking Back
 
-**Add an image** by using a Hugo shortcode. The image is saved under `/content/blog/YYYY-MM-DD-slug/name-of-image.png`.
+More than anything, my time with rOpenSci has left me with an appreciation for how thoughtfully it is run.
+Its initiatives, from peer review to mentorship, are organized with real care, and they are built to do more than improve software.
+They are designed to connect people, bring contributors together, and keep community at the center of open science.
 
-{{< figure src = "name-of-image.png" width = "400" alt = "this is the alternative text" >}}
-
-Consult the Technical Guidelines for tips on changing image size, alignment, and for advice on alternative text.
-
-**Add citation or footnote** text by using the format below 
-
-[^1]: Sciaini, M., Fritsch, M., Scherer, C., & Simpkins, C. E. (2018). NLMR and landscapetools: An integrated environment for simulating and modifying neutral landscape models in R. Methods in Ecology and Evolution, 9(11), 2240-2248. <https://doi.org/10.1111/2041-210X.13076>
-[^2]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019). skimr: Compact and Flexible Summaries of Data. R package version 1.0.7. https://CRAN.R-project.org/package=skimr
-[^3]: Hugo static site generator. https://gohugo.io/
+Fifteen years in, what strikes me about rOpenSci is that it has always been more about people than about packages.
+What began as a convenient step on the way to a journal turned into one of the more rewarding parts of my work, and I have found value in each perspective I have seen as an author, a reviewer, and a mentor.
