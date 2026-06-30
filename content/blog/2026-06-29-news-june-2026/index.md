@@ -3,7 +3,7 @@ slug: "news-june-2026"
 title: rOpenSci News Digest, June 2026
 author:
   - The rOpenSci Team
-date: '2026-06-29'
+date: '2026-06-30'
 tags:
   - newsletter
 description: New editors; champions program; Sovereign Tech Fellowship; Quinceañera; new packages and package news
