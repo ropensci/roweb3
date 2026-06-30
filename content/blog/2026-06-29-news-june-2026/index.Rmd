@@ -6,7 +6,7 @@ author:
 date: '2026-06-29'
 tags:
   - newsletter
-description: 15 years of rOpenSci; champions program; maintainer month; new packages and package news
+description: New editors; champions program; Sovereign Tech Fellowship; Quinceañera; new packages and package news
 params:
   last_newsletter: '2026-05-28'
   doi: "10.59350/312sy-1dt83"
@@ -97,8 +97,9 @@ These efforts will build on and extend rOpenSci's work in community building, me
 
 ### _Quinceañera_: celebrating 15 years together 
 
-In June, we held two community events to mark rOpenSci's 15th anniversary.
-Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of how genuinely welcoming rOpenSci *and* it's community are.
+
+In June, we held two community events and a co-working session to mark rOpenSci's 15th anniversary. 
+Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of how genuinely welcoming rOpenSci *and* it's community are. 
 There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
 
 ### Software Peer-Review updates
@@ -209,7 +210,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE, eval=FALSE}
+```{r, results='asis', cache = TRUE, eval=TRUE}
 new$onboarding[
   new$package == "hdcuremodels"
 ] <- "https://github.com/ropensci/software-review/issues/692"
@@ -245,11 +246,11 @@ present_one <- function(package) {
   rev <- purrr::map_chr(rev, function(x) {
     paste(c(x$given, x$family), collapse = " ")
   })
-  if (package$package == "forcis") {
-    rev <- c(rev, "Scott Chamberlain")
+  if (package$package == "pvEBayes") {
+    rev <- c("Kathryn Doering", "Collin Cademartori")
   }
-  if (package$package == "sasquatch") {
-    rev <- c("Nic Crane")
+  if (package$package == "nycOpenData") {
+    rev <- c("Haolin Dong", "Michael Pascale")
   }
   maintainer <- purrr::keep(authors, function(x) {
     any(x$role %in% "cre")

@@ -6,11 +6,11 @@ author:
 date: '2026-06-29'
 tags:
   - newsletter
-description: 15 years of rOpenSci; champions program; maintainer month; new packages and package news
+description: New editors; champions program; Sovereign Tech Fellowship; Quinceañera; new packages and package news
 params:
   last_newsletter: '2026-05-28'
   doi: "10.59350/312sy-1dt83"
-rmd_hash: 95c4c48394f34fd3
+rmd_hash: b6aa0ae22b8796a2
 
 ---
 
@@ -54,7 +54,7 @@ We're excited to share that our Community Manager, Yanina Bellini Saibene, [has 
 
 ### *Quinceañera*: celebrating 15 years together
 
-In June, we held two community events and a co-working sesion to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of how genuinely welcoming rOpenSci *and* it's community are. There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
+In June, we held two community events and a co-working session to mark rOpenSci's 15th anniversary. Across all three sessions, people shared memories of their first contribution, discussed ideas for the next 15 years, and reminded us of how genuinely welcoming rOpenSci *and* it's community are. There's more to come :-) Keep an eye out for what we have planned for the rest of the year.
 
 ### Software Peer-Review updates
 
@@ -81,31 +81,35 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-<div class="highlight">
 
-</div>
 
-The following package recently became a part of our software suite:
 
-<div class="highlight">
 
-</div>
+The following two packages recently became a part of our software suite:
+
+
+
+- [pvEBayes](https://docs.ropensci.org/pvEBayes), developed by Yihao Tan together with Marianthi Markatou, Saptarshi Chakraborty, and Raktim Mukhopadhyay: A suite of empirical Bayes methods to use in pharmacovigilance. Contains various model fitting and post-processing functions. For more details see Tan et al. (2025) <https://doi.org/10.1002/sim.70195>, <https://doi.org/10.48550/arXiv.2512.01057>; Koenker and Mizera (2014) <https://doi.org/10.1080/01621459.2013.869224>; Efron (2016) <https://doi.org/10.1093/biomet/asv068>. It has been [reviewed](https://github.com/ropensci/software-review/issues/760) by Kathryn Doering and Collin Cademartori.
+
+- [nycOpenData](https://docs.ropensci.org/nycOpenData), developed by Christian Martinez: Provides a unified set of helper functions to access datasets from the NYC Open Data platform <https://opendata.cityofnewyork.us/>. Functions return results as tidy tibbles and support optional filtering, sorting, and row limits via the Socrata API. The package includes endpoints for 311 service requests, DOB job applications, juvenile justice metrics, school safety, environmental data, event permitting, and additional citywide datasets. It has been [reviewed](https://github.com/ropensci/software-review/issues/750) by Haolin Dong and Michael Pascale.
+
+  
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-<div class="highlight">
 
-</div>
 
-The following fifteen packages have had an update since the last newsletter: [slopes](https://docs.ropensci.org/slopes "Calculate Slopes of Roads, Rivers and Trajectories") ([`v2.0.0`](https://github.com/ropensci/slopes/releases/tag/v2.0.0)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.3.0`](https://github.com/ropensci/qualtRics/releases/tag/v3.3.0)), [srr](https://docs.ropensci.org/srr "rOpenSci Software Review Roclets") ([`v1.0.0`](https://github.com/ropensci-review-tools/srr/releases/tag/v1.0.0)), [goodpractice](https://docs.ropensci.org/goodpractice "Advice on R Package Building") ([`v1.1`](https://github.com/ropensci-review-tools/goodpractice/releases/tag/v1.1)), [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.4`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.4)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.3`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (CFF) Metadata for R Packages") ([`v1.4.1`](https://github.com/ropensci/cffr/releases/tag/v1.4.1)), [dfms](https://docs.ropensci.org/dfms "Dynamic Factor Models") ([`v1.0.1`](https://github.com/ropensci/dfms/releases/tag/v1.0.1)), [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v1.0.0`](https://github.com/ropensci/weathercan/releases/tag/v1.0.0)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v2.0.0`](https://github.com/ropensci/lightr/releases/tag/v2.0.0)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.4.0`](https://github.com/ropensci/osmdata/releases/tag/v0.4.0)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.20`](https://github.com/ropensci/aRxiv/releases/tag/0.20)), [Athlytics](https://docs.ropensci.org/Athlytics "A Reproducible Framework for Endurance Data Analysis") ([`v1.0.6`](https://github.com/ropensci/Athlytics/releases/tag/v1.0.6)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`3.1.1`](https://github.com/ropensci/ReLTER/releases/tag/3.1.1)), and [read.abares](https://docs.ropensci.org/read.abares "Read Australian Agricultural Data from Government Agencies") ([`v3.0.0`](https://github.com/ropensci/read.abares/releases/tag/v3.0.0)).
+
+
+The following seventeen packages have had an update since the last newsletter: [weathercan](https://docs.ropensci.org/weathercan "Download Weather Data from Environment and Climate Change Canada") ([`v1.0.0`](https://github.com/ropensci/weathercan/releases/tag/v1.0.0)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.6.2`](https://github.com/ropensci/occCite/releases/tag/v0.6.2)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v2.0.0`](https://github.com/ropensci/lightr/releases/tag/v2.0.0)), [gutenbergr](https://docs.ropensci.org/gutenbergr "Download and Process Public Domain Works from Project Gutenberg") ([`v0.5.2`](https://github.com/ropensci/gutenbergr/releases/tag/v0.5.2)), [slopes](https://docs.ropensci.org/slopes "Calculate Slopes of Roads, Rivers and Trajectories") ([`v2.0.0`](https://github.com/ropensci/slopes/releases/tag/v2.0.0)), [qualtRics](https://docs.ropensci.org/qualtRics "Download Qualtrics Survey Data") ([`v3.3.0`](https://github.com/ropensci/qualtRics/releases/tag/v3.3.0)), [srr](https://docs.ropensci.org/srr "rOpenSci Software Review Roclets") ([`v1.0.0`](https://github.com/ropensci-review-tools/srr/releases/tag/v1.0.0)), [goodpractice](https://docs.ropensci.org/goodpractice "Advice on R Package Building") ([`v1.1`](https://github.com/ropensci-review-tools/goodpractice/releases/tag/v1.1)), [pkgmatch](https://docs.ropensci.org/pkgmatch "Find R Packages Matching Either Descriptions or Other R Packages") ([`v0.5.4`](https://github.com/ropensci-review-tools/pkgmatch/releases/tag/v0.5.4)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.3`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.3)), [cffr](https://docs.ropensci.org/cffr "Generate Citation File Format (CFF) Metadata for R Packages") ([`v1.4.1`](https://github.com/ropensci/cffr/releases/tag/v1.4.1)), [dfms](https://docs.ropensci.org/dfms "Dynamic Factor Models") ([`v1.0.1`](https://github.com/ropensci/dfms/releases/tag/v1.0.1)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.4.0`](https://github.com/ropensci/osmdata/releases/tag/v0.4.0)), [aRxiv](https://docs.ropensci.org/aRxiv "Interface to the arXiv API") ([`0.20`](https://github.com/ropensci/aRxiv/releases/tag/0.20)), [Athlytics](https://docs.ropensci.org/Athlytics "A Reproducible Framework for Endurance Data Analysis") ([`v1.0.6`](https://github.com/ropensci/Athlytics/releases/tag/v1.0.6)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`3.1.1`](https://github.com/ropensci/ReLTER/releases/tag/3.1.1)), and [read.abares](https://docs.ropensci.org/read.abares "Read Australian Agricultural Data from Government Agencies") ([`v3.0.0`](https://github.com/ropensci/read.abares/releases/tag/v3.0.0)).
 
 The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney. NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issues/116#issuecomment-4280937012).
 
 ## Software Peer Review
 
-<div class="highlight">
+
 
 There are eighteen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
@@ -157,7 +161,7 @@ There are eighteen recently closed and active submissions and 4 submissions on h
 
   - [LBDiscoverAnalysis](https://github.com/ropensci/software-review/issues/725), Co-occurrence Discovery Models and Visualization for Biomedical LBD. Submitted by [Chao Liu](https://github.com/chaoliu-cl).
 
-    </div>
+    
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -165,7 +169,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
+
 
 ### Software Review
 
@@ -179,7 +183,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 - [Eleven Latin American Voices for Open Science: The New Cohort of Champions rOpenSci 2026](/blog/2026/06/09/champions-2026) by Bastián Olea Herrera, Denisse Fierro Arcos, Durga Valentina Linares Herrera, Evelia Lorena Coss Navarrete, Gladys Choque Ulloa, José Daniel Conejeros, Linda Cabrera Orellana, María Florencia Tames, Marina Cecilia Cock, Patricia A. Loto, Estefania Torrejón, and Yanina Bellini Saibene. Introducing 11 new rOpenSci Champions. Other languages: <a href='/es/blog/2026/06/09/champions-2026' lang='es'>Once voces latinoamericanas para la ciencia abierta: la nueva cohorte de Campeon(a\|e)s rOpenSci 2026 (es)</a>.
 
-</div>
+
 
 ## Calls for contributions
 
@@ -240,5 +244,7 @@ Thanks for reading! If you want to get involved with rOpenSci, check out our [Co
 
 If you haven't subscribed to our newsletter yet, you can [do so though our signup form](/news/). Until it's time for our next newsletter, you can keep in touch with us through our [website](/), [Mastodon](https://hachyderm.io/@rOpenSci), or [LinkedIn](https://www.linkedin.com/company/ropensci/). See you soon!
 
-</div>
+
+
+
 
