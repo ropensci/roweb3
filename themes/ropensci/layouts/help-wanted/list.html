@@ -15,12 +15,12 @@
             <div class="case-card">
               <div class="case-card-body">
                 <div class="d-flex flex-wrap align-items-center">
-                  <a href="{{ .url }}" class="case-title mr-2">{{ .title }}</a>
+                  <a href="{{ .issue_url }}" class="case-title mr-2">{{ .title }}</a>
                   
-{{ if in .labels "good first issue" }} Good First Issue!{{ end }}
+{{ if .labels_first }} Good First Issue!{{ end }}
                 </div>
                 <p class="mt-2 case-text">
-               {{ if ne .author "" }} <a href='https://github.com/{{ .username }}'>{{ .author }}</a>{{ else }}<a href='https://github.com/{{ .username }}'>{{ .username }}</a>{{ end }}
+               <a href='https://github.com/{{ .labels_github }}'>{{ .labels_name }}</a>
                 </p>
                                 <p class="mt-2 case-text">
                Opened on {{ dateFormat "2006-01-02" .opened }}.
@@ -48,11 +48,11 @@
       {{ range $issues }}
    <tr>
      
-    <td><a href="{{ .url }}">{{ .title }}</a></td>
+    <td><a href="{{ .issue_url }}">{{ .title }}</a></td>
     <td><a href="https://docs.ropensci.org/{{ .package }}">{{ .package }}</a> </td>
     <td>{{ dateFormat "2006-01-02" .opened }} </td>
-    <td>{{ if ne .author "" }} <a href='https://github.com/{{ .username }}'>{{ .author }}</a>{{ else }}<a href='https://github.com/{{ .username }}'>{{ .username }}</a>{{ end }}</td>
-    <td>{{ if in .labels "good first issue" }} yes {{else }} no{{ end }}</td>
+    <td><a href='https://github.com/{{ .labels_github }}'>{{ .labels_name }}</a></td>
+    <td>{{ if .labels_first }} yes {{ else }} no {{ end }}</td>
   </tr>
       {{ end }} 
       </tbody>
