@@ -1,32 +1,36 @@
 ---
-slug: TBD
+slug: 15yo-eunseop-kim
 title: 'From Peer Review to Mentorship: My rOpenSci Story'
 author:
     - Eunseop Kim
+editor: 
+	- Yanina Bellini Saibene
 date: '2026-06-30'
+doi: 10.59350/yra55-8rf60
 tags:
 - community
 - Software Peer Review
 - Champions Program
+preface: This post is part of our 15th anniversary celebration series, in which community members share their stories with rOpenSci.
 description: 'From submitting a package, to reviewing one, to mentoring a Champion: my path with rOpenSci.'
 ---
 
 ## Getting Involved with rOpenSci
 
 I first came to rOpenSci in 2022, though at the time I barely knew what it was.
-I was getting a statistical package of mine ready to submit to the Journal of Statistical Software, and that is how I was pointed toward rOpenSci review: the journal directs authors to rOpenSci's statistical software standards, so going through the review looked like a convenient step along the way.
+I was getting a statistical package of mine ready to submit to the Journal of Statistical Software, and that is how I was pointed toward [rOpenSci review](/software-review/): the journal directs authors to rOpenSci's statistical software standards, so going through the review looked like a convenient step along the way.
 At the time, my focus was on polishing the software for the journal submission, not on rOpenSci itself.
 
 What I did not expect was how much the process itself would change my perspective.
-Coming from an academic background, the open review on GitHub felt very different from the closed, anonymous process I was used to.
+Coming from an academic background, the [open review on GitHub](https://github.com/ropensci/software-review/issues/550) felt very different from the closed, anonymous process I was used to.
 It was rigorous without being adversarial.
-An editor and two reviewers examined the package carefully, and their feedback was constructive and grounded in rOpenSci's well-defined standards and guidelines.
+An editor and two reviewers carefully examined the package, and their feedback was constructive and grounded in [rOpenSci's well-defined standards and guidelines](https://stats-devguide.ropensci.org/standards.html).
 The review improved the package, and it also gave me a greater appreciation for the collaborative approach behind open-source software review.
 
-I was later invited to review a package myself.
+I was later [invited to review a package myself.](https://github.com/ropensci/software-review/issues/728).
 The experience gave me a different perspective on the review process.
 As a reviewer, I saw that the goal was not simply to determine whether a package met some standards or merits, but to help authors improve their software through constructive feedback.
-When applications opened for the Champions Program, mentoring felt like a natural next step.
+When applications opened for the [Champions Program](champions/), mentoring felt like a natural next step.
 Having experienced rOpenSci as both a software author and a reviewer, it seemed like a meaningful way to contribute to the community.
 
 ## Mentoring in the Champions Program
