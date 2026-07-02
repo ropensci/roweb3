@@ -4,7 +4,7 @@ title: 'From Peer Review to Mentorship: My rOpenSci Story'
 author:
     - Eunseop Kim
 editor: 
-	- Yanina Bellini Saibene
+    - Yanina Bellini Saibene
 date: '2026-06-30'
 doi: 10.59350/yra55-8rf60
 tags:
