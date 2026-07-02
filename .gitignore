@@ -34,3 +34,4 @@ translations.R
 
 .vale-styles/*
 !.vale-styles/config/
+!.vale-styles/rOpenSci/
