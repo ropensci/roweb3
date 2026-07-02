@@ -3,6 +3,9 @@ slug: "editor-tools"
 title: "FOSS Tools for Lazy Editors"
 author:
   - Steffi LaZerte
+editor:
+  - Yanina Bellini Saibene
+  - Maëlle Salmon
 date: 2026-07-02
 tags:
   - community manager tools
