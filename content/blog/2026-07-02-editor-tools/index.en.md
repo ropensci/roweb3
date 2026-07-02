@@ -14,7 +14,6 @@ tags:
   - how-to
 description: "How we streamlined the editing of our blog posts using 4 open-source tools that you could adopt too"
 social: "@steffilazerte@fosstodon.org shares four tools she uses to streamline editing rOpenSci blog posts."
-editor:
 params:
   doi: "10.59350/3rymp-he260"
 ---
