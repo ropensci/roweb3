@@ -35,7 +35,7 @@ Having experienced rOpenSci as both a software author and a reviewer, it seemed 
 
 ## Mentoring in the Champions Program
 
-I was matched with Sunny Tseng as her mentor.
+I was matched with [Sunny Tseng](/author/yi-chin-sunny-tseng/) as her mentor.
 Over the program, Sunny built [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/), an R package that makes Taiwan's Breeding Bird Survey data much easier to access and analyze.
 It was a real package solving a real problem for people who study Taiwan's birds, which made it a pleasure to work on together.
 
