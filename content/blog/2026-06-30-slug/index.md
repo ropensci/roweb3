@@ -27,7 +27,7 @@ It was rigorous without being adversarial.
 An editor and two reviewers carefully examined the package, and their feedback was constructive and grounded in [rOpenSci's well-defined standards and guidelines](https://stats-devguide.ropensci.org/standards.html).
 The review improved the package, and it also gave me a greater appreciation for the collaborative approach behind open-source software review.
 
-I was later [invited to review a package myself.](https://github.com/ropensci/software-review/issues/728).
+I was later [invited to review a package myself](https://github.com/ropensci/software-review/issues/728).
 The experience gave me a different perspective on the review process.
 As a reviewer, I saw that the goal was not simply to determine whether a package met some standards or merits, but to help authors improve their software through constructive feedback.
 When applications opened for the [Champions Program](champions/), mentoring felt like a natural next step.
