@@ -7,7 +7,7 @@
   {{ $url = .RelPermalink }}
   {{ $lang = .Language.Lang }}
 {{ else }}
-  {{ with where .Site.Sites "Language.Lang" "eq" "en" }}
+  {{ with where hugo.Sites "Language.Lang" "eq" "en" }}
     {{ with index . 0 }}
      {{ with .GetPage $name }}
         {{ $url = .RelPermalink }}
