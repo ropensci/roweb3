@@ -12,7 +12,7 @@ Son bienvenidas las contribuciones de personas de todos los niveles y procedenci
 
             </p>
             <ul class="volunteer-img">
-              {{ range .Site.Data.peeps.peeps }}
+              {{ range hugo.Data.peeps.peeps }}
               <li><img src="/images/volunteer/{{ .img }}" alt="{{ .alt }}." style="height:auto" /></li>
               {{ end }}
             </ul>
