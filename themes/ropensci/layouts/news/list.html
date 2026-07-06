@@ -27,7 +27,7 @@
 <img class="divider d-none d-md-block" src="/images/svg/divider-rl-sm.svg" alt="" />
 <section class="posts">
   <div class="container">
-     {{ $pages := (where .Site.AllPages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "newsletter")) }}
+     {{ $pages := (where .Site.Pages.ByPublishDate.Reverse ".Params.tags" "intersect" (slice "newsletter")) }}
     <h2 class="title">{{ i18n "Previous-Newsletters"}}</h2>
 
     <div class="row author-blog">

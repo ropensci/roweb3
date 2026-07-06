@@ -31,3 +31,7 @@ translations.R
 
 **/*.quarto_ipynb
 *cache_file_state.rds
+
+.vale-styles/*
+!.vale-styles/config/
+!.vale-styles/rOpenSci/

@@ -13,7 +13,7 @@
   
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     {{ range .Translations }}
-    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.LanguageName }} ({{ .Language | upper }})</a>
+    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.Label }} ({{ .Language | upper }})</a>
     {{ end }}
   </div>
   </div>
@@ -57,7 +57,7 @@
           <ul class="sub-menu">
             {{ $currentlang := .Language }}
             {{ $defaultlang := "en" }}
-            {{ $sectionpages := (where .Site.AllPages "Kind" "section") }}
+            {{ $sectionpages := (where .Site.Pages "Kind" "section") }}
             {{ range .Site.Params.projects }}
             {{ $page := ( where $sectionpages "Type" "in" . ) }}
             {{ range $page }}

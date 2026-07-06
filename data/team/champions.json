@@ -1,5 +1,126 @@
 [
   {
+   "name": "Bastián Olea Herrera",
+   "url": "https://bastianolea.rbind.io",
+   "image" : "/img/team/bastian-olea-herrera.jpg",
+   "affiliation": "Subsecretaría de Desarrollo Regional y Administrativo, Gobierno de Chile",
+   "roles": [
+      "2026-2027"
+   ],
+   "github": "bastianolea",
+   "home": "https://bastianolea.rbind.io"
+},
+{
+    "name": "Denisse Fierro Arcos",
+    "url": "https://www.linkedin.com/in/denissefierro/",
+    "image": "/img/team/denisse-fierro-arcos.JPG",
+    "affiliation": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania; Fisheries and Marine Ecosystem Model Intercomparison Project (FishMIP)",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "lidefi87",
+    "home": "https://www.linkedin.com/in/denissefierro/"
+  },
+  {
+    "name": "Durga Valentina Linares Herrera",
+    "url": "https://www.linkedin.com/in/durgavalentinalinaresherrera/",
+    "image": "/img/team/valentina-linares.jpeg",
+    "affiliation": "Centro de Investigación de la Universidad del Pacífico (CIUP)",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "valentinalinares",
+    "home": "https://www.linkedin.com/in/durgavalentinalinaresherrera/"
+  },
+  {
+    "name": "Estefania Torrejón",
+    "url": "https://www.linkedin.com/in/estefania-torrejon-442982184/",
+    "image": "/img/team/estefania-torrejon.png",
+    "affiliation": "NOVA Medical School, Lisboa, Portugal",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "torrejoNia",
+    "home": "https://www.linkedin.com/in/estefania-torrejon-442982184/"
+  },
+  {
+    "name": "Evelia Lorena Coss Navarrete",
+    "url": "https://eveliacoss.github.io/",
+    "image": "/img/team/evelia-lorena-coss-navarrete.jpg",
+    "affiliation": "Laboratorio Internacional de Investigación sobre el Genoma Humano (LIIGH), UNAM",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "EveliaCoss",
+    "home": "https://eveliacoss.github.io/"
+  },
+  {
+    "name": "Gladys Choque Ulloa",
+    "url": "https://linktr.ee/gladyschoqueulloa",
+    "image": "/img/team/gladys-choque.jpeg",
+    "affiliation": "Sao Paulo University",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "GladysUlloa",
+    "home": "https://linktr.ee/gladyschoqueulloa"
+  },
+  {
+    "name": "José Daniel Conejeros",
+    "url": "https://jd-conejeros.com/",
+    "image": "/img/team/jose-conejeros.png",
+    "affiliation": "Escuela de Gobierno, Pontificia Universidad Católica de Chile; SENTINET",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "JDConejeros",
+    "home": "https://jd-conejeros.com/"
+  },
+  {
+    "name": "Linda Jazmín Cabrera Orellana",
+    "url": "https://www.linkedin.com/in/lindateachtech/",
+    "image": "/img/team/linda-cabrera-orellana.png",
+    "affiliation": "SIDN Digital Thinking",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "lindateachtech",
+    "home": "https://www.linkedin.com/in/lindateachtech/"
+  },
+  {
+    "name": "María Florencia Tames",
+    "url": "https://www.linkedin.com/in/florencia-tames/",
+    "image": "/img/team/maria-tames.png",
+    "affiliation": "Universidad Nacional de Córdoba (UNC)",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "flortames",
+    "home": "https://www.linkedin.com/in/florencia-tames/"
+  },
+  {
+    "name": "Marina Cecilia Cock",
+    "url": "https://www.linkedin.com/in/marina-cock-49b1b5171/",
+    "image": "/img/team/marina-cecilia-cock.JPG",
+    "affiliation": "INCITAP (CONICET-UNLPam), Facultad de Ciencias Exactas y Naturales (UNLPam)",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "MarinaCock",
+    "home": "https://www.linkedin.com/in/marina-cock-49b1b5171/"
+  },
+  {
+    "name": "Patricia Andrea Loto",
+    "url": "https://patricia-loto.netlify.app/",
+    "image": "/img/team/patricia-loto.jpg",
+    "affiliation": "Facultad de Ciencias Exactas y Naturales y Agrimensura, Universidad Nacional del Nordeste / Lotería Chaqueña",
+    "roles": [
+      "2026-2027"
+    ],
+    "github": "PatriLoto",
+    "home": "https://patricia-loto.netlify.app/"
+  },
+  {
    "name": "Ana Carolina Moreno",
    "url": "https://investnews.com.br/autor/ana-carolina-moreno/",
    "image" : "/img/team/ana-carolina-moreno.jpeg",

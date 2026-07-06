@@ -28,7 +28,7 @@
     <div class="blog-categories">
       <h2 class="title">Highlights</h2>
       <div class="row blog-categories-cards">
-        {{ range .Site.Data.blog.highlights }}
+        {{ range hugo.Data.blog.highlights }}
         <div class="col-md-4">
           <a href="{{ .href }}" class="card is-primary no-bg">
             <div class="card-body">
