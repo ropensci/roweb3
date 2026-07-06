@@ -5,12 +5,13 @@ author:
     - Eunseop Kim
 editor: 
     - Yanina Bellini Saibene
-date: '2026-06-30'
+date: '2026-07-08'
 doi: 10.59350/yra55-8rf60
 tags:
 - community
 - Software Peer Review
 - Champions Program
+- anniversary
 preface: This post is part of our 15th anniversary celebration series, in which community members share their stories with rOpenSci.
 description: 'From submitting a package, to reviewing one, to mentoring a Champion: my path with rOpenSci.'
 ---
@@ -30,7 +31,7 @@ The review improved the package, and it also gave me a greater appreciation for 
 I was later [invited to review a package myself](https://github.com/ropensci/software-review/issues/728).
 The experience gave me a different perspective on the review process.
 As a reviewer, I saw that the goal was not simply to determine whether a package met some standards or merits, but to help authors improve their software through constructive feedback.
-When applications opened for the [Champions Program](champions/), mentoring felt like a natural next step.
+When applications opened for the [Champions Program](/champions/), mentoring felt like a natural next step.
 Having experienced rOpenSci as both a software author and a reviewer, it seemed like a meaningful way to contribute to the community.
 
 ## Mentoring in the Champions Program
