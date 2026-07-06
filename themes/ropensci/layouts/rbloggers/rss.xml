@@ -33,7 +33,7 @@
         {{ $string := "" }}
         {{ if .IsTranslated }}
         {{ range .Translations }}
-        {{ $string = (printf "<p><a href='%s'>Read it in: %s</a>.</p>" .Permalink .Language.LanguageName) }} 
+        {{ $string = (printf "<p><a href='%s'>Read it in: %s</a>.</p>" .Permalink .Language.Label) }} 
         {{ $translations = (printf "%s%s" $translations $string) }}
         {{ end }}
         {{ end }}{{ (printf "%s %s" $translations .Content) | html }}

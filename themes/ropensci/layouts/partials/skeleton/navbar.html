@@ -13,7 +13,7 @@
   
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     {{ range .Translations }}
-    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.LanguageName }} ({{ .Language | upper }})</a>
+    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.Label }} ({{ .Language | upper }})</a>
     {{ end }}
   </div>
   </div>
