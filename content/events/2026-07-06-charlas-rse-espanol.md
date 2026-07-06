@@ -8,7 +8,7 @@ location: 'Bentham House UCL, Tutorial Room 302, Endsleigh Gardens, London WC1H 
 slug: 'charlas-rse-espanol-2026-07-06'
 country: "🇬🇧" # emoji
 ropensci: no
-lang: Español
+eventlang: Español
 outputs:
   - HTML
   - Calendar
