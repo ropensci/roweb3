@@ -66,7 +66,7 @@ Thanks a lot to all who either updated their data or filled the form for the fir
 
 To go with the new useful data we've updated the guidance for editors to [look for reviewers](https://devguide.ropensci.org/editorguide.html#how-to-look-for-reviewers).
 
-If you want your info removed from the database, please send an email to `privacy@ropensci.org`.
+If you want your info removed from the database, please send an email to `info@ropensci.org`.
 
 ## Mention relevant rOpenSci projects
 

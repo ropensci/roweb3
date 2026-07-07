@@ -26,7 +26,7 @@
         </div>
 
         <h2 class="title mt-5">{{ i18n "Resources" }}</h2>
-        {{ $data := index .Site.Data .Language.Lang }}
+        {{ $data := index hugo.Data .Language.Lang }}
 {{ partial "resources/resources-cards" (dict "resources" $data.resources.multilingual ) }}
         </div>
     </section>
@@ -39,7 +39,7 @@
             </h4>
           </div>
         </div>
-        {{ $translators := (shuffle .Site.Data.team.translators) }}
+        {{ $translators := (shuffle hugo.Data.team.translators) }}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $translators)  }}
       </div>
     </section>

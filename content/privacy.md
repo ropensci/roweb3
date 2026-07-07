@@ -49,7 +49,7 @@ The choice to access these sites is at the visitor’s own risk.
 
 ## Who should be contacted regarding this Privacy Policy?
 
-For questions or comments about this Privacy Policy, please contact privacy@ropensci.org.
+For questions or comments about this Privacy Policy, please contact info@ropensci.org.
 
 ## Acknowledgements
 
