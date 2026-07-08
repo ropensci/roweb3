@@ -18,7 +18,7 @@ resources: # can be added later, one entry per talk (don't add while still empty
     speaker: Maëlle Salmon
     slides: https://historial-git.netlify.app/#/
     language: es
-    summary: 'Cómo usar y mejorar tu historial de Git..'
+    summary: 'Cómo usar y mejorar tu historial de Git.'
 ---
 
 
