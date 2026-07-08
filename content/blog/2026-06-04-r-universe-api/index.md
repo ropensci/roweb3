@@ -4,6 +4,7 @@ author:
   - Maëlle Salmon
 editor:
   - Steffi LaZerte
+  - Jeroen Ooms
 date: "2026-06-04"
 slug: r-universe-apis-use-cases
 description: Use cases of the R-Universe APIs
