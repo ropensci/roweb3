@@ -5,7 +5,7 @@ author:
 editor:
   - Steffi LaZerte
   - Jeroen Ooms
-date: "2026-06-04"
+date: "2026-07-08"
 slug: r-universe-apis-use-cases
 description: Use cases of the R-Universe APIs
 tags:
@@ -14,9 +14,6 @@ tags:
   - api
 params:
   doi: "10.59350/vrv9q-27605"
-output: hugodown::md_document
-rmd_hash: 7221a62dd27fa2ec
-
 ---
 
 On R-Universe you can [discover and learn everything there is to know about R packages](/blog/2023/02/27/runiverse-discovering/). But did you know it does only provide a human-friendly website, but also programmatic access to all information through APIs! 
