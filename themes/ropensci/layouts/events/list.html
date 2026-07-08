@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $pages := (partial "calendar/future-events" (dict "Site" .Site)) }}
+{{ $pages := (partial "calendar/future-events" (dict "Site" (index hugo.Sites 0))) }}
 {{ $featured := ( union (union (where $pages "Params.featured" true) (where $pages "Params.ropensci" true )) (where $pages "Type" "commcalls") ) }}
 <section class="blog-hero">de
   <div class="container bg-cubes">
@@ -15,7 +15,7 @@
         </div>
       </div>
 {{ end }}
-{{ partial "calendar/events" (dict "Site" .Site "Content" .Content "Tips" .Params.Tips )  }}
+{{ partial "calendar/events" (dict "Site" (index hugo.Sites 0) "Content" .Content "Tips" .Params.Tips )  }}
          
   </div>
 </section>
