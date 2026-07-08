@@ -14,7 +14,7 @@ author:
 attendees:
   - Maëlle Salmon
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  - title: "Desarrollo de paquetes avanzado (capacitación para campeones)"
+  - title: "¡Miercolés, Git!"
     speaker: Maëlle Salmon
     slides: https://miercoles-git-mejor.netlify.app/#/
     language: es

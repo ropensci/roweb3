@@ -14,7 +14,7 @@ author:
 attendees:
   - Maëlle Salmon
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  - title: "Desarrollo de paquetes avanzado (capacitación para campeones)"
+  - title: "Usar y mejorar tu historial de Git"
     speaker: Maëlle Salmon
     slides: https://historial-git.netlify.app/#/
     language: es
