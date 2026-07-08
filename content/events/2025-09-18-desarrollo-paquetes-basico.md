@@ -1,4 +1,3 @@
-
 ---
 title: 'Desarrollo de paquetes para principiantes (capacitación para campeones)'
 training: true
