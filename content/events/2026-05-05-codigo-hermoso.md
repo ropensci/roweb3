@@ -15,7 +15,7 @@ attendees:
   - Maëlle Salmon
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "¡Código hermoso, porque lo valemos! (capacitación para campeones)"
-    speaker: Maëlle Salmon
+    speaker: Maëlle Salmon, Yanina Bellini Saibene
     slides: https://codigo-hermoso-2026.netlify.app/#/
     language: es
 ---

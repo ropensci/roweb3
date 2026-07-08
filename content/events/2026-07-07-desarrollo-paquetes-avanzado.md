@@ -15,7 +15,7 @@ attendees:
   - Maëlle Salmon
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Desarrollo de paquetes avanzado (capacitación para campeones)"
-    speaker: Maëlle Salmon
+    speaker: Maëlle Salmon, Yanina Bellini Saibene
     slides: https://desarrollo-paquetes-avanzado-2026.netlify.app/
     language: es
     summary: 'Taller para quiénes ya han desarrollado, o contribuido a, paquetes R. Mejor venís con un paquete tuyo para trabajar en ello.'

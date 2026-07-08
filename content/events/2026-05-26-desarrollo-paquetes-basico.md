@@ -1,4 +1,3 @@
-
 ---
 title: 'Desarrollo de paquetes para principiantes (capacitación para campeones)'
 training: true
@@ -16,7 +15,7 @@ attendees:
   - Maëlle Salmon
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Desarrollo de paquetes para principiantes (capacitación para campeones)"
-    speaker: Maëlle Salmon
+    speaker: Maëlle Salmon, Yanina Bellini Saibene
     slides: https://desarrollo-paquetes-basico-2026.netlify.app/
     language: es
     summary: '¿Qué significa desarrollar un paquete R? En esta sesión con una demostración en vivo, desmitificaremos la creación de un paquete R. Los paquetes R son, en su mayoría, carpetas bien organizadas, y existen herramientas automáticas que ayudan a crearlos. ¡Descubre las maravillas de usethis!'

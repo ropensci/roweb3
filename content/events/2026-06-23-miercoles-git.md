@@ -15,7 +15,7 @@ attendees:
   - Maëlle Salmon
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "¡Miercolés, Git!"
-    speaker: Maëlle Salmon
+    speaker: Maëlle Salmon, Yanina Bellini Saibene
     slides: https://miercoles-git-mejor.netlify.app/#/
     language: es
     summary: 'Taller para prevenir y aprendar a salir de situaciones de miercolés de Git.'

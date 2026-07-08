@@ -15,7 +15,7 @@ attendees:
   - Maëlle Salmon
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: "Usar y mejorar tu historial de Git"
-    speaker: Maëlle Salmon
+    speaker: Maëlle Salmon, Yanina Bellini Saibene
     slides: https://historial-git.netlify.app/#/
     language: es
     summary: 'Cómo usar y mejorar tu historial de Git.'
