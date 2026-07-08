@@ -21,7 +21,7 @@ rmd_hash: 7221a62dd27fa2ec
 
 On R-Universe you can [discover and learn everything there is to know about R packages](https://ropensci.org/blog/2023/02/27/runiverse-discovering/). But did you know it does only provide a human-friendly website, but also programmatic access to all information through APIs! Thanks to those APIs you can list universes, list packages in an universe, get information on packages, and perform searches; all without any need for authentication.
 
-The APIs are both handy and reliable. You can build upon them, as both rOpenSci and community members have done. This post shows some examples of use cases with the R-Universe API.
+The R-Universe APIs are both handy and reliable. You can build upon them, as both rOpenSci and community members have done. This post shows some examples of use cases with the R-Universe API.
 
 ## Know which packages are yours
 
