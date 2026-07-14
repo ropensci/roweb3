@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ $pages := (where (where ( where .Site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil)  ".Params.training" "==" true) }}
+{{ $site := (index hugo.Sites 0) }}
+{{ $pages := (where (where ( where $site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil)  ".Params.training" "==" true) }}
 
 
 
