@@ -21,6 +21,7 @@ featured: true
 description: "Announcing mini-hackathons to support first time contributors"
 social: "@rOpenSci@hachyderm.io is hosting mini-hackathons to support first time contributors!"
 editor: Maëlle Salmon
+photogallery: true
 params:
   doi: "10.59350/h666e-50h82"
 ---
@@ -39,9 +40,9 @@ Sunny focused on her journey making her first R package, [bbsTaiwan](https://sun
 Then Yaoxiang rounded out our call with advice for first-time contributors on the importance of including tests and how to deal with different testing situations, referring to his experience with [medrxivr](https://docs.ropensci.org/medrxivr).
 
 {{< gallery >}}
-{{< figureforgallery src="sunny.png" alt="Screenshot of Sunny's title slide featuring her package bbsTawain"  >}}
-{{< figureforgallery src="pascal.png" alt="Slide from Pascal's presentation 'Collaboration with git' featuring his main take-aways: use branches a lot, commit often, write meaningful commit messages, learn how to undo stuff, learn how to rebase, and get familiar with GitHub's Pull Requests"  >}}
-{{< figureforgallery src="yaoxiang.png" alt="Slide from Yaoxiang's presentation featuring testthat Basics and core features, such as the test_that function, basic expectations like expect_equal, and error and warning testing like expect_error and expect_warning."  >}}
+{{< figureforgallery src="sunny.png" alt="Screenshot of Sunny's title slide featuring her package bbsTawain" >}}
+{{< figureforgallery src="pascal.png" alt="Slide from Pascal's presentation 'Collaboration with git' featuring his main take-aways: use branches a lot, commit often, write meaningful commit messages, learn how to undo stuff, learn how to rebase, and get familiar with GitHub's Pull Requests" >}}
+{{< figureforgallery src="yaoxiang.png" alt="Slide from Yaoxiang's presentation featuring testthat Basics and core features, such as the test_that function, basic expectations like expect_equal, and error and warning testing like expect_error and expect_warning." >}}
 {{< /gallery >}}
 
 Sunny recommended that you have a plan for your contributions, but remain flexible as things change or don't proceed as you may have expected.
