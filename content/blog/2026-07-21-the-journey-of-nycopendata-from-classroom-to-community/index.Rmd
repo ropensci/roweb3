@@ -1,0 +1,189 @@
+---
+title: 'The Journey of {nycOpenData}: From Classroom to Community'
+author: Christian Martinez
+date: '2026-07-21'
+slug: the-journey-of-nycopendata-from-classroom-to-community
+categories: []
+tags:
+  - open-data
+  - open-source
+  - R
+  - education
+  - package-development
+  - community
+  - API
+---
+
+## FADE IN
+
+Nine students in the M.S. in Psychology Research program at Brooklyn College are taking the course *Reproducible Psychological Research*, where they are learning how to code for the first time. All of them have their cameras off. They are all learning R for the first time, and as an introduction to R, are being taught using the `mtcars` dataset.
+
+Nine **NYC** graduate students who
+
+- don't own a car,
+- don't drive a car,
+- and have no interest in cars.
+
+Even with their screens off, with every additional `mtcars` column we talked about, they fell deeper and deeper asleep during the lectures.
+
+> If I wanted my students to learn anything in my class—not just R—I needed to make an immediate pivot.
+
+Change needed to happen, and happen fast.
+
+## Relevance Drives Rigor
+
+I didn't take my students' interests into consideration at the start of the course, and I was paying the price. How do I make sure that no matter what each individual student is interested in, they can be accommodated? Probably a big ask, but part of me felt like I was starting the semester in debt and needed to really pay up.
+
+What do all my students have *in common*? **They all live in NYC**. Even if they're not from NYC, they currently call it home.
+
+Then came the idea:
+
+> 💡 What if I incorporate NYC Open Data into the course?
+
+For anyone who doesn't know, NYC does an incredible job of making public data available through the [NYC Open Data Portal](https://opendata.cityofnewyork.us/). Thousands of datasets, ranging from 311 calls to transportation data to slashings and stabbings (a favorite of one of my students), are available for free, for anyone, anywhere.
+
+Immediately, there was a switch in my (virtual) classroom. Before, engagement was about as close to zero as you can get. Now, it skyrocketed. Students were asking more questions, which was great.
+
+There were really only two options when it came to using NYC Open Data. The first, which I began using, was downloading static datasets as Excel or CSV files. While this helped with engagement, it also created a new set of problems: using outdated datasets (311, for instance, is updated daily), making sure students downloaded the correct files, and making sure they put them in the correct folders.
+
+Luckily, the portal offers a fantastic solution to all of the problems associated with static files: APIs!
+
+However, this came with an even bigger problem:
+
+> In this class, I had to teach R, statistics, reproducible workflows, data analysis, data cleaning, data visualization, writing, interpretation, and really an innumerable number of additional skills. Did I really want to add APIs to this list?
+
+Cue an idea.
+
+## `nycOpenData`: The beginning
+
+At this point, I knew a few things:
+
+1. Students need relevant data in order to stay engaged.
+2. Students really enjoyed using NYC Open Data.
+3. My students' heads may explode if I teach them about APIs.
+
+So I started thinking:
+
+> How do I incorporate NYC Open Data into the classroom moving forward without using APIs or static files?
+
+*What if I make a package?*
+
+Students are learning R, which means we're also learning about packages—a crucial, yet simple, concept. What if there was a package dedicated to pulling NYC Open Data? That would fit right into the students' learning path.
+
+When I looked, there wasn't one.
+
+So I thought:
+
+*Why not make it myself?*
+
+Maybe a crazy idea. I had never developed an R package, never mind one that relied on APIs. What does the process look like? Do I have the skills? Will CRAN accept something that most likely only my nine students and I would ever use?
+
+As a big believer in the mantra, *"I'll do it myself,"* I already had the code to pull in the individual datasets in R, so...why not?
+
+So, I went ahead and did it myself.
+
+## `nycOpenData`: The middle
+
+Originally, I thought the easiest thing to do was build the package with one function: `nyc_311()`, which simply pulled in the 311 dataset. The perk was that it was one of the largest and most data-diverse datasets, so it could kill many birds with one stone.
+
+But then I thought,
+
+> "No way will CRAN accept a package with just one function."
+
+So, I literally copied and pasted the same exact code 30 different times and adapted it for the 30 most popular datasets on the NYC Open Data Portal.
+
+Through a lot of blood, sweat, and documentation, the first iteration of `nycOpenData` was officially created and accepted onto CRAN! Me, a person who only installed packages, was now the creator of one? It was amazing to actually give back to the amazing R community that provided me with so much for so many years.
+
+This not only made teaching with NYC Open Data easier, but more fun too. The package did exactly what it needed to do: make working with NYC Open Data datasets incredibly easy in R.
+
+With this version of `nycOpenData`, students were able to complete their final projects with one simple prompt:
+
+> Answer any question you have about NYC using open data.
+
+Those projects eventually became the [NYC Open Data Student Gallery Book](https://martinezc1-nyc-open-data-student-gallery.share.connect.posit.cloud/), which was presented at [NYC Open Data Week 2026](https://www.youtube.com/watch?v=Vw8PhY7NDGE). Each student's project became its own chapter, and each student had the opportunity to present their work to the world. These same students who were once falling asleep while I basically sang them a lullaby, now were very much awake, displaying what they've learned and uncovered to an audience of professionals.
+
+As an educator, my goal is to help my students be as successful as possible. Through `nycOpenData`, that goal became a reality.
+
+All of the work I put into this package was worth it.
+
+## `nycOpenData`: Student Contributions
+
+The following semester, I had the opportunity to teach a follow-up class for the same cohort. Then came another crazy idea:
+
+> What if the same students who used `nycOpenData` to not only learn, but also conduct research, contributed to the same infrastructure they utilized?
+
+Basically, what if I helped my students contribute to the `nycOpenData` package?
+
+This would be similar to what a junior software developer might do. Using my code as a template, they could build their own functions for whatever dataset they were interested in. The package already had 30 functions—what's another nine?
+
+Through light introductions to GitHub, package development, and open-source software, each of my students successfully contributed their own function to the `nycOpenData` package. Suddenly, they weren't just users of open-source software—they were contributors.
+
+Good thing I didn't do this last semester.
+
+## `nycOpenData`: rOpenSci
+
+As time progressed, including the student contributions, I became more familiar with package development. Wanting the best product possible, I decided to submit the package to rOpenSci. I was a first-time package developer and wanted guidance from people who had far more experience than I did. I wanted anyone—whether my students or someone using the package halfway around the world—to have the best experience possible. After all, the goal was to make NYC Open Data more accessible for *anyone*.
+
+This ended up being one of the best experiences I've had as a programmer. First of all, they told me exactly what I needed to hear:
+
+> Having 39 functions that basically do the same thing is not only unmanageable, but bad code.
+
+Which is 100% the truth.
+
+And, if I'm being honest, the package itself came about while I was teaching a course on reproducibility. I was literally teaching my students that copy-and-paste was *not* something to do, while I was doing the exact same thing. Sure, I brushed it off because I needed to put something together quickly, but it was time to face the facts and fix it.
+
+With that came good news and bad news. As for every action, there is an equal and opposite reaction:
+
+- The *good* news: I was able to turn the 39 functions into just 3. Now, all 2,000+ datasets can be pulled from the portal. Easier to maintain, easier for users to understand, and overall a much better product.
+- The *bad* news: All of my students' work was now gone. (Sad face.)
+
+Thanks to the hard work of the editor, reviewers, and everyone involved in the review process, `nycOpenData` was successfully accepted into rOpenSci—an incredible privilege. I'm incredibly thankful for all of the time and effort they invested, and I honestly can't believe the journey from where the package started to where it is today.
+
+With the foundation finally built, another thought entered my mind:
+
+> Can we use this same infrastructure for other open data portals?
+
+Turns out, you can!
+
+## The OpenData Ecosystem
+
+With the infrastructure in place, another realization hit me: I never had to build it from scratch again.
+
+The same foundation that powered `nycOpenData` could be adapted to other open data portals, making it possible to create an entire ecosystem of OpenData packages. 
+
+> If students in NYC were helped by using data regarding their own city, why wouldn't the same hold true for students in other cities?
+
+Since then, four additional packages have been built, turning one package into an ecosystem:
+
+- `nysOpenData` — New York State Open Data
+- `mtaOpenData` — Metropolitan Transportation Authority Open Data
+- `laOpenData` — Los Angeles Open Data
+- `chiOpenData` — Chicago Open Data
+
+The ecosystem continues to grow. A former student and I recently collaborated on the `ausOpenData` package (currently under review by CRAN), and a current intern at the [NYC Open Data Lab](https://nycopendatalab.org) is building `sfOpenData`. This not only gives others an opportunity to contribute, but also gives me a chance to continue involving students in the ecosystem after the original `nycOpenData` functions were "refactored."
+
+Hopefully, there are many more to come. The hard part is no longer building packages—it is deciding which open data portal comes next.
+
+## `nycOpenData`: The Final Product
+
+What started as a single function has turned into five OpenData packages, one of which has been successfully peer-reviewed by rOpenSci, with the others built on the same foundation. *Tens of billions* of rows of public data, from across the country, are now easily accessible in R for anyone—from researchers and journalists to students and educators.
+
+Looking back, I think this journey embodies the spirit of R.
+
+One of the best things about R is that it is open source. Anyone with an idea can contribute, and those ideas have a way of growing into something much bigger than originally imagined. This entire ecosystem started because nine graduate students didn't care about the `mtcars` dataset.
+
+On top of that, this was all done for free (and in my family we say, *"If it's for free, it's for me."*)
+
+What started in one virtual classroom ended up bringing together students, educators, reviewers, professionals, interns, and thousands of people who have since installed the packages.
+
+Through this entire process, the biggest lesson learned was:
+
+> Relevance isn't a reward for learning—it is what enables learning.
+
+## To my students
+
+While this story has my name attached to it, it wouldn't exist without students who were willing to try something new, contribute code, ask questions, and occasionally tolerate my crazy ideas. When we started the course, I asked you all to keep an open mind and try something new-and I never would ask you to do something that I wouldn't.
+
+Thank you for trusting me when I asked you to do something different.
+
+## FADE OUT
