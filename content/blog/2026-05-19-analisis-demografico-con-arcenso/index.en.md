@@ -1,10 +1,11 @@
 ---
-title: 'De datos censales a análisis demográficos con ARcenso: un flujo de trabajo reproducible en R'
+title: 'From Census Data to Demographic Analysis with ARcenso: A Reproducible Workflow
+  in R'
 author:
 - Andrea Gomez Vargas
 - Emanuel Ciardullo
-date: "2026-05-19"
-slug: "analisis-demografico-con-arcenso"
+date: '2026-05-19'
+slug: analisis-demografico-con-arcenso
 package_version: 0.2.1
 tags:
 - acceso a datos
@@ -12,35 +13,36 @@ tags:
 - arcenso
 - Argentina
 - packages
-description: 'Cómo acceder y procesar los censos argentinos de 1970 y 1980 desde R'
-socialImg: "blog/2026-05-19-analisis-demografico-con-arcenso/portada-blog.png"
-socialAlt: 'Hex logo de ARcenso sobre documentos históricos de censos argentinos de
-  1970 y 1980'
+description: How to Access and Process the 1970 and 1980 Argentine Censuses Using
+  R
+socialImg: blog/2026-05-19-analisis-demografico-con-arcenso/portada-blog.png
+socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos de
+  1970 y 1980
 editor:
 - Yanina Bellini Saibene
 params:
-  doi: "10.59350/xvqq6-nd376"
+  doi: 10.59350/xvqq6-nd376
 ---
 
-Los censos de población son una fuente clave para comprender cómo se compone y cambia la población en cada territorio del país. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas.
+Population censuses are a key source for understanding the composition and changes in the population across each region of the country. They provide essential evidence for research, the design and evaluation of public policies, and informed decision-making.
 
-Trabajar con estos datos suele implicar varios pasos previos: identificar qué información está disponible, descargar los datos, organizarlos y dejarlos listos para el análisis. Cuando esa información se encuentra dispersa y en formatos heterogéneos, el proceso puede volverse complejo.
+Working with this data typically involves several preliminary steps: identifying what information is available, downloading the data, organizing it, and preparing it for analysis. When that information is scattered and in various formats, the process can become complex.
 
 <br>
 
-{{< figure src="portada-blog.png" width="250" alt="Ilustración del Censo en Argentina con el logo de ARcenso y rOpenSci, un hornero (ave nacional) y material gráfico de los censos de 1970 y 1980." caption="Portada blog ARcenso">}} 
+{{< figure src="portada-blog.png" width="250" alt="Illustration of the Argentine Census featuring the ARcenso and rOpenSci logos, a hornero (the national bird), and graphic material from the 1970 and 1980 censuses."  caption="ARcenso blog homepage" >}} 
 
-[ARcenso](https://soyandrea.github.io/arcenso/) es un paquete desarrollado en el marco del [programa de campeones de rOpenSci](/es/champions/) que surge para facilitar el acceso a datos censales de Argentina y simplificar su análisis.
+[ARcenso](https://soyandrea.github.io/arcenso/)    is a package developed as part of [the     rOpenSci Champions Program](/es/champions/)    designed to facilitate access to Argentine census data and simplify its analysis.
 
-En este artículo, quienes desarrollamos ARcenso mostramos cómo trabajar de forma simple y reproducible con los datos censales históricos disponibles en el paquete.
+In this article, the ARcenso development team demonstrates how to work with the historical census data available in the package in a simple and reproducible way.
 
-El objetivo es realizar un análisis demográfico con los datos nacionales oficiales de los censos de 1970 y 1980 que combina visualizaciones y tablas para explorar la estructura de la población. Es decir, cómo se distribuye según edad y sexo. Este tipo de análisis permite caracterizar cambios poblacionales entre períodos, información clave para la investigación y el diseño de políticas públicas. 
+The goal is to conduct a demographic analysis using official national data from the 1970 and 1980 censuses, combining visualizations and tables to explore the structure of the population. In other words, how the population is distributed by age and sex. This type of analysis allows us to characterize population changes over time—key information for research and the design of public policies.
 
-## ¿Cómo empezar?
+## How to get started?
 
-Para poder copiar y ejecutar el código de este artículo en tu computadora necesitás tener instalados los siguientes paquetes:
+To copy and run the code from this article on your computer, you need to have the following packages installed:
 
-``` r
+```r
 # Si no tenés pak
 install.packages("pak")
 
@@ -51,9 +53,9 @@ pak::pkg_install("soyandrea/arcenso")
 install.packages(c("dplyr", "tidyr", "ggplot2", "gt"))
 ```
 
-Luego, cargamos los paquetes necesarios para trabajar con los datos censales y construir indicadores para el análisis:
+Next, we load the packages needed to work with the census data and build indicators for the analysis:
 
-``` r
+```r
 library(arcenso) # obtención de datos censales
 library(dplyr) # procesamiento de datos
 library(tidyr) # orden y transformación de datos
@@ -61,45 +63,62 @@ library(ggplot2) # diseño de gráficos
 library(gt) # diseño de tablas
 ```
 
-## Acceso a datos censales
+## Access to Census Data
 
-Ahora que ya tenemos los paquetes instalados, utilizamos ARcenso para acceder a los datos censales de los años 1970 y 1980. El paquete permite seleccionar información según el año, el tema y la geografía de interés a partir de los códigos geográficos oficiales definidos por el [Instituto Nacional de Estadística y Censos (INDEC) de Argentina](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41).
+Now that we have the packages installed, we use ARcenso to access census data from the 1970s and 1980s. The package allows us to select information by year, topic, and geographic area of interest based on the official geographic codes defined by the 
+ [     National Institute of Statistics and Censuses (INDEC) of Argentina](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41)   .
 
-En la función `check_repository()`, el argumento `topic` especifíca la temática a consultar (por ejemplo, la estructura de la población), mientras que `geo_code` identifica el dominio geográfico de interés.
+In the function 
+   `check_repository()`   , the argument 
+   `topic`    specifies the topic to be queried (for example, population structure), while 
+ `geo_code`    identifies the geographic area of interest.
 
-Si no conocés los valores disponibles para estos argumentos, podés explorarlos directamente en el paquete: el objeto `geo_metadata` contiene todas las geografías y sus códigos, mientras que `census_metadata` contiene información sobre los temas y los cuadros disponibles en el paquete.
+If you don’t know the available values for these arguments, you can explore them directly in the package: the object 
+   `geo_metadata`    contains all the geographies and their codes, while 
+   `census_metadata`    contains information about the topics and tables available in the package.
 
-En este ejemplo, trabajamos con datos de estructura de la población `(topic = "estructura")` para el total del país `(geo_code = "00")`. Como primer paso, verificamos qué información está disponible en el repositorio con `check_repository()`.
+In this example, we work with population structure data 
+   `(topic = "estructura")`    for the entire country 
+   `(geo_code = "00")`   . As a first step, we check what information is available in the repository using 
+ `check_repository()`   .
 
-``` r
+```r
 check_repository(topic = "estructura", geo_code = "00")
 ```
 
-    # A tibble: 4 × 3
-      id_cuadro              anio titulo                                            
-      <chr>                 <dbl> <chr>                                             
-    1 1970_00_estructura_01  1970 Cuadro 1. Total del país. Población total, por gr…
-    2 1980_00_estructura_01  1980 Cuadro G3. Centros urbanos según tamaño y poblaci…
-    3 1980_00_estructura_02  1980 Cuadro G1. Total del país. Población total según …
-    4 1980_00_estructura_03  1980 Cuadro G2. Total del país. Población según sexo y…
+```
+# A tibble: 4 × 3
+  id_cuadro              anio titulo                                            
+  <chr>                 <dbl> <chr>                                             
+1 1970_00_estructura_01  1970 Cuadro 1. Total del país. Población total, por gr…
+2 1980_00_estructura_01  1980 Cuadro G3. Centros urbanos según tamaño y poblaci…
+3 1980_00_estructura_02  1980 Cuadro G1. Total del país. Población total según …
+4 1980_00_estructura_03  1980 Cuadro G2. Total del país. Población según sexo y…
+```
 
-El resultado de `check_repository()` muestra los años disponibles para esa combinación de tema y geografía, junto con los identificadores de los cuadros (IDs) y su título. A partir de esta consulta, seleccionamos los identificadores `1970_00_estructura_01` y `1980_00_estructura_03`, correspondientes a tabulados sobre la población total del país según sexo y grupo de edad, que utilizaremos en el análisis.
+The result of 
+ `check_repository()`    shows the available years for that combination of topic and geography, along with the table identifiers (IDs) and their titles. Based on this query, we select the identifiers 
+ `1970_00_estructura_01`    and 
+ `1980_00_estructura_03`   , which correspond to tabulations of the country’s total population by sex and age group, and which we will use in the analysis.
 
-> **Bonustrack**: Como alternativa, también es posible explorar los datos de forma interactiva con `arcenso_app()`, desde donde se puede copiar el identificador del cuadro necesario para luego utilizarlo en el análisis.
+> **Bonus Track**     : Alternatively, you can also explore the data interactively using 
+ `arcenso_app()`     , where you can copy the ID of the table you need and then use it in your analysis.
 
-{{< figure src="shiny_arcenso.es.png" width="600" alt="Aplicación Shiny ARcenso: Consulta de Datos Censales con filtros por año, alcance geográfico y temática, mostrando tabla de alfabetismo 1970." class="pull-left" caption="Explorador interactivo de datos censales con `arcenso_app()`" >}}
+{{< figure src="shiny_arcenso.es.png" width="600" alt="Shiny ARcenso Application: View census data filtered by year, geographic scope, and topic, displaying the 1970 literacy table."  class="pull-left" caption="Interactive census data explorer with 
+ `arcenso_app()`   "  >}}
 
-## Preparación de los datos
+## Data Preparation
 
-Una vez identificados los cuadros de interés, utilizamos `get_census()` para incorporarlos directamente al entorno de trabajo a partir de su identificador.
+Once the tables of interest have been identified, we use 
+ `get_census()`    to import them directly into the workspace using their identifiers.
 
-Dado que las estructuras de ambas tablas no son idénticas, realizamos algunas transformaciones para armonizar las variables y construir una base comparable entre censos. En particular, recodificamos las categorías etarias en grupos quinquenales para que tengan una estructura común y agregamos una columna que identifica el año censal.
+Since the structures of the two tables are not identical, we performed some transformations to harmonize the variables and create a comparable basis across censuses. In particular, we recoded the age categories into five-year groups to ensure a common structure and added a column identifying the census year.
 
-### Censo 1970
+### 1970 Census
 
-En el caso del censo de 1970, la información ya se encuentra agrupada en grupos quinquenales de edad, por lo que solo es necesario ajustar el formato de algunas etiquetas y conservar las variables relevantes para el análisis.
+In the case of the 1970 census, the data is already grouped into five-year age groups, so we only need to adjust the format of some labels and retain the variables relevant to the analysis.
 
-``` r
+```r
 # Total del país
 poblacion_1970 <- get_census(id = "1970_00_estructura_01")
 
@@ -117,11 +136,11 @@ pob_1970 <- poblacion_1970 |>
   select(censo, sexo, grupo_edad, poblacion)
 ```
 
-### Censo 1980
+### 1980 Census
 
-El cuadro de 1980, en cambio, presenta la edad en valores simples y añade información adicional que no es relevante para este análisis, por lo que es necesario seleccionar las categorías de interés y construir los grupos quinquenales de edad (intervalos de 5 años) para hacerlos comparables con los de 1970.
+The 1980 table, on the other hand, presents age as single values and includes additional information that is not relevant to this analysis; therefore, it is necessary to select the categories of interest and construct five-year age groups (5-year intervals) to make them comparable with those from 1970.
 
-``` r
+```r
 poblacion_1980 <- get_census(id = "1980_00_estructura_03")
 
 pob_1980 <- poblacion_1980 |>
@@ -153,11 +172,11 @@ pob_1980 <- poblacion_1980 |>
   select(censo, sexo, grupo_edad, poblacion)
 ```
 
-### Construcción de la base integrada
+### Building the Integrated Database
 
-Una vez procesados ambos cuadros, unimos la información en una sola tabla y definimos el formato final de las variables, dejándolas listas para construir visualizaciones y explorar indicadores demográficos.
+Once both tables have been processed, we combine the information into a single table and define the final format of the variables, preparing them for creating visualizations and exploring demographic indicators.
 
-``` r
+```r
 # Unimos ambas geografías y dejamos variables listas para trabajar
 poblacion <-
   bind_rows(
@@ -193,11 +212,11 @@ poblacion <-
   )
 ```
 
-## Estructura de la población
+## Population Structure
 
-Ahora que contamos con una estructura de datos que combina ambos censos y organiza los absolutos poblacionales por año censal, sexo y grupo de edad, podemos comparar de manera consistente la composición de la población entre distintos momentos en el tiempo.
+Now that we have a data structure that combines both censuses and organizes population totals by census year, sex, and age group, we can consistently compare the composition of the population across different points in time.
 
-``` r
+```r
 head(poblacion)
 
 
@@ -212,18 +231,18 @@ head(poblacion)
     6  1970 Mujeres 10-14        1086850
 ```
 
-La organización de la población por sexo y grupos quinquenales de edad permite analizar su estructura mediante distintas
-visualizaciones. En este caso, utilizamos una pirámide poblacional, que facilita la lectura conjunta de ambas dimensiones.
+Organizing the population by sex and five-year age groups allows us to analyze its structure using various
+   visualizations. In this case, we use a population pyramid, which makes it easier to interpret both dimensions together.
 
-### Pirámide poblacional
+### Population pyramid
 
-Este tipo de gráfico permite representar la distribución de la población por edad y sexo de manera simultánea, ubicando habitualmente a los varones hacia la izquierda y a las mujeres hacia la derecha. A partir de la proporción de personas en cada grupo de edad quinquenal, la pirámide resume la composición de la población en un formato visual fácil de interpretar.
+This type of chart allows us to represent the distribution of the population by age and sex simultaneously, typically placing males on the left and females on the right. Based on the proportion of people in each five-year age group, the pyramid summarizes the composition of the population in a visual format that is easy to interpret.
 
-En este caso, calculamos la distribución relativa de la población dentro de cada censo, lo que permite comparar la estructura poblacional entre 1970 y 1980 independientemente del tamaño total. Además, la forma de la pirámide permite identificar características generales, como una mayor concentración en edades jóvenes o un perfil relativamente más envejecido.
+In this case, we calculated the relative distribution of the population within each census, which allows us to compare the population structure between 1970 and 1980 regardless of total population size. In addition, the shape of the pyramid allows us to identify general characteristics, such as a higher concentration of younger age groups or a relatively older population profile.
 
-A continuación, calculamos la distribución relativa de la población en cada censo y construimos una pirámide poblacional para comparar ambos años.
+Next, we calculated the relative distribution of the population in each census and constructed a population pyramid to compare the two years.
 
-``` r
+```r
 # Base para la pirámide poblacional
 piramide <- poblacion |>
   group_by(censo, sexo) |>
@@ -262,19 +281,19 @@ piramide |>
   )
 ```
 
-{{< figure src="piramide_poblacional_1.png" alt="Pirámides poblacionales que comparan la distribución por edad y sexo en Argentina entre 1970 y 1980. Se observa una base más estrecha en 1980 y un leve aumento relativo de la población en edades adultas y mayores, con diferencias entre varones y mujeres.">}}
+{{< figure src="piramide_poblacional_1.png" alt="Population pyramids comparing the distribution by age and sex in Argentina between 1970 and 1980. A narrower base is observed in 1980, along with a slight relative increase in the adult and older adult populations, with differences between men and women." >}}
 
-En ambos censos se observa una estructura poblacional joven, con una alta concentración en los primeros grupos de edad. No obstante, hacia 1980 comienza a evidenciarse un ligero desplazamiento hacia edades adultas, indicando un incipiente proceso de envejecimiento de la población.
+Both censuses show a young population structure, with a high concentration in the younger age groups. However, by 1980, a slight shift toward adult ages begins to emerge, indicating an incipient process of population aging.
 
-## Construcción de indicadores demográficos
+## Construction of Demographic Indicators
 
-Si bien la pirámide poblacional permite una lectura general de la estructura de la población, los indicadores demográficos ofrecen medidas sintéticas que permiten cuantificar y comparar estos patrones de manera más precisa. A continuación, calculamos dos indicadores para profundizar el análisis.
+While the population pyramid provides a general overview of the population structure, demographic indicators offer summary measures that allow for a more precise quantification and comparison of these patterns. Next, we calculate two indicators to deepen the analysis.
 
-### Índice de envejecimiento
+### Ageing Index
 
-Compara la cantidad de personas mayores (65 años y más) con la población más joven (0 a 14 años). Permite ver de forma simple si la población tiene más peso en las edades jóvenes o en las edades más avanzadas.
+This compares the number of older adults (aged 65 and older) with the younger population (ages 0 to 14). It provides a simple way to see whether the population is weighted more toward younger age groups or older age groups.
 
-``` r
+```r
 envejecimiento <- poblacion |>
   group_by(censo) |>
   summarise(
@@ -713,48 +732,48 @@ gt(envejecimiento) |>
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
   <thead>
     <tr class="gt_heading">
-      <td colspan="4" class="gt_heading gt_title gt_font_normal" style>Comparación del índice de envejecimiento</td>
+      <td colspan="4" class="gt_heading gt_title gt_font_normal" style>Aging Index Comparison</td>
     </tr>
     <tr class="gt_heading">
-      <td colspan="4" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style>Argentina. Años 1970 y 1980</td>
+      <td colspan="4" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style>Argentina. 1970s and 1980s</td>
     </tr>
     <tr class="gt_col_headings gt_spanner_row">
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="2" colspan="1" scope="col" id="censo">censo</th>
-      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="2" scope="colgroup" id="Población">
-        <div class="gt_column_spanner">Población</div>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="2" colspan="1" scope="col" id="censo">Census</th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="2" scope="colgroup" id="Population">
+        <div class="gt_column_spanner">Population</div>
       </th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="2" colspan="1" scope="col" id="indice">Indice</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="2" colspan="1" scope="col" id="index">Index</th>
     </tr>
     <tr class="gt_col_headings">
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="poblacion_0a14">0 a 14 años</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="poblacion_65ymas">65 años y más</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="population_0to14">Ages 0 to 14</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="population_65andover">65 years and older</th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
-    <tr><td headers="censo" class="gt_row gt_right">1970</td>
-<td headers="poblacion_0a14" class="gt_row gt_right">6.853.450</td>
-<td headers="poblacion_65ymas" class="gt_row gt_right">1.631.400</td>
-<td headers="indice" class="gt_row gt_right">24</td></tr>
-    <tr><td headers="censo" class="gt_row gt_right">1980</td>
-<td headers="poblacion_0a14" class="gt_row gt_right">8.480.768</td>
-<td headers="poblacion_65ymas" class="gt_row gt_right">2.290.564</td>
-<td headers="indice" class="gt_row gt_right">27</td></tr>
+    <tr><td headers="census" class="gt_row gt_right">1970</td>
+<td headers="population_0to14" class="gt_row gt_right">6,853,450</td>
+<td headers="population_65andover" class="gt_row gt_right">1,631,400</td>
+<td headers="index" class="gt_row gt_right">24</td></tr>
+    <tr><td headers="census" class="gt_row gt_right">1980</td>
+<td headers="population_0to14" class="gt_row gt_right">8,480,768</td>
+<td headers="population_65_and_over" class="gt_row gt_right">2,290,564</td>
+<td headers="index" class="gt_row gt_right">27</td></tr>
   </tbody>
   <tfoot>
     <tr class="gt_sourcenotes">
-      <td class="gt_sourcenote" colspan="4"><span class='gt_from_md'><strong>Fuente:</strong> elaboración propia en base a datos de INDEC (Censos Nacionales de Población 1970 y 1980).</span></td>
+      <td class="gt_sourcenote" colspan="4"><span class='gt_from_md'><strong>Source:</strong> Author’s own calculations based on INDEC data (1970 and 1980 National Population Censuses).</span></td>
     </tr>
   </tfoot>
 </table>
 </div>
 
-El aumento del índice de envejecimiento refleja un cambio en la estructura etaria entre 1970 y 1980, lo que indica un mayor peso relativo de la población de 65 años y más en relación con la población joven, es decir, una población relativamente más envejecida.
+The increase in the aging index reflects a change in the age structure between 1970 and 1980, indicating a greater relative share of the population aged 65 and older compared to the younger population—that is, a relatively older population.
 
-### Índice de feminidad
+### Female-to-Male Ratio
 
-Este indicador muestra cuántas mujeres hay por cada 100 varones en un grupo especifico de población. En este caso, lo analizamos en edades mayores a 60 años, donde suelen aparecer diferencias más marcadas entre hombres y mujeres.
+This indicator shows how many women there are for every 100 men in a specific population group. In this case, we analyze it for those aged 60 and older, where more pronounced differences between men and women typically emerge.
 
-``` r
+```r
 feminidad <- poblacion |>
   filter(
     grupo_edad %in% c("60-64", "65-69", "70-74", "75-79", "80-84", "85 y más")
@@ -812,16 +831,23 @@ feminidad_plot <- feminidad |>
 feminidad_plot
 ```
 
-{{< figure src="indice_feminidad.png" alt="Gráfico que compara el índice de feminidad (mujeres por cada 100 varones) en la población de 60 años y más entre 1970 y 1980, por grupos quinquenales de edad. En todos los grupos se observa un aumento del índice, con valores más altos en las edades más avanzadas, lo que indica una mayor presencia relativa de mujeres.">}}
+{{< figure src="indice_feminidad.png" alt="Graph comparing the sex ratio (women per 100 men) in the population aged 60 and older between 1970 and 1980, by five-year age groups. An increase in the ratio is observed across all age groups, with higher values among older age groups, indicating a relatively higher proportion of women." >}}
 
-El índice de feminidad muestra una mayor presencia de mujeres en las edades más avanzadas, diferencia que se acentúa entre 1970 y 1980 en todos los grupos de edad analizados, lo que refleja patrones de mayor supervivencia femenina.
+The sex ratio shows a higher proportion of women in older age groups, a difference that becomes more pronounced between 1970 and 1980 across all age groups analyzed, reflecting patterns of higher female life expectancy.
 
-## ¿Qué nos deja este análisis?
+## What does this analysis tell us?
 
-Al trabajar con datos en análisis demográfico, la parte más laboriosa no suele estar en la construcción de indicadores o visualizaciones, sino en todo lo que ocurre antes: identificar qué información existe para cada censo, comprender cómo está organizada y construir una base coherente que permita comparar distintos momentos en el tiempo.
+When working with data in demographic analysis, the most labor-intensive part is not usually the construction of indicators or visualizations, but rather everything that happens beforehand: identifying what information is available for each census, understanding how it is organized, and building a coherent framework that allows for comparisons across different points in time.
 
-En este ejemplo, eso proceso implicó localizar los cuadros relevantes, entender las diferencias de estructura entre los censos de 1970 y 1980 y reconstruir variables a partir de la información disponible. Es justamente este proceso el que ARcenso busca simplificar: con `check_repository()` es posible identificar qué tablas están disponibles, con `get_census()` acceder a los datos de forma estructurada, y con `arcenso_app()` explorar el repositorio de manera interactiva.
+In this example, that process involved locating the relevant tables, understanding the structural differences between the 1970 and 1980 censuses, and reconstructing variables based on the available information. It is precisely this process that ARcenso aims to simplify: with 
+   `check_repository()`    you can identify which tables are available; with 
+   `get_census()`    you can access the data in a structured way; and with 
+   `arcenso_app()`    you can explore the repository interactively.
 
-Este ejemplo muestra que, una vez resuelta la organización de los datos, el análisis se vuelve más accesible y reproducible, permitiendo ampliar y adaptar los resultados a nuevas preguntas.
+This example shows that, once the data has been organized, the analysis becomes more accessible and reproducible, allowing the results to be expanded and adapted to new questions.
 
-Sabemos que este es un proceso en construcción: aún hay trabajo por delante para incorporar más censos y seguir ampliando las posibilidades de análisis. ARcenso nace de esa necesidad de ordenar y hacer accesibles datos que no siempre lo están, y también del trabajo colaborativo de la comunidad que impulsa este tipo de iniciativas. Si te interesa seguir explorando, en las [*vignettes*](https://soyandrea.github.io/arcenso/articles/indicadores_demograficos.html) del paquete vas a encontrar más ejemplos para trabajar con estos datos.
+We know this is a work in progress: there is still work ahead to incorporate more censuses and continue expanding the possibilities for analysis. ARcenso was born out of the need to organize and make accessible data that isn’t always readily available, as well as from the collaborative efforts of the community that drives these types of initiatives. If you’re interested in exploring further, check out the 
+   [*vignettes*](https://soyandrea.github.io/arcenso/articles/indicadores_demograficos.html) 
+     in the package, you’ll find more examples of how to work with this data.
+
+
