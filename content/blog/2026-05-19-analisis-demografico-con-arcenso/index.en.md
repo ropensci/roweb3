@@ -32,7 +32,7 @@ Working with census data typically involves several preliminary steps: identifyi
 
 <br>
 
-{{< figure src="portada-blog.png" width="250" alt="Illustration of the Argentine Census featuring the ARcenso and rOpenSci logos, a hornero (the national bird), and graphic material from the 1970 and 1980 censuses."  caption="ARcenso blog homepage" >}} 
+{{< figure src="portada-blog.png" alt="Illustration of the Argentine Census featuring the ARcenso and rOpenSci logos, a hornero (the national bird), and graphic material from the 1970 and 1980 censuses."  caption="ARcenso blog homepage" >}} 
 
 [ARcenso](https://soyandrea.github.io/arcenso/) is an R package developed as part of [the     rOpenSci Champions Program](/es/champions/) to facilitate access to Argentine census data and simplify its analysis.
 
@@ -95,7 +95,7 @@ The output of `check_repository()` lists the available years for the selected co
 
 > **Tip**: You can also explore the available data interactively using `arcenso_app()`. Once you find the table you need, simply copy its ID and use it in your analysis.
 
-{{< figure src="shiny_arcenso.es.png" width="600" alt="Shiny ARcenso Application: View census data filtered by year, geographic scope, and topic, displaying the 1970 literacy table."  class="pull-left" caption="Interactive census data explorer with `arcenso_app()`"  >}}
+{{< figure src="shiny_arcenso.es.png" alt="Shiny ARcenso Application: View census data filtered by year, geographic scope, and topic, displaying the 1970 literacy table." caption="Interactive census data explorer with `arcenso_app()`"  >}}
 
 ## Data Preparation
 
@@ -269,7 +269,7 @@ piramide |>
   )
 ```
 
-{{< figure src="piramide_poblacional_1.png" alt="Population pyramids comparing the distribution by age and sex in Argentina between 1970 and 1980. A narrower base is observed in 1980, along with a slight relative increase in the adult and older adult populations, with differences between men and women." >}}
+{{< figure src="piramide_poblacional_1.png" alt="Population pyramids comparing the distribution by age and sex in Argentina between 1970 and 1980. A narrower base is observed in 1980, along with a slight relative increase in the adult and older adult populations, with differences between men and women." caption="Figure 1. Population structure by sex and five-year age group. Argentina. Year 1970 and 1980. Source: INDEC, Censo Nacional de Población 1970 y 1980. Processed with ARcenso.">}}
 
 Both censuses show a young population structure, with a high concentration of people in the younger age groups. However, by 1980, a slight shift towards the adult age groups is already apparent, suggesting the early stages of population ageing.
 
@@ -819,7 +819,7 @@ feminidad_plot <- feminidad |>
 feminidad_plot
 ```
 
-{{< figure src="indice_feminidad.png" alt="Graph comparing the sex ratio (women per 100 men) in the population aged 60 and older between 1970 and 1980, by five-year age groups. An increase in the ratio is observed across all age groups, with higher values among older age groups, indicating a relatively higher proportion of women." >}}
+{{< figure src="indice_feminidad.png" alt="Graph comparing the sex ratio (women per 100 men) in the population aged 60 and older between 1970 and 1980, by five-year age groups. An increase in the ratio is observed across all age groups, with higher values among older age groups, indicating a relatively higher proportion of women." caption="Change in the female-to-male ratio among the population aged 60 and older. Argentina. Year 1970 and 1980. Source: INDEC, Censo Nacional de Población 1970 y 1980. Processed with ARcenso.">}}
 
 The female-to-male ratio shows a higher proportion of women in the older age groups. This difference becomes more pronounced between 1970 and 1980 across all the age groups analysed, reflecting patterns of higher female life expectancy.
 
