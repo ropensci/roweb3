@@ -65,9 +65,9 @@ library(gt) # diseño de tablas
 
 Ahora que ya tenemos los paquetes instalados, utilizamos ARcenso para acceder a los datos censales de los años 1970 y 1980. El paquete permite seleccionar información según el año, el tema y la geografía de interés a partir de los códigos geográficos oficiales definidos por el [Instituto Nacional de Estadística y Censos (INDEC) de Argentina](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41).
 
-En la función `check_repository()`, el argumento `topic` especifíca la temática a consultar (por ejemplo, la estructura de la población), mientras que `geo_code` identifica el dominio geográfico de interés.
+La función `check_repository()` ayuda a identificar los datos incluidos en el paquete. El argumento `topic` especifíca la temática a consultar (por ejemplo, la estructura de la población), mientras que `geo_code` identifica el dominio geográfico de interés.
 
-Si no conocés los valores disponibles para estos argumentos, podés explorarlos directamente en el paquete: el objeto `geo_metadata` contiene todas las geografías y sus códigos, mientras que `census_metadata` contiene información sobre los temas y los cuadros disponibles en el paquete.
+Si no conocés los valores disponibles para estos argumentos, podés explorarlos directamente en los metadatos del paquete: el objeto `geo_metadata` contiene todas las geografías y sus códigos, mientras que `census_metadata` contiene información sobre los temas y los cuadros disponibles en el paquete.
 
 En este ejemplo, trabajamos con datos de estructura de la población `(topic = "estructura")` para el total del país `(geo_code = "00")`. Como primer paso, verificamos qué información está disponible en el repositorio con `check_repository()`.
 

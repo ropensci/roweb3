@@ -40,49 +40,42 @@ In this article, the ARcenso development team demonstrates how to work with the 
 
 The goal is to conduct a demographic analysis using official national data from the 1970 and 1980 censuses, combining visualisations and tables to explore the structure of the population—that is, how it is distributed by age and sex. This type of analysis helps characterise demographic changes over time, providing key information for research and the design of public policies.
 
-## How to get started?
+## Getting started
 
-To copy and run the code from this article on your computer, you need to have the following packages installed:
+To run the code examples from this article on your own computer, make sure you have the following packages installed:
 
 ```r
-# Si no tenés pak
+# If you don't have pak installed
 install.packages("pak")
 
-# Instalar ARcenso desde GitHub
+# Install ARcenso from GitHub
 pak::pkg_install("soyandrea/arcenso")
 
-# Instalar paquetes necesarios desde CRAN
+# Install the required packages from CRAN
 install.packages(c("dplyr", "tidyr", "ggplot2", "gt"))
 ```
 
 Next, we load the packages needed to work with the census data and build indicators for the analysis:
 
 ```r
-library(arcenso) # obtención de datos censales
-library(dplyr) # procesamiento de datos
-library(tidyr) # orden y transformación de datos
-library(ggplot2) # diseño de gráficos
-library(gt) # diseño de tablas
+library(arcenso)   # access census data
+library(dplyr)     # data manipulation
+library(tidyr)     # data tidying and transformation
+library(ggplot2)   # data visualisation
+library(gt)        # table formatting
 ```
 
-## Access to Census Data
+## Accessing census data
 
-Now that we have the packages installed, we use ARcenso to access census data from the 1970s and 1980s. The package allows us to select information by year, topic, and geographic area of interest based on the official geographic codes defined by the 
+Now that the required packages are installed and loaded, we can use ARcenso to access census data from the 1970 and 1980 censuses. The package allows users to retrieve information by census year, topic, and geographic area of interest, using the official geographic codes defined by the
  [     National Institute of Statistics and Censuses (INDEC) of Argentina](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41)   .
 
-In the function 
-   `check_repository()`   , the argument 
-   `topic`    specifies the topic to be queried (for example, population structure), while 
- `geo_code`    identifies the geographic area of interest.
+The `check_repository()` function helps identify the datasets available in the package. The `topic` argument specifies the subject of interest (for example, population structure), while `geo_code` identifies the geographic area.
 
-If you don’t know the available values for these arguments, you can explore them directly in the package: the object 
-   `geo_metadata`    contains all the geographies and their codes, while 
-   `census_metadata`    contains information about the topics and tables available in the package.
+If you are unsure which values are available for these arguments, you can explore the package metadata. The `geo_metadata` object contains the available geographic areas and their corresponding codes, while `census_metadata` provides information about the topics and tables included in the package.
 
-In this example, we work with population structure data 
-   `(topic = "estructura")`    for the entire country 
-   `(geo_code = "00")`   . As a first step, we check what information is available in the repository using 
- `check_repository()`   .
+In this example, we use population structure data (`topic = "estructura"`) for the entire country (`geo_code = "00"`). As a first step, we use `check_repository()` to see which datasets are available.
+
 
 ```r
 check_repository(topic = "estructura", geo_code = "00")
