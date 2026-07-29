@@ -97,7 +97,7 @@ The output of `check_repository()` lists the available years for the selected co
 
 {{< figure src="shiny_arcenso.es.png" alt="Shiny ARcenso Application: View census data filtered by year, geographic scope, and topic, displaying the 1970 literacy table." caption="Interactive census data explorer with `arcenso_app()`"  >}}
 
-## Data Preparation
+## Data preparation
 
 Once the tables of interest have been identified, we use `get_census()` to import them directly into the R session using their table identifiers.
 
@@ -201,7 +201,7 @@ poblacion <-
   )
 ```
 
-## Population Structure
+## Population structure
 
 Now that we have a dataset combining both censuses, with population totals organised by census year, sex, and age group, we can consistently compare the population composition across the two census years.
 
@@ -273,11 +273,11 @@ piramide |>
 
 Both censuses show a young population structure, with a high concentration of people in the younger age groups. However, by 1980, a slight shift towards the adult age groups is already apparent, suggesting the early stages of population ageing.
 
-## Construction of Demographic Indicators
+## Construction of demographic indicators
 
 While the population pyramid provides an overall view of the population structure, demographic indicators offer summary measures that allow these patterns to be quantified and compared more precisely. In this section, we calculate two commonly used indicators to complement the visual analysis.
 
-### Ageing Index
+### Ageing index
 
 The ageing index compares the number of older adults (aged 65 years and over) with the number of children (aged 0–14 years). It provides a simple way to see whether the population is weighted more toward younger age groups or older age groups.
 
@@ -757,7 +757,7 @@ gt(envejecimiento) |>
 
 The increase in the ageing index reflects a change in the population age structure between 1970 and 1980, indicating a larger relative share of people aged 65 years and over compared with the younger population. This suggests a gradual ageing of the population.
 
-### Female-to-Male Ratio
+### Female-to-Male ratio
 
 This indicator shows how many women there are for every 100 men in a specific population group. Here, we calculate it for people aged 60 years and over, where differences between women and men tend to become more pronounced.
 
