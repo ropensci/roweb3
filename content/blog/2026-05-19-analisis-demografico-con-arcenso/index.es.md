@@ -22,7 +22,7 @@ params:
   doi: "10.59350/xvqq6-nd376"
 ---
 
-Los censos de población son una fuente clave para comprender cómo se compone y cambia la población en cada territorio del país. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas.
+Los censos de población son una fuente clave para comprender la composición y los cambios de la población en cada región de un país. Aportan evidencia fundamental para la investigación, el diseño y la evaluación de políticas públicas, así como para la toma de decisiones informadas.
 
 Trabajar con estos datos suele implicar varios pasos previos: identificar qué información está disponible, descargar los datos, organizarlos y dejarlos listos para el análisis. Cuando esa información se encuentra dispersa y en formatos heterogéneos, el proceso puede volverse complejo.
 

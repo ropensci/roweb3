@@ -20,13 +20,15 @@ socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos
   1970 y 1980
 editor:
 - Yanina Bellini Saibene
+translator:
+- Yanina Bellini Saibene
 params:
-  doi: 10.59350/xvqq6-nd376
+  doi: 10.59350/2k3fg-s7b57
 ---
 
-Population censuses are a key source for understanding the composition and changes in the population across each region of the country. They provide essential evidence for research, the design and evaluation of public policies, and informed decision-making.
+Population censuses are a key source of information for understanding the composition of populations and how they change across regions within a country. They provide essential evidence for research, the design and evaluation of public policies, and informed decision-making.
 
-Working with this data typically involves several preliminary steps: identifying what information is available, downloading the data, organizing it, and preparing it for analysis. When that information is scattered and in various formats, the process can become complex.
+Working with census data typically involves several preliminary steps: identifying what information is available, downloading the data, organizing it, and preparing it for analysis. When this information is scattered across multiple sources and provided in different formats, the process can become complex.
 
 <br>
 
