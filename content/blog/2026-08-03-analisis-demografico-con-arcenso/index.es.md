@@ -3,7 +3,7 @@ title: 'De datos censales a análisis demográficos con ARcenso: un flujo de tra
 author:
 - Andrea Gomez Vargas
 - Emanuel Ciardullo
-date: "2026-05-19"
+date: "2026-08-03"
 slug: "analisis-demografico-con-arcenso"
 package_version: 0.2.1
 tags:
