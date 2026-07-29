@@ -97,7 +97,7 @@ Dado que las estructuras de ambas tablas no son idénticas, realizamos algunas t
 
 ### Censo 1970
 
-En el caso del censo de 1970, la información ya se encuentra agrupada en grupos quinquenales de edad, por lo que solo es necesario ajustar el formato de algunas etiquetas y conservar las variables relevantes para el análisis.
+En el caso del censo de 1970, la información ya se encuentra agrupada en grupos quinquenales (intervalos de 5 años) de edad, por lo que solo es necesario ajustar el formato de algunas etiquetas y conservar las variables relevantes para el análisis.
 
 ``` r
 # Total del país
@@ -119,7 +119,7 @@ pob_1970 <- poblacion_1970 |>
 
 ### Censo 1980
 
-El cuadro de 1980, en cambio, presenta la edad en valores simples y añade información adicional que no es relevante para este análisis, por lo que es necesario seleccionar las categorías de interés y construir los grupos quinquenales de edad (intervalos de 5 años) para hacerlos comparables con los de 1970.
+El cuadro de 1980, en cambio, presenta la edad en valores simples y añade información adicional que no es relevante para este análisis, por lo que es necesario seleccionar las categorías de interés y construir los grupos quinquenales de edad para hacerlos comparables con los de 1970.
 
 ``` r
 poblacion_1980 <- get_census(id = "1980_00_estructura_03")
@@ -195,7 +195,7 @@ poblacion <-
 
 ## Estructura de la población
 
-Ahora que contamos con una estructura de datos que combina ambos censos y organiza los absolutos poblacionales por año censal, sexo y grupo de edad, podemos comparar de manera consistente la composición de la población entre distintos momentos en el tiempo.
+Ahora que contamos con un conjunto de datos que combina ambos censos y organiza los absolutos poblacionales por año censal, sexo y grupo de edad, podemos comparar de manera consistente la composición de la población entre los dos años de los censos.
 
 ``` r
 head(poblacion)
@@ -212,8 +212,7 @@ head(poblacion)
     6  1970 Mujeres 10-14        1086850
 ```
 
-La organización de la población por sexo y grupos quinquenales de edad permite analizar su estructura mediante distintas
-visualizaciones. En este caso, utilizamos una pirámide poblacional, que facilita la lectura conjunta de ambas dimensiones.
+La organización de la población por sexo y grupos quinquenales de edad permite analizar su estructura mediante distintas visualizaciones. En este caso, utilizamos una pirámide poblacional, que facilita la lectura conjunta de ambas dimensiones.
 
 ### Pirámide poblacional
 

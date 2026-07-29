@@ -105,10 +105,10 @@ As the structures of the two tables are not identical, we perform a series of tr
 
 ### 1970 Census
 
-In the case of the 1970 census, the data is already grouped into five-year age groups, so we only need to adjust the format of some labels and retain the variables relevant to the analysis.
+For the 1970 census, the data are already grouped into five-year age groups, so we only need to adjust the format of some labels and keep the variables relevant to the analysis.
 
 ```r
-# Total del país
+# Country Total
 poblacion_1970 <- get_census(id = "1970_00_estructura_01")
 
 pob_1970 <- poblacion_1970 |>
@@ -127,7 +127,7 @@ pob_1970 <- poblacion_1970 |>
 
 ### 1980 Census
 
-The 1980 table, on the other hand, presents age as single values and includes additional information that is not relevant to this analysis; therefore, it is necessary to select the categories of interest and construct five-year age groups (5-year intervals) to make them comparable with those from 1970.
+In contrast, the 1980 census table reports age as single years and includes additional information that is not relevant to this analysis. We therefore select the categories of interest and aggregate the data into five-year age groups to make them comparable with the 1970 census.
 
 ```r
 poblacion_1980 <- get_census(id = "1980_00_estructura_03")
@@ -161,12 +161,12 @@ pob_1980 <- poblacion_1980 |>
   select(censo, sexo, grupo_edad, poblacion)
 ```
 
-### Building the Integrated Database
+### Building the integrated database
 
-Once both tables have been processed, we combine the information into a single table and define the final format of the variables, preparing them for creating visualizations and exploring demographic indicators.
+Once both tables have been processed, we combine them into a single dataset and define the final structure of the variables, preparing the data for visualisation and the analysis of demographic indicators.
 
 ```r
-# Unimos ambas geografías y dejamos variables listas para trabajar
+# We combine both geographic areas and prepare the variables for use
 poblacion <-
   bind_rows(
     pob_1970,
@@ -203,7 +203,7 @@ poblacion <-
 
 ## Population Structure
 
-Now that we have a data structure that combines both censuses and organizes population totals by census year, sex, and age group, we can consistently compare the composition of the population across different points in time.
+Now that we have a dataset combining both censuses, with population totals organised by census year, sex, and age group, we can consistently compare the population composition across the two census years.
 
 ```r
 head(poblacion)
@@ -220,19 +220,18 @@ head(poblacion)
     6  1970 Mujeres 10-14        1086850
 ```
 
-Organizing the population by sex and five-year age groups allows us to analyze its structure using various
-   visualizations. In this case, we use a population pyramid, which makes it easier to interpret both dimensions together.
+Organising the population by sex and five-year age groups allows us to analyse its structure using a variety of visualisations. In this case, we use a population pyramid, which makes it easier to interpret both dimensions together.
 
 ### Population pyramid
 
-This type of chart allows us to represent the distribution of the population by age and sex simultaneously, typically placing males on the left and females on the right. Based on the proportion of people in each five-year age group, the pyramid summarizes the composition of the population in a visual format that is easy to interpret.
+A population pyramid displays the distribution of the population by age and sex simultaneously, typically showing males on the left and females on the right. By representing the proportion of people in each five-year age group, it provides a clear visual summary of the population structure.
 
-In this case, we calculated the relative distribution of the population within each census, which allows us to compare the population structure between 1970 and 1980 regardless of total population size. In addition, the shape of the pyramid allows us to identify general characteristics, such as a higher concentration of younger age groups or a relatively older population profile.
+In this case, we calculated the relative distribution of the population within each census, allowing us to compare the population structure between 1970 and 1980 regardless of total population size. The shape of the pyramid also allows us to identify broad demographic patterns, such as a higher concentration of younger age groups or a relatively older population profile.
 
-Next, we calculated the relative distribution of the population in each census and constructed a population pyramid to compare the two years.
+We then calculated the relative distribution of the population in each census and constructed a population pyramid to compare the population structure of the two censuses.
 
 ```r
-# Base para la pirámide poblacional
+# Dataset for the Population Pyramid
 piramide <- poblacion |>
   group_by(censo, sexo) |>
   mutate(
@@ -244,7 +243,7 @@ piramide <- poblacion |>
   ) |>
   ungroup()
 
-# Pirámide comparativa
+# Comparison Pyramid
 piramide |>
   ggplot(aes(x = poblacion_rel, y = grupo_edad, fill = sexo)) +
   geom_col() +
@@ -256,11 +255,11 @@ piramide |>
     breaks = seq(-0.15, 0.15, by = 0.05)
   ) +
   labs(
-    title = "Gráfico 1. Estructura de la población por sexo y grupo quinquenal de edad.",
-    subtitle = "Argentina. Años 1970 y 1980",
-    x = "Porcentaje",
-    y = "Grupo quinquenal de edad",
-    caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con ARcenso.",
+    title = "Figure 1. Population structure by sex and five-year age group.",
+    subtitle = "Argentina. Year 1970 and 1980",
+    x = "Percentage",
+    y = "Five-year age group",
+    caption = "Source: INDEC, Censo Nacional de Población 1970 y 1980. Processed with ARcenso.",
     fill = "Sexo"
   ) +
   theme_bw() +
