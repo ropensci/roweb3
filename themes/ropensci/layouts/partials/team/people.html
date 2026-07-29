@@ -1,6 +1,6 @@
 <div class="align-content-start" style="margin-bottom:2rem;">
-    {{ $leaders := (shuffle (where .Site.Data.team.team "leads" "intersect" (slice .project)))}}
-    {{ $team := (shuffle (where .Site.Data.team.team "participates" "intersect" (slice .project)))}}
+    {{ $leaders := (shuffle (where hugo.Data.team.team "leads" "intersect" (slice .project)))}}
+    {{ $team := (shuffle (where hugo.Data.team.team "participates" "intersect" (slice .project)))}}
     {{$pages := .Site.Pages.ByPublishDate.Reverse}}
     <h4>{{ i18n "Staff" }}</h4>
     {{ range $leaders}}

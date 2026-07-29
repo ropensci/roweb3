@@ -1,0 +1,9 @@
+extends: existence
+message: "Use a relative links for rOpenSci pages: Remove '%s'"
+level: warning
+scope: raw
+nonword: true
+action:
+  name: remove
+tokens:
+  - 'https?://ropensci\.org'

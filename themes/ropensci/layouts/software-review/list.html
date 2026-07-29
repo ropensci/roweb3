@@ -15,7 +15,7 @@
         </div>
 
         <h2 class="title mt-5">{{ i18n "Resources" }}</h2>
-        {{ $data := index .Site.Data .Language.Lang }}
+        {{ $data := index hugo.Data .Language.Lang }}
         {{ partial "resources/resources-cards" (dict "resources" $data.resources.softwarereview ) }}
       </div>
     </section>
@@ -33,7 +33,7 @@
             </p>
           </div>
         </div>
-        {{ $editors := (shuffle ( where (.Site.Data.team.team) "roles" "intersect" ( slice "editor" ) ) )}}
+        {{ $editors := (shuffle ( where (hugo.Data.team.team) "roles" "intersect" ( slice "editor" ) ) )}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">
@@ -42,7 +42,7 @@
             </h4>
           </div>
         </div>
-        {{ $editors := (shuffle ( where (.Site.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
+        {{ $editors := (shuffle ( where (hugo.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
         </div>
         </section>

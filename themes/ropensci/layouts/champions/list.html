@@ -10,7 +10,7 @@
         <div class="col-lg-4 mt-4">
             <aside>
               {{ partial "team/people" (dict "project" "champions" "Site" .Site )}}
-              {{ $data := index .Site.Data .Language.Lang }}
+              {{ $data := index hugo.Data .Language.Lang }}
               {{ range $data.resources.champions }}
                 <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a> {{ end }}
             </aside>
@@ -27,7 +27,7 @@
                 </h4>
             </div>
         </div>
-        {{ $champions := .Site.Data.team.champions }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $champions) }}
+        {{ $champions := hugo.Data.team.champions }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $champions) }}
         <div class="row about-block">
             <div class="col-md-3 text-md-right">
                 <h4 class="about-block__title" id="editors">
@@ -35,7 +35,7 @@
                 </h4>
             </div>
         </div>
-        {{ $mentors := .Site.Data.team.mentors }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $mentors) }}
+        {{ $mentors := hugo.Data.team.mentors }} {{ partial "whole-page-fragments/team/team-section" (dict "team" $mentors) }}
     </div>
 </section>
 <section class="section">

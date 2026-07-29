@@ -14,7 +14,7 @@
 </div>
 
 
-{{ $data := index .Site.Data .Language.Lang }}
+{{ $data := index hugo.Data .Language.Lang }}
 {{ $resources := $data.resources.resources }}
 {{ $guides := (where $resources "type" "guides-books" )}}
 {{ partial "resources/resources-cards" (dict "resources" $guides ) }}

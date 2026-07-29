@@ -1,0 +1,15 @@
+{
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "jolars.panache"
+  },
+  "[quarto]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "jolars.panache"
+  },
+  "[rmd]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "jolars.panache"
+  },
+  "vale.valeCLI.config": ".vale.ini"
+}

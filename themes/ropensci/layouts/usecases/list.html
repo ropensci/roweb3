@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $pages := .Pages }}
 {{ if ne .Language.Lang "en" }}
-  {{ with where .Site.Sites "Language.Lang" "eq" "en" }}
+  {{ with where hugo.Sites "Language.Lang" "eq" "en" }}
     {{ with index . 0 }}
       {{ with .GetPage "usecases" }}
         {{ $pages = .Pages }}

@@ -89,7 +89,8 @@
     "url": "/author/yanina-bellini-saibene/",
     "image": "/img/team/yanina-bellini-saibene.jpg",
     "roles": [
-      "staff"
+      "staff",
+      "2026 Sovereign Tech Fellow"
     ],
     "leads": [
       "champions",
@@ -150,7 +151,7 @@
     "name": "Steffi LaZerte",
     "url": "/author/steffi-lazerte/",
     "image": "/img/team/steffi-lazerte.jpg",
-    "affiliation": "Community Assistant",
+    "affiliation": "Community Engineer",
     "roles": [
       "staff",
       "developer"

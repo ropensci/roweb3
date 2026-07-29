@@ -16,7 +16,7 @@
             <div class="col-lg-4 mt-4">
                 <aside>
                     {{ partial "team/people" (dict "project" "r-universe" "Site" .Site )}}
-                    {{ range .Site.Data.resources.runiverse }}
+                    {{ range hugo.Data.resources.runiverse }}
                     <a href="{{ .url }}" class="arrow-card"><i class="fa-{{ .icon }} pr-2"></i>{{ .title }}</a> {{ end
                     }}
                 </aside>

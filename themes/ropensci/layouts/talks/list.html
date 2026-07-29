@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ $pages := (where (where ( where .Site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil)  ".Params.training" "!=" true) }}
+{{ $site := (index hugo.Sites 0) }}
+{{ $pages := (where (where ( where $site.RegularPages.ByDate.Reverse "Section" "events" ) ".Params.resources" "!=" nil)  ".Params.training" "!=" true) }}
 {{ partial "talks/talk-table" (dict "Pages" $pages "Title" .Title "Content" .Content) }}
 {{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Language.Lang )) }}
 {{ partial $askpartial  (dict "divider" "lr" ) }}
