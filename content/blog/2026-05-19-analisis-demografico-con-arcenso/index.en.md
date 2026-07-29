@@ -34,11 +34,11 @@ Working with census data typically involves several preliminary steps: identifyi
 
 {{< figure src="portada-blog.png" width="250" alt="Illustration of the Argentine Census featuring the ARcenso and rOpenSci logos, a hornero (the national bird), and graphic material from the 1970 and 1980 censuses."  caption="ARcenso blog homepage" >}} 
 
-[ARcenso](https://soyandrea.github.io/arcenso/)    is a package developed as part of [the     rOpenSci Champions Program](/es/champions/)    designed to facilitate access to Argentine census data and simplify its analysis.
+[ARcenso](https://soyandrea.github.io/arcenso/) is an R package developed as part of [the     rOpenSci Champions Program](/es/champions/) to facilitate access to Argentine census data and simplify its analysis.
 
-In this article, the ARcenso development team demonstrates how to work with the historical census data available in the package in a simple and reproducible way.
+In this article, the ARcenso development team demonstrates how to work with the historical census data available through the package in a simple, reproducible way.
 
-The goal is to conduct a demographic analysis using official national data from the 1970 and 1980 censuses, combining visualizations and tables to explore the structure of the population. In other words, how the population is distributed by age and sex. This type of analysis allows us to characterize population changes over time—key information for research and the design of public policies.
+The goal is to conduct a demographic analysis using official national data from the 1970 and 1980 censuses, combining visualisations and tables to explore the structure of the population—that is, how it is distributed by age and sex. This type of analysis helps characterise demographic changes over time, providing key information for research and the design of public policies.
 
 ## How to get started?
 
