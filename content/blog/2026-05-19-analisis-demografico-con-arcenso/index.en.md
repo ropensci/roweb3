@@ -91,23 +91,17 @@ check_repository(topic = "estructura", geo_code = "00")
 4 1980_00_estructura_03  1980 Cuadro G2. Total del país. Población según sexo y…
 ```
 
-The result of 
- `check_repository()`    shows the available years for that combination of topic and geography, along with the table identifiers (IDs) and their titles. Based on this query, we select the identifiers 
- `1970_00_estructura_01`    and 
- `1980_00_estructura_03`   , which correspond to tabulations of the country’s total population by sex and age group, and which we will use in the analysis.
+The output of `check_repository()` lists the available years for the selected combination of topic and geographic area, together with the corresponding table identifiers (IDs) and their titles. Based on this information, we select the tables `1970_00_estructura_01` and `1980_00_estructura_03`, which contain tabulations of the country's total population by sex and age group and will be used throughout this analysis.
 
-> **Bonus Track**     : Alternatively, you can also explore the data interactively using 
- `arcenso_app()`     , where you can copy the ID of the table you need and then use it in your analysis.
+> **Tip**: You can also explore the available data interactively using `arcenso_app()`. Once you find the table you need, simply copy its ID and use it in your analysis.
 
-{{< figure src="shiny_arcenso.es.png" width="600" alt="Shiny ARcenso Application: View census data filtered by year, geographic scope, and topic, displaying the 1970 literacy table."  class="pull-left" caption="Interactive census data explorer with 
- `arcenso_app()`   "  >}}
+{{< figure src="shiny_arcenso.es.png" width="600" alt="Shiny ARcenso Application: View census data filtered by year, geographic scope, and topic, displaying the 1970 literacy table."  class="pull-left" caption="Interactive census data explorer with `arcenso_app()`"  >}}
 
 ## Data Preparation
 
-Once the tables of interest have been identified, we use 
- `get_census()`    to import them directly into the workspace using their identifiers.
+Once the tables of interest have been identified, we use `get_census()` to import them directly into the R session using their table identifiers.
 
-Since the structures of the two tables are not identical, we performed some transformations to harmonize the variables and create a comparable basis across censuses. In particular, we recoded the age categories into five-year groups to ensure a common structure and added a column identifying the census year.
+As the structures of the two tables are not identical, we perform a series of transformations to harmonise the variables and create a consistent basis for comparison across censuses. In particular, we recode the age categories into five-year groups to ensure a common structure and add a column identifying the census year.
 
 ### 1970 Census
 
