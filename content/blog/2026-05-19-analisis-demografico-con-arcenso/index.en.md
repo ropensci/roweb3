@@ -271,15 +271,15 @@ piramide |>
 
 {{< figure src="piramide_poblacional_1.png" alt="Population pyramids comparing the distribution by age and sex in Argentina between 1970 and 1980. A narrower base is observed in 1980, along with a slight relative increase in the adult and older adult populations, with differences between men and women." >}}
 
-Both censuses show a young population structure, with a high concentration in the younger age groups. However, by 1980, a slight shift toward adult ages begins to emerge, indicating an incipient process of population aging.
+Both censuses show a young population structure, with a high concentration of people in the younger age groups. However, by 1980, a slight shift towards the adult age groups is already apparent, suggesting the early stages of population ageing.
 
 ## Construction of Demographic Indicators
 
-While the population pyramid provides a general overview of the population structure, demographic indicators offer summary measures that allow for a more precise quantification and comparison of these patterns. Next, we calculate two indicators to deepen the analysis.
+While the population pyramid provides an overall view of the population structure, demographic indicators offer summary measures that allow these patterns to be quantified and compared more precisely. In this section, we calculate two commonly used indicators to complement the visual analysis.
 
 ### Ageing Index
 
-This compares the number of older adults (aged 65 and older) with the younger population (ages 0 to 14). It provides a simple way to see whether the population is weighted more toward younger age groups or older age groups.
+The ageing index compares the number of older adults (aged 65 years and over) with the number of children (aged 0–14 years). It provides a simple way to see whether the population is weighted more toward younger age groups or older age groups.
 
 ```r
 envejecimiento <- poblacion |>
@@ -755,11 +755,11 @@ gt(envejecimiento) |>
 </table>
 </div>
 
-The increase in the aging index reflects a change in the age structure between 1970 and 1980, indicating a greater relative share of the population aged 65 and older compared to the younger population—that is, a relatively older population.
+The increase in the ageing index reflects a change in the population age structure between 1970 and 1980, indicating a larger relative share of people aged 65 years and over compared with the younger population. This suggests a gradual ageing of the population.
 
 ### Female-to-Male Ratio
 
-This indicator shows how many women there are for every 100 men in a specific population group. In this case, we analyze it for those aged 60 and older, where more pronounced differences between men and women typically emerge.
+This indicator shows how many women there are for every 100 men in a specific population group. Here, we calculate it for people aged 60 years and over, where differences between women and men tend to become more pronounced.
 
 ```r
 feminidad <- poblacion |>
@@ -821,21 +821,16 @@ feminidad_plot
 
 {{< figure src="indice_feminidad.png" alt="Graph comparing the sex ratio (women per 100 men) in the population aged 60 and older between 1970 and 1980, by five-year age groups. An increase in the ratio is observed across all age groups, with higher values among older age groups, indicating a relatively higher proportion of women." >}}
 
-The sex ratio shows a higher proportion of women in older age groups, a difference that becomes more pronounced between 1970 and 1980 across all age groups analyzed, reflecting patterns of higher female life expectancy.
+The female-to-male ratio shows a higher proportion of women in the older age groups. This difference becomes more pronounced between 1970 and 1980 across all the age groups analysed, reflecting patterns of higher female life expectancy.
 
 ## What does this analysis tell us?
 
-When working with data in demographic analysis, the most labor-intensive part is not usually the construction of indicators or visualizations, but rather everything that happens beforehand: identifying what information is available for each census, understanding how it is organized, and building a coherent framework that allows for comparisons across different points in time.
+In demographic analysis, the most time-consuming part is often not calculating indicators or creating visualisations, but the work that comes beforehand: identifying the available data for each census, understanding how it is organised, and building a consistent framework that enables comparisons across census years.
 
-In this example, that process involved locating the relevant tables, understanding the structural differences between the 1970 and 1980 censuses, and reconstructing variables based on the available information. It is precisely this process that ARcenso aims to simplify: with 
-   `check_repository()`    you can identify which tables are available; with 
-   `get_census()`    you can access the data in a structured way; and with 
-   `arcenso_app()`    you can explore the repository interactively.
+In this example, that process involved locating the relevant tables, understanding the structural differences between the 1970 and 1980 censuses, and harmonising the variables based on the available information to create a comparable dataset. This is precisely what ARcenso is designed to simplify. The `check_repository()` function helps identify the available tables, `get_census()` imports the data into R in a structured format, and `arcenso_app()` provides an interactive way to explore the repository.
 
-This example shows that, once the data has been organized, the analysis becomes more accessible and reproducible, allowing the results to be expanded and adapted to new questions.
+Once the data have been organised, the analysis becomes more accessible, reproducible, and easier to extend to new questions.
 
-We know this is a work in progress: there is still work ahead to incorporate more censuses and continue expanding the possibilities for analysis. ARcenso was born out of the need to organize and make accessible data that isn’t always readily available, as well as from the collaborative efforts of the community that drives these types of initiatives. If you’re interested in exploring further, check out the 
-   [*vignettes*](https://soyandrea.github.io/arcenso/articles/indicadores_demograficos.html) 
-     in the package, you’ll find more examples of how to work with this data.
+ARcenso is still a work in progress. Future developments will incorporate additional census years and continue expanding the package's analytical capabilities. The package was created to make Argentine census data easier to discover, access, and analyse, while building on the collaborative efforts of the open-source community.
 
-
+If you would like to explore further,check out the [*vignettes*](https://soyandrea.github.io/arcenso/articles/indicadores_demograficos.html) in the package, which include additional examples to work with census data.
