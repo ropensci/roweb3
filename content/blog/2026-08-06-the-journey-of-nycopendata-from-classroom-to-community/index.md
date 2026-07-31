@@ -17,7 +17,7 @@ tags:
 
 ## FADE IN
 
-Nine students in the M.S. in Psychology Research program at Brooklyn College, New York City (NYC), USA are taking the course *Reproducible Psychological Research*, where they are learning how to code for the first time. All of them have their cameras off. They are all learning R for the first time, and as an introduction to R, are being taught using the `mtcars` dataset.
+Nine students in the M.S. in Psychology Research program at Brooklyn College are taking the course *Reproducible Psychological Research*, where they are learning how to code for the first time. All of them have their cameras off. They are all learning R for the first time, and as an introduction to R, are being taught using the `mtcars` dataset.
 
 Nine **NYC** graduate students who
 
@@ -107,7 +107,7 @@ As an educator, my goal is to help my students be as successful as possible. Thr
 
 All of the work I put into this package was worth it.
 
-## `nycOpenData`: Student contributions
+## `nycOpenData`: Student Contributions
 
 The following semester, I had the opportunity to teach a follow-up class to the same cohort. Then came another crazy idea:
 
@@ -123,7 +123,7 @@ Good thing I didn't do this last semester, as that would have guaranteed brain e
 
 ## `nycOpenData`: rOpenSci
 
-As time progressed, and as I assessed the student contributions, I became more familiar with package development. Wanting the best product possible, I decided to submit the package to rOpenSci through its [**public peer review process**](https://github.com/ropensci/software-review/issues/750#issuecomment-5007655734). I was a first-time package developer and wanted guidance from people who had far more experience than I did. I wanted anyone---whether my students or someone using the package halfway around the world---to have the best experience possible. After all, the goal was to make NYC Open Data more accessible for *anyone*. To go from helping just my students, to my students just helping me, to potentially helping the overall R community through rOpenSci---I would have never guessed this trajectory.
+As time progressed, and as I assessed the student contributions, I became more familiar with package development. Wanting the best product possible, I decided to submit the package to rOpenSci through its [**public peer review process**](https://github.com/ropensci/software-review/issues/750#issuecomment-5007655734). I was a first-time package developer and wanted guidance from people who had far more experience than I did. I wanted anyone---whether my students or someone using the package halfway around the world---to have the best experience possible. After all, the goal was to make NYC Open Data more accessible for *anyone*. To go from helping just my students, to my students helping, to potentially helping the overall R community through rOpenSci---I would have never guessed this trajectory.
 
 This ended up being one of the best experiences I've had as a programmer.
 
@@ -144,7 +144,7 @@ With that came good news and bad news. As for every action, there is an equal an
 
 Thanks to the thoughtful feedback and hard work of the editor, reviewers, and everyone involved in the review process, `nycOpenData` was successfully accepted into rOpenSci---an indescribable privilege. I honestly can't believe the journey from where the package started to where it is today.
 
-I am especially grateful to my editor, [**Ronny Hernandez Mora**](https://ropensci.org/author/ronny-hernandez-mora/), and reviewers, [**\@donghl17**](https://github.com/donghl17) and [**Michael Pascale**](https://github.com/MichaelPascale), for the time, care, and thoughtful feedback they invested throughout the review. As a first-time package developer, I couldn't have asked for a better introduction to open-source software development.
+I am especially grateful to my editor, [**\@ronnyhdez**](https://github.com/ronnyhdez), and reviewers, [**\@donghl17**](https://github.com/donghl17) and [**\@MichaelPascale**](https://github.com/MichaelPascale), for the time, care, and thoughtful feedback they invested throughout the review. As a first-time package developer, I couldn't have asked for a better introduction to open-source software development.
 
 With the foundation finally built, another thought entered my mind:
 
@@ -162,13 +162,13 @@ The same foundation that powered `nycOpenData` could be adapted to other open da
 
 Since then, four additional packages have been built, turning one package into an ecosystem:
 
-- `nysOpenData` --- New York State Open Data
-- `mtaOpenData` --- Metropolitan Transportation Authority Open Data
-- `laOpenData` --- Los Angeles Open Data
-- `chiOpenData` --- Chicago Open Data
-- `ausOpenData` --- Austin Open Data
+- [`nysOpenData`](https://martinezc1.github.io/nysOpenData/) --- New York State Open Data
+- [`mtaOpenData`](https://martinezc1.github.io/mtaOpenData/) --- Metropolitan Transportation Authority Open Data
+- [`laOpenData`](https://martinezc1.github.io/laOpenData/) --- Los Angeles Open Data
+- [`chiOpenData`](https://martinezc1.github.io/chiOpenData/) --- Chicago Open Data
+- [`ausOpenData`](https://martinezc1.github.io/ausOpenData/) --- Austin Open Data
 
-The ecosystem continues to grow. A former student and I recently collaborated on the `ausOpenData` package (which was just recently accepted to CRAN), and a current intern at the [NYC Open Data Lab](https://nycopendatalab.org) is building `sfOpenData`. This not only gives others an opportunity to contribute, but also gives me a chance to continue involving students in the ecosystem after the original `nycOpenData` functions were "refactored."
+The ecosystem continues to grow. A former student and I recently collaborated on the `ausOpenData` package (which was just recently accepted to CRAN), and a current intern at the [NYC Open Data Lab](https://nycopendatalab.org) is building [`sfOpenData`](https://github.com/gomes-sh/sfOpenData) and [`SeattleOpenData`](https://github.com/gomes-sh/SeattleOpenData)`.` This not only gives others an opportunity to contribute, but also gives me a chance to continue involving students in the ecosystem after the original `nycOpenData` functions were "refactored."
 
 Hopefully, there are many more to come. The hard part is no longer building packages---it is deciding which open data portal comes next.
 
