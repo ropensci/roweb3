@@ -137,7 +137,7 @@ With that came good news and bad news. As for every action, there is an equal an
 - The *good* news: I was able to turn the 39 functions into just 3. Now, all 2,000+ datasets can be pulled from the portal. Easier to maintain, easier for users to understand, and overall a much better product.
 - The *bad* news: All of my students' work was now gone. (Sad face.)
 
-Thanks to the hard work of the editor, reviewers, and everyone involved in the review process, `nycOpenData` was successfully accepted into rOpenSci—an incredible privilege. I'm incredibly thankful for all of the time and effort they invested, and I honestly can't believe the journey from where the package started to where it is today.
+Thanks to the hard work of the editor, reviewers, and everyone involved in the review process, `nycOpenData` was successfully accepted into rOpenSci---an incredible privilege. I'm incredibly thankful for all of the time and effort they invested, and I honestly can't believe the journey from where the package started to where it is today.
 
 With the foundation finally built, another thought entered my mind:
 
