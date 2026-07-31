@@ -108,7 +108,7 @@ All of the work I put into this package was worth it.
 
 ## `nycOpenData`: Student Contributions
 
-The following semester, I had the opportunity to teach a follow-up class for the same cohort. Then came another crazy idea:
+The following semester, I had the opportunity to teach a follow-up class to the same cohort. Then came another crazy idea:
 
 > What if the same students who used `nycOpenData` to not only learn, but also conduct research, contributed to the same infrastructure they utilized?
 
