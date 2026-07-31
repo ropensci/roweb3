@@ -15,6 +15,9 @@ tags:
   - package-development
   - community
   - API
+editor: Steffi LaZerte
+params:
+  doi: "10.59350/r8fzn-5d937"
 ---
 
 ## FADE IN
