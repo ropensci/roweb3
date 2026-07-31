@@ -78,7 +78,7 @@ So I thought:
 
 Maybe a crazy idea. I had never developed an R package, never mind one that relied on APIs. What does the process look like? Do I have the skills? Will CRAN accept something that most likely only my nine students and I would ever use?
 
-As a big believer in the mantra, *"I'll do it myself,"* I already had the code to pull in the individual datasets in R, so...why not?
+As a big believer in the mantra, *"I'll do it myself,"* I already had the code to pull in the individual datasets in R, so... why not?
 
 So, I went ahead and did it myself.
 
