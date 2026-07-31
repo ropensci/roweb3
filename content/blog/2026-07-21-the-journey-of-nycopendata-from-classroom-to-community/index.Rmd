@@ -166,7 +166,7 @@ Hopefully, there are many more to come. The hard part is no longer building pack
 
 ## `nycOpenData`: The Final Product
 
-What started as a single function has turned into five OpenData packages, one of which has been successfully peer-reviewed by rOpenSci, with the others built on the same foundation. *Tens of billions* of rows of public data, from across the country, are now easily accessible in R for anyone—from researchers and journalists to students and educators.
+What started as a single function has turned into five OpenData packages, one of which has been successfully peer-reviewed by rOpenSci, with the others built on the same foundation. *Tens of billions* of rows of public data, from across the country, are now easily accessible in R for anyone---from researchers and journalists to students and educators.
 
 Looking back, I think this journey embodies the spirit of R.
 
