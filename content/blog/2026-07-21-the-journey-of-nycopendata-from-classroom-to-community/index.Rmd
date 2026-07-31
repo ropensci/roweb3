@@ -30,7 +30,7 @@ Even with their screens off, with every additional `mtcars` column we talked abo
 
 Change needed to happen, and happen fast.
 
-## Relevance Drives Rigor
+## Relevance drives rigor
 
 I didn't take my students' interests into consideration at the start of the course, and I was paying the price. How do I make sure that no matter what each individual student is interested in, they can be accommodated? Probably a big ask, but part of me felt like I was starting the semester in debt and needed to really pay up.
 
