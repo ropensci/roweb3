@@ -5,6 +5,9 @@ date: '2026-07-21'
 slug: the-journey-of-nycopendata-from-classroom-to-community
 categories: []
 tags:
+  - packages
+  - software-peer-review
+  - nycopendata
   - open-data
   - open-source
   - R
