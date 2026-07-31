@@ -107,7 +107,7 @@ As an educator, my goal is to help my students be as successful as possible. Thr
 
 All of the work I put into this package was worth it.
 
-## `nycOpenData`: Student Contributions
+## `nycOpenData`: Student contributions
 
 The following semester, I had the opportunity to teach a follow-up class to the same cohort. Then came another crazy idea:
 
