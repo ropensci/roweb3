@@ -151,7 +151,7 @@ With the infrastructure in place, another realization hit me: I never had to bui
 
 The same foundation that powered `nycOpenData` could be adapted to other open data portals, making it possible to create an entire ecosystem of OpenData packages. 
 
-> If students in NYC were helped by using data regarding their own city, why wouldn't the same hold true for students in other cities?
+> If students in NYC were motivated by using data regarding their own city, why wouldn't the same hold true for students in other cities?
 
 Since then, four additional packages have been built, turning one package into an ecosystem:
 
