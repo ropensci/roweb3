@@ -68,7 +68,7 @@ So I started thinking:
 
 *What if I make a package?*
 
-Students are learning R, which means we're also learning about packages—a crucial, yet simple, concept. What if there was a package dedicated to pulling NYC Open Data? That would fit right into the students' learning path.
+Students are learning R, which means we're also learning about packages---a crucial, yet simple, concept. What if there was a package dedicated to pulling NYC Open Data? That would fit right into the students' learning path.
 
 When I looked, there wasn't one.
 
