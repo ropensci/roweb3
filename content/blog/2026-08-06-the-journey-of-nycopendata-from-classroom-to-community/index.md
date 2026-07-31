@@ -17,7 +17,7 @@ tags:
 
 ## FADE IN
 
-Nine students in the M.S. in Psychology Research program at Brooklyn College are taking the course *Reproducible Psychological Research*, where they are learning how to code for the first time. All of them have their cameras off. They are all learning R for the first time, and as an introduction to R, are being taught using the `mtcars` dataset.
+Nine students in the M.S. in Psychology Research program at Brooklyn College, New York City (NYC), USA are taking the course *Reproducible Psychological Research*, where they are learning how to code for the first time. All of them have their cameras off. They are all learning R for the first time, and as an introduction to R, are being taught using the `mtcars` dataset.
 
 Nine **NYC** graduate students who
 
