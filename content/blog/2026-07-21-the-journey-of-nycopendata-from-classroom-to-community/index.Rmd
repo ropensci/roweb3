@@ -46,7 +46,7 @@ Immediately, there was a switch in my (virtual) classroom. Before, engagement wa
 
 There were really only two options when it came to using NYC Open Data. The first, which I began using, was downloading static datasets as Excel or CSV files. While this helped with engagement, it also created a new set of problems: using outdated datasets (311, for instance, is updated daily), making sure students downloaded the correct files, and making sure they put them in the correct folders.
 
-Luckily, the portal offers a fantastic solution to all of the problems associated with static files: APIs!
+Luckily, the portal offers a fantastic solution to all of the problems associated with accessing static files: APIs!
 
 However, this came with an even bigger problem:
 
