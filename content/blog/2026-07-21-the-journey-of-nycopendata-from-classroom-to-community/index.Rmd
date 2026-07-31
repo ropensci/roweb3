@@ -84,7 +84,7 @@ So, I went ahead and did it myself.
 
 ## `nycOpenData`: The middle
 
-Originally, I thought the easiest thing to do was build the package with one function: `nyc_311()`, which simply pulled in the 311 dataset. The perk was that it was one of the largest and most data-diverse datasets, so it could kill many birds with one stone.
+Originally, I thought the easiest thing to do was build the package with one function: `nyc_311()`, which would simply pull in the 311 dataset. The perk was that it was one of the largest and most data-diverse datasets, so it could kill many birds with one stone.
 
 But then I thought,
 
