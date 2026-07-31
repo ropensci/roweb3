@@ -162,7 +162,7 @@ Since then, four additional packages have been built, turning one package into a
 
 The ecosystem continues to grow. A former student and I recently collaborated on the `ausOpenData` package (currently under review by CRAN), and a current intern at the [NYC Open Data Lab](https://nycopendatalab.org) is building `sfOpenData`. This not only gives others an opportunity to contribute, but also gives me a chance to continue involving students in the ecosystem after the original `nycOpenData` functions were "refactored."
 
-Hopefully, there are many more to come. The hard part is no longer building packages—it is deciding which open data portal comes next.
+Hopefully, there are many more to come. The hard part is no longer building packages---it is deciding which open data portal comes next.
 
 ## `nycOpenData`: The Final Product
 
