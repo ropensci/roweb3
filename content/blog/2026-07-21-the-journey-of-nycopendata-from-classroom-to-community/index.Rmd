@@ -1,5 +1,5 @@
 ---
-title: 'The Journey of {nycOpenData}: From Classroom to Community'
+title: "The Journey of {nycOpenData}: From Classroom to Community"
 author: Christian Martinez
 date: '2026-07-21'
 slug: the-journey-of-nycopendata-from-classroom-to-community
