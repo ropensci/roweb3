@@ -155,10 +155,10 @@ The same foundation that powered `nycOpenData` could be adapted to other open da
 
 Since then, four additional packages have been built, turning one package into an ecosystem:
 
-- `nysOpenData` — New York State Open Data
-- `mtaOpenData` — Metropolitan Transportation Authority Open Data
-- `laOpenData` — Los Angeles Open Data
-- `chiOpenData` — Chicago Open Data
+- `nysOpenData` --- New York State Open Data
+- `mtaOpenData` --- Metropolitan Transportation Authority Open Data
+- `laOpenData` --- Los Angeles Open Data
+- `chiOpenData` --- Chicago Open Data
 
 The ecosystem continues to grow. A former student and I recently collaborated on the `ausOpenData` package (currently under review by CRAN), and a current intern at the [NYC Open Data Lab](https://nycopendatalab.org) is building `sfOpenData`. This not only gives others an opportunity to contribute, but also gives me a chance to continue involving students in the ecosystem after the original `nycOpenData` functions were "refactored."
 
