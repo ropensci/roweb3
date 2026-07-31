@@ -26,7 +26,7 @@ Nine **NYC** graduate students who
 
 Even with their screens off, with every additional `mtcars` column we talked about, they fell deeper and deeper asleep during the lectures.
 
-> If I wanted my students to learn anything in my class—not just R—I needed to make an immediate pivot.
+> If I wanted my students to learn anything in my class---not just R---I needed to make an immediate pivot.
 
 Change needed to happen, and happen fast.
 
