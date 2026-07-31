@@ -122,7 +122,7 @@ Good thing I didn't do this last semester.
 
 ## `nycOpenData`: rOpenSci
 
-As time progressed, including the student contributions, I became more familiar with package development. Wanting the best product possible, I decided to submit the package to rOpenSci. I was a first-time package developer and wanted guidance from people who had far more experience than I did. I wanted anyone—whether my students or someone using the package halfway around the world—to have the best experience possible. After all, the goal was to make NYC Open Data more accessible for *anyone*.
+As time progressed, and as I assessed the student contributions, I became more familiar with package development. Wanting the best product possible, I decided to submit the package to rOpenSci. I was a first-time package developer and wanted guidance from people who had far more experience than I did. I wanted anyone---whether my students or someone using the package halfway around the world---to have the best experience possible. After all, the goal was to make NYC Open Data more accessible for *anyone*.
 
 This ended up being one of the best experiences I've had as a programmer. First of all, they told me exactly what I needed to hear:
 
