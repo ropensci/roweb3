@@ -144,7 +144,7 @@ With that came good news and bad news. As for every action, there is an equal an
 
 Thanks to the thoughtful feedback and hard work of the editor, reviewers, and everyone involved in the review process, `nycOpenData` was successfully accepted into rOpenSci---an indescribable privilege. I honestly can't believe the journey from where the package started to where it is today.
 
-I am especially grateful to my editor, [**Ronny Hernandez Mora**](https://ropensci.org/author/ronny-hernandez-mora/), and reviewers, [**Haolin Dong**](https://scholar.google.com/citations?hl=en&user=5GTf-McAAAAJ) and [**Michael Pascale**](https://github.com/MichaelPascale), for the time, care, and thoughtful feedback they invested throughout the review. As a first-time package developer, I couldn't have asked for a better introduction to open-source software development.
+I am especially grateful to my editor, [**Ronny Hernandez Mora**](/author/ronny-hernandez-mora/), and reviewers, [**Haolin Dong**](https://scholar.google.com/citations?hl=en&user=5GTf-McAAAAJ) and [**Michael Pascale**](https://github.com/MichaelPascale), for the time, care, and thoughtful feedback they invested throughout the review. As a first-time package developer, I couldn't have asked for a better introduction to open-source software development.
 With the foundation finally built, another thought entered my mind:
 
 > Can we use this same infrastructure for other open data portals?
