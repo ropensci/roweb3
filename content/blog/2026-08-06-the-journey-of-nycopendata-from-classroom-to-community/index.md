@@ -93,7 +93,7 @@ But then I thought,
 
 So, I literally copied and pasted the same exact code 30 different times and adapted it for the 30 most popular datasets on the NYC Open Data Portal.
 
-Through a lot of blood, sweat, and documentation, the first iteration of `nycOpenData` was officially created and accepted onto CRAN! I, a person who only installed packages, was now the creator of one? It was amazing to actually give back to the marvelous R community that provided me with so much for so many years.
+Through a lot of blood, sweat, and documentation, the first iteration of [`nycOpenData`](https://docs.ropensci.org/nycOpenData/index.html) was officially created and accepted onto CRAN! I, a person who only installed packages, was now the creator of one? It was amazing to actually give back to the marvelous R community that provided me with so much for so many years.
 
 This not only made teaching with NYC Open Data easier, but more fun too. The package did exactly what it needed to do: make working with NYC Open Data datasets incredibly easy in R.
 
