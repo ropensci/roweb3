@@ -32,6 +32,15 @@ Criteria for selecting featured posts and tech notes:
 - always one by a community member (about peer reviewed package or other); could be most-recent or most-compelling post
 - second featured post or tech note by rOpenSci team or team member about rOpenSci announcement, big collaborative post, infrastructure, package, etc. In absence of a recent compelling post this would be the most recent post or tech note by team member.
 
+### Generating a DOI
+
+```r
+install.packages("commonmetar", repos = "https://ropensci.r-universe.dev")
+commonmetar::commonmeta_doi()
+```
+
+This does not register the DOI: registration will automatically happen after publication, thanks to Rogue Scholar’s infrastructure:
+
 ### Highlighted blog "categories"
 
 For the three blue cards that are on the blog page, edit `data/blog/highlights.json`

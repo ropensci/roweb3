@@ -2,36 +2,39 @@
     "version": "0.2",
     "language": "en",
     "overrides": [
-      {
-          "filename": "**/*.es.md",
-          "language": "es"
-      }, 
-      {
-          "filename": "**/*.pt.md",
-          "language": "pt",
-      },
-      {
-          "filename": "**/*.fr.md",
-          "language": "fr",
-      },
-      {
-          "filename": "**/*.tr.md",
-          "language": "tr"
-      }
+        {
+            "filename": "**/*.es.md",
+            "language": "es"
+        },
+        {
+            "filename": "**/*.pt.md",
+            "language": "pt"
+        },
+        {
+            "filename": "**/*.fr.md",
+            "language": "fr"
+        },
+        {
+            "filename": "**/*.tr.md",
+            "language": "tr"
+        }
     ],
     "dictionaryDefinitions": [
-      {
-        "name": "names",
-        "path": ".wordlists/names.txt",
-        "addWords": true
-      },
-      {
-        "name": "words",
-        "path": ".wordlists/words.txt",
-        "addWords": true
-      }
+        {
+            "name": "names",
+            "path": ".wordlists/names.txt",
+            "addWords": true
+        },
+        {
+            "name": "words",
+            "path": ".wordlists/words.txt",
+            "addWords": true
+        }
     ],
-    "dictionaries": ["names", "words"],
+    "dictionaries": [
+        "names",
+        "words"
+    ],
     "ignorePaths": [
         ".cspell.json",
         "package-lock.json",
@@ -41,5 +44,8 @@
         ".git/{index,*refs,*HEAD}",
         ".vscode",
         ".vscode-insiders"
+    ],
+    "words": [
+        "mtcars"
     ]
 }
