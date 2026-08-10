@@ -255,11 +255,11 @@ piramide |>
     breaks = seq(-0.15, 0.15, by = 0.05)
   ) +
   labs(
-    title = "Figure 1. Population structure by sex and five-year age group.",
-    subtitle = "Argentina. Year 1970 and 1980",
-    x = "Percentage",
-    y = "Five-year age group",
-    caption = "Source: INDEC, Censo Nacional de Población 1970 y 1980. Processed with ARcenso.",
+    title = "Gráfico 1. Estructura de la población por sexo y grupo quinquenal de edad.",
+    subtitle = "Argentina. Años 1970 y 1980",
+    x = "Porcentaje",
+    y = "Grupo quinquenal de edad",
+    caption = "Fuente: INDEC, Censo Nacional de Población 1970 y 1980. Procesado con ARcenso.",
     fill = "Sexo"
   ) +
   theme_bw() +
@@ -271,15 +271,15 @@ piramide |>
 
 {{< figure src="piramide_poblacional_1.png" alt="Population pyramids comparing the distribution by age and sex in Argentina between 1970 and 1980. A narrower base is observed in 1980, along with a slight relative increase in the adult and older adult populations, with differences between men and women." caption="Figure 1. Population structure by sex and five-year age group. Argentina. Year 1970 and 1980. Source: INDEC, Censo Nacional de Población 1970 y 1980. Processed with ARcenso.">}}
 
-Both censuses show a young population structure, with a high concentration of people in the younger age groups. However, by 1980, a slight shift towards the adult age groups is already apparent, suggesting the early stages of population ageing.
+Both censuses show a young population structure, with a high concentration of people in the younger age groups. However, by 1980, a slight shift towards the adult age groups is already apparent, suggesting the early stages of population aging.
 
 ## Construction of demographic indicators
 
 While the population pyramid provides an overall view of the population structure, demographic indicators offer summary measures that allow these patterns to be quantified and compared more precisely. In this section, we calculate two commonly used indicators to complement the visual analysis.
 
-### Ageing index
+### Aging index
 
-The ageing index compares the number of older adults (aged 65 years and over) with the number of children (aged 0–14 years). It provides a simple way to see whether the population is weighted more toward younger age groups or older age groups.
+The aging index compares the number of older adults (aged 65 years and over) with the number of children (aged 0–14 years). It provides a simple way to see whether the population is weighted more toward younger age groups or older age groups.
 
 ```r
 envejecimiento <- poblacion |>
@@ -755,7 +755,7 @@ gt(envejecimiento) |>
 </table>
 </div>
 
-The increase in the ageing index reflects a change in the population age structure between 1970 and 1980, indicating a larger relative share of people aged 65 years and over compared with the younger population. This suggests a gradual ageing of the population.
+The increase in the aging index reflects a change in the population age structure between 1970 and 1980, indicating a larger relative share of people aged 65 years and over compared with the younger population. This suggests a gradual aging of the population.
 
 ### Female-to-Male ratio
 
