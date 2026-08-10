@@ -4,7 +4,7 @@ title: 'From Census Data to Demographic Analysis with ARcenso: A Reproducible Wo
 author:
 - Andrea Gomez Vargas
 - Emanuel Ciardullo
-date: '2026-08-03'
+date: '2026-08-10'
 slug: analisis-demografico-con-arcenso
 package_version: 0.2.1
 tags:
