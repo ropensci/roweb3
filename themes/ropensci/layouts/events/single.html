@@ -19,7 +19,7 @@
         </div>
         {{ if and ( ge (.Date).Local now.Local ) ( isset .Params "deets" ) }}
         <div class="event-detail-calendar">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between mb-2">
               <div class="col-auto mr-auto">
                 <p>
                   🕓 <strong>{{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
@@ -35,15 +35,19 @@
                     - {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})</strong></p>
                     {{ end }}
               </div>
+              </div>
+            <div class="row justify-content-start">
               <div class="col-auto">
                   {{ if ge (time .Params.dateEnd).Local now.Local }}
                   {{ with .Params.deets }}
-                  <a data-toggle="collapse" href="#zoominfo" role="button" aria-expanded="false"
+                  <a class="btn btn-primary" data-toggle="collapse" href="#zoominfo" role="button" aria-expanded="false"
                     aria-controls="collapseExample">{{ i18n "Join-the-event" }}</a>
                   {{ end }}
                   {{ end }}
+                  </div>
+              <div class="col-auto">
                 <div class="add-wrapper">
-                  <div class="drop-btn">{{ i18n "Add-to-Calendar" }}</div>
+                  <div class="btn btn-primary drop-btn">{{ i18n "Add-to-Calendar" }}</div>
                   <ul class="add-menu">
                     <li>
                       <a
