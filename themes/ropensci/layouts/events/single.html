@@ -58,12 +58,6 @@
                     </li>
                     {{ if and ( ge (time .Params.dateEnd).Local now.Local ) ( isset .Params "deets" ) }}
                     <li>
-                      <a href="#join-us">
-                        <i class="fas fa-ticket-alt"></i>
-                        <span>How to join</span>
-                      </a>
-                    </li>
-                    <li>
                       {{ end }}
                       <a href="index.ics">
                         <i class="fas fa-calendar-plus"></i>
