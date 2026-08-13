@@ -65,7 +65,7 @@ We are looking forward to seeing you there!
 
 ### rOpenSci in the news
 
-Our community manager Yanina Bellini Saibene was interviewed [again](/blog/2025/04/28/news-april-2025/#ropensci-in-the-news) in *Nature*, for the article ["Six questions to ask before jumping into a spreadsheet"](https://archive.ph/nnZKQ)
+Our community manager Yanina Bellini Saibene was interviewed [again](/blog/2025/04/28/news-april-2025/#ropensci-in-the-news) in *Nature*, for the article ["Six questions to ask before jumping into a spreadsheet"](https://www.nature.com/articles/d41586-025-02511-z)
 
 > "There is kind of this belief that a spreadsheet is not a good tool for doing science," says Yanina Bellini Saibene, "and that is not correct."
 
