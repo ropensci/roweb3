@@ -56,14 +56,18 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Champions Program update
 
-TODO Yani
-
 ### R-Universe updates
 
 :muscle: R-universe has started building and checking packages for Windows ARM64. 
 Read more in our [tech note](/blog/2026/08/06/r-universe-winarm/).
 
 :dna: R-universe is now part of the infrastructure of the [Bioconductor submission process](https://blog.bioconductor.org/posts/2026-06-15-new-submission-process-with-Runiverse/).
+
+## We're still celebrating our 15th anniversary! 🎉
+
+In July, we started to share stories from members of our community about their experiences with rOpenSci. Our first story features [Eunseop Kim](/author/eunseop-kim/) and his connection with rOpenSci.
+Read it on our blog: [From Peer Review to Mentorship: My rOpenSci Story](/blog/2026/07/14/15yo-eunseop-kim/)
+Stay tuned for more stories from our community as we continue celebrating 15 years of rOpenSci!
 
 ### Coworking 
 
@@ -144,7 +148,7 @@ old <- dplyr::filter(
 new <- dplyr::filter(
   registry,
   !package %in% old$package,
-  !package %in% "gpg",
+  !package %in% "monarch",
   !grepl("ropenscilabs\\/", url),
   !grepl("ropensci-archive\\/", url)
 )
