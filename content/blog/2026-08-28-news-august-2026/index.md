@@ -22,7 +22,13 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### Champions Program update
 
-TODO Yani
+Our Champions are making great progress! 🌟 
+
+They’ve now completed the training on good open source software development practices, package development, and peer review, and are moving on to explore community building and communications.
+
+Meanwhile, mentoring is underway, with monthly meetings helping Champions move their projects forward. We’re already starting to see some exciting results: first versions of packages are taking shape, and some Champions will soon be sharing their work at LatinR!
+
+Stay tuned for more updates as their projects continue to grow! 🚀
 
 ### R-Universe updates
 
