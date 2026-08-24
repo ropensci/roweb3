@@ -6,7 +6,7 @@ author:
 date: '2026-08-28'
 tags:
   - newsletter
-description: New editors; champions program; Sovereign Tech Fellowship; Quinceañera; new packages and package news
+description: champions program; R-universe update; Quinceañera; new packages and package news
 params:
   last_newsletter: '2026-06-30'
   doi: "10.59350/4chwm-mtm35"
@@ -21,6 +21,11 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 ## rOpenSci HQ
 
 ### Champions Program update
+
+Our Champions are making great progress! 🌟 
+They’ve now completed the training on good open source software development practices, package development, and peer review, and are moving on to explore community building and communications.
+Meanwhile, mentoring is underway, with monthly meetings helping Champions move their projects forward. We’re already starting to see some exciting results: first versions of packages are taking shape, and some Champions will soon be sharing their work at LatinR!
+Stay tuned for more updates as their projects continue to grow! 🚀
 
 ### R-Universe updates
 
