@@ -6,11 +6,11 @@ author:
 date: '2026-08-28'
 tags:
   - newsletter
-description: champions program; R-universe update; Quinceañera; new packages and package news
+description: Champions Program; R-Universe update; Quinceañera; new packages and package news
 params:
   last_newsletter: '2026-06-30'
   doi: "10.59350/4chwm-mtm35"
-rmd_hash: 0d9c61d99013853f
+rmd_hash: 30544f1c23d675d4
 
 ---
 
@@ -22,13 +22,13 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### Champions Program update
 
-Our Champions are making great progress! 🌟 They've now completed the training on good open source software development practices, package development, and peer review, and are moving on to explore community building and communications. Meanwhile, mentoring is underway, with monthly meetings helping Champions move their projects forward. We're already starting to see some exciting results: first versions of packages are taking shape, and some Champions will soon be sharing their work at LatinR! Stay tuned for more updates as their projects continue to grow! 🚀
+Our Champions are making great progress! 🌟 They've now completed the training on good open source software development practices, package development, and peer review, and are moving on to explore community building and communications. Meanwhile, mentoring is underway with monthly meetings helping Champions move their projects forward. We're already starting to see some exciting results: first versions of packages are taking shape, and some Champions will soon be sharing their work at LatinR! Stay tuned for more updates as their projects continue to grow! 🚀
 
 ### R-Universe updates
 
-:muscle: R-universe has started building and checking packages for Windows ARM64. Read more in our [tech note](/blog/2026/08/06/r-universe-winarm/).
+:muscle: R-Universe has started building and checking packages for Windows ARM64. Read more in our [tech note](/blog/2026/08/06/r-universe-winarm/).
 
-:dna: R-universe is now part of the infrastructure of the [Bioconductor submission process](https://blog.bioconductor.org/posts/2026-06-15-new-submission-process-with-Runiverse/).
+:dna: R-Universe is now part of the infrastructure of the [Bioconductor submission process](https://blog.bioconductor.org/posts/2026-06-15-new-submission-process-with-Runiverse/).
 
 ## We're still celebrating our 15th anniversary! 🎉
 
@@ -38,7 +38,7 @@ In July, we started to share stories from members of our community about their e
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
-- Tuesday September 1st, 14:00 Europe Central (12:00 UTC) ["Getting to Know SORTEE"](/events/coworking-2026-09/), with [Steffi LaZerte](/author/steffi-lazerte) and cohost [Ed Ivimey-Cook](/author/ed-ivimey-cook/).
+- Tuesday September 1st, 14:00 Europe Central (12:00 UTC) ["Getting to Know SORTEE"](/events/coworking-2026-09/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host [Ed Ivimey-Cook](/author/ed-ivimey-cook/).
   - Visit [SORTEE](https://sortee.org/) (Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology).
   - Meet co-host, Ed Ivimey-Cook, and learn more about SORTEE and how you might get involved.
 
@@ -71,8 +71,6 @@ Discover [more packages](/packages), read more about [Software Peer Review](/sof
 
 
 The following twenty-one packages have had an update since the last newsletter: [reviser](https://docs.ropensci.org/reviser "Analyzing Revisions in Real-Time Time Series Vintages") ([`v0.2.0`](https://github.com/ropensci/reviser/releases/tag/v0.2.0)), [frictionless](https://docs.ropensci.org/frictionless "Read and Write Frictionless Data Packages") ([`v1.3.0`](https://github.com/frictionlessdata/frictionless-r/releases/tag/v1.3.0)), [writexl](https://docs.ropensci.org/writexl "Export Data Frames to Excel xlsx Format") ([`v2.0.1`](https://github.com/ropensci/writexl/releases/tag/v2.0.1)), [lightr](https://docs.ropensci.org/lightr "Read Spectrometric Data and Metadata") ([`v2.1.0`](https://github.com/ropensci/lightr/releases/tag/v2.1.0)), [gert](https://docs.ropensci.org/gert "Simple Git Client for R") ([`v2.4.0`](https://github.com/r-lib/gert/releases/tag/v2.4.0)), [c14bazAAR](https://docs.ropensci.org/c14bazAAR "Download and Prepare C14 Dates from Different Source Databases") ([`5.3.0`](https://github.com/ropensci/c14bazAAR/releases/tag/5.3.0)), [DataSpaceR](https://docs.ropensci.org/DataSpaceR "Interface to the CAVD DataSpace") ([`v1.0.1`](https://github.com/ropensci/DataSpaceR/releases/tag/v1.0.1)), [landscapetools](https://docs.ropensci.org/landscapetools "Landscape Utility Toolbox") ([`v0.6.3`](https://github.com/ropensci/landscapetools/releases/tag/v0.6.3)), [comtradr](https://docs.ropensci.org/comtradr "Interface with the United Nations Comtrade API") ([`v1.0.6`](https://github.com/ropensci/comtradr/releases/tag/v1.0.6)), [lingtypology](https://docs.ropensci.org/lingtypology "Linguistic Typology and Mapping") ([`v1.1.26`](https://github.com/ropensci/lingtypology/releases/tag/v1.1.26)), [textreuse](https://docs.ropensci.org/textreuse "Detect Text Reuse and Document Similarity") ([`v1.0.2`](https://github.com/ropensci/textreuse/releases/tag/v1.0.2)), [sofa](https://docs.ropensci.org/sofa "Connector to CouchDB") ([`v0.4.2`](https://github.com/ropensci/sofa/releases/tag/v0.4.2)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.4`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.4)), [refsplitr](https://docs.ropensci.org/refsplitr "author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data") ([`v1.2.3`](https://github.com/ropensci/refsplitr/releases/tag/v1.2.3)), [npi](https://docs.ropensci.org/npi "Access the U.S. National Provider Identifier Registry API") ([`v0.3.0`](https://github.com/ropensci/npi/releases/tag/v0.3.0)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP™ Servers") ([`v1.3.0`](https://github.com/ropensci/rerddap/releases/tag/v1.3.0)), [stantargets](https://docs.ropensci.org/stantargets "Targets for Stan Workflows") ([`0.1.3`](https://github.com/ropensci/stantargets/releases/tag/0.1.3)), [openalexR](https://docs.ropensci.org/openalexR "Getting Bibliographic Records from OpenAlex Database Using DSL API") ([`v3.1.0`](https://github.com/ropensci/openalexR/releases/tag/v3.1.0)), [ernest](https://docs.ropensci.org/ernest "A Toolkit for Nested Sampling") ([`v1.2.5`](https://github.com/ropensci/ernest/releases/tag/v1.2.5)), [mregions2](https://docs.ropensci.org/mregions2 "Access Data from Marineregions.org: Gazetteer & Data Products") ([`v1.1.3`](https://github.com/ropensci/mregions2/releases/tag/v1.1.3)), and [spiro](https://docs.ropensci.org/spiro "Manage Data from Cardiopulmonary Exercise Testing") ([`v0.2.4`](https://github.com/ropensci/spiro/releases/tag/v0.2.4)).
-
-The writexl package has a [new maintainer](https://github.com/ropensci/writexl/pull/98#issuecomment-4191858158), Bill Denney. NLMR is now maintained by [Jakub Nowosad](https://github.com/ropensci/NLMR/issues/116#issuecomment-4280937012).
 
 ## Software Peer Review
 
@@ -175,11 +173,11 @@ Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recomm
 
 Some useful information for R package developers. :eyes:
 
-## From Rd files to Quarto
+### From Rd files to Quarto
 
 Edgar Ruiz from Posit released [pkgsite](https://opensource.posit.co/blog/2026-06-18_pkgsite-0-1-0/), a package for converting your package's `.Rd` files to Quarto. It creates qmd files that you can integrate as you want in a Quarto website.
 
-## Mutation testing, fuzzy testing
+### Mutation testing, fuzzy testing
 
 First of all, a reminder in case you confuse the two concepts...
 
@@ -192,15 +190,15 @@ At useR! 2026, both topics were covered:
 - mutation testing in [Beyond Code Coverage: Mutation Testing in R with mutator](https://docs.google.com/presentation/d/1T5iK0gRBFF869Q6eirtmYVV-5ABD4EN-WBJI5gl5EUY/edit?slide=id.g3efebd0f55a_0_99#slide=id.g3efebd0f55a_0_99) by Assanali Amandykov, Pierre Donat-Bouillud.
 - fuzzy testing in [Fuzz-testing R-based research software for robustness](https://events.digital-research.academy/event/109/contributions/430/attachments/187/407/slides-v2.pdf) by Marco Colombo.
 
-## roxyreqs
+### roxyreqs
 
 Also at useR!, Moritz Lang and collaborators introduced [roxyreqs](https://github.com/mnlang/roxyreqs), a package for adding roxygen2-like documentation to testthat. [Slides](https://events.digital-research.academy/event/109/contributions/471/attachments/69/201/roxyreqs-user2026.pdf).
 
-## checktor, a new helper for CRAN submissions
+### checktor, a new helper for CRAN submissions
 
 If you want to submit your package to CRAN, you can get help through the [CRAN cookbook](https://contributor.r-project.org/cran-cookbook/), the [collaborative list maintained by ThinkR](https://github.com/ThinkR-open/prepare-for-cran) and now a new package, checktor by James Balamuta! Read more in [James' post](https://blog.thecoatlessprofessor.com/programming/r/the-check-passed-the-reviewer-didnt/).
 
-## Interesting AI reads
+### Interesting AI reads
 
 - [Recommendations When Using LLM-backed Generative AI Systems for FOSS Contributions](https://sfconservancy.org/llm-gen-ai/llm-backed-generative-ai-recommendations.html) by Software Freedom Conservancy, shared by Will Gearty.
 - [Who cleans up after the vibe-coding party?](https://www.ft.com/content/cec8df9e-b43b-4cd1-8feb-c07e804e8d33) by Sam Learner in the Financial Times.
