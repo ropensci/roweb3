@@ -10,7 +10,7 @@ description: champions program; R-universe update; Quinceañera; new packages an
 params:
   last_newsletter: '2026-06-30'
   doi: "10.59350/4chwm-mtm35"
-rmd_hash: b51818dfecceea9b
+rmd_hash: 0d9c61d99013853f
 
 ---
 
@@ -22,10 +22,7 @@ Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> Y
 
 ### Champions Program update
 
-Our Champions are making great progress! 🌟 
-They’ve now completed the training on good open source software development practices, package development, and peer review, and are moving on to explore community building and communications.
-Meanwhile, mentoring is underway, with monthly meetings helping Champions move their projects forward. We’re already starting to see some exciting results: first versions of packages are taking shape, and some Champions will soon be sharing their work at LatinR!
-Stay tuned for more updates as their projects continue to grow! 🚀
+Our Champions are making great progress! 🌟 They've now completed the training on good open source software development practices, package development, and peer review, and are moving on to explore community building and communications. Meanwhile, mentoring is underway, with monthly meetings helping Champions move their projects forward. We're already starting to see some exciting results: first versions of packages are taking shape, and some Champions will soon be sharing their work at LatinR! Stay tuned for more updates as their projects continue to grow! 🚀
 
 ### R-Universe updates
 
@@ -99,19 +96,19 @@ There are eighteen recently closed and active submissions and 5 submissions on h
 
   - [RAQSAPI](https://github.com/ropensci/software-review/issues/744), A Simple Interface to the US EPA Air Quality System Data Mart API. Submitted by [mccroweyclinton-EPA](https://github.com/mccroweyclinton-EPA).
 
-- Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
+- Three at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
   - [ciecl](https://github.com/ropensci/software-review/issues/765), International Classification of Diseases ICD-10/ICD-11 for Chile. Submitted by [Rodolfo Tasso](https://github.com/Rodotasso).
 
   - [rcrisp](https://github.com/ropensci/software-review/issues/718), Automate the Delineation of Urban River Spaces. Submitted by [Claudiu Forgaci](https://github.com/cforgaci). (Stats).
 
-- Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+  - [coevolve](https://github.com/ropensci/software-review/issues/717), Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan. Submitted by [Scott Claessens](https://scottclaessens.github.io/). (Stats).
+
+- Two at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
 
   - [brapiR2](https://github.com/ropensci/software-review/issues/792), A Tidyverse-Native Client for the BrAPI v2 (Breeding API) Specification. Submitted by [Ayo](https://orcid.org/0009-0007-1642-0172).
 
   - [ibger](https://github.com/ropensci/software-review/issues/787), Access the IBGE Aggregate Data API from R. Submitted by [Andre Leite Wanderley](https://castlab.org).
-
-  - [coevolve](https://github.com/ropensci/software-review/issues/717), Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan. Submitted by [Scott Claessens](https://scottclaessens.github.io/). (Stats).
 
 - Three at ['2/seeking-reviewer(s)'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%222/seeking-reviewer(s)%22):
 
@@ -123,7 +120,7 @@ There are eighteen recently closed and active submissions and 5 submissions on h
 
 - Four at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
-  - [camtrapReport](https://github.com/ropensci/software-review/issues/799), Camera-Trap Report Generator. Submitted by [Elham Ebrahimi](https://www.wur.nl/en/persons/elham-ebrahimi.htm).
+  - [camtrapReport](https://github.com/ropensci/software-review/issues/799), Camera-Trap Report Generator. Submitted by [Elham Ebrahimi](https://github.com/spatialecology/).
 
   - [nert](https://github.com/ropensci/software-review/issues/785), Curated Access to TERN Environmental Raster Data. Submitted by [Max Moldovan](https://scholar.google.com.au/citations?user=zG1uKrcAAAAJ&hl=en).
 

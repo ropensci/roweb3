@@ -375,6 +375,9 @@ get_user_text <- function(issue) {
   if (!startsWith(url, "https")) {
     url <- paste0("https://", url)
   }
+  if (url == "https://www.wur.nl/en/persons/elham-ebrahimi.htm") {
+    url <- "https://github.com/spatialecology/"
+  }
   sprintf("[%s](%s)", name, url)
 }
 
