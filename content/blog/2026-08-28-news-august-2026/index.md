@@ -52,9 +52,8 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 
 - Tuesday December 8th, 14:00 Europe Central (12:00 UTC) ["Code Linting in R"](/events/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host [Etienne Bacher](/author/etienne-bacher/).
 
-- Read up on Code Linting and apply some linters to your R code
-
-- Meet co-host, Etienne Bacher, and discuss code linting in general, or flir and Jarl in particular \* Note that December coworking is a week later than usual
+  - Read up on Code Linting and apply some linters to your R code
+  - Meet co-host, Etienne Bacher, and discuss code linting in general, or flir and Jarl in particular \* Note that December coworking is a week later than usual
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
