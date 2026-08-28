@@ -15,7 +15,7 @@ tags:
 - packages
 description: How to Access and Process the 1970 and 1980 Argentine Censuses Using
   R
-socialImg: blog/2026-05-19-analisis-demografico-con-arcenso/portada-blog.png
+socialImg: https://ropensci.org/es/blog/2026/08/10/analisis-demografico-con-arcenso/portada-blog.es.png
 socialAlt: Hex logo de ARcenso sobre documentos históricos de censos argentinos de
   1970 y 1980
 editor:
