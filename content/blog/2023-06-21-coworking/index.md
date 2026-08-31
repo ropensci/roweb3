@@ -11,6 +11,7 @@ tags:
   - coworking
   - events
 description: "Discover how rOpenSci coworking sessions have evolved to include themes and community hosts, while still providing a place of community to work and chat!"
+photogallery: true
 params:
   doi: "10.59350/ktyc2-er732"
 ---
@@ -114,7 +115,7 @@ introduce yourself (see example slides from this year, below),
 and to add any relevant links you can think of to the community document. 
 We will promote the event on social media and in various R community spaces and you should feel free to promote the event to your friends and colleagues and through your own channels, but otherwise that's it!
 
-{{< gallery caption = "Slides">}}
+{{< gallery >}}
 {{< figureforgallery src="slide_alex_sm.png" caption="January Community Host, Alex 🎉" alt="Example slide introducing the January community host, Alex" >}}
 {{< figureforgallery src="slide_hugo_sm.png" caption="February Community Host, Hugo 🎉" alt="Example slide introducing the February community host, Hugo" >}}
 {{< figureforgallery src="slide_nick_sm.png" caption="March Community Host, Nick 🎉" alt="Example slide introducing the March community host, Nick" >}}
