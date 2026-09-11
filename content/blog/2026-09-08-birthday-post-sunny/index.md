@@ -36,7 +36,11 @@ I was probably even more excited than when I got my PhD admission!
 
 ## bbsTaiwan R package – a combination of my dreams
 
-I have been an avid R user for a long time, and I am particularly fascinated by the open science nature that comes with it. My proposed package, “[bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/)”, aims to solve a common issue with an open-source dataset, the Breeding Bird Survey (BBS) data of Taiwan. While the BBS dataset is publicly available online and stored in [Global Biodiversity Information Facility](https://www.gbif.org/), it is structured in a specific machine-readable format that requires a certain amount of data wrangling to make it usable for downstream modeling and ecological inference. [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) is a data package as well as a wrangling toolbox, and it can be particularly useful for undergraduate and graduate students, as well as researchers who need BBS data for their dissertations. Most importantly, I see it as a crucial way to contribute my skills back to my beloved homeland - Taiwan. I want to use this package to show my care and love for the land.
+I have been an avid R user for a long time, and I am particularly fascinated by the open science nature that comes with it. 
+My proposed package, “[bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/)”, aims to solve a common issue with an open-source dataset, the Breeding Bird Survey (BBS) data of Taiwan. 
+While the BBS dataset is publicly available online and stored in [Global Biodiversity Information Facility](https://www.gbif.org/), it is structured in a specific machine-readable format that requires a certain amount of data wrangling to make it usable for downstream modeling and ecological inference. 
+[bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) is a data package as well as a wrangling toolbox, and it can be particularly useful for undergraduate and graduate students, as well as researchers who need BBS data for their dissertations. 
+Most importantly, I see it as a crucial way to contribute my skills back to my beloved homeland - Taiwan. I want to use this package to show my care and love for the land.
 
 {{< figure src = "presentation.png" width = "400" alt = "bbsTaiwan is the package I developed under rOpenSci Championship Program" >}}
 
@@ -55,7 +59,13 @@ If we can put extra thought and effort into thinking from other people’s persp
 
 ## rOpenSci program as a path to future opportunities
 
-The rOpenSci Championship program not only opened my door to R package development, but it also provided me with invaluable opportunities. I was selected as an “Opportunity Scholar” for posit::conf(2024), where I connected with fellow programmers and was inspired further by the possibilities of this programming language. After the championship program, I was presenting in the rOpenSci Community Call "[From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)", where I had a chance to share my experience and contribute back to rOpenSci. Furthermore, I received support from [Natural Sciences and Engineering Research Council of Canada](https://nserc-crsng.canada.ca/en) and the [R Consortium](https://r-consortium.org/all-projects/callforproposals.html) to create my second R package, [birdnetTools](https://birdnet-team.github.io/birdnetTools/), in collaboration with the Cornell Lab of Ornithology. It was a dream come true!! None of this would have been possible if I hadn't participated in the rOpenSci Championship program a few years ago. Meanwhile, my story with rOpenSci will continue. 
+The rOpenSci Championship program not only opened my door to R package development, but it also provided me with invaluable opportunities. 
+I was selected as an “Opportunity Scholar” for posit::conf(2024), where I connected with fellow programmers and was inspired further by the possibilities of this programming language. 
+After the championship program, I was presenting in the rOpenSci Community Call "[From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)", where I had a chance to share my experience and contribute back to rOpenSci. 
+Furthermore, I received support from [Natural Sciences and Engineering Research Council of Canada](https://nserc-crsng.canada.ca/en) and the [R Consortium](https://r-consortium.org/all-projects/callforproposals.html) to create my second R package, [birdnetTools](https://birdnet-team.github.io/birdnetTools/), in collaboration with the Cornell Lab of Ornithology. 
+It was a dream come true!! 
+None of this would have been possible if I hadn't participated in the rOpenSci Championship program a few years ago. 
+Meanwhile, my story with rOpenSci will continue. 
 
 Thank you to the community at rOpenSci. Thank you for bringing excitement, fun, and care to this world.
 
