@@ -3,7 +3,7 @@ slug: "birthday-post-sunny"
 title: Happy Birthday rOpenSci — My Journey from First-Time Developer to Current Opportunities
 
 author:
-  - Sunny (Yi-Chin) Tseng
+  - Sunny Yi-Chin Tseng
 date: 2020-03-10
 
 # Minimal tags for a post about a community-contributed package 
