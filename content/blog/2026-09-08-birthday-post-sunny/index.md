@@ -21,7 +21,7 @@ description: "A very short summary of your post (~ 100 characters)"
 social: "A post about blabla by @username@server.extension!"
 # this field is for the storing the name(s) of the editor(s) of your post
 # you can leave it empty until you know who'll review your PR
-editor:
+editor: Yanina Bellini Saibene
 ---
 
 
