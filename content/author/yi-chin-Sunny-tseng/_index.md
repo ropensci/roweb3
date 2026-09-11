@@ -1,5 +1,5 @@
 ---
-name: Sunny Yi-Chin Tseng
+name: Sunny YiChin Tseng
 link: https://sunnytseng.ca/
 bio: Independent Ecological Consultant, R programmer
 github: SunnyTseng
