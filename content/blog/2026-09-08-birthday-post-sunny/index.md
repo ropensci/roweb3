@@ -3,7 +3,7 @@ slug: "birthday-post-sunny"
 title: Happy Birthday rOpenSci — My Journey from First-Time Developer to Current Opportunities
 
 author:
-  - Author Sunny (Yi-Chin) Tseng
+  - Sunny (Yi-Chin) Tseng
 date: 2020-03-10
 
 # Minimal tags for a post about a community-contributed package 
@@ -44,7 +44,7 @@ I was very lucky to have [Eunseop Kim](https://ropensci.org/author/eunseop-kim/)
 
 ## rOpenSci program as a path to future opportunities
 
-The rOpenSci Championship program not only opened my door to R package development, but it also provided me with invaluable opportunities. I was selected as an “Opportunity Scholar” for posit::conf(2024), where I connected with fellow programmers and was inspired further by the possibilities of this programming language. I also received support from [Natural Sciences and Engineering Research Council of Canada](https://nserc-crsng.canada.ca/en) and the [R Consortium](https://r-consortium.org/all-projects/callforproposals.html) to create my second R package, [birdnetTools](https://birdnet-team.github.io/birdnetTools/), in collaboration with the Cornell Lab of Ornithology. It was a dream come true!! None of this would have been possible if I hadn't participated in the rOpenSci Championship program a few years ago. Meanwhile, my story with rOpenSci will continue. 
+The rOpenSci Championship program not only opened my door to R package development, but it also provided me with invaluable opportunities. I was selected as an “Opportunity Scholar” for posit::conf(2024), where I connected with fellow programmers and was inspired further by the possibilities of this programming language. After the championship program, I was presenting in the rOpenSci Community Call "[From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)", where I had a chance to share my experience and contribute back to rOpenSci. Furthermore, I received support from [Natural Sciences and Engineering Research Council of Canada](https://nserc-crsng.canada.ca/en) and the [R Consortium](https://r-consortium.org/all-projects/callforproposals.html) to create my second R package, [birdnetTools](https://birdnet-team.github.io/birdnetTools/), in collaboration with the Cornell Lab of Ornithology. It was a dream come true!! None of this would have been possible if I hadn't participated in the rOpenSci Championship program a few years ago. Meanwhile, my story with rOpenSci will continue. 
 
 Thank you to the community at rOpenSci. Thank you for bringing excitement, fun, and care to this world.
 
