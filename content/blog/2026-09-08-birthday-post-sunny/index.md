@@ -4,7 +4,7 @@ title: Happy Birthday rOpenSci — My Journey from First-Time Developer to Curre
 
 author:
   - Sunny Yi-Chin Tseng
-date: 2020-03-10
+date: 2026-09-11
 
 # Minimal tags for a post about a community-contributed package 
 # that has passed software peer review are listed below
@@ -27,7 +27,7 @@ editor:
 
 ## What? People would fund me and mentor me building my own R package?
 
-My first time hearing about rOpenSci was, interestingly, at a bird conference. At an ornithological conference in 2023, I was chatting with my bird friend / colleague [Steffi LaZerte](/author/steffi-lazerte/), who highly recommended that I apply for the rOpenSci Championship program given my strong interest in developing R packages. 
+My first time hearing about rOpenSci was, interestingly, at a bird conference. At an ornithological conference in 2023, I was chatting with my bird friend / colleague [Steffi LaZerte](/author/steffi-lazerte/), who highly recommended that I apply for the rOpenSci Champions program given my strong interest in developing R packages. 
 I mentioned my concerns and hesitation about whether I am “qualified” to make an R package, which at that time sounded like what professional developers do. She simply asked, “Can you write functions in R?” “Yes, I can.” “Then you are good to go! R packages are simply putting functions together in an organized way!” 
 So here we go, I took the motivation and sent out my application for the 2024 rOpenSci cohort. A few months later, I was selected as one of the 20 participants around the world; 
 I remember the strong excitement when I received the confirmation letter from rOpenSci. 
@@ -42,11 +42,11 @@ While the BBS dataset is publicly available online and stored in [Global Biodive
 [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) is a data package as well as a wrangling toolbox, and it can be particularly useful for undergraduate and graduate students, as well as researchers who need BBS data for their dissertations. 
 Most importantly, I see it as a crucial way to contribute my skills back to my beloved homeland - Taiwan. I want to use this package to show my care and love for the land.
 
-{{< figure src = "presentation.png" width = "400" alt = "bbsTaiwan is the package I developed under rOpenSci Championship Program" >}}
+{{< figure src = "presentation.png" width = "400" alt = "bbsTaiwan is the package I developed under rOpenSci Champions Program" >}}
 
 ## The mentor and the learning
 
-I was very lucky to have [Eunseop Kim](/author/eunseop-kim/) as my mentor during the championship program. 
+I was very lucky to have [Eunseop Kim](/author/eunseop-kim/) as my mentor during the Champions program. 
 He was extremely patient, supportive, and understanding. 
 Eunseop has a background in statistics and is very fluent in package development. He provided me with a lot of freedom on the project and emphasized that he would be there to support and help if I had any questions along my journey. 
 I sought suggestions from him frequently in terms of package design, usability, resources, and references. He not only taught me how to make R packages, but he also showed me the importance and power of being a supportive mentor. 
@@ -59,12 +59,12 @@ If we can put extra thought and effort into thinking from other people’s persp
 
 ## rOpenSci program as a path to future opportunities
 
-The rOpenSci Championship program not only opened my door to R package development, but it also provided me with invaluable opportunities. 
+The rOpenSci Champions program not only opened my door to R package development, but it also provided me with invaluable opportunities. 
 I was selected as an “Opportunity Scholar” for posit::conf(2024), where I connected with fellow programmers and was inspired further by the possibilities of this programming language. 
-After the championship program, I was presenting in the rOpenSci Community Call "[From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)", where I had a chance to share my experience and contribute back to rOpenSci. 
+After the Champions program, I was presenting in the rOpenSci Community Call "[From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)", where I had a chance to share my experience and contribute back to rOpenSci. 
 Furthermore, I received support from [Natural Sciences and Engineering Research Council of Canada](https://nserc-crsng.canada.ca/en) and the [R Consortium](https://r-consortium.org/all-projects/callforproposals.html) to create my second R package, [birdnetTools](https://birdnet-team.github.io/birdnetTools/), in collaboration with the Cornell Lab of Ornithology. 
 It was a dream come true!! 
-None of this would have been possible if I hadn't participated in the rOpenSci Championship program a few years ago. 
+None of this would have been possible if I hadn't participated in the rOpenSci Champions program a few years ago. 
 Meanwhile, my story with rOpenSci will continue. 
 
 Thank you to the community at rOpenSci. Thank you for bringing excitement, fun, and care to this world.
