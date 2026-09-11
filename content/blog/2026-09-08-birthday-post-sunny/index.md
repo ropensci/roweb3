@@ -27,7 +27,11 @@ editor:
 
 ## What? People would fund me and mentor me building my own R package?
 
-My first time hearing about rOpenSci was, interestingly, at a bird conference. At an ornithological conference in 2023, I was chatting with my bird friend / colleague [Steffi LaZerte](https://ropensci.org/author/steffi-lazerte/), who highly recommended that I apply for the rOpenSci Championship program given my strong interest in developing R packages. I mentioned my concerns and hesitation about whether I am “qualified” to make an R package, which at that time sounded like what professional developers do. She simply asked, “Can you write functions in R?” “Yes, I can.” “Then you are good to go! R packages are simply putting functions together in an organized way!” So here we go, I took the motivation and sent out my application for the 2024 rOpenSci cohort. A few months later, I was selected as one of the 20 participants around the world; I remember the strong excitement when I received the confirmation letter from rOpenSci. I was probably even more excited than when I got my PhD admission!
+My first time hearing about rOpenSci was, interestingly, at a bird conference. At an ornithological conference in 2023, I was chatting with my bird friend / colleague [Steffi LaZerte](/author/steffi-lazerte/), who highly recommended that I apply for the rOpenSci Championship program given my strong interest in developing R packages. 
+I mentioned my concerns and hesitation about whether I am “qualified” to make an R package, which at that time sounded like what professional developers do. She simply asked, “Can you write functions in R?” “Yes, I can.” “Then you are good to go! R packages are simply putting functions together in an organized way!” 
+So here we go, I took the motivation and sent out my application for the 2024 rOpenSci cohort. A few months later, I was selected as one of the 20 participants around the world; 
+I remember the strong excitement when I received the confirmation letter from rOpenSci. 
+I was probably even more excited than when I got my PhD admission!
 
 
 ## bbsTaiwan R package – a combination of my dreams
