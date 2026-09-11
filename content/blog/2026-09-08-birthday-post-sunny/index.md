@@ -42,7 +42,14 @@ I have been an avid R user for a long time, and I am particularly fascinated by 
 
 ## The mentor and the learning
 
-I was very lucky to have [Eunseop Kim](https://ropensci.org/author/eunseop-kim/) as my mentor during the championship program. He was extremely patient, supportive, and understanding. Eunseop has a background in statistics and is very fluent in package development. He provided me with a lot of freedom on the project and emphasized that he would be there to support and help if I had any questions along my journey. I sought suggestions from him frequently in terms of package design, usability, resources, and references. He not only taught me how to make R packages, but he also showed me the importance and power of being a supportive mentor. Being able to study references on how other people developed their packages improved my own philosophy of making packages as well.  One rule that still sticks with me until today is “be kind.” Be kind to your users, be kind to your collaborators, and be kind to your colleagues. If we can put extra thought and effort into thinking from other people’s perspectives (what users might like to see and what makes a package easy to use), then it will be a tool that people genuinely enjoy using.
+I was very lucky to have [Eunseop Kim](/author/eunseop-kim/) as my mentor during the championship program. 
+He was extremely patient, supportive, and understanding. 
+Eunseop has a background in statistics and is very fluent in package development. He provided me with a lot of freedom on the project and emphasized that he would be there to support and help if I had any questions along my journey. 
+I sought suggestions from him frequently in terms of package design, usability, resources, and references. He not only taught me how to make R packages, but he also showed me the importance and power of being a supportive mentor. 
+Being able to study references on how other people developed their packages improved my own philosophy of making packages as well.  
+One rule that still sticks with me until today is “be kind.” 
+Be kind to your users, be kind to your collaborators, and be kind to your colleagues. 
+If we can put extra thought and effort into thinking from other people’s perspectives (what users might like to see and what makes a package easy to use), then it will be a tool that people genuinely enjoy using.
 
 {{< figure src = "mentor.png" width = "400" alt = "a meeting with rOpenSci community manager [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) and my mentor [Eunseop Kim](https://ropensci.org/author/eunseop-kim/)." >}}
 
