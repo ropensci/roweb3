@@ -3,7 +3,7 @@ slug: "birthday-post-sunny"
 title: Happy Birthday rOpenSci — My Journey from First-Time Developer to Current Opportunities
 author:
   - Yi-Chin Sunny Tseng
-date: 2026-09-11=4
+date: 2026-09-15
 tags:
   - packages
   - R
