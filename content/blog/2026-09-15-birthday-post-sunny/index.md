@@ -14,7 +14,8 @@ preface: This post is part of our 15th anniversary celebration series, in which 
 description: "Yi-Chin Sunny Tseng shares how the rOpenSci Champions Program helped her grow from a first-time R package developer into an open science contributor, creating tools for biodiversity research and discovering new opportunities along the way."
 editor: 
   - Yanina Bellini Saibene
-doi: 10.59350/8abjn-2t920 
+params:
+  doi: 10.59350/8abjn-2t920 
 ---
 
 
