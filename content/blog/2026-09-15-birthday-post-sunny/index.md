@@ -1,27 +1,20 @@
 ---
 slug: "birthday-post-sunny"
 title: Happy Birthday rOpenSci — My Journey from First-Time Developer to Current Opportunities
-
 author:
   - Yi-Chin Sunny Tseng
-date: 2026-09-11
-
-# Minimal tags for a post about a community-contributed package 
-# that has passed software peer review are listed below
-# Consult the Technical Guidelines for information on choosing tags
+date: 2026-09-11=4
 tags:
   - packages
   - R
   - community
-# The summary below will be used by e.g. Mastodon preview cards
-description: "A very short summary of your post (~ 100 characters)"
-
-# the text below is for populating the "share on Mastodon" button
-# if deleted, the title of the post will be used
-social: "A post about blabla by @username@server.extension!"
-# this field is for the storing the name(s) of the editor(s) of your post
-# you can leave it empty until you know who'll review your PR
-editor: Yanina Bellini Saibene
+  - Champions Program
+  - anniversary
+preface: This post is part of our 15th anniversary celebration series, in which community members share their stories with rOpenSci.
+description: "Yi-Chin Sunny Tseng shares how the rOpenSci Champions Program helped her grow from a first-time R package developer into an open science contributor, creating tools for biodiversity research and discovering new opportunities along the way."
+editor: 
+  - Yanina Bellini Saibene
+doi: 10.59350/8abjn-2t920 
 ---
 
 
@@ -42,7 +35,7 @@ While the BBS dataset is publicly available online and stored in [Global Biodive
 [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) is a data package as well as a wrangling toolbox, and it can be particularly useful for undergraduate and graduate students, as well as researchers who need BBS data for their dissertations. 
 Most importantly, I see it as a crucial way to contribute my skills back to my beloved homeland - Taiwan. I want to use this package to show my care and love for the land.
 
-{{< figure src = "presentation.png" width = "400" alt = "bbsTaiwan is the package I developed under rOpenSci Champions Program" >}}
+{{< figure src = "presentation.png" alt = "bbsTaiwan is the package I developed under rOpenSci Champions Program" >}}
 
 ## The mentor and the learning
 
@@ -55,7 +48,7 @@ One rule that still sticks with me until today is “be kind.”
 Be kind to your users, be kind to your collaborators, and be kind to your colleagues. 
 If we can put extra thought and effort into thinking from other people’s perspectives (what users might like to see and what makes a package easy to use), then it will be a tool that people genuinely enjoy using.
 
-{{< figure src = "mentor.png" width = "400" alt = "a meeting with rOpenSci community manager [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) and my mentor [Eunseop Kim](https://ropensci.org/author/eunseop-kim/)." >}}
+{{< figure src = "mentor.png" alt = "a meeting with rOpenSci community manager [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) and my mentor [Eunseop Kim](https://ropensci.org/author/eunseop-kim/)." >}}
 
 ## rOpenSci program as a path to future opportunities
 
@@ -69,4 +62,4 @@ Meanwhile, my story with rOpenSci will continue.
 
 Thank you to the community at rOpenSci. Thank you for bringing excitement, fun, and care to this world.
 
-{{< figure src = "IMG_7550.JPG" width = "400" alt = "A workshop about bbsTaiwan in Taiwan for university students" >}}
+{{< figure src = "IMG_7550.JPG" alt = "A workshop about bbsTaiwan in Taiwan for university students" >}}
