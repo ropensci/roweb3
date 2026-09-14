@@ -6,6 +6,14 @@ package_version: 0.1.0
 author:
   - Author Name1
   - Author Name2
+editor:
+  - Editor Name1
+# Delete the translator line below if this post is not a translation
+translator:
+  - Translator Name1
+# Delete the interviewee line below if this post is not a interview
+interviewee:
+  - Interviewee Name1
 # Set the date below to the publication date of your post
 date: 2020-03-10
 # Minimal tags for a post about a community-contributed package 
@@ -18,6 +26,9 @@ tags:
   - community
 # The summary below will be used by e.g. Mastodon preview cards
 description: "A very short summary of your post (~ 100 characters)"
+# Fill the doi using `commonmetar::commonmeta_doi()` function
+params:
+  doi: 
 # If you have no preferred image for Mastodon preview cards,
 # delete the socialImg and socialAlt lines below 
 # - Note "/" between year/month/day
@@ -28,7 +39,6 @@ socialAlt: "Alternative description of the image"
 social: "A post about blabla by @username@server.extension!"
 # this field is for the storing the name(s) of the editor(s) of your post
 # you can leave it empty until you know who'll review your PR
-editor:
 ---
 
 This is the Markdown (.md) template for a blog post or tech note. 
