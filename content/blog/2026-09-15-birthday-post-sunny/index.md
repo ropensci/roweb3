@@ -48,13 +48,13 @@ One rule that still sticks with me until today is “be kind.”
 Be kind to your users, be kind to your collaborators, and be kind to your colleagues. 
 If we can put extra thought and effort into thinking from other people’s perspectives (what users might like to see and what makes a package easy to use), then it will be a tool that people genuinely enjoy using.
 
-{{< figure src = "mentor.png" alt = "Zoom meeting with my mentor and rOpenSci Community Manager" captions = "a meeting with rOpenSci community manager [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) and my mentor [Eunseop Kim](https://ropensci.org/author/eunseop-kim/)." >}}
+{{< figure src = "mentor.png" alt = "Zoom meeting with my mentor and rOpenSci Community Manager" captions = "a meeting with rOpenSci community manager [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) and my mentor [Eunseop Kim](/author/eunseop-kim/)." >}}
 
 ## rOpenSci program as a path to future opportunities
 
 The rOpenSci Champions program not only opened my door to R package development, but it also provided me with invaluable opportunities. 
 I was selected as an “Opportunity Scholar” for posit::conf(2024), where I connected with fellow programmers and was inspired further by the possibilities of this programming language. 
-After the Champions program, I was presenting in the rOpenSci Community Call "[From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)", where I had a chance to share my experience and contribute back to rOpenSci. 
+After the Champions program, I was presenting in the rOpenSci Community Call "[From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](/commcalls/first-time-contributor/)", where I had a chance to share my experience and contribute back to rOpenSci. 
 Furthermore, I received support from [Natural Sciences and Engineering Research Council of Canada](https://nserc-crsng.canada.ca/en) and the [R Consortium](https://r-consortium.org/all-projects/callforproposals.html) to create my second R package, [birdnetTools](https://birdnet-team.github.io/birdnetTools/), in collaboration with the Cornell Lab of Ornithology. 
 It was a dream come true!! 
 None of this would have been possible if I hadn't participated in the rOpenSci Champions program a few years ago. 
