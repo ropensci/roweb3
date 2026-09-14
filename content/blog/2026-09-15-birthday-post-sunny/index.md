@@ -35,7 +35,7 @@ While the BBS dataset is publicly available online and stored in [Global Biodive
 [bbsTaiwan](https://sunnytseng.github.io/bbsTaiwan/) is a data package as well as a wrangling toolbox, and it can be particularly useful for undergraduate and graduate students, as well as researchers who need BBS data for their dissertations. 
 Most importantly, I see it as a crucial way to contribute my skills back to my beloved homeland - Taiwan. I want to use this package to show my care and love for the land.
 
-{{< figure src = "presentation.png" alt = "bbsTaiwan is the package I developed under rOpenSci Champions Program" >}}
+{{< figure src = "presentation.png" alt = "Promotional banner for bbsTaiwan, the R package that I developed for the Champions Program for retrieving and analyzing Taiwan Breeding Bird Survey data. Features the hexagonal bbsTaiwan logo with an illustrated bird beside a silhouette of Taiwan on a background of numbers, alongside a photo of a small bird perched on a person wrist with a tracking tag, the rOpenSci logo, and a grid of illustrated icons depicting scientists and researchers of various specialties." >}}
 
 ## The mentor and the learning
 
@@ -48,7 +48,7 @@ One rule that still sticks with me until today is “be kind.”
 Be kind to your users, be kind to your collaborators, and be kind to your colleagues. 
 If we can put extra thought and effort into thinking from other people’s perspectives (what users might like to see and what makes a package easy to use), then it will be a tool that people genuinely enjoy using.
 
-{{< figure src = "mentor.png" alt = "a meeting with rOpenSci community manager [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) and my mentor [Eunseop Kim](https://ropensci.org/author/eunseop-kim/)." >}}
+{{< figure src = "mentor.png" alt = "Zoom meeting with my mentor and rOpenSci Community Manager" captions = "a meeting with rOpenSci community manager [Yanina Bellini Saibene](https://ropensci.org/author/yanina-bellini-saibene/) and my mentor [Eunseop Kim](https://ropensci.org/author/eunseop-kim/)." >}}
 
 ## rOpenSci program as a path to future opportunities
 
