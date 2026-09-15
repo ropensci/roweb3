@@ -69,3 +69,8 @@ The most common answer was **creating a welcoming space**.
 ## Round 3 - The Future: What Comes Next?
 
 The third round asked what participants would like to see rOpenSci do next, and what ideas from other communities could be worth adopting or partnering on.
+
+
+## Closing Thoughts
+
+*Thank you to everyone who joined and shared their thoughts. 💙*
