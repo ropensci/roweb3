@@ -57,3 +57,15 @@ Other things people named as favourites:
 
 ## Round 2 - The Present: What Does rOpenSci Do Well?
 
+The second round invited reflection on what rOpenSci does well today and what participants want to get more involved in.
+
+The most common answer was **creating a welcoming space**.
+
+
+
+> You can jump into a role and the community will support you. If there is anything you want to do, start doing it and you will get the support you need."
+
+
+## Round 3 - The Future: What Comes Next?
+
+The third round asked what participants would like to see rOpenSci do next, and what ideas from other communities could be worth adopting or partnering on.
