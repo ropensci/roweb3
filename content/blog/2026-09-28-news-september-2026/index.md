@@ -10,13 +10,13 @@ description: Champions Program; R-Universe update; Quinceañera; new packages an
 params:
   last_newsletter: '2026-08-28'
   doi: "10.59350/em84w-2869"
-rmd_hash: bd2a234a9f20e8ad
+rmd_hash: 83a3180b555f3c4e
 
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
 
-Dear rOpenSci friends, it's time for our monthly news roundup! <!-- blabla --> You can read this post [on our blog](/blog/2026/09/28/news-september-2026). Now let's dive into the activity at and around rOpenSci!
+Dear rOpenSci friends, it's time for our monthly news roundup! 
 
 ## rOpenSci HQ
 
@@ -154,6 +154,10 @@ The covr2gh package by Dragoș Moldovan-Grünfeld provides an automated way to s
 ### Deprecation messages for package data
 
 Hugo Gruson wrote an [exhaustive post](https://hugogruson.fr/posts/deprecation-pkg-data/) about the deprecation of *data* in an R package. The post features the [`delayedAssign()`](https://rdrr.io/r/base/delayedAssign.html) function.
+
+### A refactoring story featuring people
+
+Athanasia Mo Mowinckel published ["Why ggseg Atlases Became Function Calls"](https://drmowinckels.io/blog/2026/atlases-as-functions/), where she explains how she made data into objects into a package in order to allow re-exporting them. She furthermore tells how she got to that conclusion by trying out different solutions and discussing with other package developers in the rOpenSci Slack workspace.
 
 ### usethis 3.2.2
 
