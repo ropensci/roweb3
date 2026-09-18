@@ -743,6 +743,12 @@ See it in action in a PR in the [tfrmt R package](https://github.com/GSK-Biostat
 Hugo Gruson wrote an [exhaustive post](https://hugogruson.fr/posts/deprecation-pkg-data/) about the deprecation of _data_ in an R package.
 The post features the `delayedAssign()` function.
 
+### A refactoring story featuring people
+
+Athanasia Mo Mowinckel published ["Why ggseg Atlases Became Function Calls"](https://drmowinckels.io/blog/2026/atlases-as-functions/),
+where she explains how she made data into objects into a package in order to allow re-exporting them.
+She furthermore tells how she got to that conclusion by trying out different solutions and discussing with other package developers in the rOpenSci Slack workspace.
+
 ### usethis 3.2.2
 
 The usethis package was updated on CRAN.
