@@ -3,19 +3,16 @@ slug: "post-template"
 # Post in English: Title in Title Case 
 # Post in Spanish: Title only first word and proper names in title case
 title: Post Title in Title Case
-# Delete the package_version line below if your post is not about a package
-package_version: 0.1.0
+# package_version: 0.1.0 # comment out if this post is about a package
 author:
   - Author Name1
   - Author Name2
 editor:
   - Editor Name1
-# Delete the translator line below if this post is not a translation
-translator:
-  - Translator Name1
-# Delete the interviewee line below if this post is not a interview
-interviewee:
-  - Interviewee Name1
+# translator: #comment out if this post is a translation
+  # - Translator Name1
+# interviewee: # comment out if this post is a interview
+ # - Interviewee Name1
 # Set the date below to the publication date of your post
 date: 2020-03-10
 # Minimal tags for a post about a community-contributed package 
