@@ -25,7 +25,7 @@ tags:
   - community
 # The summary below will be used by e.g. Mastodon preview cards
 description: "A very short summary of your post (~ 100 characters)"
-# Fill the doi using `commonmetar::commonmeta_doi()` function
+# Fill the doi using `commonmetar::commonmeta_doi()` function. Commonmetar package: https://docs.ropensci.org/commonmetar/
 params:
   doi: 
 # If you have no preferred image for Mastodon preview cards,
