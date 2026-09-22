@@ -9,12 +9,10 @@ author:
   - Author Name2
 editor:
   - Editor Name1
-# Delete the translator line below if this post is not a translation
-translator:
-  - Translator Name1
-# Delete the interviewee line below if this post is not a interview
-interviewee:
-  - Interviewee Name1
+# translator: #comment out if this post is a translation
+ # - Translator Name1
+# interviewee: # comment out if this post is a interview
+ # - Interviewee Name1
 # Set the date below to the publication date of your post
 date: 2020-03-10
 # Minimal tags for a post about a community-contributed package 
