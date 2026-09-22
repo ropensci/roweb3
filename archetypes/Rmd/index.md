@@ -3,8 +3,7 @@ slug: "post-template"
 # Post in English: Title in Title Case 
 # Post in Spanish: Title only first word and proper names in title case
 title: Post Title in Title Case
-# Delete the package_version line below if your post is not about a package
-package_version: 0.1.0
+# package_version: 0.1.0 # comment out if this post is about a package
 author:
   - Author Name1
   - Author Name2
