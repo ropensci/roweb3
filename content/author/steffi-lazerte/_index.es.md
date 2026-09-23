@@ -1,6 +1,6 @@
 ---
 name: Steffi LaZerte
-bio: rOpenSci Community Engineer
+bio: Ingeniera de Comunidad de rOpenSci
 link: https://steffilazerte.ca
 twitter: steffilazerte
 linkedin: steffi-lazerte
