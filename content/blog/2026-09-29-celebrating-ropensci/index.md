@@ -16,8 +16,6 @@ preface: This post is part of our 15th anniversary celebration series, in which 
 description: "rOpenSci turns 15 and I've been a part of this community for a good chunk of that time. Here I share some memories and the lessons I learned."
 ---
 
-# Celebrating the rOpenSci community
-
 rOpenSci turns 15 and I've been a part of this community for a good chunk of that time. As I reflected on those years, a lot of great memories came to mind, and I realized some of them taught me some lessons that I would love to share.
 
 ## Ignore your imposter syndrome
