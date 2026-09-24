@@ -10,7 +10,7 @@ description: Champions Program; R-Universe update; Quinceañera; new packages an
 params:
   last_newsletter: '2026-08-28'
   doi: "10.59350/em84w-2869"
-rmd_hash: 83a3180b555f3c4e
+rmd_hash: b7e6a396ab3dbe3c
 
 ---
 
@@ -24,32 +24,40 @@ Dear rOpenSci friends, it's time for our monthly news roundup!
 
 rOpenSci community manager [Yani](/author/yanina-bellini-saibene) and software-review lead [Mark](/author/mark-padgham) will participate in the upcoming Openscapes community call on October 1st (this Thursday!) at 9:30AM PT (16:30 UTC) entitled *"Open Communities in the Age of AI"*, together with Mara Averick, Senior Developer Advocate at Quansight and Hadley Wickham, Chief Scientist at Posit.
 
-[Event page](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/), including link for registration (for free!).
+[Event page](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/), including link for free registration.
 
 ### Champions Program update
 
-TODO Yani (post about completing training?)
+Our current 2026--2027 cohort has completed the training phase and is now focused on developing their individual projects with the support of their mentors, as well as on their outreach activities.
+
+Meanwhile, the 2025--2026 cohort will wrap up their journey with a closing community call, **Beyond the Code: an open showcase of our champions' projects**. At the call, the champions will present their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities. They'll also share what their projects led to, including scholarships, new collaborations, and professional growth. The call will take place on Monday, October 12 at 15:00 UTC. Come get inspired, ask your questions live, and help us celebrate our growing open-source community!
 
 ## We're still celebrating our 15th anniversary! :tada:
 
 In July, we started to share stories from members of our community about their experiences with rOpenSci. Our second story features [Yi-Chin Sunny Tseng](/author/yi-chin-sunny-tseng/) and her connection with rOpenSci. Read it on our blog: [Happy Birthday rOpenSci --- My Journey from First-Time Developer to Current Opportunities](/blog/2026/09/15/birthday-post-sunny/) Stay tuned for more stories from our community as we continue celebrating 15 years of rOpenSci!
 
+## rOpenSci at LatinR 2026 in Medellín, Colombia. See you there!
+
+[Registration for LatinR 2026 (November 11--13, Universidad de Antioquia, Medellín) is now open](https://www.eventbrite.com.ar/e/1998690018649), and rOpenSci will have a strong presence.
+
+[Jeroen](/author/jeroen-ooms) will give a talk on R-Universe. [Yani](/author/yanina-bellini-saibene) will lead a workshop on R package development and give a talk on the Champions Program's open curriculum. [Nic Crane](/author/nic-crane) is one of the conference's keynote speakers. [Evelia Lorena Coss Navarrete](/author/evelia-lorena-coss-navarrete/), one of our Champions, will talk about the package she developed during the program. Several other rOpenSci folks --- [Natalia Da Silva](/author/evelia-lorena-coss-navarrete/), [Luis Verde](/author/luis-d.-verde-arregoitia/), and [Francisco Cardozo](/author/francisco-cardozo/), among others --- will also be there. Jeroen, Francisco, and Yani will take part in the hackathon during the conference.
+
+Join us in Medellín!
+
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
-- Tuesday October 6th, 09:00 Americas Pacific (16:00 UTC) ["Writing Tests & Testing in R"](/events/), with [Yanina Bellini Saibene](/author/yanina-bellini-saibene) and co-host Olivier Leroy.
-
+- Tuesday October 6th, 09:00 Americas Pacific (16:00 UTC) ["Writing Tests & Testing in R"](/events/coworking-2026-10/), with [Yanina Bellini Saibene](/author/yanina-bellini-saibene) and co-host [Olivier Leroy](/author/olivier-leroy/).
   - Explore how to write tests for R and add some tests to your work or packages
   - Meet co-host, Olivier Leroy, and chat about testing
-
-- Tuesday November 3rd, 09:00 Australia Western (01:00 UTC) [TBA](/events/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host TBA.
-
-- Tuesday December 8th, 14:00 Europe Central (12:00 UTC) ["Code Linting in R"](/events/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host [Etienne Bacher](/author/etienne-bacher/).
-
-- Read up on Code Linting and apply some linters to your R code
-
-- Meet co-host, Etienne Bacher, and discuss code linting in general, or flir and Jarl in particular \* Note that December coworking is a week later than usual
+- Tuesday November 3rd, 09:00 Australia Western (01:00 UTC) ["Climate Science in R"](/events/coworking-2026-11/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host [Elio Campitelli](/author/elio-campitelli/).
+  - Explore how R is used to study the climate
+  - Meet co-host, Elio Campitelli, and discuss Climate Science in R
+- Tuesday December 8th<sup>\*</sup>, 14:00 Europe Central (12:00 UTC) ["Code Linting in R"](/events/coworking-2026-12/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host [Etienne Bacher](/author/etienne-bacher/).
+  - Read up on Code Linting and apply some linters to your R code
+  - Meet co-host, Etienne Bacher, and discuss code linting in general, or flir and Jarl in particular  
+    \* Note that December coworking is a week later than usual
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
