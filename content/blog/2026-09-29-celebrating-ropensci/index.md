@@ -57,7 +57,7 @@ At rOpenSci you can contribute in so many ways. We have a [community contributin
 - Build a tool to enhance some process.
 - Give and get support, e.g. mentor, review grant applications or talks, advice or recommendations for jobs, help unavailable or overwhelmed people.
 
-As you can see, most of my contributions did not involve any code, and only a few required an invitation. Some of them are the kind of thing you could add to your CV, but the most important ones only belong in your heart.
+As you can see, most of my contributions did not involve any code, and only a few required an invitation. Some of them are the kind of thing you could add to your CV, and the most important ones only belong in your heart.
 
 ## Attract great people
 
