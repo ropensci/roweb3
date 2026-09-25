@@ -68,7 +68,7 @@ Meanwhile, the 2025–2026 cohort will wrap up their journey with a closing comm
 At the call, the Champions will present their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities. 
 They'll also share what their projects led to, including scholarships, new collaborations, and professional growth. 
 The event is in Spanish. 
-The call will take place on Monday, October 12 at 15:00 UTC. 
+The call will take place on Monday, October 12 at 15:00 UTC. Stay tuned for the details on our [community call page](/es/commcalls/).
 Come get inspired, ask your questions live, and help us celebrate our growing open-source community!
 
 ## We're still celebrating our 15th anniversary! :tada:
