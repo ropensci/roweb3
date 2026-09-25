@@ -18,16 +18,16 @@ description: "rOpenSci turns 15 and I've been a part of this community for a goo
 
 rOpenSci turns 15 and I've been a part of this community for a good chunk of that time. As I reflected on those years, a lot of great memories came to mind, and I realized some of them taught me some lessons that I would love to share.
 
-## Ignore your imposter syndrome
+## Stretch your comfort zone
 
 Early in 2018 I came across [this post](https://ropensci.org/blog/2018/02/08/unconf2018/):
 
 > **Apply to attend rOpenSci unconf 2018!**  
 > We're organizing unconf18 to bring together scientists, developers, and open data enthusiasts from academia, industry, government, and non-profits to get together for a couple of days to hack on various projects and generally enrich our community. 
 
-In hindsight I was a good fit. I had recently transitioned from academia to my first job as a research software engineer. And yet, did I think I was a solid candidate? Oh no, I thought my chances were close to 0%. 
+In hindsight I was a good fit. I had recently transitioned from academia to my first job as a research software engineer. And yet, did I think I was a solid candidate? Oh no, I had lots of doubts.
 
-But when you ignore your imposter syndrome, great things happen. I applied anyway, got invited, and spent two days collaborating with [an incredible bunch of people](https://unconf18.ropensci.org/#participants). Some of them were already rockstars, many others eventually became influential in their own niche, and all of them had this great attitude that at the time I lacked words to describe. I now do: they were respectful and kind.
+But I know the greatest things often happen a little stretch outside your comfort zone. So I applied anyway, got invited, and spent two days collaborating with [an incredible bunch of people](https://unconf18.ropensci.org/#participants). Some of them were already rockstars, many others eventually became influential in their own niche, and all of them had this great attitude that at the time I lacked words to describe. I now do: they were respectful and kind.
 
 ## Be respectful and kind
 
