@@ -64,8 +64,10 @@ rOpenSci community manager [Yani](/author/yanina-bellini-saibene) and software-r
 
 Our current 2026–2027 cohort has completed the training phase and is now focused on developing their individual projects with the support of their mentors, as well as on their outreach activities.
  
-Meanwhile, the 2025–2026 cohort will wrap up their journey with a closing community call, **Beyond the Code: an open showcase of our champions' projects**. 
-At the call, the champions will present their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities. They'll also share what their projects led to, including scholarships, new collaborations, and professional growth. 
+Meanwhile, the 2025–2026 cohort will wrap up their journey with a closing community call, **Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a|e)s (Beyond the Code: an open showcase of our Champions' Projects)**. 
+At the call, the Champions will present their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities. 
+They'll also share what their projects led to, including scholarships, new collaborations, and professional growth. 
+The event is in Spanish. Stay tuned fir the details in our [community call page](/es/commcalls/).
 The call will take place on Monday, October 12 at 15:00 UTC. 
 Come get inspired, ask your questions live, and help us celebrate our growing open-source community!
 
