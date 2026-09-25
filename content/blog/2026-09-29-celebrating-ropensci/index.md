@@ -70,6 +70,40 @@ AI is changing the way we contribute to open source software. But we don't know 
 > **Open Communities in the Age of AI**  
 > {Open communities} help us connect on a human level around science and data and the things that we are passionate about. They change careers, they change lives. (...) But now, people are not necessarily finding their communities and getting the benefit of those communities in the way that they used to, because they're more easily able to get help and answers by using AI. (...) These connections and communities are more important than ever, as we need to find ways to support each other and ourselves as AI rapidly changes the landscape right under our feet.
 
-Personally, over the past year I've used AI heavily and learned several lessons. The most relevant here is that I don't want AI to impersonate me or the other person in a human-to-human conversation.
+Personally, over the past year I've used AI heavily and learned several lessons. The most relevant here is that I don't want AI to impersonate me or the other person in a human-to-human conversation. And for a taste of humanity
+
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="2024_boston_zci_yani-noam-mauro.JPG" alt="Photo of Yani, Noam, and Mauro in Boston, 2024" caption="<a href='https://www.linkedin.com/in/noamross/'>Noam Ross</a>, <a href='https://www.linkedin.com/in/yabellini/'>Yanina Bellini Saibene</a> and <a href='https://www.linkedin.com/in/mauro-lepore/'>me</a> at the 2024 <a href='https://chanzuckerberg.com/'>CZI</a> meeting in Boston, USA." >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="2024_seattle_posit-conf_monica-stefanie-sean-julia-mauro-kelly.png" alt="Photo of Monica, Stefanie, Sean, Julia, Mauro, and Kelly at posit::conf in Seattle, 2024" caption="<a href='https://www.linkedin.com/in/monica-gerber/'>Monica Gerber</a>, <a href='https://www.linkedin.com/in/stefaniebutland/'>Stefanie Butland</a>, <a href='https://www.linkedin.com/in/seankross/'>Sean Kross</a>, <a href='https://www.linkedin.com/in/julia-stewart-lowndes/'>Julia Stewart Lowndes</a>, <a href='https://www.linkedin.com/in/kellyobriant/'>Kelly O'Briant</a> and me at the 2024 Posit conference in Seattle, USA." >}}
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="2025_atlanta_posit-conf_luis-diana-mauro.jpg" alt="Photo of Luis, Diana, and Mauro at posit::conf in Atlanta, 2025" caption="<a href='https://www.linkedin.com/in/luis-d-verde-arregoitia-a20339209/'>Luis D. Verde Arregoitia</a>, <a href='https://www.linkedin.com/in/ddiannae/'>Diana Garcia Cortes</a> and me at the Georgia aquarium after the 2025 Posit conference in Atlanta, USA." >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="2025_san-jose_costa-rica_ronny.jpg" alt="Photo of Ronny in San José, Costa Rica, 2025" caption="<a href='https://www.linkedin.com/in/ronny-hernandez-mora/'>Ronny A. Hernández Mora</a> and me at Ronny's family gathering near San Jose, Costa Rica in 2025." >}}
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="2025_sao-pablo_brasil_bea-mauro.jpg" alt="Photo of Bea and Mauro in São Paulo, Brazil, 2025" caption="<a href='https://www.linkedin.com/in/beatrizmilz/'>Beatriz Milz</a> and me after coffee and pastries in Sao Pablo, Brazil in 2025." >}}
+
+</div>
+</div>
 
 Thanks for joining me in celebrating rOpenSci. And if, like me, you self-identify with this community, then happy birthday to you!
