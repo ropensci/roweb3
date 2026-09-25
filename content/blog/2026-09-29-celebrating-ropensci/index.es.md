@@ -31,22 +31,22 @@ Pero sé que las mejores cosas suelen pasar cuando uno se estira un poco por fue
 
 ## Sé una persona respetuosa y amable
 
-En 2022 [rOpenSci lanzó la primera cohorte del Programa de Campeones de rOpenSci](https://ropensci.org/blog/2022/09/22/launch-champions-program/). Para entonces ya tenía algunos años de experiencia como editor asociado de la [revisión de software por pares de rOpenSci](https://ropensci.org/software-review/), y [Yani](https://ropensci.org/author/yanina-bellini-saibene/) me invitó a hablarle a nuestros campeones y campeonas sobre el proceso.
+En 2022 [rOpenSci lanzó la primera cohorte del Programa de Campeones de rOpenSci](https://ropensci.org/blog/2022/09/22/launch-champions-program/). Para entonces ya tenía algunos años de experiencia como editor asociado de la [revisión de software por pares de rOpenSci](https://ropensci.org/software-review/), y [Yani](https://ropensci.org/author/yanina-bellini-saibene/) me invitó a hablarles a nuestros campeones y campeonas sobre el proceso.
 
-Mientras preparaba [esa charla](https://ropensci-training.github.io/software-review/) y discutía algunas ideas con Yani, ella me hizo dar notar la gran importancia que la comunidad de rOpenSci pone en la forma en que nos comunicamos entre nosotro/as[^1].
+Mientras preparaba [esa charla](https://ropensci-training.github.io/software-review/) y discutía algunas ideas con Yani, ella me hizo notar la gran importancia que la comunidad de rOpenSci pone en la forma en que nos comunicamos entre nosotro/as[^1].
 
 [^1]: Dos libros que me gustan son [How to Win Friends and Influence People](https://www.amazon.com/s?k=how+to+win+friends+and+influence+people) y [Crucial Conversations (Third Edition): Tools for Talking When Stakes Are High](https://www.amazon.com/s?k=crucial+conversations). Tanto es así que las guías para quienes [revisan](https://devguide.ropensci.org/es/softwarereview_reviewer.es.html) y [editan](https://devguide.ropensci.org/es/softwarereview_editor.es.html) los paquetes abren con este mensaje:
 
 > La comunidad de rOpenSci es lo más importante. Nuestro objetivo es que las revisiones sean abiertas, no conflictivas y con el objetivo de mejorar la calidad del software. ¡Sé amable! y comportate con respeto. Consulta nuestra guía para quienes realizan una revisión y el [código de conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/) para más información.
 
-Viniendo de una guía tan profundamente técnica, esa apertura quizás te sorprenda. Pero ahora a mí tiene sentido; el código roto es mucho más fácil de arreglar que las relaciones humanas rotas. 
+Viniendo de una guía tan profundamente técnica, esa apertura quizás te sorprenda. Pero ahora tiene sentido para mí; el código roto es mucho más fácil de arreglar que las relaciones humanas rotas. 
 
 ## Contribuí a tu manera
 
 En rOpenSci podés contribuir de muchas formas. Tenemos una [guía de contribución comunitaria](https://contributing.ropensci.org/) pero acá va una lista de algunas de mis propias contribuciones:
 
 - Asistir a [eventos](https://ropensci.org/es/community/).
-- Ayudar a darle la bienvenida e integrar a nuevos miembros.
+- Ayudar a darles la bienvenida e integrar a nuevos miembros.
 - Hacer o responder preguntas en Slack, o compartir o discutir ideas o trabajos.
 - Mejorar nuestra documentación, por ejemplo arreglando un error de tipeo.
 - Escribir un artículo para el [blog](https://ropensci.org/es/blog/).
