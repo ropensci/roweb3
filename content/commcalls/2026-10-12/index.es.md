@@ -6,17 +6,20 @@ date: 2026-10-12T16:00:00 # UTC!! same as dateEnd
 publishDate: 2026-09-22
 description: "Más Allá del Código es un encuentro abierto para conocer los proyectos finales de nuestra cohorte de campeon(a|e)s 2025-2026 de rOpenSci."
 author:
+  - Ana Carolina Moreno
   - Diana Garcia Cortes
-  - Soledad Andrea Araya Orrego
-  - Maria Valentina Clavijo Mesa
-  - "TODO: Nombre de la persona panelista"
+  - Erick Navarro Delgado
+  - Guadalupe Pascal
+  - Valentina Clavijo Mesa
+  - Monika Avila Marquez
+  - Soledad Araya Orrego
   - Yanina Bellini Saibene
 organizer: 
   - Yanina Bellini Saibene
 location: Conversacion con la comunidad (teleconferencia)
 country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
-slug: mas-alla-del-codigo-2026-1
+slug: mas-alla-del-codigo-2026
 featured: true
 notes: TODO
 outputs:
@@ -30,15 +33,24 @@ speakers:
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
     img: /img/team/diana-garcia.jpg
+  - name: "Erick Navarro"
+    bio: "Licenciado en biología por la Universidad Nacional Autónoma de México, y candidato a Doctor en Bioinformática por The University of British Columbia. Actual campeón del Programa de rOpenSci."
+    img: /img/team/erick-navarro-delgado.jpg
+  - name: "Ana Carolina Moreno"
+    bio: "TODO: agregar biografía."
+    img: /img/team/ana-carolina-moreno.jpg
   - name: "Soledad Andrea Araya Orrego"
     bio: "TODO: agregar biografía."
     img: /img/team/soledad-araya.jpg
   - name: "Maria Valentina Clavijo Mesa"
     bio: "TODO: agregar biografía."
     img: /img/team/valentina-clavijo.jpg
-  - name: "TODO: Nombre de la persona panelista"
+  - name: "Guadalupe Pascal"
     bio: "TODO: agregar biografía."
     img: /img/team/TODO.jpg
+  - name: "Monika Avila Marquez"
+    bio: "TODO: agregar biografía."
+    img: /img/team/TODO.jpg    
 tags:
   - community call
   - events
