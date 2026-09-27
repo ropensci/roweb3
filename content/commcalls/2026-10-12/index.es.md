@@ -21,7 +21,7 @@ country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
 slug: mas-alla-del-codigo-2026
 featured: true
-notes: TODO
+notes: https://docs.google.com/document/d/16FA9ywfg7jtJWq325mnCAPT5ejFVqcsEYi-q1yHBEsI/edit?usp=sharing
 outputs:
 - HTML
 - Calendar 
@@ -58,9 +58,9 @@ tags:
   - community call
   - events
 deets: |
-    ID de la reunión: TODO
-    Código de acceso: TODO
-zoomurl: TODO
+    ID de la reunión: 86115160074
+    Código de acceso: 689296
+zoomurl: https://numfocus-org.zoom.us/j/86115160074?pwd=5aGfse7U7xxrABA5lmgdYRRD8hdEtx.1
 ---
 
 Más Allá del Código es un encuentro abierto para conocer los proyectos finales de nuestra cohorte: desde la creación, mejora y revisión de paquetes de software hasta las iniciativas de divulgación que los llevaron a la comunidad. Acompañanos a descubrir el impacto técnico detrás de cada herramienta y las oportunidades que abrieron estos proyectos, incluyendo becas, nuevas colaboraciones y el crecimiento profesional de sus creadores.
