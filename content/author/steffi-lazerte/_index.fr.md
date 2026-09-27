@@ -1,6 +1,6 @@
 ---
 name: Steffi LaZerte
-bio: rOpenSci Community Assistant
+bio: rOpenSci Community Engineer
 link: https://steffilazerte.ca
 twitter: steffilazerte
 linkedin: steffi-lazerte
