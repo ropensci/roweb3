@@ -40,8 +40,8 @@ speakers:
     bio: "Licenciado en biología por la Universidad Nacional Autónoma de México, y candidato a Doctor en Bioinformática por The University of British Columbia. Actual campeón del Programa de rOpenSci."
     img: /img/team/erick-navarro-delgado.jpg
   - name: "Ana Carolina Moreno"
-    bio: "TODO: agregar biografía."
-    img: /img/team/ana-carolina-moreno.jpg
+    bio: "Periodista especializada en datos e inteligencia artificial. Cuenta con casi 20 años de experiencia en redacciones de Brasil y España, habiendo trabajado en TV Globo, G1, Folha de S. Paulo, La Voz de Galicia, Jornal da Tarde y Terra Magazine. Fundadora del capítulo de RLadies+ São Paulo "
+    img: /img/team/ana-carolina-moreno.jpeg
   - name: "Soledad Andrea Araya Orrego"
     bio: "Cientista política especializada en métodos cuantitativos, análisis de datos y ciencia de datos reproducible aplicada a investigación social. Trabajo con R para procesamiento, análisis y visualización de datos, automatización de flujos de trabajo y desarrollo de herramientas abiertas."
     img: /img/team/soledad-araya.jpeg
