@@ -29,9 +29,9 @@ resources:
   - url: https://github.com/snaraya/votosCL
     name: paquete votosCL que tiene como objetivo facilitar el almacenamiento y manejo de los datos electorales de Chile.
   - url: https://github.com/ropensci/software-review/issues/743
-   name: Issue con la revision por pares del paquete RAMEN
+    name: Issue con la revision por pares del paquete RAMEN
   - url: https://github.com/ropensci/RAMEN
-   name: Regional Association of DNA Methylome variability with the Exposome and geNome (RAMEN)
+    name: Regional Association of DNA Methylome variability with the Exposome and geNome (RAMEN)
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
