@@ -1,5 +1,5 @@
 ---
-title: "Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a|e)s - Encuentro 1"
+title: "Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a|e)s"
 dateStart: 2026-10-12T15:00:00 # UTC!!
 dateEnd: 2026-10-12T16:00:00 # UTC!!
 date: 2026-10-12T16:00:00 # UTC!! same as dateEnd
@@ -26,9 +26,8 @@ outputs:
 - HTML
 - Calendar 
 resources:
-  - url: https://champions-program.ropensci.org
-    name: "Sitio web del programa"
-    details: "Todos los detalles del Programa de Campeon(a|e)s de rOpenSci"
+  - url: https://github.com/snaraya/votosCL
+  - name: paquete votosCL que tiene como objetivo facilitar el almacenamiento y manejo de los datos electorales de Chile.
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
@@ -40,16 +39,16 @@ speakers:
     bio: "TODO: agregar biografía."
     img: /img/team/ana-carolina-moreno.jpg
   - name: "Soledad Andrea Araya Orrego"
-    bio: "TODO: agregar biografía."
-    img: /img/team/soledad-araya.jpg
+    bio: "Cientista política especializada en métodos cuantitativos, análisis de datos y ciencia de datos reproducible aplicada a investigación social. Trabajo con R para procesamiento, análisis y visualización de datos, automatización de flujos de trabajo y desarrollo de herramientas abiertas."
+    img: /img/team/soledad-araya.jpeg
   - name: "Maria Valentina Clavijo Mesa"
-    bio: "TODO: agregar biografía."
-    img: /img/team/valentina-clavijo.jpg
+    bio: "Estudiante de doctorado en el Politecnico di Milano | Investigo la resiliencia de las infraestructuras críticas expuestas al cambio climático | Cofundadora de la sección de Medellín de RLadies+"
+    img: /img/team/maria-valentina-clavijo-mesa.png
   - name: "Guadalupe Pascal"
-    bio: "TODO: agregar biografía."
-    img: /img/team/TODO.jpg
+    bio: "Universidad Nacional de Lomas de Zamora - Universidad Católica Argentina"
+    img: /img/team/guadalupe-pascal.jpg
   - name: "Monika Avila Marquez"
-    bio: "TODO: agregar biografía."
+    bio: "Departamento de Métodos y Análisis de datos, Universidad de Ginebra"
     img: /img/team/TODO.jpg    
 tags:
   - community call
