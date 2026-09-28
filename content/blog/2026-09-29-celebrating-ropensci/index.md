@@ -33,9 +33,7 @@ But I know the greatest things often happen a little stretch outside your comfor
 
 In 2022 [rOpenSci launched the first cohort of the rOpenSci Champions Program](/blog/2022/09/22/launch-champions-program/). By then I already had a few years of experience as an associate editor of [rOpenSci software peer-review](/software-review/), and [Yani](/author/yanina-bellini-saibene/) invited me to talk to our champions about the process.
 
-As I prepared [that talk](https://ropensci-training.github.io/software-review/en/) and discussed some ideas with Yani, she made me realize how much the rOpenSci community cares about the way we communicate with one another[^1].
-
-[^1]: Two books I like are [How to Win Friends and Influence People](https://openlibrary.org/books/OL31981288M/How_to_Win_Friends_and_Influence_People) and [Crucial Conversations (Third Edition): Tools for Talking When Stakes Are High](https://openlibrary.org/works/OL282391W/Crucial_Conversations). So much so that our guides for [reviewers](https://devguide.ropensci.org/softwarereview_reviewer.html) and [editors](https://devguide.ropensci.org/softwarereview_editor.html) open with this message:
+As I prepared [that talk](https://ropensci-training.github.io/software-review/en/) and discussed some ideas with Yani, she made me realize how much the rOpenSci community cares about the way we communicate with one another[^1]. So much so that our guides for [reviewers](https://devguide.ropensci.org/softwarereview_reviewer.html) and [editors](https://devguide.ropensci.org/softwarereview_editor.html) open with this message:
 
 > rOpenSci's community is our best asset. We aim for reviews to be open, non-adversarial, and focused on improving software quality. Be respectful and kind! See our reviewers' guide and [code of conduct](/code-of-conduct/) for more.
 
@@ -107,3 +105,5 @@ Personally, over the past year I've used AI heavily and learned several lessons.
 </div>
 
 Thanks for joining me in celebrating rOpenSci. And if, like me, you [self-identify with our community](https://contributing.ropensci.org/intro.html#community), then happy birthday to you!
+
+[^1]: Two books I like are [How to Win Friends and Influence People](https://openlibrary.org/books/OL31981288M/How_to_Win_Friends_and_Influence_People) and [Crucial Conversations (Third Edition): Tools for Talking When Stakes Are High](https://openlibrary.org/works/OL282391W/Crucial_Conversations).

@@ -37,8 +37,6 @@ En 2022 [rOpenSci lanzó la primera cohorte del Programa de Campeones](/blog/202
 
 Mientras preparaba [esa charla](https://ropensci-training.github.io/software-review/) y discutía algunas ideas con Yani, ella me hizo notar la gran importancia que la comunidad de rOpenSci pone en la forma en que nos comunicamos[^1].
 
-[^1]: Dos libros que me gustan son [Cómo Ganar Amigos e Influir sobre las Personas](https://openlibrary.org/books/OL31981288M/How_to_Win_Friends_and_Influence_People) y [Conversaciones Cruciales](https://openlibrary.org/works/OL282391W/Crucial_Conversations).
-
 Tanto es así que las guías para quienes [revisan](https://devguide.ropensci.org/es/softwarereview_reviewer.es.html) y [editan](https://devguide.ropensci.org/es/softwarereview_editor.es.html) los paquetes abren con este mensaje:
 
 > La comunidad de rOpenSci es lo más importante. Nuestro objetivo es que las revisiones sean abiertas, no conflictivas y con el objetivo de mejorar la calidad del software. ¡Sé amable! y comportate con respeto. Consulta nuestra guía para quienes realizan una revisión y el [código de conducta](/es/c%C3%B3digo-de-conducta/) para más información.
@@ -111,3 +109,5 @@ Personalmente, durante el último año usé IA intensamente y aprendí varias le
 </div>
 
 Gracias por acompañarme a celebrar rOpenSci. Y si, como yo, [te identificás con nuestra comunidad](https://contributing.ropensci.org/intro.html#community), ¡entonces feliz cumpleaños para vos también!
+
+[^1]: Dos libros que me gustan son [Cómo Ganar Amigos e Influir sobre las Personas](https://openlibrary.org/books/OL31981288M/How_to_Win_Friends_and_Influence_People) y [Conversaciones Cruciales](https://openlibrary.org/works/OL282391W/Crucial_Conversations).
