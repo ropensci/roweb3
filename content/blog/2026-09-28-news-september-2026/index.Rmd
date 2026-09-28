@@ -6,7 +6,7 @@ author:
 date: '2026-09-28'
 tags:
   - newsletter
-description: Champions Program; R-Universe update; Quinceañera; new packages and package news
+description: Champions Program; Openscapes comm call; Quinceañera; new packages and package news
 params:
   last_newsletter: '2026-08-28'
   doi: "10.59350/em84w-2869"
@@ -64,11 +64,11 @@ rOpenSci community manager [Yani](/author/yanina-bellini-saibene) and software-r
 
 Our current 2026–2027 cohort has completed the training phase and is now focused on developing their individual projects with the support of their mentors, as well as on their outreach activities.
  
-Meanwhile, the 2025–2026 cohort will wrap up their journey with a closing community call, **Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a|e)s (Beyond the Code: an open showcase of our Champions' Projects)**. 
+Meanwhile, the 2025–2026 cohort will wrap up their journey with a closing community call, [**Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a|e)s (Beyond the Code: an open showcase of our Champions' Projects)**](/commcalls/mas-alla-del-codigo-2026/). 
 At the call, the Champions will present their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities. 
 They'll also share what their projects led to, including scholarships, new collaborations, and professional growth. 
 The event is in Spanish. 
-The call will take place on Monday, October 12 at 15:00 UTC. Stay tuned for the details on our [community call page](/es/commcalls/).
+The call will take place on [Monday, October 12 at 15:00 UT](/commcalls/mas-alla-del-codigo-2026/).
 Come get inspired, ask your questions live, and help us celebrate our growing open-source community!
 
 ## We're still celebrating our 15th anniversary! :tada:
@@ -189,7 +189,7 @@ new <- dplyr::filter(
 
 The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "s"` recently became a part of our software suite:
 
-```{r, results='asis', cache = TRUE, eval=FALSE}
+```{r, results='asis', cache = TRUE, eval=TRUE}
 new$onboarding[
   new$package == "hdcuremodels"
 ] <- "https://github.com/ropensci/software-review/issues/692"
