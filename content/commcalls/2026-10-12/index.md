@@ -5,6 +5,7 @@ dateEnd: 2026-10-12T16:00:00 # UTC!!
 date: 2026-10-12T16:00:00 # UTC!! same as dateEnd
 publishDate: 2026-09-22
 description: "Más Allá del Código es un encuentro abierto para conocer los proyectos finales de nuestra cohorte de campeon(a|e)s 2025-2026 de rOpenSci."
+eventlang: Español
 author:
   - Ana Carolina Moreno
   - Diana Garcia Cortes
