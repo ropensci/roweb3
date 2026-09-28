@@ -4,9 +4,11 @@ title: "Celebrando a la comunidad de rOpenSci"
 author:
     - Mauro Lepore
 editor: 
-    - FIXME
+    - Yanina Bellini Saibene
+translator:
+    - Mauro Lepore
 date: "2026-09-29"
-doi: FIXME
+doi: 10.59350/zbcxj-51c97
 tags:
 - comunidad
 - revisión por pares de software
@@ -20,7 +22,7 @@ rOpenSci cumple 15 años y yo fui parte de esta comunidad durante gran parte de 
 
 ## Estirá tu zona de confort
 
-A principios de 2018 me topé con [este anuncio](https://ropensci.org/blog/2018/02/08/unconf2018/) (traducido):
+A principios de 2018 me topé con [este anuncio](/blog/2018/02/08/unconf2018/) (traducido):
 
 > **¡Postulate para asistir a rOpenSci unconf 2018!**  
 > Estamos organizando unconf18 para reunir a personas que trabajan en ciencia y desarrollo, y a entusiastas de los datos abiertos de la academia, la industria, el gobierno y organizaciones sin fines de lucro, para pasar un par de días trabajando en varios proyectos y, en general, enriquecer nuestra comunidad. 
@@ -31,15 +33,15 @@ Pero sé que las mejores cosas suelen pasar cuando uno se estira un poco por fue
 
 ## Sé una persona respetuosa y amable
 
-En 2022 [rOpenSci lanzó la primera cohorte del Programa de Campeones](https://ropensci.org/blog/2022/09/22/launch-champions-program/). Para entonces ya tenía algunos años de experiencia como editor asociado de la [revisión de software por pares de rOpenSci](https://ropensci.org/software-review/), y [Yani](https://ropensci.org/author/yanina-bellini-saibene/) me invitó a hablarles a nuestros campeones y campeonas sobre el proceso.
+En 2022 [rOpenSci lanzó la primera cohorte del Programa de Campeones](/blog/2022/09/22/launch-champions-program/). Para entonces ya tenía algunos años de experiencia como editor asociado de la [revisión de software por pares de rOpenSci](/software-review/), y [Yani](/yanina-bellini-saibene/) me invitó a hablarles a nuestros campeones y campeonas sobre el proceso.
 
 Mientras preparaba [esa charla](https://ropensci-training.github.io/software-review/) y discutía algunas ideas con Yani, ella me hizo notar la gran importancia que la comunidad de rOpenSci pone en la forma en que nos comunicamos[^1].
 
-[^1]: Dos libros que me gustan son [Cómo Ganar Amigos e Influir sobre las Personas](https://www.amazon.com/ganar-amigos-influir-sobre-personas-dp-8412299728/dp/8412299728) y [Conversaciones Cruciales](https://www.amazon.com/dp/8495787393).
+[^1]: Dos libros que me gustan son [Cómo Ganar Amigos e Influir sobre las Personas](https://openlibrary.org/books/OL31981288M/How_to_Win_Friends_and_Influence_People) y [Conversaciones Cruciales](https://openlibrary.org/works/OL282391W/Crucial_Conversations).
 
 Tanto es así que las guías para quienes [revisan](https://devguide.ropensci.org/es/softwarereview_reviewer.es.html) y [editan](https://devguide.ropensci.org/es/softwarereview_editor.es.html) los paquetes abren con este mensaje:
 
-> La comunidad de rOpenSci es lo más importante. Nuestro objetivo es que las revisiones sean abiertas, no conflictivas y con el objetivo de mejorar la calidad del software. ¡Sé amable! y comportate con respeto. Consulta nuestra guía para quienes realizan una revisión y el [código de conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/) para más información.
+> La comunidad de rOpenSci es lo más importante. Nuestro objetivo es que las revisiones sean abiertas, no conflictivas y con el objetivo de mejorar la calidad del software. ¡Sé amable! y comportate con respeto. Consulta nuestra guía para quienes realizan una revisión y el [código de conducta](/es/c%C3%B3digo-de-conducta/) para más información.
 
 Viniendo de una guía tan profundamente técnica, esa apertura quizás te sorprenda. Pero para mí ahora tiene sentido: el código roto es mucho más fácil de arreglar que las relaciones humanas rotas.
 
@@ -47,11 +49,11 @@ Viniendo de una guía tan profundamente técnica, esa apertura quizás te sorpre
 
 En rOpenSci podés contribuir de muchas maneras. Tenemos una [guía de contribución comunitaria](https://contributing.ropensci.org/) pero acá va una lista de algunas de mis propias contribuciones:
 
-- Asistir a [eventos](https://ropensci.org/es/community/).
+- Asistir a [eventos](/es/community/).
 - Ayudar a darles la bienvenida e integrar a nuevos miembros.
 - Hacer o responder preguntas en Slack, o compartir o discutir ideas o trabajos.
 - Mejorar nuestra documentación, por ejemplo arreglando un error de tipeo.
-- Escribir un artículo para el [blog](https://ropensci.org/es/blog/).
+- Escribir un artículo para el [blog](/es/blog/).
 - Traducir o revisar algún trabajo en tu lengua nativa.
 - Probar un proceso nuevo.
 - Crear, revisar o editar un paquete de R.
@@ -63,11 +65,11 @@ Como ves, la mayoría de mis contribuciones no involucraron código, y muy pocas
 
 ## Atraé gente buena
 
-Las comunidades buenas están hechas de gente buena, y vos podés jugar un rol activo en hacerla crecer en la dirección que quieras. Si conocés a alguien que encajaría bien en la comunidad de rOpenSci y la disfrutaría, podés [buscar una forma de acercarla](https://contributing.ropensci.org/). Por ejemplo, yo animé y ayudé a personas a enviar y revisar paquetes. Además, como editor, ocasionalmente tengo el privilegio de nominar a otras personas para que se unan al equipo editorial. Usando este superpoder atraje a dos personas [al equipo editorial](https://ropensci.org/software-review/) y ahora disfruto de interactuar con esas personas con bastante regularidad.
+Las comunidades buenas están hechas de gente buena, y vos podés jugar un rol activo en hacerla crecer en la dirección que quieras. Si conocés a alguien que encajaría bien en la comunidad de rOpenSci y la disfrutaría, podés [buscar una forma de acercarla](https://contributing.ropensci.org/). Por ejemplo, yo animé y ayudé a personas a enviar y revisar paquetes. Además, como editor, ocasionalmente tengo el privilegio de nominar a otras personas para que se unan al equipo editorial. Usando este superpoder atraje a dos personas [al equipo editorial](/software-review/) y ahora disfruto de interactuar con esas personas con bastante regularidad.
 
 ## Mantené la humanidad en tus conexiones humanas
 
-La IA está cambiando la forma en que contribuimos al software de código abierto. Pero no sabemos mucho sobre su efecto en las comunidades abiertas alrededor de ese software. A principios de este año rOpenSci publicó un [conjunto preliminar de políticas](https://ropensci.org/blog/2026/02/26/ropensci-ai-policy/), y quizás quieras seguir la [etiqueta `#Governance`](https://ropensci.org/tags/governance/) y esta [conversación comunitaria de Openscapes](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/) (traducido):
+La IA está cambiando la forma en que contribuimos al software de código abierto. Pero no sabemos mucho sobre su efecto en las comunidades abiertas alrededor de ese software. A principios de este año rOpenSci publicó un [conjunto preliminar de políticas](/blog/2026/02/26/ropensci-ai-policy/), y quizás quieras seguir la [etiqueta `#Governance`](/tags/governance/) y esta [conversación comunitaria de Openscapes](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/) (traducido):
 
 > **Comunidades abiertas en la era de la IA**  
 > Las {comunidades abiertas} nos ayudan a conectar a nivel humano alrededor de la ciencia, los datos y las cosas que nos apasionan. Cambian carreras, cambian vidas. (...) Pero ahora, las personas no necesariamente están encontrando sus comunidades ni obteniendo sus beneficios de la forma en que solían hacerlo, porque pueden obtener ayuda y respuestas más fácilmente usando IA. (...) Estas conexiones y comunidades son más importantes que nunca, ya que necesitamos encontrar formas de apoyarnos mutuamente mientras la IA cambia rápidamente el panorama justo debajo de nuestros pies.

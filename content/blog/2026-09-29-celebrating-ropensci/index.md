@@ -4,9 +4,9 @@ title: "Celebrating the rOpenSci community"
 author:
     - Mauro Lepore
 editor: 
-    - FIXME
+    - Yanina Bellini Saibene
 date: "2026-09-29"
-doi: FIXME
+doi: 10.59350/rt71z-ggh06
 tags:
 - community
 - Software Peer Review
@@ -20,7 +20,7 @@ rOpenSci turns 15 and I've been a part of this community for a good chunk of tha
 
 ## Stretch your comfort zone
 
-Early in 2018 I came across [this post](https://ropensci.org/blog/2018/02/08/unconf2018/):
+Early in 2018 I came across [this post](/blog/2018/02/08/unconf2018/):
 
 > **Apply to attend rOpenSci unconf 2018!**  
 > We're organizing unconf18 to bring together scientists, developers, and open data enthusiasts from academia, industry, government, and non-profits to get together for a couple of days to hack on various projects and generally enrich our community. 
@@ -31,13 +31,13 @@ But I know the greatest things often happen a little stretch outside your comfor
 
 ## Be respectful and kind
 
-In 2022 [rOpenSci launched the first cohort of the rOpenSci Champions Program](https://ropensci.org/blog/2022/09/22/launch-champions-program/). By then I already had a few years of experience as an associate editor of [rOpenSci software peer-review](https://ropensci.org/software-review/), and [Yani](https://ropensci.org/author/yanina-bellini-saibene/) invited me to talk to our champions about the process.
+In 2022 [rOpenSci launched the first cohort of the rOpenSci Champions Program](/blog/2022/09/22/launch-champions-program/). By then I already had a few years of experience as an associate editor of [rOpenSci software peer-review](/software-review/), and [Yani](/author/yanina-bellini-saibene/) invited me to talk to our champions about the process.
 
 As I prepared [that talk](https://ropensci-training.github.io/software-review/en/) and discussed some ideas with Yani, she made me realize how much the rOpenSci community cares about the way we communicate with one another[^1].
 
-[^1]: Two books I like are [How to Win Friends and Influence People](https://www.amazon.com/s?k=how+to+win+friends+and+influence+people) and [Crucial Conversations (Third Edition): Tools for Talking When Stakes Are High](https://www.amazon.com/s?k=crucial+conversations). So much so that our guides for [reviewers](https://devguide.ropensci.org/softwarereview_reviewer.html) and [editors](https://devguide.ropensci.org/softwarereview_editor.html) open with this message:
+[^1]: Two books I like are [How to Win Friends and Influence People](https://openlibrary.org/books/OL31981288M/How_to_Win_Friends_and_Influence_People) and [Crucial Conversations (Third Edition): Tools for Talking When Stakes Are High](https://openlibrary.org/works/OL282391W/Crucial_Conversations). So much so that our guides for [reviewers](https://devguide.ropensci.org/softwarereview_reviewer.html) and [editors](https://devguide.ropensci.org/softwarereview_editor.html) open with this message:
 
-> rOpenSci's community is our best asset. We aim for reviews to be open, non-adversarial, and focused on improving software quality. Be respectful and kind! See our reviewers' guide and [code of conduct](https://ropensci.org/code-of-conduct/) for more.
+> rOpenSci's community is our best asset. We aim for reviews to be open, non-adversarial, and focused on improving software quality. Be respectful and kind! See our reviewers' guide and [code of conduct](/code-of-conduct/) for more.
 
 Coming from such a deeply technical guide, that opening might surprise you. But it makes sense to me now; broken code is way easier to fix than broken human relationships. 
 
@@ -45,11 +45,11 @@ Coming from such a deeply technical guide, that opening might surprise you. But 
 
 At rOpenSci you can contribute in so many ways. We have a [community contributing guide](https://contributing.ropensci.org/) but here's a list of some of my own contributions:
 
-- Attend [events](https://ropensci.org/community/).
+- Attend [events](/community/).
 - Help to welcome and onboard new members.
 - Ask or answer questions on Slack, or share or discuss ideas or jobs.
 - Improve our documentation, e.g. fix a typo.
-- Write a [blog](https://ropensci.org/blog/) post.
+- Write a [blog](/blog/) post.
 - Translate or review some work in your native language.
 - Pilot a new process.
 - Author, review, or edit an R package.
@@ -61,11 +61,11 @@ As you can see, most of my contributions did not involve any code, and only a fe
 
 ## Attract great people
 
-Great communities are made of great people, and you can play an active role in growing it in the direction you want. If you know someone that would fit in and enjoy the rOpenSci community, you can try to [find a way to bring them in](https://contributing.ropensci.org/). For example, I've encouraged and helped people to submit and review packages. Also as an editor I have the occasional privilege to nominate other editors. Using this super-power I've attracted two [editors](https://ropensci.org/software-review/) and I now get to enjoy interacting with them quite regularly. 
+Great communities are made of great people, and you can play an active role in growing it in the direction you want. If you know someone that would fit in and enjoy the rOpenSci community, you can try to [find a way to bring them in](https://contributing.ropensci.org/). For example, I've encouraged and helped people to submit and review packages. Also as an editor I have the occasional privilege to nominate other editors. Using this super-power I've attracted two [editors](/software-review/) and I now get to enjoy interacting with them quite regularly. 
 
 ## Keep the human in your human connections
 
-AI is changing the way we contribute to open source software. But we don't know much about its effect on the open communities around that software. Earlier this year rOpenSci published a [preliminary set of policies](https://ropensci.org/blog/2026/02/26/ropensci-ai-policy/), and you may want to watch the [`#Governance` tag](https://ropensci.org/tags/governance/) and this [Openscapes community call](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/):
+AI is changing the way we contribute to open source software. But we don't know much about its effect on the open communities around that software. Earlier this year rOpenSci published a [preliminary set of policies](/blog/2026/02/26/ropensci-ai-policy/), and you may want to watch the [`#Governance` tag](/tags/governance/) and this [Openscapes community call](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/):
 
 > **Open Communities in the Age of AI**  
 > {Open communities} help us connect on a human level around science and data and the things that we are passionate about. They change careers, they change lives. (...) But now, people are not necessarily finding their communities and getting the benefit of those communities in the way that they used to, because they're more easily able to get help and answers by using AI. (...) These connections and communities are more important than ever, as we need to find ways to support each other and ourselves as AI rapidly changes the landscape right under our feet.
