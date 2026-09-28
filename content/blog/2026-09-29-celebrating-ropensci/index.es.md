@@ -1,6 +1,6 @@
 ---
 slug: celebrando-ropensci
-title: "Celebrando a la comunidad de rOpenSci"
+title: "Celebrando a la Comunidad de rOpenSci"
 author:
     - Mauro Lepore
 editor: 
