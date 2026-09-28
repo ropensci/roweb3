@@ -54,7 +54,7 @@ En rOpenSci podés contribuir de muchas maneras. Tenemos una [guía de contribuc
 - Hacer o responder preguntas en Slack, o compartir o discutir ideas o trabajos.
 - Mejorar nuestra documentación, por ejemplo arreglando un error de tipeo.
 - Escribir un artículo para el [blog](/es/blog/).
-- Traducir o revisar algún trabajo en tu lengua nativa.
+- [Traducir](/es/multilingual-publishing/) o revisar algún trabajo en tu lengua nativa.
 - Probar un proceso nuevo.
 - Crear, revisar o editar un paquete de R.
 - Dictar un taller.
