@@ -63,33 +63,33 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-<div class="highlight">
 
-</div>
+
+
 
 The following two packages recently became a part of our software suite:
 
-<div class="highlight">
+
 
 - [ciecl](https://docs.ropensci.org/ciecl), developed by Rodolfo Tasso Suazo: Tools for working with the International Classification of Diseases (ICD-10 Chile official MINSAL/DEIS v2018). Includes optimized SQL search with SQLite, fuzzy matching of medical terms (Jaro-Winkler), Charlson and Elixhauser comorbidity calculation, WHO ICD-11 API integration, and hierarchical code validation. Data from Centro FIC Chile DEIS <https://deis.minsal.cl/centrofic/>. It has been [reviewed](https://github.com/ropensci/software-review/issues/765) by Maëlle Salmon and Yanina Bellini.
 
 - [brapiR2](https://docs.ropensci.org/brapiR2), developed by Joash Joshua Ayo: Provides pipe-friendly, stateless read access to the Breeding API (BrAPI) v2.1 specification, an open community standard for plant breeding data interchange maintained by the BrAPI project <https://brapi.org>. Wraps 32 of the 37 BrAPI v2.1 entities across all four modules, Core, Germplasm, Phenotyping, and Genotyping, covering 49 of the specifications 138 retrieval (GET and search) endpoints and returning tidy tibbles ready for analysis. Write and update endpoints are out of scope by design. Features include automatic pagination, async search handling, response caching, parallel batch fetching, and convenience functions for genomic selection workflows (e.g. dosage matrix extraction). Designed for plant breeders and bioinformaticians who need programmatic access to plant breeding databases that implement the BrAPI' v2 specification. It has been [reviewed](https://github.com/ropensci/software-review/issues/792) by David Waring and Jenna Hershberger.
 
-  </div>
+  
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-<div class="highlight">
 
-</div>
+
+
 
 The following twenty-two packages have had an update since the last newsletter: [visdat](https://docs.ropensci.org/visdat "Preliminary Visualisation of Data") ([`v0.6.1`](https://github.com/ropensci/visdat/releases/tag/v0.6.1)), [nycOpenData](https://docs.ropensci.org/nycOpenData "A Lightweight Interface to NYC Open Data APIs") ([`v0.2.3`](https://github.com/ropensci/nycOpenData/releases/tag/v0.2.3)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.6.0`](https://github.com/ropensci/ruODK/releases/tag/v1.6.0)), [stats19](https://docs.ropensci.org/stats19 "Work with Open Road Traffic Casualty Data from Great Britain") ([`v4.1.0`](https://github.com/ropensci/stats19/releases/tag/v4.1.0)), [npi](https://docs.ropensci.org/npi "Access the U.S. National Provider Identifier Registry API") ([`v0.3.1`](https://github.com/ropensci/npi/releases/tag/v0.3.1)), [promoutils](https://docs.ropensci.org/promoutils "Utilities for Promoting rOpenSci") ([`v0.7.0`](https://github.com/ropensci-org/promoutils/releases/tag/v0.7.0)), [brapiR2](https://docs.ropensci.org/brapiR2 "A Tidyverse-Native Client for the BrAPI v2 (Breeding API) Specification") ([`v0.2.0`](https://github.com/ropensci/brapiR2/releases/tag/v0.2.0)), [ciecl](https://docs.ropensci.org/ciecl "International Classification of Diseases ICD-10/ICD-11 for Chile") ([`v1.0.0`](https://github.com/ropensci/ciecl/releases/tag/v1.0.0)), [bibtex](https://docs.ropensci.org/bibtex "Bibtex Parser") ([`v0.5.3`](https://github.com/ropensci/bibtex/releases/tag/v0.5.3)), [ckanr](https://docs.ropensci.org/ckanr "Client for the Comprehensive Knowledge Archive Network (CKAN) API") ([`v0.9.0`](https://github.com/ropensci/ckanr/releases/tag/v0.9.0)), [osmapiR](https://docs.ropensci.org/osmapiR "OpenStreetMap API") ([`v0.2.6`](https://github.com/ropensci/osmapiR/releases/tag/v0.2.6)), [distionary](https://docs.ropensci.org/distionary "Create and Evaluate Probability Distributions") ([`v0.2.0`](https://github.com/probaverse/distionary/releases/tag/v0.2.0)), [GLMMcosinor](https://docs.ropensci.org/GLMMcosinor "Fit a Cosinor Model Using a Generalized Mixed Modeling Framework") ([`v0.2.2`](https://github.com/ropensci/GLMMcosinor/releases/tag/v0.2.2)), [reviser](https://docs.ropensci.org/reviser "Analyzing Revisions in Real-Time Time Series Vintages") ([`v0.3.1`](https://github.com/ropensci/reviser/releases/tag/v0.3.1)), [autotest](https://docs.ropensci.org/autotest "Automatic Package Testing") ([`v0.2`](https://github.com/ropensci-review-tools/autotest/releases/tag/v0.2)), [occCite](https://docs.ropensci.org/occCite "Querying and Managing Large Biodiversity Occurrence Datasets") ([`v0.6.3`](https://github.com/ropensci/occCite/releases/tag/v0.6.3)), [readODS](https://docs.ropensci.org/readODS "Read and Write ODS Files") ([`v2.3.6`](https://github.com/ropensci/readODS/releases/tag/v2.3.6)), [osmdata](https://docs.ropensci.org/osmdata "Import OpenStreetMap Data as Simple Features or Spatial Objects") ([`v0.4.1`](https://github.com/ropensci/osmdata/releases/tag/v0.4.1)), [goodpractice](https://docs.ropensci.org/goodpractice "Advice on R Package Building") ([`v1.2.0`](https://github.com/ropensci-review-tools/goodpractice/releases/tag/v1.2.0)), [galamm](https://docs.ropensci.org/galamm "Generalized Additive Latent and Mixed Models") ([`v0.4.1`](https://github.com/ropensci/galamm/releases/tag/v0.4.1)), [RAMEN](https://docs.ropensci.org/RAMEN "Regional Association of Methylome variability with the Exposome and geNome") ([`v2.1.2`](https://github.com/ropensci/RAMEN/releases/tag/v2.1.2)), and [EDIutils](https://docs.ropensci.org/EDIutils "An API Client for the Environmental Data Initiative Repository") ([`v3.0.1`](https://github.com/ropensci/EDIutils/releases/tag/v3.0.1)).
 
 ## Software Peer Review
 
-<div class="highlight">
+
 
 There are seventeen recently closed and active submissions and 4 submissions on hold. Issues are at different stages:
 
@@ -139,7 +139,7 @@ There are seventeen recently closed and active submissions and 4 submissions on 
 
   - [HydraR](https://github.com/ropensci/software-review/issues/766), Stateful Agentic Orchestration for Scientific Reproducibility. Submitted by [Ignatius Pang](https://www.mq.edu.au/research/research-centres-groups-and-facilities/facilities/australian-proteome-analysis-facility).
 
-    </div>
+    
 
 Find out more about [Software Peer Review](/software-review) and how to get involved.
 
@@ -147,11 +147,11 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 <!-- Do not forget to rebase your branch! -->
 
-<div class="highlight">
+
 
 - [Happy Birthday rOpenSci --- My Journey from First-Time Developer to Current Opportunities](/blog/2026/09/15/birthday-post-sunny) by Yi-Chin Sunny Tseng. Yi-Chin Sunny Tseng shares how the rOpenSci Champions Program helped her grow from a first-time R package developer into an open science contributor, creating tools for biodiversity research and discovering new opportunities along the way.
 
-</div>
+
 
 ## Calls for contributions
 
@@ -191,7 +191,7 @@ Thanks for reading! If you want to get involved with rOpenSci, check out our [Co
 
 If you haven't subscribed to our newsletter yet, you can [do so though our signup form](/news/). Until it's time for our next newsletter, you can keep in touch with us through our [website](/), [Mastodon](https://hachyderm.io/@rOpenSci), or [LinkedIn](https://www.linkedin.com/company/ropensci/). See you soon!
 
-</div>
 
-</div>
+
+
 
