@@ -65,7 +65,7 @@ Great communities are made of great people, and you can play an active role in g
 
 ## Keep the human in your human connections
 
-AI is changing the way we contribute to open source software. But we don't know much about its effect on the open communities around that software. Earlier this year rOpenSci published a [preliminary set of policies](/blog/2026/02/26/ropensci-ai-policy/), and you may want to watch the [`#Governance` tag](/tags/governance/) and this [Openscapes community call](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/):
+AI is changing the way we contribute to open source software. But we don't know much about its effect on the open communities around that software. Earlier this year rOpenSci published a [preliminary set of policies](/blog/2026/02/26/ropensci-ai-policy/), and you may want to watch rOpenSci's [newsletter](/news/) and this [Openscapes community call](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/):
 
 > **Open Communities in the Age of AI**  
 > {Open communities} help us connect on a human level around science and data and the things that we are passionate about. They change careers, they change lives. (...) But now, people are not necessarily finding their communities and getting the benefit of those communities in the way that they used to, because they're more easily able to get help and answers by using AI. (...) These connections and communities are more important than ever, as we need to find ways to support each other and ourselves as AI rapidly changes the landscape right under our feet.
