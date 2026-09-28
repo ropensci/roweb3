@@ -50,7 +50,7 @@ At rOpenSci you can contribute in so many ways. We have a [community contributin
 - Ask or answer questions on Slack, or share or discuss ideas or jobs.
 - Improve our documentation, e.g. fix a typo.
 - Write a [blog](/blog/) post.
-- Translate or review some work in your native language.
+- [Translate](/multilingual-publishing/) or review some work in your native language.
 - Pilot a new process.
 - Author, review, or edit an R package.
 - Lead a workshop.
