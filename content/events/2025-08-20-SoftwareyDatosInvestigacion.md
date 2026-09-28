@@ -5,6 +5,7 @@ dateEnd: '2025-08-20T09:00:00'
 date: 2025-08-20T09:00:00 # UTC!! same as dateEnd
 description: "Yanina Bellini Saibene participa en la serie de Webinars Software y Datos de investigación donde presenta sobre rOpenSci"
 location: 'online'
+eventlang: Español
 country: "" # emoji
 ropensci: no
 outputs: 

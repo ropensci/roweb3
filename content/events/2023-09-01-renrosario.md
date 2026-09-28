@@ -6,6 +6,7 @@ date: 2023-09-01T23:00:00 # UTC!! same as dateEnd
 description: "R en Rosario - Encuentro 2x1"
 location: 'Laboratorio de FCEyE-UNR (Oroño 1261)'
 country: "Argentina" # emoji
+eventlang: Español
 slug: "r-en-rosario-champions"
 ropensci: no
 outputs: 

@@ -6,6 +6,7 @@ date: 2022-06-10T13:00:00 # UTC!! same as dateEnd
 description: "Comunidades de práctica: desarrollando capacidades en ciencia de datos en América Latina"
 location: 'online' # free text
 slug: "wids-la-plata"
+eventlang: Español
 country: "\U0001F310" # emoji
 ropensci: no
 outputs: 

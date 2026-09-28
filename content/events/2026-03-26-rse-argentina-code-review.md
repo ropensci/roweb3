@@ -5,6 +5,7 @@ dateEnd: 2026-03-26T22:00:00 # UTC!!
 date: 2026-03-26T22:00:00 # UTC!! same as dateEnd
 description: First RSE Argentina meetup of the year! A talk on code peer review in practice, led by Yanina Bellini Saibene. Event in Spanish.
 location: 'online' # free text
+eventlang: Español
 slug: "rse-argentina-code-review-2026"
 country: "🌐" # emoji
 ropensci: yes
