@@ -69,7 +69,7 @@ Las comunidades buenas están hechas de gente buena, y vos podés jugar un rol a
 
 ## Mantené la humanidad en tus conexiones humanas
 
-La IA está cambiando la forma en que contribuimos al software de código abierto. Pero no sabemos mucho sobre su efecto en las comunidades abiertas alrededor de ese software. A principios de este año rOpenSci publicó un [conjunto preliminar de políticas](/blog/2026/02/26/ropensci-ai-policy/), y quizás quieras seguir el [_newsletter_ de rOpenSci](/news/) y esta [conversación comunitaria de Openscapes](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/) (traducido):
+La IA está cambiando la forma en que contribuimos al software de código abierto. Pero no sabemos mucho sobre su efecto en las comunidades abiertas alrededor de ese software. A principios de este año rOpenSci publicó un [conjunto preliminar de políticas](/blog/2026/02/26/ropensci-ai-policy/), y quizás quieras seguir el [_newsletter_ de rOpenSci](/es/news/) y esta [conversación comunitaria de Openscapes](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/) (traducido):
 
 > **Comunidades abiertas en la era de la IA**  
 > Las {comunidades abiertas} nos ayudan a conectar a nivel humano alrededor de la ciencia, los datos y las cosas que nos apasionan. Cambian carreras, cambian vidas. (...) Pero ahora, las personas no necesariamente están encontrando sus comunidades ni obteniendo sus beneficios de la forma en que solían hacerlo, porque pueden obtener ayuda y respuestas más fácilmente usando IA. (...) Estas conexiones y comunidades son más importantes que nunca, ya que necesitamos encontrar formas de apoyarnos mutuamente mientras la IA cambia rápidamente el panorama justo debajo de nuestros pies.
