@@ -13,6 +13,7 @@ organizer:
   - Yanina Bellini Saibene
   - Alejandra Bellini
 location: Conversacion con la comunidad (teleconferencia)
+eventlang: Español
 country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
 slug: champions-latino-2025

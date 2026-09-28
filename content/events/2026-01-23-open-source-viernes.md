@@ -6,6 +6,7 @@ date: 2026-01-23T15:30:00 # UTC!! same as dateEnd
 description: 
 coworking: true
 location: 'online' # free text
+eventlang: Español
 slug: "open-source-viernes"
 country: "🌐" # emoji
 ropensci: no

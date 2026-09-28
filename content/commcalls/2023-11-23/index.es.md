@@ -10,9 +10,10 @@ author:
   - Pao Corrales
   - Elio Campitelli
 organizer: Yanina Bellini Saibene
-location: Community call (teleconference)
+location: Conversacion con la comunidad (teleconferencia)
+eventlang: Español
 country: "\U0001F310"
-attendees: All are welcome
+attendees: Todas las personas son bienvenidas
 slug: nov2023-multilenguaje
 notes: https://docs.google.com/document/d/1IbOHfUY2qilzW5DMJbDSEJ0U-LdD8OiPQEllse0qxr8/edit?usp=sharing
 outputs:

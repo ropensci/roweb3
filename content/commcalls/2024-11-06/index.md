@@ -11,6 +11,7 @@ author:
   - Francesca Belem Lopes Palmeira 
 organizer: Yanina Bellini Saibene
 location: Community call (teleconference)
+eventlang: Português
 country: "\U0001F310"
 attendees: Todos são bem-vindos
 slug: translation-portuguese

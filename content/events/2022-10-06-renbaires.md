@@ -6,6 +6,7 @@ date: 2022-06-10T21:00:00 # UTC!! same as dateEnd
 description: "Presentación del programa de campeones en el Grupo de Usuarios de Buenos Aires (Argentina)"
 location: 'online' # free text
 slug: "RenBaires-2022"
+eventlang: Español
 country: "\U0001F310" # emoji
 ropensci: no
 outputs: 
