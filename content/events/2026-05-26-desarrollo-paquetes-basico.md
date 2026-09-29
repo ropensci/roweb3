@@ -6,6 +6,7 @@ dateEnd: '2026-05-26T11:00:00'
 date: 2026-05-26T14:00:00 # UTC!! same as dateEnd
 description: ""
 location: 'online'
+eventlang: Español
 country: "\U0001F310" # emoji
 tags: 
   - champions program

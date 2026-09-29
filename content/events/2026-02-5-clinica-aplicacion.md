@@ -6,6 +6,7 @@ date: 2026-02-05T18:00:00 # UTC!! same as dateEnd
 description: Espacio para preguntas sobre el programa de Campeon(e|a)s de rOpenSci y para trabajar en tu aplicación para ser parte del programa.
 coworking: true
 location: 'online' # free text
+eventlang: Español
 slug: "clinica-champions-2026"
 country: "🌐" # emoji
 ropensci: yes

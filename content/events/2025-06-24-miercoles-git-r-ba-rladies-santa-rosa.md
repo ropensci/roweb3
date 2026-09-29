@@ -5,7 +5,8 @@ dateEnd: '2025-06-24T14:00:00'
 date: '2025-06-24T14:45:00' # UTC!! same as dateEnd
 displaytz: "America/Argentina/Buenos_Aires"
 description: "Maëlle Salmon dará un taller sobre Git."
-location: 'Paris, France'
+location: 'online'
+eventlang: Español
 country: "🌐" # emoji
 slug: "r-ba-r-ladies-santa-rosa-2025"
 ropensci: no

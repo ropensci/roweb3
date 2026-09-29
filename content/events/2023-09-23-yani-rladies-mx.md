@@ -7,6 +7,7 @@ description: "Los 14 capítulos de R-Ladies en México se juntan para celebrar s
 Nuestra community manager Yani dió una charla sobre rOpenSci y como participar en nuestra comunidad durante este evento on-line."
 location: 'online' # free text
 slug: "RLadies-Mexico-2023"
+eventlang: Español
 country: "Mexico" # emoji
 ropensci: no
 outputs: 
