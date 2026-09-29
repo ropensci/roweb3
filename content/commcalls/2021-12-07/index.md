@@ -76,6 +76,7 @@ deets: |
     
     Passcode: 615476
 zoomurl: https://zoom.us/j/93997259411?pwd=Qmp5RHZlVHc0NGI1NVdnZTMvZkVkdz09
+ropensci: true
 ---
 
 Software peer-review involves coordinating and tracking many moving parts: software submissions, testing and diagnostics, assignment of editors and reviewers, and logging the progression of submissions through revisions and acceptance.

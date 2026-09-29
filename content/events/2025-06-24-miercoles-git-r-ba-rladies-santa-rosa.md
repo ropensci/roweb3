@@ -9,7 +9,7 @@ location: 'online'
 eventlang: Español
 country: "🌐" # emoji
 slug: "r-ba-r-ladies-santa-rosa-2025"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

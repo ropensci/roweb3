@@ -8,7 +8,7 @@ location: 'Laboratorio de FCEyE-UNR (Oroño 1261)'
 country: "Argentina" # emoji
 eventlang: Español
 slug: "r-en-rosario-champions"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

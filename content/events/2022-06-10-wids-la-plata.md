@@ -8,7 +8,7 @@ location: 'online' # free text
 slug: "wids-la-plata"
 eventlang: Español
 country: "\U0001F310" # emoji
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

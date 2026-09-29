@@ -57,6 +57,7 @@ deets: |
     ID de la reunión: 84705882431
     Código de acceso: 261721
 zoomurl: https://numfocus-org.zoom.us/j/84705882431?pwd=u6ncyCVM3YzJOBn97JZQYav0rCAMww.1
+ropensci: true
 ---
 
 Los programas campeones o embajadores están diseñados para identificar, reconocer y recompensar a aquellas personas líderes emergentes de una comunidad. El Programa de rOpenSci forma parte de una serie de actividades y proyectos que estamos llevando a cabo para fomentar la ciencia abierta en América Latina con foco en el desarrollo sostenible de software de investigación.

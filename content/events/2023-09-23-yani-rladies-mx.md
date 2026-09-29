@@ -9,7 +9,7 @@ location: 'online' # free text
 slug: "RLadies-Mexico-2023"
 eventlang: Español
 country: "Mexico" # emoji
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

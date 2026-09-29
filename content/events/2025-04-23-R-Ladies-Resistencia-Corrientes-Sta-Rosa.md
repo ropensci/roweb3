@@ -8,7 +8,7 @@ location: 'online' # free text
 eventlang: Español
 slug: "rladies-champions-2025"
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar

@@ -8,7 +8,7 @@ location: 'online' # free text
 eventlang: Español
 slug: "rse-argentina-code-review-2026"
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar

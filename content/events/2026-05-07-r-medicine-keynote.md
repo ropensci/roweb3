@@ -7,7 +7,7 @@ description: Sustainable software depends as much on people and practices as it 
 location: 'online' # free text
 slug: "r-medicine-2026-keynote"
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar

@@ -9,7 +9,7 @@ location: 'online' # free text
 eventlang: Español
 slug: "clinica-champions-2026"
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar

@@ -8,7 +8,7 @@ description: "Yanina led a discussion on community and open source projects, foc
 location: 'online'
 country: '🌐'
 slug: "champions-contribute-oss-2024"
-ropensci: si
+ropensci: true
 outputs: 
 - HTML
 - Calendar 

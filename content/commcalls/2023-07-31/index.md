@@ -48,6 +48,7 @@ deets: |
     Meeting ID:  875-494-77466
     Passcode: 516675
 zoomurl: https://numfocus-org.zoom.us/j/87549477466?pwd=b0cydVpIYW5yMm9MKzZONG16RTVsUT09
+ropensci: true
 ---
 
 Champions programs are designed to identify, recognize, and reward emerging leaders within a community. The [rOpenSci Champions Program](/champions/) is part of a series of activities and projects we are carrying out to ensure our research software serves everyone in our communities, which means that it needs to be sustainable and open, and built by and for all groups.

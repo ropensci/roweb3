@@ -8,7 +8,7 @@ description: "Maëlle Salmon was invited to the R-Ladies+ Rome meetup to give a 
 location: 'online'
 country: "🌐" # emoji
 slug: "R-Ladies-plus-Rome-2025"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

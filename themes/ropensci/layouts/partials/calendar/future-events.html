@@ -1,2 +1,7 @@
-{{ $pages := (where ( where .Site.Pages "Type" "in" .Site.Params.events ) ".Date.UTC" ">=" now.UTC ) }}
+{{ $site := (index hugo.Sites 0) }}
+{{ $pages := first 0 $site.Pages }}
+{{ range hugo.Sites }}
+{{ $neweventpages := (where ( where .Pages "Type" "in" .Params.events ) ".Date.UTC" ">=" now.UTC ) }}
+{{ $pages = (union $pages $neweventpages) }}
+{{ end }}
 {{ return $pages }}

@@ -7,7 +7,7 @@ description: "Noam Ross is an invited speaker of the The Princeton R Group (“P
 location: 'Princeton'
 country: "🌐" # emoji
 slug: "RUG-Princeton-2025"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

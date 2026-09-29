@@ -7,7 +7,7 @@ description: "Yanina Bellini Saibene presents rOpenSci and why is a good idea to
 location: 'online'
 country: "🌐" # emoji
 slug: "BioPackathon-2024"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

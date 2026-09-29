@@ -7,7 +7,7 @@ description: "Yanina Bellini Saibene is a keynote speaker for CarpentryConnect-H
 location: 'Heidelberg'
 country: "Germany" # emoji
 slug: "CarpentryConnect-2024"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

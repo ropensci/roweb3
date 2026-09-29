@@ -7,7 +7,7 @@ description: "LatinR"
 location: 'Universidad de La Republica'
 country: "Uruguay" # emoji
 slug: "latinr-champions-2023"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

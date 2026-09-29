@@ -54,6 +54,7 @@ deets: |
     ID de la reunión: 85368787555
     Código de acceso: 934638
 zoomurl: https://numfocus-org.zoom.us/j/85368787555?pwd=LYHvGT1E1A87lnyFaXxVr6bVZfNLDf.1
+ropensci: true
 ---
 
 Este 2026 el Programa de Campeon(a|e)s de rOpenSci abre el llamado a nuestra cuarta cohorte y la segunda en español.
