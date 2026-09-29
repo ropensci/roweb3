@@ -9,7 +9,7 @@ location: 'online' # free text
 eventlang: Español
 slug: "open-source-viernes"
 country: "🌐" # emoji
-ropensci: no
+ropensci: false
 tag:
   - champions program
 outputs:

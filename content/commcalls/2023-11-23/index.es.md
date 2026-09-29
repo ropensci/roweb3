@@ -61,6 +61,7 @@ deets: |
     Meeting ID:  874-1993-2577 
     Passcode: 396025
 zoomurl: https://numfocus-org.zoom.us/j/87419932577?pwd=MGpLbGdRVG5UNUk2dmpkUnE1NjdCUT09
+ropensci: true
 ---
 
 

@@ -8,7 +8,7 @@ description: ""
 location: 'online'
 eventlang: Español
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs: 
 - HTML
 - Calendar 

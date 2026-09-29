@@ -7,7 +7,7 @@ description: "Biomedical researchers and analysts, don’t miss this chance to l
 location: 'online'
 country: "🌐" # emoji
 slug: "RMedicine-2024"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

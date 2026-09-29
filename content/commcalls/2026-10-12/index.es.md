@@ -62,6 +62,7 @@ deets: |
     ID de la reunión: 86115160074
     Código de acceso: 689296
 zoomurl: https://numfocus-org.zoom.us/j/86115160074?pwd=5aGfse7U7xxrABA5lmgdYRRD8hdEtx.1
+ropensci: true
 ---
 
 Más Allá del Código es un encuentro abierto para conocer los proyectos finales de nuestra cohorte: desde la creación, mejora y revisión de paquetes de software hasta las iniciativas de divulgación que los llevaron a la comunidad. Acompañanos a descubrir el impacto técnico detrás de cada herramienta y las oportunidades que abrieron estos proyectos, incluyendo becas, nuevas colaboraciones y el crecimiento profesional de sus creadores.

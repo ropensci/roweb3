@@ -1,4 +1,4 @@
-{{ $pages := (where ( where .Site.Pages "Type" "in" .Site.Params.events ) ".Date" ">=" now.UTC ) }}
+{{ $pages := (partial "calendar/future-events") }}
 <div class="event-cards">
 {{ range $pages.Reverse }}
 {{ $tz := default "UTC" .Params.displaytz }}

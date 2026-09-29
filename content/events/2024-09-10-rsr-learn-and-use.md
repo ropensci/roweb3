@@ -8,7 +8,7 @@ location: 'online' # free text
 slug: "rsr-learn-and-use"
 country: "🌐" # emoji
 coworking: false
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar

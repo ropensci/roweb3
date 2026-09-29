@@ -7,7 +7,7 @@ description: "A lightning talk about our review process for Workshop Notebooks N
 location: 'online' # free text
 slug: "notebooks-now-2022"
 country: "\U0001F310" # emoji
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

@@ -60,6 +60,7 @@ deets: |
     Meeting ID:  838-6678-3222
     Passcode: 584914
 zoomurl: https://numfocus-org.zoom.us/j/83866783222?pwd=Y1k3OEJnakc3WVRISlZxQ3NTUU1yZz09
+ropensci: true
 ---
 
 As global movements, Open Source and Open Science face language-based exclusion as most resources are in English. This affects scientists and research software engineers working in R, particularly those who don’t have English as their first language.

@@ -71,6 +71,7 @@ deets: |
     Meeting ID: 82222962127
     Passcode: 393120
 zoomurl: https://numfocus-org.zoom.us/j/82222962127?pwd=P93L8kALJvYfzFJzv0UoRarNqCRpt8.1
+ropensci: true
 ---
 
 

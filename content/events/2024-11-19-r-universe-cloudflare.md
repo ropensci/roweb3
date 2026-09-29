@@ -7,7 +7,7 @@ description: "Jeroen explains how R-Universe uses Cloudflare to get fast global 
 location: 'online'
 country: "🌐" # emoji
 slug: "RUniverse-Cloudflare2024"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

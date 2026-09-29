@@ -7,7 +7,7 @@ description: "Yanina Bellini Saibene participa en la serie de Webinars Software 
 location: 'online'
 eventlang: Español
 country: "" # emoji
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 
