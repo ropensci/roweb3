@@ -36,7 +36,7 @@ Next followed over 12 months of training. Through the coaching, mentoring, and e
 
 Exchanges and meeting with other people made her work easier, and helped her stay organized and anticipate future problems she might encounter:
 
-> I think I felt very good when we finished the training and I started to work closely with my mentor, we had a good relationship and we could work very well and efficiently."
+> I think I felt great when we finished the training and I started to work closely with my mentor, we had a good relationship and we could work very well and efficiently."
 
 In addition to being selected to participate in the rOpenSci Champions Program through the rOpenSci application, Carolina had already gone through a previous selection. The rOpenSci Champions Program accepts only individual applications. Therefore, when Carolina's team wished to participate, her colleagues encouraged her to participate on behalf of the team. 
 
