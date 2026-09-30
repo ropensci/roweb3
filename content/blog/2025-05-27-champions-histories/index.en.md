@@ -22,7 +22,7 @@ This is our first story in our interview series **Stories of Champions**, where 
 [Carolina Pradier](/author/carolina-pradier/) has long worked to make the world a more equitable place. Her doctoral research focused on inequalities in science with a focus on the mechanisms that structure gender inequality in the Latin American scientific community. She is also part of [Ecofeminita](https://ecofeminita.com/) (Asociación Civil Economía Feminista), an interdisciplinary organization created and led by women.
 Carolina has a degree in Economics from the University of Buenos Aires and a holds a Master's degree in Social Sciences of Work from the Faculty of Social Sciences of the University of Buenos Aires. She is a PhD candidate in Information Science from the University of Montreal and teaches at post-secondary institutions.
 
-As a researcher, Carolina was part of the Center for Studies on Population, Employment and Development and now works in the [Open Science research team at UNESCO](https://www.unesco.org/en/open-science). She also is the maintainer of the [eph](https://docs.ropensci.org/eph/) R package, whose objective is to facilitate working with the Permanent Household Survey data.
+As a researcher, Carolina was part of the Center for Studies on Population, Employment and Development and now works for the [UNESCO Chair on Open Science](https://www.unesco.org/en/open-science). She also is the maintainer of the [eph](https://docs.ropensci.org/eph/) R package, whose objective is to facilitate working with the Permanent Household Survey data.
 
 {{< figure src = "eph-docs.png" alt = "Official documentation of the eph package with the rOpenSci template" caption = "Official documentation of the eph package">}}
 
