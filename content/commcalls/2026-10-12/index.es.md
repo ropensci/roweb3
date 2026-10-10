@@ -39,7 +39,8 @@ resources:
   - url: https://github.com/Valentina9619/HazardMaps
     name: Paquete HazardMaps
   - url: https://doi.org/10.1016/j.ijdrr.2026.106172
-    name: Inoperability assessment of interdependent critical infrastructures exposed to natural hazards considering climate change     - url: https://doi.org/10.1016/j.ress.2026.112830
+    name: Inoperability assessment of interdependent critical infrastructures exposed to natural hazards considering climate change 
+  - url: https://doi.org/10.1016/j.ress.2026.112830
     name: A modeling framework for the inoperability Assessment of interdependent critical infrastructures exposed to spatially distributed natural hazards
 speakers:  
   - name: "Diana Garcia"
