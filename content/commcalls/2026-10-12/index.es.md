@@ -14,6 +14,7 @@ author:
   - Valentina Clavijo Mesa
   - Monika Avila Marquez
   - Soledad Araya Orrego
+  - Mauro Loprete
   - Yanina Bellini Saibene
 organizer: 
   - Yanina Bellini Saibene
@@ -33,6 +34,14 @@ resources:
     name: Issue con la revision por pares del paquete RAMEN
   - url: https://github.com/ropensci/RAMEN
     name: Regional Association of DNA Methylome variability with the Exposome and geNome (RAMEN)
+  - url: https://metasurveyr.github.io/document_tfg/
+    name: Paquete metasurvey  
+  - url: https://github.com/Valentina9619/HazardMaps
+    name: Paquete HazardMaps
+  - url: https://doi.org/10.1016/j.ijdrr.2026.106172
+    name: Inoperability assessment of interdependent critical infrastructures exposed to natural hazards considering climate change 
+  - url: https://doi.org/10.1016/j.ress.2026.112830
+    name: A modeling framework for the inoperability Assessment of interdependent critical infrastructures exposed to spatially distributed natural hazards
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
@@ -47,7 +56,7 @@ speakers:
     bio: "Cientista política especializada en métodos cuantitativos, análisis de datos y ciencia de datos reproducible aplicada a investigación social. Trabajo con R para procesamiento, análisis y visualización de datos, automatización de flujos de trabajo y desarrollo de herramientas abiertas."
     img: /img/team/soledad-araya.jpeg
   - name: "Maria Valentina Clavijo Mesa"
-    bio: "Estudiante de doctorado en el Politecnico di Milano | Investigo la resiliencia de las infraestructuras críticas expuestas al cambio climático | Cofundadora de la sección de Medellín de RLadies+"
+    bio: "Estudiante de doctorado en el Politecnico di Milano, donde desarrollo modelos de dependencia espacial para evaluar la resiliencia de infraestructuras críticas frente a amenazas naturales extremas. Autora del paquete HazardMaps, que implementa cópulas vine y campos estocásticos para la generación de pseudoescenarios espacialmente dependientes a partir de datos climáticos. Cofundadora del capítulo RLadies+ Medellín."
     img: /img/team/maria-valentina-clavijo-mesa.png
   - name: "Guadalupe Pascal"
     bio: "Soy investigadora en el ámbito de la optimización basada en datos para los procesos de toma de decisiones en empresas y sistemas sociales, todo ello desde una perspectiva regional centrada en el Sur Global. Trabajo desde una perspectiva de género e interseccional basada en los principios de la ciencia abierta y la justicia epistémica."
@@ -55,6 +64,9 @@ speakers:
   - name: "Monika Avila Marquez"
     bio: "Soy econometrista y estadística y me dedico a la inferencia causal a partir de datos observacionales, con especial atención a los entornos con interferencia, así como al uso de métodos de aprendizaje automático en la econometría de datos de panel. También trabajo en la selección de modelos de efectos aleatorios cruzados para datos experimentales."
     img: /img/team/monika-avila-marquez.jpeg    
+  - name: "Mauro Loprete" 
+    bio: "Instituto de Estadística, Facultad de Ciencias Económicas y de Administración,Universidad de la República."
+    img: /img/team/mauro-loprete.jpg
 tags:
   - community call
   - events
