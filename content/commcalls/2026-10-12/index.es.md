@@ -14,6 +14,7 @@ author:
   - Valentina Clavijo Mesa
   - Monika Avila Marquez
   - Soledad Araya Orrego
+  - Mauro Loprete
   - Yanina Bellini Saibene
 organizer: 
   - Yanina Bellini Saibene
@@ -33,6 +34,8 @@ resources:
     name: Issue con la revision por pares del paquete RAMEN
   - url: https://github.com/ropensci/RAMEN
     name: Regional Association of DNA Methylome variability with the Exposome and geNome (RAMEN)
+  - url: https://metasurveyr.github.io/document_tfg/
+    name: Paquete Mmetasurvey  
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
@@ -55,6 +58,9 @@ speakers:
   - name: "Monika Avila Marquez"
     bio: "Soy econometrista y estadística y me dedico a la inferencia causal a partir de datos observacionales, con especial atención a los entornos con interferencia, así como al uso de métodos de aprendizaje automático en la econometría de datos de panel. También trabajo en la selección de modelos de efectos aleatorios cruzados para datos experimentales."
     img: /img/team/monika-avila-marquez.jpeg    
+  - name: "Mauro Loprete" 
+    bio: "Instituto de Estadística, Facultad de Ciencias Económicas y de Administración,Universidad de la República."
+    img: /img/team/mauro-loprete.jpg
 tags:
   - community call
   - events
