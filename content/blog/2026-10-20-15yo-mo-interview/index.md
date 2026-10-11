@@ -24,7 +24,7 @@ To celebrate rOpenSci's 15th anniversary, our Community Manager, Yani sits down 
 
 I actually don’t recall. I think it was a natural evolution of my general career progression using R as a scientist and slowly transitioning into a research software engineer. Still working in academia, and mostly on tooling, analysis and data management using R, rOpenSci felt like a very natural community to get involved in. 
 
-I believe I was first introduced to it through [Maëlle Salmon](/author/maëlle-salmon/), who was/is a fellow [RLadies+ global](https://rladies.org) team member. My first interaction may have been as a software reviewer for a package, which Maëlle asked me if I was interested in doing.
+I believe I was first introduced to it through [Maëlle Salmon](/author/maëlle-salmon/), who was/is a fellow [RLadies+ global](https://rladies.org) team member. My [first interaction may have been as a software reviewer for a package](https://github.com/ropensci/software-review/issues/522), which Maëlle asked me if I was interested in doing.
 
 ## Over the years, you've shown up in a lot of different ways: R-Universe, the Champions Program, an active participant on the Slack, a contributor in our core packages. Looking back, how would you describe the arc of your involvement?  
 
