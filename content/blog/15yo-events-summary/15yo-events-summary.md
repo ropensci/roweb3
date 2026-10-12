@@ -49,7 +49,7 @@ Other things people named as favourite:
 
 - [**The dev guide**](https://devguide.ropensci.org/): because is a detailed and evolving documentation with knowledge that isn't easily found elsewhere.
 
-- **The Champions Program** and **the mini-hackathon**, because are spaces that provide friendly and guided entry points for open source contributors and R package developers.
+- [**The Champions Program**](/champions/) and [**the mini-hackathon**](/blog/2026/06/02/ftc-guide/), because they are spaces that provide friendly and guided entry points for open source contributors and R package developers.
 
 - **Co-working sessions** are a place were you can find "your people," a place where you don't need to explain what R is.
 
