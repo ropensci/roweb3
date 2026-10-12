@@ -68,7 +68,7 @@ Participants then commented on the different places where they experience the fr
 
  - **Good documentation** for package submission, which lowers the barrier to participating.
 
-- Interest in getting more involved in the **Champions Program**, alongside honest questions about whether the entry points are accessible enough.
+- Some participants expressed interest in getting more involved in the **Champions Program**, along with honest questions about whether the entry points are accessible enough.
 
 - The sense that rOpenSci's quality in different activities comes from its community participation. 
 
