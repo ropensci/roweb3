@@ -59,7 +59,8 @@ Other things people named as favourite:
 
 The second round invited reflection on what rOpenSci does well today and what participants want to get more involved in.
 
-The most common answer was **creating a welcoming space** and participant then comment the different places where they experience the friendly and welcoming community:
+The most common answer was **creating a welcoming space**. 
+Participants then commented on the different places where they experience the friendly and welcoming community:
 
 - **Co-working** came up again here, noted as something other communities have adopted from rOpenSci.
 
