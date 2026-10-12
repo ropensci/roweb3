@@ -64,7 +64,7 @@ Participants then commented on the different places where they experience the fr
 
 - **Co-working** came up again here, noted as something other communities have adopted from rOpenSci.
 
-- The **open Slack** and the atmosphere it creates: a common space for learning, getting advice, sharing ideas, and feeling part of something larger.
+- The **Slack workspace** and the atmosphere it creates: a common space for learning, getting advice, sharing ideas, and feeling part of something larger.
 
  - **Good documentation** for package submission, which lowers the barrier to participating.
 
