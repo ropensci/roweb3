@@ -79,7 +79,7 @@ Participants then commented on the different places where they experience the fr
 
 The third round asked what participants would like to see rOpenSci do next, and what ideas from other communities could be worth adopting or partnering on.
 
-**In-person and hybrid gatherings** were a recurring theme: local meetups, local chapters, satellite events at larger R conferences like useR, and the *return of unconferences*, potentially co-organised with partner communities.
+**In-person and hybrid gatherings** were a recurring theme: local meetups, local chapters, satellite events at larger R conferences like [useR!](https://www.r-project.org/conferences/), and the *return of unconferences*, potentially co-organised with partner communities.
 
 Other ideas from across the rooms:
 
