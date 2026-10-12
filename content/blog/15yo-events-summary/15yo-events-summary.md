@@ -85,7 +85,7 @@ Other ideas from across the rooms:
 
 - **First-time contributor hackathons**, possibly with an GenAI focus.
 
-- A **24-hour unconference** modeled on formats used by other communities like SORTEE
+- A **24-hour unconference** modeled on formats used by other communities like [SORTEE](https://sortee.org/)
 
 - **Career panels** showing the range of roles in research software engineering and data-centric work
 
