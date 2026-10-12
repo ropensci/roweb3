@@ -39,7 +39,7 @@ The first breakout asked participants how they first connected with rOpenSci and
 
 Several people traced their connection back to a talk about rOpenSci or to a personal introduction from a community member who made them feel welcome from the start. 
 
-The **unconferences** were remembered with particular warmth and excitement: the chance to sit next to people, see how they work, talk about R, and be part of something as it was taking shape. _"Meeting my heroes"_, as one participant put it.
+The [**unconferences**](/tags/unconf/) were remembered with particular warmth and excitement: the chance to sit next to people, see how they work, talk about R, and be part of something as it was taking shape. _"Meeting my heroes"_, as one participant put it.
 
 Other things people named as favourites:
 
