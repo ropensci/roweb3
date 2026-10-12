@@ -112,7 +112,7 @@ People talk about rOpenSci not just as a set of tools or infrastructure, but as 
 
 The software peer-review process, the dev guide, the co-working sessions, the Champions Program, these work because the community behind them is invested in supporting them and find them useful.
 
-At 15 years, the ideas that surfaced, local chapters, hackathons, coalitions, better onboarding for newcomers, suggest a community that still wants to try new thing.
+At 15 years, the ideas that surfaced -- local chapters, hackathons, coalitions, better onboarding for newcomers -- suggest a community that still wants to try new things.
 
 > It works because everyone is welcome."
 
