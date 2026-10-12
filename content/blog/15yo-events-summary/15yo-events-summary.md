@@ -43,7 +43,7 @@ The [**unconferences**](/tags/unconf/) were remembered with particular warmth an
 
 Other things people named as favourites:
 
-- **The peer-review process**: praised by editors, reviewers and authors alike, both for the quality of the process and for the connections it created.
+- [**The peer-review process**](/software-review/): praised by editors, reviewers and authors alike, both for the quality of the process and for the connections it created.
 
 > Being invited to write a blog post after a first package review It made me feel very cool and a valued part of the community."
 
