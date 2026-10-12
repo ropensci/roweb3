@@ -24,7 +24,7 @@ In June 2026, rOpenSci marked its 15th anniversary with tree community celebrati
 
 ## How the Events Worked
 
-Our goal was to create a space for people to have conversations, getting to know each other and also reflect on rOpenSci's present and future. 
+Our goal was to create a space for people to have conversations, getting to know each other and also reflect on rOpenSci's past, present and future. 
 
 After a welcome and a brief introduction, participants joined three successive breakout rounds of 15 minutes each, one for each theme: the **past**, the **present**, and the **future**. Between rounds, attendees took part in a **Scavenger Hunt** (a regular feature of our co-working sessions), finding something in their physical surroundings that matched a given prompt.
 
