@@ -13,6 +13,7 @@ tags:
 description: 
   R
 editor:
+- Maëlle Salmon
 translator:
 params:
   doi: 
