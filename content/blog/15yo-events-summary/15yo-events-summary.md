@@ -119,4 +119,4 @@ At 15 years, the ideas that surfaced -- local chapters, hackathons, coalitions, 
 *Thank you to everyone who joined and shared their thoughts. 💙*
 
 
-*These events were part of rOpenSci's 15th anniversary celebration series. Keep an eye on [rOpenSci's events calendar](https://ropensci.org/events/), our [blog](/tags/anniversary/) and our [newsletter](https://ropensci.org/news/) for more content around our anniversary.*
+*These events were part of rOpenSci's 15th anniversary celebration series. Keep an eye on [rOpenSci's events calendar](/events/), our [blog](/tags/anniversary/) and our [newsletter](/news/) for more content around our anniversary.*
