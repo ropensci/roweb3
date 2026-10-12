@@ -51,7 +51,7 @@ Other things people named as favourite:
 
 - [**The Champions Program**](/champions/) and [**the mini-hackathon**](/blog/2026/06/02/ftc-guide/), because they are spaces that provide friendly and guided entry points for open source contributors and R package developers.
 
-- **Co-working sessions** are a place were you can find "your people," a place where you don't need to explain what R is.
+- [**Co-working sessions**](/coworking) are a place were you can find "your people," a place where you don't need to explain what R is.
 
 > It's a satisfying community 'distraction/procrastination' from our normal jobs, that keeps us from being lonely and brings us together from different worlds to work on something that's benefitting people."
 
