@@ -41,7 +41,7 @@ Several people traced their connection back to a talk about rOpenSci or to a per
 
 The [**unconferences**](/tags/unconf/) were remembered with particular warmth and excitement: the chance to sit next to people, see how they work, talk about R, and be part of something as it was taking shape. _"Meeting my heroes"_, as one participant put it.
 
-Other things people named as favourites:
+Other things people named as favourite:
 
 - [**The peer-review process**](/software-review/): praised by editors, reviewers and authors alike, both for the quality of the process and for the connections it created.
 
