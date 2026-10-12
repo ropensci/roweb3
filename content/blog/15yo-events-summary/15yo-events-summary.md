@@ -62,7 +62,7 @@ The second round invited reflection on what rOpenSci does well today and what pa
 The most common answer was **creating a welcoming space**. 
 Participants then commented on the different places where they experience the friendly and welcoming community:
 
-- **Co-working** came up again here, noted as something other communities have adopted from rOpenSci.
+- [**Co-working**](/coworking) came up again here, noted as something other communities have adopted from rOpenSci.
 
 - The **Slack workspace** and the atmosphere it creates: a common space for learning, getting advice, sharing ideas, and feeling part of something larger.
 
