@@ -89,7 +89,7 @@ Other ideas from across the rooms:
 
 - **Career panels** showing the range of roles in research software engineering and data-centric work
 
-- An rOpenSci-led package for R package development that supports GitLab, Codeberg, and other platforms beyond GitHub
+- An rOpenSci-led package for R package development, like [usethis](https://usethis.r-lib.org), that supports GitLab, Codeberg, and other platforms beyond GitHub
 
 - Deeper **coalitions with open science organizations**
 
