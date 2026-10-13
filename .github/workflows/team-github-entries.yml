@@ -1,0 +1,34 @@
+# Newly added entries in data/team/team.json must have a non-empty `github` field.
+on:
+  pull_request:
+    paths:
+      - 'data/team/team.json'
+
+name: Check team.json github entries
+
+jobs:
+  check:
+    name: New team entries have github field
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check new entries
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git show "$BASE_SHA:data/team/team.json" > "$RUNNER_TEMP/base.json"
+          missing=$(jq -r --slurpfile base "$RUNNER_TEMP/base.json" '
+            ($base[0] | map(.name)) as $old
+            | map(select(.name as $n | $old | index($n) | not))
+            | map(select((.github // "" | type != "string") or ((.github // "") | gsub("\\s"; "") == "")))
+            | .[].name
+          ' data/team/team.json)
+          if [ -n "$missing" ]; then
+            echo "::error file=data/team/team.json::New entries must have a non-empty 'github' field:"
+            echo "$missing"
+            exit 1
+          fi
+          echo "All new entries have a github field."
