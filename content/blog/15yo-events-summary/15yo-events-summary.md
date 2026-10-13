@@ -95,7 +95,7 @@ Other ideas from across the rooms:
 
 - Connecting **package authors with graphic designers** to help them with their image and visual identity
 
-- Exploring **Zarr in R** as an area where rOpenSci could help shape the ecosystem
+- Exploring **[Zarr](https://zarr.dev) in R** as an area where rOpenSci could help shape the ecosystem
 
 - Better serving **very beginners**, the people who are still asking "what is R, anyway?"
 
