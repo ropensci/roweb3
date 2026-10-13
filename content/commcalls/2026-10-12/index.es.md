@@ -7,7 +7,6 @@ publishDate: 2026-09-22
 description: "Más Allá del Código es un encuentro abierto para conocer los proyectos finales de nuestra cohorte de campeon(a|e)s 2025-2026 de rOpenSci."
 eventlang: Español
 author:
-  - Ana Carolina Moreno
   - Diana Garcia Cortes
   - Erick Navarro Delgado
   - Guadalupe Pascal
@@ -18,6 +17,7 @@ author:
   - Yanina Bellini Saibene
 organizer: 
   - Yanina Bellini Saibene
+  - Alejandra Bellini
 location: Conversacion con la comunidad (teleconferencia)
 country: "\U0001F310"
 attendees: Todas las personas son bienvenidas
@@ -27,6 +27,8 @@ notes: https://docs.google.com/document/d/16FA9ywfg7jtJWq325mnCAPT5ejFVqcsEYi-q1
 outputs:
 - HTML
 - Calendar 
+vimeo: 
+  - id: '1235207539'
 resources:
   - url: https://github.com/snaraya/votosCL
     name: paquete votosCL que tiene como objetivo facilitar el almacenamiento y manejo de los datos electorales de Chile.
@@ -49,9 +51,6 @@ speakers:
   - name: "Erick Navarro"
     bio: "Licenciado en biología por la Universidad Nacional Autónoma de México, y candidato a Doctor en Bioinformática por The University of British Columbia. Actual campeón del Programa de rOpenSci."
     img: /img/team/erick-navarro-delgado.jpg
-  - name: "Ana Carolina Moreno"
-    bio: "Periodista especializada en datos e inteligencia artificial. Cuenta con casi 20 años de experiencia en redacciones de Brasil y España, habiendo trabajado en TV Globo, G1, Folha de S. Paulo, La Voz de Galicia, Jornal da Tarde y Terra Magazine. Fundadora del capítulo de RLadies+ São Paulo "
-    img: /img/team/ana-carolina-moreno.jpeg
   - name: "Soledad Andrea Araya Orrego"
     bio: "Cientista política especializada en métodos cuantitativos, análisis de datos y ciencia de datos reproducible aplicada a investigación social. Trabajo con R para procesamiento, análisis y visualización de datos, automatización de flujos de trabajo y desarrollo de herramientas abiertas."
     img: /img/team/soledad-araya.jpeg
