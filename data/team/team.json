@@ -379,6 +379,7 @@
     "name": "Rebecca Killick",
     "affiliation": "Lancaster University",
     "url": "http://www.lancs.ac.uk/~killick/",
+    "github": "rkillick",
     "image": "/img/team/rebecca-killick.jpg",
     "roles": [
       "stat peer-review advisor",
@@ -431,8 +432,9 @@
   },
   {
     "name": "Toby Hocking",
-    "affiliation": "Northern Arizona University",
+    "affiliation": "Université de Sherbrooke",
     "url": "http://tdhock.github.io/",
+    "github": "tdhock",
     "image": "/img/team/toby-hocking.jpg",
     "roles": [
       "stat peer-review advisor",
@@ -476,6 +478,7 @@
       "editor"
     ],
     "stats": true,
+    "alumnus": true,
     "twitter": "statsgen",
     "home": "https://emitanaka.org/"
   },
@@ -483,6 +486,7 @@
     "name": "Jouni Helske",
     "affiliation": "University of Jyväskylä, Finland",
     "url": "https://jounihelske.netlify.app/",
+    "github": "helske",
     "image": "/img/team/jouni-helske.jpg",
     "roles": [
       "editor"
