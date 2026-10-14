@@ -44,6 +44,8 @@ resources:
     name: Inoperability assessment of interdependent critical infrastructures exposed to natural hazards considering climate change 
   - url: https://doi.org/10.1016/j.ress.2026.112830
     name: A modeling framework for the inoperability Assessment of interdependent critical infrastructures exposed to spatially distributed natural hazards
+  - url: https://doi.org/10.5281/zenodo.23337677
+    name: "Slides HazardMaps: Modelado de dependencia espacial y generación de pseudoscenarios de amenazas naturales — rOpenSci Champions Program 2025"    
 speakers:  
   - name: "Diana Garcia"
     bio: "Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investiga las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tiene un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruta mucho enseñar programación, fue profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Forma parte de R-Ladies Boston y del programa de campeones de rOpenSci, previamente participó en PyLadies CDMX y en Women Who Code CDMX."
