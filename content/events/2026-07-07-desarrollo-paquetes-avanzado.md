@@ -7,6 +7,7 @@ date: '2026-07-07T14:00:00' # UTC!! same as dateEnd
 description: ""
 location: 'online'
 country: "\U0001F310" # emoji
+eventlang: Español
 tags: 
   - champions program
 author:

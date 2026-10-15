@@ -63,6 +63,7 @@ deets: |
     Meeting ID: 856 4128 3923 
     Passcode: 845032
 zoomurl: https://numfocus-org.zoom.us/j/85641283923?pwd=dG9RR2RNRjUyVlBGejJYVFFhb2ZkZz09
+ropensci: true
 ---
 
 The [{targets}](https://docs.ropensci.org/targets/) package is a pipeline tool for Statistics and data science in R. With {targets}, you can maintain a reproducible workflow without repeating yourself. {targets} learns how your pipeline fits together, skips costly runtime for tasks that are already up to date, runs only the necessary computation, supports implicit parallel computing, abstracts files as R objects, and shows tangible evidence that the results match the underlying code and data.

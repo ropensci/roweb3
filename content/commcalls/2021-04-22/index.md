@@ -109,6 +109,7 @@ deets: |
     
     Passcode: 005223
 zoomurl: https://zoom.us/j/98151023535?pwd=N0xEWDczbnI3WEhuWGxsVVNmbWlsUT09
+ropensci: true
 ---
 
 rOpenSci puts ongoing effort into exploring and communicating how developers can best attract attention to their package (e.g. usage, citations, or feedback), or how to set up their repository to encourage the types of contributions they want. In this 1-hour community call, Maëlle Salmon, Hugo Gruson, and Steffi LaZerte will share tips and examples on how to do this! 

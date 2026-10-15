@@ -8,7 +8,7 @@ coworking: true
 location: 'online' # free text
 slug: 'office-hours-2026-05'
 country: '🌐' # emoji
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar

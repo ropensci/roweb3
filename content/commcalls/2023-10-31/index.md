@@ -52,6 +52,7 @@ deets: |
     Meeting ID:  831 0029 0068 
     Passcode: 042189
 zoomurl: https://numfocus-org.zoom.us/j/83100290068?pwd=c4bloSdA1zNaQ7IzJD83BHD3I54zab.1
+ropensci: true
 ---
 
 In this community call, our panelists will share their experiences and examples of projects with R at different levels of government and in different countries.  

@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ partial "calendar/check-ropensci-param.html" . }}
 {{ $tz := default "UTC" .Params.displaytz }}
 <section class="section event-detail">
   <div class="container bg-cubes">

@@ -7,7 +7,7 @@ description: 'Openscapes Community Call: Open Communities in the age of AI'
 location: 'Online'
 country: "🌐"
 slug: "openscapes-commcall-ai-community"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 
