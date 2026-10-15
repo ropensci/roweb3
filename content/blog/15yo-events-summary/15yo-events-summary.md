@@ -114,7 +114,7 @@ The [software peer-review process](/software-review/), the [dev guide](https://d
 
 At 15 years, the ideas that surfaced -- local chapters, hackathons, coalitions, better onboarding for newcomers -- suggest a community that still wants to try new things.
 
-> It works because everyone is welcome."
+> It works because everyone is welcome." - several attendees at the events 😸 
 
 *Thank you to everyone who joined and shared their thoughts. 💙*
 
