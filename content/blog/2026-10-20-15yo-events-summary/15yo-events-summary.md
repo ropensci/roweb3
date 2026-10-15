@@ -65,7 +65,7 @@ Other things people named as favourite:
 
 - [**Co-working sessions**](/coworking) are a place were you can find "your people," a place where you don't need to explain what R is.
 
-> It's a satisfying community 'distraction/procrastination' from our normal jobs, that keeps us from being lonely and brings us together from different worlds to work on something that's benefitting people."
+> It's a satisfying community 'distraction/procrastination' from our normal jobs, that keeps us from being lonely and brings us together from different worlds to work on something that's benefitting people." - [Ronny Hernandez Mora](/author/ronny-hernandez-mora/)
 
 ## Round 2 - The Present: What Does rOpenSci Do Well?
 
