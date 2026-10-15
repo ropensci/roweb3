@@ -4,7 +4,7 @@ author:
 - Yanina Bellini Saibene
 - Steffi LaZerte
 - Noam Ross
-date: '2026-09-30'
+date: '2026-01-20'
 slug: 15yo-events
 package_version: 0.2.1
 tags:
@@ -32,6 +32,18 @@ The Scavenger Hunt is a fun moment together, and we also use it as a natural pro
 
 As we used in our community calls, workshops and co-working sessions, a shared document served as the place everyone could take notes in real time, add thoughts, and keep contributing for a couple of days after the event ended. [Noam Ross](/author/noam-ross/) named this _"process is product"_ approach, caring about *how* things happen, not just *what* happens, as one of rOpenSci's defining traits.
 
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="15yoevents.jpg" alt="" caption="Zoom meeting with 15 years old welcoming slide and attendees to the event" >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="15yosecond_event.jpg" alt="Second Zoom meeting with 15 years old welcoming slide and attendees to the event" >}}
+
+</div>
+</div>
 
 ## Round 1 - The Past: What Made rOpenSci Special?
 
