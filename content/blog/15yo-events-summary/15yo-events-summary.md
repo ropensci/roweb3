@@ -45,7 +45,7 @@ Other things people named as favourite:
 
 - [**The peer-review process**](/software-review/): praised by editors, reviewers and authors alike, both for the quality of the process and for the connections it created.
 
-> Being invited to write a blog post after a first package review It made me feel very cool and a valued part of the community."
+> Being invited to write a blog post after a first package review It made me feel very cool and a valued part of the community." - [Alex Koiter](/author/alex-koiter/)
 
 - [**The dev guide**](https://devguide.ropensci.org/): because is a detailed and evolving documentation with knowledge that isn't easily found elsewhere.
 
