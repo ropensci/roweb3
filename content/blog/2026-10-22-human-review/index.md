@@ -269,7 +269,8 @@ automated *almost* all aspects of software review. And we can now say
 that *almost* all equates to approximately 94%. The true human value
 lies in what remains, in the bits that are truly written as
 inter-personal statements from one person to another (the “*address*”
-group), and that show gratitude and admiration.
+group), and that show gratitude and admiration. Grounded in and reflecting
+the full context of the review process.
 
 Attention may be all you need[^1], but human attention really is a
 unique and special thing. We are uniquely attuned to inter-personal
@@ -365,10 +366,10 @@ evidence of that process.
 I would like to see bold examples of largely AI-generated software being
 submitted for peer review, but in ways that include structured
 documentation of all design decisions that have guided software
-evolution. A community of practice should lead by example, and those
-examples should come from our community. Help shape our future by
-thinking about the issues raised here, and working with us to help the
-ongoing evolution of software peer review.
+evolution. A community of practice like rOpenSci should lead by example, and
+those examples should come from our community. Help shape our future by
+thinking about the issues raised here, and working with us to help the ongoing
+evolution of software peer review.
 
 [^1]: No, I’m not going to provide yet another citation for that paper.
     Look it up if you really want to.
