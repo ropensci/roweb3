@@ -4,7 +4,7 @@ author:
 - Yanina Bellini Saibene
 - Steffi LaZerte
 - Noam Ross
-date: '2026-01-20'
+date: '2026-10-20'
 slug: 15yo-events
 package_version: 0.2.1
 tags:
