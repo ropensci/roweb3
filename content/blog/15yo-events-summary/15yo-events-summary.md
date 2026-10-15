@@ -110,7 +110,7 @@ Reading through the notes from both events, a few things are consistent.
 
 People talk about rOpenSci not just as a set of tools or infrastructure, but as a place where they found colleagues, had their work taken seriously, and felt like valued contributors.
 
-The software peer-review process, the dev guide, the co-working sessions, the Champions Program, these work because the community behind them is invested in supporting them and find them useful.
+The [software peer-review process](/software-review/), the [dev guide](https://devguide.ropensci.org), the [co-working sessions](/coworking/), the [Champions Program](/champions/), these work because the community behind them is invested in supporting them and find them useful.
 
 At 15 years, the ideas that surfaced -- local chapters, hackathons, coalitions, better onboarding for newcomers -- suggest a community that still wants to try new things.
 
