@@ -110,7 +110,7 @@ Other ideas from across the rooms:
 
 - Better serving **very beginners**, the people who are still asking "what is R, anyway?"
 
-- **Merchandise and swag**, we all want our rOpenSci's hex sticker 😀.
+- **Merchandise and swag**, we all want our rOpenSci hex sticker 😀
 
 
 One thread in the conversation pointed to a real tension: rOpenSci has spent 15 years building carefully and steadily. GenAI is moving much faster. How do you maintain that care and those foundations when the pace of change accelerates? Even when we didn't have any easy answer, this question is the right one to be discussing with the community. 
