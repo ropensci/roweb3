@@ -9,7 +9,8 @@
       "editor"
     ],
     "participates": [
-      "champions"
+      "champions",
+      "software-review"
     ],
     "generalreview": true,
     "mastodon": "https://ecoevo.social/@noamross",
