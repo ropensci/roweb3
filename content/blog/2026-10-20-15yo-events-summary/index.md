@@ -94,7 +94,7 @@ The third round asked what participants would like to see rOpenSci do next, and 
 
 Other ideas from across the rooms:
 
-- **First-time contributor hackathons**, possibly with an GenAI focus.
+- **First-time contributor hackathons**, possibly with a GenAI focus
 
 - A **24-hour unconference** modeled on formats used by other communities like [SORTEE](https://sortee.org/)
 
