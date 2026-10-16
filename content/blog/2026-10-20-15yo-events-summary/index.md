@@ -34,12 +34,12 @@ As we used in our community calls, workshops and co-working sessions, a shared d
 <div class="row">
 <div class="col-md-6">
 
-{{< figure src="15yoevents.jpg" alt="" caption="Zoom meeting with 15 years old welcoming slide and attendees to the event" >}}
+{{< figure src="15yoevents.jpg" alt="Zoom meeting with 15 years old welcoming slide and attendees to the event" caption="Firt event celebrating 15 years of rOpenSci" >}}
 
 </div>
 <div class="col-md-6">
 
-{{< figure src="15yosecond_event.jpg" alt="Second Zoom meeting with 15 years old welcoming slide and attendees to the event" >}}
+{{< figure src="15yosecond_event.jpg" alt="Second Zoom meeting with 15 years old welcoming slide and attendees to the event" caption="Second meeting to celebrate 15 years of rOpenSci" >}}
 
 </div>
 </div>
