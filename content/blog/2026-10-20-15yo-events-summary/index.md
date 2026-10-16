@@ -44,7 +44,7 @@ As in our community calls, workshops and co-working sessions, a shared document 
 </div>
 </div>
 
-## Round 1 - The Past: What Made rOpenSci Special?
+## Round 1 - The Past: What made rOpenSci special?
 
 The first breakout asked participants how they first connected with rOpenSci and what their favourite memory was.
 
