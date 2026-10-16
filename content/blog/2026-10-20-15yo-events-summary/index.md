@@ -34,7 +34,7 @@ As in our community calls, workshops and co-working sessions, a shared document 
 <div class="row">
 <div class="col-md-6">
 
-{{< figure src="15yoevents.jpg" alt="Zoom meeting with 15 years old welcoming slide and attendees to the event" caption="Firt event celebrating 15 years of rOpenSci" >}}
+{{< figure src="15yoevents.jpg" alt="Zoom meeting with 15 years old welcoming slide and attendees to the event" caption="First event celebrating 15 years of rOpenSci" >}}
 
 </div>
 <div class="col-md-6">
