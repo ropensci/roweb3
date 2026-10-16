@@ -14,9 +14,9 @@
         {{ if gt (len $communitymultiverse) 0 }}
         <a href="https://community.r-multiverse.org/{{ .package.Package }}" class="category-card__tag is-teal">R-multiverse</a>
         {{ end }}
-        {{ if isset .package._metadata "review" }}
-        <a href="{{ .package._metadata.review.url }}" class="category-card__tag is-linear">Peer-reviewed</a>
-        {{ end }}
+        {{ with .package._metadata }}{{ if isset . "review" }}
+        <a href="{{ .review.url }}" class="category-card__tag is-linear">Peer-reviewed</a>
+        {{ end }}{{ end }}
         {{ if eq (index .package "Config/ropensci/maintainer" ) "staff" }}
         <a href="/about/#team" class="category-card__tag is-maintain">Staff maintained</a>
         {{ end }}

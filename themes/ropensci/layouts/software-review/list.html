@@ -34,6 +34,10 @@
           </div>
         </div>
         {{ $editors := (shuffle ( where (hugo.Data.team.team) "roles" "intersect" ( slice "editor" ) ) )}}
+        {{ $editorsNoGitHub := where $editors "github" "eq" nil }}
+        {{ if gt (len $editorsNoGitHub) 0 }}
+        {{ errorf "Missing github entry in data/team/team.json for editor(s): %s" (delimit (apply $editorsNoGitHub "index" "." "name") ", ") }}
+        {{ end }}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">
