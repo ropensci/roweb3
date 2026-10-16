@@ -29,7 +29,7 @@ After a welcome and a brief introduction, participants joined three successive b
 
 The Scavenger Hunt is a fun moment together, and we also used it as a natural prompt for introductions at the start of the next breakout room — "what did you find?" becomes a nice and easy opening for conversations.
 
-As we used in our community calls, workshops and co-working sessions, a shared document served as the place everyone could take notes in real time, add thoughts, and keep contributing for a couple of days after the event ended. [Noam Ross](/author/noam-ross/) named this _"process is product"_ approach, caring about *how* things happen, not just *what* happens, as one of rOpenSci's defining traits.
+As in our community calls, workshops and co-working sessions, a shared document served as the place where everyone could take notes in real time, add thoughts, and keep contributing for a couple of days after the event ended. [Noam Ross](/author/noam-ross/) named this _"process is product"_ approach, caring about *how* things happen, not just *what* happens, as one of rOpenSci's defining traits.
 
 <div class="row">
 <div class="col-md-6">
