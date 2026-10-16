@@ -66,7 +66,7 @@ Other things people named as favourite:
 
 > It's a satisfying community 'distraction/procrastination' from our normal jobs, that keeps us from being lonely and brings us together from different worlds to work on something that's benefitting people." - [Ronny Hernandez Mora](/author/ronny-hernandez-mora/)
 
-## Round 2 - The Present: What Does rOpenSci Do Well?
+## Round 2 - The Present: What does rOpenSci do well?
 
 The second round invited reflection on what rOpenSci does well today and what participants want to get more involved in.
 
