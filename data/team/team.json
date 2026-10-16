@@ -620,6 +620,20 @@
     "home": "https://ronnyale.com/"
   },
   {
+    "name": "Lauren O'Brien",
+    "affiliation": "Manaaki Whenua – Landcare Research",
+    "mastodon": "https://mastodon.social/@obrl_soil",
+    "bluesky": "obrlsoil.bsky.social",
+    "github": "obrl-soil",
+    "url": "https://obrl-soil.github.io/",
+    "image": "/img/team/lauren-obrien.jpg",
+    "roles": [
+      "editor"
+    ],
+    "generalreview": true,
+    "home": "https://obrl-soil.github.io/"
+  },
+  {
     "name": "Kelly Hondula",
     "url": "https://www.sesync.org/users/khondula",
     "image": "/img/team/kelly-hondula.jpg",
