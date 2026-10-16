@@ -10,8 +10,7 @@ package_version: 0.2.1
 tags:
 - anniversary
 - community
-description: 
-  R
+description: Reflections and ideas shared by participants across the two special gatherings named **"rOpenSci Community Celebration: Then, Now & Next"**
 editor:
 - Maëlle Salmon
 translator:
