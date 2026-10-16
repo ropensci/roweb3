@@ -21,7 +21,7 @@ params:
 In June 2026, rOpenSci marked its 15th anniversary with three community celebration events: a themed coworking event and two extra events. This post captures the reflections and ideas shared by participants across the two special gatherings named **"rOpenSci Community Celebration: Then, Now & Next"** that were held to accommodate different time zones.
 
 
-## How the Events Worked
+## How the events worked
 
 Our goal was to create a space for people to have conversations, getting to know each other and also reflect on rOpenSci's past, present and future. 
 
