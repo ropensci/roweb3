@@ -58,7 +58,7 @@ Other things people named as favourite:
 
 > Being invited to write a blog post after a first package review ... made me feel very cool and a valued part of the community." - [Alex Koiter](/author/alex-koiter/)
 
-- [**The dev guide**](https://devguide.ropensci.org/): because is a detailed and evolving documentation with knowledge that isn't easily found elsewhere.
+- [**The dev guide**](https://devguide.ropensci.org/): a detailed and evolving documentation with knowledge that isn't easily found elsewhere.
 
 - [**The Champions Program**](/champions/) and [**the mini-hackathons**](/blog/2026/06/02/ftc-guide/), spaces that provide friendly and guided entry points for open source contributors and R package developers.
 
