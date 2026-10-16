@@ -18,7 +18,7 @@ params:
   doi: 10.59350/qde78-t7993
 ---
 
-In June 2026, rOpenSci marked its 15th anniversary with tree community celebration events. This post captures the reflections and ideas shared by participants across the two special gatherings named **"rOpenSci Community Celebration: Then, Now & Next"** that were held to accommodate different time zones.
+In June 2026, rOpenSci marked its 15th anniversary with three community celebration events: a themed coworking event and two extra events. This post captures the reflections and ideas shared by participants across the two special gatherings named **"rOpenSci Community Celebration: Then, Now & Next"** that were held to accommodate different time zones.
 
 
 ## How the Events Worked
