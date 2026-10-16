@@ -30,6 +30,15 @@ At the call, the Champions presented their final projects, from creating, improv
 They also shared what their projects led to, including scholarships, new collaborations, and professional growth.
 The recording recording and subtitles, all in Spanish, have been [published](/es/commcalls/mas-alla-del-codigo-2026/).
 
+### R-Universe updates
+
+:dna: We have made good progress on the [migration of Bioconductor to R-Universe infrastructure](/blog/2026/04/08/r-universe-bioc/), see also [this presentation by Sean Davis](https://talks.seandavis.net/2026-10-01-bioc-tab/#/).
+Among other things, packages from the Bioconductor "experiment", "workflows" and "books" repositories have been added to [bioc.r-universe.dev](https://bioc.r-universe.dev) and [bioc-release.r-universe.dev](https://bioc-release.r-universe.dev).
+To support this, R-Universe now has a special category of "data" packages, which get a higher size limit but are only built and checked on Linux.
+
+:rocket: With about 3000 packages, Bioconductor is by far the largest universe, so along the way we made dozens of performance improvements to the frontend and server, making pages and repositories load faster for every universe.
+Stay tuned for a dedicated blog post on the state of the Bioconductor transition before the end of the year!
+
 ## Quinceañera
 
 TODO YANI: blog post?
