@@ -1,6 +1,6 @@
 ---
 name: Mark Padgham
-bio: Científico de Software de Investigación en rOpenSci
+bio: Ex científico de Software de Investigación en rOpenSci
 link: https://mpadge.github.io/
 github: mpadge
 img: img/team/mark-padgham.jpg
