@@ -1,0 +1,133 @@
+---
+title: 'Celebrating 15 Years of rOpenSci: Then, Now & Next'
+author:
+- Yanina Bellini Saibene
+- Steffi LaZerte
+- Noam Ross
+date: '2026-10-20'
+slug: 15yo-events
+package_version: 0.2.1
+tags:
+- anniversary
+- community
+description: 'Reflections and ideas shared by participants across the two special gatherings named **"rOpenSci Community Celebration: Then, Now & Next"**'
+editor:
+- Maëlle Salmon
+translator:
+params:
+  doi: 10.59350/qde78-t7993
+---
+
+In June 2026, rOpenSci marked its 15th anniversary with three community celebration events: a themed coworking event and two extra events. This post captures the reflections and ideas shared by participants across the two special gatherings named **"rOpenSci Community Celebration: Then, Now & Next"** that were held to accommodate different time zones.
+
+
+## How the events worked
+
+Our goal was to create a space for people to have conversations, get to know each other and also reflect on rOpenSci's past, present and future. 
+
+After a welcome and a brief introduction, participants joined three successive breakout rounds of 15 minutes each, one for each theme: the **past**, the **present**, and the **future**. Between rounds, attendees took part in a **Scavenger Hunt** (a regular feature of our [co-working sessions](/blog/2023/06/21/coworking/)), finding something in their physical surroundings that matched a given prompt.
+
+The Scavenger Hunt is a fun moment together, and we also used it as a natural prompt for introductions at the start of the next breakout room — "what did you find?" becomes a nice and easy opening for conversations.
+
+As in our community calls, workshops and co-working sessions, a shared document served as the place where everyone could take notes in real time, add thoughts, and keep contributing for a couple of days after the event ended. [Noam Ross](/author/noam-ross/) named this _"process is product"_ approach, caring about *how* things happen, not just *what* happens, as one of rOpenSci's defining traits.
+
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="15yoevents.jpg" alt="Zoom meeting with 15 years old welcoming slide and attendees to the event" caption="First event celebrating 15 years of rOpenSci" >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="15yosecond_event.jpg" alt="Second Zoom meeting with 15 years old welcoming slide and attendees to the event" caption="Second meeting to celebrate 15 years of rOpenSci" >}}
+
+</div>
+</div>
+
+## Round 1 - The Past: What made rOpenSci special?
+
+The first breakout asked participants how they first connected with rOpenSci and what their favourite memory was.
+
+Several people traced their connection back to a talk about rOpenSci or to a personal introduction from a community member who made them feel welcome from the start. 
+
+The [**unconferences**](/tags/unconf/) were remembered with particular warmth and excitement: the chance to sit next to people, see how they work, talk about R, and be part of something as it was taking shape. _"Meeting my heroes"_, as one participant put it.
+
+Other things people named as favourite:
+
+- [**The peer-review process**](/software-review/): praised by editors, reviewers and authors alike, both for the quality of the process and for the connections it created.
+
+> Being invited to write a blog post after a first package review ... made me feel very cool and a valued part of the community." - [Alex Koiter](/author/alex-koiter/)
+
+- [**The dev guide**](https://devguide.ropensci.org/): a detailed and evolving documentation with knowledge that isn't easily found elsewhere.
+
+- [**The Champions Program**](/champions/) and [**the mini-hackathons**](/blog/2026/06/02/ftc-guide/), spaces that provide friendly and guided entry points for open source contributors and R package developers.
+
+- [**Co-working sessions**](/coworking) are a place were you can find "your people," a place where you don't need to explain what R is.
+
+> It's a satisfying community 'distraction/procrastination' from our normal jobs, that keeps us from being lonely and brings us together from different worlds to work on something that's benefitting people." - [Ronny Hernandez Mora](/author/ronny-hernandez-mora/)
+
+## Round 2 - The Present: What does rOpenSci do well?
+
+The second round invited reflection on what rOpenSci does well today and what participants want to get more involved in.
+
+The most common answer was **creating a welcoming space**. 
+Participants then commented on the different places where they experience the friendly and welcoming community:
+
+- [**Co-working**](/coworking) came up again here, noted as something other communities have adopted from rOpenSci.
+
+- The **Slack workspace** and the atmosphere it creates: a common space for learning, getting advice, sharing ideas, and feeling part of something larger.
+
+ - **Good documentation** for package submission, which lowers the barrier to participating.
+
+- Some participants expressed interest in getting more involved in the **Champions Program**, along with honest questions about whether the entry points are accessible enough.
+
+- The sense that rOpenSci's quality in different activities comes from its community participation. 
+
+> You can jump into a role and the community will support you. If there is anything you want to do, start doing it and you will get the support you need."
+
+
+## Round 3 - The Future: What comes next?
+
+The third round asked what participants would like to see rOpenSci do next, and what ideas from other communities could be worth adopting or partnering on.
+
+**In-person and hybrid gatherings** were a recurring theme: local meetups, local chapters, satellite events at larger R conferences like [useR!](https://www.r-project.org/conferences/), and the *return of unconferences*, potentially co-organised with partner communities.
+
+Other ideas from across the rooms:
+
+- **First-time contributor hackathons**, possibly with a GenAI focus
+
+- A **24-hour unconference** modeled on formats used by other communities like [SORTEE](https://sortee.org/)
+
+- **Career panels** showing the range of roles in research software engineering and data-centric work
+
+- An rOpenSci-led package for R package development, like [usethis](https://usethis.r-lib.org), that supports GitLab, Codeberg, and other platforms beyond GitHub
+
+- Deeper **coalitions with open science organizations**
+
+- Connecting **package authors with graphic designers** to help them with their image and visual identity
+
+- Exploring **[Zarr](https://zarr.dev) in R** as an area where rOpenSci could help shape the ecosystem
+
+- Better serving **very beginners**, the people who are still asking "what is R, anyway?"
+
+- **Merchandise and swag**, we all want our rOpenSci hex sticker 😀
+
+
+One thread in the conversation pointed to a real tension: rOpenSci has spent 15 years building carefully and steadily. GenAI is moving much faster. How do you maintain that care and those foundations when the pace of change accelerates? Even when we didn't have any easy answers, this question is the right one to be discussing with the community. 
+
+## Closing thoughts
+
+Reading through the notes from both events, a few things are consistent.
+
+People talk about rOpenSci not just as a set of tools or infrastructure, but as a place where they found colleagues, had their work taken seriously, and felt like valued contributors.
+
+The [software peer-review process](/software-review/), the [dev guide](https://devguide.ropensci.org), the [co-working sessions](/coworking/), the [Champions Program](/champions/), these work because the community behind them is invested in supporting them and find them useful.
+
+At 15 years, the ideas that surfaced -- local chapters, hackathons, coalitions, better onboarding for newcomers -- suggest a community that still wants to try new things.
+
+> It works because everyone is welcome." - several attendees at the events 😸 
+
+*Thank you to everyone who joined and shared their thoughts. 💙*
+
+
+*These events were part of rOpenSci's 15th anniversary celebration series. Keep an eye on [rOpenSci's events calendar](/events/), our [blog](/tags/anniversary/) and our [newsletter](/news/) for more content around our anniversary.*
