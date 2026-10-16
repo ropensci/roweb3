@@ -113,7 +113,7 @@ Other ideas from across the rooms:
 - **Merchandise and swag**, we all want our rOpenSci hex sticker 😀
 
 
-One thread in the conversation pointed to a real tension: rOpenSci has spent 15 years building carefully and steadily. GenAI is moving much faster. How do you maintain that care and those foundations when the pace of change accelerates? Even when we didn't have any easy answer, this question is the right one to be discussing with the community. 
+One thread in the conversation pointed to a real tension: rOpenSci has spent 15 years building carefully and steadily. GenAI is moving much faster. How do you maintain that care and those foundations when the pace of change accelerates? Even when we didn't have any easy answers, this question is the right one to be discussing with the community. 
 
 ## Closing Thoughts
 
