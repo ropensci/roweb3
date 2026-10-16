@@ -54,7 +54,10 @@ that:
 Like Maëlle, I started with document term frequencies, initially for
 markdown headings only. All terms were converted to token stems,
 frequency tables were constructed, and results converted back to the
-most common full words for each token. The results gave these 15
+most common full words for each token. (Reviews are also conducted in Spanish,
+and the term-frequency tables were manually-checked to ensure 
+
+The results gave these 15
 categories of review headings, with proportions showing the overall
 amounts of review text coming under each of the specified heading
 categories.
@@ -252,17 +255,7 @@ paragraphs, and overall lengths of text (as tokens).
 | All      | Impr. + Praise          | 6.1%         | 5.9%       |
 
 Those portions of reviews in which these genuinely “human” aspects shine
-through amount to only around 6% of all review text ever written. And
-yet rOpenSci is what is it because of our genuine *culture* of review.
-The [software peer review page](https://ropensci.org/software-review/)
-of our website has always claimed that the review process is,
-
-> transparent, constructive, non adversarial, and open
-
-Transparency and openness are unavoidably a part of conducting reviews
-on GitHub. The genuine culture is then the *constructive, non
-adversarial* aspects, and these comprise only around 6% of all review
-text written to date.
+through amount to only around 6% of all review text ever written.
 
 I said at the start that I wanted to explore what’s left after LLMs have
 automated *almost* all aspects of software review. And we can now say
@@ -360,8 +353,8 @@ higher-level design decisions are recorded within the software itself.
 JOSS also requires a minimal six months of public development history,
 and I suspect a requirement like that may also be necessary for
 rOpenSci. Software design has always been an iterative process, and
-sufficiently extensive development (Git) logs provide some of the best
-evidence of that process.
+sufficiently extensive development logs provide some of the best evidence of
+that process.
 
 I would like to see bold examples of largely AI-generated software being
 submitted for peer review, but in ways that include structured
