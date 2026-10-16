@@ -9,7 +9,8 @@
       "editor"
     ],
     "participates": [
-      "champions"
+      "champions",
+      "software-review"
     ],
     "generalreview": true,
     "mastodon": "https://ecoevo.social/@noamross",
@@ -111,13 +112,11 @@
     "affiliation": "Software Review Lead",
     "url": "/author/mark-padgham",
     "image": "/img/team/mark-padgham.jpg",
-    "roles": [
+    "past_roles": [
       "staff",
       "editor"
     ],
-    "leads": [
-      "software-review"
-    ],
+    "alumnus": true,
     "stats": true,
     "mastodon": "https://nerdculture.de/@mpadge",
     "bluesky": "mpadge.bsky.social",
