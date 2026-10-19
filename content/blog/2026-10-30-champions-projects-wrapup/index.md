@@ -48,6 +48,25 @@ El repositorio será público cuando se publique el artículo final del proyecto
 **Guadalupe Pascal**, de Argentina, creó el paquete MatildaNLP, que facilita el análisis lingüístico y computacional de la colección de libros de la Cátedra Abierta Latinoamericana Matilda y las mujeres en ingeniería (CAL Matilda).
 El paquete da acceso a un corpus de seis libros escritos entre 2019 y 2025, con más de 200 ensayos autobiográficos de mujeres en ingeniería de 17 países latinoamericanos.
 El trabajo tiene dos repositorios: uno de preparación, con un pipeline documentado y reproducible que conserva expresiones idiomáticas y metadatos como el año, el tomo y el lugar de procedencia de cada autora, y otro de acceso, con la función `get_matilda()`, que entrega los datos limpios en formato *tidy*, listos para usar con herramientas como tidytext.
-Su mentora fue [Carolina Pradier] de [Argentina].
+Su mentora fue [Carolina Pradier]() de Argentina.
 El proyecto dio origen a dos artículos, uno sobre un flujo de trabajo para evaluar las limitaciones de los modelos de procesamiento de lenguaje natural en corpus subrepresentados, y otro sobre el pipeline de limpieza y creación del paquete.
 
+
+
+## Logros de la cohorte y próximos pasos
+
+Esta cohorte entregó software de alta calidad, centrado en datos, disciplinas y comunidades de América Latina y de otras regiones: desde la genómica del cáncer y la epigenética hasta las encuestas, los datos electorales y la ingeniería de infraestructuras.
+
+Al escuchar sus presentaciones, un tema se repitió: los proyectos crecieron gracias al acompañamiento de las mentoras y mentores, al feedback de la revisión por pares y al intercambio entre pares.
+
+Entre las lecciones que más se mencionaron aparecen el testing constante, la programación defensiva, la reducción de dependencias, la integración continua, la documentación y la modularización del código, además de aprender a soltar un paquete antes de que esté perfecto y a trabajar en comunidad.
+
+Muchos proyectos siguen en camino: varios paquetes están en proceso de revisión, de envío a CRAN o Bioconductor, o esperan la publicación de un artículo para hacerse públicos.
+
+También hay nuevos roles: parte de esta cohorte ya participa como revisora, editora o mentora dentro de rOpenSci.
+
+Para seguir sus avances, visitá nuestra sección de [eventos y charlas](https://ropensci.org/events/), nuestro [boletín](https://news.ropensci.org) y nuestras redes sociales.
+
+## Actividades mas alla del programa
+
+Además, Diana participó como revisora del paquete ibger, que da acceso a datos censales de Brasil.
