@@ -50,7 +50,7 @@ resources:
     name: "Slides presentando metasurvey y la experiencia de Mauro"
   - url: /es/commcalls/mas-alla-del-codigo-2026/mbcp_champions_ropensci.pdf
     name: "Slides presentando mbcp y la experiencia de Diana"    
-  - url:/es/commcalls/mas-alla-del-codigo-2026/2026_10_12_RAMEN.pdf
+  - url: /es/commcalls/mas-alla-del-codigo-2026/2026_10_12_RAMEN.pdf
     name: "Slides presentando RAMEN y la experiencia de Erick"  
 speakers:  
   - name: "Diana Garcia"
