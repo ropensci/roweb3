@@ -25,13 +25,13 @@ Como ya hemos hecho con las cohortes anteriores, en este post te contamos, en un
 Esta tabla resume los proyectos que fueron desarrollados exitosamente durante esta cohorte. Cada participante tuvo una mentoria individual que les acompaño durante este proceso.
 
 | Campeón/a | Proyecto | Tipo | Tema |Mentor-a|
-|---|---|---|---|
-| Diana García | MBCp | Paquete nuevo | Datos del Metastatic Breast Cancer Project | Geraldine |
+|---|---|---|---|---|
+| Diana García | MBCp | Paquete nuevo | Datos del Metastatic Breast Cancer Project | Geraldine Gómez|
 | Erick Navarro | RAMEN | Revisión por pares | Metilación del ADN y variantes genéticas | Paola Corrales |
 | Guadalupe Pascal | MatildaNLP | Paquete nuevo | Corpus de ensayos de mujeres en ingeniería de Latinoamérica |Carolina Pradier | 
 | Valentina Clavijo | Hazard Maps | Paquete nuevo | Dependencia espacial y pseudoescenarios de amenazas naturales | Pablo Tiscornia |
-| Mónica Ávila | SelectRE4 | Paquete nuevo | Selección de efectos aleatorios con el AIC condicional | |
-| Soledad Araya | VotosCL | Paquete nuevo | Datos electorales de Chile | |
+| Mónika Ávila | SelectRE4 | Paquete nuevo | Selección de efectos aleatorios con el AIC condicional | Luis Verde |
+| Soledad Araya | VotosCL | Paquete nuevo | Datos electorales de Chile | Eliana |
 | Mauro Loprete | MetaSurveyCore | Revisión por pares | Procesamiento reproducible de encuestas por muestreo | Ronny Hernandez Mora|
 | Ana Carolina | geobr o censobr | Revisión por pares | Piloto de revision en Portugues | Milagros |
 
