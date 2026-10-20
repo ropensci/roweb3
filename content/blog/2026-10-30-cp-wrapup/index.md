@@ -40,7 +40,7 @@ Esta tabla resume los proyectos que fueron desarrollados exitosamente durante es
 ### Paquetes nuevos
 
 **Diana García**, de México, bióloga computacional en el Dana-Farber Cancer Institute (Boston, EE.UU.), creó el paquete MBCp.
-El paquete da acceso a los datos del [Metastatic Breast Cancer Project](), una iniciativa del [Broad Institute](https://www.broadinstitute.org) y el [Dana-Farber Cancer Institute](https://www.dana-farber.org), desarrollada junto con pacientes a través de la organización sin fines de lucro [Count Me In]().
+El paquete da acceso a los datos del [Metastatic Breast Cancer Project](https://www.broadinstitute.org/news/metastatic-breast-cancer-project-posts-first-wave-genomic-clinical-and-patient-reported-data), una iniciativa del [Broad Institute](https://www.broadinstitute.org) y el [Dana-Farber Cancer Institute](https://www.dana-farber.org), desarrollada junto con pacientes a través de la organización sin fines de lucro [Count Me In]().
 Los datos clínicos, genómicos y poblacionales están almacenados en el [Dataverse de Harvard](), y MBCp incluye funciones para traerlos a R y limpiarlos, para graficar la expresión de genes según subtipos de tumor y para mantener etiquetas y colores consistentes, de modo que los análisis del proyecto sean reproducibles.
 Su mentora fue [Geraldine Gómez Millán](/author/geraldine-gómez-millán/) de Colombia.
 El repositorio será público cuando se publique el artículo final del proyecto.
