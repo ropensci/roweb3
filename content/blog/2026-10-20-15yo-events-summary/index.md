@@ -83,7 +83,7 @@ Participants then commented on the different places where they experience the fr
 
 - The sense that rOpenSci's quality in different activities comes from its community participation. 
 
-> You can jump into a role and the community will support you. If there is anything you want to do, start doing it and you will get the support you need."
+> You can jump into a role and the community will support you. If there is anything you want to do, start doing it and you will get the support you need." - [Adam Sparks](/author/adam-sparks/)
 
 
 ## Round 3 - The Future: What comes next?
