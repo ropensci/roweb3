@@ -35,6 +35,7 @@ Esta tabla resume los proyectos que fueron desarrollados exitosamente durante es
 | Mauro Loprete | MetaSurveyCore | Revisión por pares | Procesamiento reproducible de encuestas por muestreo | Ronny Hernandez Mora|
 | Ana Carolina | geobr o censobr | Revisión por pares | Piloto de revision en Portugues | Milagros |
 
+{{< figure src="rpackages.png" alt="7 hex con los logos y nombres de los paquetes: metasurvey, votosCL, HazardMaps, MBCp, SelectRE4, RAMEN, matildaNLP" caption="Paquetes desarrollados o revisados por la cohorte 2025-2026 del programa de campeon(a|e)s" >}}
 
 ### Paquetes nuevos
 
