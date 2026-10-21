@@ -65,7 +65,7 @@ Outreach activities are also under way: Linda Cabrera, assisted by her mentor Lu
 The 2025--2026 cohort wrapped up their journey with a closing community call, [**Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a|e)s (Beyond the Code: an open showcase of our Champions' Projects)**](/es/commcalls/mas-alla-del-codigo-2026/).
 At the call, the Champions presented their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities.
 They also shared what their projects led to, including scholarships, new collaborations, and professional growth.
-The recording recording and subtitles, all in Spanish, have been [published](/es/commcalls/mas-alla-del-codigo-2026/).
+The recording and subtitles, all in Spanish, have been [published](/es/commcalls/mas-alla-del-codigo-2026/).
 
 Several champions and mentor will join [LatinR 2026 in Medellín, Colombia](https://latinr.org/cronograma/), to present their work during the program and participate in [HackeaR, the hackathon event](https://latinr.org/cronograma/hackear/) where we will work on issues, translations and Pull Requests on base R, and rOpenSci packages and resources.
 
