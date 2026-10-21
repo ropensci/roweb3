@@ -6,7 +6,7 @@ author:
 date: "2026-10-22"
 tags:
   - newsletter
-description: Champions Program; Quinceañera; new packages and package news
+description: Thank you Mark; Champions Program; Quinceañera; new packages and package news
 params:
   last_newsletter: "2026-09-26"
   doi: "10.59350/mq5hp-ema25"
@@ -54,6 +54,17 @@ You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
+### Team update: thank you Mark Padgham!
+
+Mark Padgham is leaving rOpenSci at the end of October.
+
+Mark joined rOpenSci as a staff member in December 2019 to help us expand software peer review to statistical topics.
+However, Mark's impact on rOpenSci has gone far beyond this one project.
+Mark has not only shaped how rOpenSci reviews statistical software, but has also built much of the tooling that supports the peer review processes, and R packages which not only support but also strengthen our community.
+If you have submitted a package to rOpenSci, reviewed or edited one, you have almost certainly used something Mark made!
+
+Read more about his work in our [blog post](/blog/2026/10/21/mark-building-machinery-software-review/)
 
 ### Champions Program update
 
@@ -185,7 +196,7 @@ The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "
 ```{r}
 #| results: "asis"
 #| cache: true
-#| eval: false
+#| eval: true
 
 packages <- split(new, seq(nrow(new)))
 packages <- rev(packages)

@@ -6,11 +6,11 @@ author:
 date: "2026-10-22"
 tags:
   - newsletter
-description: Champions Program; Quinceañera; new packages and package news
+description: Thank you Mark; Champions Program; Quinceañera; new packages and package news
 params:
   last_newsletter: "2026-09-26"
   doi: "10.59350/mq5hp-ema25"
-rmd_hash: c66ef9172d727396
+rmd_hash: 6b2acc9c90ae1cae
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
@@ -20,6 +20,17 @@ You can read this post [on our blog](/blog/2026/10/22/news-october-2026).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
+
+### Team update: thank you Mark Padgham!
+
+Mark Padgham is leaving rOpenSci at the end of October.
+
+Mark joined rOpenSci as a staff member in December 2019 to help us expand software peer review to statistical topics.
+However, Mark's impact on rOpenSci has gone far beyond this one project.
+Mark has not only shaped how rOpenSci reviews statistical software, but has also built much of the tooling that supports the peer review processes, and R packages which not only support but also strengthen our community.
+If you have submitted a package to rOpenSci, reviewed or edited one, you have almost certainly used something Mark made!
+
+Read more about his work in our [blog post](/blog/2026/10/21/mark-building-machinery-software-review/)
 
 ### Champions Program update
 
@@ -31,7 +42,7 @@ Outreach activities are also under way: Linda Cabrera, assisted by her mentor Lu
 The 2025--2026 cohort wrapped up their journey with a closing community call, [**Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a\|e)s (Beyond the Code: an open showcase of our Champions' Projects)**](/es/commcalls/mas-alla-del-codigo-2026/).
 At the call, the Champions presented their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities.
 They also shared what their projects led to, including scholarships, new collaborations, and professional growth.
-The recording recording and subtitles, all in Spanish, have been [published](/es/commcalls/mas-alla-del-codigo-2026/).
+The recording and subtitles, all in Spanish, have been [published](/es/commcalls/mas-alla-del-codigo-2026/).
 
 Several champions and mentor will join [LatinR 2026 in Medellín, Colombia](https://latinr.org/cronograma/), to present their work during the program and participate in [HackeaR, the hackathon event](https://latinr.org/cronograma/hackear/) where we will work on issues, translations and Pull Requests on base R, and rOpenSci packages and resources.
 
@@ -73,6 +84,20 @@ And remember, you can always cowork independently on work related to R, work on 
 
 The following three packages recently became a part of our software suite:
 
+- [ibger](https://docs.ropensci.org/ibger), developed by André Leite together with Marcos Wasiliew, Hugo Vasconcelos, Carlos Amorim, and Diogo Bezerra: Tidyverse-friendly interface to the Brazilian Institute of Geography and Statistics (IBGE) aggregate data API <https://servicodados.ibge.gov.br/api/docs/agregados?versao=3>.
+  Query aggregates, variables, localities, periods, and metadata from surveys and censuses conducted by IBGE.
+  It has been [reviewed](https://github.com/ropensci/software-review/issues/787) by Allan Quadros and Diana García-Cortés.
+
+- [coevolve](https://docs.ropensci.org/coevolve), developed by Scott Claessens together with Erik Ringen: Fit Bayesian generalized dynamic phylogenetic models using Stan or JAX.
+  The package allows an arbitrary number of variables with different response distributions to coevolve on a phylogenetic tree via an Ornstein-Uhlenbeck evolutionary process, allowing users to assess directionality between coevolving variables.
+  The optional JAX backend enables high-performance sampling with NumPyro and potential GPU acceleration via reticulate.
+  It has been [reviewed](https://github.com/ropensci/software-review/issues/717) by Rob Moss and Krzysztof Bartoszek.
+
+- [rcrisp](https://docs.ropensci.org/rcrisp), developed by Claudiu Forgaci together with Francesco Nattino: Provides tools to automate the morphological delineation of riverside urban areas based on a method introduced in Forgaci (2018) <https://doi.org/10.7480/abe.2018.31>.
+  Delineation entails the identification of corridor boundaries, segmentation of the corridor, and delineation of the river space using two-dimensional spatial information from street network data and digital elevation data in a projected CRS.
+  The resulting delineation can be used to characterise spatial phenomena that can be related to the river as a central element.
+  It has been [reviewed](https://github.com/ropensci/software-review/issues/718) by Mark Padgham and Anatolii Tsyplenkov.
+
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
@@ -81,7 +106,7 @@ The following sixteen packages have had an update since the last newsletter: [rc
 
 ## Software Peer Review
 
-There are seventeen recently closed and active submissions and 4 submissions on hold.
+There are sixteen recently closed and active submissions and 4 submissions on hold.
 Issues are at different stages:
 
 - Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
@@ -128,13 +153,10 @@ Issues are at different stages:
   - [grumpy](https://github.com/ropensci/software-review/issues/775), Read NumPy .npy and .npz Files.
     Submitted by [Hugo Gruson](https://hugogruson.fr/).
 
-- Seven at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+- Six at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
   - [ocean3d](https://github.com/ropensci/software-review/issues/811), Three-Dimensional Marine Spatial Analysis.
     Submitted by [Jay Matsushiba](https://jmatsushiba.com).
-
-  - [emodnet.wcs](https://github.com/ropensci/software-review/issues/809), Access EMODnet Web Coverage Service data through R.
-    Submitted by [Maëlle Salmon](https://masalmon.eu/).
 
   - [qualtdict](https://github.com/ropensci/software-review/issues/807), Generate Variable Dictionaries and Labelled Survey Data for.
     Submitted by [lyh970817](https://github.com/lyh970817).
