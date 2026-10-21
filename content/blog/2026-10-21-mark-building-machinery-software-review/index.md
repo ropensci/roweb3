@@ -27,7 +27,7 @@ Mark's most visible contribution is to statistical software peer review.
 Reviewing a package that implements statistical methods is a different job from reviewing a package that accesses an API.
 Mark tackled the task of translating what "good" means in a statistical package and how a reviewer can assess it.
 He recruited a new set of editors with the expertise to tackel this work and turned insights into a concrete set of statistical software standards and the guide that accompanies them ([rOpenSci Statistical Software Testing and Peer Review Community Call](/commcalls/feb2021-statsreview/)).
-Mark also built the machinery to go with this new type review: [pkgstats](https://docs.ropensci.org/pkgstats/) gathers information about a package's structure, helps authors and editors see what a submission contains and how it is organised; [srr](https://docs.ropensci.org/srr/) allows package authors to document their adherence to statistical software standards.
+Mark also built the machinery to go with this new type of review: [pkgstats](https://docs.ropensci.org/pkgstats/) gathers information about a package's structure, helps authors and editors see what a submission contains and how it is organised; [srr](https://docs.ropensci.org/srr/) allows package authors to document their adherence to statistical software standards.
 
 The result of all this work was [our first peer-reviewed statistical packages](/blog/2022/11/30/first-peer-reviewed-stats-packages/), published in November 2022, and to date we've had over 26 statistical packages go through this review!
 Anyone who has gone through statistical software review has benefited from the groundwork Mark laid.
@@ -60,7 +60,7 @@ His work on [repometrics](/blog/2025/09/11/repometrics-call-help/) explores how 
 ## Thank you, Mark
 
 Mark's work has shaped how we review software, support contributors, and build a more reliable and sustainable open science ecosystem.
-Thank you, Mark, for building so much of the infrastructure and process that we rely on, and for leaving it in better shape than you found it.
+Thank you, Mark, for building so much of the infrastructure and process that we rely on, and for leaving it in a much better shape than you found it.
 
 If you have benefited from Mark's work, reach out to [Mark](/author/mark-padgham) and let him know!
 You can keep following his work through his website and social media.
