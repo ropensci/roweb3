@@ -23,7 +23,10 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Champions Program update
 
-Our current 2026--2027 cohort TODO YANI
+Our current 2026-2027 cohort is working on their projects around package development and package peer-review. 
+We celebrated our first cohort meeting (in two different moments to accommodate time zones) where participants shared their progress and got feedback from other champions. 
+ 
+Outreach activities are also under way:  Linda Cabrera, assisted by her mentor Luis Verde, conducted her outreach activity by leading a workshop on R Projects with RStudio and GitHub for the Ecuadorian Statistical Society, where she had the opportunity to share information about rOpenSci and our programs with the attendees. 
 
 The 2025--2026 cohort wrapped up their journey with a closing community call, [**Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a\|e)s (Beyond the Code: an open showcase of our Champions' Projects)**](/es/commcalls/mas-alla-del-codigo-2026/).
 At the call, the Champions presented their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities.
@@ -41,7 +44,11 @@ Stay tuned for a dedicated blog post on the state of the Bioconductor transition
 
 ## Quinceañera
 
-TODO YANI: blog post?
+We continue to uncover the stories of the people behind rOpenSci. This month, Mauro Lepore [tells us about his journey with rOpenSci](/blog/2026/09/29/celebrating-ropensci/) and shares lessons learned that can be applied beyond our community.
+
+We’re also sharing a [recap of the synchronous events we held](/blog/2026/10/20/15yo-events/), where we discussed the past, present, and future of rOpenSci with the people who joined us to celebrate these 15 years. 
+
+Stay tuned for more rOpenSci's stories. 
 
 ### Coworking
 
