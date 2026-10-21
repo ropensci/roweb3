@@ -10,28 +10,32 @@ description: Champions Program; Quinceañera; new packages and package news
 params:
   last_newsletter: "2026-09-26"
   doi: "10.59350/mq5hp-ema25"
-rmd_hash: 23b8c8127a28ec7c
+rmd_hash: c66ef9172d727396
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
-<!-- blabla --> You can read this post [on our blog](/blog/2026/10/22/news-october-2026).
+You can read this post [on our blog](/blog/2026/10/22/news-october-2026).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
 
 ### Champions Program update
 
-Our current 2026-2027 cohort is working on their projects around package development and package peer-review. 
-We celebrated our first cohort meeting (in two different moments to accommodate time zones) where participants shared their progress and got feedback from other champions. 
- 
-Outreach activities are also under way:  Linda Cabrera, assisted by her mentor Luis Verde, conducted her outreach activity by leading a workshop on R Projects with RStudio and GitHub for the Ecuadorian Statistical Society, where she had the opportunity to share information about rOpenSci and our programs with the attendees. 
+Our current 2026-2027 cohort is working on their projects around package development and package peer-review.
+We celebrated our first cohort meeting (in two different moments to accommodate time zones) where participants shared their progress and got feedback from other champions.
+
+Outreach activities are also under way: Linda Cabrera, assisted by her mentor Luis Verde, conducted her outreach activity by leading a workshop on R Projects with RStudio and GitHub for the Ecuadorian Statistical Society, where she had the opportunity to share information about rOpenSci and our programs with the attendees.
 
 The 2025--2026 cohort wrapped up their journey with a closing community call, [**Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a\|e)s (Beyond the Code: an open showcase of our Champions' Projects)**](/es/commcalls/mas-alla-del-codigo-2026/).
 At the call, the Champions presented their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities.
 They also shared what their projects led to, including scholarships, new collaborations, and professional growth.
 The recording recording and subtitles, all in Spanish, have been [published](/es/commcalls/mas-alla-del-codigo-2026/).
+
+Several champions and mentor will join [LatinR 2026 in Medellín, Colombia](https://latinr.org/cronograma/), to present their work during the program and participate in [HackeaR, the hackathon event](https://latinr.org/cronograma/hackear/) where we will work on issues, translations and Pull Requests on base R, and rOpenSci packages and resources.
+
+[If you are around, come and join us!](https://www.eventbrite.cl/e/latinr-2026-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-1998690018649)
 
 ### R-Universe updates
 
@@ -44,11 +48,12 @@ Stay tuned for a dedicated blog post on the state of the Bioconductor transition
 
 ## Quinceañera
 
-We continue to uncover the stories of the people behind rOpenSci. This month, Mauro Lepore [tells us about his journey with rOpenSci](/blog/2026/09/29/celebrating-ropensci/) and shares lessons learned that can be applied beyond our community.
+We continue to uncover the stories of the people behind rOpenSci.
+This month, Mauro Lepore [tells us about his journey with rOpenSci](/blog/2026/09/29/celebrating-ropensci/) and shares lessons learned that can be applied beyond our community.
 
-We’re also sharing a [recap of the synchronous events we held](/blog/2026/10/20/15yo-events/), where we discussed the past, present, and future of rOpenSci with the people who joined us to celebrate these 15 years. 
+We're also sharing a [recap of the synchronous events we held](/blog/2026/10/20/15yo-events/), where we discussed the past, present, and future of rOpenSci with the people who joined us to celebrate these 15 years.
 
-Stay tuned for more rOpenSci's stories. 
+Stay tuned for more rOpenSci's stories.
 
 ### Coworking
 
@@ -66,23 +71,27 @@ And remember, you can always cowork independently on work related to R, work on 
 
 ## Software :package:
 
-The following package recently became a part of our software suite:
+The following three packages recently became a part of our software suite:
 
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-The following thirteen packages have had an update since the last newsletter: [openalexR](https://docs.ropensci.org/openalexR "Getting Bibliographic Records from OpenAlex Database Using DSL API") ([`v3.1.2`](https://github.com/ropensci/openalexR/releases/tag/v3.1.2)), [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v2.0.0`](https://github.com/ropensci/webchem/releases/tag/v2.0.0)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`V3.1.2`](https://github.com/ropensci/ReLTER/releases/tag/V3.1.2)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP™ Servers") ([`v1.3.1`](https://github.com/ropensci/rerddap/releases/tag/v1.3.1)), [ibger](https://docs.ropensci.org/ibger "Access the IBGE Aggregate Data API from R") ([`v0.2.1`](https://github.com/ropensci/ibger/releases/tag/v0.2.1)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.5`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.5)), [pkgcheck](https://docs.ropensci.org/pkgcheck "Package Checks for rOpenSci") ([`v0.3.4`](https://github.com/ropensci-review-tools/pkgcheck/releases/tag/v0.3.4)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.6.3`](https://github.com/ropensci/ruODK/releases/tag/v1.6.3)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.9.0`](https://github.com/ropensci/rgbif/releases/tag/v3.9.0)), [rglobi](https://docs.ropensci.org/rglobi "Interface to Global Biotic Interactions") ([`v0.3.5`](https://github.com/ropensci/rglobi/releases/tag/v0.3.5)), [lakefetch](https://docs.ropensci.org/lakefetch "Calculate Fetch and Wave Exposure for Lake Sampling Points") ([`v0.1.14`](https://github.com/ropensci/lakefetch/releases/tag/v0.1.14)), [visdat](https://docs.ropensci.org/visdat "Preliminary Visualisation of Data") ([`v0.6.1`](https://github.com/ropensci/visdat/releases/tag/v0.6.1)), and [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v3.0.1`](https://github.com/ropensci/weatherOz/releases/tag/v3.0.1)).
+The following sixteen packages have had an update since the last newsletter: [rcrisp](https://docs.ropensci.org/rcrisp "Automate the Delineation of Urban River Spaces") ([`v1.0.0`](https://github.com/CityRiverSpaces/rcrisp/releases/tag/v1.0.0)), [coevolve](https://docs.ropensci.org/coevolve "Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan or JAX") ([`v1.2.1`](https://github.com/ropensci/coevolve/releases/tag/v1.2.1)), [pkgcheck](https://docs.ropensci.org/pkgcheck "Package Checks for rOpenSci") ([`v0.3.4`](https://github.com/ropensci-review-tools/pkgcheck/releases/tag/v0.3.4)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.5`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.5)), [openalexR](https://docs.ropensci.org/openalexR "Getting Bibliographic Records from OpenAlex Database Using DSL API") ([`v3.1.2`](https://github.com/ropensci/openalexR/releases/tag/v3.1.2)), [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v2.0.0`](https://github.com/ropensci/webchem/releases/tag/v2.0.0)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`V3.1.2`](https://github.com/ropensci/ReLTER/releases/tag/V3.1.2)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP™ Servers") ([`v1.3.1`](https://github.com/ropensci/rerddap/releases/tag/v1.3.1)), [ibger](https://docs.ropensci.org/ibger "Access the IBGE Aggregate Data API from R") ([`v0.2.1`](https://github.com/ropensci/ibger/releases/tag/v0.2.1)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.6.3`](https://github.com/ropensci/ruODK/releases/tag/v1.6.3)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.9.0`](https://github.com/ropensci/rgbif/releases/tag/v3.9.0)), [rglobi](https://docs.ropensci.org/rglobi "Interface to Global Biotic Interactions") ([`v0.3.5`](https://github.com/ropensci/rglobi/releases/tag/v0.3.5)), [lakefetch](https://docs.ropensci.org/lakefetch "Calculate Fetch and Wave Exposure for Lake Sampling Points") ([`v0.1.14`](https://github.com/ropensci/lakefetch/releases/tag/v0.1.14)), [visdat](https://docs.ropensci.org/visdat "Preliminary Visualisation of Data") ([`v0.6.1`](https://github.com/ropensci/visdat/releases/tag/v0.6.1)), [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v3.0.1`](https://github.com/ropensci/weatherOz/releases/tag/v3.0.1)), and [nlrx](https://docs.ropensci.org/nlrx "Setup, Run and Analyze NetLogo Model Simulations from R via XML") ([`v0.4.6`](https://github.com/ropensci/nlrx/releases/tag/v0.4.6)).
 
 ## Software Peer Review
 
-There are sixteen recently closed and active submissions and 4 submissions on hold.
+There are seventeen recently closed and active submissions and 4 submissions on hold.
 Issues are at different stages:
 
-- Two at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
+- Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
 
   - [ibger](https://github.com/ropensci/software-review/issues/787), Access the IBGE Aggregate Data API from R.
     Submitted by [Andre Leite Wanderley](https://castlab.org).
+
+  - [rcrisp](https://github.com/ropensci/software-review/issues/718), Automate the Delineation of Urban River Spaces.
+    Submitted by [Claudiu Forgaci](https://github.com/cforgaci).
+    (Stats).
 
   - [coevolve](https://github.com/ropensci/software-review/issues/717), Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan.
     Submitted by [Scott Claessens](https://scottclaessens.github.io/).
@@ -95,20 +104,16 @@ Issues are at different stages:
 
 - Two at ['4/review(s)-in-awaiting-changes'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%224/review(s)-in-awaiting-changes%22):
 
-  - [nert](https://github.com/ropensci/software-review/issues/785), Curated Access to TERN Environmental Raster Data.
-    Submitted by [Max Moldovan](https://scholar.google.com.au/citations?user=zG1uKrcAAAAJ&hl=en).
-
-  - [rcrisp](https://github.com/ropensci/software-review/issues/718), Automate the Delineation of Urban River Spaces.
-    Submitted by [Claudiu Forgaci](https://github.com/cforgaci).
-    (Stats).
-
-- Three at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
-
   - [camtrapReport](https://github.com/ropensci/software-review/issues/799), Camera-Trap Report Generator.
     Submitted by [Elham Ebrahimi](https://www.wur.nl/en/persons/e-elham-ebrahimi).
 
+  - [nert](https://github.com/ropensci/software-review/issues/785), Curated Access to TERN Environmental Raster Data.
+    Submitted by [Max Moldovan](https://scholar.google.com.au/citations?user=zG1uKrcAAAAJ&hl=en).
+
+- Two at ['3/reviewer(s)-assigned'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%223/reviewer(s)-assigned%22):
+
   - [tezr](https://github.com/ropensci/software-review/issues/774), Access Thesis Metadata from Turkiye's National Thesis Center.
-    Submitted by [Emrah Er](https://emraher.com).
+    Submitted by [Emrah Er](https://github.com/emraher).
 
   - [rfastlowess](https://github.com/ropensci/software-review/issues/769), High-Performance LOWESS Smoothing for R.
     Submitted by [Amir Valizadeh](https://github.com/thisisamirv).
@@ -123,10 +128,13 @@ Issues are at different stages:
   - [grumpy](https://github.com/ropensci/software-review/issues/775), Read NumPy .npy and .npz Files.
     Submitted by [Hugo Gruson](https://hugogruson.fr/).
 
-- Six at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+- Seven at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
   - [ocean3d](https://github.com/ropensci/software-review/issues/811), Three-Dimensional Marine Spatial Analysis.
     Submitted by [Jay Matsushiba](https://jmatsushiba.com).
+
+  - [emodnet.wcs](https://github.com/ropensci/software-review/issues/809), Access EMODnet Web Coverage Service data through R.
+    Submitted by [Maëlle Salmon](https://masalmon.eu/).
 
   - [qualtdict](https://github.com/ropensci/software-review/issues/807), Generate Variable Dictionaries and Labelled Survey Data for.
     Submitted by [lyh970817](https://github.com/lyh970817).
@@ -206,17 +214,17 @@ testthat::set_state_inspector(\() {
 
 Steffi LaZerte noticed the function in Hadley Wickham's and Jenny Bryan's [workshop materials](https://posit-conf-2026.github.io/modern-r-workflow/) that Mauro Lepore shared in our Slack workspace.
 
-### Using Just to run a subset of tests
+### Using `just` to run a subset of tests
 
 Speaking of tests... Did you know that testthat's test function have a `filter` argument to only run tests that match a given string?
-Etienne Bacher wrote a [nice little post](https://www.etiennebacher.com/posts/2026-10-15-using-just-with-test-files/) about using it, and the Just tool to generate aliases, for easily running a subset of tests.
+Etienne Bacher wrote a [nice little post](https://www.etiennebacher.com/posts/2026-10-15-using-just-with-test-files/) about using the `just` command-line tool to generate aliases for easily running a subset of tests using this filter.
 
-The post also mentions other use cases of [Just](https://github.com/casey/just), e.g. defining `just lint` to run [Jarl](https://jarl.etiennebacher.com/) on the current directory.
+The post also mentions other use cases of [`just`](https://github.com/casey/just), e.g. defining `just lint` to run [Jarl](https://jarl.etiennebacher.com/) on the current directory.
 
 ### Git hashes
 
 Are you aware that Git plans to change its content hashing algorithm?
-Here's a [good post](https://blog.gitbutler.com/git-3-sha-256) by Scott Chacon, the author of the Pro Git book.
+Here's a [good post](https://blog.gitbutler.com/git-3-sha-256) by Scott Chacon, the author of the Pro Git book, on why it is important and might be problematic.
 
 ## Last words
 
