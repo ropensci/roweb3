@@ -792,12 +792,12 @@ testthat::set_state_inspector(\() {
 
 Steffi LaZerte noticed the function in Hadley Wickham's and Jenny Bryan's [workshop materials](https://posit-conf-2026.github.io/modern-r-workflow/) that Mauro Lepore shared in our Slack workspace.
 
-### Using Just to run a subset of tests
+### Using `just` to run a subset of tests
 
 Speaking of tests... Did you know that testthat's test function have a `filter` argument to only run tests that match a given string?
-Etienne Bacher wrote a [nice little post](https://www.etiennebacher.com/posts/2026-10-15-using-just-with-test-files/) about using it, and the Just tool to generate aliases, for easily running a subset of tests.
+Etienne Bacher wrote a [nice little post](https://www.etiennebacher.com/posts/2026-10-15-using-just-with-test-files/) about using the `just` command-line tool to generate aliases for easily running a subset of tests using this filter.
 
-The post also mentions other use cases of [Just](https://github.com/casey/just), e.g. defining `just lint` to run [Jarl](https://jarl.etiennebacher.com/) on the current directory.
+The post also mentions other use cases of [`just`](https://github.com/casey/just), e.g. defining `just lint` to run [Jarl](https://jarl.etiennebacher.com/) on the current directory.
 
 ### Git hashes
 
