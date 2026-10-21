@@ -65,11 +65,8 @@ We welcome your feedback by email to `conduct@ropensci.org`, and we thank you fo
 
 #### Alumni
 
-<<<<<<< HEAD
-We thank Scott Chamberlain, Stefanie Butland, Megan Carter and Kara Woo for their past service on the committee. 
-=======
+
 We thank Scott Chamberlain, Stefanie Butland, Megan Carter, Kara Woo and Mark Padgham for their past service on the committee.
->>>>>>> 0d1adf82 (Apply batched suggestions from code review)
 
 #### License and Credits
 
