@@ -26,4 +26,4 @@ Mark is leaving rOpenSci at the end of October, so come join us in celebrating h
 
 Feel free to bring a festive drink of your choice and we'll toast Mark as we play trivia to test our Mark-related knowledge :wink:!
 
-If you can't make it and would like to leave a note for Mark, send it to Steffi LaZerte by[email](mailto:sel@steffilazerte.ca) or on the rOpenSci Slack and they'll be shared with Mark at the event.
+If you can't make it and would like to leave a note for Mark, send it to Steffi LaZerte by [email](mailto:sel@steffilazerte.ca) or on the rOpenSci Slack and they'll be shared with Mark at the event.
