@@ -50,7 +50,7 @@ nice_string <- function(...) {
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
 
 Dear rOpenSci friends, it's time for our monthly news roundup!
-<!-- blabla --> You can read this post [on our blog](`r url`).
+You can read this post [on our blog](`r url`).
 Now let's dive into the activity at and around rOpenSci!
 
 ## rOpenSci HQ
@@ -187,9 +187,6 @@ The following `r if(nrow(new)>1) english(nrow(new))` package`r if(nrow(new)>1) "
 #| cache: true
 #| eval: false
 
-new$onboarding[
-  new$package == "hdcuremodels"
-] <- "https://github.com/ropensci/software-review/issues/692"
 packages <- split(new, seq(nrow(new)))
 packages <- rev(packages)
 present_one <- function(package) {
@@ -201,10 +198,6 @@ present_one <- function(package) {
     path = "DESCRIPTION"
   ) |>
     purrr::pluck("download_url")
-
-  if (package$package == "eDNAjoint") {
-    desc_link <- "https://raw.githubusercontent.com/ropensci/eDNAjoint/26fb2d22dcd4314cdf7d170812c6247ae51f25a0/DESCRIPTION"
-  }
 
   withr::with_tempfile("tf", {
     download.file(desc_link, tf)
@@ -222,12 +215,6 @@ present_one <- function(package) {
   rev <- purrr::map_chr(rev, function(x) {
     paste(c(x$given, x$family), collapse = " ")
   })
-  if (package$package == "pvEBayes") {
-    rev <- c("Kathryn Doering", "Collin Cademartori")
-  }
-  if (package$package == "nycOpenData") {
-    rev <- c("Haolin Dong", "Michael Pascale")
-  }
   maintainer <- purrr::keep(authors, function(x) {
     any(x$role %in% "cre")
   })
@@ -277,9 +264,6 @@ present_one <- function(package) {
       string,
       sprintf("It has been [reviewed](%s)", package$onboarding)
     )
-    if (package$package == "fireexposuR") {
-      rev <- c("Sherry Zhang ", "Ronny A. Hernández Mora")
-    }
     if (length(rev) > 0) {
       string <- paste0(string, sprintf(" by %s.", nice_string(rev)))
     } else {
@@ -385,10 +369,6 @@ get_description <- function(body) {
     "",
     lines[grepl("^Title", lines)][1]
   ))
-  if (name == "read.abares") {
-    description <- "Provides simple downloading, parsing and importing of Australian
- Bureau of Agricultural and Resource Economics and Sciences (ABARES) data sources"
-  }
   description <- cran_unquote(sub("\\.$", "", description))
   list(name = name, description = description)
 }
@@ -400,6 +380,10 @@ get_user_text <- function(issue) {
   url <- if (nzchar(info$blog)) info$blog else info$html_url
   if (!startsWith(url, "https")) {
     url <- paste0("https://", url)
+  }
+
+  if (issue$user$login == "emraher") {
+    return("[Emrah Er](https://github.com/emraher)")
   }
 
   sprintf("[%s](%s)", name, url)
@@ -638,9 +622,6 @@ format_post <- function(dir) {
       sub("[\\.\\!\\?]$", "", post$description),
       "."
     )
-    if (url == "/blog/2025/09/18/markdown-programmatic-parsing/") {
-      string <- paste(string, ".")
-    }
   } else {
     string <- paste0(string, ".")
   }
@@ -802,7 +783,7 @@ The post also mentions other use cases of [`just`](https://github.com/casey/just
 ### Git hashes
 
 Are you aware that Git plans to change its content hashing algorithm?
-Here's a [good post](https://blog.gitbutler.com/git-3-sha-256) by Scott Chacon, the author of the Pro Git book.
+Here's a [good post](https://blog.gitbutler.com/git-3-sha-256) by Scott Chacon, the author of the Pro Git book, on why it is important and might be problematic.
 
 ## Last words
 
