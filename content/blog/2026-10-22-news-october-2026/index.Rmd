@@ -57,12 +57,19 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Champions Program update
 
-Our current 2026--2027 cohort TODO YANI
+Our current 2026-2027 cohort is working on their projects around package development and package peer-review.
+We celebrated our first cohort meeting (in two different moments to accommodate time zones) where participants shared their progress and got feedback from other champions.
+
+Outreach activities are also under way: Linda Cabrera, assisted by her mentor Luis Verde, conducted her outreach activity by leading a workshop on R Projects with RStudio and GitHub for the Ecuadorian Statistical Society, where she had the opportunity to share information about rOpenSci and our programs with the attendees.
 
 The 2025--2026 cohort wrapped up their journey with a closing community call, [**Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a|e)s (Beyond the Code: an open showcase of our Champions' Projects)**](/es/commcalls/mas-alla-del-codigo-2026/).
 At the call, the Champions presented their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities.
 They also shared what their projects led to, including scholarships, new collaborations, and professional growth.
 The recording recording and subtitles, all in Spanish, have been [published](/es/commcalls/mas-alla-del-codigo-2026/).
+
+Several champions and mentor will join [LatinR 2026 in Medellín, Colombia](https://latinr.org/cronograma/), to present their work during the program and participate in [HackeaR, the hackathon event](https://latinr.org/cronograma/hackear/) where we will work on issues, translations and Pull Requests on base R, and rOpenSci packages and resources.
+
+[If you are around, come and join us!](https://www.eventbrite.cl/e/latinr-2026-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-1998690018649)
 
 ### R-Universe updates
 
@@ -75,7 +82,12 @@ Stay tuned for a dedicated blog post on the state of the Bioconductor transition
 
 ## Quinceañera
 
-TODO YANI: blog post?
+We continue to uncover the stories of the people behind rOpenSci.
+This month, Mauro Lepore [tells us about his journey with rOpenSci](/blog/2026/09/29/celebrating-ropensci/) and shares lessons learned that can be applied beyond our community.
+
+We're also sharing a [recap of the synchronous events we held](/blog/2026/10/20/15yo-events/), where we discussed the past, present, and future of rOpenSci with the people who joined us to celebrate these 15 years.
+
+Stay tuned for more rOpenSci's stories.
 
 ### Coworking
 
@@ -88,7 +100,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 - Tuesday December 8th<sup>\*</sup>, 14:00 Europe Central (12:00 UTC) ["Code Linting in R"](/events/coworking-2026-12/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host [Etienne Bacher](/author/etienne-bacher/).
   - Read up on Code Linting and apply some linters to your R code
   - Meet co-host, Etienne Bacher, and discuss code linting in general, or flir and Jarl in particular\
- \* Note that December coworking is a week later than usual
+    \* Note that December coworking is a week later than usual
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
 
