@@ -3,6 +3,8 @@ slug: "mark-building-machinery-software-review"
 title: "Mark Padgham: Building the Machinery of Software Peer Review"
 author:
   - The rOpenSci Team
+editor:
+  - Mark Padgham
 date: "2026-10-21"
 tags:
   - staff
