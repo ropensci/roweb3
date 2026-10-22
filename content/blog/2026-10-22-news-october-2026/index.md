@@ -10,7 +10,7 @@ description: Thank you Mark; Champions Program; Quinceañera; new packages and p
 params:
   last_newsletter: "2026-09-26"
   doi: "10.59350/mq5hp-ema25"
-rmd_hash: 6b2acc9c90ae1cae
+rmd_hash: 894e2cd980e8012c
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
@@ -23,28 +23,28 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### Team update: thank you Mark Padgham!
 
-Mark Padgham is leaving rOpenSci at the end of October.
+Mark Padgham is leaving rOpenSci at the end of October, but his impact on rOpenSci will remain.
 
 Mark joined rOpenSci as a staff member in December 2019 to help us expand software peer review to statistical topics.
 However, Mark's impact on rOpenSci has gone far beyond this one project.
 Mark has not only shaped how rOpenSci reviews statistical software, but has also built much of the tooling that supports the peer review processes, and R packages which not only support but also strengthen our community.
 If you have submitted a package to rOpenSci, reviewed or edited one, you have almost certainly used something Mark made!
 
-Read more about his work in our [blog post](/blog/2026/10/21/mark-building-machinery-software-review/)
+Read more about his work in our [blog post](/blog/2026/10/21/mark-building-machinery-software-review/), and consider [joining our farewell celebration](/events/marks-celebration/) on Wednesday, October 28th at 15h00 Europe Central.
 
 ### Champions Program update
 
 Our current 2026-2027 cohort is working on their projects around package development and package peer-review.
-We celebrated our first cohort meeting (in two different moments to accommodate time zones) where participants shared their progress and got feedback from other champions.
+We celebrated our first cohort meeting (across two different gatherings to accommodate time zones) where participants shared their progress and got feedback from other Champions.
 
-Outreach activities are also under way: Linda Cabrera, assisted by her mentor Luis Verde, conducted her outreach activity by leading a workshop on R Projects with RStudio and GitHub for the Ecuadorian Statistical Society, where she had the opportunity to share information about rOpenSci and our programs with the attendees.
+Outreach activities are also under way: [Linda Cabrera](/author/linda-cabrera-orellana/), assisted by her mentor [Luis Verde](/author/luis-d.-verde-arregoitia/), conducted her outreach activity by leading a workshop on R Projects with RStudio and GitHub for the [Ecuadorian Statistical Society](https://see-ec.org/), where she had the opportunity to share information about rOpenSci and our programs with the attendees.
 
 The 2025--2026 cohort wrapped up their journey with a closing community call, [**Más Allá del Código: muestra abierta de los proyectos de nuestros campeon(a\|e)s (Beyond the Code: an open showcase of our Champions' Projects)**](/es/commcalls/mas-alla-del-codigo-2026/).
 At the call, the Champions presented their final projects, from creating, improving, and reviewing R packages to the outreach work that brought those projects to their communities.
 They also shared what their projects led to, including scholarships, new collaborations, and professional growth.
 The recording and subtitles, all in Spanish, have been [published](/es/commcalls/mas-alla-del-codigo-2026/).
 
-Several champions and mentor will join [LatinR 2026 in Medellín, Colombia](https://latinr.org/cronograma/), to present their work during the program and participate in [HackeaR, the hackathon event](https://latinr.org/cronograma/hackear/) where we will work on issues, translations and Pull Requests on base R, and rOpenSci packages and resources.
+Several Champions and mentors will join [LatinR 2026 in Medellín, Colombia](https://latinr.org/cronograma/), to present their work during the program and participate in [HackeaR, the hackathon event](https://latinr.org/cronograma/hackear/) where we will work on issues, translations, and Pull Requests on base R and on rOpenSci packages and resources.
 
 [If you are around, come and join us!](https://www.eventbrite.cl/e/latinr-2026-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-1998690018649)
 
@@ -88,25 +88,25 @@ The following three packages recently became a part of our software suite:
   Query aggregates, variables, localities, periods, and metadata from surveys and censuses conducted by IBGE.
   It has been [reviewed](https://github.com/ropensci/software-review/issues/787) by Allan Quadros and Diana García-Cortés.
 
-- [coevolve](https://docs.ropensci.org/coevolve), developed by Scott Claessens together with Erik Ringen: Fit Bayesian generalized dynamic phylogenetic models using Stan or JAX.
-  The package allows an arbitrary number of variables with different response distributions to coevolve on a phylogenetic tree via an Ornstein-Uhlenbeck evolutionary process, allowing users to assess directionality between coevolving variables.
-  The optional JAX backend enables high-performance sampling with NumPyro and potential GPU acceleration via reticulate.
-  It has been [reviewed](https://github.com/ropensci/software-review/issues/717) by Rob Moss and Krzysztof Bartoszek.
-
 - [rcrisp](https://docs.ropensci.org/rcrisp), developed by Claudiu Forgaci together with Francesco Nattino: Provides tools to automate the morphological delineation of riverside urban areas based on a method introduced in Forgaci (2018) <https://doi.org/10.7480/abe.2018.31>.
   Delineation entails the identification of corridor boundaries, segmentation of the corridor, and delineation of the river space using two-dimensional spatial information from street network data and digital elevation data in a projected CRS.
   The resulting delineation can be used to characterise spatial phenomena that can be related to the river as a central element.
   It has been [reviewed](https://github.com/ropensci/software-review/issues/718) by Mark Padgham and Anatolii Tsyplenkov.
 
+- [coevolve](https://docs.ropensci.org/coevolve), developed by Scott Claessens together with Erik Ringen: Fit Bayesian generalized dynamic phylogenetic models using Stan or JAX.
+  The package allows an arbitrary number of variables with different response distributions to coevolve on a phylogenetic tree via an Ornstein-Uhlenbeck evolutionary process, allowing users to assess directionality between coevolving variables.
+  The optional JAX backend enables high-performance sampling with NumPyro and potential GPU acceleration via reticulate.
+  It has been [reviewed](https://github.com/ropensci/software-review/issues/717) by Rob Moss and Krzysztof Bartoszek.
+
 Discover [more packages](/packages), read more about [Software Peer Review](/software-review).
 
 ### New versions
 
-The following sixteen packages have had an update since the last newsletter: [rcrisp](https://docs.ropensci.org/rcrisp "Automate the Delineation of Urban River Spaces") ([`v1.0.0`](https://github.com/CityRiverSpaces/rcrisp/releases/tag/v1.0.0)), [coevolve](https://docs.ropensci.org/coevolve "Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan or JAX") ([`v1.2.1`](https://github.com/ropensci/coevolve/releases/tag/v1.2.1)), [pkgcheck](https://docs.ropensci.org/pkgcheck "Package Checks for rOpenSci") ([`v0.3.4`](https://github.com/ropensci-review-tools/pkgcheck/releases/tag/v0.3.4)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.5`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.5)), [openalexR](https://docs.ropensci.org/openalexR "Getting Bibliographic Records from OpenAlex Database Using DSL API") ([`v3.1.2`](https://github.com/ropensci/openalexR/releases/tag/v3.1.2)), [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v2.0.0`](https://github.com/ropensci/webchem/releases/tag/v2.0.0)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`V3.1.2`](https://github.com/ropensci/ReLTER/releases/tag/V3.1.2)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP™ Servers") ([`v1.3.1`](https://github.com/ropensci/rerddap/releases/tag/v1.3.1)), [ibger](https://docs.ropensci.org/ibger "Access the IBGE Aggregate Data API from R") ([`v0.2.1`](https://github.com/ropensci/ibger/releases/tag/v0.2.1)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.6.3`](https://github.com/ropensci/ruODK/releases/tag/v1.6.3)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.9.0`](https://github.com/ropensci/rgbif/releases/tag/v3.9.0)), [rglobi](https://docs.ropensci.org/rglobi "Interface to Global Biotic Interactions") ([`v0.3.5`](https://github.com/ropensci/rglobi/releases/tag/v0.3.5)), [lakefetch](https://docs.ropensci.org/lakefetch "Calculate Fetch and Wave Exposure for Lake Sampling Points") ([`v0.1.14`](https://github.com/ropensci/lakefetch/releases/tag/v0.1.14)), [visdat](https://docs.ropensci.org/visdat "Preliminary Visualisation of Data") ([`v0.6.1`](https://github.com/ropensci/visdat/releases/tag/v0.6.1)), [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v3.0.1`](https://github.com/ropensci/weatherOz/releases/tag/v3.0.1)), and [nlrx](https://docs.ropensci.org/nlrx "Setup, Run and Analyze NetLogo Model Simulations from R via XML") ([`v0.4.6`](https://github.com/ropensci/nlrx/releases/tag/v0.4.6)).
+The following sixteen packages have had an update since the last newsletter: [coevolve](https://docs.ropensci.org/coevolve "Fit Bayesian Generalized Dynamic Phylogenetic Models using Stan or JAX") ([`v1.2.1`](https://github.com/ropensci/coevolve/releases/tag/v1.2.1)), [ruODK](https://docs.ropensci.org/ruODK "An R Client for the ODK Central API") ([`v1.6.3`](https://github.com/ropensci/ruODK/releases/tag/v1.6.3)), [pkgcheck](https://docs.ropensci.org/pkgcheck "Package Checks for rOpenSci") ([`v0.3.4`](https://github.com/ropensci-review-tools/pkgcheck/releases/tag/v0.3.4)), [rcrisp](https://docs.ropensci.org/rcrisp "Automate the Delineation of Urban River Spaces") ([`v1.0.0`](https://github.com/CityRiverSpaces/rcrisp/releases/tag/v1.0.0)), [pkgstats](https://docs.ropensci.org/pkgstats "Metrics of R Packages") ([`v0.2.5`](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.2.5)), [openalexR](https://docs.ropensci.org/openalexR "Getting Bibliographic Records from OpenAlex Database Using DSL API") ([`v3.1.2`](https://github.com/ropensci/openalexR/releases/tag/v3.1.2)), [webchem](https://docs.ropensci.org/webchem "Chemical Information from the Web") ([`v2.0.0`](https://github.com/ropensci/webchem/releases/tag/v2.0.0)), [ReLTER](https://docs.ropensci.org/ReLTER "An Interface for the eLTER Community") ([`V3.1.2`](https://github.com/ropensci/ReLTER/releases/tag/V3.1.2)), [rerddap](https://docs.ropensci.org/rerddap "General Purpose Client for ERDDAP™ Servers") ([`v1.3.1`](https://github.com/ropensci/rerddap/releases/tag/v1.3.1)), [ibger](https://docs.ropensci.org/ibger "Access the IBGE Aggregate Data API from R") ([`v0.2.1`](https://github.com/ropensci/ibger/releases/tag/v0.2.1)), [rgbif](https://docs.ropensci.org/rgbif "Interface to the Global Biodiversity Information Facility API") ([`v3.9.0`](https://github.com/ropensci/rgbif/releases/tag/v3.9.0)), [rglobi](https://docs.ropensci.org/rglobi "Interface to Global Biotic Interactions") ([`v0.3.5`](https://github.com/ropensci/rglobi/releases/tag/v0.3.5)), [lakefetch](https://docs.ropensci.org/lakefetch "Calculate Fetch and Wave Exposure for Lake Sampling Points") ([`v0.1.14`](https://github.com/ropensci/lakefetch/releases/tag/v0.1.14)), [visdat](https://docs.ropensci.org/visdat "Preliminary Visualisation of Data") ([`v0.6.1`](https://github.com/ropensci/visdat/releases/tag/v0.6.1)), [weatherOz](https://docs.ropensci.org/weatherOz "An API Client for Australian Weather and Climate Data Resources") ([`v3.0.1`](https://github.com/ropensci/weatherOz/releases/tag/v3.0.1)), and [nlrx](https://docs.ropensci.org/nlrx "Setup, Run and Analyze NetLogo Model Simulations from R via XML") ([`v0.4.6`](https://github.com/ropensci/nlrx/releases/tag/v0.4.6)).
 
 ## Software Peer Review
 
-There are sixteen recently closed and active submissions and 4 submissions on hold.
+There are seventeen recently closed and active submissions and 4 submissions on hold.
 Issues are at different stages:
 
 - Three at ['6/approved'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%226/approved%22):
@@ -153,10 +153,13 @@ Issues are at different stages:
   - [grumpy](https://github.com/ropensci/software-review/issues/775), Read NumPy .npy and .npz Files.
     Submitted by [Hugo Gruson](https://hugogruson.fr/).
 
-- Six at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
+- Seven at ['1/editor-checks'](https://github.com/ropensci/software-review/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%221/editor-checks%22):
 
   - [ocean3d](https://github.com/ropensci/software-review/issues/811), Three-Dimensional Marine Spatial Analysis.
     Submitted by [Jay Matsushiba](https://jmatsushiba.com).
+
+  - [emodnet.wcs](https://github.com/ropensci/software-review/issues/809), Access EMODnet Web Coverage Service data through R.
+    Submitted by [Maëlle Salmon](https://masalmon.eu/).
 
   - [qualtdict](https://github.com/ropensci/software-review/issues/807), Generate Variable Dictionaries and Labelled Survey Data for.
     Submitted by [lyh970817](https://github.com/lyh970817).
