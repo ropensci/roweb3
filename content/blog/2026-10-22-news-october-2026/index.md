@@ -10,7 +10,7 @@ description: Thank you Mark; Champions Program; Quinceañera; new packages and p
 params:
   last_newsletter: "2026-09-26"
   doi: "10.59350/mq5hp-ema25"
-rmd_hash: 894e2cd980e8012c
+rmd_hash: 7030e75c6fecba38
 ---
 
 <!-- Before sending DELETE THE INDEX_CACHE and re-knit! -->
@@ -191,6 +191,12 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
   Here I share some memories and the lessons I learned.
   Other languages: <a href='/es/blog/2026/09/29/celebrando-ropensci' lang='es'>Celebrando a la comunidad de rOpenSci (es)</a>.
 
+- [Celebrating 15 Years of rOpenSci: Then, Now & Next](/blog/2026/10/20/15yo-events) by Yanina Bellini Saibene, Steffi LaZerte, and Noam Ross.
+  Reflections and ideas shared by participants across the two special gatherings named **"rOpenSci Community Celebration: Then, Now & Next"**.
+
+- [Mark Padgham: Building the Machinery of Software Peer Review](/blog/2026/10/21/mark-building-machinery-software-review) by The rOpenSci Team.
+  Mark Padgham is leaving rOpenSci at the end of October, and we want to take this moment to recognize his impact and say thank you for helping to shape rOpenSci.
+
 ## Calls for contributions
 
 ### Calls for maintainers
@@ -199,6 +205,9 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 
 - [suppdata](https://docs.ropensci.org/suppdata), Grabbing SUPPlementary DATA in R.
   [Issue for volunteering](https://github.com/ropensci/suppdata/issues/59).
+
+- [ghql](https://docs.ropensci.ghql), GraphQL R client.
+  [Issue for volunteering](https://github.com/ropensci/ghql/issues/40).
 
 ### Calls for contributions
 

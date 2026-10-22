@@ -744,6 +744,9 @@ If you're interested in maintaining any of the R packages below, you might enjoy
 - [suppdata](https://docs.ropensci.org/suppdata), Grabbing SUPPlementary DATA in R.
   [Issue for volunteering](https://github.com/ropensci/suppdata/issues/59).
 
+- [ghql](https://docs.ropensci.ghql), GraphQL R client.
+  [Issue for volunteering](https://github.com/ropensci/ghql/issues/40).
+
 ### Calls for contributions
 
 Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
