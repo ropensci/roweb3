@@ -69,7 +69,7 @@ Read more about his work in our [blog post](/blog/2026/10/21/mark-building-machi
 ### Champions Program update
 
 Our current 2026-2027 cohort is working on their projects around package development and package peer-review.
-We celebrated our first cohort meeting (in two different moments to accommodate time zones) where participants shared their progress and got feedback from other champions.
+We celebrated our first cohort meeting (across two different gatherings to accommodate time zones) where participants shared their progress and got feedback from other Champions.
 
 Outreach activities are also under way: [Linda Cabrera](/author/linda-cabrera-orellana/), assisted by her mentor [Luis Verde](/author/luis-d.-verde-arregoitia/), conducted her outreach activity by leading a workshop on R Projects with RStudio and GitHub for the [Ecuadorian Statistical Society](https://see-ec.org/), where she had the opportunity to share information about rOpenSci and our programs with the attendees.
 
