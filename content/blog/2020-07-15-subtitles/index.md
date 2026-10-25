@@ -134,6 +134,6 @@ We learned a lot during the process, enjoyed the roundtable even more (in all it
 When working on the subtitles we stumbled upon many useful resources ranging from quick tips and best practices to full guide describing the process of same-language subtitling for videos. They helped us ease our process and hope they will help you as well if you want to join the subtitling adventure:
 
 * A blog post on Amara's blog with [7 tips for subtitling videos](https://blog.amara.org/2011/08/09/best-practices-for-subtitling-videos/),
-* A very short summary of [standard closed captioning guidelines](https://www.capitalcaptions.com/services/closed-captioning-services/closed-captioning-guidelines/) by Capital Captions,
-* The longer [Transcription Guidelines for Captioning](https://support.automaticsync.com/hc/en-us/articles/202355665-Transcription-Guidelines-for-Captioning) by CaptionSync, but they mostly referred to movie captioning,
-* The exhaustive [BBC Subtitle Guidelines](https://bbc.github.io/subtitle-guidelines/) which describe the process and rules to best subtitle videos, it's freely available on GitHub.
+* A short side-by-side table of [standard closed captioning limits](https://www.markstudios.com/tools/caption-checker) (characters per line, lines, reading speed) from Netflix, the BBC and the DCMP Captioning Key, by Mark Studios,
+* The longer [Transcription Guidelines for Captioning](https://web.archive.org/web/20200804075535/https://support.automaticsync.com/hc/en-us/articles/202355665-Transcription-Guidelines-for-Captioning) by CaptionSync, but they mostly referred to movie captioning,
+* The exhaustive [BBC Subtitle Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles/) which describe the process and rules to best subtitle videos.
