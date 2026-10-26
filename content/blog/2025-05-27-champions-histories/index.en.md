@@ -1,5 +1,5 @@
 ---
-title: Carolina Pradier, champion in learning to teach.
+title: Carolina Pradier, Champion at Increasing the Impact
 author:
 - Yanina Bellini Saibene
 - Alejandra Bellini
