@@ -13,7 +13,7 @@ tags:
 - community
 - interviews
 - champions-stories
-description: Stories of Champions Series. Our first story is that of Carolina Pradier, main maintainer of the eph package. We review her participation in the program and the impact of her work in different organizations and communities.
+description: This story is that of Carolina Pradier, main maintainer of the eph package. We review her participation in the program and the impact of her work in different organizations and communities.
 params:
   doi: 10.59350/f7jvs-8js04 
 ---
