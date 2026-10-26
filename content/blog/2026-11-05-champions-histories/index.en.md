@@ -3,21 +3,25 @@ title: Carolina Pradier, champion in learning to teach.
 author:
 - Yanina Bellini Saibene
 - Alejandra Bellini
-date: '2025-05-27'
-slug: champions-histories-carolina-pradier
 editor:
 - Steffi LaZerte
+interviewee:
+- Carolina Pradier
+date: '2026-11-05'
+slug: champions-histories-carolina-pradier
 tags:
 - packages
 - champions program
 - community
 - interviews
 - champions-stories
-description: Stories of Champions Series. Our first story is that of Carolina Pradier, main maintainer of the eph package. We review her participation in the program and the impact of her work in different organizations and communities.
+- anniversary
+description: This story is that of Carolina Pradier, main maintainer of the eph package. We review her participation in the Champions program and the impact of her work in different organizations and communities.
 params:
   doi: 10.59350/f7jvs-8js04 
 ---
-This is our first story in our interview series **Stories of Champions**, where we introduce you to different Champions and the impact they have. Our first Champion is [Carolina Pradier](/es/author/carolina-pradier/), main maintainer of the eph package.
+
+We started this article as an interview series with Champions from our program, and we decided to publish for our 15th anniversary series. This is the interview with [Carolina Pradier](/es/author/carolina-pradier/), main maintainer of the [eph package](https://docs.ropensci.org/eph/).
 
 [Carolina Pradier](/author/carolina-pradier/) has long worked to make the world a more equitable place. Her doctoral research focused on inequalities in science with a focus on the mechanisms that structure gender inequality in the Latin American scientific community. She is also part of [Ecofeminita](https://ecofeminita.com/) (Asociación Civil Economía Feminista), an interdisciplinary organization created and led by women.
 Carolina has a degree in Economics from the University of Buenos Aires and a holds a Master's degree in Social Sciences of Work from the Faculty of Social Sciences of the University of Buenos Aires. She is a PhD candidate in Information Science from the University of Montreal and teaches at post-secondary institutions.
@@ -45,7 +49,8 @@ During the program, Carolina developed different events to help disseminate her 
 > One of my main motivations is to bring new tools to the communities of social scientists in which I actively participate in order to strengthen our capacities to transform reality."
 
 It was with this goal that Carolina [organized an event in Spanish](https://vimeo.com/899372049) with news and ideas for the use of the eph package. This achieved a double objective: sharing content about R packages in Spanish and bringing more people closer to the R and open science community.
-Carolina also participated in a [Community Call on the rOpenSci Champions Program.](/commcalls/july2023-championprogram/) where she shared her experiences alongside mentor [Beatriz Milz](/es/author/beatriz-milz/) and cohort partner, [Victor Ordu](/author/victor-ordu/).
+
+Carolina also participated in a [Community Call on the rOpenSci Champions Program](/commcalls/july2023-championprogram/) where she shared her experiences as a champion, co-hosted a co-working session about [Building your first R package](/events/coworking-2024-08/), and joined as a [mentor for the cohort 2025-2026](/blog/2025/06/05/mentors-2025/) of the Champions Program.
 
 ## Perfecting a job well done
 
@@ -59,16 +64,18 @@ The [rOpenSci peer review process](https://github.com/ropensci/software-review/i
 
 {{< figure src = "revision.png" alt = "Comment on the eph review issue: First of all, congratulations on the package. It is an extremely useful package for the community and one of the most important for those working in public policy. It is also an example for other government agencies of how data can be made available to serve the community. It is also a nice example of how a project can be improved over time and not only sustains itself but is permanently growing." caption = "Open, transparent and friendly commentary on the rOpenSci peer review of the eph package.">}}
 
-## Open science
+## Open Science
 
-The package is a tool for academic research, journalism and evidence-based public policy formulation. The champions program allowed us to add quality, improve the software and add different points of view through peer and expert review.
+The eph package is a tool for academic research, journalism and evidence-based public policy formulation. The Champions Program allowed Carolina to improve the software using different points of view from peer and expert review.
 
-Carolina is part of the civil association EcoFeminita where the Ecofemidata team provides data on gender inequality with indicators, statistics, and reproducible thematic reports based on the package. Among other uses, the Ecofemidata team maintains an app that analyzes the labor market, income, time use, and domestic work.
-Once again it was able to meet another of the objectives set at the beginning of the rOpenSci program:
+Beyond improving the package itself, one of Carolina's goals was to help increase the impact of her community's work:
 
 > I am particularly excited about the prospect of participating in a program aimed at making the R community more inclusive. in addition, I feel that this experience would be a great opportunity as it would allow me to meet and work with highly skilled professionals whose work I deeply admire. Not only am I interested in learning from their experience, but I also believe that building these networks can help increase the impact of my community's efforts and access new sources of support."
 
-The package further inspired other programmers, data scientists, and people from different disciplines to develop in Python the [PyEPH library](https://pyeph.readthedocs.io/es/latest/) library, which has a similar purpose to the epa package in R, but to be used and supported by people in the Python data community.
+Some existing uses of eph show the kind of impact Carolina hopes the package can have. At EcoFeminita, the civil association Carolina is part of, the Ecofemidata team uses eph to provide data on gender inequality through indicators, statistics, and reproducible thematic reports. Among other uses, the team maintains an app that analyzes the labor market, income, time use, and domestic work.
+
+The package has also inspired programmers, data scientists, and people from other disciplines to develop the [PyEPH library](https://pyeph.readthedocs.io/es/latest/), which has a similar purpose to the eph package in R but is used and supported by people in the Python data community. As eph keeps improving and the network around it grows, Carolina hopes to see more experiences like these.
+
 
 ## Beyond learning: building with a community
 
@@ -76,10 +83,7 @@ Carolina Pradier was able to improve her R skills, acquire new skills, and offer
 
 > I always had someone to talk to to help me solve problems; it was never a frustrating process."
 
-Carolina also added:
+Carolina is now handing over maintenance of eph to a new maintainer, as a natural process of a package that people use, with a community around it.
 
-> I think the team is very well organized to help you. During the training I got a lot of information on how to solve the problems that I could encounter".
-
-Shared knowledge allows us to anticipate, help and include. The more experiences like Carolina Pradier's there are, the more shared and *open* open science there will be.
-
+Shared knowledge allows us to anticipate, help and include. The more experiences like Carolina Pradier's there are, the more shared and open open science there will be.
 
