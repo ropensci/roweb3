@@ -54,7 +54,7 @@ Carolina continues participating in rOpenSci hosting co-working sessions about [
 The [eph](https://github.com/ropensci/eph/) package processes data from the Permanent Household Survey ([INDEC](https://www.indec.gob.ar)) in Argentina to replicate or conduct independent analyses from those published in the reports prepared by the government agency. It also allows the analysis of different categories and indicators not provided in the official reports.
 Carolina explained that throughout the program they managed to improve the package:
 
-> "We tried to improve the quality of the code (reliability and efficiency), we improved the documentation and created new functions.
+> We improved the quality of the code in terms of reliability and efficiency, the documentation, and created new functions."
 
 They also worked hard to translate the documentation and make it more accessible to Spanish-speaking users.
 The [rOpenSci peer review process](https://github.com/ropensci/software-review/issues/593#issuecomment-1709968472) showed how a rigorous approach can also be welcoming and kind.
