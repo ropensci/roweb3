@@ -48,6 +48,7 @@ It was with this goal that Carolina [organized an event in Spanish](https://vime
 Carolina also participated in a [Community Call on the rOpenSci Champions Program](/commcalls/july2023-championprogram/) where she shared her experiences as a champion, co-hosted a co-working session about [Building your first R package](/events/coworking-2024-08/), and joined as a mentor for the cohort 2025-2026 of the Champions Program.
 
 Carolina continues participating in rOpenSci hosting co-working sessions about [Building your first R package](/events/coworking-2024-08/) and as a mentor for the cohort 2025-2026 of the Champions Program.
+
 ## Perfecting a job well done
 
 The [eph](https://github.com/ropensci/eph/) package processes data from the Permanent Household Survey ([INDEC](https://www.indec.gob.ar)) in Argentina to replicate or conduct independent analyses from those published in the reports prepared by the government agency. It also allows the analysis of different categories and indicators not provided in the official reports.
