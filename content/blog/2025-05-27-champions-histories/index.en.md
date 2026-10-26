@@ -47,6 +47,7 @@ During the program, Carolina developed different events to help disseminate her 
 It was with this goal that Carolina [organized an event in Spanish](https://vimeo.com/899372049) with news and ideas for the use of the eph package. This achieved a double objective: sharing content about R packages in Spanish and bringing more people closer to the R and open science community.
 Carolina also participated in a [Community Call on the rOpenSci Champions Program.](/commcalls/july2023-championprogram/) where she shared her experiences alongside mentor [Beatriz Milz](/es/author/beatriz-milz/) and cohort partner, [Victor Ordu](/author/victor-ordu/).
 
+Carolina continues participating in rOpenSci hosting co-working sessions about [Building your first R package](/events/coworking-2024-08/) and as a mentor for the cohort 2025-2026 of the Champions Program.
 ## Perfecting a job well done
 
 The [eph](https://github.com/ropensci/eph/) package processes data from the Permanent Household Survey ([INDEC](https://www.indec.gob.ar)) in Argentina to replicate or conduct independent analyses from those published in the reports prepared by the government agency. It also allows the analysis of different categories and indicators not provided in the official reports.
