@@ -45,7 +45,7 @@ During the program, Carolina developed different events to help disseminate her 
 > One of my main motivations is to bring new tools to the communities of social scientists in which I actively participate in order to strengthen our capacities to transform reality."
 
 It was with this goal that Carolina [organized an event in Spanish](https://vimeo.com/899372049) with news and ideas for the use of the eph package. This achieved a double objective: sharing content about R packages in Spanish and bringing more people closer to the R and open science community.
-Carolina also participated in a [Community Call on the rOpenSci Champions Program.](/commcalls/july2023-championprogram/) where she shared her experiences alongside mentor [Beatriz Milz](/es/author/beatriz-milz/) and cohort partner, [Victor Ordu](/author/victor-ordu/).
+Carolina also participated in a [Community Call on the rOpenSci Champions Program](/commcalls/july2023-championprogram/) where she shared her experiences as a champion, co-hosted a co-working session about [Building your first R package](/events/coworking-2024-08/), and joined as a mentor for the cohort 2025-2026 of the Champions Program.
 
 Carolina continues participating in rOpenSci hosting co-working sessions about [Building your first R package](/events/coworking-2024-08/) and as a mentor for the cohort 2025-2026 of the Champions Program.
 ## Perfecting a job well done
