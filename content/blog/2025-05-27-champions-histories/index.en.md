@@ -17,7 +17,7 @@ description: This story is that of Carolina Pradier, main maintainer of the eph 
 params:
   doi: 10.59350/f7jvs-8js04 
 ---
-This is our first story in our interview series **Stories of Champions**, where we introduce you to different Champions and the impact they have. Our first Champion is [Carolina Pradier](/es/author/carolina-pradier/), main maintainer of the eph package.
+We started this article as an interview series with Champions from our program, and we decided to publish for our 15th anniversary series. This is the interview with [Carolina Pradier](/es/author/carolina-pradier/), main maintainer of the [eph package](https://docs.ropensci.org/eph/).
 
 [Carolina Pradier](/author/carolina-pradier/) has long worked to make the world a more equitable place. Her doctoral research focused on inequalities in science with a focus on the mechanisms that structure gender inequality in the Latin American scientific community. She is also part of [Ecofeminita](https://ecofeminita.com/) (Asociación Civil Economía Feminista), an interdisciplinary organization created and led by women.
 Carolina has a degree in Economics from the University of Buenos Aires and a holds a Master's degree in Social Sciences of Work from the Faculty of Social Sciences of the University of Buenos Aires. She is a PhD candidate in Information Science from the University of Montreal and teaches at post-secondary institutions.
