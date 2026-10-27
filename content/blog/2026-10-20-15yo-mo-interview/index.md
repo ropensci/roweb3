@@ -40,14 +40,13 @@ I remember in particular when you asked me if I would consider being a Championâ
 {{< figure src="positconf.jpeg" alt="Mo in a stage delivering a talk about R-Universe. In the screen a galaxy picture with the rOpenSci and R-Universe logo" caption="Mo delivering her talk about R-Universe at posit::conf" >}}
 
 </div>
-</div>
-
-<div class="row">
 <div class="col-md-6">
 
 {{< figure src="starofruniverse.png" alt="Interview with Mo about how she use R-Universe" caption="Interview with Mo for the series Star of R-Universe" >}}
 
 </div>
+</div>
+
 
 
 ## Of all the ways you've participated, is there one that feels like "the" rOpenSci experience for you? the one you'd point to first?  
@@ -57,6 +56,20 @@ I actually think the Slack is the pinnacle of how it is to be part of the commun
 ## Across all these different roles, has your sense of what rOpenSci *is*, or what it's for, changed over time?  
 
 Thatâ€™s a hard one. I feel like it's been quite stable over the years I have participated, but there have likely been subtle changes over time that are hard to put a pin in. 
+
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="authorprofile.png" alt="Mo's author profile at rOpenSci website, showing a list of blog post and interviews she contributed" caption="Mo's author profile at rOpenSci website" >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="ggsegverse.png" alt="ggsegverse R-Universe, showing packages, contributors and Mo as primary author of the ggseg package" caption="ggsegverse R-Universe" >}}
+
+</div>
+</div>
+
 
 ## Was there ever a moment you felt surprised by how much you'd ended up doing, or by where it led?  
 
