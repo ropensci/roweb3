@@ -34,7 +34,7 @@ Seeing this in the slack, has lowered any barrier I had for asking _“stupid”
 I’ve also felt very humble in how some interactions have altered my own perception of myself as an Research Software Engineer (RSE).
 I remember in particular when you asked me if I would consider being a Champion’s mentor, and being so humbled. I had actually considered applying as a Champion, but didn’t have the time to set aside for it at that moment. Being asked to be a mentor instead made me shift my own understanding of my expertise level. 
 
-</div>
+<div class="row">
 <div class="col-md-6">
 
 {{< figure src="positconf.jpeg" alt="Mo in a stage delivering a talk about R-Universe. In the screen a galaxy picture with the rOpenSci and R-Universe logo" caption="Mo delivering her talk about R-Universe at posit::conf" >}}
@@ -69,7 +69,7 @@ It’s all been invaluable for my own development.
 
 ## How does participate in rOpenSci activities compare to other ways you've been involved in open source more broadly?  
 
-I’m not someone who has contributed a lot to open source in general. I’m pretty much in my lane with rOpenSci, RLadies+ and [The Carpentries](https://carpentries.org), three organizations I feel all emulate pretty much the same core values in how to treat contributors. 
+I’m not someone who has contributed a lot to open source in general. I’m pretty much in my lane with rOpenSci, [RLadies+](https://rladies.org) and [The Carpentries](https://carpentries.org), three organizations I feel all emulate pretty much the same core values in how to treat contributors. 
 This has given me the confidence to participate openly and without fear, and has also given me strength when I’ve got some less than courteous responses in other places. 
 
 ## What does rOpenSci mean to you at this point, fifteen years in?  
