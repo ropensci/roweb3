@@ -1,6 +1,6 @@
 ---
 slug: celebrating-ropensci
-title: "Kindness, Curiosity, and Cat: A rOpenSci 15th Anniversary Interview with Mo"
+title: "Kindness, Curiosity, and Kitties: A rOpenSci 15th Anniversary Interview with Mo"
 author:
     - Athanasia Mo Mowinckel
     - Yanina Bellini Saibene
@@ -52,6 +52,13 @@ I remember in particular when you asked me if I would consider being a Champion�
 
 I actually think the Slack is the pinnacle of how it is to be part of the community. Which is likely frustrating for anyone not in that slack to read. While it’s not the most active space, the activity is generally always useful and/or enjoying. It’s like a friendly bubble of R-geeks just wanting to make cool things.
 
+<div class="col-md-6">
+
+{{< figure src="catslack.png" alt="Mo's cat picture aoutside in a spot half sun/ half shade with the text Sølvi can't decide whether it's best here in the sun, or in the shade. She's swapped placed 4 times within the last 10minutes :heart_eyes_cat:'" caption="Mo message in the Slack channel `rcatpeople`" >}}
+
+</div>
+
+
 ### Across all these different roles, has your sense of what rOpenSci *is*, or what it's for, changed over time?  
 
 That’s a hard one. I feel like it's been quite stable over the years I have participated, but there have likely been subtle changes over time that are hard to put a pin in. 
@@ -85,6 +92,7 @@ I’m not someone who has contributed a lot to open source in general. I’m pre
 This has given me the confidence to participate openly and without fear, and has also given me strength when I’ve got some less than courteous responses in other places. 
 
 ### What does rOpenSci mean to you at this point, fifteen years in?  
+
 A lot. 
 As I am sure you can tell from all that I write here. 
 rOpenSci is really my second professional “home”, where I know I can get support and feedback from those willing to take the time (and even if no one has the time, one generally always gets a positive nudge to continue). 
