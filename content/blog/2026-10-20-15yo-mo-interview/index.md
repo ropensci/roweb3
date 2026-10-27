@@ -34,6 +34,22 @@ Seeing this in the slack, has lowered any barrier I had for asking _“stupid”
 I’ve also felt very humble in how some interactions have altered my own perception of myself as an Research Software Engineer (RSE).
 I remember in particular when you asked me if I would consider being a Champion’s mentor, and being so humbled. I had actually considered applying as a Champion, but didn’t have the time to set aside for it at that moment. Being asked to be a mentor instead made me shift my own understanding of my expertise level. 
 
+</div>
+<div class="col-md-6">
+
+{{< figure src="positconf.jpeg" alt="Mo in a stage delivering a talk about R-Universe. In the screen a galaxy picture with the rOpenSci and R-Universe logo" caption="Mo delivering her talk about R-Universe at posit::conf" >}}
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="starofruniverse.png" alt="Interview with Mo about how she use R-Universe" caption="Interview with Mo for the series Star of R-Universe" >}}
+
+</div>
+
+
 ## Of all the ways you've participated, is there one that feels like "the" rOpenSci experience for you? the one you'd point to first?  
 
 I actually think the Slack is the pinnacle of how it is to be part of the community. Which is likely frustrating for anyone not in that slack to read. While it’s not the most active space, the activity is generally always useful and/or enjoying. It’s like a friendly bubble of R-geeks just wanting to make cool things.
