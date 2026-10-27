@@ -5,7 +5,9 @@ author:
   - Yanina Bellini Saibene
   - Alejandra Bellini
   - Lucio Casalla  
+editor:
   - Steffi LaZerte
+interviewee:
   - Rich FitzJohn
   - Rob Ashton
 date: '2023-09-15'

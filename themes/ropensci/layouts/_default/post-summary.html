@@ -19,15 +19,12 @@
       <span>
         {{ i18n "By" }}
       </span>
-      {{ partial "blogs/pretty_author_names" .Params.author }}
+      {{ partial "blogs/pretty_author_names" (dict "who" .Params.author "Site" .Site) }}
     </div>
     <ul class="post-tags">
-      {{ range .Params.tags }}
-        <li>
-          <a href="/tags/{{ . | urlize }}" class="tag">{{ . }}
-          </a>
-        </li>
-     {{ end }}
+        {{ range .Params.tags }}
+          <li><a href='{{ absLangURL "tags" }}/{{ . | urlize }}' class="tag">{{ . }}</a></li>
+        {{ end }}
     </ul>
   </div>
 </div>

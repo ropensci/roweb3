@@ -2,8 +2,7 @@
 slug: "from-scripts-to-package"
 title: From scripts to package. Developing dendroNetwork and learning with rOpenSci
 package_version: 0.5.4
-author:
-  - Ronald Visser
+author: Ronald M. Visser
 editor:
 - Steffi LaZerte
 date: 2024-06-06

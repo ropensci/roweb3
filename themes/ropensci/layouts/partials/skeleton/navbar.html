@@ -13,7 +13,7 @@
   
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     {{ range .Translations }}
-    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.LanguageName }} ({{ .Language | upper }})</a>
+    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.Label }} ({{ .Language | upper }})</a>
     {{ end }}
   </div>
   </div>
@@ -57,7 +57,7 @@
           <ul class="sub-menu">
             {{ $currentlang := .Language }}
             {{ $defaultlang := "en" }}
-            {{ $sectionpages := (where .Site.AllPages "Kind" "section") }}
+            {{ $sectionpages := (where .Site.Pages "Kind" "section") }}
             {{ range .Site.Params.projects }}
             {{ $page := ( where $sectionpages "Type" "in" . ) }}
             {{ range $page }}
@@ -101,15 +101,15 @@
           <ul class="sub-menu">
             <li>{{ partial "translate-url" (dict "name" "commcalls" "Site" .Site )}}{{ i18n "Community-calls" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "coworking" "Site" .Site )}}{{ i18n "Coworking" }}</a></li>
-            <li><a lang="en" href="/events">{{ i18n "Events" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "events" "Site" .Site )}}{{ i18n "Events" }}</a></li>
             <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
             <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">{{ i18n "Contributing-Guide" }}</a></li>
-            <li><a lang="en" href="https://discuss.ropensci.org/" class="external-link">{{ i18n "Forum" }}</a></li>
           </ul>
         </li>
         <li class="nav-item drp">
           {{ partial "translate-url" (dict "name" "resources" "Site" .Site "class" "nav-link")}}{{ i18n "Resources" }}</a>
           <ul class="sub-menu">
+            <li>{{ partial "translate-url" (dict "name" "guides" "Site" .Site )}}{{ i18n "Guides-and-Books" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "talks-papers" "Site" .Site )}}{{ i18n "Talks-Publications" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "training" "Site" .Site )}}{{ i18n "Training"}} </a></li>
             <li><a class="external-link" lang="en" href="https://docs.ropensci.org/">{{ i18n "Package-Docs" }}</a></li>

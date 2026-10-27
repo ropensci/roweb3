@@ -28,3 +28,11 @@ resources/_gen
 /layouts/shortcodes/blogdown
 /.quarto/
 translations.R
+
+**/*.quarto_ipynb
+*cache_file_state.rds
+.positai
+
+.vale-styles/*
+!.vale-styles/config/
+!.vale-styles/rOpenSci/

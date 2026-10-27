@@ -1,4 +1,4 @@
 +++
-title="Charlas, capacitaciones, publicaciones"
+title="Charlas, publicaciones"
 +++
 

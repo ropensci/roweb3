@@ -3,6 +3,7 @@ slug: precompute-vignettes
 title: How to precompute package vignettes or pkgdown articles
 date: '2019-12-08'
 author: Jeroen Ooms
+editor: Eric Scott
 topicid: 1893
 tags:
   - docs
@@ -45,11 +46,13 @@ The [jsonlite package](https://github.com/jeroen/jsonlite/tree/v1.6/vignettes) s
 
 One gotcha with this trick is that if the vignette output includes figures, you need to store the images in the vignettes folder. It is also a good idea to explicitly name your rmarkdown knitr chunks, so that the images have sensible filenames.
 
-Our recently onboarded package [eia](https://github.com/ropensci/eia/tree/master/vignettes) by Matt Leonawicz is a good example. This package provides an R client for US Energy Information Administration Open Data API. The [eia documentation](https://docs.ropensci.org/eia/articles/) gets automatically generated for each commit on the [rOpenSci docs server](https://ropensci.org/technotes/2019/06/07/ropensci-docs/), even though the code in the vignettes actually requires an API key (which the docs server does not have).
+Our recently onboarded package [eia](https://github.com/ropensci/eia/blob/95cd1e10ebda4143fd4fe24cf5836b10fa757a31/vignettes/precompile.R) by Matt Leonawicz is a good example. This package provides an R client for US Energy Information Administration Open Data API. The [eia documentation](https://docs.ropensci.org/eia/articles/) gets automatically generated for each commit on the [rOpenSci docs server](https://ropensci.org/technotes/2019/06/07/ropensci-docs/), even though the code in the vignettes actually requires an API key (which the docs server does not have).
 
 {{< figure alt="screenshot" src="W5NDdOA.png" link="https://docs.ropensci.org/ei">}}
 
-The [eia vignettes directory](https://github.com/ropensci/eia/blob/master/vignettes/) contains the `Rmd.orig` input files and the `.Rmd` files as pre-computed by the package author. Also note the vignettes directory contains a handy script [precompile.R](https://github.com/ropensci/eia/blob/master/vignettes/precompile.R) that makes it easy for the package author to refresh the output vignettes locally.
+The [eia vignettes directory](https://github.com/ropensci/eia/blob/95cd1e10ebda4143fd4fe24cf5836b10fa757a31/vignettes/) contains the `Rmd.orig` input files and the `.Rmd` files as pre-computed by the package author. Also note the vignettes directory contains a handy script [precompile.R](https://github.com/ropensci/eia/blob/95cd1e10ebda4143fd4fe24cf5836b10fa757a31/vignettes/precompile.R) that makes it easy for the package author to refresh the output vignettes locally.
+
+You could also script the moving of vignette figures to the correct place as the `jstor` package does with its [precompile.R](https://github.com/ropensci/jstor/blob/de60013deed4a129617a9ead25a642145c2190a6/vignettes/precompile.R) script.
 
 ## Don't forget to update
 

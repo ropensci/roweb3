@@ -7,7 +7,7 @@ description: "Las comunidades de práctica son espacios donde las personas compa
 location: 'LatinR, Universidad de La Republica'
 country: "Uruguay" # emoji
 slug: "latinr-ropensci-2023"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

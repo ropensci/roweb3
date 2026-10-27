@@ -43,7 +43,7 @@
   </div>
 </div>
 <!-- Users block -->
-{{ partial "whole-page-fragments/team/team-section" (dict "name" "team-staff-others" "team" (where .Site.Data.team.team "roles" "intersect" (slice "staff" "leadership team" "strategic advisor" "editor" "intern") ))  }}
+{{ partial "whole-page-fragments/team/team-section" (dict "name" "team-staff-others" "team" (where hugo.Data.team.team "roles" "intersect" (slice "staff" "leadership team" "strategic advisor" "editor" "intern") ))  }}
 
 <!-- Text block -->
 <div class="row about-block">
@@ -56,12 +56,12 @@
   </div>
 </div>
 
-{{ partial "whole-page-fragments/team/team-section" (dict "name" "advisors" "team" (where .Site.Data.team.team "roles" "intersect" (slice "advisor") ))  }}
+{{ partial "whole-page-fragments/team/team-section" (dict "name" "advisors" "team" (where hugo.Data.team.team "roles" "intersect" (slice "advisor") ))  }}
 
 <div class="row about-block">
   <div class="col-md-3 text-md-right">
     <h4 class="about-block__title">
-      {{ $alumni := (where .Site.Data.team.team "alumnus" true ) }}
+      {{ $alumni := (where hugo.Data.team.team "alumnus" true ) }}
       {{ i18n "Our-Alumni" }}
     </h4>
   </div>
@@ -80,7 +80,7 @@
      {{ index $rawContentSections 4 | .RenderString | markdownify }}
   </div>
 </div>
-{{ partial "whole-page-fragments/team/team-section" (dict "name" "fellows" "team" (append (where .Site.Data.team.team "roles" "intersect" (slice "fellow" ) ) (where .Site.Data.team.team "past_roles" "intersect" (slice "fellow" ) ) ) )  }}
+{{ partial "whole-page-fragments/team/team-section" (dict "name" "fellows" "team" (append (where hugo.Data.team.team "roles" "intersect" (slice "fellow" ) ) (where hugo.Data.team.team "past_roles" "intersect" (slice "fellow" ) ) ) )  }}
 
   </div>
 </section>

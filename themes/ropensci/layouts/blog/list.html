@@ -6,7 +6,7 @@
   <div class="container bg-cubes">
     <div class="row align-items-center blog-heading">
       <div class="col-md-9">
-        <h1>The rOpenSci Blog</h1>
+        <h1>{{ i18n "The-rOpenSci-Blog" }}</h1>
       </div>
       <div class="col-md-3">
         <ul class="blog-links text-uppercase d-flex justify-content-md-end">
@@ -28,7 +28,7 @@
     <div class="blog-categories">
       <h2 class="title">Highlights</h2>
       <div class="row blog-categories-cards">
-        {{ range .Site.Data.blog.highlights }}
+        {{ range hugo.Data.blog.highlights }}
         <div class="col-md-4">
           <a href="{{ .href }}" class="card is-primary no-bg">
             <div class="card-body">

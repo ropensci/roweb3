@@ -63,11 +63,11 @@ Find out more in our [call for applications](/blog/2025/03/10/champeons-latin-am
 
 ### rOpenSci in the News
 
-Our community manager Yanina Bellini Saibene was also interviewed in _Nature_, for the article ["Which programming language should I use? A guide for early-career researchers"](https://archive.ph/cvGwW)
+Our community manager Yanina Bellini Saibene was also interviewed in _Nature_, for the article ["Which programming language should I use? A guide for early-career researchers"](https://www.nature.com/articles/d41586-025-01241-6)
 
 > "The user community is also a key consideration --- Saibene says that's one of the things she loves most about R. The language's large, welcoming and engaged user community means that tools are developed and updated frequently; that local user groups exist around the world; and that tutorials and other resources are available in many spoken languages, including her native Spanish."
 
-Our executive director Noam Ross was interviewed for the _Nature_ article ["Stay safe from online hate with these five tips"](https://archive.ph/pIZpx). For more on this topic, we recommend this 2021 paper by Danielle Smalls and Greg Wilson: ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563).
+Our executive director Noam Ross was interviewed for the _Nature_ article ["Stay safe from online hate with these five tips"](https://www.nature.com/articles/d41586-025-00681-4). For more on this topic, we recommend this 2021 paper by Danielle Smalls and Greg Wilson: ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563).
 
 
 ### More Languages, More Access: Discover rOpenSci in Spanish

@@ -1,10 +1,12 @@
 ---
 title: "Conociendo a las estrellas del universo R: comunidad R, intercambiar y aprender"
+editor: 
+- Steffi LaZerte
 author: 
 - Yanina Bellini Saibene
 - Alejandra Bellini 
 - Lucio Casalla 
-- Steffi LaZerte
+interviewee:
 - Juan Pablo Ruiz Nicolini
 - Pablo Tiscornia
 date: '2022-11-23'

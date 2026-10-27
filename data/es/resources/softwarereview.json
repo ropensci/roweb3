@@ -34,11 +34,6 @@
    "url": "https://github.com/ropensci/software-review-meta/issues"
 },
 {
-   "title": "Debate sobre nuestras normas y procesos estadísticos",
-   "text": "Temas del foro de debate de rOpenSci relacionados con el proyecto",
-   "url": "https://discuss.ropensci.org/c/statistical-software-peer-review/28"
-},
-{
    "title": "Artículos de Blog",
    "text": "Artículos relacionados con la revisión de software",
    "url": "/tags/software-peer-review/"

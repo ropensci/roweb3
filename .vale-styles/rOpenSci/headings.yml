@@ -1,0 +1,5 @@
+extends: capitalization
+message: "Unless these are names, '%s' should be sentence case"
+level: error
+scope: heading.md
+match: $sentence

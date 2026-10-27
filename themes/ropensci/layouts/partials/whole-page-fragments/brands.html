@@ -8,7 +8,7 @@
   Happy rOpenSci users can be found at
 </p>
 <div class="brands row text-center justify-content-center align-items-center">
-  {{ range ( shuffle .Site.Data.partners.brands ) }}
+  {{ range ( shuffle hugo.Data.partners.brands ) }}
    <!-- Resize/minify -->
     {{ $path := .img | printf "%s/%s" "brands" }}
     {{ $scratch := newScratch }}

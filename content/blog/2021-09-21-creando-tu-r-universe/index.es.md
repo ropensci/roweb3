@@ -45,11 +45,9 @@ Esta funcionalidad es muy interesante para quienes somos docentes y generamos pa
 Durante esta charla, el disertante, compartió [este blog post](blog/2021/06/22/setup-runiverse/) que explica como generar tu propio universo. Aquí mi paso a paso siguiendo estas instrucciones:
 
 
-### Paso 1: crear un respositorio en tu github para tu universo R
+### Paso 1: crear un respositorio 
 
-La siguiente figura resume los pasos a seguir para crear el resposirio necesario para generar nuestro `universo-r`:
-
-{{< figure src = "r_univserse_crear_repo.png" alt = "Ventana de github para crear un repositorio nuevo con los pasos 1 a 5 que se explican en el texto debajo de esta figura marcado en la imágen." >}}
+{{< figure src = "r_univserse_crear_repo.png" alt = "" caption = "Resumen de los pasos a seguir para crear el resposirio necesario para generar nuestro `universo-r`" >}}
 
 
 a. Crea un nuevo repositorio llamado `{yourname}.r-universe.dev` en tu cuenta de GitHub. Para eso ingresas a tu cuenta de github (paso 1),
@@ -59,9 +57,9 @@ b. luego haces click en el signo más (+) que se encuentra arriba a la derecha y
 c. En la pantalla *Create new repository* completamos el *repository name (nombre del repositorio)* con **{yourname}.r-universe.dev** (paso 3), seleccionamos el repositorio como *public (público)* (paso 4) y lo generamos presionando el botón *Create repository (crear repositorio)* (paso 5).
 
 ### Paso 2. detallar los paquetes que agregaremos a nuestro universo
-Una vez que el repositorio se creó se nos mostrará una pantalla con opciones para iniciar ese repo (ver figura siguiente).
+Una vez que el repositorio se creó se nos mostrará una pantalla con opciones para iniciar ese repo.
 
-{{< figure src = "r_univserse_repo_vacio.png" alt = "página de github con las opciones: Quick setup - si ya hiciste esto antes, creá un nuevo repositorio desde la línea de comando ó push un repositorio existente desde la linea de comando. La opción creatin a new file está resaltada." >}}
+{{< figure src = "r_univserse_repo_vacio.png" alt = "" >}}
 
 a. Presionar en el link *create a new file (crear un nuevo archivo)* (paso 1) para generar un archivo llamado `packages.json`. Este archivo debe enumerar los repositorios de los paquetes que queremos incluir en nuestro `universo-r`.
 
@@ -71,18 +69,17 @@ b. Completar este archivo con los datos de los paquetes siguiendo el siguiente f
   - en el campo `package` va el nombre del paquete **tal cual está escrito** en el archivo `DESCRIPTION` que se encuentra en el repo indicado por la url.
   - Si el paquete R no se encuentra en la raíz del repositorio, también se debe establecer el campo `subdir` en la ruta del directorio raíz del paquete R.
 
-En la figura se ven los paquetes que yo agregué a mi universo.
 
-{{< figure src = "r_univserse_packages.png" alt = "JSON con los paquetes agregados y el formato explicado en el párrafo anterior." >}}
+{{< figure src="r_univserse_packages.png" alt="" caption="los paquetes que yo agregué a mi universo" >}}
 
-c. Cuando terminamos de completar los datos, presionamos en el botón _Commit new file_. Se mostrará una pantalla similar a la siguiente figura.
+c. Cuando terminamos de completar los datos, presionamos en el botón _Commit new file_. 
 
-{{< figure src = "r_univserse_repo_listo.png" alt = "repo con el archivo packages.json" >}}
+{{< figure src = "r_univserse_repo_listo.png" alt = "" >}}
 
 
 ### Paso 3: instalar la aplicación R-universe en GitHub
 
-En este paso debes instalar la aplicación R-universe en tu cuenta de GitHub haciendo click en [este link](https://github.com/apps/r-universe/installations/new) y seleccionando tu cuenta de la primera pantalla que aparece (paso 1 en la siguiente figura). 
+En este paso debes instalar la aplicación R-universe en tu cuenta de GitHub haciendo click en [este link](https://github.com/apps/r-universe/installations/new) y seleccionando tu cuenta de la primera pantalla que aparece (paso 1). 
 En la segunda pantalla se recomienda seleccionar *all the repositories (todos los repositorios)* (paso 2) y luego hacer click en el botón *Next (siguiente)* (paso 3).
 
 {{< figure src = "r_univserse_instalar_app.png" alt = "Primero la ventana ¿dónde queres instalar r-universe? con el listado de mi cuenta de github y organizaciones de las que soy parte, luego la ventana instalar en cuenta personal con la opción todos los repositorios seleccionada y el botón Siguiente resaltado.">}}
@@ -100,9 +97,7 @@ Una vez que se haya instalado la aplicación, el sistema creará automáticament
 
 Después de un par de minutos, por lo general, no más de una hora (en mi caso fueron unos 15 minutos), los paquetes y artículos de los que se hayan completado la compilación en todas las plataformas comenzarán a aparecer en tu panel personal y estarán disponibles para que los usuarios los instalen.
 
-El panel personal se parece a la siguiente figura.
-
-{{< figure src = "r_universe_panel.png" alt = "El panel personal tiene 3 columnas, el menú de la izquierda es el mismo que en la bienvenida, al medio el listado de paquetes y a la derecha mi perfil sacado de github.  Debajo de mi perfil un listado de las otras personas que mantienen los paquetes que tengo en mi r-universe." >}}
+{{< figure src = "r_universe_panel.png" alt = "" caption = "panel personal" >}}
 
 Allí se presentan tus datos del perfil de github y la información de los paquetes que agregaste a tu universo.
 
@@ -131,8 +126,8 @@ por ejemplo,
 
 `![r-universe](https://yabellini.r-universe.dev/badges/learnres)`
 
-genera la etiqueta que se ve en la siguiente figura, mostrando la versión del paquete disponible en *r-universe*:
+genera una etiqueta mostrando la versión del paquete disponible en *r-universe*:
 
-{{< figure src = "r_universe_readme.png" alt = "readme del paquete learners con la etiqueta de r-universe" >}}
+{{< figure src = "r_universe_readme.png" alt = "" >}}
 
 ¡Esto es todo!, espero que este paso a paso te ayude a generar tu propio *universo-r* con tus paquetes.

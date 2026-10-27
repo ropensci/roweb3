@@ -1,0 +1,134 @@
+---
+slug: "maintainers-month"
+title: Celebrating Our Maintainers during Maintainers Month
+author:
+  - Yanina Bellini Saibene
+date: 2026-06-19
+tags:
+  - Software Peer Review
+  - packages
+  - R
+  - community
+  - maintainers
+description: "A Look Back at our Maintainer Month 2026 social media campaign"
+editor:
+  - Steffi LaZerte
+params:
+  doi: "10.59350/8gbzt-c4951"
+---
+
+May was Open Source Software Maintainer Month. 
+Behind every R package there is at least one person who responds to issues, reviews pull requests, keeps up with dependency changes, and makes sure everything still works. 
+During Maintainer Month we wanted to celebrate rOpenSci's package maintainer community.
+
+## The social media campaign
+
+One of our commitments to our community is to amplify the people who make it work. Social media is one of the ways we do that, so we thought Maintainer Month would be a great opportunity to highlight the people behind the packages through a social media campaign.
+
+To run this campaign, we first needed permission from our maintainers to feature them. In our annual maintainer survey, we asked whether they would be interested in being featured in a public spotlight, and many said yes.
+
+We also reached out to current and past Champions from our Champions Program, which trains and supports R developers from historically underrepresented groups in the open science community.
+
+The result was a month-long series of spotlights: one maintainer at a time, each card sharing who they are, where they come from, and what they maintain.
+
+{{< figure src = "examples_post.png"  alt = "First post in Mastodon announcing the maintainer month campaign, Ronald M. Visser and Maëlle Salmon post on LinkedIn" >}}
+
+This campaign brought together 37 maintainers from 15 countries, maintaining more than 50 packages that together serve thousands of researchers and data practitioners around the world.
+
+The diversity of this group reflects the diversity of the rOpenSci community: archaeologists, bioinformaticians, ecologists, economists, statisticians, sociologists, professors, PhD students, engineers and educators.
+
+We created 39 posts on our accounts on LinkedIn and Mastodon, which is bridge to BlueSky. All the posts were shared by other people and organizations and received comments from grateful users. 
+
+
+## Meet all 37 maintainers
+
+Here is the full list of maintainers we celebrated in May.
+
+{{< figure src = "Maintainermonth.png"  alt = "All 37 maintainers' profile pictures inside hex geometrics form" >}}
+
+- **Alex Koiter** 🇨🇦 maintains [{mbquartR}](https://docs.ropensci.org/mbquartR), for working with Manitoba's quarter-section land survey system in watershed and land management research.
+
+- **Andrea Gomez Vargas** 🇨🇴🇦🇷 maintains [{ARcenso}](https://soyandrea.github.io/arcenso/), for accessing and analyzing Argentina's national census data in R. Champions project.
+
+- **Austin Koontz** 🇺🇸 maintains [{SymbiotaR2}](https://docs.ropensci.org/SymbiotaR2), an R interface to the Symbiota platform for accessing and managing biodiversity occurrence data from natural history collections.
+
+- **Bilikisu Wunmi Olatunji** 🇳🇬 maintains [{chartkickR}](https://github.com/BWOlatunji/chartkickR), an R wrapper for the Chartkick JavaScript library that makes it easy to create beautiful interactive charts and visualizations from R. Champions project.
+
+- **Carolina Pradier** 🇦🇷🇨🇦 maintains [{eph}](https://docs.ropensci.org/eph), for downloading and analyzing microdata from Argentina's Permanent Household Survey, supporting labour and socioeconomic research. Champions project.
+
+- **Daniel Vartanian** 🇧🇷 maintains [{mctq}](https://docs.ropensci.org/mctq), for processing data from the Munich Chronotype Questionnaire in sleep and chronobiology research.
+
+- **Erick Navarro Delgado** 🇨🇦🇲🇽 maintains [{RAMEN}](https://ericknavarrod.github.io/RAMEN/), for identifying associations between environmental exposures and molecular outcomes in multi-omics research.
+  Champions project.
+
+- **Erika Siregar** 🇮🇩🇬🇧 maintains [{rplaywright}](https://erikaris.github.io/rplaywright/), an R interface to Microsoft Playwright for browser automation and web testing. Champions project.
+
+- **Ezekiel Adebayo Ogundepo** 🇳🇬 maintains [{bulkreadr}](https://gbganalyst.github.io/bulkreadr/), for simplifying the bulk import of multiple files into R across a range of formats. Champions project.
+
+- **Francesca Palmeira** 🇧🇷 maintains [{pcir}](https://fblpalmeira.github.io/pcir/), for modeling species interaction data and food web structures in conservation research. Champions project.
+
+- **Guadalupe Pascal** 🇦🇷 maintains [{matildaNLP}](https://docs.ropensci.org/matildaNLP), a package with a specialized corpus of Spanish texts from the Matilda initiative to support research on gender-aware language processing and policy. Champions project.
+
+- **Haydée Svab** 🇧🇷 maintains [{odbr}](https://hsvab.github.io/odbr/), for accessing open data urban mobility from a series of cities in Brazil. Champions project.
+
+- **Jeroen Ooms** 🇳🇱 maintains [{magick}](https://docs.ropensci.org/magick), [{pdftools}](https://docs.ropensci.org/pdftools), and [{gert}](https://docs.ropensci.org/gert), packages for image processing, PDF manipulation, and Git operations in R.
+
+- **Jonathan Keane** maintains [{dittodb}](https://docs.ropensci.org/dittodb), which makes testing database-backed code easy by recording and replaying real database interactions so tests can run without a live connection.
+
+- **Julia Silge** 🇺🇸 maintains [{qualtRics}](https://docs.ropensci.org/qualtRics), for importing survey data from the Qualtrics platform directly into R.
+
+- **Karl Broman** 🇺🇸 maintains [{chromer}](https://docs.ropensci.org/chromer) and [{aRxiv}](https://docs.ropensci.org/aRxiv), for accessing chromosome data and the arXiv preprint server.
+
+- **Maëlle Salmon** 🇫🇷 maintains [{saperlipopette}](https://docs.ropensci.org/saperlipopette), [{babelquarto}](https://docs.ropensci.org/babelquarto), and [{babeldown}](https://docs.ropensci.org/babeldown), tools for learn how to use git, create multilingual Quarto documents, and support translations workflows.
+
+- **Marcelo S. Perlin** 🇧🇷 maintains [{yfR}](https://docs.ropensci.org/yfR), for importing financial data from Yahoo Finance into R.
+
+- **Marcos Prunello** 🇦🇷 maintains [{karel}](https://docs.ropensci.org/karel/), a package that brings the Karel the Robot programming environment to R, designed to teach programming concepts and computational thinking to beginners. Champions project.
+
+- **Mark Padgham** 🇩🇪 maintains [{pkgcheck}](https://docs.ropensci.org/pkgcheck), which automates software checks for packages submitted to rOpenSci peer review.
+
+- **Mauro Loprete** 🇺🇾 maintains [{metasurvey}](https://metasurveyr.github.io/metasurvey/), for processing and analyzing household survey microdata using a metadata-driven approach. Champions project.
+
+- **Micha Silver** 🇮🇱 maintains [{rOPTRAM}](https://docs.ropensci.org/rOPTRAM), implementing the OPtical TRApezoid Model for estimating soil moisture from satellite imagery.
+
+- **Moritz Hennicke** 🇧🇪 maintains [{nuts}](https://docs.ropensci.org/nuts), for working with the EU's Nomenclature of Territorial Units for Statistics, useful in regional economics and policy research.
+
+- **Pao Corrales** 🇦🇷🇦🇺 maintains [{agroclimatico}](https://docs.ropensci.org/agroclimatico), for calculating agroclimatic indices and bioclimatic variables for agricultural and environmental research. Champions project.
+
+- **Peter Desmet** 🇧🇪 maintains [{frictionless}](https://docs.ropensci.org/frictionless), for working with open data standards and publishing datasets.
+
+- **Philippe Massicotte** 🇨🇦 maintains [{rnaturalearth}](https://docs.ropensci.org/rnaturalearth), [{rnaturalearthdata}](https://docs.ropensci.org/rnaturalearthdata), and [{gitignore}](https://docs.ropensci.org/gitignore), for working with natural earth map data and project utilities.
+
+- **Sam Albers** 🇨🇦 maintains [{tidyhydat}](https://docs.ropensci.org/tidyhydat), for accessing Canadian hydrometric data in a tidy format.
+
+- **Steffi Lazerte** 🇨🇦 maintains [{weathercan}](https://docs.ropensci.org/weathercan), for downloading Canadian weather data directly from Environment and Climate Change Canada.
+
+- **Tad Dallas** 🇺🇸 maintains [{helminthR}](https://docs.ropensci.org/helminthR), for accessing the London Natural History Museum's host-parasite database.
+
+- **Ronald M. Visser** 🇳🇱 maintains [{dendroNetwork}](https://docs.ropensci.org/dendroNetwork), for creating and analyzing networks in dendrochronological research, combining archaeology and data science.
+
+- **Sehrish Kanwal** 🇦🇺 maintains [{RNAsum}](https://umccr.github.io/RNAsum/), for summarising and visualising RNA-seq data analysis results in clinical cancer genomics workflows. Champions project.
+
+- **Victor Ordu** 🇳🇬🇺🇸 maintains [{naijR}](https://docs.ropensci.org/naijR), a package of tools and utilities for working with data and maps about Nigeria. Champions project.
+
+- **Will Gearty** 🇺🇸 maintains [{rredlist}](https://docs.ropensci.org/rredlist), for accessing IUCN Red List data on threatened species.
+
+- **Will Landau** 🇺🇸 maintains [{targets}](https://docs.ropensci.org/targets), a pipeline toolkit that makes data analysis in R faster and fully reproducible by tracking dependencies and only re-running what has changed.
+
+- **Will Pearse** 🇬🇧 maintains [{suppdata}](https://docs.ropensci.org/suppdata), for downloading supplementary data files directly from published scientific articles across major journals.
+
+- **Yi-Chin Sunny Tseng** 🇨🇦🇹🇼 maintains [{bbsTaiwan}](https://sunnytseng.github.io/bbsTaiwan/), for accessing and analyzing data from Taiwan's Breeding Bird Survey. Champions project.
+
+- **Zhian Kamvar** 🇺🇸 maintains [{tinkr}](https://docs.ropensci.org/tinkr), for reading and writing Markdown documents in R as XML.
+
+
+## Thank you Maintainers!
+
+Maintaining open source software is an act of generosity. It takes time that could be spent elsewhere, and it often goes unacknowledged.
+Every bug fix, every answered issue, every new feature and update is a small gift to the people who depend on that package.
+
+We are grateful to all the rOpenSci maintainers. 
+If you use any of these packages, consider saying _thank you_.
+You can also let us know how you use these packages by [sharing your use case](https://github.com/orgs/ropensci/discussions), that we will [feature in our website](/usecases/). 
+
+Want to learn more? Explore the [rOpenSci's packages](/packages) in our website and check all the other [packages universes](https://r-universe.dev/search) in R-Universe. 

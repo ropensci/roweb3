@@ -32,6 +32,15 @@ Criteria for selecting featured posts and tech notes:
 - always one by a community member (about peer reviewed package or other); could be most-recent or most-compelling post
 - second featured post or tech note by rOpenSci team or team member about rOpenSci announcement, big collaborative post, infrastructure, package, etc. In absence of a recent compelling post this would be the most recent post or tech note by team member.
 
+### Generating a DOI
+
+```r
+install.packages("commonmetar", repos = "https://ropensci.r-universe.dev")
+commonmetar::commonmeta_doi()
+```
+
+This does not register the DOI: registration will automatically happen after publication, thanks to Rogue Scholar’s infrastructure:
+
 ### Highlighted blog "categories"
 
 For the three blue cards that are on the blog page, edit `data/blog/highlights.json`
@@ -228,10 +237,10 @@ Note that main.min.css that contains all the CSS is stored under themes/ropensci
 * Check "New Maintainer Wanted" issues.
 * Update package categories in https://github.com/ropensci/roregistry/blob/gh-pages/scripts/update_categories.R (not directly related to the newsletter but good to do monthly!).
 * Update pinned repositories of github.com/ropensci to feature new packages.
-* Check metadata of posts on Rogue Scholar for the previous month (for instance authors). https://rogue-scholar.org/blogs/ropensci
+* Check metadata of posts on Rogue Scholar for the previous month (for instance authors). https://rogue-scholar.org/communities/ropensci/records?q=&l=list&p=1&s=10&sort=newest
 * Start a new post with the newsletter archetype, use the same title "rOpenSci News Digest, MONTH YEAR" and slug "ropensci-news-digest-month-YYYY" and tag "newsletter".
 * **Make sure your branch is based on the latest commit of the default branch, re-base if needed.**
-* Source `scripts/use-cases/get_use_cases.R` to update use cases data (you need your GitHub token situation to be in order).
+* Source `scripts/generate_usecases.R` to create content pages for new use cases (you need your GitHub token situation to be in order).
 * Change the date of the last newsletter in the new post, knit it. 
   * Manually updated sections: rOpenSci HQ (issues in https://github.com/ropensci/biweekly that you should watch; look at recent/future events including comm calls; if needed poll staff), from the forum (interesting recent posts?), package development corner (poll package-maintenance channel; your recent reads), call for maintainers.
   * If a blog post was featured on the R Weekly highlights podcast, add a link to it.
@@ -265,37 +274,24 @@ Review criteria: anything looks weird? (need to fix upstream data or code?). Spe
 * If [Netlify is down](https://www.netlifystatus.com/) or [Cloudflare is down](https://www.cloudflarestatus.com/), the easiest thing is to wait.
 * Is [GitHub down](https://www.githubstatus.com/)? If so you might need to do a manual deploy on Netlify, [dragging and dropping](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop) your local roweb3 folder. 
 * Look at the Netlify logs (linked from the commit status) for information.
-* If relevant, check the YAML indentation. Try to build the website locally.
-* When a problem is an embedded tweet e.g.
+* If relevant, check the YAML indentation and quotes (quote the entire field with double quotes if it contains single quote(s) for instance). Try to build the website locally.
 
-```
-5:04:39 PM: ERROR 2021/03/29 08:04:39 Failed to get JSON resource "https://api.twitter.com/1/statuses/oembed.json?id=bla&dnt=true":
-```
-
-Look for the tweet with that ID on Twitter `http://twitter.com/user/status/bla` (Twitter will re-direct to the correct user). Was it deleted, or is the account now private? 
-
-    * If the tweet was deleted or is now private, amend the Markdown file(s) where it was embedded.
-    * If the tweet is available, try re-triggering the deploy.
-
-* Check https://www.netlifystatus.com/.
 * To trigger a new deploy
     * If you are a member of the rOpenSci team on Netlify, use the Netlify interface to re-trigger a deploy.
     * Alternatively make an empty commit `git commit -m "trigger deploy" --allow-empty` and push.
 
-* The website depends on the package registry (for packages pages, and for the search index) and on the citations JSON files that are hosted on GitHub pages. Therefore if GitHub pages is down see https://www.githubstatus.com/, the website can't be build. GitHub Pages often isn't down for long. Now if it is down for too long, 
+* The website depends on R-universe (for packages pages, and for the search index: https://ropensci.r-universe.dev/api/packages/) and on the citations JSON files that are hosted on GitHub pages. Therefore if GitHub pages is down see https://www.githubstatus.com/, the website can't be build. GitHub Pages often isn't down for long. Now if it is down for too long, 
 
-* Take https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json and https://github.com/ropensci/roregistry/blob/gh-pages/registry.json (hopefully GitHub itself isn't down) and save them in a local folder `hack`. Drag and drop this folder to create a [new site in Netlify](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
+* Take https://github.com/ropensci-org/ropensci_citations/blob/master/citations_all_parts_clean.json(hopefully GitHub itself isn't down) and save it in a local folder `hack`. Drag and drop this folder to create a [new site in Netlify](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
 In `config.toml` change
 
 ```toml
-    registry = "https://ropensci.github.io/roregistry/registry.json"
     citations = "https://ropensci-org.github.io/ropensci_citations/citations_all_parts_clean.json"
 ```
 
 to 
 
 ```toml
-    registry = "URL-TO-NETLIFY-WEBSITE/registry.json"
     citations = "URL-TO-NETLIFY-WEBSITE/citations_all_parts_clean.json"
 ```
 

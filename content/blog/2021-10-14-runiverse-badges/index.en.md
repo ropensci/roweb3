@@ -15,9 +15,9 @@ params:
 
 ## Badges in r-universe
 
-After [creating your personal universe](/blog/2021/06/22/setup-runiverse/), the dashboard on `https://{yourname}.r-universe.dev` shows the version and other details for each package in your repository. We have also added a new tab that lists the available badges for the repository.
+After [creating your personal universe](/blog/2021/06/22/setup-runiverse/), the dashboard on `https://{yourname}.r-universe.dev` shows the version and other details for each package in your repository. We have also added a new [tab](https://ropensci.r-universe.dev/ui#badges) that lists the available badges for the repository.
 
-[![screenshot of the badges tab](screenshot.png)](https://ropensci.r-universe.dev/ui#badges)
+{{< figure src="screenshot.png" alt="" link="https://ropensci.r-universe.dev/ui#badges" >}}
 
 Badges provide a nice way to display the status of your repository or individual packages within external webpages, such as a README file, your homepage, or your [personal](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) or [organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) profile README on GitHub. 
 
@@ -39,7 +39,7 @@ If the package is also on CRAN, you could position it next to a badge from [r-pk
 
 Which looks like below. Here users can immediately see from the README that the package is available from the ropensci universe, and that the version from r-universe is higher than the CRAN version.
 
-[![screenshot of the gert package showing the badge in use](gert.png)](https://github.com/r-lib/gert)
+[![README of the gert package showing the badge in use](gert.png)](https://github.com/r-lib/gert)
 
 ## Repository status badges
 
@@ -60,9 +60,9 @@ This is what the badges look like for the ropensci universe:
 ![runiverse-total](https://ropensci.r-universe.dev/badges/:total)
 ```
 
-![runiverse-name example badge](https://ropensci.r-universe.dev/badges/:name)
-![runiverse-registry example badge](https://ropensci.r-universe.dev/badges/:registry)
-![runiverse-total example badge](https://ropensci.r-universe.dev/badges/:total)
+![Name badge](https://ropensci.r-universe.dev/badges/:name)
+![Status badge](https://ropensci.r-universe.dev/badges/:registry)
+![Badge with the number of packages](https://ropensci.r-universe.dev/badges/:total)
 
 
 ## Customize the badge style

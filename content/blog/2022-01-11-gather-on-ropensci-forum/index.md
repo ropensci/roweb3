@@ -10,6 +10,7 @@ tags:
 description: "Why and how participate in the rOpenSci forum; descriptions of current categories."
 twitterImg: blog/2022/01/11/ropensci-forum/convo.jpg
 twitterAlt: "Two paper message balloons on a pink background"
+preface: Our forum is now closed. Read our [announcement](/blog/2026/02/23/forum-closing/).
 params:
   doi: "10.59350/bf1vh-b2w72"
 ---

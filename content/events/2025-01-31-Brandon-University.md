@@ -7,7 +7,7 @@ description: "Yanina Bellini Saibene presents rOpenSci and other community of pr
 location: 'online'
 country: "🌐" # emoji
 slug: "Brandon-university-2025"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

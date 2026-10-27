@@ -8,7 +8,7 @@ author:
 - Emi Tanaka
 - François Michonneau
 - Francisco Cardozo
-- Luis Verde Arregoitia
+- Luis D. Verde Arregoitia
 - Erle Holgersen
 - Marie Vendettuoli
 - Jonathan Keane

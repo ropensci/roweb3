@@ -3,7 +3,7 @@
     <div class="post-date mb-0">{{ .Date | time.Format ":date_full" }}</div>
     <div class="post-authors mt-0 mb-2">
       <span>{{ i18n "By" }}</span>
-      {{ partial "blogs/pretty_author_names" .Params.author }}
+      {{ partial "blogs/pretty_author_names" (dict "who" .Params.author "Site" .Site )}}
     </div>
   </div>
   <div class="col-md-9">

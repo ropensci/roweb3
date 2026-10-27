@@ -17,5 +17,5 @@ R-universe allows users and developers of R packages to:
 
 * **Develop**: R-universe provides a zero config development environment for continuous integration (identify upcoming breakage before the release), experimental R features, new platforms such as WebAssembly, etc.
 
-We are grateful to acknowledge financial support that R-universe has received from the [R-consortium](/blog/2024/12/03/r-universe-r-consortium-tlp/), [Moore Foundation](/blog/2019/11/06/scientific-package-ecosystem/) and [Google Season of Docs](/blog/2024/04/12/gsod-announcement/).
+We are grateful to acknowledge financial support that R-universe has received from the [R-consortium](https://ropensci.org/blog/2024/12/03/r-universe-r-consortium-tlp/), [Moore Foundation](https://ropensci.org/blog/2019/11/06/scientific-package-ecosystem/) and [Google Season of Docs](https://ropensci.org/blog/2024/04/12/gsod-announcement/).
 

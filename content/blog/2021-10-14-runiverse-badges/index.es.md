@@ -16,9 +16,9 @@ params:
 
 ## Insignias en R-Universe
 
-Después de [crear tu universo personal](/blog/2021/06/22/setup-runiverse/) el panel de control en `https://{yourname}.r-universe.dev` muestra la versión y otros detalles de cada paquete de tu repositorio. También hemos añadido una nueva pestaña que muestra las insignias disponibles para el repositorio.
+Después de [crear tu universo personal](/blog/2021/06/22/setup-runiverse/) el panel de control en `https://{yourname}.r-universe.dev` muestra la versión y otros detalles de cada paquete de tu repositorio. También hemos añadido una nueva [pestaña](https://ropensci.r-universe.dev/ui#badges) que muestra las insignias disponibles para el repositorio con sus URLs.
 
-[![captura de pantalla de la pestaña insignias](screenshot.png)](https://ropensci.r-universe.dev/ui#badges)
+{{< figure src="screenshot.png" alt="" link="https://ropensci.r-universe.dev/ui#badges" >}}
 
 Las insignias son una buena forma de mostrar el estado de tu repositorio o de paquetes individuales en páginas web externas, como un archivo LÉAME, tu página de inicio o tus [personal](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) u [organización](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) LÉEME del perfil en GitHub.
 
@@ -38,7 +38,7 @@ Si el paquete también está en CRAN, podrías colocarlo junto a una insignia de
 
 Que tiene el siguiente aspecto. Aquí los usuarios pueden ver inmediatamente en el README que el paquete está disponible en el universo rOpenSci, y que la versión de R-Universe es superior a la versión de CRAN.
 
-[![captura de pantalla del paquete gert mostrando la placa en uso](gert.png)](https://github.com/r-lib/gert)
+[![README del paquete gert mostrando la placa en uso](gert.png)](https://github.com/r-lib/gert)
 
 ## Insignias de estado del repositorio
 
@@ -58,9 +58,9 @@ Este es el aspecto de las insignias para el universo rOpenSci:
 ![runiverse-total](https://ropensci.r-universe.dev/badges/:total)
 ```
 
-![runiverso-nombre ejemplo de insignia](https://ropensci.r-universe.dev/badges/:name)
-![ejemplo de insignia runiverse-registry](https://ropensci.r-universe.dev/badges/:registry)
-![ejemplo de insignia runiverse-total](https://ropensci.r-universe.dev/badges/:total)
+![Insignia de nombre](https://ropensci.r-universe.dev/badges/:name)
+![Insignia de estado de la construcción](https://ropensci.r-universe.dev/badges/:registry)
+![Insignia de número de paquetes](https://ropensci.r-universe.dev/badges/:total)
 
 ## Personaliza el estilo de la insignia
 

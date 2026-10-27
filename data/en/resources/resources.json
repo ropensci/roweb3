@@ -2,105 +2,150 @@
 {
    "title": "Contributing Guide",
    "text": "The purpose of this guide is to welcome you to rOpenSci and help you recognize yourself as a potential contributor.",
-   "url": "https://contributing.ropensci.org"
+   "url": "https://contributing.ropensci.org",
+   "type": "guides-books"
 },
 {
    "title": "Packages",
    "text": "Software helping work with local and remote scientific data sources.",
-   "url": "/packages"
+   "url": "/packages",
+   "type": "packages-peer-review"
 },
 {
    "title": "Package Use Cases",
    "text": "Practical illustrations of our software in action",
-   "url": "/usecases/"
+   "url": "/usecases/",
+   "type": "packages-peer-review"
 },
 {
    "title": "Developer Guide",
    "text": "Our best practice guide for R package development and peer-review.",
-   "url": "https://devguide.ropensci.org"
+   "url": "https://devguide.ropensci.org",
+   "type": "guides-books"
+},
+{
+   "title": "Statistical Developer Guide",
+   "text": "Our best practice guide for statistical R package development and peer-review.",
+   "url": "https://stats-devguide.ropensci.org/",
+   "type": "guides-books"
+},
+{
+   "title": "Champions Program Mentor Guidelines",
+   "text": "rOpenSci Champions Program. Mentorship Training and Orientation",
+   "url": "https://mentors.ropensci.org/",
+   "type": "guides-books"
+},
+{
+   "title": "Guide for First-time Contributor to FOSS events",
+   "text": "Community-Driven Open Source: Enabling First-Time Contributors to Open Source Projects",
+   "url": "https://ftc-guide.ropensci.org/",
+   "type": "guides-books"
 },
 {
    "title": "Software Peer Review",
    "text": "About our system for R package peer review.",
-   "url": "/software-review"
-},
-{
-   "title": "Forum",
-   "text": " Ask and answer questions about our packages or resources; report use cases.",
-   "url": "https://discuss.ropensci.org"
+   "url": "/software-review",
+   "type": "packages-peer-review"
 },
 {
    "title": "Archive",
    "text": "All our blog posts, community calls and tech notes in one place.",
-   "url": "/archive"
+   "url": "/archive",
+   "type": "communication-outreach"
 },
 {
    "title": "Community Call Archive",
    "text": "All recordings from previous webinars.",
-   "url": "/commcalls/"
+   "url": "/commcalls/",
+   "type": "communication-outreach"
+},
+{
+   "title": "Coworking Sessions Archive",
+   "text": "All previous coworking sessions.",
+   "url": "/coworking",
+   "type": "communication-outreach"
 },
 {
    "title": "Newsletter",
    "text": "A regular digest of recent rOpenSci activities and updates.",
-   "url": "/news"
+   "url": "/news",
+   "type": "communication-outreach"
 },
 {
    "title": "Books",
-   "text": "E-books about our tooling",
-   "url": "https://books.ropensci.org"
+   "text": "E-books about rOpenSci R packages, general R development practices and other tooling",
+   "url": "https://books.ropensci.org",
+   "type": "guides-books"
 },
 {
    "title": "Talks, Training and Publications",
    "text": "External communications about our work and teaching",
-   "url": "https://ropensci.org/talks-papers/"
+   "url": "https://ropensci.org/talks-papers/",
+   "type": "communication-outreach"
 },
 {
    "title": "Our Blogging Guide",
    "text": "Guide for authors and editors of blog posts and tech notes for the rOpenSci website.",
-   "url": "https://blogguide.ropensci.org/"
+   "url": "https://blogguide.ropensci.org/",
+   "type": "guides-books"
 },
 {
-   "title": "ropensci GitHub Organization",
+   "title": "ropensci",
    "text": "Mature R packages contributed by rOpenSci staff or peer-reviewed packages.",
-   "url": "https://github.com/ropensci"
+   "url": "https://github.com/ropensci",
+   "type": "github"
 },
 {
-   "title": "ropenscilabs GitHub Organization",
+   "title": "ropenscilabs",
    "text": "Incubator projects.",
-   "url": "https://github.com/ropenscilabs"
+   "url": "https://github.com/ropenscilabs",
+   "type": "github"
 },
 {
-   "title": "ropensci-review-tools GitHub Organization",
+   "title": "ropensci-review-tools",
    "text": "Tooling (packages) for software review.",
-   "url": "https://github.com/ropensci-review-tools"
+   "url": "https://github.com/ropensci-review-tools",
+   "type": "github"
 },
 {
-   "title": "ropensci-books GitHub Organization",
+   "title": "ropensci-books",
    "text": "Books about rOpenSci packages or maintained by rOpenSci.",
-   "url": "https://github.com/ropensci-books"
+   "url": "https://github.com/ropensci-books",
+   "type": "github"
 },
 {
-   "title": "ropensci-training GitHub Organization",
+   "title": "ropensci-training",
    "text": "Mostly legacy training materials.",
-   "url": "https://github.com/ropensci-training"
+   "url": "https://github.com/ropensci-training",
+   "type": "github"
 },
 {
-   "title": "ropensci-org GitHub Organization",
+   "title": "ropensci-org",
    "text": "Miscellaneous organization tooling.",
-   "url": "https://github.com/ropensci-org"
+   "url": "https://github.com/ropensci-org",
+   "type": "github"
 },
 {
-   "title": "r-universe GitHub Organization",
+   "title": "r-universe",
    "text": "R-universe infrastructure.",
-   "url": "https://github.com/r-universe-org"
+   "url": "https://github.com/r-universe-org",
+   "type": "github"
 },
 {
-   "title": "ropensci-archive GitHub Organization",
+   "title": "ropensci-archive",
    "text": "Abandoned projects.",
-   "url": "https://github.com/ropensci-archive"
+   "url": "https://github.com/ropensci-archive",
+   "type": "github"
 },
 {
-   "title": "ropensci-docs GitHub Organization",
+   "title": "ropensci-docs",
    "text": "Documentation of rOpenSci packages, automatically updated.",
-   "url": "https://github.com/ropensci-docs"
+   "url": "https://github.com/ropensci-docs",
+   "type": "github"
+},
+{
+   "title": "rOpenSci Localization and Translation Guidelines",
+   "text": "Why and how we localize and translate our resources.",
+   "url": "https://translationguide.ropensci.org/",
+   "type": "guides-books"
 }]

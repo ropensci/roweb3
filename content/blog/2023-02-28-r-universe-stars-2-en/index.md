@@ -2,10 +2,12 @@
 title: "Meeting the Stars of the R-universe: ThinkR's Approach to Contributing to a Growing and Friendly R Community"
 author:
   - Yanina Bellini Saibene
-  - Sébastien Rochette
   - Alejandra Bellini
   - Lucio Casalla  
+editor:
   - Steffi LaZerte
+interviewee:
+- Sébastien Rochette
 date: '2023-02-28'
 tags:
   - community

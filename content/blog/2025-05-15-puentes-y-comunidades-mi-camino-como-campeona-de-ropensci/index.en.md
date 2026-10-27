@@ -29,7 +29,7 @@ From the beginning, my goal was to develop a package in R that would allow struc
 
 During the program, I worked on the organization and standardization of the data, facing challenges such as the structuring of the information (tidy data) and the creation of efficient functions for its manipulation. One of the most enriching aspects of the program were the training sessions provided by rOpenSci (special thanks to [Maëlle](/author/maëlle-salmon/) and [Yani](/author/yanina-bellini-saibene/) for all the patience and learning), and the continuous discussion of projects with the other Champions in the program.
 
-We participated in virtual trainings on (among other topics) code management, use of efficient packages for the creation of R packages, and automation with GitHub Actions, all with a focus on best practices. In addition, I had the opportunity to benefit from the personalized mentoring of [Luis Verde](/author/luis-verde-arregoitia/) a friend of the LatinR community, who accompanied me throughout the package development process, providing key guidance at each stage.
+We participated in virtual trainings on (among other topics) code management, use of efficient packages for the creation of R packages, and automation with GitHub Actions, all with a focus on best practices. In addition, I had the opportunity to benefit from the personalized mentoring of [Luis Verde](/author/luis-d.-verde-arregoitia/) a friend of the LatinR community, who accompanied me throughout the package development process, providing key guidance at each stage.
 
 ## Expectation vs. reality
 
