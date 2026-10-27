@@ -1,5 +1,5 @@
 ---
-title: Carolina Pradier, champion in learning to teach.
+title: Carolina Pradier, rOpenSci champion and mentor
 author:
 - Yanina Bellini Saibene
 - Alejandra Bellini
