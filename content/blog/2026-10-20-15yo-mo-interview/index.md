@@ -50,7 +50,10 @@ I remember in particular when you asked me if [I would consider being a Champion
 
 ### Of all the ways you've participated, is there one that feels like "the" rOpenSci experience for you? the one you'd point to first?  
 
-I actually think the Slack is the pinnacle of how it is to be part of the community. Which is likely frustrating for anyone not in that slack to read. While it’s not the most active space, the activity is generally always useful and/or enjoying. It’s like a friendly bubble of R-geeks just wanting to make cool things.
+I actually think the Slack is the pinnacle of how it is to be part of the community. 
+Which is likely frustrating for anyone not in that slack to read. 
+While it’s not the most active space, the activity is generally always useful and/or enjoying. 
+It’s like a friendly bubble of R-geeks just wanting to make cool things.
 
 <div class="col-md-6">
 
