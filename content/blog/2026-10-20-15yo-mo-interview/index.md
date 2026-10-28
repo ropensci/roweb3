@@ -90,7 +90,7 @@ But I have gotten much more back that I have contributed, I believe.
 Not only in the obvious ways visible, like mentor training, learning more about collaborative development etc, but also in getting feedback on my funding applications and on my personal development projects. 
 It’s all been invaluable for my own development.
 
-### How does participate in rOpenSci activities compare to other ways you've been involved in open source more broadly?  
+### How does participating in rOpenSci activities compare to other ways you've been involved in open source more broadly?  
 
 I’m not someone who has contributed a lot to open source in general. I’m pretty much in my lane with rOpenSci, [RLadies+](https://rladies.org) and [The Carpentries](https://carpentries.org), three organizations I feel all emulate pretty much the same core values in how to treat contributors. 
 This has given me the confidence to participate openly and without fear, and has also given me strength when I’ve got some less than courteous responses in other places. 
