@@ -92,7 +92,8 @@ It’s all been invaluable for my own development.
 
 ### How does participating in rOpenSci activities compare to other ways you've been involved in open source more broadly?  
 
-I’m not someone who has contributed a lot to open source in general. I’m pretty much in my lane with rOpenSci, [RLadies+](https://rladies.org) and [The Carpentries](https://carpentries.org), three organizations I feel all emulate pretty much the same core values in how to treat contributors. 
+I’m not someone who has contributed a lot to open source in general. 
+I’m pretty much in my lane with rOpenSci, [RLadies+](https://rladies.org) and [The Carpentries](https://carpentries.org), three organizations I feel all emulate pretty much the same core values in how to treat contributors. 
 This has given me the confidence to participate openly and without fear, and has also given me strength when I’ve got some less than courteous responses in other places. 
 
 ### What does rOpenSci mean to you at this point, fifteen years in?  
