@@ -64,7 +64,8 @@ It’s like a friendly bubble of R-geeks just wanting to make cool things.
 
 ### Across all these different roles, has your sense of what rOpenSci *is*, or what it's for, changed over time?  
 
-That’s a hard one. I feel like it's been quite stable over the years I have participated, but there have likely been subtle changes over time that are hard to put a pin in. 
+That’s a hard one. 
+I feel like it's been quite stable over the years I have participated, but there have likely been subtle changes over time that are hard to put a pin in. 
 
 <div class="row">
 <div class="col-md-6">
