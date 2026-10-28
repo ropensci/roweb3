@@ -96,6 +96,9 @@ I’m not someone who has contributed a lot to open source in general.
 I’m pretty much in my lane with rOpenSci, [RLadies+](https://rladies.org) and [The Carpentries](https://carpentries.org), three organizations I feel all emulate pretty much the same core values in how to treat contributors. 
 This has given me the confidence to participate openly and without fear, and has also given me strength when I’ve got some less than courteous responses in other places. 
 
+But comparing it to certain Stack overflow and social media interactions I have had outside these communities, it's for sure a much more wholesome and pleasant experience. 
+Not being afraid of being seen as incompetent for asking what someone else thinks is a basic question, is so important for how a community can keep growing and thriving.
+
 ### What does rOpenSci mean to you at this point, fifteen years in?  
 
 A lot. 
