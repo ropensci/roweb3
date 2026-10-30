@@ -16,15 +16,15 @@ params:
 
 Nuestra tercera cohorte del Programa de Campeones de rOpenSci (2025-2026) ha completado su participación en el programa. 
 
-Para cerrar y celebrar los logros de este grupo de participantes organizamos una conversación abierta con la comunidad, "Más allá del código", donde las personas de la cohorte presentaron sus proyectos y compartieron lo que aprendieron. [Puedes ver la grabación y los materiales de este evento en la pagina del evento](/es/commcalls/mas-alla-del-codigo-2026/).
+Para cerrar y celebrar los logros de este grupo de participantes organizamos una conversación abierta con la comunidad: ["Más allá del código"](/es/commcalls/mas-alla-del-codigo-2026/), donde las personas de la cohorte presentaron sus proyectos y compartieron lo que aprendieron.
 
-Como ya hemos hecho con las cohortes anteriores, en este post te contamos, en un solo lugar, qué hizo cada participante.
+Como es nuestra costumbre, en este post te contamos qué hizo cada participante.
 
 ## Los proyectos en un vistazo
 
 Esta tabla resume los proyectos que fueron desarrollados exitosamente durante esta cohorte. Cada participante tuvo una mentoria individual que les acompaño durante este proceso.
 
-| Campeón/a | Proyecto | Tipo | Tema |Mentor-a|
+| Campeón-a | Proyecto | Tipo | Tema |Mentor-a|
 |---|---|---|---|---|
 | Diana García | MBCp | Paquete nuevo | Datos del Metastatic Breast Cancer Project | Geraldine Gómez|
 | Erick Navarro | RAMEN | Revisión por pares | Metilación del ADN y variantes genéticas | Paola Corrales |
