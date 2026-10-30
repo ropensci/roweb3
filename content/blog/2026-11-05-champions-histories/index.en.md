@@ -23,7 +23,7 @@ params:
 
 We started this article as an interview series with Champions from our program, and we decided to publish for our 15th anniversary series. This is the interview with [Carolina Pradier](/es/author/carolina-pradier/), main maintainer of the [eph package](https://docs.ropensci.org/eph/).
 
-[Carolina Pradier](/author/carolina-pradier/) has long worked to make the world a more equitable place. Her doctoral research focused on inequalities in science with a focus on the mechanisms that structure gender inequality in the Latin American scientific community. She is also part of [Ecofeminita](https://ecofeminita.com/) (Asociación Civil Economía Feminista), an interdisciplinary organization created and led by women.
+[Carolina Pradier](/author/carolina-pradier/) has long worked to make the world a more equitable place. Her doctoral research focused on inequalities in science with a focus on the mechanisms that structure gender inequality in the Latin American scientific community. [^thesis] She is also part of [Ecofeminita](https://ecofeminita.com/) (Asociación Civil Economía Feminista), an interdisciplinary organization created and led by women.
 Carolina has a degree in Economics from the University of Buenos Aires and a holds a Master's degree in Social Sciences of Work from the Faculty of Social Sciences of the University of Buenos Aires. She is a PhD candidate in Information Science from the University of Montreal and teaches at post-secondary institutions.
 
 As a researcher, Carolina was part of the Center for Studies on Population, Employment and Development and now works for the [UNESCO Chair on Open Science](https://www.unesco.org/en/open-science). She also is the maintainer of the [eph](https://docs.ropensci.org/eph/) R package, whose objective is to facilitate working with the Permanent Household Survey data.
@@ -87,3 +87,7 @@ Carolina is now handing over maintenance of eph to a new maintainer, as a natura
 
 Shared knowledge allows us to anticipate, help and include. The more experiences like Carolina Pradier's there are, the more shared and open open science there will be.
 
+[^thesis]: Three of the papers from Carolina's doctoral thesis have already been published:
+    [Science for whom? The influence of the regional academic circuit on gender inequalities in Latin America](https://doi.org/10.1002/asi.24972) (*JASIST*, 2025);
+    [How multilingual is scholarly communication? Mapping the global distribution of languages in publications and citations](https://doi.org/10.1002/asi.70055) (*JASIST*, 2026);
+    and [Language hierarchies and gender inequalities: the coverage of OpenAlex and the Web of Science](https://doi.org/10.1093/reseval/rvag062) (*Research Evaluation*, 2026).
