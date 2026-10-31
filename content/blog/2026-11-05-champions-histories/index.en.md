@@ -83,7 +83,7 @@ Carolina Pradier was able to improve her R skills, acquire new skills, and offer
 
 > I always had someone to talk to to help me solve problems; it was never a frustrating process."
 
-Carolina is now handing over maintenance of eph to a new maintainer, as a natural process of a package that people use, with a community around it.
+Carolina is now handing over maintenance of eph to a new maintainer. The package is used by many people and has a community around it, which is what makes it sustainable.
 
 Shared knowledge allows us to anticipate, help and include. The more experiences like Carolina Pradier's there are, the more shared and open open science there will be.
 
