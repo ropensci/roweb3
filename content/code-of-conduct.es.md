@@ -50,9 +50,13 @@ Este Código de Conducta se aplica a todas las personas que participan en la com
 
 ### Directrices para la presentación de informes
 
-El Comité del Código de Conducta de rOpenSci incluye a [Natalia Morandeira](https://nmorandeira.netlify.app) (integrante independiente de la comunidad), [Mark Padgham](/autor/mark-padgham) (Científico de Investigación de Software de rOpenSci) y [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci).
+El Comité del Código de Conducta de rOpenSci incluye a [Natalia Morandeira](https://nmorandeira.netlify.app) (integrante independiente de la comunidad), [Maëlle Salmon](/autor/maëlle-salmon) (del equipo de rOpenSci) y [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (Community Manager de rOpenSci).
 
-Si experimentas o eres testigo de un comportamiento inaceptable, o tienes cualquier otra preocupación, [por favor, envía un informe al Comité tan pronto como sea posible utilizando este formulario](https://forms.gle/8zKztThp2yLJ6KYa6). También puede enviar un correo electrónico a `conduct@ropensci.org`, que llegará a los miembros del Comité. También puede presentar un informe directamente a un/una integrante del Comité poniéndose en contacto con esa persona directamente. Si alguna persona integrante del Comité tiene un conflicto de intereses con un informe, será recusada y no tendrá acceso al contenido o al proceso de seguimiento del informe. 
+
+Si experimentas o eres testigo de un comportamiento inaceptable, o tienes cualquier otra preocupación, [por favor, envía un informe al Comité tan pronto como sea posible utilizando este formulario](https://forms.gle/dioFnDH51yuEh9XE8).
+También puede enviar un correo electrónico a `conduct@ropensci.org`, que llegará a los miembros del Comité.
+También puede presentar un informe directamente a un/una integrante del Comité poniéndose en contacto con esa persona directamente.
+Si alguna persona integrante del Comité tiene un conflicto de intereses con un informe, será recusada y no tendrá acceso al contenido o al proceso de seguimiento del informe.
 
 En un evento presencial de rOpenSci, por favor, dirígete a cualquier persona nombrada como miembro del Comité del Código de Conducta específico de ese evento, o al personal del lugar o a la seguridad que estará presente durante el evento.
 
@@ -64,7 +68,7 @@ Agradecemos tus comentarios por correo electrónico a `conduct@ropensci.org`, y 
 
 #### Alumni
 
-Agradecemos a Scott Chamberlain, Stefanie Butland, Megan Carter y a Kara Woo sus servicios en el pasado en el comité.
+Agradecemos a Scott Chamberlain, Stefanie Butland, Megan Carter, Kara Woo y a Mark Padgham sus servicios en el pasado en el comité.
 
 
 #### Licencia y créditos

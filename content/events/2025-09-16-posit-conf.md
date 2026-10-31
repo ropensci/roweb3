@@ -7,7 +7,7 @@ description: "Noam Ross, Beatriz Milz, and Will Landau will give talks at the up
 location: 'Hyatt Regency Atlanta'
 country: "USA" # emoji
 slug: "posit-conf-2025"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

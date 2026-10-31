@@ -52,6 +52,7 @@ tags:
 #     Meeting ID: 
 #     Passcode: 
 # zoomurl: 
+ropensci: true
 ---
 
 ## Event Cancelled

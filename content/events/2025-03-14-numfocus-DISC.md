@@ -7,7 +7,7 @@ description: "Yanina Bellini Saibene, Liz Hare and Andrea Gomez Vargas participa
 location: 'São Paulo, Brazil and online'
 country: "🌐" # emoji
 slug: "DISC-unconf-2025"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

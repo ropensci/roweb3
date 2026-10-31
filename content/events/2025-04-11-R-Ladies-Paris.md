@@ -7,7 +7,7 @@ description: "Maëlle Salmon parlera de Git à R-Ladies Paris."
 location: 'online'
 country: "🌐" # emoji
 slug: "r-ladies-paris-2025"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

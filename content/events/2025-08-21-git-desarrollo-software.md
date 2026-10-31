@@ -6,8 +6,9 @@ dateEnd: '2025-08-21T21:00:00'
 date: 2025-08-21T23:59:00 # UTC!! same as dateEnd
 description: ""
 location: 'online'
+eventlang: Español
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs: 
 - HTML
 - Calendar 

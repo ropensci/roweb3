@@ -131,6 +131,7 @@ deets: |
     
     Passcode: 896415
 zoomurl: https://zoom.us/j/92298909939?pwd=MERubjdNUUw2aWp6RUFqSHllR01adz09
+ropensci: true
 ---
 See below for speaker bios and resources including collaborative notes from the call.
 

@@ -40,6 +40,7 @@ deets: |
     Meeting ID: 85719274238
     Passcode: 232428
 zoomurl: https://numfocus-org.zoom.us/j/85719274238?pwd=cEusAoY7rTfT9pgusO2grr73bZRa4V.1
+ropensci: true
 ---
 
 R-multiverse is a new dual repository for R packages, based on infrastructure from R-universe and GitHub.

@@ -7,7 +7,7 @@ description: Join us for a casual community celebration where we'll all have the
 location: 'online' # free text
 slug: 'celebrations-2026-06-10'
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar
