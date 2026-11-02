@@ -112,3 +112,5 @@ Don’t hesitate to contact and get involved.
 Start wherever you feel you can; [doing a software review as a reviewer is a nice experience](https://ropensci.org/software-review/) and a really good place to start. 
 You get to learn a little about reviewing others’ work, how to work with git and github, and communicate with other professionals. 
 It really is a very good starting point.
+
+*What a kind vision of rOpenSci! This post is part of our 15th anniversary celebration series, and we still have more to come!*
