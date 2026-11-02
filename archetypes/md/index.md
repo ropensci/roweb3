@@ -24,7 +24,9 @@ tags:
   - community
 # The description below will be used by e.g. Social preview cards
 description: "A very short summary of your post (~ 100 characters)"
-# Fill the doi using `commonmetar::commonmeta_doi()` function. Commonmetar package: https://docs.ropensci.org/commonmetar/
+# The editor will add this. If you would like add it yourself, 
+# use the quoted doi output from `commonmetar::commonmeta_doi()`.
+# Commonmetar package: https://docs.ropensci.org/commonmetar/
 params:
   doi:
 # If you have no preferred image for Social preview cards,
