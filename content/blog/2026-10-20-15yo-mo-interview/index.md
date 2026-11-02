@@ -26,7 +26,7 @@ I actually don’t recall. I think it was a natural evolution of my general care
 
 I believe I was first introduced to it through [Maëlle Salmon](/author/maëlle-salmon/), who was/is a fellow [RLadies+ global](https://rladies.org) team member. My [first interaction may have been as a software reviewer for a package](https://github.com/ropensci/software-review/issues/522), which Maëlle asked me if I was interested in doing.
 
-### Over the years, you've shown up in a lot of different ways: [R-Universe](/blog/2023/03/30/r-universe-stars-3-en/), the [Champions Program](/champions/), an active participant on the Slack, a [contributor in our core packages](/blog/2026/06/01/goodpractice/). Looking back, how would you describe the arc of your involvement?  
+**Over the years, you've shown up in a lot of different ways: [R-Universe](/blog/2023/03/30/r-universe-stars-3-en/), the [Champions Program](/champions/), an active participant on the Slack, and a [contributor to our core packages](/blog/2026/06/01/goodpractice/). Looking back, how would you describe the arc of your involvement?**
 
 It’s been such an easy community to be involved in. 
 I’ve felt that every suggestion, discussion, and help request has been met with kindness, collegiality and with a true sense of people wanting to share their knowledge. 
