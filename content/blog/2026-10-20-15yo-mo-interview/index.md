@@ -31,7 +31,7 @@ I believe I was first introduced to it through [Maëlle Salmon](/author/maëlle-
 
 It’s been such an easy community to be involved in. 
 I’ve felt that every suggestion, discussion, and help request has been met with kindness, collegiality and with a true sense of people wanting to share their knowledge. 
-Seeing this in the slack, has lowered any barrier I had for asking _“stupid”_ questions, and always felt like any contribution has been genuinely valued. 
+Seeing this [atmosphere] in the Slack has lowered any barrier I had for asking _“stupid”_ questions, and always felt like any contribution has been genuinely valued. 
 I’ve also felt very humble in how some interactions have altered my own perception of myself as an Research Software Engineer (RSE).
 I remember in particular when you asked me if [I would consider being a Champion’s mentor](/blog/2023/05/05/ropensci-champions-program-teams-meet-carolina-pradier-and-athanasia-monika-mowinckel/), and being so humbled. I had actually considered applying as a Champion, but didn’t have the time to set aside for it at that moment. Being asked to be a mentor instead made me shift my own understanding of my expertise level. 
 
@@ -43,7 +43,7 @@ I remember in particular when you asked me if [I would consider being a Champion
 </div>
 <div class="col-md-6">
 
-{{< figure src="starofruniverse.png" alt="Interview with Mo about how she use R-Universe" caption="Interview with Mo for the series Star of R-Universe" >}}
+{{< figure src="starofruniverse.png" alt="Interview with Mo about how she uses R-Universe" caption="Interview with Mo for the series Star of R-Universe" >}}
 
 </div>
 </div>
