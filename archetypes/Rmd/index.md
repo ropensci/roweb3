@@ -8,7 +8,7 @@ author:
   - Author Name1
   - Author Name2
 editor:
-  - Editor Name1
+  - Editor Name1 # Name(s) of the editor(s) of your post (you can leave empty)
 # translator: #comment out if this post is a translation
 #   - Translator Name1
 # interviewee: # comment out if this post is a interview
@@ -35,8 +35,6 @@ socialAlt: "Alternative description of the image"
 # The text below is for populating the "share on Mastodon" button
 # If deleted, the title of the post will be used
 social: "A post about blabla by @username@server.extension!"
-# this field is for the storing the name(s) of the editor(s) of your post
-# you can leave it empty until you know who'll review your PR
 ---
 
 This is the R Markdown (.Rmd) template for a blog post or tech note.
