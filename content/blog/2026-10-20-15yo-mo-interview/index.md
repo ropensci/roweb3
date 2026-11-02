@@ -22,7 +22,7 @@ As part of [rOpenSci's 15th anniversary](/tags/anniversary) celebrations, Commun
 
 **How did you first end up in rOpenSci's orbit, what was the very first interaction or moment that pulled you in?**
 
-I actually don’t recall. I think it was a natural evolution of my general career progression using R as a scientist and slowly transitioning into a research software engineer. Still working in academia, and mostly on tooling, analysis and data management using R, rOpenSci felt like a very natural community to get involved in. 
+I actually don’t recall. I think it was a natural evolution of my general career progression using R as a scientist and slowly transitioning into a research software engineer. Still working in academia, and mostly on tooling, analysis, and data management using R, rOpenSci felt like a very natural community to get involved in. 
 
 I believe I was first introduced to it through [Maëlle Salmon](/author/maëlle-salmon/), who was/is a fellow [RLadies+ global](https://rladies.org) team member. My [first interaction may have been as a software reviewer for a package](https://github.com/ropensci/software-review/issues/522), which Maëlle asked me if I was interested in doing.
 
