@@ -86,7 +86,7 @@ I feel like it's been quite stable over the years I have participated, but there
 
 All the time. 
 It’s almost like having a second set of colleagues, that technically don’t work with me (as in at the same company), but are equally important to my work and its robustness. 
-Between the software review, blogposts, collaborative tutorials, Champion mentoring, rOpenSci package tooling development, discussions in Slack (let us not forget the awesome cat pictures in the cat channel), I feel like I have quite immersed myself in the community. 
+Between the software review, blog posts, collaborative tutorials, Champion mentoring, rOpenSci package tooling development, discussions in Slack (let us not forget the awesome cat pictures in the cat channel), I feel like I have quite immersed myself in the community. 
 But I have gotten much more back that I have contributed, I believe. 
 Not only in the obvious ways visible, like mentor training, learning more about collaborative development etc, but also in getting feedback on my funding applications and on my personal development projects. 
 It’s all been invaluable for my own development.
