@@ -101,16 +101,16 @@ This has given me the confidence to participate openly and without fear, and has
 But comparing it to certain Stack overflow and social media interactions I have had outside these communities, it's for sure a much more wholesome and pleasant experience. 
 Not being afraid of being seen as incompetent for asking what someone else thinks is a basic question, is so important for how a community can keep growing and thriving.
 
-### What does rOpenSci mean to you at this point, fifteen years in?  
+**What does rOpenSci mean to you at this point, fifteen years in?**
 
 A lot. 
 As I am sure you can tell from all that I write here. 
 rOpenSci is really my second professional “home”, where I know I can get support and feedback from those willing to take the time (and even if no one has the time, one generally always gets a positive nudge to continue). 
 
-### What would you want someone just discovering rOpenSci today to know?  
+**What would you want someone just discovering rOpenSci today to know?**
 
 Don’t hesitate to contact and get involved. 
-Start wherever you feel you can; [doing a software review as a reviewer is a nice experience](https://ropensci.org/software-review/) and a really good place to start. 
+Start wherever you feel you can; [doing a software review as a reviewer is a nice experience](/software-review/) and a really good place to start. 
 You get to learn a little about reviewing others’ work, how to work with git and github, and communicate with other professionals. 
 It really is a very good starting point.
 
