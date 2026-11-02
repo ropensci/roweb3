@@ -16,24 +16,24 @@ editor:
 date: 2020-03-10  # Expected date of publication
 # Minimal tags for a post about a community-contributed package
 # that has passed software peer review are listed below.
-# Consult the Technical Guidelines for information on choosing tags
+# Consult the Technical Guidelines for information on choosing additional tags
 tags:
   - Software Peer Review
   - packages
   - R
   - community
-# The summary below will be used by e.g. Mastodon preview cards
+# The description below will be used by e.g. Social preview cards
 description: "A very short summary of your post (~ 100 characters)"
 # Fill the doi using `commonmetar::commonmeta_doi()` function. Commonmetar package: https://docs.ropensci.org/commonmetar/
 params:
   doi:
-# If you have no preferred image for Mastodon preview cards,
-# delete the socialImg and socialAlt lines below
-# If using, note "/" between year/month/day
+# If you have no preferred image for Social preview cards,
+# delete the socialImg and socialAlt lines below.
+# If using, note "/" between year/month/day.
 socialImg: blog/2019/06/04/post-template/name-of-image.png
 socialAlt: "Alternative description of the image"
-# The text below is for populating the "share on Mastodon" button
-# If deleted, the title of the post will be used
+# The text below is for populating the "share on XXX" Socials buttons.
+# If deleted, the title of the post will be used.
 social: "A post about blabla by @username@server.extension!"
 ---
 
