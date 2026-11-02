@@ -451,6 +451,7 @@ Mohammed
 Morgan
 Moritz
 Moroz
+Mowinckel
 mregions2
 MtreeRing
 Münch
@@ -820,6 +821,7 @@ worrms
 Wright
 writexl
 xslt
+Yani
 Yanina
 Yaoxiang
 yfR
