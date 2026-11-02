@@ -50,10 +50,10 @@ I remember in particular when you asked me if [I would consider being a Champion
 
 
 
-### Of all the ways you've participated, is there one that feels like "the" rOpenSci experience for you? the one you'd point to first?  
+**Of all the ways you've participated, is there one that feels like "the" rOpenSci experience for you? The one you'd point to first?**
 
 I actually think the Slack is the pinnacle of how it is to be part of the community. 
-Which is likely frustrating for anyone not in that slack to read. 
+Which is likely frustrating for anyone not in that Slack to read. 
 While it’s not the most active space, the activity is generally always useful and/or enjoying. 
 It’s like a friendly bubble of R-geeks just wanting to make cool things.
 
@@ -64,7 +64,7 @@ It’s like a friendly bubble of R-geeks just wanting to make cool things.
 </div>
 
 
-### Across all these different roles, has your sense of what rOpenSci *is*, or what it's for, changed over time?  
+**Across all these different roles, has your sense of what rOpenSci *is*, or what it's for, changed over time?**
 
 That’s a hard one. 
 I feel like it's been quite stable over the years I have participated, but there have likely been subtle changes over time that are hard to put a pin in. 
@@ -72,7 +72,7 @@ I feel like it's been quite stable over the years I have participated, but there
 <div class="row">
 <div class="col-md-6">
 
-{{< figure src="authorprofile.png" alt="Mo's author profile at rOpenSci website, showing a list of blog post and interviews she contributed" caption="Mo's author profile at rOpenSci website" >}}
+{{< figure src="authorprofile.png" alt="Mo's author profile on the rOpenSci website, showing a list of blog posts and interviews she hascontributed" caption="Mo's author profile on the rOpenSci website" >}}
 
 </div>
 <div class="col-md-6">
@@ -89,14 +89,14 @@ All the time.
 It’s almost like having a second set of colleagues, that technically don’t work with me (as in at the same company), but are equally important to my work and its robustness. 
 Between the software review, blog posts, collaborative tutorials, Champion mentoring, rOpenSci package tooling development, discussions in Slack (let us not forget the awesome cat pictures in the cat channel), I feel like I have quite immersed myself in the community. 
 But I have gotten much more back that I have contributed, I believe. 
-Not only in the obvious ways visible, like mentor training, learning more about collaborative development etc, but also in getting feedback on my funding applications and on my personal development projects. 
+Not only in the obvious ways visible, like mentor training, learning more about collaborative development etc., but also in getting feedback on my funding applications and on my personal development projects. 
 It’s all been invaluable for my own development.
 
-### How does participating in rOpenSci activities compare to other ways you've been involved in open source more broadly?  
+**How does participating in rOpenSci activities compare to other ways you've been involved in open source more broadly?**
 
 I’m not someone who has contributed a lot to open source in general. 
 I’m pretty much in my lane with rOpenSci, [RLadies+](https://rladies.org) and [The Carpentries](https://carpentries.org), three organizations I feel all emulate pretty much the same core values in how to treat contributors. 
-This has given me the confidence to participate openly and without fear, and has also given me strength when I’ve got some less than courteous responses in other places. 
+This has given me the confidence to participate openly and without fear, and has also given me strength when I’ve received some less than courteous responses in other places. 
 
 But comparing it to certain Stack overflow and social media interactions I have had outside these communities, it's for sure a much more wholesome and pleasant experience. 
 Not being afraid of being seen as incompetent for asking what someone else thinks is a basic question, is so important for how a community can keep growing and thriving.
