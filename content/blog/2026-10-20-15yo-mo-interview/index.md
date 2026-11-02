@@ -8,7 +8,8 @@ editor:
     - Maëlle Salmon
     - Steffi LaZerte
 date: "2026-10-20"
-doi: 
+params:
+  doi: "10.59350/p2s57-5fz79"
 tags:
 - community
 - Software Peer Review
