@@ -7,14 +7,14 @@ editor:
 - Steffi LaZerte
 interviewee:
 - Carolina Pradier
-date: '2026-11-05'
+date: '2026-11-02'
 slug: champions-histories-carolina-pradier
 tags:
 - packages
 - champions program
 - community
 - interviews
-- champions-stories
+- champions stories
 - anniversary
 description: This story is that of Carolina Pradier, main maintainer of the eph package. We review her participation in the Champions program and the impact of her work in different organizations and communities.
 params:
