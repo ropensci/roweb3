@@ -6,6 +6,7 @@ author:
     - Yanina Bellini Saibene
 editor: 
     - Maëlle Salmon
+    - Steffi LaZerte
 date: "2026-10-20"
 doi: 
 tags:
