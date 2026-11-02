@@ -59,7 +59,7 @@ It’s like a friendly bubble of R-geeks just wanting to make cool things.
 
 <div class="col-md-6">
 
-{{< figure src="catslack.png" alt="Mo's cat picture aoutside in a spot half sun/ half shade with the text Sølvi can't decide whether it's best here in the sun, or in the shade. She's swapped placed 4 times within the last 10minutes :heart_eyes_cat:'" caption="Mo message in the Slack channel `rcatpeople`" >}}
+{{< figure src="catslack.png" alt="Mo's cat pictured outside in a spot half sun/half shade with the text \"Sølvi can't decide whether it's best here in the sun, or in the shade. She's swapped placed 4 times within the last 10minutes :heart_eyes_cat:'\"" caption="Mo's message in the Slack channel `rcatpeople`" >}}
 
 </div>
 
