@@ -1,6 +1,6 @@
 ---
 slug: "post-template"
-# Post in English: Title in Title Case 
+# Post in English: Title in Title Case
 # Post in Spanish: Title only first word and proper names in title case
 title: Post Title in Title Case
 # package_version: 0.1.0 # comment out if this post is about a package
@@ -10,12 +10,11 @@ author:
 editor:
   - Editor Name1
 # translator: #comment out if this post is a translation
-#  - Translator Name1
+#   - Translator Name1
 # interviewee: # comment out if this post is a interview
-#  - Interviewee Name1
-# Set the date below to the publication date of your post
-date: 2020-03-10
-# Minimal tags for a post about a community-contributed package 
+#   - Interviewee Name1
+date: 2020-03-10   # Expected date of publication
+# Minimal tags for a post about a community-contributed package
 # that has passed software peer review are listed below
 # Consult the Technical Guidelines for information on choosing tags
 tags:
@@ -27,14 +26,14 @@ tags:
 description: "A very short summary of your post (~ 100 characters)"
 # Fill the doi using `commonmetar::commonmeta_doi()` function. Commonmetar package: https://docs.ropensci.org/commonmetar/
 params:
-  doi: 
+  doi:
 # If you have no preferred image for Mastodon preview cards,
-# delete the socialImg and socialAlt lines below 
-# - Note "/" between year/month/day
+# delete the socialImg and socialAlt lines below
+# If using, note "/" between year/month/day
 socialImg: blog/2019/06/04/post-template/name-of-image.png
 socialAlt: "Alternative description of the image"
-# the text below is for populating the "share on Mastodon" button
-# if deleted, the title of the post will be used
+# The text below is for populating the "share on Mastodon" button
+# If deleted, the title of the post will be used
 social: "A post about blabla by @username@server.extension!"
 # this field is for the storing the name(s) of the editor(s) of your post
 # you can leave it empty until you know who'll review your PR
@@ -45,15 +44,12 @@ knitr:
     fig.path: ""
 ---
 
-
-This is the Quarto (.qmd) template for a blog post or tech note. 
+This is the Quarto (.qmd) template for a blog post or tech note.
 To generate your post with just Markdown (.md), use that template instead.
 
 [Quarto docs for Hugo](https://quarto.org/docs/output-formats/hugo.html).
 
-Throughout this template, including the YAML, 
-you should change "post-template" to the slug of your post, 
-and "2019-06-04" to your publication date.
+Throughout this template, including the YAML, you should change "post-template" to the slug of your post, and "2019-06-04" to your publication date.
 
 Save this file under /content/blog/YYYY-MM-DD-slug/index.qmd in the local copy of your roweb3 fork.
 
@@ -61,17 +57,18 @@ The figure paths in the resulting Markdown will already be valid so you won't ne
 
 ## Section heading in sentence case
 
-Citation of the primary literature[^1]. 
+Citation of the primary literature[^1].
 
-Citation of a website[^2]. 
+Citation of a website[^2].
 
 Citation of an R package[^3].
 
 ### Subsection heading
 
-We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, videos, gists, etc. 
+We recommend the use of [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) to include images, videos, gists, etc.
 
-**Add an image** by using a Hugo shortcode. The image is saved under `/content/blog/YYYY-MM-DD-slug/name-of-image.png`.
+**Add an image** by using a Hugo shortcode.
+The image is saved under `/content/blog/YYYY-MM-DD-slug/name-of-image.png`.
 
 {{{< figure src = "name-of-image.png" width = "400" alt = "this is the alternative text" >}}}
 
@@ -88,8 +85,7 @@ plot(1:10)
 
 Once this file is rendered the plot above will be inserted with the correct syntax.
 
-
-**Add citation or footnote** text by using the format below 
+**Add citation or footnote** text by using the format below
 
 [^1]: Sciaini, M., Fritsch, M., Scherer, C., & Simpkins, C. E. (2018). NLMR and landscapetools: An integrated environment for simulating and modifying neutral landscape models in R. Methods in Ecology and Evolution, 9(11), 2240-2248. <https://doi.org/10.1111/2041-210X.13076>
 [^2]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019). skimr: Compact and Flexible Summaries of Data. R package version 1.0.7. https://CRAN.R-project.org/package=skimr
