@@ -20,7 +20,7 @@ description: ""
 
 As part of [rOpenSci's 15th anniversary](/tags/anniversary) celebrations, Community Manager Yani sits down with community member Mo to talk about how a first software review turned into years of involvement across R-Universe, the Champions Program, the Slack community, and core package work. Mo reflects on what has kept her engaged and also offers advice for anyone just discovering this community.
 
-### How did you first end up in rOpenSci's orbit, what was the very first interaction or moment that pulled you in?  
+**How did you first end up in rOpenSci's orbit, what was the very first interaction or moment that pulled you in?**
 
 I actually don’t recall. I think it was a natural evolution of my general career progression using R as a scientist and slowly transitioning into a research software engineer. Still working in academia, and mostly on tooling, analysis and data management using R, rOpenSci felt like a very natural community to get involved in. 
 
