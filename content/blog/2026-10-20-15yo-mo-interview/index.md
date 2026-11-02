@@ -18,7 +18,7 @@ preface: This post is part of our 15th anniversary celebration series, in which 
 description: ""
 ---
 
-To celebrate rOpenSci's 15th anniversary, our Community Manager, Yani sits down with our community member Mo, to talk about how a first software review turned into years of involvement across R-Universe, the Champions Program, the Slack community, and core package work. Mo reflects on what has kept her engaged and also offers advice for anyone just discovering the community.
+As part of [rOpenSci's 15th anniversary](/tags/anniversary) celebrations, Community Manager Yani sits down with community member Mo to talk about how a first software review turned into years of involvement across R-Universe, the Champions Program, the Slack community, and core package work. Mo reflects on what has kept her engaged and also offers advice for anyone just discovering this community.
 
 ### How did you first end up in rOpenSci's orbit, what was the very first interaction or moment that pulled you in?  
 
