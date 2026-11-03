@@ -279,6 +279,9 @@
     "roles": [
       "editor"
     ],
+    "participates": [
+      "software-review"
+    ],
     "generalreview": true,
     "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
     "github": "maurolepore",
