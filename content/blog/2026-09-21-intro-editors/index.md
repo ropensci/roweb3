@@ -1,6 +1,6 @@
 ---
 slug: neweditorQ32026
-title: 'Lauren ___ joins rOpenSci's Editorial Team'
+title: 'Lauren O'Brien joins rOpenSci's Editorial Team'
 author:
     - Lauren
     - Yanina Bellini Saibene
