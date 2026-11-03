@@ -2,12 +2,12 @@
 slug: celebrating-ropensci
 title: "Kindness, Curiosity, and Kitties: A rOpenSci 15th Anniversary Interview with Mo"
 author:
-    - Athanasia Mo Mowinckel
     - Yanina Bellini Saibene
+interviewee:
+    - Athanasia Mo Mowinckel
 editor: 
-    - Maëlle Salmon
     - Steffi LaZerte
-date: "2026-10-20"
+date: "2026-11-04"
 params:
   doi: "10.59350/p2s57-5fz79"
 tags:
@@ -16,18 +16,18 @@ tags:
 - Champions Program
 - anniversary
 preface: This post is part of our 15th anniversary celebration series, in which community members share their stories with rOpenSci.
-description: ""
+description: "As part of rOpenSci’s 15th anniversary, Community Manager Yani talks with Mo about her journey from a first software review to years of contributions across the rOpenSci community. Mo shares what keeps her involved and offers advice for newcomers."
 ---
 
 As part of [rOpenSci's 15th anniversary](/tags/anniversary) celebrations, Community Manager Yani sits down with community member Mo to talk about how a first software review turned into years of involvement across R-Universe, the Champions Program, the Slack community, and core package work. Mo reflects on what has kept her engaged and also offers advice for anyone just discovering this community.
 
-**How did you first end up in rOpenSci's orbit, what was the very first interaction or moment that pulled you in?**
+- **How did you first end up in rOpenSci's orbit, what was the very first interaction or moment that pulled you in?**
 
 I actually don’t recall. I think it was a natural evolution of my general career progression using R as a scientist and slowly transitioning into a research software engineer. Still working in academia, and mostly on tooling, analysis, and data management using R, rOpenSci felt like a very natural community to get involved in. 
 
 I believe I was first introduced to it through [Maëlle Salmon](/author/maëlle-salmon/), who was/is a fellow [RLadies+ global](https://rladies.org) team member. My [first interaction may have been as a software reviewer for a package](https://github.com/ropensci/software-review/issues/522), which Maëlle asked me if I was interested in doing.
 
-**Over the years, you've shown up in a lot of different ways: [R-Universe](/blog/2023/03/30/r-universe-stars-3-en/), the [Champions Program](/champions/), an active participant on the Slack, and a [contributor to our core packages](/blog/2026/06/01/goodpractice/). Looking back, how would you describe the arc of your involvement?**
+- **Over the years, you've shown up in a lot of different ways: [R-Universe](/blog/2023/03/30/r-universe-stars-3-en/), the [Champions Program](/champions/), an active participant on the Slack, and a [contributor to our core packages](/blog/2026/06/01/goodpractice/). Looking back, how would you describe the arc of your involvement?**
 
 It’s been such an easy community to be involved in. 
 I’ve felt that every suggestion, discussion, and help request has been met with kindness, collegiality and with a true sense of people wanting to share their knowledge. 
@@ -50,7 +50,7 @@ I remember in particular when you asked me if [I would consider being a Champion
 
 
 
-**Of all the ways you've participated, is there one that feels like "the" rOpenSci experience for you? The one you'd point to first?**
+- **Of all the ways you've participated, is there one that feels like "the" rOpenSci experience for you? The one you'd point to first?**
 
 I actually think the Slack is the pinnacle of how it is to be part of the community. 
 Which is likely frustrating for anyone not in that Slack to read. 
@@ -64,7 +64,7 @@ It’s like a friendly bubble of R-geeks just wanting to make cool things.
 </div>
 
 
-**Across all these different roles, has your sense of what rOpenSci *is*, or what it's for, changed over time?**
+- **Across all these different roles, has your sense of what rOpenSci *is*, or what it's for, changed over time?**
 
 That’s a hard one. 
 I feel like it's been quite stable over the years I have participated, but there have likely been subtle changes over time that are hard to put a pin in. 
@@ -83,7 +83,7 @@ I feel like it's been quite stable over the years I have participated, but there
 </div>
 
 
-### Was there ever a moment you felt surprised by how much you'd ended up doing, or by where it led?  
+- **Was there ever a moment you felt surprised by how much you'd ended up doing, or by where it led?**  
 
 All the time. 
 It’s almost like having a second set of colleagues, that technically don’t work with me (as in at the same company), but are equally important to my work and its robustness. 
@@ -92,7 +92,7 @@ But I have gotten much more back that I have contributed, I believe.
 Not only in the obvious ways visible, like mentor training, learning more about collaborative development etc., but also in getting feedback on my funding applications and on my personal development projects. 
 It’s all been invaluable for my own development.
 
-**How does participating in rOpenSci activities compare to other ways you've been involved in open source more broadly?**
+- **How does participating in rOpenSci activities compare to other ways you've been involved in open source more broadly?**
 
 I’m not someone who has contributed a lot to open source in general. 
 I’m pretty much in my lane with rOpenSci, [RLadies+](https://rladies.org) and [The Carpentries](https://carpentries.org), three organizations I feel all emulate pretty much the same core values in how to treat contributors. 
@@ -101,13 +101,13 @@ This has given me the confidence to participate openly and without fear, and has
 But comparing it to certain Stack overflow and social media interactions I have had outside these communities, it's for sure a much more wholesome and pleasant experience. 
 Not being afraid of being seen as incompetent for asking what someone else thinks is a basic question, is so important for how a community can keep growing and thriving.
 
-**What does rOpenSci mean to you at this point, fifteen years in?**
+- **What does rOpenSci mean to you at this point, fifteen years in?**
 
 A lot. 
 As I am sure you can tell from all that I write here. 
 rOpenSci is really my second professional “home”, where I know I can get support and feedback from those willing to take the time (and even if no one has the time, one generally always gets a positive nudge to continue). 
 
-**What would you want someone just discovering rOpenSci today to know?**
+- **What would you want someone just discovering rOpenSci today to know?**
 
 Don’t hesitate to contact and get involved. 
 Start wherever you feel you can; [doing a software review as a reviewer is a nice experience](/software-review/) and a really good place to start. 
