@@ -49,6 +49,7 @@ B.
 babeldown
 babelquarto
 babette
+Bacher
 Baio
 Baker
 Balamuta
@@ -101,6 +102,7 @@ Byron
 c14bazAAR
 c3dr
 Camara
+Campitelli
 camsRad
 canaper
 Carl
@@ -199,6 +201,7 @@ Edward
 eia
 Eli
 Elin
+Elio
 Emilio
 EML
 emld
@@ -213,6 +216,7 @@ Erika
 Eryk
 essurvey
 Estefania
+Etienne
 Eunseop
 europepmc
 Evan
@@ -292,6 +296,7 @@ gutenbergr
 H.
 hackathon
 hackathons
+Hadley
 Hajk-Georg
 handlr
 Haneca
@@ -387,6 +392,7 @@ LaZerte
 Le
 LeBauer
 Leonawicz
+Lepore
 Li
 lightr
 Lim
@@ -458,6 +464,7 @@ Munoz
 N.
 naijR
 Najko
+Nantz
 nasapower
 Nathan
 natserv
@@ -512,6 +519,7 @@ Parker
 Parsons
 partialling.out
 parzer
+Pascale
 patentsview
 pathviewr
 Paul
@@ -806,6 +814,7 @@ weathercan
 weatherOz
 webchem
 webmockr
+Wickham
 Widgren
 Wiernik
 wikitaxa
@@ -826,6 +835,7 @@ yfR
 Yu
 Zachary
 Zeki
+Zhang
 Zhian
 Zhiang
 Ziebert
