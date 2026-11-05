@@ -48,9 +48,14 @@ This Code of Conduct applies to all people participating in the rOpenSci communi
 
 ### Reporting Guidelines
 
-The rOpenSci Code of Conduct Committee includes [Natalia Morandeira](https://nmorandeira.netlify.app) (independent community member), [Mark Padgham](/author/mark-padgham) (rOpenSci Software Research Scientist) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (rOpenSci Community Manager).
+The rOpenSci Code of Conduct Committee includes [Natalia Morandeira](https://nmorandeira.netlify.app) (independent community member), [Maëlle Salmon](/autor/maëlle-salmon)(rOpenSci staff member) and [Yanina Bellini Saibene](/author/yanina-bellini-saibene/) (rOpenSci Community Manager).
 
-If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report  to the Committee as soon as possible using this form](https://forms.gle/8zKztThp2yLJ6KYa6). Alternatively, you may email `conduct@ropensci.org`, which will go to the Committee members. You may also make a report directly to one member of the Committee by contacting them directly. If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup. At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
+
+If you experience or witness unacceptable behavior, or have any other concerns, [please submit a report to the Committee as soon as possible using this form](https://forms.gle/dioFnDH51yuEh9XE8).
+Alternatively, you may email `conduct@ropensci.org`, which will go to the Committee members.
+You may also make a report directly to one member of the Committee by contacting them directly.
+If any member of the Committee has a conflict of interest with a report, they will be recused and will not have access to the content or process of the report followup.
+At an in-person rOpenSci event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.
 
 If you are planning to attend an upcoming event or join an online channel, and have concerns regarding another individual who may be present, please submit a report as described above. We will work with you to take precautions to ensure your comfort and safety. These precautions may include: providing an escort, preparing onsite event staff, and/or providing on-site contact cell phone numbers for immediate contact. In some cases, we may take action to prevent a harasser from attending the conference.
 
@@ -60,7 +65,8 @@ We welcome your feedback by email to `conduct@ropensci.org`, and we thank you fo
 
 #### Alumni
 
-We thank Scott Chamberlain, Stefanie Butland, Megan Carter and Kara Woo for their past service on the committee. 
+
+We thank Scott Chamberlain, Stefanie Butland, Megan Carter, Kara Woo and Mark Padgham for their past service on the committee.
 
 #### License and Credits
 
