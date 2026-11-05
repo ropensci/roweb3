@@ -1,0 +1,246 @@
+---
+slug: "ibger"
+title: "Splitting Large Queries to Brazil's Official Statistics API with ibger"
+package_version: 0.2.1
+author:
+  - André Leite
+  - Marcos Wasiliew
+  - Hugo Vasconcelos
+  - Carlos Amorim
+  - Diogo Bezerra
+editor:
+  - Yanina Bellini Saibene
+date: 2026-11-17
+tags:
+  - Software Peer Review
+  - packages
+  - R
+  - community
+  - tech notes
+  - ibger
+  - official statistics
+  - Brazil
+description: "How ibger estimates result sizes and splits large IBGE API queries automatically."
+params:
+  doi:
+socialImg: blog/2026/11/17/ibger/soy-plot-1.png
+socialAlt: "Line charts of Brazilian soybean production and of the number of producing municipalities, both rising from 2000 to 2025."
+social: "A tech note on how the ibger R package splits large queries to the IBGE API, Brazil's official statistics, automatically."
+---
+
+```{r setup, include=FALSE}
+# Options to have images saved in the post folder
+# And to disable symbols before output
+knitr::opts_chunk$set(fig.path = "", comment = "")
+
+# knitr hook to make images output use Hugo options
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "`{{< figure src=",
+      '"', x, '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}`{=html}\n"
+    )
+  }
+)
+
+# knitr hook to use Hugo highlighting options
+knitr::knit_hooks$set(
+  source = function(x, options) {
+  hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+      paste0("{",
+        glue::glue_collapse(
+          glue::glue('{names(hlopts)}={hlopts}'),
+          sep = ","
+        ), "}"
+        )
+      },
+      "\n", glue::glue_collapse(x, sep = "\n"), "\n```\n"
+    )
+  }
+)
+
+options(cli.num_colors = 1, width = 80)
+```
+
+The Brazilian Institute of Geography and Statistics ([IBGE](https://www.ibge.gov.br/en/))
+produces Brazil's official statistics: the demographic census, the IPCA
+inflation index, municipal GDP, and dozens of recurring economic, social and
+agricultural surveys. Their results are published as thousands of aggregate
+tables in SIDRA, IBGE's data retrieval system, and exposed through the
+[IBGE Aggregates API](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3).
+
+[ibger](https://docs.ropensci.org/ibger/) is an R client for that API. It lets
+you discover tables, inspect their metadata, and retrieve data as tidy
+tibbles. The package recently passed
+[rOpenSci software peer review](https://github.com/ropensci/software-review/issues/787),
+and version 0.2.1 is on CRAN:
+
+```{r install, eval=FALSE}
+install.packages("ibger")
+```
+
+ibger grew out of everyday work. We are part of the Strategic Monitoring
+Data Science Team of the Pernambuco state government, in northeastern
+Brazil, which builds R-based tools to monitor state public
+policies[^1]. Our dashboards and reports draw on IBGE indicators, and they
+are updated by scripts that pull the same tables again and again, often for
+every municipality and for many years at once. We wanted that access to be
+scripted, validated and reproducible, rather than a series of manual
+downloads from the SIDRA website. A few weeks after the first CRAN
+release, [Daniel Vartanian](https://github.com/danielvartan) opened an
+[issue](https://github.com/ropensci/ibger/issues/1) explaining that he
+split his calls into smaller chunks by hand to get around the API's
+limits, and suggested submitting the package to rOpenSci. Both ideas
+stuck.
+
+This tech note is about one problem that every heavy user of the API runs
+into sooner or later: the limit on how many values a single request can
+return, and how ibger works around it.
+
+## The request limit
+
+Each SIDRA table crosses variables, periods, geographic units and
+classification categories, so results grow multiplicatively. A modest
+question such as "how much soybean did each of Brazil's 5,570
+municipalities produce in each year since 2000?" already means more than
+140,000 values.
+
+The API documentation states a limit of 100,000 values per request. In
+practice, requests start to fail well before that: while developing ibger we
+saw a request for 44,560 values succeed and one for 50,130 values fail. And
+when a request is too large, the API does not say so. It answers with a
+generic HTTP 500 error.
+
+Here is what happens if we send the soybean query in a single request, with
+automatic splitting turned off (`chunk = FALSE`). We use table 1612
+(municipal crop production), variable 214 (quantity produced), category 2713
+of classification 81 (soybeans) and the municipal level `"N6"`:
+
+```{r fail, error=TRUE}
+library(ibger)
+
+soy <- ibge_variables(
+  1612,
+  variable = 214,
+  periods = 2000:2025,
+  localities = "N6",
+  classification = list("81" = 2713),
+  chunk = FALSE
+)
+```
+
+The usual workaround is to split the query by hand into several smaller
+requests, guess sizes that will work, and bind the results back together.
+ibger does this for you.
+
+## Estimating the size before asking
+
+Before sending a data request, ibger estimates the size of the result as the
+product of the number of variables, periods, localities and categories
+involved. Most of the numbers come straight from the arguments. The ones
+that do not, such as "all municipalities" or "the last six periods", are
+resolved from the table metadata: `ibge_metadata()` lists a table's
+variables and classifications, and the period and locality endpoints list
+what each table covers. These lookups are cached, so each one is made only
+once per table in a session.
+
+The same metadata powers ibger's validation: invalid variables, periods,
+geographic levels or categories are caught before any data request is sent,
+with an error that lists the allowed values.
+
+## Splitting the request
+
+If the estimate exceeds the limit, ibger splits the query into chunks:
+first by periods and then, if a single period is still too large, by
+localities. Locality chunks are also capped at 500 codes per request to keep
+URLs at a safe length. Each chunk is requested in turn and the results are
+combined into a single tibble.
+
+With the default `chunk = TRUE`, the same soybean query just works:
+
+```{r soy}
+soy <- ibge_variables(
+  1612,
+  variable = 214,
+  periods = 2000:2025,
+  localities = "N6",
+  classification = list("81" = 2713)
+)
+
+soy
+```
+
+The estimate was 26 periods × 5,564 municipalities, about 145,000 values,
+so ibger fetched 8 years per request in four requests.
+
+If you need smaller requests, for example on an unstable connection, pass
+your own limit, as in `chunk = 20000`. With `chunk = FALSE` the query is
+sent as is.
+
+## From values to a picture
+
+The `value` column is character, because IBGE uses special codes for
+values that are zero after rounding (`-`), not applicable (`..`), not
+available (`...`) or suppressed for confidentiality (`X`).
+`parse_ibge_value()` converts them to numbers or `NA`. With that, the
+145,000 values summarise into a picture of two decades of soybean expansion
+in Brazil:
+
+```{r soy-plot, message=FALSE, fig.width=8, fig.height=3.5, hugoopts=list(alt="Two line charts for 2000 to 2025. Left: the number of municipalities producing soybeans grows from about 1,450 to about 2,640. Right: Brazilian soybean production grows from about 33 to about 165 million tonnes.", caption="Soybean production and producing municipalities in Brazil, 2000 to 2025 (IBGE, Produção Agrícola Municipal, table 1612).")}
+library(dplyr)
+library(ggplot2)
+
+by_year <- soy |>
+  mutate(
+    year = as.integer(period),
+    tonnes = parse_ibge_value(value)
+  ) |>
+  group_by(year) |>
+  summarise(
+    `Production (million tonnes)` = sum(tonnes, na.rm = TRUE) / 1e6,
+    `Producing municipalities` = sum(tonnes > 0, na.rm = TRUE)
+  ) |>
+  tidyr::pivot_longer(-year)
+
+ggplot(by_year, aes(year, value)) +
+  geom_line(linewidth = 1, colour = "#2a7f62") +
+  facet_wrap(~name, scales = "free_y") +
+  labs(x = NULL, y = NULL) +
+  theme_minimal(base_size = 13)
+```
+
+Production grew about fivefold over the period, while the number of
+producing municipalities nearly doubled, from about 1,450 to over 2,600.
+
+## Learning more
+
+ibger also translates URLs from the legacy SIDRA API, such as those
+produced by the SIDRA Query Builder or used in existing scripts, into
+equivalent calls with `parse_sidra_url()` and `fetch_sidra_url()`, and ships
+an interactive Shiny explorer for browsing the table catalog
+(`ibge_explorer()`). The
+[getting started vignette](https://docs.ropensci.org/ibger/articles/getting-started.html)
+and the vignette on
+[the concepts behind the IBGE API](https://docs.ropensci.org/ibger/articles/api-concepts.html)
+are good places to start. If you work in Python, the sibling package
+[ibgepy](https://strategicprojects.github.io/ibgepy/) offers the same
+functions.
+
+We are grateful to the editor [Beatriz Milz](https://github.com/beatrizmilz)
+and to the reviewers [Allan Quadros](https://github.com/allanvc) and
+[Diana García-Cortés](https://github.com/ddiannae), whose review, run
+against the live API, made ibger much better. Bug reports, questions and ideas are welcome in the
+[issue tracker](https://github.com/ropensci/ibger/issues).
+
+[^1]: Medeiros, H. A. V., Wanderley, A. L., Bezerra, D. de C., Amorim Filho, C. A. G. de, Nóbrega, R. Z. da, & Ferreira, F. G. de M. (2025). Government Data Science Teams: A Framework for Implementing Strategic Monitoring Solutions. dg.o 2025: 26th Annual International Conference on Digital Government Research. <https://doi.org/10.59490/dgo.2025.925>
