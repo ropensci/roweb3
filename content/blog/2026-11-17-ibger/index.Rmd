@@ -97,7 +97,7 @@ policies[^1]. Our dashboards and reports draw on IBGE indicators, and they
 are updated by scripts that pull the same tables again and again, often for
 every municipality and for many years at once. We wanted that access to be
 scripted, validated and reproducible, rather than a series of manual
-downloads from the SIDRA website. A few weeks after the first CRAN
+downloads from the SIDRA website. Less than a week after the first CRAN
 release, [Daniel Vartanian](https://github.com/danielvartan) opened an
 [issue](https://github.com/ropensci/ibger/issues/1) explaining that he
 split his calls into smaller chunks by hand to get around the API's
@@ -182,7 +182,7 @@ soy
 ```
 
 The estimate was 26 periods × 5,564 municipalities, about 145,000 values,
-so ibger fetched 8 years per request in four requests.
+so ibger fetched up to eight years per request, four requests in all.
 
 If you need smaller requests, for example on an unstable connection, pass
 your own limit, as in `chunk = 20000`. With `chunk = FALSE` the query is
