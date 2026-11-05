@@ -634,6 +634,18 @@
     "home": "https://obrl-soil.github.io/"
   },
   {
+    "name": "Francisco Rodríguez-Sánchez",
+    "affiliation": "Universidad de Sevilla, Spain",
+    "url": "https://frodriguezsanchez.net/",
+    "image": "/img/team/francisco-rodriguez-sanchez.jpg",
+    "roles": [
+      "editor"
+    ],
+    "generalreview": true,
+    "github": "Pakillo",
+    "home": "https://frodriguezsanchez.net/"
+  },
+  {
     "name": "Kelly Hondula",
     "url": "https://www.sesync.org/users/khondula",
     "image": "/img/team/kelly-hondula.jpg",
