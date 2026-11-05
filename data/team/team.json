@@ -28,6 +28,9 @@
       "co-founder",
       "strategic advisor"
     ],
+    "past_roles": [
+      "editor"
+    ]
     "twitter": "_inundata",
     "mastodon": "https://mastodon.social/@inundata",
     "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
@@ -233,6 +236,7 @@
   },
   {
     "name": "Lincoln Mullen",
+    "github": "lmullen",
     "url": "https://lincolnmullen.com/",
     "image": "/img/team/lincoln-mullen.jpg",
     "affiliation": "George Mason University",
@@ -392,6 +396,7 @@
   },
   {
     "name": "Stephanie Hicks",
+    "github": "stephaniehicks",
     "url": "https://www.stephaniehicks.com/",
     "image": "/img/team/stephanie-hicks.jpg",
     "affiliation": "Johns Hopkins University",
@@ -406,6 +411,7 @@
   },
   {
     "name": "Paula Moraga",
+    "github": "Paula-Moraga",
     "affiliation": "King Abdullah University of Science and Technology",
     "url": "https://www.paulamoraga.com/",
     "image": "/img/team/paula-moraga.jpg",
@@ -473,6 +479,7 @@
   },
   {
     "name": "Emi Tanaka",
+    "github": "emitanaka",
     "affiliation": "Biological Data Science Institute, Australian National University",
     "url": "https://emitanaka.org/",
     "image": "/img/team/emi-tanaka.jpg",
