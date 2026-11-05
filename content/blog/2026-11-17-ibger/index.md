@@ -95,15 +95,6 @@ soy <- ibge_variables(
 )
 ```
 
-    ℹ Fetching metadata for aggregate 1612 from IBGE API...
-
-    ✔ Fetching metadata for aggregate 1612 from IBGE API... [462ms]
-
-    ✔ Aggregate 1612: 8 variables,
-    1 classification, 45 categories.
-
-    ℹ Fetching variables for aggregate 1612 from IBGE API...
-
     Error:
     ! Failed to access the IBGE API.
     ✖ HTTP 500 Internal Server Error. ℹ The API returned error 500. This usually
@@ -112,8 +103,6 @@ soy <- ibge_variables(
       categories, or let `chunk = TRUE` split the request automatically.
     ℹ URL:
       <https://servicodados.ibge.gov.br/api/v3/agregados/1612/periodos/2000|2001|2002|2003|2004|2005|2006|2007|2008|2009|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|2021|2022|2023|2024|2025/variaveis/214>
-
-    ✖ Fetching variables for aggregate 1612 from IBGE API... [265ms]
 
 The usual workaround is to split the query by hand into several smaller
 requests, guess sizes that will work, and bind the results back together.
@@ -159,30 +148,30 @@ soy <- ibge_variables(
 
     ℹ Fetching N6 localities for aggregate 1612 from IBGE API...
 
-    ✔ Fetching N6 localities for aggregate 1612 from IBGE API... [1.8s]
+    ✔ Fetching N6 localities for aggregate 1612 from IBGE API... [449ms]
 
     ℹ Fetching period list for aggregate 1612 from IBGE API...
 
-    ✔ Fetching period list for aggregate 1612 from IBGE API... [170ms]
+    ✔ Fetching period list for aggregate 1612 from IBGE API... [145ms]
 
     ℹ Estimated result exceeds the API limit (50000 values);
     splitting into 4 requests.
 
     ℹ Fetching chunk 1/4 for aggregate 1612 from IBGE API...
 
-    ✔ Fetching chunk 1/4 for aggregate 1612 from IBGE API... [21.4s]
+    ✔ Fetching chunk 1/4 for aggregate 1612 from IBGE API... [230ms]
 
     ℹ Fetching chunk 2/4 for aggregate 1612 from IBGE API...
 
-    ✔ Fetching chunk 2/4 for aggregate 1612 from IBGE API... [35.6s]
+    ✔ Fetching chunk 2/4 for aggregate 1612 from IBGE API... [655ms]
 
     ℹ Fetching chunk 3/4 for aggregate 1612 from IBGE API...
 
-    ✔ Fetching chunk 3/4 for aggregate 1612 from IBGE API... [24s]
+    ✔ Fetching chunk 3/4 for aggregate 1612 from IBGE API... [575ms]
 
     ℹ Fetching chunk 4/4 for aggregate 1612 from IBGE API...
 
-    ✔ Fetching chunk 4/4 for aggregate 1612 from IBGE API... [2.1s]
+    ✔ Fetching chunk 4/4 for aggregate 1612 from IBGE API... [483ms]
 
     ✔ 144664 records retrieved.
 

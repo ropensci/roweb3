@@ -127,7 +127,7 @@ automatic splitting turned off (`chunk = FALSE`). We use table 1612
 (municipal crop production), variable 214 (quantity produced), category 2713
 of classification 81 (soybeans) and the municipal level `"N6"`:
 
-```{r fail, error=TRUE}
+```{r fail, error=TRUE, message=FALSE}
 library(ibger)
 
 soy <- ibge_variables(
