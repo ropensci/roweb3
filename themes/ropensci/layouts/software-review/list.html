@@ -33,7 +33,18 @@
             </p>
           </div>
         </div>
-        {{ $editors := (shuffle ( where (hugo.Data.team.team) "roles" "intersect" ( slice "editor" ) ) )}}
+        {{ $today := now.Format "2006-01-02" }}
+        {{ $allEditors := where hugo.Data.team.team "roles" "intersect" (slice "editor") }}
+        {{ $currentEic := "" }}
+        {{ range $p := where $allEditors "eic" "ne" nil }}
+          {{ if where (where $p.eic "start" "le" $today) "end" "ge" $today }}
+            {{ $currentEic = $p.name }}
+          {{ end }}
+        {{ end }}
+        {{ if not $currentEic }}
+        {{ errorf "No current EiC found in data/team/team.json for %s (or they are not a current editor)" $today }}
+        {{ end }}
+        {{ $editors := (where $allEditors "name" "eq" $currentEic) | append (shuffle (where $allEditors "name" "ne" $currentEic)) }}
         {{ $editorsNoGitHub := where $editors "github" "eq" nil }}
         {{ if gt (len $editorsNoGitHub) 0 }}
         {{ errorf "Missing github entry in data/team/team.json for editor(s): %s" (delimit (apply $editorsNoGitHub "index" "." "name") ", ") }}
@@ -47,7 +58,7 @@
         {{ if gt (len $editorsNoType) 0 }}
         {{ errorf "Missing stats or generalreview entry in data/team/team.json for editor(s): %s" (delimit $editorsNoType ", ") }}
         {{ end }}
-        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors "showEic" true)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">
             <h4 class="about-block__title" id="editors">
@@ -56,7 +67,7 @@
           </div>
         </div>
         {{ $editors := (shuffle ( where (hugo.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
-        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors "showEic" true)  }}
         </div>
         </section>
 {{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Language.Lang )) }}

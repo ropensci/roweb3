@@ -387,4 +387,15 @@
 [Portuguese]
   other = 'Portugués'
 
+[Editor-in-Chief]
+  other = 'Editor·a en jefe'
 
+[current-Editor-in-Chief]
+  other = 'editor·a en jefe actual'
+
+[now]
+  other = 'ahora'
+
+[eic-terms]
+  one = '{{ .Count }} periodo'
+  other = '{{ .Count }} periodos'
