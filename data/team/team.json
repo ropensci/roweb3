@@ -584,6 +584,7 @@
   {
     "name": "Alec L. Robitaille",
     "affiliation": "Memorial University of Newfoundland and Labrador, Canada",
+    "generalreview": true,
     "github": "robitalec",
     "url": "https://robitalec.ca/",
     "image": "/img/team/alec-robitaille.png",
@@ -619,6 +620,7 @@
   {
     "name": "Ronny A. Hernández Mora",
     "affiliation": "",
+    "generalreview": true,
     "linkedin": "https://www.linkedin.com/in/ronny-hernandez-mora/",
     "github": "ronnyhdez",
     "url": "https://ronnyale.com/",
