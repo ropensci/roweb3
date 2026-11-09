@@ -1,4 +1,10 @@
 <div class="col-md-3 col-6">
+      {{ $showEic := and .showEic .eic }}
+      {{ $eicRole := "" }}
+      {{ if $showEic }}
+        {{ $today := now.Format "2006-01-02" }}
+        {{ if where (where .eic "start" "le" $today) "end" "ge" $today }}{{ $eicRole = i18n "current-Editor-in-Chief" }}{{ end }}
+      {{ end }}
       <div class="user-card">
         <img class="user-img" src="{{ .image }}" alt="" {{ with .credit }}title="{{ . }}"{{ end }}/>
         <a href="{{ .url }}" class="user-name">{{ .name }}</a>
@@ -14,6 +20,7 @@
 		          {{ if $i }} • {{ end }}
 		          {{ partial "translate" $e }}
 		          {{ end }}
+              {{ with $eicRole }} • {{ . }}{{ end }}
         </div>
         {{ end }}
         {{ end }}
@@ -24,8 +31,24 @@
 		          {{ if $i }} • {{ end }}
 		          {{ partial "translate" $e }}
 		          {{ end }}
+              {{ with $eicRole }} • {{ . }}{{ end }}
         </div>
         {{ end }}
+        {{ end }}
+        {{ if $showEic }}
+        <details class="user-eic">
+          <summary>
+            <span class="sr-only">{{ .name }}: </span>{{ i18n "Editor-in-Chief" }}
+            <span aria-hidden="true">×{{ len .eic }}</span><span class="sr-only">({{ i18n "eic-terms" (len .eic) }})</span>
+            <span class="user-eic-chevron" aria-hidden="true">▾</span>
+          </summary>
+          <ul class="user-eic-dates list-unstyled small">
+            {{ $today := now.Format "2006-01-02" }}
+            {{ range .eic }}
+            <li>{{ time.Format ":date_medium" .start }} – {{ if gt .end $today }}{{ i18n "now" }}{{ else }}{{ time.Format ":date_medium" .end }}{{ end }}</li>
+            {{ end }}
+          </ul>
+        </details>
         {{ end }}
         <div class="user-social d-flex">
           {{ with .mastodon }}<a rel="me" href="{{ . }}"><img src="/images/users/mastodon.svg" alt="" style="max-width:16px;max-height:16px;"/></a>{{ end }}

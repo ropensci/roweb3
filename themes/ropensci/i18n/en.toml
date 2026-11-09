@@ -386,3 +386,16 @@
 
 [Portuguese]
   other = 'Portuguese'
+
+[Editor-in-Chief]
+  other = 'Editor-in-Chief'
+
+[current-Editor-in-Chief]
+  other = 'current Editor-in-Chief'
+
+[now]
+  other = 'now'
+
+[eic-terms]
+  one = '{{ .Count }} term'
+  other = '{{ .Count }} terms'

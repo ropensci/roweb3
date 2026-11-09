@@ -17,7 +17,25 @@
     "linkedin": "https://www.linkedin.com/in/noamross",
     "github": "noamross",
     "bluesky": "noamross.net",
-    "home": "/author/noam-ross"
+    "home": "/author/noam-ross",
+    "eic": [
+      {
+        "start": "2018-04-01",
+        "end": "2018-07-01"
+      },
+      {
+        "start": "2019-04-01",
+        "end": "2019-07-21"
+      },
+      {
+        "start": "2021-03-22",
+        "end": "2021-10-17"
+      },
+      {
+        "start": "2023-08-01",
+        "end": "2023-10-31"
+      }
+    ]
   },
   {
     "name": "Karthik Ram",
@@ -35,7 +53,13 @@
     "mastodon": "https://mastodon.social/@inundata",
     "linkedin": "https://www.linkedin.com/in/karthik-ram-93334954",
     "github": "karthik",
-    "home": "https://inundata.org/"
+    "home": "https://inundata.org/",
+    "eic": [
+      {
+        "start": "2018-01-01",
+        "end": "2018-03-01"
+      }
+    ]
   },
   {
     "name": "Scott Chamberlain",
@@ -52,7 +76,17 @@
     "generalreview": true,
     "twitter": "sckottie",
     "github": "sckott",
-    "home": "/author/scott-chamberlain/"
+    "home": "/author/scott-chamberlain/",
+    "eic": [
+      {
+        "start": "2017-09-01",
+        "end": "2017-12-01"
+      },
+      {
+        "start": "2018-10-01",
+        "end": "2019-02-01"
+      }
+    ]
   },
   {
     "name": "Jeroen Ooms",
@@ -124,7 +158,13 @@
     "mastodon": "https://nerdculture.de/@mpadge",
     "bluesky": "mpadge.bsky.social",
     "github": "mpadge",
-    "home": "/author/mark-padgham"
+    "home": "/author/mark-padgham",
+    "eic": [
+      {
+        "start": "2025-05-01",
+        "end": "2025-07-31"
+      }
+    ]
   },
   {
     "name": "Maëlle Salmon",
@@ -147,7 +187,25 @@
     "mastodon": "https://mastodon.social/@maelle",
     "github": "maelle",
     "home": "/author/maëlle-salmon",
-    "bluesky": "masalmon.eu"
+    "bluesky": "masalmon.eu",
+    "eic": [
+      {
+        "start": "2017-06-01",
+        "end": "2017-08-01"
+      },
+      {
+        "start": "2018-08-01",
+        "end": "2018-09-01"
+      },
+      {
+        "start": "2019-11-04",
+        "end": "2020-02-09"
+      },
+      {
+        "start": "2023-05-01",
+        "end": "2023-07-31"
+      }
+    ]
   },
   {
     "name": "Steffi LaZerte",
@@ -232,7 +290,21 @@
     "mastodon": "https://fosstodon.org/@annakrystalli",
     "github": "annakrystalli",
     "home": "https://annakrystalli.me/",
-    "alumnus": true
+    "alumnus": true,
+    "eic": [
+      {
+        "start": "2019-07-22",
+        "end": "2019-08-04"
+      },
+      {
+        "start": "2020-02-10",
+        "end": "2020-07-01"
+      },
+      {
+        "start": "2022-11-01",
+        "end": "2023-01-31"
+      }
+    ]
   },
   {
     "name": "Lincoln Mullen",
@@ -258,7 +330,13 @@
     "github": "geanders",
     "home": "http://csu-cvmbs.colostate.edu/academics/erhs/Pages/brooke-anderson.aspx",
     "generalreview": true,
-    "alumnus": true
+    "alumnus": true,
+    "eic": [
+      {
+        "start": "2020-07-02",
+        "end": "2020-11-30"
+      }
+    ]
   },
   {
     "name": "Melina Vidoni",
@@ -273,7 +351,21 @@
     "twitter": "melvidoni",
     "mastodon": "https://mastodon.social/@drmelvidoni",
     "github": "melvidoni",
-    "home": "https://melvidoni.rbind.io/"
+    "home": "https://melvidoni.rbind.io/",
+    "eic": [
+      {
+        "start": "2019-03-01",
+        "end": "2019-03-31"
+      },
+      {
+        "start": "2019-08-05",
+        "end": "2019-11-03"
+      },
+      {
+        "start": "2020-12-01",
+        "end": "2021-03-21"
+      }
+    ]
   },
   {
     "name": "Mauro Lepore",
@@ -289,7 +381,25 @@
     "generalreview": true,
     "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
     "github": "maurolepore",
-    "home": "https://github.com/maurolepore/"
+    "home": "https://github.com/maurolepore/",
+    "eic": [
+      {
+        "start": "2023-02-01",
+        "end": "2023-04-30"
+      },
+      {
+        "start": "2025-02-01",
+        "end": "2025-04-30"
+      },
+      {
+        "start": "2026-05-01",
+        "end": "2026-07-31"
+      },
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31"
+      }
+    ]
   },
   {
     "name": "Laura DeCicco",
@@ -301,7 +411,21 @@
     ],
     "generalreview": true,
     "mastodon": "https://fosstodon.org/@ldecicco",
-    "github": "ldecicco-USGS"
+    "github": "ldecicco-USGS",
+    "eic": [
+      {
+        "start": "2021-10-18",
+        "end": "2022-01-31"
+      },
+      {
+        "start": "2024-02-01",
+        "end": "2024-04-30"
+      },
+      {
+        "start": "2025-08-01",
+        "end": "2025-10-31"
+      }
+    ]
   },
   {
     "name": "Julia Gustavsen",
@@ -315,7 +439,17 @@
     "generalreview": true,
     "twitter": "JuliaGustavsen",
     "github": "jooolia",
-    "home": "https://www.juliagustavsen.com/"
+    "home": "https://www.juliagustavsen.com/",
+    "eic": [
+      {
+        "start": "2022-02-01",
+        "end": "2022-04-30"
+      },
+      {
+        "start": "2024-05-01",
+        "end": "2024-07-31"
+      }
+    ]
   },
   {
     "name": "Emily Riederer",
@@ -328,7 +462,21 @@
     "generalreview": true,
     "twitter": "emilyriederer",
     "github": "emilyriederer",
-    "home": "https://emilyriederer.netlify.com/"
+    "home": "https://emilyriederer.netlify.com/",
+    "eic": [
+      {
+        "start": "2022-05-01",
+        "end": "2022-07-31"
+      },
+      {
+        "start": "2024-11-01",
+        "end": "2025-01-31"
+      },
+      {
+        "start": "2026-02-01",
+        "end": "2026-04-30"
+      }
+    ]
   },
   {
     "name": "Adam Sparks",
@@ -343,7 +491,21 @@
     "linkedin": "https://linkedin.com/in/adam-h-sparks",
     "mastodon": "https://rstats.me/@adamhsparks",
     "github": "adamhsparks",
-    "home": "https://adamhsparks.netlify.app/"
+    "home": "https://adamhsparks.netlify.app/",
+    "eic": [
+      {
+        "start": "2022-08-01",
+        "end": "2022-10-31"
+      },
+      {
+        "start": "2024-08-01",
+        "end": "2024-10-31"
+      },
+      {
+        "start": "2026-08-01",
+        "end": "2026-10-31"
+      }
+    ]
   },
   {
     "name": "Jeff Hollister",
@@ -356,7 +518,17 @@
     "generalreview": true,
     "mastodon": "https://fosstodon.org/@jhollist",
     "github": "jhollist",
-    "home": "https://jwhollister.com/"
+    "home": "https://jwhollister.com/",
+    "eic": [
+      {
+        "start": "2023-11-01",
+        "end": "2024-01-31"
+      },
+      {
+        "start": "2025-11-01",
+        "end": "2026-01-31"
+      }
+    ]
   },
   {
     "name": "Ben Bolker",

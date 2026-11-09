@@ -2,7 +2,7 @@
 <div class="users-block" id="{{.name}}">
   <div class="row">
     {{ range .team }}
-    {{ partial "whole-page-fragments/team/team-member" .}}
+    {{ partial "whole-page-fragments/team/team-member" (merge . (dict "showEic" $.showEic)) }}
     {{ end }}
   </div>
 </div>
