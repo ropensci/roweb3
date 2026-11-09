@@ -38,6 +38,15 @@
         {{ if gt (len $editorsNoGitHub) 0 }}
         {{ errorf "Missing github entry in data/team/team.json for editor(s): %s" (delimit (apply $editorsNoGitHub "index" "." "name") ", ") }}
         {{ end }}
+        {{ $editorsNoType := slice }}
+        {{ range $editors }}
+          {{ if not (or .stats .generalreview) }}
+            {{ $editorsNoType = $editorsNoType | append .name }}
+          {{ end }}
+        {{ end }}
+        {{ if gt (len $editorsNoType) 0 }}
+        {{ errorf "Missing stats or generalreview entry in data/team/team.json for editor(s): %s" (delimit $editorsNoType ", ") }}
+        {{ end }}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">
