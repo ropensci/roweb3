@@ -2,7 +2,7 @@
 name: Steffi LaZerte
 bio: rOpenSci Community Engineer
 link: https://steffilazerte.ca
-twitter: steffilazerte
+bluesky: steffilazerte.bsky.social
 linkedin: steffi-lazerte
 mastodon: https://fosstodon.org/@steffilazerte
 github: steffilazerte
