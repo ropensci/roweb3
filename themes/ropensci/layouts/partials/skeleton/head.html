@@ -83,7 +83,7 @@
 <meta name="citation_language" content= "{{ .Language.Lang }}">
 
 {{ $doi := .Params.doi }}
-{{ if ne $doi "" }}
+{{ if $doi }}
   <meta name="citation_doi" content= "{{ printf "https://doi.org/%s" $doi }}">
 {{ end }}
 {{ end }}
