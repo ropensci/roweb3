@@ -45,10 +45,10 @@
                 {{ if eq .Params.slug "all" }}
                 {{ $Scratch.Set "pkgs" (sort $registry "_published" "desc" ) }}
                 {{ else }}
-                {{ $Scratch.Set "pkgs" (sort ( where ($registry) "_metadata.ropensci_category" .Params.slug ) "date_last_commit" "desc" ) }}
+                {{ $Scratch.Set "pkgs" (sort (partial "packages/in-category" (dict "registry" $registry "slug" .Params.slug)) "date_last_commit" "desc" ) }}
                 {{ end }}
                 {{ range ($Scratch.Get "pkgs") }}
-                {{ partial "packages/package-card" (dict "package" . "citations" $citations "communitymultiverse" $communitymultiverse ) }}
+                {{ partial "packages/package-card" (dict "package" . "citations" $citations "communitymultiverse" $communitymultiverse "showcategories" (eq $.Params.slug "all") ) }}
                 {{ end }}
       </div>
       </div>
