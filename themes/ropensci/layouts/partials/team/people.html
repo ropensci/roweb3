@@ -28,4 +28,18 @@
         </div>
     </a>
     {{ end }}
+    {{ with .eic }}
+    <h4 class="mt-4">{{ i18n "Current-Editor-in-Chief" }}</h4>
+    {{ $thispage := first 1 (where $pages ".Params.name" .name) }}
+    {{ range $thispage }}
+    <a href="{{ .RelPermalink }}" class="author">
+        {{ end }}
+        <div style="display:flex;">
+            <span class="author-img" style="margin:auto;">
+                <img style="width:50px;height:50px" src="{{ .image }}" alt="" />
+            </span>
+            <span style="margin:auto; margin-left:1rem">{{ .name }}</span>
+        </div>
+    {{ with $thispage }}</a>{{ end }}
+    {{ end }}
 </div>

@@ -390,6 +390,9 @@
 [Editor-in-Chief]
   other = 'Editor-in-Chief'
 
+[Current-Editor-in-Chief]
+  other = 'Current Editor-in-Chief'
+
 [current-Editor-in-Chief]
   other = 'current Editor-in-Chief'
 
