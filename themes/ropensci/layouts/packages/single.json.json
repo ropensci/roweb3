@@ -3,7 +3,7 @@
 {{ if eq .Params.slug "all" }}
 {{ $Scratch.Set "pkgs" $registry }}
 {{ else }}
-{{ $Scratch.Set "pkgs" ( where ($registry) "_metadata.ropensci_category" .Params.slug ) }}
+{{ $Scratch.Set "pkgs" (partial "packages/in-category" (dict "registry" $registry "slug" .Params.slug)) }}
 {{ end }}
 {{ $len := (len ($Scratch.Get "pkgs"))}}
 {{ range $key, $value := ($Scratch.Get "pkgs") }}

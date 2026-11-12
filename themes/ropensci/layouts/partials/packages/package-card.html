@@ -24,6 +24,17 @@
       <p class="category-card__p">
         {{ .package.Title | replaceRE "\\'(.*?)\\'" "$1"}}
       </p>
+      {{ if .showcategories }}{{ with partial "packages/categories" .package }}
+      <div class="d-flex align-items-center flex-wrap category-card__categories">
+        {{ range . }}
+        {{ with site.GetPage (printf "/packages/%s" .) }}
+        <a href="{{ .RelPermalink }}" class="category-card__tag">{{ .Title | markdownify }}</a>
+        {{ else }}
+        <span class="category-card__tag">{{ . }}</span>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}{{ end }}
     </div>
   </div>
   <div class="col-md-2 order-3 d-none d-md-block">

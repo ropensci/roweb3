@@ -1,0 +1,10 @@
+{{/*
+  Returns the packages of a registry (R-universe API response) that belong
+  to a given category.
+  Context: dict "registry" (slice of packages) "slug" (category slug).
+  Packages with the ropensci_categories array match if it contains the slug;
+  packages without it fall back to the legacy ropensci_category string.
+*/}}
+{{ $withArray := where .registry "_metadata.ropensci_categories" "intersect" (slice .slug) }}
+{{ $legacy := where (where .registry "_metadata.ropensci_categories" "eq" nil) "_metadata.ropensci_category" .slug }}
+{{ return (append $legacy $withArray) }}
