@@ -1,6 +1,5 @@
 {{ define "main" }}
-{{ $heropartial := (partial "translate-path" (dict "name" "skeleton/hero" "language" .Language.Lang )) }}
-{{ partial $heropartial . }}
+{{ partial (partial "localized.html" "skeleton/hero") . }}
 <!-- Hero divider -->
 </div>
 {{ $.Scratch.Set "counter" 0}}
@@ -9,7 +8,7 @@
 {{ range $partials }}
   {{ $counter := $.Scratch.Get "counter" }}
   {{ $path := printf "whole-page-fragments/%s" . }}
-  {{ $partial := (partial "translate-path" (dict "name" $path "language" $Site.Language.Lang )) }}
+  {{ $partial := partial "localized.html" $path }}
   {{ if eq $counter 0 }}
   {{ partial $partial (dict "context" . "divider" "lr" "Site" $Site) }}
   {{ else }}
