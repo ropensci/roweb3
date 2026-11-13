@@ -1,7 +1,12 @@
+{{- /* Fails the build for an author without an author file (or without a name in it). */ -}}
 {{ define "main" }}
 {{ $src := ( partial "blogs/author-img" . ) }}
 
-{{ if isset .Params "name" }}
+{{ if not (isset .Params "name") }}
+  {{- $authorFile := "_index.md" -}}
+  {{- if ne .Language.Lang hugo.Sites.Default.Language.Lang }}{{ $authorFile = printf "_index.%s.md" .Language.Lang }}{{ end -}}
+  {{- errorf `Author %q has no author file in language %q: add content/author/%s/%s with at least "name: %s" in its front matter (see content/author/aaron-wolen/_index.md).` .Name .Language.Lang (path.Base .Path) $authorFile .Name -}}
+{{ end }}
 
 <section class="section">
   <div class="container">
@@ -95,7 +100,5 @@
       </div>
   </div>
 </section>
-{{ else }}
-{{ errorf "Missing author file for '%s' in language '%s'." .Name .Language.Lang }}
-{{ end }}
+
 {{ end }}
