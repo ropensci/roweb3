@@ -402,3 +402,33 @@
 [eic-terms]
   one = '{{ .Count }} term'
   other = '{{ .Count }} terms'
+
+[Brands-title]
+  other = 'Working together to push science forward'
+
+[Brands-subtitle]
+  other = 'Happy rOpenSci users can be found at'
+
+[Logo-of]
+  other = 'Logo of'
+
+[Newsletter-title]
+  other = 'Our Newsletter'
+
+[Newsletter-subtitle]
+  other = 'A digest of R package and software review news, use cases, blog posts, and events, curated monthly. Subscribe to get it in your inbox, or check the <a href="{{ . }}">archive</a>.'
+
+[Newsletter-previous]
+  other = 'Find previous issues below. Newsletters until February 2021 are archived at <a href="https://news.ropensci.org">https://news.ropensci.org</a>.'
+
+[Join-the-community]
+  other = 'Join the community!'
+
+[Volunteer-title]
+  other = 'Volunteer for rOpenSci'
+
+[Volunteer-subtitle]
+  other = 'We welcome both code and non-code contributions. Read our <a href="https://contributing.ropensci.org/">Contributing Guide</a> to learn how.'
+
+[Illustration-credit]
+  other = 'Lydia Hill Illustration. All rights reserved.'

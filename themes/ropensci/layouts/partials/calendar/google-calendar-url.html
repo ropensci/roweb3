@@ -1,11 +1,28 @@
-{{ $scratch := newScratch }}
-{{ $scratch.Set "zoomurl" "" }}
-{{ if isset .context.Params "zoomurl" }}
-{{ $scratch.Set "zoomurl" .context.Params.zoomurl }}
-{{ $link := ( print "https://calendar.google.com/calendar/r/eventedit?text=" .title "&details=" .context.Description " " .context.Permalink "&location=" ( $scratch.Get "zoomurl") "&dates=" ( (time .context.Params.dateStart ).Format "20060102T150405" ) "Z%2F" ( (time .context.Params.dateEnd ).Format "20060102T150405" )  "Z") | replaceRE " " "+" | safeHTML }}
-{{ $scratch.Set "link" $link }}
-{{ else }}
-{{ $link := ( print "https://calendar.google.com/calendar/r/eventedit?text=" .title "&details=" .context.Description " " .context.Permalink "&location=" .location " " .context.Permalink "&dates=" ( (time .context.Params.dateStart ).Format "20060102T150405" ) "Z%2F" ( (time .context.Params.dateEnd ).Format "20060102T150405" )  "Z") | replaceRE " " "+" | safeHTML }}
-{{ $scratch.Set "link" $link }}
-{{ end }}
-{{ return ($scratch.Get "link") }}
+{{- /*
+  Returns the "add to Google Calendar" URL of an event or community call.
+  Context: the event or community call page.
+  The location is the page's zoomurl when it is set, else its location followed by its permalink.
+  Fails the build for a page without dateStart or dateEnd.
+*/ -}}
+{{- $event := . -}}
+{{- $eventFile := $event.RelPermalink -}}
+{{- with $event.File }}{{ $eventFile = printf "content/%s" .Path }}{{ end -}}
+{{- range $dateParam := slice "dateStart" "dateEnd" -}}
+  {{- if not ($event.Param $dateParam) -}}
+    {{- errorf "%s: the %q front matter parameter is missing. Add it, e.g. '%s: 2026-01-31T15:00:00' (UTC)." $eventFile $dateParam $dateParam -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $location := print $event.Params.location " " $event.Permalink -}}
+{{- if isset $event.Params "zoomurl" -}}
+  {{- $location = $event.Params.zoomurl -}}
+{{- end -}}
+
+{{- $dateFormat := "20060102T150405" -}}
+{{- $url := print
+  "https://calendar.google.com/calendar/r/eventedit?text=" $event.Title
+  "&details=" $event.Description " " $event.Permalink
+  "&location=" $location
+  "&dates=" ((time $event.Params.dateStart).Format $dateFormat) "Z%2F" ((time $event.Params.dateEnd).Format $dateFormat) "Z"
+-}}
+{{- return ($url | replaceRE " " "+" | safeHTML) -}}

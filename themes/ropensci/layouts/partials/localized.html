@@ -1,0 +1,22 @@
+{{- /*
+  Returns the name of the version of a partial for the current language, to pass to partial:
+  <name>.<lang>.html if it exists, else <name>.en.html, else <name>.html.
+  Context: the partial's name without language or extension, e.g. "skeleton/hero".
+  Fails the build when none of these exists.
+*/ -}}
+{{- $name := . -}}
+{{- $candidates := slice
+  (printf "%s.%s.html" $name site.Language.Lang)
+  (printf "%s.en.html" $name)
+  (printf "%s.html" $name)
+-}}
+{{- $result := "" -}}
+{{- range $candidate := $candidates -}}
+  {{- if and (not $result) (templates.Exists (printf "partials/%s" $candidate)) -}}
+    {{- $result = $candidate -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $result -}}
+  {{- errorf "No partial %q for language %q: add themes/ropensci/layouts/partials/%s (or %s)." $name site.Language.Lang (index $candidates 1) (index $candidates 2) -}}
+{{- end -}}
+{{- return $result -}}

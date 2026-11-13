@@ -1,0 +1,13 @@
+{{- /*
+  Renders the newsletter signup form (a SendGrid iframe) of the current language, or the English one.
+  Context: none needed.
+*/ -}}
+{{- $formIDByLang := dict
+  "en" "575dbebb-d25a-11eb-9cb8-0e28adb20b8f"
+  "es" "81478951-20d9-11f0-b700-b67064170926"
+-}}
+{{- $formID := index $formIDByLang site.Language.Lang | default $formIDByLang.en -}}
+<div id="sendgrid-form">
+<iframe src="https://cdn.forms-content.sg-form.com/{{ $formID }}" style="height: 17.2rem; width: 100%; " frameborder="0" />
+</iframe>
+</div>

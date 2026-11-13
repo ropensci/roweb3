@@ -81,10 +81,7 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
       </div>
       <div class="field-under mt-4">
         <span>{{ i18n "Share" }}</span>
-        {{ partial "mastodon/share-link" . }}
-        {{ partial "linkedin/share-link" . }}
-        {{ partial "bluesky/share-link" . }}
-        {{ partial "email/share-link" . }}
+        {{ partial "share-links.html" . }}
       </div>
       <div class="field-under mt-4">
         <span>{{ i18n "Suggest-an-edit" }}</span>
@@ -124,5 +121,4 @@ For more information, visit the <a href="/r-universe/">r-universe project page</
     </div>
   </div>
 </section>
-{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
-{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
+{{ partial "whole-page-fragments/newsletter.html" (dict "divider" "lr") }}

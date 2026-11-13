@@ -1,37 +1,41 @@
+{{- /*
+  Renders a divider and the logos of the organizations listed in data/partners/brands.json, in random order.
+  Context: a dict with "divider", the direction of the divider ("lr" or "rl").
+  Fails the build for a brand whose logo is not in themes/ropensci/assets/brands/.
+*/ -}}
 {{ partial "whole-page-fragments/divider" .divider }}
 
     <!-- Brands section -->
 <section class="section section-brands text-md-center">
 <div class="container">
-<h2 class="title">Working together to push science forward</h2>
+<h2 class="title">{{ i18n "Brands-title" }}</h2>
 <p class="subtitle">
-  Happy rOpenSci users can be found at
+  {{ i18n "Brands-subtitle" }}
 </p>
 <div class="brands row text-center justify-content-center align-items-center">
-  {{ range ( shuffle hugo.Data.partners.brands ) }}
-   <!-- Resize/minify -->
-    {{ $path := .img | printf "%s/%s" "brands" }}
-    {{ $scratch := newScratch }}
-    {{ with $path }}
-      {{ $resource := resources.Get . }}
-      {{ $image_type_arr := (index (split . ".") 1) }}
-      {{ if eq $image_type_arr "svg" }}
-        {{ $scratch.Set "img" ( $resource | resources.Minify ).Permalink }}
-      {{ else }}
-        {{ $scratch.Set "img" ( $resource.Resize "96x" ).Permalink }}
-      {{ end }}
+  {{ range $brand := shuffle hugo.Data.partners.brands }}
+    {{ $logoPath := printf "brands/%s" $brand.img }}
+    {{ $logo := resources.Get $logoPath }}
+    {{ if not $logo }}
+      {{ errorf "The logo of the brand %q, %q, is not in themes/ropensci/assets/brands/: add it there, or fix its \"img\" in data/partners/brands.json." $brand.name $brand.img }}
     {{ end }}
-    {{ if (ne .url "") }}
-     <div class="col-4 col-xs-3 col-md-2"><a href="{{ .url }}">
-            <img class="brand-logo" src="{{ $scratch.Get "img" }}" alt="Logo of {{ .name }}" />
-            </a>
-          </div>
-          {{ else }}
-     <div class="col-4 col-xs-3 col-md-2">
-            <img class="brand-logo" src="{{ $scratch.Get "img" }}" alt="Logo of {{ .name }}" />
-          </div>
-          
-          {{ end }}
+    {{ $logoURL := "" }}
+    {{ if not $logo }}
+    {{ else if eq (path.Ext $logoPath) ".svg" }}
+      {{ $logoURL = ($logo | resources.Minify).Permalink }}
+    {{ else }}
+      {{ $logoURL = ($logo.Resize "96x").Permalink }}
+    {{ end }}
+    {{ if ne $brand.url "" }}
+    <div class="col-4 col-xs-3 col-md-2"><a href="{{ $brand.url }}">
+      <img class="brand-logo" src="{{ $logoURL }}" alt="{{ i18n "Logo-of" }} {{ $brand.name }}" />
+      </a>
+    </div>
+    {{ else }}
+    <div class="col-4 col-xs-3 col-md-2">
+      <img class="brand-logo" src="{{ $logoURL }}" alt="{{ i18n "Logo-of" }} {{ $brand.name }}" />
+    </div>
+    {{ end }}
   {{ end }}
 </div>
 </div>
