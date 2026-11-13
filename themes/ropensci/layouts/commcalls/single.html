@@ -66,8 +66,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="{{ partial "calendar/google-calendar-url" ( dict "title" .Title "context" . "location"
-                        .Params.location ) }}">
+                      <a href="{{ partial "calendar/google-calendar-url" . }}">
                         <i class="fab fa-google"></i>
                         <span>Google Calendar</span>
                       </a>
