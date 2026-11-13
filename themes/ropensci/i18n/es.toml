@@ -399,3 +399,12 @@
 [eic-terms]
   one = '{{ .Count }} periodo'
   other = '{{ .Count }} periodos'
+
+[Brands-title]
+  other = 'Colaborando para avanzar la ciencia'
+
+[Brands-subtitle]
+  other = 'Se usa rOpenSci en'
+
+[Logo-of]
+  other = 'Logo de'

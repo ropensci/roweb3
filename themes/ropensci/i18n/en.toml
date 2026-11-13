@@ -399,3 +399,12 @@
 [eic-terms]
   one = '{{ .Count }} term'
   other = '{{ .Count }} terms'
+
+[Brands-title]
+  other = 'Working together to push science forward'
+
+[Brands-subtitle]
+  other = 'Happy rOpenSci users can be found at'
+
+[Logo-of]
+  other = 'Logo of'
