@@ -8,7 +8,11 @@ Either way, the aim is code that explains itself without extra comments, and a s
 This helps the people who maintain the layouts and the people who add content and data (blog posts, events, team members, packages).
 
 When refactoring, keep the rendered output identical (see "Checking the output" below).
-The one exception is adding checks (see "Checks"): they change nothing for valid content, but mention them in your summary.
+There are two exceptions; mention them in your summary:
+
+- Adding checks (see "Checks"): they change nothing for valid content.
+- Whitespace that browsers collapse (indentation, blank lines), when keeping it would make the template harder to read, e.g. a shared partial whose callers were indented differently.
+  Never remove whitespace between inline elements entirely, which can change the rendering.
 
 ### Naming
 
@@ -76,6 +80,7 @@ Changing what an HTML layout shows may mean changing its other templates too, an
    Build a second time (`<scratch>/before2`) and `diff -rq` the two to see which files differ even without edits.
 2. After editing: `hugo --quiet -d <scratch>/after`, then `diff -rq <scratch>/before <scratch>/after`.
    For a refactoring, only the files that also differed in step 1 may differ.
+   For whitespace changes, compare with leading whitespace and blank lines removed: `sed 's/^\s*//' f | grep -v '^$'`.
    For a new layout, look at the new pages in all languages: en (the default) at the root, and `es/`, `fr/`, `pt/`, `tr/`.
 3. Some pages differ between any two builds, even without edits:
    - Pages that use `shuffle` (e.g. the brands fragments, `partials/team/people.html`, `software-review`, `citations`, `usecases`, `help-wanted`, `multilingual-publishing`).
