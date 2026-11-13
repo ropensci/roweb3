@@ -50,6 +50,7 @@ Existing examples:
 - `partials/calendar/check-ropensci-param.html`: a future event without a Boolean `ropensci` front matter parameter.
 - `partials/team/check-images.html`: a photo listed in `data/team/*.json` that is missing or not square.
 - `partials/blogs/check-dois.html`: two blog posts (in any language) sharing a DOI.
+- `partials/check-duplicate-urls.html`: two pages with the same URL (e.g. the same slug), called from `_default/baseof.html`.
 - `software-review/list.html`: editors in `data/team/team.json` without a `github`, `stats` or `generalreview` entry.
 
 Write the message for the person who edits the content, who may not read the layouts:
