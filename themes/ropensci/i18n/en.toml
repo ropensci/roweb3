@@ -417,3 +417,15 @@
 
 [Newsletter-previous]
   other = 'Find previous issues below. Newsletters until February 2021 are archived at <a href="https://news.ropensci.org">https://news.ropensci.org</a>.'
+
+[Join-the-community]
+  other = 'Join the community!'
+
+[Volunteer-title]
+  other = 'Volunteer for rOpenSci'
+
+[Volunteer-subtitle]
+  other = 'We welcome both code and non-code contributions. Read our <a href="https://contributing.ropensci.org/">Contributing Guide</a> to learn how.'
+
+[Illustration-credit]
+  other = 'Lydia Hill Illustration. All rights reserved.'

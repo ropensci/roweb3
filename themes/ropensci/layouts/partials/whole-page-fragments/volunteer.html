@@ -1,0 +1,31 @@
+{{- /*
+  Renders a divider and the call for volunteers, with the illustrations listed in data/peeps.
+  Context: a dict with "divider", the direction of the divider ("lr" or "rl").
+*/ -}}
+{{- $packagesURL := "/packages" -}}
+{{- with site.GetPage "/packages" }}{{ $packagesURL = .RelPermalink }}{{ end -}}
+{{ partial "whole-page-fragments/divider" .divider }}
+
+    <!-- Volunteer section -->
+    <section class="section section-volunteer">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2 class="title">{{ i18n "Volunteer-title" }}</h2>
+            <p class="subtitle">
+              
+{{ i18n "Volunteer-subtitle" | safeHTML }}
+
+            </p>
+            <ul class="volunteer-img">
+              {{ range $peep := hugo.Data.peeps.peeps }}
+              <li><img src="/images/volunteer/{{ $peep.img }}" alt="{{ $peep.alt }}." style="height:auto" /></li>
+              {{ end }}
+            </ul>
+              <p><small>{{ i18n "Illustration-credit" }}</small></p>
+            <a class="link-arrow volunteer-cta" href="{{ $packagesURL }}"><span>{{ i18n "View-all-packages" }}</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Divider -->
