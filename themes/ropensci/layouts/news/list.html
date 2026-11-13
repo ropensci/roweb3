@@ -14,10 +14,8 @@
       </div>
       <div class="col-md-9 subtitle">
       {{ .Params.description | markdownify }}  
-      {{ $formpartial := (partial "translate-path" (dict "name" "newsletter/form" "language" .Language.Lang )) }}
-      {{ partial $formpartial }} 
-      {{ $formerpartial := (partial "translate-path" (dict "name" "newsletter/previous" "language" .Language.Lang )) }}
-      {{ partial $formerpartial }}
+      {{ partial "newsletter/form.html" }}
+      {{ partial "newsletter/previous.html" }}
       
       </div>
     </div>

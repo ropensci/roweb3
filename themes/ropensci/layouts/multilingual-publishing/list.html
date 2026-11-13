@@ -45,7 +45,6 @@
     </section>
 {{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Language.Lang )) }}
 {{ partial $volunteerpartial  (dict "divider" "rl" "Site" .Site ) }}
-{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
-{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
+{{ partial "whole-page-fragments/newsletter.html" (dict "divider" "lr") }}
 {{ partial "whole-page-fragments/brands.html" (dict "divider" "rl") }}
 {{ end }}

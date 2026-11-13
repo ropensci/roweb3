@@ -1,0 +1,24 @@
+{{- /*
+  Renders a divider and the newsletter section: a short description, a link to the archive and the signup form.
+  Context: a dict with "divider", the direction of the divider ("lr" or "rl").
+*/ -}}
+{{- $archiveURL := "/news/" -}}
+{{- with site.GetPage "/news" }}{{ $archiveURL = .RelPermalink }}{{ end -}}
+{{ partial "whole-page-fragments/divider" .divider }}
+
+    <!-- Newsletter section -->
+    <section class="section section-newsletter d-print-none">
+      <div class="container">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-md-8">
+            <div class="newsletter">
+              <h4 class="title" id="by-email">{{ i18n "Newsletter-title" }}</h4>
+              <p class="subtitle md">
+                {{ i18n "Newsletter-subtitle" $archiveURL | safeHTML }}
+              </p>
+              {{ partial "newsletter/form.html" }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

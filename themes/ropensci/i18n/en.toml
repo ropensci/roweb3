@@ -408,3 +408,12 @@
 
 [Logo-of]
   other = 'Logo of'
+
+[Newsletter-title]
+  other = 'Our Newsletter'
+
+[Newsletter-subtitle]
+  other = 'A digest of R package and software review news, use cases, blog posts, and events, curated monthly. Subscribe to get it in your inbox, or check the <a href="{{ . }}">archive</a>.'
+
+[Newsletter-previous]
+  other = 'Find previous issues below. Newsletters until February 2021 are archived at <a href="https://news.ropensci.org">https://news.ropensci.org</a>.'
