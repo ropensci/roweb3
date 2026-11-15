@@ -48,7 +48,7 @@ I did recognise the value of being part of the R community, though, and joined t
 ## Brisbane 2016: just the beginning
 
 I moved to Australia for work in January 2016 and, as luck would have it, was living close enough to Brisbane to attend the rOpenSci Unconf in April.
-The event was organised by researchers at [QUT](https://www.qut.edu.au/), including [Nick Tierney](https://www.njtierney.com/bio.html), [Miles McBain](https://www.milesmcbain.com/) and [Jessie Roberts](https://bragqut.wordpress.com/members/jessie-roberts/).
+The event was organised by a group of researchers at [QUT](https://www.qut.edu.au/), including [Nick Tierney](https://www.njtierney.com/bio.html), [Miles McBain](https://www.milesmcbain.com/) and [Jessie Roberts](https://bragqut.wordpress.com/members/jessie-roberts/).
 
 As it happened, my first R package, {[GSODR](https://docs.ropensci.org/GSODR/)}, had just been accepted onto [CRAN](https://cran.r-project.org/package=GSODR).
 That was the fact I shared when introducing myself to the other attendees.
@@ -60,7 +60,7 @@ But the chance to bring Australian R users together to work on practical researc
 
 The format was very hands-on.
 We shared unfinished ideas, learned from one another and built things together.
-I found that a great way to learn, and it helped me gain confidence.
+I found this a great way to learn, and it helped me gain confidence.
 I was one of the few attendees with experience working with geospatial data and a particular interest in weather data, which led me to connect with [A/Prof Ivan Hanigan](https://ivanhanigan.github.io/about/).
 
 Ivan had some R code for downloading AWAP grids, [AWAP_GRIDS](https://github.com/swish-climate-impact-assessment/AWAP_GRIDS), and I was able to help improve it.
@@ -86,7 +86,7 @@ I went on to develop several other weather and climate-related packages, providi
 My team went on to [win the national Paddock to Plate Award](https://toowoombatrio.github.io/John_Conner/).
 
 Perhaps the best known of my rOpenSci packages, {[nasapower](https://docs.ropensci.org/nasapower/)}, had a longer history.
-I'd started working on it around 2011, but it really took shape during the peer-review process, when the [NASA-POWER](https://power.larc.nasa.gov/) team released a proper API.
+I'd started working on it around 2011, but it really took shape during the peer-review process, when the [NASA-POWER](https://power.larc.nasa.gov/) team released a dedicated API.
 I ended up rewriting the package from the ground up during the review.
 That taught me a great deal about working with REST APIs and testing code that depends on remote services.
 In particular, I learned to use {[vcr](https://docs.ropensci.org/vcr/)} to record and replay HTTP interactions, so tests could run without an internet connection.
@@ -102,7 +102,7 @@ I was delighted to have the chance to give something back to a group that had he
 I reviewed {[stats19](https://docs.ropensci.org/stats19/)} and {[bib2df](https://docs.ropensci.org/bib2df/)}.
 
 A few years later, I had a nice reminder of how these connections can come full circle.
-Nicholas Potter, whose package {[rnassqs](https://docs.ropensci.org/rnassqs/)} I'd reviewed, went on to review my package {[read.abares](https://docs.ropensci.org/read.abares/)}.
+I reviewed {[rnassqs](https://docs.ropensci.org/rnassqs/)} for [Nicholas Potter](https://econpotter.com/), who went on to review my package {[read.abares](https://docs.ropensci.org/read.abares/)}.
 
 Reviewing other people's packages also made me a better package developer.
 Seeing how other authors approached problems, and thinking carefully about their code and documentation, gave me a different perspective on my own work.
@@ -130,7 +130,7 @@ A lot of what I'd learned from rOpenSci shaped how we approached Open Plant Path
 For several years, we published blog posts with ideas, examples and code that others in plant pathology could use.
 We also developed an R package, {[hagis](https://cran.r-project.org/package=hagis)}, based on work that [Dr Austin McCoy](https://www.canr.msu.edu/people/austin_1) and [Dr Zachary Noel](https://agriculture.auburn.edu/directory/profile.php?id=zan0002) wanted to share with the wider community.
 
-In 2025, we decided to wind down Open Plant Pathology and focus our efforts elsewhere.
+In 2025, with changes in our jobs and difficulties engaging with the community, we decided to wind down Open Plant Pathology and focus our efforts elsewhere.
 For me, that included taking on a statistics editor role at rOpenSci, alongside my existing editorial responsibilities.
 
 Looking back, I think Open Plant Pathology worked in part because we had a good example to follow.
@@ -153,15 +153,23 @@ rOpenSci has been an important part of that for me, and has helped make research
 
 ## It's more than just software
 
-Some of my strongest memories of rOpenSci have little to do with packages or peer review.
+But when I think about what has kept me involved for ten years, it's not just what I've learned or the software I've helped develop.
+It's also the people I've met along the way.
 Attending the Unconf in 2016 was also the start of friendships and working relationships that have lasted ever since.
 
 Ivan Hanigan and I are now both on staff at Curtin University, where we continue to collaborate and find reasons to work together.
 Nick Tierney and I became friends, and when he moved to Perth, we spent plenty of time together taking photographs.
-Noam Ross and I have met several times to discuss disease-modelling ideas across plant, animal and human health.
-I value those conversations and wish we had more chances to have them.
-Maëlle Salmon has also been a great help in sorting out some particularly finicky time zone issues in weatherOz.
+[Noam Ross](https://www.noamross.net/) and I have met several times to discuss disease-modelling ideas across plant, animal and human health.
+I wish we had more opportunities for those conversations.
+[Maëlle Salmon](https://masalmon.eu/) has also been a great help in sorting out some particularly finicky time-zone issues in {weatherOz}.
 We spent a fair amount of time on a video call getting them sorted.
+[Sam Rogers](https://samrogers.website/) reviewed {weatherOz} for rOpenSci.
+We now work together on a large national project, have both contributed to the rOpenSci package {[nert](https://docs.ropensci.org/nert)}, and collaborate on other projects outside the R community.
+I'd also be remiss not to mention the people who helped build {bomrang} and later {weatherOz}.
+Several were also part of the rOpenSci community.
+They generously gave their time and expertise to these packages, often without me having to ask.
+Together, {bomrang} and {weatherOz} became some of the largest collaborative open-source projects I've worked on, and I'm indebted to everyone who contributed.
+Among those who contributed were [Mark Padgham](https://mpadge.eu/), [Hugh Parsonage](https://github.com/HughParsonage), [James Goldie](https://jamesgoldie.dev/), [Jono Carroll](https://jcarroll.com.au/) (who I first met in 2016 at the Unconf), [Dean Marchiori](https://www.deanmarchiori.com/), [Keith Pembleton](https://staffprofile.unisq.edu.au/Profile/Keith-Pembleton), [Paul Melloy](https://paulmelloy.com.au/), and of course, [Rodrigo Pires](https://github.com/bozaah) who maintains {weatherOz}.
 
 These relationships are a big part of why I've stayed involved.
 Wherever I find myself, there's a good chance there's someone from rOpenSci I can get in touch with for a coffee and a chat.
@@ -182,9 +190,11 @@ Reviewing is another good way to contribute.
 You'll learn a lot about your own coding by looking at someone else's work and thinking about how it could be improved.
 rOpenSci's review process is intended to be supportive, friendly and constructive, and that makes it worthwhile for authors and reviewers alike.
 
-Of course, rOpenSci has to keep adapting as the tools and practices of research software development change.
-New technologies bring opportunities, but also questions about how to maintain quality, support contributors and keep peer review useful.
-Those questions matter, particularly as the demands on editors and reviewers grow.
+From my perspective as an editor, rOpenSci needs to keep adapting as the tools and practices of research software development change, as it has done throughout its history.
+New technologies bring opportunities, but also questions about how to maintain quality, support contributors and keep peer review useful, particularly as the demands on editors and reviewers grow.
+
+Whatever changes, I think the community will remain central to rOpenSci's work.
+If we keep that focus, we'll continue to serve the needs of the R community.
 
 I hope rOpenSci can make the most of what's changing without losing the things that made me want to be involved in the first place: thoughtful reviews, useful feedback and people who are willing to help one another do better work.
 After ten years, that's what stands out to me.
