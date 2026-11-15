@@ -5,7 +5,7 @@ author:
   - Adam H. Sparks
 editor:
   - Editor Name1 # Name(s) of the editor(s) of your post (you can leave empty)
-date: 2020-03-10 # Expected date of publication
+date: 2026-11-?? # Expected date of publication
 # Minimal tags for a post about a community-contributed package
 # that has passed software peer review are listed below.
 # Consult the Technical Guidelines for information on choosing additional tags
@@ -45,21 +45,22 @@ During the five years I lived and worked there, I became familiar with its packa
 I was interested in what rOpenSci was doing, but wasn't sure how I might get involved.
 I did recognise the value of being part of the R community, though, and joined the Manila R User Group.
 
-## Brisbane 2016 – just the beginning
+## Brisbane 2016: just the beginning
 
-In January 2016, I'd moved to Australia for work and, as luck would have it, was living close enough to Brisbane to attend the rOpenSci Unconf in April.
+I moved to Australia for work in January 2016 and, as luck would have it, was living close enough to Brisbane to attend the rOpenSci Unconf in April.
 The event was organised by researchers at [QUT](https://www.qut.edu.au/), including [Nick Tierney](https://www.njtierney.com/bio.html), [Miles McBain](https://www.milesmcbain.com/) and [Jessie Roberts](https://bragqut.wordpress.com/members/jessie-roberts/).
 
-As it happened, my first R package, [GSODR](https://docs.ropensci.org/GSODR/), had just been accepted onto [CRAN](https://cran.r-project.org/package=GSODR).
-That became my quick fact when introducing myself to the other attendees.
+As it happened, my first R package, {[GSODR](https://docs.ropensci.org/GSODR/)}, had just been accepted onto [CRAN](https://cran.r-project.org/package=GSODR).
+That was the fact I shared when introducing myself to the other attendees.
 I was an experienced researcher and R user, but still very much a newcomer to developing and publishing R packages.
 
 I was nervous about attending.
 I was new to Australia and had never been to an event quite like it.
 But the chance to bring Australian R users together to work on practical research problems was exciting, and I soon settled in.
 
-The format was very hands-on: sharing unfinished ideas, learning from one another and building things together.
-It helped me gain confidence.
+The format was very hands-on.
+We shared unfinished ideas, learned from one another and built things together.
+I found that a great way to learn, and it helped me gain confidence.
 I was one of the few attendees with experience working with geospatial data and a particular interest in weather data, which led me to connect with [A/Prof Ivan Hanigan](https://ivanhanigan.github.io/about/).
 
 Ivan had some R code for downloading AWAP grids, [AWAP_GRIDS](https://github.com/swish-climate-impact-assessment/AWAP_GRIDS), and I was able to help improve it.
@@ -68,7 +69,7 @@ I also contributed [a vignette describing how to work with Australian weather da
 It was the first time I felt I had something useful to contribute to a wider group of R users, including people I'd never met before.
 I came away from Brisbane with a much better sense of what I could do and who I could do it with.
 
-## From an idea to a package – learning to develop openly
+## From an idea to a package: learning to develop openly
 
 After the Unconf, I returned home and soon submitted GSODR to rOpenSci for [software peer review](https://github.com/ropensci/software-review/issues/79).
 
@@ -76,35 +77,37 @@ I'd already seen how welcoming the people involved were, and I understood the va
 Now I had the chance to go through that process with code.
 I'd written a few R packages for internal use, but nothing intended for a wider audience.
 
-The feedback from the editors and reviewers made the package better.
-Their comments helped sharpen its focus and improve its reproducibility and robustness.
+The feedback from the editors and reviewers helped sharpen the package's focus and improve its reproducibility and robustness.
 I also began to understand that making a package available to other people involved rather more than getting data from an API (or, in those days, FTP) and wrangling it into a usable format.
 Good documentation, testing and a willingness to keep maintaining the package as data sources and the R ecosystem changed were just as important.
 
 I went on to develop several other weather and climate-related packages, providing access to a range of data sources.
-[getCRUCLdata](https://docs.ropensci.org/getCRUCLdata/) grew out of scripts I'd written for my PhD research, while [bomrang](https://github.com/ropensci-archive/bomrang) (now superseded by [weatherOz](https://docs.ropensci.org/weatherOz/)) grew out of ideas from the Brisbane Unconf and the 2016 GovHack Hackathon.
+{[getCRUCLdata](https://docs.ropensci.org/getCRUCLdata/)} grew out of scripts I'd written for my PhD research, while {[bomrang](https://github.com/ropensci-archive/bomrang)} (now superseded by {[weatherOz](https://docs.ropensci.org/weatherOz/)}) grew out of ideas from the Brisbane Unconf and the 2016 GovHack Hackathon.
 My team went on to [win the national Paddock to Plate Award](https://toowoombatrio.github.io/John_Conner/).
 
-Perhaps the best known of my rOpenSci packages, [nasapower](https://docs.ropensci.org/nasapower/), had a longer history.
+Perhaps the best known of my rOpenSci packages, {[nasapower](https://docs.ropensci.org/nasapower/)}, had a longer history.
 I'd started working on it around 2011, but it really took shape during the peer-review process, when the [NASA-POWER](https://power.larc.nasa.gov/) team released a proper API.
 I ended up rewriting the package from the ground up during the review.
 That taught me a great deal about working with REST APIs and testing code that depends on remote services.
-In particular, I learned to use [vcr](https://docs.ropensci.org/vcr/) to record and replay HTTP interactions, so tests could run without an internet connection.
+In particular, I learned to use {[vcr](https://docs.ropensci.org/vcr/)} to record and replay HTTP interactions, so tests could run without an internet connection.
 
 Since then, much of my package development has been about making data easier for other researchers to access.
 One of the best parts of that work is hearing from a student who has finally been able to get the data they need after struggling to find it or work out how to access it.
 It's a good reminder of why I started doing this in the first place.
 
-## From contributor to reviewer – giving back
+## From contributor to reviewer: giving back
 
 In 2019, I was invited to review packages for rOpenSci.
 I was delighted to have the chance to give something back to a group that had helped me so much.
-I reviewed [stats19](https://docs.ropensci.org/stats19/), [rnassqs](https://docs.ropensci.org/rnassqs/) and [bib2df](https://docs.ropensci.org/bib2df/).
+I reviewed {[stats19](https://docs.ropensci.org/stats19/)} and {[bib2df](https://docs.ropensci.org/bib2df/)}.
+
+A few years later, I had a nice reminder of how these connections can come full circle.
+Nicholas Potter, whose package {[rnassqs](https://docs.ropensci.org/rnassqs/)} I'd reviewed, went on to review my package {[read.abares](https://docs.ropensci.org/read.abares/)}.
 
 Reviewing other people's packages also made me a better package developer.
 Seeing how other authors approached problems, and thinking carefully about their code and documentation, gave me a different perspective on my own work.
 
-In 2021, Noam Ross invited me to serve as a guest editor for [allodb](https://github.com/ropensci/software-review/issues/4360).
+In 2021, Noam Ross invited me to serve as a guest editor for {[allodb](https://github.com/ropensci/software-review/issues/4360)}.
 I was surprised, but grateful, and accepted.
 I stumbled a little while learning to use the rOpenSci bot and manage the submission, but it was a valuable experience.
 The authors learned, I learned, and the package came out of the process in better shape.
@@ -116,25 +119,25 @@ Since then, I've been able to contribute beyond my own packages, supporting auth
 I particularly value rOpenSci's approach to working together and its [Code of Conduct](https://ropensci.org/code-of-conduct/), which sets clear expectations for everyone involved.
 Being on the editorial board has also helped me keep up with changing standards in research software, while giving me the chance to help make the process welcoming rather than intimidating for new contributors.
 
-## Beyond packages – building a wider open science community
+## Beyond packages: building a wider open science community
 
 rOpenSci's influence on my work hasn't stopped at package development or editorial duties.
 
-In 2018, Dr Emerson Del Ponte and I founded the [Open Plant Pathology community](https://openplantpathology.netlify.app/).
-We saw a need in the global plant pathology community much like the one rOpenSci had addressed for R users: somewhere people could share ideas, data and code, and help one another, wherever they happened to be in the world.
+In 2018, [Dr Emerson Del Ponte](https://emersondelponte.com/) and I founded the [Open Plant Pathology community](https://openplantpathology.netlify.app/).
+We saw a need in the global plant pathology community much like the one rOpenSci had addressed for R users: a place where people could share ideas, data and code, and help one another, wherever they happened to be in the world.
 
 A lot of what I'd learned from rOpenSci shaped how we approached Open Plant Pathology.
 For several years, we published blog posts with ideas, examples and code that others in plant pathology could use.
-We also developed an R package, [hagis](https://cran.r-project.org/package=hagis), based on work that [Dr Austin McCoy](https://www.canr.msu.edu/people/austin_1) and [Dr Zachary Noel](https://agriculture.auburn.edu/directory/profile.php?id=zan0002) wanted to share with the wider community.
+We also developed an R package, {[hagis](https://cran.r-project.org/package=hagis)}, based on work that [Dr Austin McCoy](https://www.canr.msu.edu/people/austin_1) and [Dr Zachary Noel](https://agriculture.auburn.edu/directory/profile.php?id=zan0002) wanted to share with the wider community.
 
-In 2025, we decided to wind down Open Plant Pathology and put our time into other things.
+In 2025, we decided to wind down Open Plant Pathology and focus our efforts elsewhere.
 For me, that included taking on a statistics editor role at rOpenSci, alongside my existing editorial responsibilities.
 
 Looking back, I think Open Plant Pathology worked in part because we had a good example to follow.
 rOpenSci had shown us that the value of a community isn't just in the software or other technical contributions people make.
 It's also in the relationships people build, and in having a place where they can share their work and help one another improve it.
 
-## Ten years on – what rOpenSci has meant
+## Ten years on: what rOpenSci has meant
 
 A lot has changed over the past ten years.
 I've had three jobs and lived in two Australian states.
@@ -153,17 +156,17 @@ rOpenSci has been an important part of that for me, and has helped make research
 Some of my strongest memories of rOpenSci have little to do with packages or peer review.
 Attending the Unconf in 2016 was also the start of friendships and working relationships that have lasted ever since.
 
-Ivan Hanigan and I are now both on the staff at Curtin University, where we continue to collaborate and find reasons to work together.
+Ivan Hanigan and I are now both on staff at Curtin University, where we continue to collaborate and find reasons to work together.
 Nick Tierney and I became friends, and when he moved to Perth, we spent plenty of time together taking photographs.
-Noam Ross and I have met several times to discuss disease-modelling ideas, sharing knowledge across plant, animal and human health.
-I value those conversations greatly, and wish I had more opportunities for them.
-Maëlle Salmon has also been a great help in sorting out some particularly finicky timezone issues in weatherOz.
-We spent a fair amount of time on a video call working through them until we got things sorted.
+Noam Ross and I have met several times to discuss disease-modelling ideas across plant, animal and human health.
+I value those conversations and wish we had more chances to have them.
+Maëlle Salmon has also been a great help in sorting out some particularly finicky time zone issues in weatherOz.
+We spent a fair amount of time on a video call getting them sorted.
 
 These relationships are a big part of why I've stayed involved.
 Wherever I find myself, there's a good chance there's someone from rOpenSci I can get in touch with for a coffee and a chat.
 
-## Looking forward – an invitation to get involved
+## Looking forward: an invitation to get involved
 
 If there's one thing I'd say after ten years, it's don't be afraid to get involved.
 
