@@ -3,97 +3,91 @@
 
         <div class="row justify-content-between event-detail-content">
           <div class="col-md-8 offset-md-1">
-            {{ with .Params.vimeo }}
+            {{ range $video := .Params.vimeo }}
             <div class="mb-4" style="padding: 56.25% 0 0 0; position: relative;">
-              {{ range . }}
               <iframe
-                src="https://player.vimeo.com/video/{{ .id }}"
-                width="640" height="360" 
+                src="https://player.vimeo.com/video/{{ $video.id }}"
+                width="640" height="360"
                 style="position: absolute; top: 0; left: 0; max-width: 100%; max-height: 100%;"
                 frameborder="0"
                 allow="autoplay; fullscreen"
                 allowfullscreen
               ></iframe>
-            <script src="https://player.vimeo.com/api/player.js"></script>
-                    </div> 
-                    {{ end }}
-                    {{ end }}
-                    <div class="content">
-            {{ .Content | markdownify }}
-            {{ if eq .Content "" }}
-            {{ with .Params.description }}
-            {{ . | markdownify }}
+              <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
             {{ end }}
-            {{ end }}
-                   </div>
+            <div class="content">
+              {{ .Content | markdownify }}
+              {{ if eq .Content "" }}
+              {{ with .Params.description }}
+              {{ . | markdownify }}
+              {{ end }}
+              {{ end }}
+            </div>
             {{ with .Params.speakers }}
-<div class="speakers">
+            <div class="speakers">
               <h2 class="title">
                 {{ i18n "Speakers" }}
               </h2>
               <div class="speakers-wrapper">
-                {{ range . }}
+                {{ range $speaker := . }}
                 <div class="speakers-item">
                   <div class="row">
                     <div class="col-md-3">
                       <figure>
-                      <img src="{{ .img }}" alt="Portrait of {{ .name }}" />
-                      <figcaption>{{ .name }}</figcaption>
+                        <img src="{{ $speaker.img }}" alt="Portrait of {{ $speaker.name }}" />
+                        <figcaption>{{ $speaker.name }}</figcaption>
                       </figure>
                     </div>
                     <div class="col-md-9">
                       <p>
-                      {{ .bio | markdownify }}
+                        {{ $speaker.bio | markdownify }}
                       </p>
                     </div>
                   </div>
                 </div>
-           {{ end }}
+                {{ end }}
               </div>
             </div>
-{{ end }}
-           
-                  {{ if (or .Params.resources .Params.notes .Params.blog false) }}
+            {{ end }}
+
+            {{ if or .Params.resources .Params.notes .Params.blog }}
             <div class="event-resources content">
               <h4 class="title">{{ i18n "Resources" }}</h4>
               <ul class="resources-list">
-                 
                 {{ with .Params.notes }}
                 <li>
                   <a href="{{ . }}">{{ i18n "Collaborative-notes" }}</a>
                 </li>
                 {{ end }}
-                  {{ with .Params.resources }}
-                  {{ range . }}
+                {{ range $resource := .Params.resources }}
                 <li>
-                  <a href="{{ .url }}">{{ .name }}</a>{{ with .details }}, {{ . }}{{ end }}
+                  <a href="{{ $resource.url }}">{{ $resource.name }}</a>{{ with $resource.details }}, {{ . }}{{ end }}
                 </li>
-                  {{ end }}
-                  {{ end }}
+                {{ end }}
                 {{ with .Params.blog }}
                 <li>
-                  <a href="{{ . }}">Announcement blog post</a>
+                  <a href="{{ . }}">{{ i18n "Announcement-blog-post" }}</a>
                 </li>
                 {{ end }}
               </ul>
             </div>
             {{ end }}
-            
           </div>
-          
+
           <div class="col-md-2">
             <div class="field-under">
               <span>{{ i18n "Filed-under" }}</span>
               <ul class="post-tags">
-                {{ range .Params.tags }}
-          <li><a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a></li>
-        {{ end }}
+                {{ range $tag := .Params.tags }}
+                <li><a href="{{ printf "tags/%s" (urlize $tag) | relLangURL }}" class="tag">{{ $tag }}</a></li>
+                {{ end }}
               </ul>
             </div>
-      <div class="field-under mt-4">
-        <span>{{ i18n "Share" }}</span>
-        {{ partial "share-links.html" . }}
-      </div>
+            <div class="field-under mt-4">
+              <span>{{ i18n "Share" }}</span>
+              {{ partial "share-links.html" . }}
+            </div>
           </div>
         </div>
       </div>

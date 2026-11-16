@@ -436,3 +436,6 @@
 
 [r-universe-series-note]
   other = '''Este post es parte de una serie de artículos sobre <a lang="en" href="https://r-universe.dev">r-universe</a>, un nuevo proyecto marco de rOpenSci bajo el cual experimentamos con varias ideas para mejorar la publicación y el descubrimiento de software de investigación en R. A medida que el proyecto evolucione, publicaremos actualizaciones para documentar características y detalles técnicos. Para más información, visita la <a lang="en" href="/r-universe/">página del proyecto r-universe</a>.'''
+
+[Announcement-blog-post]
+  other = 'Artículo de blog de anuncio'
