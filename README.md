@@ -26,7 +26,7 @@ To compare two builds locally:
 HUGO_PARAMS_DETERMINISTIC=true hugo --quiet -d /tmp/before
 # make your changes
 HUGO_PARAMS_DETERMINISTIC=true hugo --quiet -d /tmp/after
-scripts/html-diff.sh /tmp/before /tmp/after /tmp/html-diff # see /tmp/html-diff/summary.md
+Rscript scripts/html-diff.R /tmp/before /tmp/after /tmp/html-diff # see /tmp/html-diff/summary.md
 ```
 
 `HUGO_PARAMS_DETERMINISTIC=true` turns off the random order of brands, people, etc.: use `partial "shuffle.html"` rather than `shuffle` in layouts.

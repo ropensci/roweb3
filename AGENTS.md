@@ -82,7 +82,7 @@ Build with `HUGO_PARAMS_DETERMINISTIC=true`, which makes `partial "shuffle.html"
 In layouts, use `partial "shuffle.html"` rather than `shuffle`, or that page will differ between any two builds.
 
 1. Before editing: `HUGO_PARAMS_DETERMINISTIC=true hugo --quiet -d <scratch>/before`.
-2. After editing: the same with `-d <scratch>/after`, then `scripts/html-diff.sh <scratch>/before <scratch>/after <scratch>/html-diff`.
+2. After editing: the same with `-d <scratch>/after`, then `Rscript scripts/html-diff.R <scratch>/before <scratch>/after <scratch>/html-diff`.
    It writes `summary.md` (changed, added and removed files, and each distinct change once with the number of pages it affects) and `full.diff`.
    It ignores leading and trailing whitespace, blank lines, keyword meta lines, tag pages and sitemaps: tag names vary between builds.
    For a refactoring, the summary must show no change, or only the exceptions listed at the top.

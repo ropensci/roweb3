@@ -25,7 +25,7 @@ jobs:
     env:
       HUGO_PARAMS_DETERMINISTIC: "true"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0 # Git info (page dates) needs the history
 
@@ -37,24 +37,28 @@ jobs:
             "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_extended_${version}_linux-amd64.deb"
           sudo dpkg -i "$RUNNER_TEMP/hugo.deb"
 
+      - uses: r-lib/actions/setup-r@v2
+
+      # The PR is checked out merged into the current base branch,
+      # so compare with the current base branch (the event's base.sha can be stale).
       - name: Check out the base branch next to the PR
-        run: git worktree add "$RUNNER_TEMP/base-src" "${{ github.event.pull_request.base.sha }}"
+        run: git worktree add "$RUNNER_TEMP/base-src" "origin/${{ github.base_ref }}"
 
       # Both builds share the cache folder, so remote data (r-universe, citations)
       # is downloaded once and is the same in both.
       - name: Build the base branch
         working-directory: ${{ runner.temp }}/base-src
-        run: hugo --quiet --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/base"
+        run: hugo --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/base"
 
       - name: Build the PR
-        run: hugo --quiet --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/head"
+        run: hugo --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/head"
 
       - name: Compare
         run: |
-          scripts/html-diff.sh "$RUNNER_TEMP/base" "$RUNNER_TEMP/head" "$RUNNER_TEMP/html-diff"
+          Rscript scripts/html-diff.R "$RUNNER_TEMP/base" "$RUNNER_TEMP/head" "$RUNNER_TEMP/html-diff"
           cat "$RUNNER_TEMP/html-diff/summary.md" >> "$GITHUB_STEP_SUMMARY"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: html-diff
           path: ${{ runner.temp }}/html-diff/
@@ -66,7 +70,7 @@ jobs:
         run: |
           run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           {
-            sed -n '3p' "$RUNNER_TEMP/html-diff/summary.md"
+            cat "$RUNNER_TEMP/html-diff/comment.md"
             echo
             echo "Details: [job summary and full diff]($run_url) (commit ${{ github.event.pull_request.head.sha }})."
           } > "$RUNNER_TEMP/comment.md"
