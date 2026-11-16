@@ -3,7 +3,7 @@ title = "Código de Conduta (versão em Português)"
 translationKey = "code-of-conduct"
 slug = "código-de-conduta"
 description = "Código de Conduta da rOpenSci"
-subtitle = "Versão 2.5 - 30 de janeiro de 2024"
+subtitle = "Versão 2.6 – 21 de outubro de 2026"
 +++
 
 _The Code of Conduct is also available in [English](/code-of-conduct)._

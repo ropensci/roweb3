@@ -1,7 +1,7 @@
 +++
 title = "Code of Conduct (English version)"
 description = "rOpenSci Code of Conduct"
-subtitle = "Version 2.5 – January 30, 2024"
+subtitle = "Version 2.6 - October 21, 2026"
 +++
 
 _El código de conducta también está disponible en [español](/es/código-de-conducta/)._
