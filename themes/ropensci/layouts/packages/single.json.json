@@ -7,9 +7,9 @@
 {{ end }}
 {{ $len := (len ($Scratch.Get "pkgs"))}}
 {{ range $key, $value := ($Scratch.Get "pkgs") }}
-{{ $maintainer := partial "accents/remove" (dict "string" ($value.Maintainer | replaceRE " <.*" "") "Site" site )  }}
-{{ $details := partial "accents/remove" (dict "string" $value.Description "Site" site )  }}
-{{ $keywords := partial "accents/remove" (dict "string" ( delimit ( default $value._topics (slice "" ) ) "," ) "Site" site )  }}
+{{ $maintainer := partial "accents/remove" ($value.Maintainer | replaceRE " <.*" "")  }}
+{{ $details := partial "accents/remove" $value.Description  }}
+{{ $keywords := partial "accents/remove" (delimit (default $value._topics (slice "")) ",")  }}
  {{ dict "name" $value.Package "maintainer" $maintainer "description" $value.Title "details" $details "keywords" $keywords |  jsonify }}
  {{ if (lt $key ( sub $len 1 ) )}}, {{ end }}
  {{ end }}]

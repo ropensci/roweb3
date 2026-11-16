@@ -1,10 +1,11 @@
-{{ $Scratch := newScratch }}
-{{ $Scratch.Set "status" "active" }}
-{{ if (eq (len  (findRE "ropenscilabs" .package.url )) 1) }}
-{{ $Scratch.Set "status" "experimental" }}
-{{ else }}
-  {{ if (eq (len  (findRE "ropensci-archive" .package.url )) 1) }}
-  {{ $Scratch.Set "status" "archived" }}
-  {{ end }}
-{{ end }}
-{{ return ($Scratch.Get "status") }}
+{{- /*
+  Returns a package's status from its repository URL: "experimental" (ropenscilabs), "archived" (ropensci-archive) or "active".
+  Context: the package's repository URL.
+*/ -}}
+{{- $result := "active" -}}
+{{- if eq (len (findRE "ropenscilabs" .)) 1 -}}
+  {{- $result = "experimental" -}}
+{{- else if eq (len (findRE "ropensci-archive" .)) 1 -}}
+  {{- $result = "archived" -}}
+{{- end -}}
+{{- return $result -}}
