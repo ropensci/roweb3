@@ -4,8 +4,10 @@
   Fails the build when assets/_snippets/<name>.<lang>.md does not exist.
 */ -}}
 {{- $snippetPath := printf "_snippets/%s.%s.md" .name .lang -}}
+{{- $result := "" -}}
 {{- with resources.Get $snippetPath -}}
-  {{- return (.Content | markdownify) -}}
+  {{- $result = .Content | markdownify -}}
 {{- else -}}
   {{- errorf "Snippet %q not found for language %q: add the file themes/ropensci/assets/%s." .name .lang $snippetPath -}}
 {{- end -}}
+{{- return $result -}}
