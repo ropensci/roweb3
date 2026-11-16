@@ -63,6 +63,7 @@ Write the message for the person who edits the content, who may not read the lay
 Put the check next to what it protects (e.g. right after the list of known values), and mention it in the partial's header comment ("Fails the build for ...").
 
 Test a new check both ways: the current site must still build, and a broken throwaway copy of the site (in the scratchpad, never the repository) must fail with the message.
+Delete that copy and its build afterwards (see "Checking the output").
 Build without `--quiet`, which hides the message.
 
 ### Comments
@@ -88,7 +89,9 @@ In layouts, use `partial "shuffle.html"` rather than `shuffle`, or that page wil
    For a refactoring, the summary must show no change, or only the exceptions listed at the top.
    For a new layout, also look at the new pages in all languages: en (the default) at the root, and `es/`, `fr/`, `pt/`, `tr/`.
 3. Pages that use `now` (future events, the current EiC) can differ if the two builds straddle a date change.
-4. Don't commit; leave the changes for review.
+4. Delete the build folders (`before`, `after`) and any throwaway copy of the site as soon as you have read the results: each build is about 700 MB, and a few dozen fill the disk.
+   Keep only what you reuse, e.g. the downloaded Hugo binary.
+5. Don't commit; leave the changes for review.
 
 The same comparison runs on GitHub for PRs with the `check-html-diff` label (`.github/workflows/html-diff.yml`).
 It builds the PR (merged into its base branch) and the base branch with Netlify's Hugo version, and posts the summary as the job summary, the full diff as the `html-diff` artifact, and the counts as a PR comment (not for PRs from forks).
