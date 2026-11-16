@@ -35,7 +35,15 @@
            {{ end }}
          {{ end }}
          {{ if ne (.Scratch.Get "runiverse") "" }}
-           {{ $runivapi := (resources.GetRemote "https://r-universe.dev/stats/everyone") | unmarshal }}
+           {{ $runivapi := dict "universes" (slice) "maintainers" (slice) }}
+           {{ $runivapiURL := "https://r-universe.dev/stats/everyone" }}
+           {{ with try (resources.GetRemote $runivapiURL) }}
+             {{ with .Err }}
+               {{ warnf "Could not download %s, so author pages have no r-universe link: %s" $runivapiURL . }}
+             {{ else with .Value }}
+               {{ $runivapi = . | unmarshal }}
+             {{ end }}
+           {{ end }}
            {{ $runiverses := (union $runivapi.universes $runivapi.maintainers )}}
            {{ if in $runiverses (.Scratch.Get "runiverse") }}
              <a href="https://{{ (.Scratch.Get "runiverse") }}.r-universe.dev"> <i class="fas fa-rocket"></i></a>
