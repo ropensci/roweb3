@@ -36,7 +36,7 @@ There are two exceptions; mention them in your summary:
   A "same as in other-file.html" comment is a sign of duplication.
 - Pass a partial what it needs and nothing more: a partial that can compute something from its argument (anything it can derive from the page) should not ask callers for it.
 - `return` needs a single value: wrap pipelines, `{{- return (a | b) -}}`.
-- Put `return` only at the top level of a partial, as its last action: Hugo 0.163.3 (used by Netlify) rejects it inside `if`, `with` or `range`.
+- Put `return` only at the top level of a partial, as its last action: older Hugo versions (e.g. 0.163.3) reject it inside `if`, `with` or `range`, which broke a Netlify build.
   Assign the value to `$result` in the branches and return it at the end.
 - Keep the defensive bits that look redundant unless you check them.
   For example, `merge` lowercases dict keys, so `index $d "A/Url"` finds nothing afterwards (checked with Hugo 0.166): hash such keys with `md5` and name them (`$dedupKey`).
