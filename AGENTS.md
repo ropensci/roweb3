@@ -77,16 +77,19 @@ Changing what an HTML layout shows may mean changing its other templates too, an
 
 ### Checking the output
 
-1. Before editing, build to the scratchpad: `hugo --quiet -d <scratch>/before`.
-   Build a second time (`<scratch>/before2`) and `diff -rq` the two to see which files differ even without edits.
-2. After editing: `hugo --quiet -d <scratch>/after`, then `diff -rq <scratch>/before <scratch>/after`.
-   For a refactoring, only the files that also differed in step 1 may differ.
-   For whitespace changes, compare with leading whitespace and blank lines removed: `sed 's/^\s*//' f | grep -v '^$'`.
-   For a new layout, look at the new pages in all languages: en (the default) at the root, and `es/`, `fr/`, `pt/`, `tr/`.
-3. Some pages differ between any two builds, even without edits:
-   - Pages that use `shuffle` (e.g. the brands fragments, `partials/team/people.html`, `software-review`, `citations`, `usecases`, `help-wanted`, `multilingual-publishing`).
-     Compare those files with `diff <(sort before/f) <(sort after/f)`: they must have the same lines.
-     Sorting hides reordering, so also compare the parts with a fixed order unsorted.
-     Pages that show a random subset (`first 3 (shuffle ...)`) can only be compared outside that subset.
-   - Pages that use `now` (future events, the current EiC) depend on the build date.
+Build with the Hugo version Netlify uses (`HUGO_VERSION` in `netlify.toml`), which may be older than your local one: download it to the scratchpad if needed.
+Build with `HUGO_PARAMS_DETERMINISTIC=true`, which makes `partial "shuffle.html"` keep the original order, so that two builds of the same code give the same pages.
+In layouts, use `partial "shuffle.html"` rather than `shuffle`, or that page will differ between any two builds.
+
+1. Before editing: `HUGO_PARAMS_DETERMINISTIC=true hugo --quiet -d <scratch>/before`.
+2. After editing: the same with `-d <scratch>/after`, then `scripts/html-diff.sh <scratch>/before <scratch>/after <scratch>/html-diff`.
+   It writes `summary.md` (changed, added and removed files, and each distinct change once with the number of pages it affects) and `full.diff`.
+   It ignores leading and trailing whitespace, blank lines, keyword meta lines, tag pages and sitemaps: tag names vary between builds.
+   For a refactoring, the summary must show no change, or only the exceptions listed at the top.
+   For a new layout, also look at the new pages in all languages: en (the default) at the root, and `es/`, `fr/`, `pt/`, `tr/`.
+3. Pages that use `now` (future events, the current EiC) can differ if the two builds straddle a date change.
 4. Don't commit; leave the changes for review.
+
+The same comparison runs on GitHub for PRs with the `check-html-diff` label (`.github/workflows/html-diff.yml`).
+It builds the PR (merged into its base branch) and the base branch with Netlify's Hugo version, and posts the summary as the job summary, the full diff as the `html-diff` artifact, and the counts as a PR comment (not for PRs from forks).
+Suggest adding the label to PRs that change layouts, and check its summary against what you expected to change.
