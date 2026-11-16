@@ -16,13 +16,14 @@
 {{- end -}}
 {{ partial "calendar/check-ropensci-param.html" . }}
 {{ $tz := default "UTC" .Params.displaytz }}
+{{ $start := time .Params.dateStart | time.In $tz }}
+{{ $end := time .Params.dateEnd | time.In $tz }}
 <section class="section event-detail">
   <div class="container bg-cubes">
     <div class="row">
       <div class="col-md-8">
         <div class="event-detail-date">
-          {{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
-            dateFormat ":date_medium" }} {{ (time .Params.dateStart) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})
+          {{ $start | dateFormat "Monday" }} {{ $start | dateFormat ":date_medium" }} {{ $start | dateFormat "15:04" }} ({{ $tz }})
         </div>
         <h1>{{ .Title | markdownify }}</h1>
         <div class="event-detail-author">
@@ -38,17 +39,15 @@
             <div class="row justify-content-between mb-2">
               <div class="col-auto mr-auto">
                 <p>
-                  🕓 <strong>{{ (time .Params.dateStart) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateStart) | time.In $tz |
-                    dateFormat ":date_medium" }} {{ (time .Params.dateStart) | time.In $tz | dateFormat "15:04" }}
+                  🕓 <strong>{{ $start | dateFormat "Monday" }} {{ $start | dateFormat ":date_medium" }} {{ $start | dateFormat "15:04" }}
                     {{ if (ne (.Params.dateEnd | dateFormat ":date_short" ) (.Params.dateStart | dateFormat
                     ":date_short"))}}
                   </strong></p>
                   <p>
-                    🕓 <strong>{{ (time .Params.dateEnd) | time.In $tz | dateFormat "Monday" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat
-                    ":date_medium" }} {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})</strong>
+                    🕓 <strong>{{ $end | dateFormat "Monday" }} {{ $end | dateFormat ":date_medium" }} {{ $end | dateFormat "15:04" }} ({{ $tz }})</strong>
                   </p>
                     {{ else }}
-                    - {{ (time .Params.dateEnd) | time.In $tz | dateFormat "15:04" }} ({{ $tz }})</strong></p>
+                    - {{ $end | dateFormat "15:04" }} ({{ $tz }})</strong></p>
                     {{ end }}
               </div>
               </div>
@@ -72,9 +71,7 @@
                         <span>Find your timezone</span>
                       </a>
                     </li>
-                    {{ if and ( ge (time .Params.dateEnd).Local now.Local ) ( isset .Params "deets" ) }}
                     <li>
-                      {{ end }}
                       <a href="index.ics">
                         <i class="fas fa-calendar-plus"></i>
                         <span>iCal</span>
