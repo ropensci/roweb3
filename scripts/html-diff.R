@@ -12,7 +12,8 @@
 #   - tag pages (tags/) and sitemaps, whose tag names and order vary;
 #   - keyword meta lines, which list tag names;
 #   - leading/trailing whitespace and blank lines.
-# Base R only, plus the system's diff.
+# JSON files are compared after reformatting with jq (sorted keys, one value per line), so layout changes don't show.
+# Base R only, plus the system's diff and jq.
 
 max_changes_shown <- 20
 max_lines_per_change <- 40
@@ -24,8 +25,16 @@ site_files <- function(build_dir) {
 }
 
 normalized_lines <- function(path) {
-  lines <- trimws(readLines(path, warn = FALSE, encoding = "UTF-8"))
+  lines <- if (endsWith(path, ".json")) json_lines(path) else readLines(path, warn = FALSE, encoding = "UTF-8")
+  lines <- trimws(lines)
   lines[nzchar(lines) & !grepl('itemprop="keywords"|name="keywords"|property="article:tag"', lines)]
+}
+
+# A JSON file reformatted with sorted keys and one value per line, so that only changes to the data show,
+# not to its layout. Falls back to the file's own lines when it isn't valid JSON.
+json_lines <- function(path) {
+  formatted <- suppressWarnings(system2("jq", c("-S", ".", shQuote(path)), stdout = TRUE, stderr = FALSE))
+  if (is.null(attr(formatted, "status"))) formatted else readLines(path, warn = FALSE, encoding = "UTF-8")
 }
 
 run_diff <- function(base_lines, head_lines, context, labels) {

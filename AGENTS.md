@@ -91,6 +91,7 @@ In layouts, use `partial "shuffle.html"` rather than `shuffle`, or that page wil
 2. After editing: the same with `-d <scratch>/after`, then `Rscript scripts/html-diff.R <scratch>/before <scratch>/after <scratch>/html-diff`.
    It writes `summary.md` (changed, added and removed files, and each distinct change once with the number of pages it affects) and `full.diff`.
    It ignores leading and trailing whitespace, blank lines, keyword meta lines, tag pages and sitemaps: tag names vary between builds.
+   It compares JSON files after reformatting them with `jq` (sorted keys, one value per line), so a change to their layout alone shows as no change.
    For a refactoring, the summary must show no change, or only the exceptions listed at the top.
    For a new layout, also look at the new pages in all languages: en (the default) at the root, and `es/`, `fr/`, `pt/`, `tr/`.
 3. Pages that use `now` (future events, the current EiC) can differ if the two builds straddle a date change.
