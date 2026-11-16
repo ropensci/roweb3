@@ -37,17 +37,19 @@ jobs:
             "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_extended_${version}_linux-amd64.deb"
           sudo dpkg -i "$RUNNER_TEMP/hugo.deb"
 
+      # The PR is checked out merged into the current base branch,
+      # so compare with the current base branch (the event's base.sha can be stale).
       - name: Check out the base branch next to the PR
-        run: git worktree add "$RUNNER_TEMP/base-src" "${{ github.event.pull_request.base.sha }}"
+        run: git worktree add "$RUNNER_TEMP/base-src" "origin/${{ github.base_ref }}"
 
       # Both builds share the cache folder, so remote data (r-universe, citations)
       # is downloaded once and is the same in both.
       - name: Build the base branch
         working-directory: ${{ runner.temp }}/base-src
-        run: hugo --quiet --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/base"
+        run: hugo --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/base"
 
       - name: Build the PR
-        run: hugo --quiet --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/head"
+        run: hugo --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/head"
 
       - name: Compare
         run: |
