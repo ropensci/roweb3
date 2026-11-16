@@ -46,9 +46,9 @@
           </ul>
         </li>
         <li class="nav-item drp">
-          <a class="nav-link" lang="en" href="{{ relLangURL "blog"}}">{{ i18n "Blog" }}</a>
+          {{ partial "translate-url" (dict "name" "blog" "Site" .Site "class" "nav-link" )}}{{ i18n "Blog" }}</a>
           <ul class="sub-menu">
-            <li><a lang="en" href="{{ relLangURL "technotes"}}">{{ i18n "Tech-Notes" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "technotes" "Site" .Site )}}{{ i18n "Tech-Notes" }}</a></li>
           </ul>
         </li>
 
@@ -71,7 +71,7 @@
               <ul class="sub-menu">
                 <li>{{ partial "translate-url" (dict "name" "all" "Site" .Site "class" "nav-link" )}}{{ i18n "All" }}</a></li>
                 {{ range $categoryPage := where (where .Site.RegularPages "Type" "packages") ".Params.slug" "!=" "all" }}
-                <li><a lang="en" href="{{ $categoryPage.RelPermalink }}">{{ $categoryPage.Title }}</a></li>
+                <li><a lang="{{ $categoryPage.Language.Lang }}" href="{{ $categoryPage.RelPermalink }}">{{ $categoryPage.Title }}</a></li>
                 {{ end }}
               </ul>
             </li>
@@ -86,7 +86,7 @@
             <li>{{ partial "translate-url" (dict "name" "commcalls" "Site" .Site )}}{{ i18n "Community-calls" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "coworking" "Site" .Site )}}{{ i18n "Coworking" }}</a></li>
             <li>{{ partial "translate-url" (dict "name" "events" "Site" .Site )}}{{ i18n "Events" }}</a></li>
-            <li><a lang="en" href="{{ relLangURL (i18n "Code-of-Conduct" | urlize)}}">{{ i18n "Code-of-Conduct" }}</a></li>
+            <li>{{ partial "translate-url" (dict "name" "code-of-conduct" "Site" .Site )}}{{ i18n "Code-of-Conduct" }}</a></li>
             <li><a lang="en" href="https://contributing.ropensci.org/" class="external-link">{{ i18n "Contributing-Guide" }}</a></li>
           </ul>
         </li>
