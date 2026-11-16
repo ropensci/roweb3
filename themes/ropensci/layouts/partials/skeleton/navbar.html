@@ -13,7 +13,7 @@
   
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     {{ range .Translations }}
-    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language }}">{{ .Language.Label }} ({{ .Language | upper }})</a>
+    <a class="dropdown-item lang-nav" href="{{ .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.Label }} ({{ .Language.Lang | upper }})</a>
     {{ end }}
   </div>
   </div>
@@ -55,27 +55,11 @@
         <li class="nav-item drp">
           <a class="nav-link" lang="en" href="/about/">{{ i18n "Projects" }}</a>
           <ul class="sub-menu">
-            {{ $currentlang := .Language }}
-            {{ $defaultlang := "en" }}
-            {{ $sectionpages := (where .Site.Pages "Kind" "section") }}
-            {{ range .Site.Params.projects }}
-            {{ $page := ( where $sectionpages "Type" "in" . ) }}
-            {{ range $page }}
-            {{ if (eq .Language $currentlang) }}
-            <li><a lang="{{ $currentlang }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            {{ else }} 
-            {{ $placeholder := 0 }}
-            {{ range .AllTranslations }}
-            {{ if (eq .Lang $currentlang.Lang )}}
-            {{ $placeholder = 1 }}
-            {{ end }}
-            {{ end }}
-                {{ if (eq $placeholder 0) }}
-              <li><a lang="{{ $defaultlang }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                {{ end }}
-            {{ end }}
-            {{ end }}
-            {{ end }}
+            {{- range $projectName := site.Params.projects }}
+            {{- with partial "localized-page.html" (printf "/%s" $projectName) }}
+            <li><a lang="{{ .Language.Lang }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{- end }}
+            {{- end }}
           </ul>
         </li>
 
@@ -86,8 +70,8 @@
               <a>{{ i18n "Category" }}</a>
               <ul class="sub-menu">
                 <li>{{ partial "translate-url" (dict "name" "all" "Site" .Site "class" "nav-link" )}}{{ i18n "All" }}</a></li>
-                {{ range (where (where .Site.RegularPages "Type" "packages" ) ".Params.slug" "!=" "all" )}}
-                <li><a lang="en" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ range $categoryPage := where (where .Site.RegularPages "Type" "packages") ".Params.slug" "!=" "all" }}
+                <li><a lang="en" href="{{ $categoryPage.RelPermalink }}">{{ $categoryPage.Title }}</a></li>
                 {{ end }}
               </ul>
             </li>

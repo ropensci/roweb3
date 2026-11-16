@@ -3,7 +3,7 @@
 <html lang="{{ .Lang }}">
 {{ partial "skeleton/head" . }}
 <body>
-{{ partial "skeleton/header" (dict "Kind" .Kind "Site" .Site "RelPermalink" .RelPermalink "Language" .Language "IsTranslated" .IsTranslated "Translations" .Translations "IsHome" .IsHome) }}
+{{ partial "skeleton/header" . }}
 
  {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->
