@@ -36,6 +36,8 @@ There are two exceptions; mention them in your summary:
   A "same as in other-file.html" comment is a sign of duplication.
 - Pass a partial what it needs and nothing more: a partial that can compute something from its argument (anything it can derive from the page) should not ask callers for it.
 - `return` needs a single value: wrap pipelines, `{{- return (a | b) -}}`.
+- Put `return` only at the top level of a partial, as its last action: Hugo 0.163.3 (used by Netlify) rejects it inside `if`, `with` or `range`.
+  Assign the value to `$result` in the branches and return it at the end.
 - Keep the defensive bits that look redundant unless you check them.
   For example, `merge` lowercases dict keys, so `index $d "A/Url"` finds nothing afterwards (checked with Hugo 0.166): hash such keys with `md5` and name them (`$dedupKey`).
 - Keep exact semantics: `eq $x true` is stricter than a bare truthy test, so don't swap one for the other silently.
@@ -83,6 +85,9 @@ Build with `HUGO_PARAMS_DETERMINISTIC=true`, which makes `partial "shuffle.html"
 In layouts, use `partial "shuffle.html"` rather than `shuffle`, or that page will differ between any two builds.
 
 1. Before editing: `HUGO_PARAMS_DETERMINISTIC=true hugo --quiet -d <scratch>/before`.
+   Make this build right before the "after" one, e.g. by setting your changes aside with `git stash`, building, and restoring them with `git stash pop`.
+   Hugo keeps downloaded data (the r-universe registry, citations) for only 5 minutes, so builds made further apart can differ because the data changed.
+   Pass the same `--cacheDir` to both builds.
 2. After editing: the same with `-d <scratch>/after`, then `Rscript scripts/html-diff.R <scratch>/before <scratch>/after <scratch>/html-diff`.
    It writes `summary.md` (changed, added and removed files, and each distinct change once with the number of pages it affects) and `full.diff`.
    It ignores leading and trailing whitespace, blank lines, keyword meta lines, tag pages and sitemaps: tag names vary between builds.
