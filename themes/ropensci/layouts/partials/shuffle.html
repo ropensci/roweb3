@@ -3,8 +3,8 @@
   "deterministic" is true (set by the HTML diff workflow, so that two builds can be compared).
   Context: a slice (data entries or pages).
 */ -}}
-{{- if site.Params.deterministic -}}
-  {{- return . -}}
-{{- else -}}
-  {{- return (shuffle .) -}}
+{{- $result := . -}}
+{{- if not site.Params.deterministic -}}
+  {{- $result = shuffle . -}}
 {{- end -}}
+{{- return $result -}}
