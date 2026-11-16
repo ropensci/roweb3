@@ -1,15 +1,12 @@
-[{{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
-{{ $Scratch := newScratch }}
-{{ if eq .Params.slug "all" }}
-{{ $Scratch.Set "pkgs" $registry }}
-{{ else }}
-{{ $Scratch.Set "pkgs" (partial "packages/in-category" (dict "registry" $registry "slug" .Params.slug)) }}
-{{ end }}
-{{ $len := (len ($Scratch.Get "pkgs"))}}
-{{ range $key, $value := ($Scratch.Get "pkgs") }}
-{{ $maintainer := partial "accents/remove" ($value.Maintainer | replaceRE " <.*" "")  }}
-{{ $details := partial "accents/remove" $value.Description  }}
-{{ $keywords := partial "accents/remove" (delimit (default $value._topics (slice "")) ",")  }}
- {{ dict "name" $value.Package "maintainer" $maintainer "description" $value.Title "details" $details "keywords" $keywords |  jsonify }}
- {{ if (lt $key ( sub $len 1 ) )}}, {{ end }}
- {{ end }}]
+{{- /* The packages of a packages page, for the search box: name, maintainer, title, description and keywords, without accents. */ -}}
+{{- $entries := slice -}}
+{{- range $package := partial "packages/for-page.html" . -}}
+  {{- $entries = $entries | append (dict
+    "name" $package.Package
+    "maintainer" (partial "accents/remove" ($package.Maintainer | replaceRE " <.*" ""))
+    "description" $package.Title
+    "details" (partial "accents/remove" $package.Description)
+    "keywords" (partial "accents/remove" (delimit (default $package._topics (slice "")) ","))
+  ) -}}
+{{- end -}}
+{{- $entries | jsonify -}}
