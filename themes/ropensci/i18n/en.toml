@@ -439,3 +439,54 @@
 
 [Announcement-blog-post]
   other = 'Announcement blog post'
+
+[Home-News-Title]
+  other = 'Latest News'
+
+[Home-Blog-Title]
+  other = 'Our Blog'
+
+[Home-Blog-Text]
+  other = 'The latest developments from rOpenSci and the wider R community'
+
+[Home-Tech-Notes-Text]
+  other = 'Release notes, updates and package related developements'
+
+[Home-Packages-Title]
+  other = 'Our Packages'
+
+[Home-Packages-Text]
+  other = 'Use our carefully vetted, staff- and community-contributed R software tools that support the research data life cycle and analysis across a variety of scientific fields. Combine our tools with the rich ecosystem of R packages.'
+
+[Home-Use-Cases-Title]
+  other = 'Explore Use Cases'
+
+[Home-Use-Cases-Text]
+  other = 'Get inspired by real examples of how our packages can be used.'
+
+[Home-Citations-Title]
+  other = 'Explore Citations'
+
+[Home-Citations-Text]
+  other = 'Or browse scientific publications that cited our packages.'
+
+[Home-New]
+  other = 'New!'
+
+[Home-Hero-Title]
+  other = 'Transforming science through open data, software & reproducibility'
+
+[Home-Hero-Text]
+  other = 'rOpenSci fosters a culture of open and reproducible research using shared data and reusable software.  We build social and technical infrastructure for the R language to enable researchers and engineers to collaborate, share, and publish their science, data, and methods.'
+
+[Home-Hero-Review]
+  other = 'Software Review'
+
+[Home-Hero-Infrastructure]
+  other = 'Infrastructure'
+
+[Home-Hero-Training]
+  other = 'Training and Mentorship'
+
+[Home-Hero-Multilingual]
+  other = 'Multilingual Publishing'
