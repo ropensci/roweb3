@@ -39,7 +39,7 @@
          {{ end }}
          {{ if ne $runiverseName "" }}
            {{ $runivapi := dict "universes" (slice) "maintainers" (slice) }}
-           {{ $runivapiURL := "https://r-universe.dev/stats/everyone" }}
+           {{ $runivapiURL := "https://r-universe.dev/api/everyone" }}
            {{ with try (resources.GetRemote $runivapiURL) }}
              {{ with .Err }}
                {{ warnf "Could not download %s, so author pages have no r-universe link: %s" $runivapiURL . }}
