@@ -1,72 +1,72 @@
 ---
 slug: "hackeaR-LatinR2026"
-title: Hackeando dos horas de contribuciones a R
+title: Hacking Two Hours of Contributions to R
 author:
   - Yanina Bellini Saibene
 date: 2026-11-20
 tags:
-  - paquetes
+  - packages
   - R
-  - comunidad
-description: "Que hicimos durante HackeaR, un evento en LatinR donde nos juntamos a realizar contribuciones a nuestro lenguaje de programación favorito"
+  - community
+description: "What we did during HackeaR, a LatinR event where we got together to make contributions to our favorite programming language"
 editor:
   - Steffi LaZerte
 params:
   doi: ""
 ---
 
-[LatinR](https://latinr.org) es la conferencia sobre el uso de R en Investigación y Desarrollo que congrega a la comunidad latinoamericana usando nuestro lenguaje de programación favorito. Este 2026 se realizo del 11 al 13 de Noviembre en Medellín, en conjunto con la Universidad de Antioquia. 
+[LatinR](https://latinr.org) is the conference on the use of R in Research and Development that brings together the Latin American community using our favorite programming language. In 2026 it took place from November 11 to 13 in Medellín, together with the Universidad de Antioquia.
 
-El viernes 13 de Noviembre se realizó **[HackeaR](https://latinr.org/cronograma/hackear/)**, un encuentro de dos horas de trabajo en grupo pequeños donde personas con experiencia acompañaron a quienes daban sus primeros pasos contribuyendo a proyectos abiertos. En este post resumimos qué y cómo se trabajó.
-
-
-## Qué es HackeaR
-
-Este evento combina la experiencia de los [mini hackathones y mini traslatones](https://ftc-guide.ropensci.org) de rOpenSci con los R Dev Days/Sprints del grupo [R Contributor](https://contributor.r-project.org/events/r-dev-days/). 
-La idea es que cualquier persona, sea principiante o tenga experiencia, pueda hacer una contribución real al ecosistema de R. 
-
-El foco estuvo en contribuciones que ayudan a tanto a R base como a los paquetes de R que conforman nuestro ecosistema. Varios de estos paquetes y proyectos son programas de rOpenSci. Las contribuciones posibles incluían analizar y trabajar sobre _issues_ y _pull request_ listados en el [tablero del hackathon](https://github.com/orgs/r-devel/projects/14/views/1), mejorar documentación y revisar traducciones de materiales de rOpenSci.
+On Friday, November 13, **[HackeaR](https://latinr.org/cronograma/hackear/)** took place: a two-hour meetup of small-group work where experienced people supported those taking their first steps contributing to open projects. In this post we summarize what we worked on and how.
 
 
-## Las propuestas de trabajo
+## What is HackeaR
 
-Para ayudar a decidir por donde empezar, preparamos de ante mano un proyecto de GitHub con 25 opciones para participar de distintos repositorios, agrupados en tres categorías: buenas prácticas, documentación y traducción. 
+This event combines the experience of rOpenSci's [mini hackathons and mini translatathons](https://ftc-guide.ropensci.org) with the R Dev Days/Sprints of the [R Contributor](https://contributor.r-project.org/events/r-dev-days/) group.
+The idea is that anyone, whether a beginner or an experienced person, can make a real contribution to the R ecosystem.
 
-### Buenas prácticas (9)
+The focus was on contributions that help both base R and the R packages that make up our ecosystem. Several of these packages and projects are rOpenSci programs. Possible contributions included analyzing and working on _issues_ and _pull requests_ listed on the [hackathon board](https://github.com/orgs/r-devel/projects/14/views/1), improving documentation, and reviewing translations of rOpenSci materials.
 
-- **Accesibilidad:** Diana Garcia agregó texto alternativo a las imágenes de [unheadr](https://github.com/luisDVA/unheadr/issues/6) [por medio de un pull request](https://github.com/luisDVA/unheadr/pull/13) que fue aceptado y cerro este issue!🎉
-Riva Quiroga y Jesica Formoso trabajaron en un problema de contraste de color por debajo del mínimo WCAG AA en la [guía de r-devel](https://github.com/r-devel/rdevguide/issues/274).
 
-- **R base en distintas plataformas:** Jeroen Ooms tiene en progreso dos pull requests en r-svn, uno para [arreglar Alpine en ARM64 y sumar integración continua](https://github.com/r-devel/r-svn/pull/476) y otro para [corregir el límite de la pila de C en Linux y FreeBSD](https://github.com/r-devel/r-svn/pull/478).
+## The work proposals
 
-- **stplanr:** se cerró el [issue de acciones que fallan](https://github.com/ropensci/stplanr/issues/567) 🎉 y quedaron cuatro a la espera, desde renombrar `rnet_merge` hasta un método `sf` de `line_midpoint` y una viñeta sobre redes de rutas.
+To help people decide where to start, we prepared a GitHub project in advance with 25 options to participate in, from different repositories, grouped into three categories: best practices, documentation, and translation.
 
-### Documentación (6)
+### Best practices (9)
 
-- El issue de "Lost braces", propuesto por Kurt Hornik (R Core), consiste en [enviar pull requests a paquetes de CRAN](https://github.com/r-devel/r-dev-day/issues/110) que muestran la _NOTE_ de _"Lost braces"_ en el chequeo de archivos Rd. Durante HackeaR, Yanina Bellini Saibene abrió un [pull request para el paquete standardize](https://github.com/CDEager/standardize/pull/4) que corrige esta NOTE, Ella Kaye, Heather Turner y Francisco Cardozo trabajaron en otros paquetes para el mismo _issue_. Luis Verde explicó cómo resolver la NOTE, porque ya había trabajado en el tema en eventos anteriores. Los casos más frecuentes son una barra invertida que falta delante de una macro (como `code{...}`), llaves usadas para notación de conjuntos que hay que escapar, y `\itemize` usado donde corresponde `\describe`. El avance se registra en el repositorio [track-lost-braces](https://github.com/r-devel/track-lost-braces).
+- **Accessibility:** Diana Garcia added alt text to the images in [unheadr](https://github.com/luisDVA/unheadr/issues/6) [through a pull request](https://github.com/luisDVA/unheadr/pull/13) that was accepted and closed this issue! 🎉
+Riva Quiroga and Jesica Formoso worked on a color contrast problem below the WCAG AA minimum in the [r-devel guide](https://github.com/r-devel/rdevguide/issues/274).
 
-- Quedaron disponibles la revisión de viñetas de [weathercan](https://github.com/ropensci/weathercan), mejoras a la documentación para publicar paquetes en [R-Universe](https://r-universe.dev) y tres correcciones menores en [unheadr](https://github.com/luisDVA/unheadr) (una errata en la documentación roxygen, una viñeta con un argumento obsoleto y un ejemplo del README).
+- **Base R on different platforms:** Jeroen Ooms has two pull requests in progress in r-svn, one to [fix Alpine on ARM64 and add continuous integration](https://github.com/r-devel/r-svn/pull/476) and another to [fix the C stack limit on Linux and FreeBSD](https://github.com/r-devel/r-svn/pull/478).
 
-### Traducción (10)
+- **stplanr:** the [failing actions issue](https://github.com/ropensci/stplanr/issues/567) was closed 🎉 and four remain pending, ranging from renaming `rnet_merge` to an `sf` method for `line_midpoint` and a vignette on route networks.
 
-- **Materiales de rOpenSci:** hay pull requests abiertos con traducciones del curso de Git al [español](https://github.com/ropensci-training/curriculum/pull/116) que fue tomado por Francisco Cardozo y Catalina Cañizares durante el hackathon y se encuentra en progreso y al portugués, que esperan revisión.
+### Documentation (6)
 
-- **Mensajes de R:** el issue sobre traducir los mensajes de R sigue abierto para quien quiera sumarse. En español ya se completaron todos, pero todavia hay trabajo por hacer en portugués.
+- The "Lost braces" issue, proposed by Kurt Hornik (R Core), consists of [sending pull requests to CRAN packages](https://github.com/r-devel/r-dev-day/issues/110) that show the _NOTE_ about _"Lost braces"_ in the Rd files check. During HackeaR, Yanina Bellini Saibene opened a [pull request for the standardize package](https://github.com/CDEager/standardize/pull/4) that fixes this NOTE, and Ella Kaye, Heather Turner, and Francisco Cardozo worked on other packages for the same _issue_. Luis Verde explained how to resolve the NOTE, because he had already worked on this topic at previous events. The most frequent cases are a missing backslash before a macro (such as `code{...}`), braces used for set notation that need to be escaped, and `\itemize` used where `\describe` should be. Progress is tracked in the [track-lost-braces](https://github.com/r-devel/track-lost-braces) repository.
 
-- **rdlocal:** el paquete de Elio Campitelli para facilitar la traducción tuvo una sesión de pruebas con Paola Corrales, Evelia Coss Navarrete, Mauricio Gómez Ardila y Oscar De Leon. Trabajaron en dos viñetas, una para quienes traducen y otra para quienes usan el paquete. Siguen abiertos issues sobre sobrescribir módulos y sobre incluir autoría en el archivo DESCRIPTION de los módulos de traducción.
+- Still available are a review of the [weathercan](https://github.com/ropensci/weathercan) vignettes, improvements to the documentation for publishing packages on [R-Universe](https://r-universe.dev), and three minor fixes in [unheadr](https://github.com/luisDVA/unheadr) (a typo in the roxygen documentation, a vignette with a deprecated argument, and an example in the README).
 
-- Otros participantes, como Gustavo Bruges y Audrey, revisaron el listado de ["Help Wanted" issues de rOpenSci](/help-wanted/) y ofrecieron su ayuda para traducir viñetas. 
+### Translation (10)
 
-## Lo que nos llevamos
+- **rOpenSci materials:** there are open pull requests with translations of the Git course into [Spanish](https://github.com/ropensci-training/curriculum/pull/116) and Portuguese. Francisco Cardozo and Catalina Cañizares took on the Spanish one during the hackathon and it is in progress; the Portuguese ones are awaiting review.
 
-En solo dos horas, el tablero mostró lo variado que puede ser contribuir: desde un texto alternativo o un typo en un README hasta trabajar en conjunto con les autores de un paquete para mejorarlo e implementarlo.
+- **R messages:** the issue about translating R messages remains open for anyone who wants to join. In Spanish, everything has already been completed, but there is still work to do in Portuguese.
 
-También se vio que la traducción y la documentación son puertas de entrada muy valiosas, que el acompañamiento de mentores con experiencia (como la explicación de Luis sobre "Lost braces") hace posible que quien llega por primera vez contribuya enseguida y que trabajar en español y portugués es parte central de lo que hacemos en LatinR.
+- **rdlocal:** Elio Campitelli's package for making translation easier had a user testing session with Paola Corrales, Evelia Coss Navarrete, Mauricio Gómez Ardila, and Oscar De Leon. They worked on two vignettes, one for people who translate and another for people who use the package. Issues remain open about overwriting modules and about including authorship in the DESCRIPTION file of the translation modules.
 
-Aun quedan _issues_ y _pull request_ abiertas y eso es una buena noticia: si te quedaste con ganas, podés seguir contribuyendo cuando quieras. Revisá el tablero y la lista de Help Wanted de rOpenSci. Tambien podes sumarte al Zulip de R Contributors, al Slack de LatinR y suscribirte al newsletter de rOpenSci para enterarte de proximos eventos de este tipo.
+- Other participants, such as Gustavo Bruges and Audrey, reviewed the list of rOpenSci ["Help Wanted" issues](/help-wanted/) and offered their help translating vignettes.
 
-Al finalizar el evento sorteamos una beca de Platzi entre las personas participantes, y Audrey fue quien recibió el premio. ¡Felicitaciones! 🎉
+## What we take away
 
-Compartir un momento con personas nuevas y conocidas trabajando en algo que nos gusta, aprendiendo y ayudando a las personas que desarrollan paquetes, son de las actividades mas interesantes que se pueden realizar en estos eventos.
+In just two hours, the board showed how varied contributing can be: from alt text or a typo in a README to working together with a package's authors to improve and implement it.
 
-¡Gracias a toas las personas que participaron! 
+It also showed that translation and documentation are very valuable entry points, that the support of experienced mentors (such as Luis's explanation of "Lost braces") makes it possible for newcomers to contribute right away, and that working in Spanish and Portuguese is a central part of what we do at LatinR.
+
+There are still open _issues_ and _pull requests_, and that is good news: if you're left wanting more, you can keep contributing whenever you like. Check out the board and the rOpenSci Help Wanted list. You can also join the R Contributors Zulip and the LatinR Slack, and subscribe to the rOpenSci newsletter to find out about upcoming events like this one.
+
+At the end of the event, we raffled a Platzi scholarship among the participants, and Audrey was the one who received the prize. Congratulations! 🎉
+
+Sharing a moment with new and familiar people, working on something we enjoy, learning, and helping the people who develop packages are among the most interesting activities you can do at these events.
+
+Thank you to everyone who participated!
