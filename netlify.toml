@@ -15,6 +15,17 @@
 [context.branch-deploy]
   command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
 
+# The newsletter archive is only in English
+[[redirects]]
+  from = "/es/news"
+  to = "/news/"
+  status = 301
+
+[[redirects]]
+  from = "/es/news/*"
+  to = "/news/"
+  status = 301
+
 [[redirects]]
   from = "/*"
   to = "/404.html"
