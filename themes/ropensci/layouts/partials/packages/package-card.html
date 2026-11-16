@@ -1,5 +1,5 @@
 {{ if ( ne .package.type "archived" ) }}
-<div class="category-card row align-items-center" data-status="{{ .package.type | default (partial "packages/default-type" .) }}" data-keywords="{{ .package._topics }}" id="{{ .package.Package }}">
+<div class="category-card row align-items-center" data-status="{{ .package.type | default (partial "packages/default-type" .package.url) }}" data-keywords="{{ .package._topics }}" id="{{ .package.Package }}">
   <div class="col-md-8 offset-lg-1">
     <div class="category-card__heading">
       <div class="d-flex align-items-center flex-wrap">

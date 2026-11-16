@@ -1,20 +1,22 @@
-{{ $scratch := newScratch }}
-
-{{ $scratch.Set "url" .Permalink }}
+{{- /*
+  Renders a community call's speakers: name, portrait and bio.
+  Context: the community call page.
+*/ -}}
+{{ $callURL := .Permalink }}
 
 {{ with .Params.speakers }}
 <h2 class="title">
 Speakers
 </h2>
-{{ range . }}
-<h3>{{ .name }}</h3>
-{{ if ne (substr .img 0 1 ) "/" }}
-      <img src="{{ $scratch.Get "url"}}{{ .img }}" alt="Portrait of {{ .name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
+{{ range $speaker := . }}
+<h3>{{ $speaker.name }}</h3>
+{{ if ne (substr $speaker.img 0 1) "/" }}
+      <img src="{{ $callURL }}{{ $speaker.img }}" alt="Portrait of {{ $speaker.name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
 {{ else }}
-      <img src="{{ .img }}" alt="Portrait of {{ .name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
+      <img src="{{ $speaker.img }}" alt="Portrait of {{ $speaker.name }}" style=" object-fit: cover; object-position: center; height: 250px; width: 200; margin-right: 15px" />
 {{ end }}
 <p>
-      {{ .bio | markdownify }}
+      {{ $speaker.bio | markdownify }}
       </p>
 {{ end }}
 {{ end }}
