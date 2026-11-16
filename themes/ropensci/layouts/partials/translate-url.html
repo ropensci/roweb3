@@ -1,19 +1,12 @@
-{{ $url := "" }}
-{{ $lang := "" }}
-{{ $class := .class | default "" }}
-{{ $fragment := .fragment | default "" }}
-{{ $name := .name }}
-{{ with .Site.GetPage $name }}
-  {{ $url = .RelPermalink }}
-  {{ $lang = .Language.Lang }}
-{{ else }}
-  {{ with where hugo.Sites "Language.Lang" "eq" "en" }}
-    {{ with index . 0 }}
-     {{ with .GetPage $name }}
-        {{ $url = .RelPermalink }}
-        {{ $lang = "en" }}
-    {{ end }}
-  {{ end }}
-{{ end }}
-{{ end }}
-<a lang="{{ $lang }}" href="{{ $url }}{{ $fragment }}" class = "{{ $class }}">
+{{- /*
+  Renders the opening <a> tag of a link to a page of the site: its version in the current language, else the English one.
+  The caller writes the link text and the closing </a>.
+  Context: a dict with "name" (the page's path under content/, without a leading slash, e.g. "about" or "packages/all"),
+  and optionally "class" and "fragment" (e.g. "#team").
+  Fails the build when the page doesn't exist (see localized-page.html).
+*/ -}}
+{{- $page := partial "localized-page.html" (printf "/%s" .name) -}}
+{{- $lang := "" -}}
+{{- $url := "" -}}
+{{- with $page }}{{ $lang = .Language.Lang }}{{ $url = .RelPermalink }}{{ end }}
+<a lang="{{ $lang }}" href="{{ $url }}{{ .fragment | default "" }}" class = "{{ .class | default "" }}">
