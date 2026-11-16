@@ -27,28 +27,24 @@
   <meta name="twitter:image" content="http://ropensci.org/android-chrome-512x512.png" >
   <meta name="og:image" content="http://ropensci.org/android-chrome-512x512.png" >
 {{ else }}
+  {{ $title := .Title }}
+  {{ $description := .Description }}
   <!-- special treatment for authors pages -->
   {{ if (in .Section "author") }}
     {{ if eq .Kind "term" }}
-       {{ .Scratch.Set "title" (print "Content by " .Params.name ) }}
-       {{ $description :=  (print .Site.Params.title " - " .Site.Params.description ) }}
-       {{ .Scratch.Set "description" $description }}
+       {{ $title = print "Content by " .Params.name }}
+       {{ $description = print .Site.Params.title " - " .Site.Params.description }}
     {{ else }}
-       {{ .Scratch.Set "title" "rOpenSci posts by author" }}
-       {{ .Scratch.Set "description" "Posts sorted by author" }}
+       {{ $title = "rOpenSci posts by author" }}
+       {{ $description = "Posts sorted by author" }}
   {{ end }}
   <!-- -->
   {{ else }}
      {{ if (and (in .Section "commcalls") (eq .Kind "page" )) }}
-     {{ .Scratch.Set "title" (print .Title " · Community Call" )}}
-     {{ else }}
-     {{ .Scratch.Set "title" .Title }}
+     {{ $title = print .Title " · Community Call" }}
      {{ end }}
-     {{ .Scratch.Set "description" .Description }}
   {{ end }}
     {{ $defaultDescription := .Summary }}
-    {{ $title := .Scratch.Get "title" }}
-    {{ $description := .Scratch.Get "description" }}
   <title>rOpenSci | {{ $title }}{{ with .Params.subtitle }} - {{ . }} {{ end }}</title>
     <meta property="og:title" content="{{ $title }}">
     <meta property="description" content="{{ $description | default $defaultDescription }}">
