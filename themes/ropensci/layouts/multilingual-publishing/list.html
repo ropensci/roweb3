@@ -39,7 +39,7 @@
             </h4>
           </div>
         </div>
-        {{ $translators := (shuffle hugo.Data.team.translators) }}
+        {{ $translators := (partial "shuffle.html" hugo.Data.team.translators) }}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $translators)  }}
       </div>
     </section>

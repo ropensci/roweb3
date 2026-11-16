@@ -44,7 +44,7 @@
             </p>
           </div>
         </div>
-        {{ $editors := (where $allEditors "name" "eq" $currentEic) | append (shuffle (where $allEditors "name" "ne" $currentEic)) }}
+        {{ $editors := (where $allEditors "name" "eq" $currentEic) | append (partial "shuffle.html" (where $allEditors "name" "ne" $currentEic)) }}
         {{ $editorsNoGitHub := where $editors "github" "eq" nil }}
         {{ if gt (len $editorsNoGitHub) 0 }}
         {{ errorf "Missing github entry in data/team/team.json for editor(s): %s" (delimit (apply $editorsNoGitHub "index" "." "name") ", ") }}
@@ -66,7 +66,7 @@
             </h4>
           </div>
         </div>
-        {{ $editors := (shuffle ( where (hugo.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
+        {{ $editors := (partial "shuffle.html" ( where (hugo.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors "showEic" true)  }}
         </div>
         </section>

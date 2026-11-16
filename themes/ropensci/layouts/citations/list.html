@@ -22,7 +22,7 @@
 {{ end }}
         <div class="row case-cards mt-5">
           {{ $citations := (resources.GetRemote .Site.Params.citations) | unmarshal }}
-          {{ range $index, $element := (first 3 ( shuffle (where $citations "name" "intersect" ($scratch.Get "activepackage")) ) ) }}
+          {{ range $index, $element := (first 3 ( partial "shuffle.html" (where $citations "name" "intersect" ($scratch.Get "activepackage")) ) ) }}
           <div class="col-md-4" id="{{ $index }}">
             <div class="case-card">
               <img src="data:image/jpeg;base64, iVBORw0KGgoAAAANSUhEUgAAAWAAAACvCAYAAADDqASZAAAB8ElEQVR42u3UMREAMAgAsaKoEsEwHhDBHVMi4YePX50PgHNhwAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDGLABAxgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgxgwAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMIABGzCAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYsA4ABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAArA2VgnE0VdnvaQAAAABJRU5ErkJggg==" alt="" />

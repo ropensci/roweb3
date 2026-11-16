@@ -1,0 +1,10 @@
+{{- /*
+  Returns the items in random order, or in their original order when the site parameter
+  "deterministic" is true (set by the HTML diff workflow, so that two builds can be compared).
+  Context: a slice (data entries or pages).
+*/ -}}
+{{- if site.Params.deterministic -}}
+  {{- return . -}}
+{{- else -}}
+  {{- return (shuffle .) -}}
+{{- end -}}

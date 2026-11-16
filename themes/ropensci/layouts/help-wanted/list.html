@@ -10,7 +10,7 @@
         </div>
 <div class="row case-cards mt-5">
   {{ $issues := (resources.GetRemote "https://ropensci-help-wanted.netlify.app/issues.json") | unmarshal }}
-         {{ range (first 3 (shuffle $issues) ) }}
+         {{ range (first 3 (partial "shuffle.html" $issues) ) }}
           <div class="col-md-4">
             <div class="case-card">
               <div class="case-card-body">

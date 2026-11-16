@@ -22,7 +22,7 @@
         </div>
 
         <div class="row case-cards mt-5">
-          {{ range (first 3 (shuffle (where $pages ".Params.image" "!=" nil))) }}
+          {{ range (first 3 (partial "shuffle.html" (where $pages ".Params.image" "!=" nil))) }}
           <div class="col-md-4">
             <div class="case-card">
               {{ $img := .Resources.GetMatch .Params.image }}
