@@ -101,4 +101,4 @@ Compartir un momento con personas nuevas y conocidas trabajando en algo que nos 
 
 ¡Gracias a todas las personas que participaron! 
 
-{{< figure src="hackear_participants.jpeg" alt="Un grupo de 10 personas está sentado y sonriente en el escenario, y en la proyección de Zoom aparecen otras 4 personas participantes conectadas en línea." class = "center" caption="Algunos de los participantes de HackeaR en LatinR 2026, en persona y online" >}}
+{{< figure src="hackear_participants.jpeg" alt="Un grupo de 10 personas está sentado y sonriente en el escenario, y en la proyección de Zoom aparecen otras 4 personas participantes conectadas en línea." class="center" caption="Algunos de los participantes de HackeaR en LatinR 2026, en persona y online" >}}

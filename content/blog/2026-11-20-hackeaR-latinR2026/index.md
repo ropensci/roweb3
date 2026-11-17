@@ -99,4 +99,4 @@ Sharing a moment with new and familiar people, working on something we enjoy, le
 
 Thank you to everyone who participated!
 
-{{< figure src="hackear_participants.jpeg" alt="A group of 10 people is sitting on stage, smiling, and the Zoom screen shows four other participants connected online." class = "center" caption="Some of the HackeaR participants at LatinR 2026, both in person and online" >}}
+{{< figure src="hackear_participants.jpeg" alt="A group of 10 people is sitting on stage, smiling, and the Zoom screen shows four other participants connected online." class="center" caption="Some of the HackeaR participants at LatinR 2026, both in person and online" >}}
