@@ -39,11 +39,7 @@ tables in SIDRA, IBGE’s data retrieval system, and exposed through the
 you discover tables, inspect their metadata, and retrieve data as tidy
 tibbles. The package recently passed
 [rOpenSci software peer review](https://github.com/ropensci/software-review/issues/787),
-and version 0.2.1 is on CRAN:
-
-``` r
-install.packages("ibger")
-```
+and version 0.2.1 is on CRAN.
 
 ibger grew out of everyday work. We are part of the Strategic Monitoring
 Data Science Team of the Pernambuco state government, in northeastern
