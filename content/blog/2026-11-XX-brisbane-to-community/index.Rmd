@@ -88,7 +88,7 @@ knitr::knit_hooks$set(
 
 With rOpenSci turning 15 this year, it's hard to believe that I've been part of it for 10 of those years.
 
-My involvement started in Brisbane in 2016, at the first [Australian rOpenSci Unconference](https://ropensci.org/blog/2016/06/16/au-unconf/).
+My involvement started in Brisbane in 2016, at the first [Australian rOpenSci Unconference](/blog/2016/06/16/au-unconf/).
 I'd known about rOpenSci and its work for some time before then.
 When rOpenSci was founded in 2011, I'd just moved from the US to the Philippines for work.
 During the five years I lived and worked there, I became familiar with its packages and the people behind them.
