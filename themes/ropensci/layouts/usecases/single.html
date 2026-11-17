@@ -37,10 +37,7 @@ to open a GitHub pull request, or <a href="/contact">contact us</a>!
       </div>
       <div class="field-under mt-4">
         <span>{{ i18n "Share" }}</span>
-        {{ partial "mastodon/share-link" . }}
-        {{ partial "linkedin/share-link" . }}
-        {{ partial "bluesky/share-link" . }}
-        {{ partial "email/share-link" . }}
+        {{ partial "share-links.html" . }}
       </div>
       <div class="field-under mt-4">
         <span>{{ i18n "Suggest-an-edit" }}</span>

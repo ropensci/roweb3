@@ -1,0 +1,26 @@
+{{/*
+  Fail the build if two blog posts (in any language) share a DOI.
+  Call it with partialCached so that it runs once per build.
+*/}}
+{{ $seen := dict }}
+{{ $problems := slice }}
+{{ range hugo.Sites }}
+  {{ range where .RegularPages "Section" "blog" }}
+    {{ $page := . }}
+    {{ with .Params.doi }}
+      {{ $doi := lower (strings.TrimSpace (string .)) }}
+      {{ if $doi }}
+        {{ $where := $page.RelPermalink }}
+        {{ with $page.File }}{{ $where = .Path }}{{ end }}
+        {{ with index $seen $doi }}
+          {{ $problems = $problems | append (printf "%s (%s and %s)" $doi . $where) }}
+        {{ else }}
+          {{ $seen = merge $seen (dict $doi $where) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if $problems }}
+  {{ errorf "Blog post DOIs must be unique, fix these duplicate DOI(s): %s" (delimit $problems "; ") }}
+{{ end }}

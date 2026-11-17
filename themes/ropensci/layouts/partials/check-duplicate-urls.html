@@ -1,0 +1,20 @@
+{{- /*
+  Fails the build if two pages (in the same language) have the same URL, e.g. two events with the same slug:
+  Hugo then publishes one of them at random and silently drops the other.
+  Context: none needed. Call it with partialCached so that it runs once per build.
+*/ -}}
+{{- $problems := slice -}}
+{{- range $site := hugo.Sites -}}
+  {{- range $urlGroup := $site.Pages.GroupBy "RelPermalink" -}}
+    {{- $filesAtURL := slice -}}
+    {{- range $page := $urlGroup.Pages -}}
+      {{- with $page.File }}{{ $filesAtURL = $filesAtURL | append (printf "content/%s" .Path) }}{{ end -}}
+    {{- end -}}
+    {{- if and $urlGroup.Key (gt (len $filesAtURL) 1) -}}
+      {{- $problems = $problems | append (printf "%s share the URL %s" (delimit $filesAtURL " and ") $urlGroup.Key) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $problems -}}
+  {{- errorf `Several pages have the same URL, so only one of them is published. Give each a different "slug" (or "url") in its front matter: %s.` (delimit $problems "; ") -}}
+{{- end -}}

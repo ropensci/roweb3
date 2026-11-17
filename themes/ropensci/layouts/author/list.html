@@ -1,13 +1,18 @@
+{{- /* Fails the build for an author without an author file (or without a name in it). */ -}}
 {{ define "main" }}
 {{ $src := ( partial "blogs/author-img" . ) }}
 
-{{ if isset .Params "name" }}
+{{ if not (isset .Params "name") }}
+  {{- $authorFile := "_index.md" -}}
+  {{- if ne .Language.Lang hugo.Sites.Default.Language.Lang }}{{ $authorFile = printf "_index.%s.md" .Language.Lang }}{{ end -}}
+  {{- errorf `Author %q has no author file in language %q: add content/author/%s/%s with at least "name: %s" in its front matter (see content/author/aaron-wolen/_index.md).` .Name .Language.Lang (path.Base .Path) $authorFile .Name -}}
+{{ end }}
 
 <section class="section">
   <div class="container">
     <!-- Header text -->
     <div class="row author-detail">
-      <div class="col-md-2 text-md-riFtaxonght">
+      <div class="col-md-2 text-md-right">
         <img class="author-detail-img" src="{{ $src }}" alt="Avatar of {{ .Params.name }}" />
       </div>
       <div class="col-md-8 author-detail-info">
@@ -26,19 +31,25 @@
           {{ with .Params.github }}<a href="https://github.com/{{ . }}"> <i class="fab fa-github"></i></a>{{ end }}
          {{ with .Params.gitlab }}<a href="https://gitlab.com/{{ . }}"><i class="fab fa-gitlab"></i></a>{{ end }}
          {{ with .Params.keybase }}<a href="https://keybase.io/{{ . }}"><i class="fab fa-keybase"></i></a>{{ end }}
-         {{ .Scratch.Set "runiverse" "" }}
+         {{ $runiverseName := "" }}
          {{ if isset .Params "runiv" }}
-           {{ .Scratch.Set "runiverse" .Params.runiv }}
-         {{ else }}
-           {{ if isset .Params "github" }}
-             {{ .Scratch.Set "runiverse" .Params.github }}
-           {{ end }}
+           {{ $runiverseName = .Params.runiv }}
+         {{ else if isset .Params "github" }}
+           {{ $runiverseName = .Params.github }}
          {{ end }}
-         {{ if ne (.Scratch.Get "runiverse") "" }}
-           {{ $runivapi := (resources.GetRemote "https://r-universe.dev/stats/everyone") | unmarshal }}
+         {{ if ne $runiverseName "" }}
+           {{ $runivapi := dict "universes" (slice) "maintainers" (slice) }}
+           {{ $runivapiURL := "https://r-universe.dev/api/everyone" }}
+           {{ with try (resources.GetRemote $runivapiURL) }}
+             {{ with .Err }}
+               {{ warnf "Could not download %s, so author pages have no r-universe link: %s" $runivapiURL . }}
+             {{ else with .Value }}
+               {{ $runivapi = . | unmarshal }}
+             {{ end }}
+           {{ end }}
            {{ $runiverses := (union $runivapi.universes $runivapi.maintainers )}}
-           {{ if in $runiverses (.Scratch.Get "runiverse") }}
-             <a href="https://{{ (.Scratch.Get "runiverse") }}.r-universe.dev"> <i class="fas fa-rocket"></i></a>
+           {{ if in $runiverses $runiverseName }}
+             <a href="https://{{ $runiverseName }}.r-universe.dev"> <i class="fas fa-rocket"></i></a>
            {{ end }}
          {{ end }}
         </div>
@@ -95,7 +106,5 @@
       </div>
   </div>
 </section>
-{{ else }}
-{{ errorf "Missing author file for '%s' in language '%s'." .Name .Language.Lang }}
-{{ end }}
+
 {{ end }}

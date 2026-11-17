@@ -1,0 +1,8 @@
+{{- /*
+  Renders the buttons to share a page on Mastodon, LinkedIn, Bluesky and by email.
+  Context: the page to share.
+*/ -}}
+{{ partial "mastodon/share-link" . }}
+{{ partial "linkedin/share-link" . }}
+{{ partial "bluesky/share-link" . }}
+{{ partial "email/share-link" . }}

@@ -9,20 +9,13 @@
           </div>
         </div>
         {{ $registry := (resources.GetRemote .Site.Params.registry) | unmarshal }}
-{{ $scratch := newScratch }}
-
-{{ $scratch.Set "package" (slice "absolutelynotapackage" ) }}
-{{ range $registry }}
-{{ $scratch.Add "package" .Package }}
-{{ end }}
-
-{{ $scratch.Set "activepackage" (slice "absolutelynotapackage" ) }}
-{{ range $registry }}
-{{ $scratch.Add "activepackage" .Package }}
+{{ $packageNames := slice }}
+{{ range $package := $registry }}
+{{ $packageNames = $packageNames | append $package.Package }}
 {{ end }}
         <div class="row case-cards mt-5">
           {{ $citations := (resources.GetRemote .Site.Params.citations) | unmarshal }}
-          {{ range $index, $element := (first 3 ( shuffle (where $citations "name" "intersect" ($scratch.Get "activepackage")) ) ) }}
+          {{ range $index, $element := (first 3 ( partial "shuffle.html" (where $citations "name" "intersect" $packageNames) ) ) }}
           <div class="col-md-4" id="{{ $index }}">
             <div class="case-card">
               <img src="data:image/jpeg;base64, iVBORw0KGgoAAAANSUhEUgAAAWAAAACvCAYAAADDqASZAAAB8ElEQVR42u3UMREAMAgAsaKoEsEwHhDBHVMi4YePX50PgHNhwAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDGLABAxgwgAEDYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgxgwAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMIABGzCAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYsA4ABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAAGDCAAQNgwAAGDIABAxgwAAYMYMAABgyAAQMYMAAGDGDAABgwgAEDYMAABgyAAQMYMAAGDGDAAAYMgAEDGDAABgxgwAAYMIABA2DAAAYMgAEDGDAABgxgwAAGDIABAxgwAAYMYMAArA2VgnE0VdnvaQAAAABJRU5ErkJggg==" alt="" />
@@ -44,7 +37,6 @@
           {{ end }}
           
           
-{{ $packages := ($scratch.Get "package") }}
         </div>
         <div class="row case-cards mt-5">
       <table id="papers">
@@ -58,7 +50,7 @@
   </tr>
   </thead>
       <tbody>
-      {{ range $index, $element := (where $citations "name" "intersect" $packages)  }}
+      {{ range $index, $element := (where $citations "name" "intersect" $packageNames)  }}
    <tr>
      
     <td><a href="{{ .url }}">{{ .parts.title }}</a></td>
@@ -75,6 +67,5 @@
       </div>
     </section>
 
-{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
-{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
+{{ partial "whole-page-fragments/newsletter.html" (dict "divider" "lr") }}
 {{ end }}
