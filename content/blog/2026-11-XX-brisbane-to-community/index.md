@@ -26,7 +26,6 @@ params:
   # If you have no preferred image for Social preview cards,
   # delete the socialImg and socialAlt lines below.
   # If using, note "/" between year/month/day.
-socialImg: blog/2019/06/04/post-template/name-of-image.png
 socialAlt: "Alternative description of the image"
 # The text below is for populating the "share on XXX" Socials buttons.
 # If deleted, the title of the post will be used.
