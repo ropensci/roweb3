@@ -115,7 +115,7 @@ That experience led to another invitation from Noam: joining the rOpenSci editor
 I gladly accepted.
 Since then, I've been able to contribute beyond my own packages, supporting authors and reviewers and helping keep the software peer-review process running.
 
-I particularly value rOpenSci's approach to working together and its [Code of Conduct](https://ropensci.org/code-of-conduct/), which sets clear expectations for everyone involved.
+I particularly value rOpenSci's approach to working together and its [Code of Conduct](/code-of-conduct/), which sets clear expectations for everyone involved.
 Being on the editorial board has also helped me keep up with changing standards in research software, while giving me the chance to help make the process welcoming rather than intimidating for new contributors.
 
 ## Beyond packages: building a wider open science community
