@@ -10,7 +10,7 @@ author:
   - Diogo Bezerra
 editor:
   - Yanina Bellini Saibene
-date: 2026-11-17
+date: 2026-11-23
 tags:
   - Software Peer Review
   - packages
@@ -22,17 +22,62 @@ tags:
   - Brazil
 description: "How ibger estimates result sizes and splits large IBGE API queries automatically."
 params:
-  doi:
-socialImg: blog/2026/11/17/ibger/soy-plot-1.png
+  doi: 10.59350/sz8ka-fre17
+socialImg: blog/2026/11/23/ibger/soy-plot-1.png
 socialAlt: "Line charts of Brazilian soybean production and of the number of producing municipalities, both rising from 2000 to 2025."
 social: "A tech note on how the ibger R package splits large queries to the IBGE API, Brazil's official statistics, automatically."
 ---
 
+```{r setup, include=FALSE}
+# Options to have images saved in the post folder
+# And to disable symbols before output
+knitr::opts_chunk$set(fig.path = "", comment = "")
+
+# knitr hook to make images output use Hugo options
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "`{{< figure src=",
+      '"', x, '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}`{=html}\n"
+    )
+  }
+)
+
+# knitr hook to use Hugo highlighting options
+knitr::knit_hooks$set(
+  source = function(x, options) {
+  hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+      paste0("{",
+        glue::glue_collapse(
+          glue::glue('{names(hlopts)}={hlopts}'),
+          sep = ","
+        ), "}"
+        )
+      },
+      "\n", glue::glue_collapse(x, sep = "\n"), "\n```\n"
+    )
+  }
+)
+
+options(cli.num_colors = 1, width = 80)
+```
+
 The Brazilian Institute of Geography and Statistics ([IBGE](https://www.ibge.gov.br/en/))
-produces Brazil’s official statistics: the demographic census, the IPCA
-inflation index, municipal GDP, and dozens of recurring economic, social and
+produces Brazil's official statistics: the demographic census, the IPCA
+inflation index[^1], municipal GDP, and dozens of recurring economic, social and
 agricultural surveys. Their results are published as thousands of aggregate
-tables in SIDRA, IBGE’s data retrieval system, and exposed through the
+tables in SIDRA, IBGE's data retrieval system, and exposed through the
 [IBGE Aggregates API](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3).
 
 [ibger](https://docs.ropensci.org/ibger/) is an R client for that API. It lets
@@ -41,21 +86,21 @@ tibbles. The package recently passed
 [rOpenSci software peer review](https://github.com/ropensci/software-review/issues/787),
 and version 0.2.1 is on CRAN:
 
-``` r
+```{r install, eval=FALSE}
 install.packages("ibger")
 ```
 
 ibger grew out of everyday work. We are part of the Strategic Monitoring
 Data Science Team of the Pernambuco state government, in northeastern
 Brazil, which builds R-based tools to monitor state public
-policies[^1]. Our dashboards and reports draw on IBGE indicators, and they
+policies[^2]. Our dashboards and reports draw on IBGE indicators, and they
 are updated by scripts that pull the same tables again and again, often for
 every municipality and for many years at once. We wanted that access to be
 scripted, validated and reproducible, rather than a series of manual
 downloads from the SIDRA website. Less than a week after the first CRAN
 release, [Daniel Vartanian](https://github.com/danielvartan) opened an
 [issue](https://github.com/ropensci/ibger/issues/1) explaining that he
-split his calls into smaller chunks by hand to get around the API’s
+split his calls into smaller chunks by hand to get around the API's
 limits, and suggested submitting the package to rOpenSci. Both ideas
 stuck.
 
@@ -67,8 +112,8 @@ return, and how ibger works around it.
 
 Each SIDRA table crosses variables, periods, geographic units and
 classification categories, so results grow multiplicatively. A modest
-question such as “how much soybean did each of Brazil’s 5,570
-municipalities produce in each year since 2000?” already means more than
+question such as "how much soybean did each of Brazil's 5,570
+municipalities produce in each year since 2000?" already means more than
 140,000 values.
 
 The API documentation states a limit of 100,000 values per request. In
@@ -82,7 +127,7 @@ automatic splitting turned off (`chunk = FALSE`). We use table 1612
 (municipal crop production), variable 214 (quantity produced), category 2713
 of classification 81 (soybeans) and the municipal level `"N6"`:
 
-``` r
+```{r fail, error=TRUE, message=FALSE}
 library(ibger)
 
 soy <- ibge_variables(
@@ -95,15 +140,6 @@ soy <- ibge_variables(
 )
 ```
 
-    Error:
-    ! Failed to access the IBGE API.
-    ✖ HTTP 500 Internal Server Error. ℹ The API returned error 500. This usually
-      means the query exceeds the API's result-size limit (documented as 100,000
-      values, in practice around 50,000).  Try reducing localities, periods or
-      categories, or let `chunk = TRUE` split the request automatically.
-    ℹ URL:
-      <https://servicodados.ibge.gov.br/api/v3/agregados/1612/periodos/2000|2001|2002|2003|2004|2005|2006|2007|2008|2009|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|2021|2022|2023|2024|2025/variaveis/214>
-
 The usual workaround is to split the query by hand into several smaller
 requests, guess sizes that will work, and bind the results back together.
 ibger does this for you.
@@ -113,13 +149,13 @@ ibger does this for you.
 Before sending a data request, ibger estimates the size of the result as the
 product of the number of variables, periods, localities and categories
 involved. Most of the numbers come straight from the arguments. The ones
-that do not, such as “all municipalities” or “the last six periods”, are
-resolved from the table metadata: `ibge_metadata()` lists a table’s
+that do not, such as "all municipalities" or "the last six periods", are
+resolved from the table metadata: `ibge_metadata()` lists a table's
 variables and classifications, and the period and locality endpoints list
 what each table covers. These lookups are cached, so each one is made only
 once per table in a session.
 
-The same metadata powers ibger’s validation: invalid variables, periods,
+The same metadata powers ibger's validation: invalid variables, periods,
 geographic levels or categories are caught before any data request is sent,
 with an error that lists the allowed values.
 
@@ -133,7 +169,7 @@ combined into a single tibble.
 
 With the default `chunk = TRUE`, the same soybean query just works:
 
-``` r
+```{r soy}
 soy <- ibge_variables(
   1612,
   variable = 214,
@@ -141,60 +177,9 @@ soy <- ibge_variables(
   localities = "N6",
   classification = list("81" = 2713)
 )
-```
 
-    ✔ Aggregate 1612: 8 variables,
-    1 classification, 45 categories (cached).
-
-    ℹ Fetching N6 localities for aggregate 1612 from IBGE API...
-
-    ✔ Fetching N6 localities for aggregate 1612 from IBGE API... [449ms]
-
-    ℹ Fetching period list for aggregate 1612 from IBGE API...
-
-    ✔ Fetching period list for aggregate 1612 from IBGE API... [145ms]
-
-    ℹ Estimated result exceeds the API limit (50000 values);
-    splitting into 4 requests.
-
-    ℹ Fetching chunk 1/4 for aggregate 1612 from IBGE API...
-
-    ✔ Fetching chunk 1/4 for aggregate 1612 from IBGE API... [230ms]
-
-    ℹ Fetching chunk 2/4 for aggregate 1612 from IBGE API...
-
-    ✔ Fetching chunk 2/4 for aggregate 1612 from IBGE API... [655ms]
-
-    ℹ Fetching chunk 3/4 for aggregate 1612 from IBGE API...
-
-    ✔ Fetching chunk 3/4 for aggregate 1612 from IBGE API... [575ms]
-
-    ℹ Fetching chunk 4/4 for aggregate 1612 from IBGE API...
-
-    ✔ Fetching chunk 4/4 for aggregate 1612 from IBGE API... [483ms]
-
-    ✔ 144664 records retrieved.
-
-``` r
 soy
 ```
-
-    # A tibble: 144,664 × 9
-       variable_id variable_name        variable_unit classification_81 locality_id
-       <chr>       <chr>                <chr>         <chr>             <chr>      
-     1 214         Quantidade produzida Toneladas     Soja (em grão)    1100015    
-     2 214         Quantidade produzida Toneladas     Soja (em grão)    1100015    
-     3 214         Quantidade produzida Toneladas     Soja (em grão)    1100015    
-     4 214         Quantidade produzida Toneladas     Soja (em grão)    1100015    
-     5 214         Quantidade produzida Toneladas     Soja (em grão)    1100015    
-     6 214         Quantidade produzida Toneladas     Soja (em grão)    1100015    
-     7 214         Quantidade produzida Toneladas     Soja (em grão)    1100015    
-     8 214         Quantidade produzida Toneladas     Soja (em grão)    1100015    
-     9 214         Quantidade produzida Toneladas     Soja (em grão)    1100023    
-    10 214         Quantidade produzida Toneladas     Soja (em grão)    1100023    
-    # ℹ 144,654 more rows
-    # ℹ 4 more variables: locality_name <chr>, locality_level <chr>, period <chr>,
-    #   value <chr>
 
 The estimate was 26 periods × 5,564 municipalities, about 145,000 values,
 so ibger fetched up to eight years per request, four requests in all.
@@ -212,7 +197,7 @@ available (`...`) or suppressed for confidentiality (`X`).
 145,000 values summarise into a picture of two decades of soybean expansion
 in Brazil:
 
-``` r
+```{r soy-plot, message=FALSE, fig.width=8, fig.height=3.5, hugoopts=list(alt="Two line charts for 2000 to 2025. Left: the number of municipalities producing soybeans grows from about 1,450 to about 2,640. Right: Brazilian soybean production grows from about 33 to about 165 million metric tons. The first and last values of each line are labelled.", caption="Soybean production and producing municipalities in Brazil, 2000 to 2025 (IBGE, Produção Agrícola Municipal, table 1612).")}
 library(dplyr)
 library(ggplot2)
 
@@ -223,22 +208,39 @@ by_year <- soy |>
   ) |>
   group_by(year) |>
   summarise(
-    `Production (million tonnes)` = sum(tonnes, na.rm = TRUE) / 1e6,
-    `Producing municipalities` = sum(tonnes > 0, na.rm = TRUE)
+    `Number of producing municipalities` = sum(tonnes > 0, na.rm = TRUE),
+    `Production (million metric tons)` = sum(tonnes, na.rm = TRUE) / 1e6
   ) |>
   tidyr::pivot_longer(-year)
 
+# first and last year of each series, to label the endpoints
+ends <- by_year |>
+  filter(year %in% range(year)) |>
+  mutate(first = year == min(year))
+
 ggplot(by_year, aes(year, value)) +
   geom_line(linewidth = 1, colour = "#2a7f62") +
+  geom_point(data = ends, size = 2.5, colour = "#2a7f62") +
+  geom_text(
+    aes(
+      label = scales::comma(value, accuracy = 1),
+      hjust = ifelse(first, -0.3, 1),
+      vjust = ifelse(first, 1, -1)
+    ),
+    data = ends
+  ) +
   facet_wrap(~name, scales = "free_y") +
-  labs(x = NULL, y = NULL) +
-  theme_minimal(base_size = 13)
+  scale_y_continuous(expand = expansion(mult = c(0.1, 0.2))) +
+  labs(
+    title = "Growth in soybean production and geographic expansion (2000–2025)",
+    x = NULL, y = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(plot.title.position = "plot")
 ```
 
-{{< figure src="soy-plot-1.png" alt="Two line charts for 2000 to 2025. Left: the number of municipalities producing soybeans grows from about 1,450 to about 2,640. Right: Brazilian soybean production grows from about 33 to about 165 million tonnes." caption="Soybean production and producing municipalities in Brazil, 2000 to 2025 (IBGE, Produção Agrícola Municipal, table 1612).">}}
-
 Production grew about fivefold over the period, while the number of
-producing municipalities nearly doubled, from about 1,450 to over 2,600.
+municipalities producing it nearly doubled, from about 1,450 to over 2,600.
 
 ## Learning more
 
@@ -260,4 +262,6 @@ and to the reviewers [Allan Quadros](https://github.com/allanvc) and
 against the live API, made ibger much better. Bug reports, questions and ideas are welcome in the
 [issue tracker](https://github.com/ropensci/ibger/issues).
 
-[^1]: Medeiros, H. A. V., Wanderley, A. L., Bezerra, D. de C., Amorim Filho, C. A. G. de, Nóbrega, R. Z. da, & Ferreira, F. G. de M. (2025). Government Data Science Teams: A Framework for Implementing Strategic Monitoring Solutions. dg.o 2025: 26th Annual International Conference on Digital Government Research. <https://doi.org/10.59490/dgo.2025.925>
+[^1]: IPCA stands for *Índice Nacional de Preços ao Consumidor Amplo* (Extended National Consumer Price Index), Brazil's official inflation measure and the reference for the central bank's inflation target.
+
+[^2]: Medeiros, H. A. V., Wanderley, A. L., Bezerra, D. de C., Amorim Filho, C. A. G. de, Nóbrega, R. Z. da, & Ferreira, F. G. de M. (2025). Government Data Science Teams: A Framework for Implementing Strategic Monitoring Solutions. dg.o 2025: 26th Annual International Conference on Digital Government Research. <https://doi.org/10.59490/dgo.2025.925>
