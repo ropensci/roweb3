@@ -15,6 +15,7 @@ tags:
   - community
   - giving back
   - R
+  preface: This post is part of our 15th anniversary celebration series, in which community members share their stories with rOpenSci.
   # The description below will be used by e.g. Social preview cards
 description: "A very short summary of your post (~ 100 characters)"
 # The editor will add this. If you would like add it yourself,
