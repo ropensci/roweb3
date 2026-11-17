@@ -12,7 +12,7 @@ description: "Que hicimos durante HackeaR, un evento en LatinR donde nos juntamo
 editor:
   - Steffi LaZerte
 params:
-  doi: ""
+  doi: "10.59350/zde9j-p0b41"
 ---
 
 [LatinR](https://latinr.org) es la conferencia sobre el uso de R en Investigación y Desarrollo que congrega a la comunidad latinoamericana usando nuestro lenguaje de programación favorito. Este 2026 se realizo del 11 al 13 de Noviembre en Medellín, en conjunto con la Universidad de Antioquia. 
