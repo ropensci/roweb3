@@ -22,7 +22,7 @@ description: "A very short summary of your post (~ 100 characters)"
 # use the quoted doi output from `commonmetar::commonmeta_doi()`.
 # Commonmetar package: https://docs.ropensci.org/commonmetar/
 params:
-  doi:
+  doi: 10.59350/cbt0v-s7274
   # If you have no preferred image for Social preview cards,
   # delete the socialImg and socialAlt lines below.
   # If using, note "/" between year/month/day.
