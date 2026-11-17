@@ -32,12 +32,12 @@ Twenty-seven people attended the event; some stayed for the full two hours, whil
 <div class="row">
 <div class="col-md-6">
 
-{{< figure src="hackear_participants.jpeg" alt="A group of 10 people sit and smiling on the stage and the zoom projection with 4 more participants online" caption="HackeaR participants at LatinR 2026" >}}
+{{< figure src="working_groups.jpeg" alt="Participants selecting issues and pull requests to work on during the event, sitting in the room and working on their laptops" caption="Participants selecting issues and pull requests to work on during the event" >}}
 
 </div>
 <div class="col-md-6">
 
-{{< figure src="starofruniverse.png" alt="Interview with Mo about how she uses R-Universe" caption="Interview with Mo for the series Star of R-Universe" >}}
+{{< figure src="working_groups_2.jpeg" alt="More participants selecting issues and pull requests to work on during the event, sitting in the room and working on their laptops" caption="Hackathon participants working on their computers during the event" >}}
 
 </div>
 </div>
@@ -72,6 +72,19 @@ Riva Quiroga and Jesica Formoso worked on a color contrast problem below the WCA
 
 - Other participants, such as Gustavo Bruges and Audrey, reviewed the list of rOpenSci ["Help Wanted" issues](/help-wanted/) and offered their help translating vignettes.
 
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="learning_togethers.jpeg" alt="A mentor and a participant reviewing an assignment together during the event" caption="Learning and working together during the event" >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="hybrid.jpeg" alt="Three people are sitting in the room, and one of them is holding a laptop, with two people participating online" caption="The hybrid nature of the event, which allows us to work with people from all over the world." >}}
+
+</div>
+</div>
+
 ## What we take away
 
 In just two hours, the board showed how varied contributing can be: from alt text or a typo in a README to working together with a package's authors to improve and implement it.
@@ -86,4 +99,4 @@ Sharing a moment with new and familiar people, working on something we enjoy, le
 
 Thank you to everyone who participated!
 
-{{< figure src="hackear_participants.jpeg" alt="A group of 10 people sit and smiling on the stage and the zoom projection with 4 more participants online" caption="HackeaR participants at LatinR 2026" >}}
+{{< figure src="hackear_participants.jpeg" alt="A group of 10 people is sitting on stage, smiling, and the Zoom screen shows four other participants connected online." class = "center" caption="Some of the HackeaR participants at LatinR 2026, both in person and online" >}}

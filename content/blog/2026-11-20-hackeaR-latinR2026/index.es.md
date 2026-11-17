@@ -29,7 +29,6 @@ El foco estuvo en contribuciones que ayudan a tanto a R base como a los paquetes
 
 Veintisiete personas participaron del evento, algunas las dos horas completas y otras yendo y viniendo entre el resto de las sesiones de la conferencia.
 
-
 <div class="row">
 <div class="col-md-6">
 
