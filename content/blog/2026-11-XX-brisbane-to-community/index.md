@@ -5,7 +5,7 @@ author:
   - Adam H. Sparks
 editor:
   - Editor Name1 # Name(s) of the editor(s) of your post (you can leave empty)
-date: 2026-11-?? # Expected date of publication
+date: 2026-11-19
 # Minimal tags for a post about a community-contributed package
 # that has passed software peer review are listed below.
 # Consult the Technical Guidelines for information on choosing additional tags
