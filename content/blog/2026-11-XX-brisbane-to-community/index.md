@@ -31,8 +31,6 @@ params:
 social: "A post about blabla by @username@server.extension!"
 ---
 
-
-
 # From Brisbane to the rOpenSci Community: Ten Years of Open Research Software
 
 With rOpenSci turning 15 this year, it's hard to believe that I've been part of it for 10 of those years.
@@ -181,13 +179,14 @@ I've been using R since the early 2000s and have watched a fantastic community g
 I've also seen what a difference it makes when people make an effort to be kind, supportive and welcoming.
 rOpenSci is a good example of that.
 
-Getting involved doesn't have to mean writing an R package.
+[Getting involved doesn't have to mean writing an R package](https://ropensci.org/help-wanted/).
 You could open an issue to report a bug, help improve some documentation or write an example vignette showing others how to use a package.
 If you've found a useful way to do something with a package, someone else might benefit from seeing it too (just check with the package author first!).
 
 Reviewing is another good way to contribute.
 You'll learn a lot about your own coding by looking at someone else's work and thinking about how it could be improved.
 rOpenSci's review process is intended to be supportive, friendly and constructive, and that makes it worthwhile for authors and reviewers alike.
+If you are interested in reviewing, [rOpenSci maintains a database of potential reviewers that is open for you to volunteer](https://airtable.com/app8dssb6a7PG6Vwj/shrnfDI2S9uuyxtDw).
 
 From my perspective as an editor, rOpenSci needs to keep adapting as the tools and practices of research software development change, as it has done throughout its history.
 New technologies bring opportunities, but also questions about how to maintain quality, support contributors and keep peer review useful, particularly as the demands on editors and reviewers grow.
