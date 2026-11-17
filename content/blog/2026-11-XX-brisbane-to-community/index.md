@@ -4,7 +4,7 @@ title: "From Brisbane to the rOpenSci Community: Ten Years of Open Research Soft
 author:
   - Adam H. Sparks
 editor:
-  - Editor Name1 # Name(s) of the editor(s) of your post (you can leave empty)
+  - Yanina Bellini Saibene
 date: 2026-11-19
 # Minimal tags for a post about a community-contributed package
 # that has passed software peer review are listed below.
