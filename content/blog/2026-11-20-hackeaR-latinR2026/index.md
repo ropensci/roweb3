@@ -27,6 +27,21 @@ The idea is that anyone, whether a beginner or an experienced person, can make a
 
 The focus was on contributions that help both base R and the R packages that make up our ecosystem. Several of these packages and projects are rOpenSci programs. Possible contributions included analyzing and working on _issues_ and _pull requests_ listed on the [hackathon board](https://github.com/orgs/r-devel/projects/14/views/1), improving documentation, and reviewing translations of rOpenSci materials.
 
+Twenty-seven people attended the event; some stayed for the full two hours, while others came and went between the other conference sessions. 
+
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="hackear_participants.jpeg" alt="A group of 10 people sit and smiling on the stage and the zoom projection with 4 more participants online" caption="HackeaR participants at LatinR 2026" >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="starofruniverse.png" alt="Interview with Mo about how she uses R-Universe" caption="Interview with Mo for the series Star of R-Universe" >}}
+
+</div>
+</div>
+
 
 ## The work proposals
 
@@ -70,3 +85,5 @@ At the end of the event, we raffled a Platzi scholarship among the participants,
 Sharing a moment with new and familiar people, working on something we enjoy, learning, and helping the people who develop packages are among the most interesting activities you can do at these events.
 
 Thank you to everyone who participated!
+
+{{< figure src="hackear_participants.jpeg" alt="A group of 10 people sit and smiling on the stage and the zoom projection with 4 more participants online" caption="HackeaR participants at LatinR 2026" >}}

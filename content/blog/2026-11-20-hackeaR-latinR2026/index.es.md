@@ -27,6 +27,22 @@ La idea es que cualquier persona, sea principiante o tenga experiencia, pueda ha
 
 El foco estuvo en contribuciones que ayudan a tanto a R base como a los paquetes de R que conforman nuestro ecosistema. Varios de estos paquetes y proyectos son programas de rOpenSci. Las contribuciones posibles incluían analizar y trabajar sobre _issues_ y _pull request_ listados en el [tablero del hackathon](https://github.com/orgs/r-devel/projects/14/views/1), mejorar documentación y revisar traducciones de materiales de rOpenSci.
 
+Veintisiete personas participaron del evento, algunas las dos horas completas y otras yendo y viniendo entre el resto de las sesiones de la conferencia.
+
+
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="working_groups.jpeg" alt="Participantes seleccionando issues y pull request para trabajar durante el evento, sentados en la sala y trabajando en sus notebooks" caption="Participantes seleccionando issues y pull request para trabajar durante el evento" >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="working_groups_2.jpeg" alt="Más participantes seleccionando issues y pull request para trabajar durante el evento, sentados en la sala y trabajando en sus notebooks" caption="Participantes del hackathon trabajando con sus computadoras durante el evento" >}}
+
+</div>
+</div>
+
 
 ## Las propuestas de trabajo
 
@@ -59,6 +75,19 @@ Riva Quiroga y Jesica Formoso trabajaron en un problema de contraste de color po
 
 - Otros participantes, como Gustavo Bruges y Audrey, revisaron el listado de ["Help Wanted" issues de rOpenSci](/help-wanted/) y ofrecieron su ayuda para traducir viñetas. 
 
+<div class="row">
+<div class="col-md-6">
+
+{{< figure src="learning_togethers.jpeg" alt="Mentora y participante revisando juntos una tarea durante el evento" caption="Aprendiendo y trabajando juntes durante el evento" >}}
+
+</div>
+<div class="col-md-6">
+
+{{< figure src="hybrid.jpeg" alt="Tres personas en persona en la sala sentadas y una de ellas sostiene su notebook donde se encuentran dos personas participando online" caption="La naturaleza hibrida del evento, que permite trabajar con personas de todo el mundo." >}}
+
+</div>
+</div>
+
 ## Lo que nos llevamos
 
 En solo dos horas, el tablero mostró lo variado que puede ser contribuir: desde un texto alternativo o un typo en un README hasta trabajar en conjunto con les autores de un paquete para mejorarlo e implementarlo.
@@ -72,3 +101,5 @@ Al finalizar el evento sorteamos una beca de Platzi entre las personas participa
 Compartir un momento con personas nuevas y conocidas trabajando en algo que nos gusta, aprendiendo y ayudando a las personas que desarrollan paquetes, son de las actividades mas interesantes que se pueden realizar en estos eventos.
 
 ¡Gracias a todas las personas que participaron! 
+
+{{< figure src="hackear_participants.jpeg" alt="Un grupo de 10 personas está sentado y sonriente en el escenario, y en la proyección de Zoom aparecen otras 4 personas participantes conectadas en línea." caption="Algunos de los participantes de HackeaR en LatinR 2026" >}}
