@@ -1,10 +1,14 @@
+{{- /*
+  Renders a divider, the two latest featured blog posts or tech notes, and links to the blog and the tech notes (home page).
+  Context: a dict with "divider" ("lr" or "rl") and "Site".
+*/ -}}
 {{ partial "whole-page-fragments/divider" .divider }}
 
     <!-- News section -->
     <section class="section section-news">
       <div class="container">
       <div class="d-flex justify-content-between align-items-center">
-      <h2 class="title">Últimas noticias</h2>
+      <h2 class="title">{{ i18n "Home-News-Title" }}</h2>
       <div>
         <a class="section-news__link" href='{{ absLangURL "rbloggers/index.xml"}}'>RSS</a>
         •
@@ -22,15 +26,15 @@
         <div class="row pack-cards">
           <div class="col-md-6">
             <a href="/blog/" class="pack-card">
-              <h4 class="pack-title">Nuestro Blog</h4>
-              <p>Las últimas novedades de rOpenSci y de la comunidad R en general</p>
+              <h4 class="pack-title">{{ i18n "Home-Blog-Title" }}</h4>
+              <p>{{ i18n "Home-Blog-Text" }}</p>
               <div class="arrow pack-arrow"></div>
             </a>
           </div>
           <div class="col-md-6">
             <a href="/technotes" class="pack-card">
-              <h4 class="pack-title">Notas técnicas</h4>
-              <p>Notas de la versión, actualizaciones y desarrollos relacionados con los paquetes</p>
+              <h4 class="pack-title">{{ i18n "Tech-Notes" }}</h4>
+              <p>{{ i18n "Home-Tech-Notes-Text" }}</p>
               <div class="arrow pack-arrow"></div>
             </a>
           </div>

@@ -19,10 +19,7 @@
   </div>
 </section>
 {{ partial "talks/talk-table" (dict "Pages" $pages "Title" "" "Content" .Content) }}
-{{ $askpartial := (partial "translate-path" (dict "name" "whole-page-fragments/ask" "language" .Language.Lang )) }}
-{{ partial $askpartial  (dict "divider" "lr" ) }}
-{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
-{{ partial $newsletterpartial (dict "Site" .Site "divider" "rl" )  }}
-{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
-{{ partial $brandpartial (dict "Site" .Site "divider" "lr" )  }}
+{{ partial "whole-page-fragments/ask.html" (dict "divider" "lr") }}
+{{ partial "whole-page-fragments/newsletter.html" (dict "divider" "rl") }}
+{{ partial "whole-page-fragments/brands.html" (dict "divider" "lr") }}
 {{ end }}

@@ -8,8 +8,8 @@ tags:
   - newsletter
 description: Farewell editor Julia, welcome editors Emi and Nima, R-universe updates, champions program, events
 params:
+  doi: "10.59350/y0efh-rhr11"
   last_newsletter: '2025-05-26'
-  doi: "10.59350/e4wq0-j73"
 ---
 
 ```{r setup, include=FALSE}

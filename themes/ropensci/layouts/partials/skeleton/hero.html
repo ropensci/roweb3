@@ -1,8 +1,12 @@
+{{- /*
+  Renders the top of the home page: the latest blog post or tech note, the tagline and links to the project sections. Closes the <header> opened in skeleton/header.html.
+  Context: the home page.
+*/ -}}
       <!-- Hero -->
       <div class="hero">
         <div class="container news">
           <div class="news-body">
-            <span class="news-label">New!</span
+            <span class="news-label">{{ i18n "Home-New" }}</span
             ><span class="news-text"
               >
                         {{ range first 1 ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "in" .Site.Params.blogs ) }}
@@ -18,16 +22,16 @@
         <div class="container">
           <div class="hero-body">
             <h1 class="hero-title">
-              Transforming science through open data, software & reproducibility
+              {{ i18n "Home-Hero-Title" | safeHTML }}
             </h1>
             <p>
-              rOpenSci fosters a culture of open and reproducible research using shared data and reusable software.  We build social and technical infrastructure for the R language to enable researchers and engineers to collaborate, share, and publish their science, data, and methods.
+              {{ i18n "Home-Hero-Text" }}
             </p>
             <div class="hero-buttons">
-              <a href="#review" class="btn btn-primary">Software Review</a>
-              <a href="#r-universe" class="btn btn-primary">Infrastructure</a>
-              <a href="#champions" class="btn btn-primary">Training and Mentorship</a>
-              <a href="#multilingual" class="btn btn-primary">Multilingual Publishing</a>
+              <a href="#review" class="btn btn-primary">{{ i18n "Home-Hero-Review" }}</a>
+              <a href="#r-universe" class="btn btn-primary">{{ i18n "Home-Hero-Infrastructure" }}</a>
+              <a href="#champions" class="btn btn-primary">{{ i18n "Home-Hero-Training" }}</a>
+              <a href="#multilingual" class="btn btn-primary">{{ i18n "Home-Hero-Multilingual" }}</a>
             </div>
           </div>
         </div>

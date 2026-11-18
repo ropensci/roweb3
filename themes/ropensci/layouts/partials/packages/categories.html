@@ -1,0 +1,17 @@
+{{/*
+  Returns the categories of a package (an R-universe API entry) as a slice.
+  Uses _metadata.ropensci_categories (array) when present and non-empty,
+  falls back to the legacy _metadata.ropensci_category (string),
+  and returns an empty slice for packages without a category.
+*/}}
+{{ $categories := slice }}
+{{ with ._metadata }}
+  {{ with .ropensci_categories }}
+    {{ $categories = . }}
+  {{ else }}
+    {{ with .ropensci_category }}
+      {{ $categories = slice . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $categories }}

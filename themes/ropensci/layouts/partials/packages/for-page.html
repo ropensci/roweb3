@@ -1,0 +1,17 @@
+{{- /*
+  Returns the packages listed on a packages page, unsorted:
+  all packages of the registry (R-universe API) for the "all" page, else the packages in the page's category.
+  Context: the packages page.
+  Fails the build for a category with no packages.
+*/ -}}
+{{- $registry := resources.GetRemote site.Params.registry | unmarshal -}}
+{{- $result := $registry -}}
+{{- if ne .Params.slug "all" -}}
+  {{- $result = partial "packages/in-category" (dict "registry" $registry "slug" .Params.slug) -}}
+  {{- if not $result -}}
+    {{- $pageFile := .RelPermalink -}}
+    {{- with .File }}{{ $pageFile = printf "content/%s" .Path }}{{ end -}}
+    {{- errorf `No package is in the category %q (%s): check that its "slug" is the category used in the packages' metadata (ropensci_categories).` .Params.slug $pageFile -}}
+  {{- end -}}
+{{- end -}}
+{{- return $result -}}

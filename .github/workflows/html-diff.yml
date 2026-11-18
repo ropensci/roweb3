@@ -1,0 +1,78 @@
+# Compares the HTML built from the PR with the HTML built from its base branch.
+# Runs only on PRs with the 'check-html-diff' label (adding the label starts a run).
+# Results: the job summary, the 'html-diff' artifact (full diff), and a PR comment
+# (not for PRs from forks, whose token can't write comments).
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+
+name: HTML diff
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: html-diff-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  html-diff:
+    if: >-
+      contains(github.event.pull_request.labels.*.name, 'check-html-diff') &&
+      (github.event.action != 'labeled' || github.event.label.name == 'check-html-diff')
+    runs-on: ubuntu-latest
+    env:
+      HUGO_PARAMS_DETERMINISTIC: "true"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # Git info (page dates) needs the history
+
+      - name: Install the Hugo version used by Netlify
+        run: |
+          version=$(grep -m1 'HUGO_VERSION' netlify.toml | sed -E 's/.*"([0-9.]+)".*/\1/')
+          echo "Hugo $version"
+          curl -sSL -o "$RUNNER_TEMP/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_extended_${version}_linux-amd64.deb"
+          sudo dpkg -i "$RUNNER_TEMP/hugo.deb"
+
+      - uses: r-lib/actions/setup-r@v2
+
+      # The PR is checked out merged into the current base branch,
+      # so compare with the current base branch (the event's base.sha can be stale).
+      - name: Check out the base branch next to the PR
+        run: git worktree add "$RUNNER_TEMP/base-src" "origin/${{ github.base_ref }}"
+
+      # Both builds share the cache folder, so remote data (r-universe, citations)
+      # is downloaded once and is the same in both.
+      - name: Build the base branch
+        working-directory: ${{ runner.temp }}/base-src
+        run: hugo --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/base"
+
+      - name: Build the PR
+        run: hugo --buildFuture --cacheDir "$RUNNER_TEMP/hugo-cache" -d "$RUNNER_TEMP/head"
+
+      - name: Compare
+        run: |
+          Rscript scripts/html-diff.R "$RUNNER_TEMP/base" "$RUNNER_TEMP/head" "$RUNNER_TEMP/html-diff"
+          cat "$RUNNER_TEMP/html-diff/summary.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: html-diff
+          path: ${{ runner.temp }}/html-diff/
+
+      - name: Comment on the PR
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          {
+            cat "$RUNNER_TEMP/html-diff/comment.md"
+            echo
+            echo "Details: [job summary and full diff]($run_url) (commit ${{ github.event.pull_request.head.sha }})."
+          } > "$RUNNER_TEMP/comment.md"
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --edit-last --create-if-none --body-file "$RUNNER_TEMP/comment.md"

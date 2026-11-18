@@ -1,7 +1,10 @@
-{{ $Rmd := (print .File.BaseFileName ".Rmd") }}
-{{ if (where (readDir (print "content/" .File.Dir)) "Name" $Rmd) }}
-  {{ $.Scratch.Set "FilePath" (print .File.Dir $Rmd) }}
-{{ else }}
-  {{ $.Scratch.Set "FilePath" .File.Path }}
-{{ end }}
-{{ return (print .Site.Params.githubsource ( $.Scratch.Get "FilePath" ) ) }}
+{{- /*
+  Returns the GitHub URL of a page's source file: its .Rmd file when there is one next to it, else its Markdown file.
+  Context: the page.
+*/ -}}
+{{- $rmdName := print .File.BaseFileName ".Rmd" -}}
+{{- $sourcePath := .File.Path -}}
+{{- if where (readDir (print "content/" .File.Dir)) "Name" $rmdName -}}
+  {{- $sourcePath = print .File.Dir $rmdName -}}
+{{- end -}}
+{{- return (print .Site.Params.githubsource $sourcePath) -}}

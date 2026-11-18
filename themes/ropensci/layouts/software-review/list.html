@@ -1,4 +1,15 @@
 {{ define "main" }}
+        {{ $today := now.Format "2006-01-02" }}
+        {{ $allEditors := where hugo.Data.team.team "roles" "intersect" (slice "editor") }}
+        {{ $currentEic := "" }}
+        {{ range $p := where $allEditors "eic" "ne" nil }}
+          {{ if where (where $p.eic "start" "le" $today) "end" "ge" $today }}
+            {{ $currentEic = $p.name }}
+          {{ end }}
+        {{ end }}
+        {{ if not $currentEic }}
+        {{ errorf "No current EiC found in data/team/team.json for %s (or they are not a current editor)" $today }}
+        {{ end }}
     <section class="section section-generic">
       <div class="container">
         <!-- Header text -->
@@ -9,7 +20,7 @@
           </div>
           <div class="col-lg-4 mt-4">
               <aside>
-                  {{ partial "team/people" (dict "project" "software-review" "Site" .Site )}}
+                  {{ partial "team/people" (dict "project" "software-review" "Site" .Site "eic" (index (where $allEditors "name" "eq" $currentEic) 0))}}
               </aside>
           </div>
         </div>
@@ -33,12 +44,21 @@
             </p>
           </div>
         </div>
-        {{ $editors := (shuffle ( where (hugo.Data.team.team) "roles" "intersect" ( slice "editor" ) ) )}}
+        {{ $editors := (where $allEditors "name" "eq" $currentEic) | append (partial "shuffle.html" (where $allEditors "name" "ne" $currentEic)) }}
         {{ $editorsNoGitHub := where $editors "github" "eq" nil }}
         {{ if gt (len $editorsNoGitHub) 0 }}
         {{ errorf "Missing github entry in data/team/team.json for editor(s): %s" (delimit (apply $editorsNoGitHub "index" "." "name") ", ") }}
         {{ end }}
-        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
+        {{ $editorsNoType := slice }}
+        {{ range $editors }}
+          {{ if not (or .stats .generalreview) }}
+            {{ $editorsNoType = $editorsNoType | append .name }}
+          {{ end }}
+        {{ end }}
+        {{ if gt (len $editorsNoType) 0 }}
+        {{ errorf "Missing stats or generalreview entry in data/team/team.json for editor(s): %s" (delimit $editorsNoType ", ") }}
+        {{ end }}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors "showEic" true)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">
             <h4 class="about-block__title" id="editors">
@@ -46,14 +66,11 @@
             </h4>
           </div>
         </div>
-        {{ $editors := (shuffle ( where (hugo.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
-        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors)  }}
+        {{ $editors := (partial "shuffle.html" ( where (hugo.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
+        {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors "showEic" true)  }}
         </div>
         </section>
-{{ $volunteerpartial := (partial "translate-path" (dict "name" "whole-page-fragments/volunteer" "language" .Language.Lang )) }}
-{{ partial $volunteerpartial  (dict "divider" "rl" "Site" .Site ) }}
-{{ $newsletterpartial := (partial "translate-path" (dict "name" "whole-page-fragments/newsletter" "language" .Language.Lang )) }}
-{{ partial $newsletterpartial (dict "Site" .Site "divider" "lr" )  }}
-{{ $brandpartial := (partial "translate-path" (dict "name" "whole-page-fragments/brands" "language" .Language.Lang )) }}
-{{ partial $brandpartial (dict "Site" .Site "divider" "rl" )  }}
+{{ partial "whole-page-fragments/volunteer.html" (dict "divider" "rl") }}
+{{ partial "whole-page-fragments/newsletter.html" (dict "divider" "lr") }}
+{{ partial "whole-page-fragments/brands.html" (dict "divider" "rl") }}
 {{ end }}
