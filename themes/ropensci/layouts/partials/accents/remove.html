@@ -1,8 +1,12 @@
-{{ $Scratch := newScratch }}
-{{ $Scratch.Set "string" .string }}
-{{ range hugo.Data.accents.accents }}
-{{ range $key,$val := . }}
-{{ $Scratch.Set "string" ( replaceRE $key $val ($Scratch.Get "string") ) }}
-{{ end }}
-{{ end }}
-{{ return ($Scratch.Get "string") }}
+{{- /*
+  Returns a string with its accented letters replaced by unaccented ones (e.g. "é" by "e"),
+  using the replacements listed in data/accents/accents.json.
+  Context: the string.
+*/ -}}
+{{- $result := . -}}
+{{- range $replacement := hugo.Data.accents.accents -}}
+  {{- range $accented, $unaccented := $replacement -}}
+    {{- $result = replaceRE $accented $unaccented $result -}}
+  {{- end -}}
+{{- end -}}
+{{- return $result -}}

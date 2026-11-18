@@ -1,4 +1,7 @@
-{{ $scratch := newScratch }}
+{{- /*
+  An image floated to one side (side: "left" by default) with text next to it, used in the rOpenSci profile posts.
+  Parameters: src, alt or caption, side, link (with target and rel), height and width (250px by default).
+*/ -}}
       {{- if .Get "side" -}}<div class="float-{{ (.Get "side") }}">{{ else }}<div class="float-left">{{- end -}}
                 <figure class="m-0">
                   {{- if .Get "link" -}}
@@ -7,17 +10,8 @@
     <img src="{{ .Get "src" }}"
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-         {{- end -}}
-         
-{{ $scratch.Set "height" "250px" }}
-          {{ if .Get "height" }}
-{{ $scratch.Set "height" ( .Get "height" ) }}
- {{ end }}
- {{ $scratch.Set "width" "250px" }}
-          {{ if .Get "width" }}
-{{ $scratch.Set "width" ( .Get "width" ) }}
- {{ end }}
-         style="  object-fit: cover; object-position: center;  height: {{ $scratch.Get "height" }};  width: {{ $scratch.Get "width" }}; margin-right: 15px"
+         {{- end }}
+         style="  object-fit: cover; object-position: center;  height: {{ .Get "height" | default "250px" }};  width: {{ .Get "width" | default "250px" }}; margin-right: 15px"
     /> <!-- Closing img tag -->
     {{- if .Get "link" }}</a>{{ end -}}
                   {{ with .Get "caption" }} 

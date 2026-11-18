@@ -8,8 +8,8 @@ tags:
   - newsletter
 description: trilingual dev guide, AI in software review, champions program, new package and package news
 params:
+  doi: "10.59350/jq0jx-4zg59"
   last_newsletter: '2026-02-26'
-  doi: "10.59350/fe3c2-6zc80"
 rmd_hash: 5c83e8ec5c74d1e7
 
 ---

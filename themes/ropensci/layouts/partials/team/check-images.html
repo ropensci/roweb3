@@ -1,0 +1,31 @@
+{{/*
+  Fail the build if a photo listed in data/team/*.json is missing or not square.
+  Call it with partialCached so that it runs once per build.
+*/}}
+{{ $problems := slice }}
+{{ range $file, $people := hugo.Data.team }}
+  {{ range $people }}
+    {{ $name := .name }}
+    {{ with .image }}
+      {{ $image := . }}
+      {{ $path := "" }}
+      {{ range slice "static" "themes/ropensci/static" }}
+        {{ $candidate := printf "%s%s" . $image }}
+        {{ if and (not $path) (fileExists $candidate) }}{{ $path = $candidate }}{{ end }}
+      {{ end }}
+      {{ if $path }}
+        {{ $config := images.Config $path }}
+        {{ if ne $config.Width $config.Height }}
+          {{ $problems = $problems | append (printf "%s (%s.json, %s is %dx%d)" $name $file $image $config.Width $config.Height) }}
+        {{ end }}
+      {{ else }}
+        {{ $problems = $problems | append (printf "%s (%s.json, %s not found)" $name $file $image) }}
+      {{ end }}
+    {{ else }}
+      {{ $problems = $problems | append (printf "%s (%s.json, no image entry)" $name $file) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if $problems }}
+  {{ errorf "Team photos must be square, fix these image(s) listed in data/team/: %s" (delimit $problems "; ") }}
+{{ end }}

@@ -14,6 +14,23 @@ The goal of roweb3 is to hold the source of rOpenSci website, 2020 edition.
 
 The Hugo version used has to be recorded in netlify.toml (two places) as well as in .Rprofile and in the blog guidance.
 
+### HTML diff of a PR
+
+Add the `check-html-diff` label to a PR to compare the HTML it produces with the HTML of its base branch ([workflow](.github/workflows/html-diff.yml)).
+The run's summary groups the pages by change; the full diff is in its `html-diff` artifact.
+Tag pages and sitemaps are not compared, as their content varies between builds.
+
+To compare two builds locally:
+
+```sh
+HUGO_PARAMS_DETERMINISTIC=true hugo --quiet -d /tmp/before
+# make your changes
+HUGO_PARAMS_DETERMINISTIC=true hugo --quiet -d /tmp/after
+Rscript scripts/html-diff.R /tmp/before /tmp/after /tmp/html-diff # see /tmp/html-diff/summary.md
+```
+
+`HUGO_PARAMS_DETERMINISTIC=true` turns off the random order of brands, people, etc.: use `partial "shuffle.html"` rather than `shuffle` in layouts.
+
 ### Featured posts and tech notes
 
 To feature a blog post or tech note add:
