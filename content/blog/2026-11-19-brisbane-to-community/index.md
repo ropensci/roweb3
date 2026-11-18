@@ -6,29 +6,16 @@ author:
 editor:
   - Yanina Bellini Saibene
 date: 2026-11-19
-# Minimal tags for a post about a community-contributed package
-# that has passed software peer review are listed below.
-# Consult the Technical Guidelines for information on choosing additional tags
 tags:
   - Software Peer Review
   - anniversary
   - community
   - giving back
   - R
-  preface: This post is part of our 15th anniversary celebration series, in which community members share their stories with rOpenSci.
-  # The description below will be used by e.g. Social preview cards
-description: "A very short summary of your post (~ 100 characters)"
-# The editor will add this. If you would like add it yourself,
-# use the quoted doi output from `commonmetar::commonmeta_doi()`.
-# Commonmetar package: https://docs.ropensci.org/commonmetar/
+preface: This post is part of our 15th anniversary celebration series, in which community members share their stories with rOpenSci.
+description: "A look back at ten years of involvement with rOpenSci, from attending a Unconf to package development, peer review, editorial work, and building open science communities. Through stories of collaboration, learning, and lasting friendships, the post highlights how welcoming communities can shape careers and make open research software stronger. "
 params:
   doi: 10.59350/cbt0v-s7274
-  # If you have no preferred image for Social preview cards,
-  # delete the socialImg and socialAlt lines below.
-  # If using, note "/" between year/month/day.
-# The text below is for populating the "share on XXX" Socials buttons.
-# If deleted, the title of the post will be used.
-social: "A post about blabla by @username@server.extension!"
 ---
 
 # From Brisbane to the rOpenSci Community: Ten Years of Open Research Software
