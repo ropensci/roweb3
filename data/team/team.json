@@ -371,16 +371,15 @@
     "name": "Mauro Lepore",
     "url": "https://github.com/maurolepore/",
     "image": "/img/team/mauro-lepore.jpg",
-    "affiliation": "rOpenSci software peer review",
+    "affiliation": "rOpenSci",
     "roles": [
       "editor"
     ],
     "participates": [
-      "champions",
       "software-review"
     ],
     "generalreview": true,
-    "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
+    "linkedin": "https://www.linkedin.com/in/mauro-lepore/",
     "github": "maurolepore",
     "home": "/author/mauro-lepore",
     "eic": [
