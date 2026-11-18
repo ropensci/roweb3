@@ -371,17 +371,18 @@
     "name": "Mauro Lepore",
     "url": "https://github.com/maurolepore/",
     "image": "/img/team/mauro-lepore.jpg",
-    "affiliation": "Theia Finance Labs",
+    "affiliation": "rOpenSci software peer review",
     "roles": [
       "editor"
     ],
     "participates": [
+      "champions",
       "software-review"
     ],
     "generalreview": true,
     "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
     "github": "maurolepore",
-    "home": "https://github.com/maurolepore/",
+    "home": "/author/mauro-lepore",
     "eic": [
       {
         "start": "2023-02-01",
