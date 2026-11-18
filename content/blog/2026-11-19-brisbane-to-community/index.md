@@ -18,8 +18,6 @@ params:
   doi: 10.59350/cbt0v-s7274
 ---
 
-# From Brisbane to the rOpenSci Community: Ten Years of Open Research Software
-
 With rOpenSci turning 15 this year, it's hard to believe that I've been part of it for 10 of those years.
 
 My involvement started in Brisbane in 2016, at the first [Australian rOpenSci Unconference](https://ropensci.org/blog/2016/06/16/au-unconf/).
