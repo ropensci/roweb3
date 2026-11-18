@@ -2,7 +2,7 @@
 slug: "brisbane-to-community"
 title: "From Brisbane to the rOpenSci Community: Ten Years of Open Research Software"
 author:
-  - Adam H. Sparks
+  - Adam Sparks
 editor:
   - Yanina Bellini Saibene
 date: 2026-11-19
