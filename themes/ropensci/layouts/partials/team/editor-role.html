@@ -1,10 +1,12 @@
 {{- /*
   Renders, as a paragraph, whether an author is a current or former associate editor
-  of rOpenSci Software Peer Review, according to data/team/team.json, matched on the
-  GitHub handle (case-insensitive). Renders nothing for other authors.
+  of rOpenSci Software Peer Review, and their Editor-in-Chief terms, according to
+  data/team/team.json, matched on the GitHub handle (case-insensitive).
+  Renders nothing for other authors.
   Context: an author page (an _index file in content/author).
 */ -}}
 {{- $labelKey := "" -}}
+{{- $eicPeriods := slice -}}
 {{- with .Params.github -}}
   {{- $authorGithub := lower . -}}
   {{- range $person := where hugo.Data.team.team "github" "ne" nil -}}
@@ -14,11 +16,21 @@
       {{- else if and (not $labelKey) (in $person.past_roles "editor") -}}
         {{- $labelKey = "Former-associate-editor-of-software-peer-review" -}}
       {{- end -}}
+      {{- range $period := $person.eic -}}
+        {{- $eicPeriods = $eicPeriods | append (partial "team/eic-period.html" (dict "person" $person "period" $period)) -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- with $labelKey }}
+{{- $parts := slice -}}
+{{- with $labelKey -}}
+  {{- $parts = $parts | append (i18n .) -}}
+{{- end -}}
+{{- with $eicPeriods -}}
+  {{- $parts = $parts | append (printf "%s: %s" (i18n "Editor-in-Chief") (delimit . "; ")) -}}
+{{- end -}}
+{{- with $parts }}
 <p>
-  {{ i18n . }}
+  {{ delimit . " • " }}
 </p>
 {{- end -}}
