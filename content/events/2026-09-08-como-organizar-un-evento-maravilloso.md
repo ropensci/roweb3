@@ -18,5 +18,10 @@ author:
   - Yanina Bellini Saibene
 attendees:
   - Yanina Bellini Saibene
+resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
+  - title: 'Como organizar un evento maravilloso (capacitación para campeones)'
+    speaker: Yanina Bellini Saibene
+    slides: https://docs.google.com/presentation/d/1xrdgzveKflAQQaju81otba7a6rBYCARXnl15lxcA7jk/edit?usp=sharing
+    language: es
 ---
 

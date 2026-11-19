@@ -18,5 +18,10 @@ author:
   - Alejandra Bellini
 attendees:
   - Alejandra Bellini
+resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
+  - title: 'Como crear una charla inolvidable (capacitación para campeones)'
+    speaker: Alejandra Bellini
+    slides: https://docs.google.com/presentation/d/1hbbTLj6Z53h6Hjdoggf2Qh5yshINDIPycPUGyhMbG1E/edit?usp=share_link
+    language: es
 ---
 

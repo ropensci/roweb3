@@ -18,5 +18,10 @@ author:
   - Mauro Lepore
 attendees:
   - Mauro Lepore
+resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
+  - title: 'Software Peer Review (capacitación para campeones)'
+    speaker: Mauro Lepore
+    slides: https://ropensci-training.github.io/software-review/
+    language: es
 ---
 
