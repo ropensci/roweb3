@@ -91,7 +91,7 @@ Riva Quiroga and Jesica Formoso worked on a color contrast problem below the WCA
 
 ## What we take away
 
-In just two hours, the board showed how varied contributing can be: from alt text or a typo in a README to working together with a package's authors to improve and implement it.
+In just two hours, the board showed how varied contributing can be: from alt text or a typo in a README to working together with a package's authors to improve it.
 
 It also showed that translation and documentation are very valuable entry points, that the support of experienced mentors (such as Luis's explanation of "Lost braces") makes it possible for newcomers to contribute right away, and that working in Spanish and Portuguese is a central part of what we do at LatinR.
 
