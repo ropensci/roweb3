@@ -95,7 +95,7 @@ In just two hours, the board showed how varied contributing can be: from alt tex
 
 It also showed that translation and documentation are very valuable entry points, that the support of experienced mentors (such as Luis's explanation of "Lost braces") makes it possible for newcomers to contribute right away, and that working in Spanish and Portuguese is a central part of what we do at LatinR.
 
-There are still open _issues_ and _pull requests_, and that is good news: if you're left wanting more, you can keep contributing whenever you like. Check out the board and the rOpenSci Help Wanted list. You can also join the R Contributors Zulip and the LatinR Slack, and subscribe to the rOpenSci newsletter to find out about upcoming events like this one.
+There are still open _issues_ and _pull requests_, and that is good news: if you're left wanting more, you can keep contributing whenever you like. Check out the [hackathon board](https://github.com/orgs/r-devel/projects/14/views/1) and the [rOpenSci Help Wanted list](https://ropensci.org/help-wanted/). You can also join the [R Contributors Zulip](https://r-project.zulipchat.com/) and the [LatinR Slack](https://join.slack.com/t/latin-r/shared_invite/zt-2tespojdh-OpXaVcnzOY_SETtv9hqRSQ), and subscribe to the [rOpenSci newsletter](https://ropensci.org/news/) to find out about upcoming events like this one.
 
 At the end of the event, we raffled a Platzi scholarship[^1] among the participants, and Audrey was the one who received the prize. Congratulations! 🎉
 
