@@ -97,7 +97,9 @@ It also showed that translation and documentation are very valuable entry points
 
 There are still open _issues_ and _pull requests_, and that is good news: if you're left wanting more, you can keep contributing whenever you like. Check out the board and the rOpenSci Help Wanted list. You can also join the R Contributors Zulip and the LatinR Slack, and subscribe to the rOpenSci newsletter to find out about upcoming events like this one.
 
-At the end of the event, we raffled a Platzi scholarship among the participants, and Audrey was the one who received the prize. Congratulations! 🎉
+At the end of the event, we raffled a Platzi scholarship[^1] among the participants, and Audrey was the one who received the prize. Congratulations! 🎉
+
+[^1]: Platzi is an online educational platform
 
 Sharing a moment with new and familiar people, working on something we enjoy, learning, and helping the people who develop packages are among the most interesting activities you can do at these events.
 
