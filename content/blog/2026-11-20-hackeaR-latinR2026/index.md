@@ -22,7 +22,7 @@ On Friday, November 13, **[HackeaR](https://latinr.org/cronograma/hackear/)** to
 
 ## What is HackeaR
 
-This event combines the experience of rOpenSci's [mini hackathons and mini translatathons](https://ftc-guide.ropensci.org) with the R Dev Days/Sprints of the [R Contributor](https://contributor.r-project.org/events/r-dev-days/) group.
+This event combines the experience of rOpenSci's [mini hackathons and mini translathons](https://ftc-guide.ropensci.org) with the R Dev Days/Sprints of the [R Contributor](https://contributor.r-project.org/events/r-dev-days/) group.
 The idea is that anyone, whether a beginner or an experienced person, can make a real contribution to the R ecosystem.
 
 The focus was on contributions that help both base R and the R packages that make up our ecosystem. Several of these packages and projects are rOpenSci programs. Possible contributions included analyzing and working on _issues_ and _pull requests_ listed on the [hackathon board](https://github.com/orgs/r-devel/projects/14/views/1), improving documentation, and reviewing translations of rOpenSci materials.
