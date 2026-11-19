@@ -19,5 +19,8 @@ params:
   doi: 
 ---
 
+Huge thanks to the editors who are stepping off the editorial board: 
 
+- [Jeff Hollister](https://ropensci.org/author/Jeff-Hollister) joined the editorial board in 2021. He [handled seven approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Ajhollist+label%3A6%2Fapproved) and served twice as the Editor-in-Chief.
+- [Emi Tanaka](https://ropensci.org/author/emi-tanaka/) joined the editorial board in 2024 and [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Aemitanaka+label%3A6%2Fapproved).
 
