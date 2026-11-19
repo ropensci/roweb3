@@ -68,7 +68,7 @@ Riva Quiroga and Jesica Formoso worked on a color contrast problem below the WCA
 
 ### Translation (10)
 
-- **rOpenSci materials:** there are open pull requests with translations of the Git course into [Spanish](https://github.com/ropensci-training/curriculum/pull/116) and Portuguese. [Francisco Cardozo and Catalina Cañizares took on the Spanish one during the hackathon](https://github.com/ropensci-training/curriculum/pull/136), and it is in progress; the Portuguese ones are awaiting review.
+- **rOpenSci materials:** there are open pull requests with translations of the Git course into [Spanish](https://github.com/ropensci-training/curriculum/pull/116) and Portuguese. [Francisco Cardozo and Catalina Cañizares took on the Spanish one during the hackathon](https://github.com/ropensci-training/curriculum/pull/136), and it is in progress; [the Portuguese ones are awaiting review](https://github.com/ropensci-training/curriculum/pulls?q=sort%3Aupdated-desc+is%3Apr+state%3Aopen+label%3Atradução).
 
 - **R messages:** the issue about translating R messages remains open for anyone who wants to join. In Spanish, everything has already been completed, but there is still work to do in Portuguese.
 
