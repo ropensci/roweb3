@@ -45,7 +45,7 @@ Twenty-seven people attended the event; some stayed for the full two hours, whil
 
 ## The work proposals
 
-To help people decide where to start, we prepared a GitHub project in advance with 25 options to participate in, from different repositories, grouped into three categories: best practices, documentation, and translation.
+To help people decide where to start, we prepared a GitHub project in advance with 25 tasks from different repositories, grouped into three categories: best practices, documentation, and translation.
 
 ### Best practices (9)
 
