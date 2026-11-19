@@ -21,7 +21,7 @@ attendees:
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
   - title: 'Cómo contribuir a proyectos y comunidades abiertas (capacitación para campeones)'
     speaker: Yanina Bellini Saibene
-    slides: https://yabellini.github.io/osscontribuir/
+    slides: https://ropensci-training.github.io/osscontribuir/
     language: es
 ---
 
