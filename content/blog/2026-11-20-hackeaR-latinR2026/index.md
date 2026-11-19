@@ -8,6 +8,10 @@ tags:
   - packages
   - R
   - community
+  - conference
+  - hackathon
+  - translathon
+  - LatinR
 description: "What we did during HackeaR, a LatinR event where we got together to make contributions to our favorite programming language"
 editor:
   - Steffi LaZerte
