@@ -26,12 +26,14 @@ Andreas
 Andy
 Antal
 antanym
+Antioquia
 antiword
 aorsf
 April
 Araya-Salas
 Archer
 Arcos
+Ardila
 Aria
 arkdb
 Arnold
@@ -105,6 +107,7 @@ Camara
 Campitelli
 camsRad
 canaper
+Cañizares
 Carl
 Carlos
 Carolina
@@ -240,6 +243,7 @@ Florian
 fluidsynth
 Forbes
 forcis
+Formoso
 FOSS
 Foster
 Francois
@@ -274,6 +278,7 @@ gitignore
 gittargets
 Gladys
 GLMMcosinor
+Gómez
 Gonzalez-Akre
 Goodman
 goodpractice
@@ -319,6 +324,7 @@ Hocking
 Hoey
 Hoff
 Hogervorst
+Hornik
 Hug
 Hughes
 Hugo
@@ -344,6 +350,7 @@ Jason
 Jeffrey
 jenkins
 Jeroen
+Jesica
 Jesús
 Jingning
 Joan
@@ -443,6 +450,7 @@ McCall
 McLean
 mctq
 Mecum
+Medellín
 medrxivr
 melt
 Mendelssohn
@@ -567,6 +575,7 @@ qualR
 qualtRics
 Quan
 quartificate
+Quiroga
 R
 R.
 Rachael
@@ -616,6 +625,7 @@ Richèl
 riem
 rinat
 ritis
+Riva
 rix
 rixpress
 rmangal
