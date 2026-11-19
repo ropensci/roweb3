@@ -1,25 +1,29 @@
 ---
-title: 'Usar y mejorar tu historial de Git'
+title: 'Usar y mejorar tu historial de Git (capacitación para campeones)'
 training: true
-dateStart: '2026-06-30T11:00:00'
+dateStart: '2026-06-30T12:00:00'
 dateEnd: '2026-06-30T14:00:00'
-date: '2026-06-30T14:00:00' # UTC!! same as dateEnd
+date: 2026-06-30T14:00:00 # UTC!! same as dateEnd
 description: ""
 location: 'online'
 eventlang: Español
-country: "\U0001F310" # emoji
+country: "🌐" # emoji
+ropensci: true
+outputs: 
+- HTML
+- Calendar 
 tags: 
   - champions program
 author:
   - Maëlle Salmon
 attendees:
   - Maëlle Salmon
+  - Yanina Bellini Saibene
 resources: # can be added later, one entry per talk (don't add while still empty, add once there are resources)
-  - title: "Usar y mejorar tu historial de Git (capacitación para campeones)"
+  - title: 'Usar y mejorar tu historial de Git (capacitación para campeones)'
     speaker: Maëlle Salmon, Yanina Bellini Saibene
-    slides: https://historial-git.netlify.app/#/
+    slides: https://historial-git.netlify.app/
     language: es
     summary: 'Cómo usar y mejorar tu historial de Git.'
 ---
-
 
