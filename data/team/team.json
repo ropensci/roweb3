@@ -232,6 +232,41 @@
     "home": "/author/steffi-lazerte"
   },
   {
+    "name": "Mauro Lepore",
+    "url": "https://github.com/maurolepore/",
+    "image": "/img/team/mauro-lepore.jpg",
+    "affiliation": "rOpenSci",
+    "roles": [
+      "staff",
+      "editor"
+    ],
+    "participates": [
+      "software-review"
+    ],
+    "generalreview": true,
+    "linkedin": "https://www.linkedin.com/in/mauro-lepore/",
+    "github": "maurolepore",
+    "home": "/author/mauro-lepore",
+    "eic": [
+      {
+        "start": "2023-02-01",
+        "end": "2023-04-30"
+      },
+      {
+        "start": "2025-02-01",
+        "end": "2025-04-30"
+      },
+      {
+        "start": "2026-05-01",
+        "end": "2026-07-31"
+      },
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31"
+      }
+    ]
+  },
+  {
     "name": "Stacey Dorton",
     "affiliation": "Administrative Manager",
     "image": "/img/team/stacey.jpg",
@@ -364,41 +399,6 @@
       {
         "start": "2020-12-01",
         "end": "2021-03-21"
-      }
-    ]
-  },
-  {
-    "name": "Mauro Lepore",
-    "url": "https://github.com/maurolepore/",
-    "image": "/img/team/mauro-lepore.jpg",
-    "affiliation": "rOpenSci",
-    "roles": [
-      "staff",
-      "editor"
-    ],
-    "participates": [
-      "software-review"
-    ],
-    "generalreview": true,
-    "linkedin": "https://www.linkedin.com/in/mauro-lepore/",
-    "github": "maurolepore",
-    "home": "/author/mauro-lepore",
-    "eic": [
-      {
-        "start": "2023-02-01",
-        "end": "2023-04-30"
-      },
-      {
-        "start": "2025-02-01",
-        "end": "2025-04-30"
-      },
-      {
-        "start": "2026-05-01",
-        "end": "2026-07-31"
-      },
-      {
-        "start": "2026-11-01",
-        "end": "2027-01-31"
       }
     ]
   },
