@@ -512,9 +512,10 @@
     "url": "https://jwhollister.com/",
     "image": "/img/team/jeff-hollister.jpg",
     "affiliation": "US Environmental Protection Agency",
-    "roles": [
+    "past_roles": [
       "editor"
     ],
+    "alumnus": true,
     "generalreview": true,
     "mastodon": "https://fosstodon.org/@jhollist",
     "github": "jhollist",
