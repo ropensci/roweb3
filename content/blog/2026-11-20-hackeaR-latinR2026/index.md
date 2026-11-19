@@ -15,7 +15,7 @@ params:
   doi: "10.59350/v78cb-9a438"
 ---
 
-[LatinR](https://latinr.org) is the conference on the use of R in Research and Development that brings together the Latin American community using our favorite programming language. In 2026 it took place from November 11 to 13 in Medellín, together with the Universidad de Antioquia.
+[LatinR](https://latinr.org) is a conference on the use of R in Research and Development that brings together the Latin American community using our favorite programming language. In 2026 it took place from November 11 to 13 in Medellín, Colombia, together with the Universidad de Antioquia.
 
 On Friday, November 13, **[HackeaR](https://latinr.org/cronograma/hackear/)** took place: a two-hour meetup of small-group work where experienced people supported those taking their first steps contributing to open projects. In this post we summarize what we worked on and how.
 
