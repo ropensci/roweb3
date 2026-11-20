@@ -66,7 +66,7 @@ Riva Quiroga y Jesica Formoso trabajaron en un problema de contraste de color po
 
 - **Materiales de rOpenSci:** hay pull requests abiertos con traducciones del curso de Git al [español](https://github.com/ropensci-training/curriculum/pull/116) que fue tomado por Francisco Cardozo y Catalina Cañizares durante el hackathon y se encuentra en progreso. También hay traducciones al portugués, que esperan revisión.
 
-- **Materiales de rOpenSci:** hay _pull requests_ abiertos con traducciones del curso de Git al [español](https://github.com/ropensci-training/curriculum/pull/116) y al portugués. El [PR de español fue tomado por Francisco Cardozo y Catalina Cañizares](https://github.com/ropensci-training/curriculum/pull/136) durante el hackathon y se encuentra en progreso; [las de portugués esperan revisión](https://github.com/ropensci-training/curriculum/pulls?q=sort%3Aupdated-desc+is%3Apr+state%3Aopen+label%3Atradução).
+- **Materiales de rOpenSci:** hay _pull requests_ abiertos con traducciones del curso de Git al [español](https://github.com/ropensci-training/curriculum/pull/116) y al portugués. El [PR de español fue tomado por Francisco Cardozo y Catalina Cañizares](https://github.com/ropensci-training/curriculum/pull/136) durante el hackathon y se encuentra en progreso; [las de portugués esperan revisión.](https://github.com/ropensci-training/curriculum/pulls?q=sort%3Aupdated-desc+is%3Apr+state%3Aopen+label%3Atradução)
 
 - **Mensajes de R:** el issue sobre traducir los mensajes de R sigue abierto para quien quiera sumarse. En español ya se completaron todos, pero todavia hay trabajo por hacer en portugués.
 
