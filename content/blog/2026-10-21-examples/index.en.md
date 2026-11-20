@@ -83,6 +83,8 @@ katex::katex_html(string, include_css = TRUE)
 
 ## Block quotes
 
+<!-- panache-ignore-start -->
+
 Right-aligned
 
     > blabla\
@@ -91,7 +93,8 @@ Right-aligned
     {.blockquote .text-right}
 
 > blabla\
-> blabla blabla {.blockquote .text-right}
+> blabla blabla
+> {.blockquote .text-right}
 
 Center-aligned
 
@@ -101,17 +104,21 @@ Center-aligned
     {.blockquote .text-center}
 
 > blabla\
-> blabla blabla {.blockquote .text-center}
+> blabla
+> blabla
+> {.blockquote .text-center}
 
 Left-aligned
 
     > blabla\
     > blabla
     > blabla
-     {.blockquote .text-left}
+    {.blockquote .text-left}
 
 > blabla\
-> blabla blabla {.blockquote .text-left}
+> blabla
+> blabla
+> {.blockquote .text-left}
 
 If you want to center the block quote add the align variable:
 
@@ -123,7 +130,8 @@ If you want to center the block quote add the align variable:
 
 {{< quote align="center" \>}}\
 blabla\
-blabla blabla\
+blabla
+blabla
 {{< /quote >}}
 
 With Attribution
@@ -136,7 +144,8 @@ With Attribution
 
 {{< quote footer="Author Name" \>}}\
 blabla\
-blabla blabla\
+blabla
+blabla
 {{< /quote >}}
 
 With Attribution and a source
@@ -149,8 +158,11 @@ With Attribution and a source
 
 {{< quote footer="Author Name" cite="[good book](url)" \>}}\
 blabla\
-blabla blabla\
+blabla
+blabla
 {{< /quote >}}
+
+<!-- panache-ignore-end -->
 
 ## Tables
 
