@@ -162,6 +162,7 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
   This story is that of Carolina Pradier, main maintainer of the eph package.
   We review her participation in the Champions program and the impact of her work in different organizations and communities.
 
+- [Jeff Hollister](https://ropensci.org/author/Jeff-Hollister) and [Emi Tanaka](https://ropensci.org/author/emi-tanaka/)  are stepping off the editorial board. Since 2021 Jeff [handled seven approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Ajhollist+label%3A6%2Fapproved) and served twice as the Editor-in-Chief. Emi joined the editorial board in 2024 and [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Aemitanaka+label%3A6%2Fapproved). Thank you both and all the best in your next adventures!
 ## Calls for contributions
 
 ### Calls for maintainers
