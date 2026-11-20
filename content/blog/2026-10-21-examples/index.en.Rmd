@@ -147,60 +147,100 @@ katex::katex_html(string, include_css = TRUE)
 
 <!-- panache-ignore-start -->
 
+Right-aligned
+
 ```
-> blabla
+> blabla\
 > blabla
 > blabla
 {.blockquote .text-right}
 ```
 
-```
+> blabla\
 > blabla
+> blabla
+{.blockquote .text-right}
+
+
+Center-aligned
+```
+> blabla\
 > blabla
 > blabla
 {.blockquote .text-center}
 ```
 
-```
+> blabla\
 > blabla
+> blabla
+{.blockquote .text-center}
+
+
+Left-aligned
+```
+> blabla\
 > blabla
 > blabla
  {.blockquote .text-left}
 ```
 
-<!-- panache-ignore-end -->
+> blabla\
+> blabla
+> blabla
+{.blockquote .text-left}
 
 If you want to center the block quote add the align variable:
-
+<!-- 
 ```
-{{< quote footer="Author Name" cite="[good book](url)" align="center">}}
+{{< quote footer="Author Name" cite="[good book](url)" align="center" >}}
 Blablablabla  
 {{< /quote >}}
 ```
+
+{{< quote footer="Author Name" cite="[good book](url)" align="center" >}} 
+Blablablabla
+{{< /quote >}}
 
 With Attribution
 
 ```
-{{< quote footer="Author Name">}}
-Blablablabla  
+{{< quote footer="Author Name" >}}
+Blablablabla
 {{< /quote >}}
 ```
+
+{{< quote footer="Author Name" >}}
+Blablablabla
+{{< /quote >}}
 
 With Attribution and a source
 
 ```
-{{< quote footer="Author Name" cite="[good book](url)">}}
+{{< quote footer="Author Name" cite="[good book](url)" >}}
 Blablablabla  
 {{< /quote >}}
 ```
 
+{{< quote footer="Author Name" cite="[good book](url)" >}}
+Blablablabla
+{{< /quote >}} -->
+
+<!-- panache-ignore-end -->
+
 ## Tables
 
 ```
-Header   | Other Header | Another Header
----------|----------------|-------------------
-Value 11 | Value 12       | Value 13
-Value 21 | Value 22       | Value 23
-Value 31 | Value 32       | Value 33
+| Header   | Other Header | Another Header |
+| -------- | ------------ | -------------- |
+| Value 11 | Value 12     | Value 13       |
+| Value 21 | Value 22     | Value 23       |
+| Value 31 | Value 32     | Value 33       |
 {.table .table-responsive .table-striped}
 ```
+
+  | Header   | Other Header | Another Header |
+  | -------- | ------------ | -------------- |
+  | Value 11 | Value 12     | Value 13       |
+  | Value 21 | Value 22     | Value 23       |
+  | Value 31 | Value 32     | Value 33       |
+{.table .table-responsive .table-striped}
