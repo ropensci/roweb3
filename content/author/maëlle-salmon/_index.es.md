@@ -1,6 +1,6 @@
 ---
 name: Maëlle Salmon
-bio: rOpenSci Research Software Engineer, Associate editor of rOpenSci Software Peer Review
+bio: rOpenSci Research Software Engineer
 github: maelle
 gitlab: maelle
 keybase: maelle_salmon
