@@ -46,8 +46,8 @@ Su mentora fue [Geraldine Gómez Millán](/author/geraldine-gómez-millán/) de 
 El repositorio será público cuando se publique el artículo final del proyecto.
 
 
-**Guadalupe Pascal**, de Argentina, creó el paquete MatildaNLP, que facilita el análisis lingüístico y computacional de la colección de libros de la [Cátedra Abierta Latinoamericana Matilda]() y las mujeres en ingeniería (CAL Matilda).
-El paquete da acceso a un corpus de seis libros escritos entre 2019 y 2025, con más de 200 ensayos autobiográficos de mujeres en ingeniería de 17 países latinoamericanos.
+**Guadalupe Pascal**, de Argentina, creó el paquete MatildaNLP, que facilita el análisis lingüístico y computacional de la colección de libros de la [Cátedra Abierta Latinoamericana Matilda](https://www.catedramatilda.org) y las mujeres en ingeniería (CAL Matilda).
+El paquete da acceso a un [corpus de seis libros escritos entre 2019 y 2025](https://www.catedramatilda.org/libros-cal/), con más de 200 ensayos autobiográficos de mujeres en ingeniería de 17 países latinoamericanos.
 El trabajo tiene dos repositorios: uno de preparación, con un pipeline documentado y reproducible que conserva expresiones idiomáticas y metadatos como el año, el tomo y el lugar de procedencia de cada autora, y otro de acceso, con la función `get_matilda()`, que entrega los datos limpios en formato *tidy*, listos para usar con herramientas como tidytext.
 Su mentora fue [Carolina Pradier](/author/carolina-pradier/) de Argentina.
 El proyecto dio origen a dos artículos, uno sobre un flujo de trabajo para evaluar las limitaciones de los modelos de procesamiento de lenguaje natural en corpus subrepresentados, y otro sobre el pipeline de limpieza y creación del paquete.
@@ -62,7 +62,7 @@ El [paquete está abierto en GitHub](https://github.com/Valentina9619/HazardMaps
 El paquete ayuda a elegir la estructura de efectos aleatorios en modelos mixtos con diseños cruzados (por ejemplo, participantes e ítems en experimentos de psicología o psicolingüística), usando el criterio de información de Akaike condicional.
 Entre sus funciones están `selectmodel()`, que identifica el mejor modelo entre una familia de candidatos, y `getsafeAIC()`, que captura los errores de convergencia que de otro modo pueden llevar a elegir silenciosamente un modelo incorrecto.
 Su mentor fue [Luis D. Verde Arregoitia](/author/luis-d.-verde-arregoitia/) de México.
-El paquete sigue en desarrollo, con README, viñeta y sitio con pkgdown listos. Se espera liberarlo en enero después de la publicación del paper.
+El paquete sigue en desarrollo, con README, viñeta y sitio con pkgdown listos. Se espera liberarlo en enero de 2027 junto con la publicación del paper correspondiente.
 
 **Soledad Araya**, de Chile, creó el paquete [votosCL](https://github.com/snaraya/votosCL), que estandariza las bases de datos electorales del Servicio Electoral de Chile (Servel).
 Las bases originales cambian de formato entre elecciones, y el paquete agrega variables que faltaban, como el género de las candidaturas y el código comunal, unifica los nombres de partidos y candidatas y candidatos, y permite hacer seguimiento de reelecciones.
@@ -83,17 +83,17 @@ Después de la aprobación de la revision de rOpenSci, Erick sometió RAMEN a Bi
 El paquete es un motor para procesar datos de encuestas por muestreo, que registra cada paso de transformación junto con el diseño muestral y permite exportar el procedimiento como "recetas" reutilizables.
 Lo validó con ejemplos de encuestas de Uruguay, Brasil, Chile y Estados Unidos.
 Su mentor o mentora fue [Ronny Hernandez Mora](/author/ronny-hernandez-mora/) de Costa Rica. 
-En una primera sumisión, en febrero, el equipo concluyó que el paquete era demasiado grande, y la solución fue dividirlo. Ahora Mauro envió [MetaSurveyCore a revisión](https://github.com/ropensci/software-review/issues/796).
+En una primera sumisión, en febrero, el equipo concluyó que el paquete tenia muchos objetivos diferentes y desde el punto de vista de un software mantenible, usable y sustentable era conveniente que se dividiera en mas de un paquete. Mauro ya envió [MetaSurveyCore a revisión](https://github.com/ropensci/software-review/issues/796).
 La sumisión también fue un ejemplo de cómo declarar el uso de IA generativa en el desarrollo, un punto que hoy tiene una sección específica en el proceso de revision.
 Además, rOpenSci planea probar con su paquete un formato de revisión grupal: varias personas harán un trabajo previo y luego se reunirán durante una hora y media, junto con Mauro, para una revisión técnica en conjunto.
 
-**Ana Carolina Moreno** de Brasil, participa del programa para formarse como revisora. Su proyecto incluye realizar todo el proceso de revision de un paquete de R en portugues y en grupo. Para ello, Ana estuvo trabajando con desarrolladores de paquetes de Brasil para elegir un paquete que pueda ser usando en el piloto en portugues. Participantes del programa de cohortes anteriores van a participar en esta iniciativa y documentar ambas experiencias para incorporar lo aprendido en los procesos y guias de rOpenSci. 
+**Ana Carolina Moreno** de Brasil, participa del programa para formarse como revisora. Su proyecto incluye realizar todo el proceso de revision de un paquete de R en portugués y en grupo. Para ello, Ana estuvo trabajando con desarrolladores de paquetes de Brasil para elegir un paquete que pueda ser usando en el piloto en portugues. Participantes del programa de cohortes anteriores van a participar en esta iniciativa y documentar ambas experiencias para incorporar lo aprendido en los procesos y guias de rOpenSci. 
 
 ## Actividades de difusión
 
 - Diana presentó una *lightning talk* en R/Medicine, la conferencia del R Consortium, en mayo de 2026, y un póster en la reunión de la American Association for Cancer Research. 
 
-- Erick participo en el evento de "converaciones con la comunidad" "" de rOpenSci compartiendo su experiencia con personas que querian aplicar para el programa. 
+- Erick participo en el evento de rOpenSci de _converaciones con la comunidad_ "" compartiendo su experiencia con personas que querian aplicar para el programa. 
 Comunicó la aprobación de RAMEN en LinkedIn y presentará el paquete en la conferencia Epigenomics of Common Diseases en noviembre.
   También planea dar un mini taller de desarrollo de paquetes en su universidad de origen, en México, en diciembre.
   
