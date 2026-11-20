@@ -1,0 +1,268 @@
+---
+slug: "examples"
+title: Blog Post Technical Examples
+author:
+  - Steffi LaZerte
+  - Maëlle Salmon
+  - Yanina Bellini Saibene
+date: 2026-10-21
+math: true
+tags:
+  - howto
+description: "A blog post demonstrating how implement technical content in blog psots"
+params:
+  doi: "10.59350/f7tdn-np971"
+---
+
+````{r}
+#| label: setup
+#| include: false
+
+# Add +smart to avoid formatting quote shortcodes with fancy quotes
+options(
+  blogdown.markdown.format = c(
+    "gfm",
+    "+smart",
+    "+tex_math_dollars",
+    "+footnotes"
+  )
+)
+
+
+# Options to have images saved in the post folder
+# And to disable symbols before output
+knitr::opts_chunk$set(fig.path = "", comment = "")
+
+# knitr hook to make images output use Hugo options
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "`{{< figure src=",
+      '"',
+      x,
+      '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}`{=html}\n"
+    )
+  }
+)
+
+# knitr hook to use Hugo highlighting options
+knitr::knit_hooks$set(
+  source = function(x, options) {
+    hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+        paste0(
+          "{",
+          glue::glue_collapse(
+            glue::glue('{names(hlopts)}={hlopts}'),
+            sep = ","
+          ),
+          "}"
+        )
+      },
+      "\n",
+      glue::glue_collapse(x, sep = "\n"),
+      "\n```\n"
+    )
+  }
+)
+````
+
+This isn't a real blog post 😉.
+This is a post demonstrating technical details of how to include things like images, math, citations, and block quotes.
+While these details *are* documented in the ["Adding Content" chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate[^1] what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
+
+Therefore, here we demonstrate how to add various types of content to your blog post, and, importantly, how it will look on the rOpenSci Blog.
+
+[^1]: It's also hard for us to notice problems if, for example, a Hugo update breaks something.
+
+## Images
+
+```
+{{< figure src = "image-name.png" alt = "informative description" class = "center" >}}
+```
+
+```
+{{< imgtxt src = "image-name.png" alt = "informative description">}} 
+Text to right 
+{{< /imgtxt >}}
+```
+
+`width`
+
+```
+{{< figure src = "image-name.png" width = "400" alt = "informative description">}}
+```
+
+`link`
+
+```
+{{< figure src = "image-name.png" alt = "informative description" link = "http://hyperlink">}}
+```
+
+### Galleries
+
+```
+{{< gallery >}}
+{{< figureforgallery src="search2.png" alt="Screenshot of r-universe simple search results." >}}
+{{< figureforgallery src="search3.png" alt="Screenshot of r-universe advanced search query." >}}
+{{< figureforgallery src="search4.png" alt="Screenshot of r-universe advanced search results." >}}
+{{< /gallery >}}
+```
+
+## Citations and footnotes
+
+```
+Citation of the primary literature[^1].
+Citation of an R package[^2].
+Citation of a website[^3].
+
+[^1]: Sciaini, M., Fritsch, M., Scherer, C., & Simpkins, C. E. (2018). NLMR and landscapetools: An integrated environment for simulating and modifying neutral landscape models in R. Methods in Ecology and Evolution, 9(11), 2240-2248. <https://doi.org/10.1111/2041-210X.13076>
+[^2]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019). skimr: Compact and Flexible Summaries of Data. R package version 2.0.2. https://CRAN.R-project.org/package=skimr
+[^3]: Hugo static site generator. https://gohugo.io/
+
+```
+
+## Math
+
+Math is a bit complex to add and requires using the [katex](https://docs.ropensci.org/katex/), which therefore means that you must write your blog post as an Rmd or qmd (not md) and then compile it to md, and you will also need to add `math: true` to your YAML.
+
+See the [Blog Guide's math section](https://blogguide.ropensci.org/authortechnical.html#math) for the full details.
+
+To include inline math: `` `r knitr::inline_expr('katex::katex_html("y_1,\\\\ldots,y_T", displayMode = FALSE)')` `` Which displays as `r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)`.
+
+To include a block of math.
+
+```{r}
+#| echo: fenced
+
+string <- "
+\\begin{aligned} 
+  x_t & \\sim N(-0.5 y_{t-1} + x_{t-1} + z_{t-1}, 0.3^2)\\\\ 
+  y_t & \\sim N(0.7x_{t-1}, 0.3^2)\\\\ 
+\\end{aligned}"
+
+katex::katex_html(string, include_css = TRUE)
+```
+
+## Block quotes
+
+<!-- panache-ignore-start -->
+
+Right-aligned
+
+```
+> blabla\
+> blabla
+> blabla
+{.blockquote .text-right}
+```
+
+> blabla\
+> blabla blabla
+{.blockquote .text-right}
+
+Center-aligned
+
+```
+> blabla\
+> blabla
+> blabla
+{.blockquote .text-center}
+```
+
+> blabla\
+> blabla
+> blabla 
+{.blockquote .text-center}
+
+Left-aligned
+
+```
+> blabla\
+> blabla
+> blabla
+{.blockquote .text-left}
+```
+
+> blabla\
+> blabla
+> blabla
+{.blockquote .text-left}
+
+If you want to center the block quote add the align variable:
+
+```
+{{</* quote align="center" */>}}
+blabla\
+blabla
+blabla 
+{{</* /quote */>}}
+```
+
+{{< quote align="center" >}}\
+blabla\
+blabla
+blabla
+{{< /quote >}}
+
+With Attribution
+
+```
+{{</* quote footer="Author Name" */>}}
+blabla\
+blabla
+blabla 
+{{</* /quote */>}}
+```
+
+{{< quote footer="Author Name" >}}\
+blabla\
+blabla
+blabla
+{{< /quote >}}
+
+With Attribution and a source
+
+```
+{{</* quote footer="Author Name" cite="[good book](url)" */>}}
+blabla\
+blabla
+blabla  
+{{</* /quote */>}}
+```
+
+{{< quote footer="Author Name" cite="[good book](url)" >}}\
+blabla\
+blabla
+blabla
+{{< /quote >}}
+
+<!-- panache-ignore-end -->
+
+## Tables
+
+```
+| Header   | Other Header | Another Header |
+| -------- | ------------ | -------------- |
+| Value 11 | Value 12     | Value 13       |
+| Value 21 | Value 22     | Value 23       |
+| Value 31 | Value 32     | Value 33       |
+{.table .table-responsive .table-striped}
+```
+
+  | Header   | Other Header | Another Header |
+  | -------- | ------------ | -------------- |
+  | Value 11 | Value 12     | Value 13       |
+  | Value 21 | Value 22     | Value 23       |
+  | Value 31 | Value 32     | Value 33       |
+{.table .table-responsive .table-striped}
