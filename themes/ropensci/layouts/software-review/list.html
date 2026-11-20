@@ -69,6 +69,7 @@
         </div>
         {{ $editors := (partial "shuffle.html" ( where (hugo.Data.team.team) "past_roles" "intersect" ( slice "editor" ) ) )}}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors "showEic" true)  }}
+        {{ partial "software-review/reviewers.html" }}
         </div>
         </section>
 {{ partial "whole-page-fragments/volunteer.html" (dict "divider" "rl") }}

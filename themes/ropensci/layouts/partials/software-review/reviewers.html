@@ -1,0 +1,56 @@
+{{- /*
+  "Our reviewers" section of the software-review page:
+  each reviewer links to their GitHub profile, followed by links to their reviews,
+  in a list collapsed by default.
+  Context: none, reads data/reviewers/reviewers.json
+  (written by scripts/update-reviewers.R from Airtable).
+  Fails the build if the file is missing, or if a reviewer lacks a github, name
+  or reviews entry, or a review lacks a url or date.
+*/ -}}
+{{- $reviewers := hugo.Data.reviewers.reviewers -}}
+{{- $howToFix := "Run scripts/update-reviewers.R to regenerate data/reviewers/reviewers.json." -}}
+{{- if not $reviewers -}}
+  {{- errorf "data/reviewers/reviewers.json is missing or empty. %s" $howToFix -}}
+{{- end -}}
+{{- range $reviewer := $reviewers -}}
+  {{- if not (and $reviewer.github $reviewer.name $reviewer.reviews) -}}
+    {{- errorf "Reviewer %q (GitHub %q) in data/reviewers/reviewers.json lacks a github, name or reviews entry. %s" $reviewer.name $reviewer.github $howToFix -}}
+  {{- end -}}
+  {{- range $review := $reviewer.reviews -}}
+    {{- if not (and $review.url $review.date) -}}
+      {{- errorf "A review by %q in data/reviewers/reviewers.json lacks a url or date (url %q, date %q). %s" $reviewer.github $review.url $review.date $howToFix -}}
+    {{- end -}}
+  {{- end -}}
+{{- end }}
+<div class="row about-block">
+  <div class="col-md-3 text-md-right">
+    <h4 class="about-block__title" id="reviewers">
+      {{ i18n "Our-reviewers" }}
+    </h4>
+  </div>
+  <div class="col-md-9 about-block__text">
+    <p>{{ i18n "Thanks-to-reviewers" }}</p>
+    <details>
+      <summary>{{ i18n "Show-all-reviewers" (len $reviewers) }}</summary>
+      <p>
+        {{- range $reviewerIndex, $reviewer := $reviewers -}}
+          {{- if $reviewerIndex }} · {{ end -}}
+          <a href="https://github.com/{{ $reviewer.github }}">{{ $reviewer.name }}</a> (
+          {{- $isOnlyReview := eq (len $reviewer.reviews) 1 -}}
+          {{- range $reviewIndex, $review := $reviewer.reviews -}}
+            {{- if $reviewIndex }}, {{ end -}}
+            {{- $year := (time $review.date).Year -}}
+            <a href="{{ $review.url }}">
+              {{- if $isOnlyReview -}}
+                {{- i18n "review-in-year" (dict "Year" $year) -}}
+              {{- else -}}
+                {{- i18n "review-number-in-year" (dict "Number" (add $reviewIndex 1) "Year" $year) -}}
+              {{- end -}}
+            </a>
+          {{- end -}}
+          )
+        {{- end -}}
+      </p>
+    </details>
+  </div>
+</div>

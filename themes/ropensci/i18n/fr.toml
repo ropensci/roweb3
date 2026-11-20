@@ -111,3 +111,19 @@
 
 [now]
   other = "aujourd'hui"
+
+[Our-reviewers]
+  other = 'Nos relecteurs et relectrices'
+
+[review-in-year]
+  other = 'relecture en {{ .Year }}'
+
+[review-number-in-year]
+  other = 'relecture {{ .Number }} en {{ .Year }}'
+
+[Show-all-reviewers]
+  one = 'Afficher la personne ayant fait une relecture'
+  other = 'Afficher les {{ .Count }} relecteurs et relectrices'
+
+[Thanks-to-reviewers]
+  other = 'Merci beaucoup à toutes les personnes ayant fait une relecture !'

@@ -1,0 +1,83 @@
+# Updates data/reviewers/reviewers.json (reviewers on the software-review page)
+# from Airtable every week, and opens or updates a PR asking the
+# ropensci/admin team for a review (round robin is set in the team's settings).
+# If it fails, it opens an issue pinging ropensci/admin, or comments on the open one.
+#
+# Secrets:
+# - AIRTABLE_ID, AIRTABLE_API_KEY: see scripts/update-reviewers.R.
+# - REVIEWERS_UPDATE_TOKEN: a token that can push branches, open PRs and issues
+#   on this repository, and read the org's teams (GITHUB_TOKEN can't request
+#   reviews from a team).
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+name: Update reviewers
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-reviewers
+  cancel-in-progress: false
+
+jobs:
+  update-reviewers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::httr2
+            any::gh
+            any::jsonlite
+
+      - name: Update the reviewers from Airtable
+        env:
+          AIRTABLE_ID: ${{ secrets.AIRTABLE_ID }}
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          GITHUB_PAT: ${{ github.token }}
+        run: Rscript scripts/update-reviewers.R
+
+      - name: Open or update the PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.REVIEWERS_UPDATE_TOKEN }}
+          branch: update-reviewers
+          add-paths: data/reviewers/reviewers.json
+          commit-message: Update reviewers from Airtable
+          title: Update reviewers from Airtable
+          body: |
+            Weekly update of `data/reviewers/reviewers.json` by `scripts/update-reviewers.R`
+            ([workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})).
+            Check the run's warnings for reviews skipped because of incomplete data in Airtable.
+          team-reviewers: admin
+          delete-branch: true
+
+      - name: Open or update an issue about the failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.REVIEWERS_UPDATE_TOKEN }}
+        run: |
+          title="Weekly reviewers update failed"
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          issue=$(gh issue list --repo "${{ github.repository }}" --state open \
+            --search "\"$title\" in:title" --json number,title \
+            --jq "map(select(.title == \"$title\")) | first | .number // empty")
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --repo "${{ github.repository }}" \
+              --body "It failed again: $run_url"
+          else
+            gh issue create --repo "${{ github.repository }}" --title "$title" --body "@ropensci/admin the weekly update of the reviewers listed on the software-review page failed: $run_url
+
+          Look at the step logs. Common causes: an expired or missing secret (\`AIRTABLE_ID\`, \`AIRTABLE_API_KEY\`, \`REVIEWERS_UPDATE_TOKEN\`), or a renamed Airtable table or field (see the constants at the top of \`scripts/update-reviewers.R\`).
+
+          Close this issue once the workflow runs again."
+          fi
