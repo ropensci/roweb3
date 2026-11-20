@@ -8,16 +8,16 @@ author:
 date: 2026-10-21
 tags:
   - howto
-description: "A Blog post demonstrating how implement technical content in blog psots"
+description: "A blog post demonstrating how implement technical content in blog psots"
 params:
   doi: "10.59350/f7tdn-np971"
 ---
 
 This isn't a real blog post 😉.
 This is a post demonstrating technical details of how to include things like images, math, citations, and block quotes.
-While these details *are* documented in the ["Adding Content" chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate[^1] what the outputs look like because the blog guide is created on a different system than the rOpenSci Blog.
+While these details *are* documented in the ["Adding Content" chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate[^1] what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
 
-So here we demonstrate how to add various types of content to your blog post, and, importantly, how it will look on the rOpenSci Blog.
+Therefore, here we demonstrate how to add various types of content to your blog post, and, importantly, how it will look on the rOpenSci Blog.
 
 [^1]: It's also hard for us to notice problems if, for example, a Hugo update breaks something.
 
@@ -72,25 +72,30 @@ Citation of a website[^3].
 
 ## Block quotes
 
+<!-- panache-ignore-start -->
+
 ```
 > blabla
-blabla
-blabla
+> blabla
+> blabla
 {.blockquote .text-right}
 ```
+
 ```
 > blabla
-blabla
-blabla
+> blabla
+> blabla
 {.blockquote .text-center}
 ```
 
 ```
 > blabla
-blabla
-blabla
-{.blockquote .text-left}
+> blabla
+> blabla
+ {.blockquote .text-left}
 ```
+
+<!-- panache-ignore-end -->
 
 If you want to center the block quote add the align variable:
 
