@@ -19,6 +19,10 @@ params:
   doi: 
 ---
 
+Welcome new editors:
+
+- [Francisco Rodriguez-Sanchez](https://ropensci.org/author/francisco-rodriguez-sanchez/) joined as a guest editor back in 2024 and has now [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue++label%3A6%2Fapproved+assignee%3APakillo). He's now a full member of the editorial board.
+
 Huge thanks to the editors who are stepping off the editorial board: 
 
 - [Jeff Hollister](https://ropensci.org/author/Jeff-Hollister) joined the editorial board in 2021. He [handled seven approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Ajhollist+label%3A6%2Fapproved) and served twice as the Editor-in-Chief.
