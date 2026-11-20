@@ -1,7 +1,8 @@
 # Updates data/reviewers/reviewers.json (reviewers on the software-review page)
 # from Airtable every week, and opens or updates a PR asking the
 # ropensci/admin team for a review (round robin is set in the team's settings).
-# If it fails, it opens an issue pinging ropensci/admin, or comments on the open one.
+# If it fails, it reopens (or comments on) its single failure issue, pinging
+# ropensci/admin; it creates that issue only the first time.
 #
 # Secrets:
 # - AIRTABLE_ID, AIRTABLE_API_KEY: see scripts/update-reviewers.R.
@@ -61,23 +62,29 @@ jobs:
           team-reviewers: admin
           delete-branch: true
 
-      - name: Open or update an issue about the failure
+      # A single issue for all failures: reopened (or commented on, if still open)
+      # at each failure, created only the first time.
+      - name: Reopen or update the issue about failures
         if: failure()
         env:
           GH_TOKEN: ${{ secrets.REVIEWERS_UPDATE_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           title="Weekly reviewers update failed"
-          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          issue=$(gh issue list --repo "${{ github.repository }}" --state open \
-            --search "\"$title\" in:title" --json number,title \
-            --jq "map(select(.title == \"$title\")) | first | .number // empty")
-          if [ -n "$issue" ]; then
-            gh issue comment "$issue" --repo "${{ github.repository }}" \
-              --body "It failed again: $run_url"
-          else
-            gh issue create --repo "${{ github.repository }}" --title "$title" --body "@ropensci/admin the weekly update of the reviewers listed on the software-review page failed: $run_url
+          read -r issue state < <(gh issue list --repo "$REPO" --state all \
+            --search "\"$title\" in:title" --json number,title,state \
+            --jq "map(select(.title == \"$title\")) | first | select(. != null) | \"\(.number) \(.state)\"") || true
+          message="@ropensci/admin the weekly update of the reviewers listed on the software-review page failed: $RUN_URL
 
           Look at the step logs. Common causes: an expired or missing secret (\`AIRTABLE_ID\`, \`AIRTABLE_API_KEY\`, \`REVIEWERS_UPDATE_TOKEN\`), or a renamed Airtable table or field (see the constants at the top of \`scripts/update-reviewers.R\`).
 
-          Close this issue once the workflow runs again."
+          Close this issue once the workflow runs again: it is reopened at the next failure."
+          if [ -z "$issue" ]; then
+            gh issue create --repo "$REPO" --title "$title" --body "$message"
+          else
+            if [ "$state" = "CLOSED" ]; then
+              gh issue reopen "$issue" --repo "$REPO"
+            fi
+            gh issue comment "$issue" --repo "$REPO" --body "$message"
           fi
