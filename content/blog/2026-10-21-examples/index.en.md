@@ -123,9 +123,9 @@ Left-aligned
 
 If you want to center the block quote add the align variable:
 
-        {{< quote align="center" >}}
-        Blablablabla  
-        {{< /quote >}}
+    {{</* quote align="center" */>}}
+    Blablablabla  
+    {{</* /quote */>}}
 
 {{< quote align=“center” >}}
 Blablablabla
@@ -133,9 +133,9 @@ Blablablabla
 
 With Attribution
 
-    {{< quote footer="Author Name" >}}
+    {{</* quote footer="Author Name" */>}}
     Blablablabla
-    {{< /quote >}}
+    {{</* /quote */>}}
 
 <!-- {{< quote footer="Author Name" >}}
 Blablablabla
@@ -143,9 +143,9 @@ Blablablabla
 
 With Attribution and a source
 
-    {{< quote footer="Author Name" cite="[good book](url)" >}}
+    {{</* quote footer="Author Name" cite="[good book](url)" */>}}
     Blablablabla  
-    {{< /quote >}}
+    {{</* /quote */>}}
 
 <!-- {{< quote footer="Author Name" cite="[good book](url)" >}}
 Blablablabla
