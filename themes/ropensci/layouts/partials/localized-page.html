@@ -1,0 +1,14 @@
+{{- /*
+  Returns the version of a page in the current language, or the English (default language) one when it has none.
+  Context: the page's path from content/, with a leading slash, e.g. "/software-review" (without it, a tag page with the same name can match).
+  Fails the build when the page exists in neither.
+*/ -}}
+{{- $path := . -}}
+{{- $result := site.GetPage $path -}}
+{{- if not $result -}}
+  {{- $result = hugo.Sites.Default.GetPage $path -}}
+{{- end -}}
+{{- if not $result -}}
+  {{- errorf `The page %q is linked from the layouts but doesn't exist (language %q, nor in English): add it under content/, or fix the path in the layout or in config.toml (e.g. "projects").` $path site.Language.Lang -}}
+{{- end -}}
+{{- return $result -}}

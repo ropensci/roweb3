@@ -26,12 +26,14 @@ Andreas
 Andy
 Antal
 antanym
+Antioquia
 antiword
 aorsf
 April
 Araya-Salas
 Archer
 Arcos
+Ardila
 Aria
 arkdb
 Arnold
@@ -49,6 +51,7 @@ B.
 babeldown
 babelquarto
 babette
+Bacher
 Baio
 Baker
 Balamuta
@@ -101,8 +104,10 @@ Byron
 c14bazAAR
 c3dr
 Camara
+Campitelli
 camsRad
 canaper
+Cañizares
 Carl
 Carlos
 Carolina
@@ -199,6 +204,7 @@ Edward
 eia
 Eli
 Elin
+Elio
 Emilio
 EML
 emld
@@ -213,6 +219,7 @@ Erika
 Eryk
 essurvey
 Estefania
+Etienne
 Eunseop
 europepmc
 Evan
@@ -236,6 +243,7 @@ Florian
 fluidsynth
 Forbes
 forcis
+Formoso
 FOSS
 Foster
 Francois
@@ -270,6 +278,7 @@ gitignore
 gittargets
 Gladys
 GLMMcosinor
+Gómez
 Gonzalez-Akre
 Goodman
 goodpractice
@@ -292,6 +301,7 @@ gutenbergr
 H.
 hackathon
 hackathons
+Hadley
 Hajk-Georg
 handlr
 Haneca
@@ -314,6 +324,7 @@ Hocking
 Hoey
 Hoff
 Hogervorst
+Hornik
 Hug
 Hughes
 Hugo
@@ -339,6 +350,7 @@ Jason
 Jeffrey
 jenkins
 Jeroen
+Jesica
 Jesús
 Jingning
 Joan
@@ -387,6 +399,7 @@ LaZerte
 Le
 LeBauer
 Leonawicz
+Lepore
 Li
 lightr
 Lim
@@ -437,6 +450,7 @@ McCall
 McLean
 mctq
 Mecum
+Medellín
 medrxivr
 melt
 Mendelssohn
@@ -451,6 +465,7 @@ Mohammed
 Morgan
 Moritz
 Moroz
+Mowinckel
 mregions2
 MtreeRing
 Münch
@@ -458,6 +473,7 @@ Munoz
 N.
 naijR
 Najko
+Nantz
 nasapower
 Nathan
 natserv
@@ -512,6 +528,7 @@ Parker
 Parsons
 partialling.out
 parzer
+Pascale
 patentsview
 pathviewr
 Paul
@@ -558,6 +575,7 @@ qualR
 qualtRics
 Quan
 quartificate
+Quiroga
 R
 R.
 Rachael
@@ -607,6 +625,7 @@ Richèl
 riem
 rinat
 ritis
+Riva
 rix
 rixpress
 rmangal
@@ -806,6 +825,7 @@ weathercan
 weatherOz
 webchem
 webmockr
+Wickham
 Widgren
 Wiernik
 wikitaxa
@@ -820,12 +840,14 @@ worrms
 Wright
 writexl
 xslt
+Yani
 Yanina
 Yaoxiang
 yfR
 Yu
 Zachary
 Zeki
+Zhang
 Zhian
 Zhiang
 Ziebert

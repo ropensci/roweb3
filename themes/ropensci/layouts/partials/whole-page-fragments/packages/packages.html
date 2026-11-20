@@ -1,0 +1,36 @@
+{{- /*
+  Renders a divider and the packages section of the home page: a short description, the package categories and links to use cases and citations.
+  Context: a dict with "divider" ("lr" or "rl") and "Site".
+*/ -}}
+   <!-- Packages section   -->
+{{ with .divider }}
+  {{ partial "whole-page-fragments/divider" . }}
+{{ end }} 
+   <section class="section-package">
+      <div class="container">
+        <h2 class="title">{{ i18n "Home-Packages-Title" }}</h2>
+        <p class="subtitle sm subtitle-package">
+          {{ i18n "Home-Packages-Text" }}
+        </p>
+        <a class="link-arrow package-cta" href="/packages/all"><span>{{ i18n "View-all-packages" }}</span></a>
+
+        {{ partial "whole-page-fragments/packages/packages-cards" (dict "Site" .Site ) }}
+
+        <div class="row pack-cards">
+          <div class="col-md-6">
+            <a href="/usecases/" class="pack-card">
+              <h4 class="pack-title">{{ i18n "Home-Use-Cases-Title" }}</h4>
+              <p>{{ i18n "Home-Use-Cases-Text" }}</p>
+              <div class="arrow pack-arrow"></div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="/citations/" class="pack-card">
+              <h4 class="pack-title">{{ i18n "Home-Citations-Title" }}</h4>
+              <p>{{ i18n "Home-Citations-Text" }}</p>
+              <div class="arrow pack-arrow"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,25 @@
+{{- /*
+  Fails the build for a current or former editor in data/team/team.json who has an
+  author file (same name or same GitHub handle) whose GitHub handle differs from
+  theirs, or who has no GitHub handle in data/team/team.json: author pages find
+  editors by GitHub handle (partials/team/editor-role.html), so such an author
+  page would miss the editor line.
+  Call it with partialCached so that it runs once per build.
+*/ -}}
+{{- $authorPages := slice -}}
+{{- range $languageSite := hugo.Sites -}}
+  {{- $authorPages = $authorPages | append (where $languageSite.Pages "Section" "author") -}}
+{{- end -}}
+{{- range $editor := hugo.Data.team.team -}}
+  {{- if or (in $editor.roles "editor") (in $editor.past_roles "editor") -}}
+    {{- $editorGithub := lower ($editor.github | default "") -}}
+    {{- range $authorPage := $authorPages -}}
+      {{- $authorGithub := lower ($authorPage.Params.github | default "") -}}
+      {{- $sameName := eq $authorPage.Params.name $editor.name -}}
+      {{- $sameGithub := and $editorGithub (eq $authorGithub $editorGithub) -}}
+      {{- if and (or $sameName $sameGithub) (or (not $editorGithub) (ne $authorGithub $editorGithub)) -}}
+        {{- errorf `Editor %q has GitHub handle %q in data/team/team.json but %q in their author file content/%s: use the same handle in both (add a "github" entry to data/team/team.json if it is missing), so that their author page says they are an editor.` $editor.name ($editor.github | default "") ($authorPage.Params.github | default "") $authorPage.File.Path -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

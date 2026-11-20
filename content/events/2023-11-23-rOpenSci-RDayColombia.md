@@ -7,7 +7,7 @@ description: "Yanina se sumo al R Day como disertante principal para abrir la co
 location: 'Medellin'
 country: "Colombia" # emoji
 slug: "rday-ropensci-2023"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

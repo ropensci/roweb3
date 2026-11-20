@@ -7,7 +7,7 @@ description: "Francesca Palmeira rOpenSci Champions fala sobre o pacote pcir, qu
 location: 'online'
 country: "🌐" # emoji
 slug: "champions-program-r-ladies-floripa-2025"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

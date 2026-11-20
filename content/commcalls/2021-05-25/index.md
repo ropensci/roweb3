@@ -42,6 +42,7 @@ deets: |
 
     Passcode: 664906
 zoomurl: https://zoom.us/j/99062823340?pwd=d1AzL09GbDZ5ZlA1ek1yN3BZU2dsQT09
+ropensci: true
 ---
 
 ### Index of video and slides

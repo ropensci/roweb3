@@ -1,7 +1,4 @@
-{{ $data := newScratch }}
-{{ $pages := .Site.Pages.ByPublishDate.Reverse }}
-{{ $data.Set "pages" $pages }}
-{{ $data.Set "permalink" .Permalink }}
+{{- /* The JSON feed (https://jsonfeed.org) of a blog section. */ -}}
 {
     "version": "https://jsonfeed.org/version/1.1",
     "title": "{{ .Site.Title }}",
@@ -17,25 +14,6 @@
     "items": [
     {{ range $i, $e := ( where .Pages ".Date.UTC" "<" now.UTC ) }}
 		{{ if $i }}, {{ end }}
-  		{{ if eq (substr (jsonify .Params.author) 0 1) "[" }}
-        {{ $data.Set "authors" .Params.author }}
-     {{ else }}
-       {{  $data.Set "authors" (slice .Params.author) }}
-    {{ end }}
-    {{ if isset .Params "editor" }}
-  		{{ if eq (substr (jsonify .Params.editor) 0 1) "[" }}
-        {{ $data.Set "editors" .Params.editor }}
-     {{ else }}
-       {{  $data.Set "editors" (slice .Params.editor) }}
-    {{ end }}
-    {{ end }}
-    {{ if isset .Params "translator" }}
-  		{{ if eq (substr (jsonify .Params.translator) 0 1) "[" }}
-        {{ $data.Set "translators" .Params.translator }}
-     {{ else }}
-       {{  $data.Set "translators" (slice .Params.translator) }}
-    {{ end }}
-    {{ end }}
 			{
 				"id": "{{ printf "https://doi.org/%s" .Params.doi }}",
 				"title": "{{ .Title }}",

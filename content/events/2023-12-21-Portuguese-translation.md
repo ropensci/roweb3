@@ -7,7 +7,7 @@ description: ""
 location: 'online'
 country: "online" # emoji
 slug: "portuguese-translation"
-ropensci: si
+ropensci: true
 outputs: 
 - HTML
 - Calendar 

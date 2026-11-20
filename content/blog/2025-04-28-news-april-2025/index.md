@@ -8,8 +8,8 @@ tags:
   - newsletter
 description: Career Paths for U.S. Federal Data Scientists, Website in Spanish
 params:
+  doi: "10.59350/k05n8-awn27"
   last_newsletter: '2025-03-27'
-  doi: "10.59350/a6syn-6hc72"
 rmd_hash: ddc1838bc682dda6
 
 ---

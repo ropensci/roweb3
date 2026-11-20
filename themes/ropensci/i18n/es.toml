@@ -387,4 +387,112 @@
 [Portuguese]
   other = 'Portugués'
 
+[Editor-in-Chief]
+  other = 'Editor·a en jefe'
 
+[Current-Editor-in-Chief]
+  other = 'Editor·a en jefe actual'
+
+[current-Editor-in-Chief]
+  other = 'editor·a en jefe actual'
+
+[now]
+  other = 'ahora'
+
+[eic-terms]
+  one = '{{ .Count }} periodo'
+  other = '{{ .Count }} periodos'
+
+[Brands-title]
+  other = 'Colaborando para avanzar la ciencia'
+
+[Brands-subtitle]
+  other = 'Se usa rOpenSci en'
+
+[Logo-of]
+  other = 'Logo de'
+
+[Newsletter-title]
+  other = 'Boletín de noticias'
+
+[Newsletter-subtitle]
+  other = 'Un compendio de noticias mensuales sobre paquetes R y revisión de software, casos de uso, artículos de blog y eventos. Suscríbete para recibirlo en tu bandeja de entrada, o consulta el <a href="{{ . }}">archivo</a>.'
+
+[Newsletter-previous]
+  other = 'A continuación encontrará los números anteriores. Los boletines hasta febrero de 2021 están archivados en <a href="https://news.ropensci.org">https://news.ropensci.org</a>.'
+
+[Join-the-community]
+  other = '¡Únete a la comunidad!'
+
+[Volunteer-title]
+  other = 'Voluntariado en rOpenSci'
+
+[Volunteer-subtitle]
+  other = 'Son bienvenidas las contribuciones de personas de todos los niveles y procedencias, ya se trate de código, redacción técnica, tutoría, localización u otro tipo de colaboraciones. Nuestra <a href="https://contributing.ropensci.org/">guía de contribuciones</a> tiene mas detalles.'
+
+[Illustration-credit]
+  other = 'Lydia Hill Illustration. Todos los derechos reservados.'
+
+
+[r-universe-series-note]
+  other = '''Este post es parte de una serie de artículos sobre <a lang="en" href="https://r-universe.dev">r-universe</a>, un nuevo proyecto marco de rOpenSci bajo el cual experimentamos con varias ideas para mejorar la publicación y el descubrimiento de software de investigación en R. A medida que el proyecto evolucione, publicaremos actualizaciones para documentar características y detalles técnicos. Para más información, visita la <a lang="en" href="/r-universe/">página del proyecto r-universe</a>.'''
+
+[Announcement-blog-post]
+  other = 'Artículo de blog de anuncio'
+
+[Home-News-Title]
+  other = 'Últimas noticias'
+
+[Home-Blog-Title]
+  other = 'Nuestro Blog'
+
+[Home-Blog-Text]
+  other = 'Las últimas novedades de rOpenSci y de la comunidad R en general'
+
+[Home-Tech-Notes-Text]
+  other = 'Notas de la versión, actualizaciones y desarrollos relacionados con los paquetes'
+
+[Home-Packages-Title]
+  other = 'Nuestros Paquetes'
+
+[Home-Packages-Text]
+  other = 'Usa nuestras herramientas de software R, cuidadosamente examinadas y realizadas por el personal de rOpenSci y la comunidad, que dan soporte al ciclo de vida de los datos de investigación y al análisis en una gran variedad de campos científicos. Combina nuestras herramientas con el rico ecosistema de paquetes R.'
+
+[Home-Use-Cases-Title]
+  other = 'Explorar Casos de Uso'
+
+[Home-Use-Cases-Text]
+  other = 'Inspírate con ejemplos reales del uso de nuestros paquetes.'
+
+[Home-Citations-Title]
+  other = 'Explorar Citas'
+
+[Home-Citations-Text]
+  other = 'O consulta las publicaciones científicas que citan nuestros paquetes.'
+
+[Home-New]
+  other = '¡Nuevo!'
+
+[Home-Hero-Title]
+  other = 'Transformando la ciencia mediante datos abiertos, software y reproducibilidad'
+
+[Home-Hero-Text]
+  other = 'rOpenSci fomenta una cultura de investigación abierta y reproducible utilizando datos compartidos y software reutilizable.  Construimos infraestructura social y técnica para el lenguaje R que permite a investigadores, investigadoras, ingenieros e ingenieras a colaborar, compartir y publicar su ciencia, datos y métodos.'
+
+[Home-Hero-Review]
+  other = 'Revisión de Software'
+
+[Home-Hero-Infrastructure]
+  other = 'Infraestructura'
+
+[Home-Hero-Training]
+  other = 'Formación y Tutoría'
+
+[Home-Hero-Multilingual]
+  other = 'Publicación Multilingüe'
+
+[Associate-editor-of-software-peer-review]
+  other = 'Integrante del equipo editorial de la Revisión de software por pares de rOpenSci'
+
+[Former-associate-editor-of-software-peer-review]
+  other = 'Ex integrante del equipo editorial de la Revisión de software por pares de rOpenSci'

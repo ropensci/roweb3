@@ -71,6 +71,7 @@ deets: |
     
     Passcode: 572732
 zoomurl: https://zoom.us/j/99434863374?pwd=SVNLcHBGdGdKZ1BoQ2xORzV0Ukhzdz09
+ropensci: true
 ---
 This is the first in a series of Community Calls we'll host throughout the year on our [statistical software review project](https://ropenscilabs.github.io/statistical-software-review-book/index.html).
 

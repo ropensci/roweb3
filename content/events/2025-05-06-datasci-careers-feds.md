@@ -9,7 +9,7 @@ coworking: false
 location: 'online' # free text
 slug: "datasci-careers-feds"
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar

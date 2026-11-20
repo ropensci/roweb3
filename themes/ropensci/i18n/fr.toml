@@ -96,3 +96,18 @@
 [Reporter]
   other = 'Partagé par'
   
+
+[r-universe-series-note]
+  other = '''Cet article fait partie d'une série sur <a lang="en" href="https://r-universe.dev">r-universe</a>, un projet par rOpenSci dans le cadre duquel nous expérimentions avec plusieurs idées pour améliorer la publication et la découverte de logiciel de recherche en R. Avec l'évolution du projet, nous publierons des nouvelles pour documenter les capacités et détails techniques. Pour plus d'informations, visitez la <a lang="en" href="/r-universe/">page du projet R-universe</a>.'''
+
+[Associate-editor-of-software-peer-review]
+  other = "Membre de l'équipe éditoriale de la revue de logiciels par les pairs de rOpenSci"
+
+[Former-associate-editor-of-software-peer-review]
+  other = "A fait partie de l'équipe éditoriale de la revue de logiciels par les pairs de rOpenSci"
+
+[Editor-in-Chief]
+  other = 'Rédacteur·rice en chef'
+
+[now]
+  other = "aujourd'hui"

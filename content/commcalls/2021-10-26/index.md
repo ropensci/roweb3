@@ -83,6 +83,7 @@ deets: |
     
     Passcode: 088482
 zoomurl: https://zoom.us/j/93369996529?pwd=a0EwcjVuaTJjSWtodk5uR1A1bVlaZz09
+ropensci: true
 ---
 _This is the second in a series of 1-hour Community Calls on our [statistical software review project](https://ropensci.org/software-review/)._
 

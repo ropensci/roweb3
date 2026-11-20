@@ -11,6 +11,7 @@ author:
   - Francesca Belem Lopes Palmeira 
 organizer: Yanina Bellini Saibene
 location: Community call (teleconference)
+eventlang: Português
 country: "\U0001F310"
 attendees: Todos são bem-vindos
 slug: translation-portuguese
@@ -54,6 +55,7 @@ deets: |
     Meeting ID: 654-4355-5934
     Passcode: 408492
 zoomurl: https://numfocus-org.zoom.us/j/88645833838?pwd=sSXc9fQ2wvMUHTjW5n2mt5tQtocZue.1
+ropensci: true
 ---
 
 A comunidade R está realizando vários esforços de traduções comunitárias para o português de diferentes recursos: livros, pacotes e guias.

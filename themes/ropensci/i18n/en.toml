@@ -386,3 +386,113 @@
 
 [Portuguese]
   other = 'Portuguese'
+
+[Editor-in-Chief]
+  other = 'Editor-in-Chief'
+
+[Current-Editor-in-Chief]
+  other = 'Current Editor-in-Chief'
+
+[current-Editor-in-Chief]
+  other = 'current Editor-in-Chief'
+
+[now]
+  other = 'now'
+
+[eic-terms]
+  one = '{{ .Count }} term'
+  other = '{{ .Count }} terms'
+
+[Brands-title]
+  other = 'Working together to push science forward'
+
+[Brands-subtitle]
+  other = 'Happy rOpenSci users can be found at'
+
+[Logo-of]
+  other = 'Logo of'
+
+[Newsletter-title]
+  other = 'Our Newsletter'
+
+[Newsletter-subtitle]
+  other = 'A digest of R package and software review news, use cases, blog posts, and events, curated monthly. Subscribe to get it in your inbox, or check the <a href="{{ . }}">archive</a>.'
+
+[Newsletter-previous]
+  other = 'Find previous issues below. Newsletters until February 2021 are archived at <a href="https://news.ropensci.org">https://news.ropensci.org</a>.'
+
+[Join-the-community]
+  other = 'Join the community!'
+
+[Volunteer-title]
+  other = 'Volunteer for rOpenSci'
+
+[Volunteer-subtitle]
+  other = 'We welcome both code and non-code contributions. Read our <a href="https://contributing.ropensci.org/">Contributing Guide</a> to learn how.'
+
+[Illustration-credit]
+  other = 'Lydia Hill Illustration. All rights reserved.'
+
+
+[r-universe-series-note]
+  other = '''This post is part of a series of technotes about <a href="https://r-universe.dev">r-universe</a>, a new umbrella project by rOpenSci under which we experiment with various ideas for improving publication and discovery of research software in R. As the project evolves, we will post updates to document features and technical details. For more information, visit the <a href="/r-universe/">r-universe project page</a>.'''
+
+[Announcement-blog-post]
+  other = 'Announcement blog post'
+
+[Home-News-Title]
+  other = 'Latest News'
+
+[Home-Blog-Title]
+  other = 'Our Blog'
+
+[Home-Blog-Text]
+  other = 'The latest developments from rOpenSci and the wider R community'
+
+[Home-Tech-Notes-Text]
+  other = 'Release notes, updates and package related developements'
+
+[Home-Packages-Title]
+  other = 'Our Packages'
+
+[Home-Packages-Text]
+  other = 'Use our carefully vetted, staff- and community-contributed R software tools that support the research data life cycle and analysis across a variety of scientific fields. Combine our tools with the rich ecosystem of R packages.'
+
+[Home-Use-Cases-Title]
+  other = 'Explore Use Cases'
+
+[Home-Use-Cases-Text]
+  other = 'Get inspired by real examples of how our packages can be used.'
+
+[Home-Citations-Title]
+  other = 'Explore Citations'
+
+[Home-Citations-Text]
+  other = 'Or browse scientific publications that cited our packages.'
+
+[Home-New]
+  other = 'New!'
+
+[Home-Hero-Title]
+  other = 'Transforming science through open data, software & reproducibility'
+
+[Home-Hero-Text]
+  other = 'rOpenSci fosters a culture of open and reproducible research using shared data and reusable software.  We build social and technical infrastructure for the R language to enable researchers and engineers to collaborate, share, and publish their science, data, and methods.'
+
+[Home-Hero-Review]
+  other = 'Software Review'
+
+[Home-Hero-Infrastructure]
+  other = 'Infrastructure'
+
+[Home-Hero-Training]
+  other = 'Training and Mentorship'
+
+[Home-Hero-Multilingual]
+  other = 'Multilingual Publishing'
+
+[Associate-editor-of-software-peer-review]
+  other = 'Associate editor of rOpenSci Software Peer Review'
+
+[Former-associate-editor-of-software-peer-review]
+  other = 'Former associate editor of rOpenSci Software Peer Review'

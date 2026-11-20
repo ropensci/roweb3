@@ -8,7 +8,7 @@ description: ""
 location: 'online'
 slug: "dev-soft-together-2024"
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs: 
 - HTML
 - Calendar 

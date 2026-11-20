@@ -6,7 +6,7 @@ date: 2023-09-19T19:30:00 # UTC!! same as dateEnd
 description: "Posit Conf 2023 ?"
 location: 'Chicago'
 country: '🇺🇸' # emoji
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

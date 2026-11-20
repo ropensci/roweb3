@@ -55,6 +55,7 @@ deets: |
     Meeting ID: 890 7662 9765 
     Passcode: 385358
 zoomurl: https://numfocus-org.zoom.us/j/89076629765?pwd=cjRFeHN1TlVXdDFRK0FXRnlzcENuZz09
+ropensci: true
 ---
 
 Apache Arrow is a software development platform for building high performance applications that process and transport large data sets. It is designed to improve the performance of data analysis methods, and to increase the efficiency of moving data from one system or programming language to another.

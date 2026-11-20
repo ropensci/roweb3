@@ -7,7 +7,7 @@ description: Noam Ross will be chatting on all things open science and reproduci
 location: 'online' # free text
 slug: "nutriverse-commcall-2026"
 country: "🌐" # emoji
-ropensci: yes
+ropensci: true
 outputs:
   - HTML
   - Calendar

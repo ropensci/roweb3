@@ -1,0 +1,9 @@
+{{/* Fail the build if a future event or commcall has no Boolean ropensci param (needed by events/list.ics) */}}
+{{ if ge .Date.UTC now.UTC }}
+{{ $file := .RelPermalink }}{{ with .File }}{{ $file = printf "content/%s" .Path }}{{ end }}
+{{ if not (isset .Params "ropensci") }}
+{{ errorf "%s: the 'ropensci' front matter parameter is missing. Add 'ropensci: true' (rOpenSci event, listed in the calendar feed) or 'ropensci: false' (external event)." $file }}
+{{ else if ne (printf "%T" .Params.ropensci) "bool" }}
+{{ errorf "%s: the 'ropensci' front matter parameter must be true or false (without quotes), not %q. Note that 'yes'/'no'/'si' are read as text." $file (print .Params.ropensci) }}
+{{ end }}
+{{ end }}

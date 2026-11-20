@@ -14,7 +14,7 @@ editor:
 - Yanina Bellini Saibene
 - Steffi LaZerte
 translator: Yanina Bellini Saibene
-doi: 10.59350/6ckxv-axw35
+doi: 10.59350/63mnf-5j535
 ---
 
 To be part of the [rOpenSci Champions program](https://champions-program.ropensci.org) has been an experience of **professional growth and an opportunity to contribute to the rOpenSci community**. I learned about R package development while working on a tool to facilitate access to census data from Argentina.

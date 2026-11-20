@@ -7,7 +7,7 @@ description: "At Posit Conf? Come to chat with rOpenSci Champions and Mentors"
 location: 'Seattle'
 country: '🇺🇸' # emoji
 slug: "posit-2024"
-ropensci: no
+ropensci: false
 outputs: 
 - HTML
 - Calendar 

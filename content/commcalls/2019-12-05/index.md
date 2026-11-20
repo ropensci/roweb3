@@ -78,6 +78,7 @@ outputs:
   - HTML
   - Calendar
 deets: Zoom meeting ID 297 967 525. [Join Meeting](#). [Find your local number](#).
+ropensci: true
 ---
 
  To the uninitiated, software testing may seem variously boring, daunting or bogged down in obscure terminology. However, it has the potential to be enormously useful for people developing software at any level of expertise, and can often be put into practice with relatively little effort.

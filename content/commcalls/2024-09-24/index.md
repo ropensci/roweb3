@@ -43,6 +43,7 @@ deets: |
     Meeting ID:  832-1335-9032 
     Passcode: 034641
 zoomurl: https://numfocus-org.zoom.us/j/83213359032?pwd=B3DS7InxF7b6upsU0c6COonGAqabh4.1
+ropensci: true
 ---
 
 [R-Universe](/r-universe/) is rOpenSci’s platform for testing, building, distributing, and discovering R packages, lead by Jeroen Ooms. 

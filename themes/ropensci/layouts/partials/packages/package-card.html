@@ -1,5 +1,5 @@
 {{ if ( ne .package.type "archived" ) }}
-<div class="category-card row align-items-center" data-status="{{ .package.type | default (partial "packages/default-type" .) }}" data-keywords="{{ .package._topics }}" id="{{ .package.Package }}">
+<div class="category-card row align-items-center" data-status="{{ .package.type | default (partial "packages/default-type" .package.url) }}" data-keywords="{{ .package._topics }}" id="{{ .package.Package }}">
   <div class="col-md-8 offset-lg-1">
     <div class="category-card__heading">
       <div class="d-flex align-items-center flex-wrap">
@@ -14,9 +14,9 @@
         {{ if gt (len $communitymultiverse) 0 }}
         <a href="https://community.r-multiverse.org/{{ .package.Package }}" class="category-card__tag is-teal">R-multiverse</a>
         {{ end }}
-        {{ if isset .package._metadata "review" }}
-        <a href="{{ .package._metadata.review.url }}" class="category-card__tag is-linear">Peer-reviewed</a>
-        {{ end }}
+        {{ with .package._metadata }}{{ if isset . "review" }}
+        <a href="{{ .review.url }}" class="category-card__tag is-linear">Peer-reviewed</a>
+        {{ end }}{{ end }}
         {{ if eq (index .package "Config/ropensci/maintainer" ) "staff" }}
         <a href="/about/#team" class="category-card__tag is-maintain">Staff maintained</a>
         {{ end }}
@@ -24,6 +24,17 @@
       <p class="category-card__p">
         {{ .package.Title | replaceRE "\\'(.*?)\\'" "$1"}}
       </p>
+      {{ if .showcategories }}{{ with partial "packages/categories" .package }}
+      <div class="d-flex align-items-center flex-wrap category-card__categories">
+        {{ range . }}
+        {{ with site.GetPage (printf "/packages/%s" .) }}
+        <a href="{{ .RelPermalink }}" class="category-card__tag">{{ .Title | markdownify }}</a>
+        {{ else }}
+        <span class="category-card__tag">{{ . }}</span>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}{{ end }}
     </div>
   </div>
   <div class="col-md-2 order-3 d-none d-md-block">

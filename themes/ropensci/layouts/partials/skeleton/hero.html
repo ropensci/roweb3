@@ -1,0 +1,39 @@
+{{- /*
+  Renders the top of the home page: the latest blog post or tech note, the tagline and links to the project sections. Closes the <header> opened in skeleton/header.html.
+  Context: the home page.
+*/ -}}
+      <!-- Hero -->
+      <div class="hero">
+        <div class="container news">
+          <div class="news-body">
+            <span class="news-label">{{ i18n "Home-New" }}</span
+            ><span class="news-text"
+              >
+                        {{ range first 1 ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "in" .Site.Params.blogs ) }}
+          <a href="{{ .Permalink }}"
+                >{{ .Title | markdownify }}</a
+              >
+          {{ end }}
+              
+              </span
+            >
+          </div>
+        </div>
+        <div class="container">
+          <div class="hero-body">
+            <h1 class="hero-title">
+              {{ i18n "Home-Hero-Title" | safeHTML }}
+            </h1>
+            <p>
+              {{ i18n "Home-Hero-Text" }}
+            </p>
+            <div class="hero-buttons">
+              <a href="#review" class="btn btn-primary">{{ i18n "Home-Hero-Review" }}</a>
+              <a href="#r-universe" class="btn btn-primary">{{ i18n "Home-Hero-Infrastructure" }}</a>
+              <a href="#champions" class="btn btn-primary">{{ i18n "Home-Hero-Training" }}</a>
+              <a href="#multilingual" class="btn btn-primary">{{ i18n "Home-Hero-Multilingual" }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
