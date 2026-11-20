@@ -192,9 +192,9 @@ Left-aligned
 If you want to center the block quote add the align variable:
 
 ```
-{{< quote align="center" >}}
-Blablablabla  
-{{< /quote >}}
+    {{< quote align="center" >}}
+    Blablablabla  
+    {{< /quote >}}
 ```
 
 {{< quote align="center" >}} 
