@@ -14,6 +14,58 @@ params:
   doi: "10.59350/f7tdn-np971"
 ---
 
+````{r}
+#| label: setup
+#| include: false
+
+# Options to have images saved in the post folder
+# And to disable symbols before output
+knitr::opts_chunk$set(fig.path = "", comment = "")
+
+# knitr hook to make images output use Hugo options
+knitr::knit_hooks$set(
+  plot = function(x, options) {
+    hugoopts <- options$hugoopts
+    paste0(
+      "`{{< figure src=",
+      '"',
+      x,
+      '" ',
+      if (!is.null(hugoopts)) {
+        glue::glue_collapse(
+          glue::glue('{names(hugoopts)}="{hugoopts}"'),
+          sep = " "
+        )
+      },
+      ">}}`{=html}\n"
+    )
+  }
+)
+
+# knitr hook to use Hugo highlighting options
+knitr::knit_hooks$set(
+  source = function(x, options) {
+    hlopts <- options$hlopts
+    paste0(
+      "```r ",
+      if (!is.null(hlopts)) {
+        paste0(
+          "{",
+          glue::glue_collapse(
+            glue::glue('{names(hlopts)}={hlopts}'),
+            sep = ","
+          ),
+          "}"
+        )
+      },
+      "\n",
+      glue::glue_collapse(x, sep = "\n"),
+      "\n```\n"
+    )
+  }
+)
+````
+
 This isn't a real blog post 😉.
 This is a post demonstrating technical details of how to include things like images, math, citations, and block quotes.
 While these details *are* documented in the ["Adding Content" chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate[^1] what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
@@ -75,7 +127,7 @@ Math is a bit complex to add and requires using the [katex](https://docs.ropensc
 
 See the [Blog Guide's math section](https://blogguide.ropensci.org/authortechnical.html#math) for the full details.
 
-To include inline math: `r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)` Which displays as `r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)`.
+To include inline math: `` `r knitr::inline_expr('katex::katex_html("y_1,\\\\ldots,y_T", displayMode = FALSE)')` `` Which displays as `r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)`.
 
 To include a block of math.
 
@@ -84,8 +136,8 @@ To include a block of math.
 
 string <- "
 \\begin{aligned} 
-  x_t & \\sim N(-0.5 y\_{t-1} + x\_{t-1} + z\_{t-1}, 0.3^2)\\\\ 
-  y_t & \\sim N(0.7x\_{t-1}, 0.3^2)\\\\ 
+  x_t & \\sim N(-0.5 y_{t-1} + x_{t-1} + z_{t-1}, 0.3^2)\\\\ 
+  y_t & \\sim N(0.7x_{t-1}, 0.3^2)\\\\ 
 \\end{aligned}"
 
 katex::katex_html(string, include_css = TRUE)
