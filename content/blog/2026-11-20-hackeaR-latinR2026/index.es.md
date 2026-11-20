@@ -52,7 +52,7 @@ Para ayudar a decidir por donde empezar, preparamos de ante mano un proyecto de 
 - **Accesibilidad:** Diana Garcia agregó texto alternativo a las imágenes de [unheadr](https://github.com/luisDVA/unheadr/issues/6) [por medio de un pull request](https://github.com/luisDVA/unheadr/pull/13) que fue aceptado y cerro este issue!🎉
 Riva Quiroga y Jesica Formoso trabajaron en un problema de contraste de color por debajo del mínimo WCAG AA en la [guía de r-devel](https://github.com/r-devel/rdevguide/issues/274).
 
-- **R base en distintas plataformas:** Jeroen Ooms tiene en progreso dos pull requests en r-svn, uno para [arreglar Alpine en ARM64 y sumar integración continua](https://github.com/r-devel/r-svn/pull/476) y otro para [corregir el límite de la pila de C en Linux y FreeBSD](https://github.com/r-devel/r-svn/pull/478).
+- **R base en distintas plataformas:** Jeroen Ooms agregó al dashboard y tiene en progreso dos _pull requests_ en r-svn, uno para [arreglar Alpine en ARM64 y sumar integración continua](https://github.com/r-devel/r-svn/pull/476) y otro para [corregir el límite de la pila de C en Linux y FreeBSD](https://github.com/r-devel/r-svn/pull/478).
 
 - **stplanr:** se cerró el [issue de acciones que fallan](https://github.com/ropensci/stplanr/issues/567) 🎉 y quedaron cuatro a la espera, desde renombrar `rnet_merge` hasta un método `sf` de `line_midpoint` y una viñeta sobre redes de rutas.
 
@@ -66,11 +66,11 @@ Riva Quiroga y Jesica Formoso trabajaron en un problema de contraste de color po
 
 - **Materiales de rOpenSci:** hay pull requests abiertos con traducciones del curso de Git al [español](https://github.com/ropensci-training/curriculum/pull/116) que fue tomado por Francisco Cardozo y Catalina Cañizares durante el hackathon y se encuentra en progreso. También hay traducciones al portugués, que esperan revisión.
 
-- **Materiales de rOpenSci:** hay _pull requests_ abiertos con traducciones del curso de Git al [español](https://github.com/ropensci-training/curriculum/pull/116) y al portugués. El [PR de español fue tomado por Francisco Cardozo y Catalina Cañizares](https://github.com/ropensci-training/curriculum/pull/136) durante el hackathon y se encuentra en progreso; los de portugués esperan revisión.
+- **Materiales de rOpenSci:** hay _pull requests_ abiertos con traducciones del curso de Git al [español](https://github.com/ropensci-training/curriculum/pull/116) y al portugués. El [PR de español fue tomado por Francisco Cardozo y Catalina Cañizares](https://github.com/ropensci-training/curriculum/pull/136) durante el hackathon y se encuentra en progreso; [las de portugués esperan revisión](https://github.com/ropensci-training/curriculum/pulls?q=sort%3Aupdated-desc+is%3Apr+state%3Aopen+label%3Atradução).
 
 - **Mensajes de R:** el issue sobre traducir los mensajes de R sigue abierto para quien quiera sumarse. En español ya se completaron todos, pero todavia hay trabajo por hacer en portugués.
 
-- **rdlocal:** el paquete de Elio Campitelli para facilitar la traducción tuvo una sesión de pruebas con Paola Corrales, Evelia Coss Navarrete, Mauricio Gómez Ardila y Oscar De Leon. Trabajaron en dos viñetas, una para quienes traducen y otra para quienes usan el paquete. Siguen abiertos issues sobre sobrescribir módulos y sobre incluir autoría en el archivo DESCRIPTION de los módulos de traducción.
+- **[rdlocal](https://github.com/eliocamp/rdlocal):** el paquete de Elio Campitelli para facilitar la traducción tuvo una sesión de pruebas con Paola Corrales, Evelia Coss Navarrete, Mauricio Gómez Ardila y Oscar De Leon. Trabajaron en dos viñetas, una para quienes traducen y otra para quienes usan el paquete. Siguen abiertos issues sobre sobrescribir módulos y sobre incluir autoría en el archivo DESCRIPTION de los módulos de traducción.
 
 - Otros participantes, como Gustavo Bruges y Audrey, revisaron el listado de ["Help Wanted" issues de rOpenSci](/help-wanted/) y ofrecieron su ayuda para traducir viñetas. 
 
@@ -93,9 +93,11 @@ En solo dos horas, el tablero mostró lo variado que puede ser contribuir: desde
 
 También se vio que la traducción y la documentación son puertas de entrada muy valiosas, que el acompañamiento de mentores con experiencia (como la explicación de Luis sobre "Lost braces") hace posible que quien llega por primera vez contribuya enseguida y que trabajar en español y portugués es parte central de lo que hacemos en LatinR.
 
-Aun quedan _issues_ y _pull request_ abiertas y eso es una buena noticia: si te quedaste con ganas, podés seguir contribuyendo cuando quieras. Revisá el tablero y la lista de Help Wanted de rOpenSci. Tambien podes sumarte al Zulip de R Contributors, al Slack de LatinR y suscribirte al newsletter de rOpenSci para enterarte de proximos eventos de este tipo.
+Aun quedan _issues_ y _pull request_ abiertas y eso es una buena noticia: si te quedaste con ganas, podés seguir contribuyendo cuando quieras. Revisá el tablero y la lista de Help Wanted de rOpenSci. Tambien podes sumarte al [Zulip de R Contributors](https://r-project.zulipchat.com/), al [Slack de LatinR](https://join.slack.com/t/latin-r/shared_invite/zt-2tespojdh-OpXaVcnzOY_SETtv9hqRSQ) y [suscribirte al newsletter de rOpenSci](https://ropensci.org/news/) para enterarte de proximos eventos de este tipo.
 
-Al finalizar el evento sorteamos una beca de Platzi entre las personas participantes, y Audrey fue quien recibió el premio. ¡Felicitaciones! 🎉
+Al finalizar el evento sorteamos una beca de Platzi[^1] entre las personas participantes, y Audrey fue quien recibió el premio. ¡Felicitaciones! 🎉
+
+[^1]: Platzi is an online educational platform
 
 Compartir un momento con personas nuevas y conocidas trabajando en algo que nos gusta, aprendiendo y ayudando a las personas que desarrollan paquetes, son de las actividades mas interesantes que se pueden realizar en estos eventos.
 
