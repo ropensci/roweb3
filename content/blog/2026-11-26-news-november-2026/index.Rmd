@@ -63,17 +63,21 @@ We've released a new version of our [guide for mentors in our champions program]
 It includes useful content such how to organize a meeting with one's mentee, and resources about mentoring skills.
 Check it out!
 
-### Champions Program update
+### Editorial board updates: thanks Jeff and Emi!
 
-TODO Yani
+[Jeff Hollister](/author/Jeff-Hollister) and [Emi Tanaka](/author/emi-tanaka/) are stepping off the editorial board.
+Since 2021 Jeff [handled seven approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Ajhollist+label%3A6%2Fapproved) and served twice as the Editor-in-Chief.
+Emi joined the editorial board in 2024 and [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Aemitanaka+label%3A6%2Fapproved).
+Thank you both and all the best in your next adventures!
 
 ## Quinceañera
 
 We continue to uncover the stories of the people behind rOpenSci.
 This month, you can read about:
 
-- [Carolina Pradier, rOpenSci champion and mentor](/blog/2026/11/02/champions-histories-carolina-pradier/)
-- [Athanasia Mo Mowinckel, rOpenSci mentor (and more)](/blog/2026/11/04/celebrating-ropensci/)
+- [Carolina Pradier, rOpenSci champion and mentor](/blog/2026/11/02/champions-histories-carolina-pradier/),
+- [Athanasia Mo Mowinckel, rOpenSci mentor (and more)](/blog/2026/11/04/celebrating-ropensci/),
+- [Adam Sparks, editor and package maintainer](/blog/2026/11/19/brisbane-to-community/).
 
 Stay tuned for more rOpenSci's stories.
 
