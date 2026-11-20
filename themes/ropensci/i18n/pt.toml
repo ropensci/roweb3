@@ -12,3 +12,19 @@
 
 [now]
   other = 'atualmente'
+
+[Our-reviewers]
+  other = 'Nossas pessoas revisoras'
+
+[review-in-year]
+  other = 'revisão em {{ .Year }}'
+
+[review-number-in-year]
+  other = 'revisão {{ .Number }} em {{ .Year }}'
+
+[Show-all-reviewers]
+  one = 'Mostrar a pessoa revisora'
+  other = 'Mostrar as {{ .Count }} pessoas revisoras'
+
+[Thanks-to-reviewers]
+  other = 'Muito obrigado a todas as pessoas revisoras!'
