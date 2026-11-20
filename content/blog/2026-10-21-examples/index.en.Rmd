@@ -6,6 +6,7 @@ author:
   - Maëlle Salmon
   - Yanina Bellini Saibene
 date: 2026-10-21
+math: true
 tags:
   - howto
 description: "A blog post demonstrating how implement technical content in blog psots"
@@ -69,6 +70,23 @@ Citation of a website[^3].
 ```
 
 ## Math
+
+Math is a bit complex to add and requires using the [katex](https://docs.ropensci.org/katex/), which therefore means that you must write your blog post as an Rmd or qmd (not md) and then compile it to md, and you will also need to add `math: true` to your YAML.
+
+See the [Blog Guide's math section](https://blogguide.ropensci.org/authortechnical.html#math) for the full details.
+
+To include inline math:  `r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)`  Which displays as `r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)`.
+
+To include a block of math.
+
+```{r}
+#| echo: fenced
+
+string <- "\\begin{aligned} x_t & \\sim N(-0.5 y\_{t-1} + x\_{t-1} + z\_{t-1}, 0.3^2)\\\\ y_t & \\sim N(0.7x\_{t-1}, 0.3^2)\\\\ \\end{aligned}" 
+
+katex::katex_html(string, include_css = TRUE)
+
+```
 
 ## Block quotes
 
