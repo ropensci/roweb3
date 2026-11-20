@@ -18,6 +18,17 @@ params:
 #| label: setup
 #| include: false
 
+# Add +smart to avoid formatting quote shortcodes with fancy quotes
+options(
+  blogdown.markdown.format = c(
+    "gfm",
+    "+smart",
+    "+tex_math_dollars",
+    "+footnotes"
+  )
+)
+
+
 # Options to have images saved in the post folder
 # And to disable symbols before output
 knitr::opts_chunk$set(fig.path = "", comment = "")
@@ -145,8 +156,6 @@ katex::katex_html(string, include_css = TRUE)
 
 ## Block quotes
 
-<!-- panache-ignore-start -->
-
 Right-aligned
 
 ```
@@ -157,12 +166,10 @@ Right-aligned
 ```
 
 > blabla\
-> blabla
-> blabla
-{.blockquote .text-right}
-
+> blabla blabla {.blockquote .text-right}
 
 Center-aligned
+
 ```
 > blabla\
 > blabla
@@ -171,12 +178,10 @@ Center-aligned
 ```
 
 > blabla\
-> blabla
-> blabla
-{.blockquote .text-center}
-
+> blabla blabla {.blockquote .text-center}
 
 Left-aligned
+
 ```
 > blabla\
 > blabla
@@ -185,48 +190,52 @@ Left-aligned
 ```
 
 > blabla\
-> blabla
-> blabla
-{.blockquote .text-left}
+> blabla blabla {.blockquote .text-left}
 
 If you want to center the block quote add the align variable:
 
 ```
 {{</* quote align="center" */>}}
-Blablablabla  
+blabla\
+blabla
+blabla 
 {{</* /quote */>}}
 ```
 
-{{< quote align="center" >}} 
-Blablablabla
+{{< quote align="center" >}}\
+blabla\
+blabla blabla\
 {{< /quote >}}
-
 
 With Attribution
 
 ```
 {{</* quote footer="Author Name" */>}}
-Blablablabla
+blabla\
+blabla
+blabla 
 {{</* /quote */>}}
 ```
 
-<!-- {{< quote footer="Author Name" >}}
-Blablablabla
-{{< /quote >}} -->
+{{< quote footer="Author Name" >}}\
+blabla\
+blabla blabla\
+{{< /quote >}}
 
 With Attribution and a source
 
 ```
 {{</* quote footer="Author Name" cite="[good book](url)" */>}}
-Blablablabla  
+blabla\
+blabla
+blabla  
 {{</* /quote */>}}
 ```
 
-<!-- {{< quote footer="Author Name" cite="[good book](url)" >}}
-Blablablabla
-{{< /quote >}} -->
-
-<!-- panache-ignore-end -->
+{{< quote footer="Author Name" cite="[good book](url)" >}}\
+blabla\
+blabla blabla\
+{{< /quote >}}
 
 ## Tables
 
