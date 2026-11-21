@@ -2,9 +2,9 @@
 slug: neweditorQ32026
 title: 'Updates to rOpenSci's Editorial Team'
 author:
+    - Francisco Rodriguez-Sanchez
     - Emi Tanaka
     - Jeff Hollister
-    - Lauren O'Brien
     - Yanina Bellini Saibene
 editor:
     - Mauro Lepore 
