@@ -6,11 +6,11 @@ author:
 date: "2026-11-26"
 tags:
   - newsletter
-description: Champions Program; Quinceañera; new packages and package news
+description: Mentor Guidelines; Editorial board updates; Quinceañera; new packages and package news
 params:
   last_newsletter: "2026-10-22"
   doi: "10.59350/bb6hh-t5f36"
-rmd_hash: 8d7f8eb4a8ce12cb
+rmd_hash: 009377c2fae0bd75
 
 ---
 
@@ -24,7 +24,13 @@ Dear rOpenSci friends, it's time for our monthly news roundup! You can read this
 
 We've released a new version of our [guide for mentors in our champions program](https://ropensci-org.github.io/champions-mentor-guidelines/). It includes useful content such how to organize a meeting with one's mentee, and resources about mentoring skills. Check it out!
 
-### Editorial board updates: thanks Jeff and Emi!
+### Editorial board updates
+
+#### Welcome Francisco!
+
+[Francisco Rodriguez-Sanchez](/author/francisco-rodriguez-sanchez/) joined as a guest editor back in 2024 and has now [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue++label%3A6%2Fapproved+assignee%3APakillo). He's now a full member of the editorial board. Thank you and welcome!
+
+#### Thanks Jeff and Emi!
 
 [Jeff Hollister](/author/Jeff-Hollister) and [Emi Tanaka](/author/emi-tanaka/) are stepping off the editorial board. Since 2021 Jeff [handled seven approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Ajhollist+label%3A6%2Fapproved) and served twice as the Editor-in-Chief. Emi joined the editorial board in 2024 and [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Aemitanaka+label%3A6%2Fapproved). Thank you both and all the best in your next adventures!
 
@@ -160,7 +166,11 @@ Etienne Bacher wrote a short post on [Using Just to run a subset of test files](
 
 ### AI as Forklift: Andrew Heiss' R+ AI 2026 keynote
 
-Andrew Heiss published a write up of his talk [Friction Worth Keeping: What Keeps Us Human When AI Makes Everything Easy](https://www.andrewheiss.com/blog/2026/11/10/r-ai-keynote-friction/), including a useful extension of the AI/forklift analogy.
+Andrew Heiss published a write up of his talk [Friction Worth Keeping: What Keeps Us Human When AI Makes Everything Easy](https://www.andrewheiss.com/blog/2026/11/10/r-ai-keynote-friction/), including a useful extension of the AI/forklift analogy. You can also [watch the recording](https://www.youtube.com/watch?v=efwMAosu2-g).
+
+### LLMs as last resort
+
+Bastián Olea Hererashared a post by Ben Harrap: ["Limited Learning Mode: Why LLMs are my last resort"](https://benharrap.com/post/2026-09-08-limited-learning-mode/). One of the reasons is "People like to help"!
 
 ## Last words
 
