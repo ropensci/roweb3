@@ -498,7 +498,7 @@
   other = 'Ex integrante del equipo editorial de la Revisión de software por pares de rOpenSci'
 
 [Our-reviewers]
-  other = 'Nuestras personas revisoras'
+  other = 'Nuestro equipo de revisión'
 
 [review-in-year]
   other = 'revisión en {{ .Year }}'
