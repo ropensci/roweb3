@@ -1,3 +1,14 @@
 [Code-of-Conduct]
   other = 'Código de Conduta'
   
+[Associate-editor-of-software-peer-review]
+  other = 'Integrante da equipe editorial de revisão de software por pares da rOpenSci'
+
+[Former-associate-editor-of-software-peer-review]
+  other = 'Ex-integrante da equipe editorial de revisão de software por pares da rOpenSci'
+
+[Editor-in-Chief]
+  other = 'Editor(a)-chefe'
+
+[now]
+  other = 'atualmente'

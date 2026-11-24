@@ -58,6 +58,7 @@
         {{ if gt (len $editorsNoType) 0 }}
         {{ errorf "Missing stats or generalreview entry in data/team/team.json for editor(s): %s" (delimit $editorsNoType ", ") }}
         {{ end }}
+        {{ partialCached "team/check-editor-authors.html" "check" }}
         {{ partial "whole-page-fragments/team/team-section" (dict "team" $editors "showEic" true)  }}
           <div class="row about-block">
           <div class="col-md-3 text-md-right">

@@ -232,6 +232,42 @@
     "home": "/author/steffi-lazerte"
   },
   {
+    "name": "Mauro Lepore",
+    "url": "https://github.com/maurolepore/",
+    "image": "/img/team/mauro-lepore.jpg",
+    "affiliation": "rOpenSci",
+    "roles": [
+      "staff",
+      "developer",
+      "editor"
+    ],
+    "participates": [
+      "software-review"
+    ],
+    "generalreview": true,
+    "linkedin": "https://www.linkedin.com/in/mauro-lepore/",
+    "github": "maurolepore",
+    "home": "/author/mauro-lepore",
+    "eic": [
+      {
+        "start": "2023-02-01",
+        "end": "2023-04-30"
+      },
+      {
+        "start": "2025-02-01",
+        "end": "2025-04-30"
+      },
+      {
+        "start": "2026-05-01",
+        "end": "2026-07-31"
+      },
+      {
+        "start": "2026-11-01",
+        "end": "2027-01-31"
+      }
+    ]
+  },
+  {
     "name": "Stacey Dorton",
     "affiliation": "Administrative Manager",
     "image": "/img/team/stacey.jpg",
@@ -282,7 +318,7 @@
     "url": "http://annakrystalli.me/",
     "image": "/img/team/anna-krystalli.jpg",
     "affiliation": "Research Software Engineering consultant / Data Scientist",
-    "roles": [
+    "past_roles": [
       "editor"
     ],
     "generalreview": true,
@@ -364,40 +400,6 @@
       {
         "start": "2020-12-01",
         "end": "2021-03-21"
-      }
-    ]
-  },
-  {
-    "name": "Mauro Lepore",
-    "url": "https://github.com/maurolepore/",
-    "image": "/img/team/mauro-lepore.jpg",
-    "affiliation": "Theia Finance Labs",
-    "roles": [
-      "editor"
-    ],
-    "participates": [
-      "software-review"
-    ],
-    "generalreview": true,
-    "LinkedIn": "https://www.linkedin.com/in/mauro-lepore/",
-    "github": "maurolepore",
-    "home": "https://github.com/maurolepore/",
-    "eic": [
-      {
-        "start": "2023-02-01",
-        "end": "2023-04-30"
-      },
-      {
-        "start": "2025-02-01",
-        "end": "2025-04-30"
-      },
-      {
-        "start": "2026-05-01",
-        "end": "2026-07-31"
-      },
-      {
-        "start": "2026-11-01",
-        "end": "2027-01-31"
       }
     ]
   },
@@ -488,7 +490,6 @@
     ],
     "generalreview": true,
     "stats": true,
-    "linkedin": "https://linkedin.com/in/adam-h-sparks",
     "mastodon": "https://rstats.me/@adamhsparks",
     "github": "adamhsparks",
     "home": "https://adamhsparks.netlify.app/",
@@ -512,9 +513,10 @@
     "url": "https://jwhollister.com/",
     "image": "/img/team/jeff-hollister.jpg",
     "affiliation": "US Environmental Protection Agency",
-    "roles": [
+    "past_roles": [
       "editor"
     ],
+    "alumnus": true,
     "generalreview": true,
     "mastodon": "https://fosstodon.org/@jhollist",
     "github": "jhollist",
@@ -608,6 +610,7 @@
     "stats": true,
     "alumnus": true,
     "twitter": "lcolladotor",
+    "github": "lcolladotor",
     "home": "https://lcolladotor.github.io"
   },
   {
@@ -801,6 +804,18 @@
       "editor"
     ],
     "home": "https://ronnyale.com/"
+  },
+  {
+    "name": "Francisco Rodríguez-Sánchez",
+    "affiliation": "Universidad de Sevilla, Spain",
+    "url": "https://frodriguezsanchez.net/",
+    "image": "/img/team/francisco-rodriguez-sanchez.jpg",
+    "roles": [
+      "editor"
+    ],
+    "generalreview": true,
+    "github": "Pakillo",
+    "home": "/author/francisco-rodriguez-sanchez/"
   },
   {
     "name": "Kelly Hondula",

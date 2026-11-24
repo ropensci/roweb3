@@ -1,0 +1,19 @@
+{{- /*
+  Formats an Editor-in-Chief term as "start – end", or "start – now" while it lasts.
+  Fails the build for a term without a start or an end.
+  Context: a dict with "person" (an entry of data/team/team.json) and "period"
+  (one of its "eic" entries, with "start" and "end" as YYYY-MM-DD).
+  Returns: a string.
+*/ -}}
+{{- $period := .period -}}
+{{- if not (and $period.start $period.end) -}}
+  {{- errorf `Editor-in-Chief term of %q in data/team/team.json has start %q and end %q: set both, as YYYY-MM-DD.` .person.name ($period.start | default "") ($period.end | default "") -}}
+{{- end -}}
+{{- $today := now.Format "2006-01-02" -}}
+{{- $end := "" -}}
+{{- if gt $period.end $today -}}
+  {{- $end = i18n "now" -}}
+{{- else -}}
+  {{- $end = time.Format ":date_medium" $period.end -}}
+{{- end -}}
+{{- return (printf "%s – %s" (time.Format ":date_medium" $period.start) $end) -}}

@@ -490,3 +490,9 @@
 
 [Home-Hero-Multilingual]
   other = 'Publicación Multilingüe'
+
+[Associate-editor-of-software-peer-review]
+  other = 'Integrante del equipo editorial de la Revisión de software por pares de rOpenSci'
+
+[Former-associate-editor-of-software-peer-review]
+  other = 'Ex integrante del equipo editorial de la Revisión de software por pares de rOpenSci'

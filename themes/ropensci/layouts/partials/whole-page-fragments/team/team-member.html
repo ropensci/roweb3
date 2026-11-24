@@ -43,9 +43,9 @@
             <span class="user-eic-chevron" aria-hidden="true">▾</span>
           </summary>
           <ul class="user-eic-dates list-unstyled small">
-            {{ $today := now.Format "2006-01-02" }}
-            {{ range .eic }}
-            <li>{{ time.Format ":date_medium" .start }} – {{ if gt .end $today }}{{ i18n "now" }}{{ else }}{{ time.Format ":date_medium" .end }}{{ end }}</li>
+            {{ $person := . }}
+            {{ range $period := .eic }}
+            <li>{{ partial "team/eic-period.html" (dict "person" $person "period" $period) }}</li>
             {{ end }}
           </ul>
         </details>
