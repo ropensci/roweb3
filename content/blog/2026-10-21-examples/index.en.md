@@ -144,6 +144,20 @@ blabla
 blabla
 {{< /quote >}}
 
+Or left
+
+    {{</* quote align="left" */>}}
+    blabla\
+    blabla
+    blabla 
+    {{</* /quote */>}}
+
+{{< quote align="left" >}}\
+blabla\
+blabla
+blabla
+{{< /quote >}}
+
 With Attribution
 
     {{</* quote footer="Author Name" */>}}
