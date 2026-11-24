@@ -16,7 +16,7 @@ params:
 
 This isn't a real blog post 😉.
 This is a post demonstrating technical details of how to include things like images, math, citations, and block quotes.
-While these details *are* documented in the ["Adding Content" chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate[^1] what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
+While these details *are* documented in the [“Adding Content” chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate[^1] what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
 
 Therefore, here we demonstrate how to add various types of content to your blog post, and, importantly, how it will look on the rOpenSci Blog.
 
@@ -58,7 +58,7 @@ Therefore, here we demonstrate how to add various types of content to your blog 
 
 Math is a bit complex to add and requires using the [katex](https://docs.ropensci.org/katex/), which therefore means that you must write your blog post as an Rmd or qmd (not md) and then compile it to md, and you will also need to add `math: true` to your YAML.
 
-See the [Blog Guide's math section](https://blogguide.ropensci.org/authortechnical.html#math) for the full details.
+See the [Blog Guide’s math section](https://blogguide.ropensci.org/authortechnical.html#math) for the full details.
 
 To include inline math: `` `r katex::katex_html("y_1,\\ldots,y_T", displayMode = FALSE)` `` Which displays as <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>y</mi><mn>1</mn></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>y</mi><mi>T</mi></msub></mrow><annotation encoding="application/x-tex">y_1,\ldots,y_T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.13889em;">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>.
 
@@ -128,7 +128,7 @@ If you want to center the block quote add the align variable:
     blabla 
     {{</* /quote */>}}
 
-{{< quote align="center" \>}}\
+{{< quote align="center" >}}\
 blabla\
 blabla
 blabla
@@ -142,7 +142,7 @@ With Attribution
     blabla 
     {{</* /quote */>}}
 
-{{< quote footer="Author Name" \>}}\
+{{< quote footer="Author Name" >}}\
 blabla\
 blabla
 blabla
@@ -156,7 +156,7 @@ With Attribution and a source
     blabla  
     {{</* /quote */>}}
 
-{{< quote footer="Author Name" cite="[good book](url)" \>}}\
+{{< quote footer="Author Name" cite="[good book](url)" >}}\
 blabla\
 blabla
 blabla
@@ -181,4 +181,22 @@ blabla
 
 {.table .table-responsive .table-striped}
 
-[^1]: It's also hard for us to notice problems if, for example, a Hugo update breaks something.
+## Troubleshooting
+
+Interestingly (or annoyingly), when your post is an Rmd file compiled to md, sometimes the quotes (`"`) in a short code are converted to curly quotes (“), which Hugo doesn’t understand in this context.
+
+This can result in the following error, where XXX would be part of the contents of a short code argument (like `footer="Author Name"`).
+
+    ERROR error building site: [additional details] got positional parameter 'XXX'. Cannot mix named and positional parameters
+
+You can fix this problem by surrounding the short codes with `html` code fences:
+
+    ```{=html}
+    {{</* quote footer="Author Name" */>}}
+    blabla\
+    blabla
+    blabla 
+    {{</* /quote */>}}
+    ```
+
+[^1]: It’s also hard for us to notice problems if, for example, a Hugo update breaks something.
