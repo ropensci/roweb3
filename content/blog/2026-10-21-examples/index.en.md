@@ -144,15 +144,15 @@ blabla
 blabla
 {{< /quote >}}
 
-Or left
+Or right
 
-    {{</* quote align="left" */>}}
+    {{</* quote align="right" */>}}
     blabla\
     blabla
     blabla 
     {{</* /quote */>}}
 
-{{< quote align="left" >}}\
+{{< quote align="right" >}}\
 blabla\
 blabla
 blabla

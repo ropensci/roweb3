@@ -214,10 +214,10 @@ blabla
 {{< /quote >}}
 ```
 
-Or left
+Or right
 
 ```
-{{</* quote align="left" */>}}
+{{</* quote align="right" */>}}
 blabla\
 blabla
 blabla 
@@ -225,7 +225,7 @@ blabla
 ```
 
 ```{=html}
-{{< quote align="left" >}}\
+{{< quote align="right" >}}\
 blabla\
 blabla
 blabla
