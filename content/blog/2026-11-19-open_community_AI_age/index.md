@@ -32,9 +32,9 @@ On October 1, 2026 Openscapes hosted a Community Call on Open Communities in the
 
 It has been just over a month since Openscapes hosted the [Community Call: Open Communities in the age of AI](https://openscapes.org/events/2026-10-01-community-call-open-communities-ai/). Why the long delay in this post? Because it was something *really* good. So good, in fact, that I (Mara) was reticent to recap it—not wanting to diminish what was said. However, the video and notes are available on the call page, so here is a synthesis, not of what was said, but where we (the four panelists) converged. The topic, as Openscapes described it, had a very specific aim:
 
-::: {.blockquote-blue}
+
 > “We want to talk about the impact of AI on the growth and maintenance of communities, and the people in those communities. There are discussions happening in many Open Source communities about how to manage and use AI effectively and responsibly \- discussions about increased burden on maintainers, policies for AI-written PRs, etc. Those are important conversations, however, **the conversations about impacts of AI on communities are rare**.”[^1]
-:::
+
 
 ## How events like this happen
 
@@ -44,15 +44,15 @@ This community call did not organize itself. What began as a [GitHub issue](http
 
 The impetus for the discussion was not just a product of a few folks noticing and wanting to hear one another's perspectives on AI and open-source communities. It's definitionally a part of what Openscapes actually *is*. As Stefanie described in the opening:
 
-::: {.blockquote-blue}
+
 > “Openscapes is an **open-source approach and a movement**. It's a mechanism that helps research teams **find each other** and feel empowered with modern data-intensive science workflows.”
-:::
+
 
 Andy continued:
 
-::: {.blockquote-blue}
+
 > “…open communities have a culture of shared and continued learning, and they prioritize diversity, equity, and belonging. They help us **connect with each other on a human level around the things that we're passionate about**.”
-:::
+
 
 It's because of communities like these that the organizers and panelists can see and feel an absence, a change—not something necessarily born of the use of AI-tools, but amplified and accelerated by them in a way that's palpable. *But*, we convened neither to mourn, nor to wax nostalgic about days of yore that were imperfect, but to put to practice the kind of collaboration we've used to build and maintain software for years—this time, on open-source communities themselves.
 
@@ -99,9 +99,9 @@ Yani told three stories, each an offering with a lesson for community managers a
 
 The discussion that followed is well worth watching, and I encourage you to do so. There is, however, one quotation from Yanina that captured the essence of the call so beautifully that I simply must include it here:
 
-::: {.blockquote-blue}
+
 > “***The community is not only a place to get unstuck, it is a place that will help you grow.*** Beyond the immediate tasks that you need to do. So, it is the contact network. So, why are we all here, all the speakers today? Because we have our contact network in some places, ***we know each other, and we know our work, and we trust each other*****.** So, you will not get that from the model, how you co-create something with someone. You are not going to get that with the model.” — Yanina Bellini Saibene  
-:::
+
 
 {{< figure class="center" src="communities-give-you-people.png" width="60%" alt="black text on two lines says, AI gives you answers. Communities give you people. AI answers can be wrong. Connecting with people never is."  caption="A quote from Yanina Bellini Saibene." >}}
 
