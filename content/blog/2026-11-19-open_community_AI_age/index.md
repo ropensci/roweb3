@@ -1,6 +1,6 @@
 ---
-slug: "hackeaR-LatinR2026"
-title: Hacking Two Hours of Contributions to R
+slug: "comm-call-openscapes"
+title: Making the incidental an invitation in building community
 author:
   - Mara Averick
   - Hadley Wickham
@@ -15,8 +15,15 @@ tags:
   - community
   - GenAI
 description: "Blog post summarizing Openscapes Community Call Open Communities in the age of AI"
+crossposts:
+- name: Openscapes Blog
+  url: https://openscapes.org/blog/2026-11-19_communities_age_ai/
+- name: NASA Openscapes News
+  url: https://nasa-openscapes.github.io/news/2026-11-19_communities_age_ai/
+- name: NOAA Fisheries Openscapes Blog
+  url: https://nmfs-openscapes.github.io/blog/2026-11-19_communities_age_ai/  
 params:
-  doi: ""
+  doi: "10.59350/4n3v5-bkr95"
 ---
 
 On October 1, 2026 Openscapes hosted a Community Call on Open Communities in the Age of AI. The 1.5-hour event included four speakers, a panel discussion, and questions from participants. Among more than sixty participants, we recognized so many we connect with regularly across our communities\! This post synthesizes some themes that we hope will entice you to watch the recording and consider how you intentionally welcome people into the communities you value.
@@ -96,10 +103,7 @@ The discussion that followed is well worth watching, and I encourage you to do s
 > “***The community is not only a place to get unstuck, it is a place that will help you grow.*** Beyond the immediate tasks that you need to do. So, it is the contact network. So, why are we all here, all the speakers today? Because we have our contact network in some places, ***we know each other, and we know our work, and we trust each other*****.** So, you will not get that from the model, how you co-create something with someone. You are not going to get that with the model.” — Yanina Bellini Saibene  
 :::
 
->   
-::: {style="text-align:center;"}
-![A quote from Yanina Bellini Saibene.](./communities-give-you-people.png){fig-alt="black text on two lines says, AI gives you answers. Communities give you people. AI answers can be wrong. Connecting with people never is." fig-align="center" width="60%"}
-:::
+{{< figure class="center" src="communities-give-you-people.png" width="60%" alt="black text on two lines says, AI gives you answers. Communities give you people. AI answers can be wrong. Connecting with people never is."  caption="A quote from Yanina Bellini Saibene." >}}
 
 ## Resources
 
@@ -108,7 +112,7 @@ The discussion that followed is well worth watching, and I encourage you to do s
 * *Speakers*  
   * [*Mara Averick*](https://www.linkedin.com/in/maraaverick/)*, Senior Developer Advocate at [Quansight](https://quansight.com/) and Contributor-Experience Lead for [stdlib](https://stdlib.io/) ([blog](https://blog.stdlib.io/tag/developer-relations/)) ([slides](https://docs.google.com/presentation/d/1Dl5YJy6ROykFbLRm38Wu6IKi9Q3M9--6ZTMUZ7Z0ciU/edit?slide=id.p1#slide=id.p1))*  
   * [*Hadley Wickham*](https://hadley.nz/)*, Chief Scientist at [Posit](https://posit.co/) ([slides](https://drive.google.com/file/d/1Jj8LEeB7RLncDs-nqn54tPEJY2dKNESM/view?usp=drive_link))*  
-  * [*Mark Padgham*](https://mpadge.eu/blog/)*, Software Review Lead at [rOpenSci](https://ropensci.org/) ([slides](https://mpadge.github.io/presentations/2026/openscapes/))*  
+  * [*Mark Padgham*](https://mpadge.eu/blog/)*, former Software Review Lead at [rOpenSci](https://ropensci.org/) ([slides](https://mpadge.github.io/presentations/2026/openscapes/))*
   * [*Yanina Bellini Saibene*](https://yabellini.netlify.app/)*, Community Manager at [rOpenSci](https://ropensci.org/), [Sovereign Tech Fellow 2026](https://www.sovereign.tech/programs/fellowship). Member of [RLadies+](https://rladies.org/) and [The Carpentries](https://carpentries.org/) Board of Directors  ([slides](https://yabellini.github.io/OpenScapes/))* 
 
 
