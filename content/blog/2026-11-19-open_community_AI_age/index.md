@@ -6,6 +6,7 @@ author:
   - Hadley Wickham
   - Mark Padgham
   - Yanina Bellini Saibene
+  - Julia Stewart Lowndes
   - Stefanie Butland
   - Andy Teucher
 date: 2026-11-19
@@ -22,6 +23,8 @@ crossposts:
   url: https://nasa-openscapes.github.io/news/2026-11-19_communities_age_ai/
 - name: NOAA Fisheries Openscapes Blog
   url: https://nmfs-openscapes.github.io/blog/2026-11-19_communities_age_ai/  
+- name: stdlib blog
+  url: https://blog.stdlib.io/making-the-incidental-an-invitation-in-building-community/
 params:
   doi: "10.59350/4n3v5-bkr95"
 ---
