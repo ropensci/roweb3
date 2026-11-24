@@ -1,6 +1,6 @@
 ---
 slug: "examples"
-title: Blog Post Technical Examples
+title: So You Want to Write a Blog Post?
 author:
   - Steffi LaZerte
   - Maëlle Salmon
@@ -9,7 +9,7 @@ date: 2026-10-21
 math: true
 tags:
   - howto
-description: "A blog post demonstrating how implement technical content in blog psots"
+description: "An invitation to write blog posts and examples showing how implement technical content."
 params:
   doi: "10.59350/f7tdn-np971"
 ---
@@ -66,15 +66,23 @@ knitr::knit_hooks$set(
 )
 ````
 
-This isn't a real blog post 😉.
-This is a post demonstrating technical details of how to include things like images, math, citations, and block quotes.
-While these details *are* documented in the ["Adding Content" chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate[^1] what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
+You're probably aware that rOpenSci has a blog 😄.
+You may even be aware that many blog posts are created by community members (see our list of [Authors](/author), or the [Community tag](/tags/community/)).
+
+But did you know that anyone can write a blog post?
+To facilitate this, we have a full [Blog Guide](https://blogguide.ropensci.org), which provides guidance on content, as well as technical things like how to add figures, or footnotes to a post.
+
+If you want to contribute a blog post, review the [Blog Guide's Content Guidelines](https://blogguide.ropensci.org/authorcontent.html) to ensure what you want to write about suits the rOpenSci blog, then [reach out](https://blogguide.ropensci.org/)!
+
+The rest of this post is a demonstration of the technical details of how to include things like images, math, citations, and block quotes.
+While these details *are* documented in the ["Adding Content" chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
+It's also hard for us to notice problems if a Hugo update breaks something.
 
 Therefore, here we demonstrate how to add various types of content to your blog post, and, importantly, how it will look on the rOpenSci Blog.
 
-[^1]: It's also hard for us to notice problems if, for example, a Hugo update breaks something.
+## Technical content
 
-## Images
+### Images
 
 ```
 {{< figure src = "image-name.png" alt = "informative description" class = "center" >}}
@@ -98,7 +106,7 @@ Text to right
 {{< figure src = "image-name.png" alt = "informative description" link = "http://hyperlink">}}
 ```
 
-### Galleries
+### Image galleries
 
 ```
 {{< gallery >}}
@@ -108,7 +116,7 @@ Text to right
 {{< /gallery >}}
 ```
 
-## Citations and footnotes
+### Citations and footnotes
 
 ```
 Citation of the primary literature[^1].
@@ -121,7 +129,7 @@ Citation of a website[^3].
 
 ```
 
-## Math
+### Math
 
 Math is a bit complex to add and requires using the [katex](https://docs.ropensci.org/katex/), which therefore means that you must write your blog post as an Rmd or qmd (not md) and then compile it to md, and you will also need to add `math: true` to your YAML.
 
@@ -143,7 +151,7 @@ string <- "
 katex::katex_html(string, include_css = TRUE)
 ```
 
-## Block quotes
+### Block quotes
 
 <!-- panache-ignore-start -->
 
@@ -244,7 +252,7 @@ blabla
 
 <!-- panache-ignore-end -->
 
-## Tables
+### Tables
 
 ```
 | Header   | Other Header | Another Header |

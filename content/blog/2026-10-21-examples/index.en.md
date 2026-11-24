@@ -1,6 +1,6 @@
 ---
 slug: "examples"
-title: Blog Post Technical Examples
+title: So You Want to Write a Blog Post?
 author:
   - Steffi LaZerte
   - Maëlle Salmon
@@ -9,18 +9,28 @@ date: 2026-10-21
 math: true
 tags:
   - howto
-description: "A blog post demonstrating how implement technical content in blog psots"
+description: "An invitation to write blog posts and examples showing how implement technical content."
 params:
   doi: "10.59350/f7tdn-np971"
 ---
 
-This isn't a real blog post 😉.
-This is a post demonstrating technical details of how to include things like images, math, citations, and block quotes.
-While these details *are* documented in the [“Adding Content” chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate[^1] what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
+You’re probably aware that rOpenSci has a blog 😄.
+You may even be aware that many blog posts are created by community members (see our list of [Authors](/author), or the [Community tag](/tags/community/)).
+
+But did you know that anyone can write a blog post?
+To facilitate this, we have a full [Blog Guide](https://blogguide.ropensci.org), which provides guidance on content, as well as technical things like how to add figures, or footnotes to a post.
+
+If you want to contribute a blog post, review the [Blog Guide’s Content Guidelines](https://blogguide.ropensci.org/authorcontent.html) to ensure what you want to write about suits the rOpenSci blog, then [reach out](https://blogguide.ropensci.org/)!
+
+The rest of this post is a demonstration of the technical details of how to include things like images, math, citations, and block quotes.
+While these details *are* documented in the [“Adding Content” chapter of our blog guide](https://blogguide.ropensci.org/authortechnical.html#usetemplates), it is hard to demonstrate what the outputs look like because the Blog Guide is deployed with Quarto while the rOpenSci Blog uses Hugo.
+It’s also hard for us to notice problems if a Hugo update breaks something.
 
 Therefore, here we demonstrate how to add various types of content to your blog post, and, importantly, how it will look on the rOpenSci Blog.
 
-## Images
+## Technical content
+
+### Images
 
     {{< figure src = "image-name.png" alt = "informative description" class = "center" >}}
 
@@ -36,7 +46,7 @@ Therefore, here we demonstrate how to add various types of content to your blog 
 
     {{< figure src = "image-name.png" alt = "informative description" link = "http://hyperlink">}}
 
-### Galleries
+### Image galleries
 
     {{< gallery >}}
     {{< figureforgallery src="search2.png" alt="Screenshot of r-universe simple search results." >}}
@@ -44,7 +54,7 @@ Therefore, here we demonstrate how to add various types of content to your blog 
     {{< figureforgallery src="search4.png" alt="Screenshot of r-universe advanced search results." >}}
     {{< /gallery >}}
 
-## Citations and footnotes
+### Citations and footnotes
 
     Citation of the primary literature[^1].
     Citation of an R package[^2].
@@ -54,7 +64,7 @@ Therefore, here we demonstrate how to add various types of content to your blog 
     [^2]: Elin Waring, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu and Shannon Ellis (2019). skimr: Compact and Flexible Summaries of Data. R package version 2.0.2. https://CRAN.R-project.org/package=skimr
     [^3]: Hugo static site generator. https://gohugo.io/
 
-## Math
+### Math
 
 Math is a bit complex to add and requires using the [katex](https://docs.ropensci.org/katex/), which therefore means that you must write your blog post as an Rmd or qmd (not md) and then compile it to md, and you will also need to add `math: true` to your YAML.
 
@@ -81,7 +91,7 @@ katex::katex_html(string, include_css = TRUE)
   y_t &amp; \sim N(0.7x_{t-1}, 0.3^2)\\ 
 \end{aligned}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.0482em;vertical-align:-1.2741em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.7741em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.3859em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2741em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.7741em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mopen">(</span><span class="mord">−</span><span class="mord">0.5</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.04398em;">z</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.044em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">0.</span><span class="mord"><span class="mord">3</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-2.3859em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mopen">(</span><span class="mord">0.7</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">0.</span><span class="mord"><span class="mord">3</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2741em;"><span></span></span></span></span></span></span></span></span></span></span></span>
 
-## Block quotes
+### Block quotes
 
 <!-- panache-ignore-start -->
 
@@ -164,7 +174,7 @@ blabla
 
 <!-- panache-ignore-end -->
 
-## Tables
+### Tables
 
     | Header   | Other Header | Another Header |
     | -------- | ------------ | -------------- |
@@ -198,5 +208,3 @@ You can fix this problem by surrounding the short codes with `html` code fences:
     blabla 
     {{</* /quote */>}}
     ```
-
-[^1]: It’s also hard for us to notice problems if, for example, a Hugo update breaks something.
