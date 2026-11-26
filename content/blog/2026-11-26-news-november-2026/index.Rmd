@@ -124,7 +124,8 @@ Deadline: Friday 4 December (midnight Anywhere on Earth)
 #| cache: true
 
 cran_unquote <- function(string) {
-  gsub("\\'(.*?)\\'", "\\1", string)
+  # Only quotes around a word, not apostrophes as in "Australia's"
+  gsub("(?<![[:alnum:]])'([^']+)'(?![[:alnum:]])", "\\1", string, perl = TRUE)
 }
 tidy_package <- function(entry) {
   tibble::tibble(
