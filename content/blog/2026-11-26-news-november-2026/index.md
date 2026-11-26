@@ -157,13 +157,6 @@ How to get coverage information displayed without codecov? A roundup of current 
 - covr development version gained a [`to_badge()`](https://covr.r-lib.org/dev/reference/to_badge.html) function to create an svg badge of coverage.
 - Elio Campitelli added a [GitHub Actions workflow and script](https://github.com/eliocamp/tagger/commit/de390422d1abba16df328a0be4b34e25a88f3749) to create a [coverage report for a package](https://eliocamp.github.io/tagger/articles/coverage-report.html).
 
-### A workflow tips for running tests
-
-Etienne Bacher wrote a short post on [Using Just to run a subset of test files](https://www.etiennebacher.com/posts/2026-10-15-using-just-with-test-files/) that might be useful to you if you:
-
-- run tests in a package with long-running tests;
-- or are curious about Just, a tool for defining command aliases.
-
 ### AI as Forklift: Andrew Heiss' R+ AI 2026 keynote
 
 Andrew Heiss published a write up of his talk [Friction Worth Keeping: What Keeps Us Human When AI Makes Everything Easy](https://www.andrewheiss.com/blog/2026/11/10/r-ai-keynote-friction/), including a useful extension of the AI/forklift analogy. You can also [watch the recording](https://www.youtube.com/watch?v=efwMAosu2-g).
