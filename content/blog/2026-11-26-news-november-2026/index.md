@@ -124,15 +124,10 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## On the blog
 
-<!-- Do not forget to rebase your branch! -->
-
-### Software Review
 
 - [Kindness, Curiosity, and Kitties: A rOpenSci 15th Anniversary Interview with Mo](/blog/2026/11/04/celebrating-ropensci) by Yanina Bellini Saibene. As part of rOpenSci's 15th anniversary, Community Manager Yani talks with Mo about her journey from a first software review to years of contributions across the rOpenSci community. Mo shares what keeps her involved and offers advice for newcomers.
 
-- [From Brisbane to the rOpenSci Community: Ten Years of Open Research Software](/blog/2026/11/19/brisbane-to-community) by Adam Sparks. A look back at ten years of involvement with rOpenSci, from attending a Unconf to package development, peer review, editorial work, and building open science communities. Through stories of collaboration, learning, and lasting friendships, the post highlights how welcoming communities can shape careers and make open research software stronger. .
-
-- [Mark Padgham: Building the Machinery of Software Peer Review](/blog/2026/10/21/mark-building-machinery-software-review) by The rOpenSci Team. Mark Padgham is leaving rOpenSci at the end of October, and we want to take this moment to recognize his impact and say thank you for helping to shape rOpenSci.
+- [From Brisbane to the rOpenSci Community: Ten Years of Open Research Software](/blog/2026/11/19/brisbane-to-community) by Adam Sparks. A look back at ten years of involvement with rOpenSci, from attending a Unconf to package development, peer review, editorial work, and building open science communities. Through stories of collaboration, learning, and lasting friendships, the post highlights how welcoming communities can shape careers and make open research software stronger. 
 
 - [Carolina Pradier, rOpenSci champion and mentor](/blog/2026/11/02/champions-histories-carolina-pradier) by Yanina Bellini Saibene and Alejandra Bellini. This story is that of Carolina Pradier, main maintainer of the eph package. We review her participation in the Champions program and the impact of her work in different organizations and communities.
 
