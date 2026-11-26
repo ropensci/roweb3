@@ -36,6 +36,7 @@ Arcos
 Ardila
 Aria
 arkdb
+Armin
 Arnold
 aRxiv
 assertr
@@ -55,6 +56,7 @@ Bacher
 Baio
 Baker
 Balamuta
+Balasubramaniam
 Baliga
 Baranek
 baRcodeR
@@ -85,6 +87,7 @@ Bocinsky
 Boettiger
 Bojanowski
 bold
+Böllenrücher
 Bosch-Matas
 bowerbird
 Bradford
@@ -165,6 +168,7 @@ daiquiri
 Dallas
 DAndrea
 Daniel
+Daniela
 dataaimsr
 datapack
 DataPackageR
@@ -190,6 +194,7 @@ dittodb
 DoOR.data
 DoOR.functions
 Dorothea
+Dragoș
 drake
 Drost
 Dubois
@@ -198,10 +203,12 @@ Durga
 dwctaxon
 Dylan
 dynamite
+Ebrahimi
 EDIutils
 eDNAjoint
 Edward
 eia
+Elham
 Eli
 Elin
 Elio
@@ -209,6 +216,7 @@ Emilio
 EML
 emld
 emodnet.wfs
+Emrah
 EndoMineR
 epair
 eph
@@ -227,6 +235,7 @@ Evelia
 excluder
 exoplanets
 ezknitr
+Fairhurst
 Farach
 fastMatMR
 FedData
@@ -290,6 +299,7 @@ gpg
 Graham
 grainchanger
 graphql
+Grünfeld
 Gruson
 GSODR
 gtexr
@@ -307,13 +317,16 @@ handlr
 Haneca
 Hannah
 Hanss
+Harrap
 hdcuremodels
 hddtools
 He
+Heiss
 Hellwig
 helminthR
 Hennicke
 Henry
+Herrera
 Hernangómez
 Herold
 Herrera
@@ -324,6 +337,7 @@ Hocking
 Hoey
 Hoff
 Hogervorst
+Hollister
 Hornik
 Hug
 Hughes
@@ -440,6 +454,7 @@ Massicotte
 Massimo
 Mathew
 Matthew
+Mattia
 mauricer
 Mauricio
 Maxwell
@@ -533,12 +548,14 @@ patentsview
 pathviewr
 Paul
 Pavez
+Payton
 pdftools
 Pearse
 Pérez
 Perlin
 Peter
 PFW
+Philipp
 Philippe
 phonfieldwork
 phruta
@@ -586,6 +603,7 @@ ramlegacy
 Ranghetti
 rangr
 Ranzolin
+Rauschenberger
 Raymond
 rb3
 rcites
@@ -671,6 +689,7 @@ ruODK
 rvertnet
 Ryan
 rzmq
+Saderi
 Sagouis
 Saibene
 Salix
@@ -694,6 +713,7 @@ Sebastian
 Selby
 Senyondo
 Sepulveda
+Shandiya
 Shaun
 Shi
 Shixiang
@@ -742,6 +762,7 @@ tabulapdf
 tacmagic
 Tad
 Tamás
+Tanaka
 tarchetypes
 targets
 taxa
@@ -825,6 +846,7 @@ weathercan
 weatherOz
 webchem
 webmockr
+Wegmueller
 Wickham
 Widgren
 Wiernik
