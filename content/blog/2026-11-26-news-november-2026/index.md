@@ -145,14 +145,6 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## Calls for contributions
 
-### Calls for maintainers
-
-If you're interested in maintaining any of the R packages below, you might enjoy reading our blog post [What Does It Mean to Maintain a Package?](/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/).
-
-- [suppdata](https://docs.ropensci.org/suppdata), Grabbing SUPPlementary DATA in R. [Issue for volunteering](https://github.com/ropensci/suppdata/issues/59).
-
-### Calls for contributions
-
 Refer to our [help wanted page](/help-wanted/) -- before opening a PR, we recommend asking in the issue whether help is still needed.
 
 ## Package development corner
