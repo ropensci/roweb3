@@ -19,9 +19,9 @@ params:
 library("rlang")
 last_newsletter <- anytime::anytime(params$last_newsletter)
 knitr::opts_chunk$set(echo = FALSE)
-# Avoid hugodown wrapping each chunk output in <div class="highlight">,
-# but still call its hook, which closes any <pre><code> left open
-# (otherwise a stray </code></pre> appears before "asis" output)
+# Avoid hugodown wrapping each chunk output in a "highlight" div,
+# but still call its hook: it closes the code block it opened,
+# otherwise stray closing tags appear before "asis" output
 hugodown_chunk_hook <- knitr::knit_hooks$get("chunk")
 knitr::knit_hooks$set(chunk = function(x, options) {
   x <- hugodown_chunk_hook(x, options)
@@ -371,18 +371,27 @@ The following `r if (length(releases) > 1) english(length(releases))` package`r 
 
 # from pkgdown https://github.com/r-lib/pkgdown/blob/1ca166905f1b019ed4af9642617ea09fa2b8fc17/R/utils.r#L176
 
+# A DESCRIPTION field can continue on the following, indented, lines
+get_field <- function(lines, field) {
+  start <- which(grepl(sprintf("^%s", field), lines))[1]
+  if (is.na(start)) {
+    return(NA_character_)
+  }
+  end <- start
+  while (end < length(lines) && grepl("^\\s+\\S", lines[end + 1])) {
+    end <- end + 1
+  }
+  stringr::str_squish(sub(
+    sprintf("%s:", field),
+    "",
+    paste(lines[start:end], collapse = " ")
+  ))
+}
+
 get_description <- function(body) {
   lines <- strsplit(body, "\n")[[1]]
-  name <- stringr::str_squish(sub(
-    "Package:",
-    "",
-    lines[grepl("^Package", lines)][1]
-  ))
-  description <- stringr::str_squish(sub(
-    "Title:",
-    "",
-    lines[grepl("^Title", lines)][1]
-  ))
+  name <- get_field(lines, "Package")
+  description <- get_field(lines, "Title")
   description <- cran_unquote(sub("\\.$", "", description))
   list(name = name, description = description)
 }

@@ -10,7 +10,7 @@ description: Mentor Guidelines; Editorial board updates; Quinceañera; new packa
 params:
   last_newsletter: "2026-10-22"
   doi: "10.59350/bb6hh-t5f36"
-rmd_hash: 4a5877141a83647f
+rmd_hash: 924aa4e869976286
 
 ---
 
@@ -102,7 +102,7 @@ There are fourteen recently closed and active submissions and 6 submissions on h
 
   - [corila](https://github.com/ropensci/software-review/issues/808), Sparse modelling with grouped and correlated features allowing for privileged information. Submitted by [Armin Rauschenberger](https://rauschenberger.github.io). (Stats).
 
-  - [qualtdict](https://github.com/ropensci/software-review/issues/807), Generate Variable Dictionaries and Labelled Survey Data for. Submitted by [lyh970817](https://github.com/lyh970817).
+  - [qualtdict](https://github.com/ropensci/software-review/issues/807), Generate Variable Dictionaries and Labelled Survey Data for Qualtrics Surveys. Submitted by [lyh970817](https://github.com/lyh970817).
 
   - [metasurvey.core](https://github.com/ropensci/software-review/issues/796), Local Engine for Reproducible Survey Data Processing. Submitted by [Mauro Loprete](https://github.com/mauroloprete).
 
