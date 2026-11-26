@@ -67,7 +67,7 @@ Check it out!
 
 #### Welcome Francisco!
 
-[Francisco Rodriguez-Sanchez](/author/francisco-rodriguez-sanchez/) joined as a guest editor back in 2024 and has now [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue++label%3A6%2Fapproved+assignee%3APakillo).
+[Francisco Rodriguez-Sanchez](/author/francisco-rodriguez-sanchez/) joined as a guest editor back in 2023 and has now [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue++label%3A6%2Fapproved+assignee%3APakillo).
 He's now a full member of the editorial board.
 Thank you and welcome!
 

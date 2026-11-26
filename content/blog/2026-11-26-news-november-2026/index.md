@@ -10,7 +10,7 @@ description: Mentor Guidelines; Editorial board updates; Quinceañera; new packa
 params:
   last_newsletter: "2026-10-22"
   doi: "10.59350/bb6hh-t5f36"
-rmd_hash: 3787a6a7424f3cf4
+rmd_hash: f4fe0286493e3db4
 
 ---
 
@@ -28,7 +28,7 @@ We've released a new version of our [guide for mentors in our Champions Program]
 
 #### Welcome Francisco!
 
-[Francisco Rodriguez-Sanchez](/author/francisco-rodriguez-sanchez/) joined as a guest editor back in 2024 and has now [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue++label%3A6%2Fapproved+assignee%3APakillo). He's now a full member of the editorial board. Thank you and welcome!
+[Francisco Rodriguez-Sanchez](/author/francisco-rodriguez-sanchez/) joined as a guest editor back in 2023 and has now [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue++label%3A6%2Fapproved+assignee%3APakillo). He's now a full member of the editorial board. Thank you and welcome!
 
 #### Thanks Jeff and Emi!
 
