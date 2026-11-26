@@ -124,12 +124,22 @@ Find out more about [Software Peer Review](/software-review) and how to get invo
 
 ## On the blog
 
+<!-- Do not forget to rebase your branch! -->
+
 
 - [Kindness, Curiosity, and Kitties: A rOpenSci 15th Anniversary Interview with Mo](/blog/2026/11/04/celebrating-ropensci) by Yanina Bellini Saibene. As part of rOpenSci's 15th anniversary, Community Manager Yani talks with Mo about her journey from a first software review to years of contributions across the rOpenSci community. Mo shares what keeps her involved and offers advice for newcomers.
 
-- [From Brisbane to the rOpenSci Community: Ten Years of Open Research Software](/blog/2026/11/19/brisbane-to-community) by Adam Sparks. A look back at ten years of involvement with rOpenSci, from attending a Unconf to package development, peer review, editorial work, and building open science communities. Through stories of collaboration, learning, and lasting friendships, the post highlights how welcoming communities can shape careers and make open research software stronger. 
+- [From Brisbane to the rOpenSci Community: Ten Years of Open Research Software](/blog/2026/11/19/brisbane-to-community) by Adam Sparks. A look back at ten years of involvement with rOpenSci, from attending a Unconf to package development, peer review, editorial work, and building open science communities. Through stories of collaboration, learning, and lasting friendships, the post highlights how welcoming communities can shape careers and make open research software stronger. .
+
+- [Splitting Large Queries to Brazil's Official Statistics API with ibger](/blog/2026/11/23/ibger) by André Leite, Marcos Wasiliew, Hugo Vasconcelos, Carlos Amorim, and Diogo Bezerra. How ibger estimates result sizes and splits large IBGE API queries automatically.
+
+{{< figure class="center" src="soy-plot-1.png" alt="Line charts of Brazilian soybean production and of the number of producing municipalities, both rising from 2000 to 2025." width="400" >}}
+
+
 
 - [Carolina Pradier, rOpenSci champion and mentor](/blog/2026/11/02/champions-histories-carolina-pradier) by Yanina Bellini Saibene and Alejandra Bellini. This story is that of Carolina Pradier, main maintainer of the eph package. We review her participation in the Champions program and the impact of her work in different organizations and communities.
+
+- [Making the incidental an invitation in building community](/blog/2026/11/19/comm-call-openscapes) by Mara Averick, Hadley Wickham, Mark Padgham, Yanina Bellini Saibene, Julia Stewart Lowndes, Stefanie Butland, and Andy Teucher. Blog post summarizing Openscapes Community Call Open Communities in the age of AI.
 
 - [Hacking Two Hours of Contributions to R](/blog/2026/11/20/hackeaR-LatinR2026) by Yanina Bellini Saibene. What we did during HackeaR, a LatinR event where we got together to make contributions to our favorite programming language. Other languages: <a href='/es/blog/2026/11/20/hackeaR-LatinR2026' lang='es'>Hackeando dos horas de contribuciones a R (es)</a>.
 
