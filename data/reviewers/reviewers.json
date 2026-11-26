@@ -1,0 +1,4336 @@
+[
+  {
+    "github": "cagrigokcek",
+    "name": "A. Cagri gokcek",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/600#issuecomment-1742267778",
+        "date": "2023-10-02"
+      }
+    ]
+  },
+  {
+    "github": "berdaniera",
+    "name": "Aaron Berdanier",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/214#issuecomment-392574585",
+        "date": "2018-05-28"
+      }
+    ]
+  },
+  {
+    "github": "aebratt",
+    "name": "Abby Bratt",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/426#issuecomment-797765961",
+        "date": "2021-03-12"
+      }
+    ]
+  },
+  {
+    "github": "adamhsparks",
+    "name": "Adam H. Sparks",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/124#issuecomment-308617830",
+        "date": "2017-06-15"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/266#issuecomment-450324567",
+        "date": "2018-12-28"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/298#issuecomment-511095693",
+        "date": "2019-07-13"
+      }
+    ]
+  },
+  {
+    "github": "adithirgis",
+    "name": "Adithi R. Upadhya",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/418#issuecomment-933641167",
+        "date": "2021-10-04"
+      }
+    ]
+  },
+  {
+    "github": "heyairf",
+    "name": "Air Forbes",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/660#issuecomment-2759474577",
+        "date": "2025-03-27"
+      }
+    ]
+  },
+  {
+    "github": "alstat",
+    "name": "Al Asaad",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/533#issuecomment-1177076018",
+        "date": "2022-07-07"
+      }
+    ]
+  },
+  {
+    "github": "robitalec",
+    "name": "Alec L. Robitaille",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/568#issuecomment-1572923447",
+        "date": "2023-06-01"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/638#issuecomment-2181114794",
+        "date": "2024-06-20"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/653#issuecomment-2414871259",
+        "date": "2024-10-15"
+      }
+    ]
+  },
+  {
+    "github": "alexzerg",
+    "name": "Aleksei Chirkunov",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/769#issuecomment-5634884791",
+        "date": "2026-09-11"
+      }
+    ]
+  },
+  {
+    "github": "s3alfisc",
+    "name": "Alexander Fischer",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/523#issuecomment-1140410709",
+        "date": "2022-05-29"
+      }
+    ]
+  },
+  {
+    "github": "AleKoure",
+    "name": "Alexandros Kouretsis",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/705#issuecomment-2982184454",
+        "date": "2025-06-18"
+      }
+    ]
+  },
+  {
+    "github": "AliciaSchep",
+    "name": "Alicia Schep",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/141#issuecomment-327687769",
+        "date": "2017-09-07"
+      }
+    ]
+  },
+  {
+    "github": "aappling-usgs",
+    "name": "Alison Appling",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/61#issuecomment-239934260",
+        "date": "2016-08-15"
+      }
+    ]
+  },
+  {
+    "github": "alisonboyer",
+    "name": "Alison Boyer",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/155#issuecomment-351177785",
+        "date": "2017-12-12"
+      }
+    ]
+  },
+  {
+    "github": "allanvc",
+    "name": "Allan Quadros",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/787#issuecomment-5360408658",
+        "date": "2026-08-20"
+      }
+    ]
+  },
+  {
+    "github": "allisonhorst",
+    "name": "Allison Horst",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/485#issuecomment-1049290009",
+        "date": "2022-02-23"
+      }
+    ]
+  },
+  {
+    "github": "aedobbyn",
+    "name": "Amanda Dobbyn",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/217#issuecomment-399801749",
+        "date": "2018-06-25"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/303#issuecomment-495354858",
+        "date": "2019-05-23"
+      }
+    ]
+  },
+  {
+    "github": "AmeliaMN",
+    "name": "Amelia McNamara",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/119#issuecomment-315850800",
+        "date": "2017-07-17"
+      }
+    ]
+  },
+  {
+    "github": "atsyplenkov",
+    "name": "Anatolii Tsyplenkov",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/718#issuecomment-3928093410",
+        "date": "2026-02-19"
+      }
+    ]
+  },
+  {
+    "github": "andeek",
+    "name": "Andee Kaplan",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/58#issuecomment-234357254",
+        "date": "2016-07-21"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/107#issuecomment-295913565",
+        "date": "2017-04-20"
+      }
+    ]
+  },
+  {
+    "github": "andrewheiss",
+    "name": "Andrew Heiss",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/302#issuecomment-498927826",
+        "date": "2019-06-05"
+      }
+    ]
+  },
+  {
+    "github": "aammd",
+    "name": "Andrew MacDonald",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/24#issuecomment-177408867",
+        "date": "2016-01-31"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/102#issuecomment-300349152",
+        "date": "2017-05-10"
+      }
+    ]
+  },
+  {
+    "github": "ateucher",
+    "name": "Andy Teucher",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/24#issuecomment-176629959",
+        "date": "2016-01-29"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/420#issuecomment-858231647",
+        "date": "2021-06-10"
+      }
+    ]
+  },
+  {
+    "github": "annakrystalli",
+    "name": "Anna Krystalli",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/130#issuecomment-320318889",
+        "date": "2017-08-04"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/169#issuecomment-361778092",
+        "date": "2018-01-31"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/502#issuecomment-1149620624",
+        "date": "2022-06-08"
+      }
+    ]
+  },
+  {
+    "github": "arw36",
+    "name": "Anna Willoughby",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/332#issuecomment-524682312",
+        "date": "2019-08-26"
+      }
+    ]
+  },
+  {
+    "github": "amart90",
+    "name": "Anthony Martinez",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/675#issuecomment-2569898099",
+        "date": "2025-01-03"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/706#issuecomment-3109964972",
+        "date": "2025-07-23"
+      }
+    ]
+  },
+  {
+    "github": "ajpelu",
+    "name": "Antonio J Perez-Luque",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/618#issuecomment-1872633358",
+        "date": "2023-12-31"
+      }
+    ]
+  },
+  {
+    "github": "asbonnetlebrun",
+    "name": "asbonnetlebrun",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/409#issuecomment-742580744",
+        "date": "2020-12-10"
+      }
+    ]
+  },
+  {
+    "github": "drmowinckels",
+    "name": "Athanasia Monika Mowinckel",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/522#issuecomment-1293953528",
+        "date": "2022-10-27"
+      }
+    ]
+  },
+  {
+    "github": "aurielfournier",
+    "name": "Auriel M.V. Fournier",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/136#issuecomment-324459783",
+        "date": "2017-08-23"
+      }
+    ]
+  },
+  {
+    "github": "awstringer1",
+    "name": "awstringer1",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/550#issuecomment-1218524923",
+        "date": "2022-08-17"
+      }
+    ]
+  },
+  {
+    "github": "astamm",
+    "name": "Aymeric Stamm",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/686#issuecomment-2758764843",
+        "date": "2025-03-27"
+      }
+    ]
+  },
+  {
+    "github": "chucheria",
+    "name": "Bea",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/116#issuecomment-309265604",
+        "date": "2017-06-18"
+      }
+    ]
+  },
+  {
+    "github": "beatrizmilz",
+    "name": "Beatriz Milz",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/474#issuecomment-981622813",
+        "date": "2021-11-29"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/495#issuecomment-1025860861",
+        "date": "2022-01-31"
+      }
+    ]
+  },
+  {
+    "github": "bpbond",
+    "name": "Ben Bond-Lamberty",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/99#issuecomment-286058530",
+        "date": "2017-03-13"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/254#issuecomment-464016203",
+        "date": "2019-02-15"
+      }
+    ]
+  },
+  {
+    "github": "benmarwick",
+    "name": "Ben Marwick",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/156#issuecomment-350419112",
+        "date": "2017-12-09"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/333#issuecomment-528520289",
+        "date": "2019-09-05"
+      }
+    ]
+  },
+  {
+    "github": "BenJWard",
+    "name": "Ben Ward",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/212#issuecomment-392789129",
+        "date": "2018-05-29"
+      }
+    ]
+  },
+  {
+    "github": "bmkramer",
+    "name": "Bianca Kramer",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/256#issuecomment-451916836",
+        "date": "2019-01-07"
+      }
+    ]
+  },
+  {
+    "github": "hrbrmstr",
+    "name": "boB Rudis",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/43#issuecomment-225089007",
+        "date": "2016-06-10"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/114#issuecomment-317411152",
+        "date": "2017-07-24"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/282#issuecomment-475893743",
+        "date": "2019-03-23"
+      }
+    ]
+  },
+  {
+    "github": "bhive01",
+    "name": "Brandon Hurr",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/280#issuecomment-462957348",
+        "date": "2019-02-12"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/287#issuecomment-487422544",
+        "date": "2019-04-28"
+      }
+    ]
+  },
+  {
+    "github": "BriannaLind",
+    "name": "Bri",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/560#issuecomment-1409244254",
+        "date": "2023-01-30"
+      }
+    ]
+  },
+  {
+    "github": "katrinabrock",
+    "name": "Brock",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/688#issuecomment-3161080785",
+        "date": "2025-08-06"
+      }
+    ]
+  },
+  {
+    "github": "geanders",
+    "name": "Brooke Anderson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/39#issuecomment-219771105",
+        "date": "2016-05-17"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/94#issuecomment-284578088",
+        "date": "2017-03-07"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/121#issuecomment-315410182",
+        "date": "2017-07-14"
+      }
+    ]
+  },
+  {
+    "github": "brunaw",
+    "name": "Bruna Wundervald",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/285#issuecomment-478217157",
+        "date": "2019-03-30"
+      }
+    ]
+  },
+  {
+    "github": "amoeba",
+    "name": "Bryce Mecum",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/169#issuecomment-359703694",
+        "date": "2018-01-23"
+      }
+    ]
+  },
+  {
+    "github": "calebasaraba",
+    "name": "calebasaraba",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/222#issuecomment-401948358",
+        "date": "2018-07-02"
+      }
+    ]
+  },
+  {
+    "github": "cboettig",
+    "name": "Carl Boettiger",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/119#issuecomment-311459131",
+        "date": "2017-06-27"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/279#issuecomment-466459153",
+        "date": "2019-02-22"
+      }
+    ]
+  },
+  {
+    "github": "carlganz",
+    "name": "Carl Ganz",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/107#issuecomment-292250684",
+        "date": "2017-04-06"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/168#issuecomment-355112839",
+        "date": "2018-01-03"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/213#issuecomment-392132784",
+        "date": "2018-05-25"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/315#issuecomment-514478115",
+        "date": "2019-07-24"
+      }
+    ]
+  },
+  {
+    "github": "ccamara",
+    "name": "Carlos Cámara",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/633#issuecomment-2160182185",
+        "date": "2024-06-11"
+      }
+    ]
+  },
+  {
+    "github": "catherinecsun",
+    "name": "Catherine (Cat) Sun",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/799#issuecomment-6216293441",
+        "date": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "github": "chamberlinc",
+    "name": "Cathy Chamberlin",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/464#issuecomment-986979096",
+        "date": "2021-12-06"
+      }
+    ]
+  },
+  {
+    "github": "softloud",
+    "name": "Charles T. Gray",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/160#issuecomment-352741678",
+        "date": "2017-12-19"
+      }
+    ]
+  },
+  {
+    "github": "chasemc",
+    "name": "Chase Clark",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/307#issuecomment-525949462",
+        "date": "2019-08-28"
+      }
+    ]
+  },
+  {
+    "github": "chitrams",
+    "name": "Chitra M Saraswati",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/642#issuecomment-2376055557",
+        "date": "2024-09-26"
+      }
+    ]
+  },
+  {
+    "github": "chjackson",
+    "name": "Chris Jackson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/532#issuecomment-1187723800",
+        "date": "2022-07-18"
+      }
+    ]
+  },
+  {
+    "github": "cmaimone",
+    "name": "Christina Maimone",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/732#issuecomment-4248613377",
+        "date": "2026-04-15"
+      }
+    ]
+  },
+  {
+    "github": "ChristineStawitz-NOAA",
+    "name": "Christine Stawitz - NOAA",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/315#issuecomment-513993385",
+        "date": "2019-07-22"
+      }
+    ]
+  },
+  {
+    "github": "cderv",
+    "name": "Christophe Dervieux",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/190#issuecomment-364675289",
+        "date": "2018-02-10"
+      }
+    ]
+  },
+  {
+    "github": "dutangc",
+    "name": "Christophe Dutang",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/688#issuecomment-3074403079",
+        "date": "2025-07-15"
+      }
+    ]
+  },
+  {
+    "github": "christopherkenny",
+    "name": "Christopher T. Kenny",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/559#issuecomment-1445204953",
+        "date": "2023-02-25"
+      }
+    ]
+  },
+  {
+    "github": "clairemas0n",
+    "name": "Claire Mason",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/551#issuecomment-1340101540",
+        "date": "2022-12-06"
+      }
+    ]
+  },
+  {
+    "github": "cvitolo",
+    "name": "Claudia Vitolo",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/99#issuecomment-285906930",
+        "date": "2017-03-11"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/176#issuecomment-359291802",
+        "date": "2018-01-21"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/357#issuecomment-578040609",
+        "date": "2020-01-24"
+      }
+    ]
+  },
+  {
+    "github": "nevrome",
+    "name": "Clemens Schmid",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/327#issuecomment-534956035",
+        "date": "2019-09-25"
+      }
+    ]
+  },
+  {
+    "github": "collin-cademartori",
+    "name": "Collin Cademartori",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/760#issuecomment-4199939523",
+        "date": "2026-04-07"
+      }
+    ]
+  },
+  {
+    "github": "collinschwantes",
+    "name": "Collin Schwantes",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/574#issuecomment-1521174676",
+        "date": "2023-04-25"
+      }
+    ]
+  },
+  {
+    "github": "cgries",
+    "name": "Corinna",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/80#issuecomment-260506062",
+        "date": "2016-11-15"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/254#issuecomment-463422553",
+        "date": "2019-02-13"
+      }
+    ]
+  },
+  {
+    "github": "czibman",
+    "name": "czibman",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/261#issuecomment-441886170",
+        "date": "2018-11-27"
+      }
+    ]
+  },
+  {
+    "github": "DanOlner",
+    "name": "Dan Olner",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/420#issuecomment-857662657",
+        "date": "2021-06-09"
+      }
+    ]
+  },
+  {
+    "github": "nuest",
+    "name": "Daniel Nüst",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/282#issuecomment-471329722",
+        "date": "2019-03-10"
+      }
+    ]
+  },
+  {
+    "github": "dwbapst",
+    "name": "David Bapst",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/239#issuecomment-422838817",
+        "date": "2018-09-19"
+      }
+    ]
+  },
+  {
+    "github": "davidgohel",
+    "name": "David Gohel",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/42#issuecomment-221240129",
+        "date": "2016-05-24"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/191#issuecomment-367166658",
+        "date": "2018-02-21"
+      }
+    ]
+  },
+  {
+    "github": "mdneuzerling",
+    "name": "David Neuzerling",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/486#issuecomment-1008248927",
+        "date": "2022-01-09"
+      }
+    ]
+  },
+  {
+    "github": "daranzolin",
+    "name": "David Ranzolin",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/266#issuecomment-445504007",
+        "date": "2018-12-09"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/342#issuecomment-543983703",
+        "date": "2019-10-18"
+      }
+    ]
+  },
+  {
+    "github": "Selbosh",
+    "name": "David Selby",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/671#issuecomment-2654565738",
+        "date": "2025-02-12"
+      }
+    ]
+  },
+  {
+    "github": "dwaring87",
+    "name": "David Waring",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/792#issuecomment-5515654926",
+        "date": "2026-09-02"
+      }
+    ]
+  },
+  {
+    "github": "wdwatkins",
+    "name": "David Watkins",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/625#issuecomment-1979894880",
+        "date": "2024-03-06"
+      }
+    ]
+  },
+  {
+    "github": "dwinter",
+    "name": "David Winter",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/47#issuecomment-226968257",
+        "date": "2016-06-18"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/209#issuecomment-399874987",
+        "date": "2018-06-25"
+      }
+    ]
+  },
+  {
+    "github": "daattali",
+    "name": "Dean Attali",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/40#issuecomment-216736487",
+        "date": "2016-05-04"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/60#issuecomment-238119958",
+        "date": "2016-08-08"
+      }
+    ]
+  },
+  {
+    "github": "DenaJGibbon",
+    "name": "Dena J. Clink",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/609#issuecomment-1879632688",
+        "date": "2024-01-06"
+      }
+    ]
+  },
+  {
+    "github": "sformel-usgs",
+    "name": "Deprecated: Stephen Formel",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/574#issuecomment-1512072208",
+        "date": "2023-04-17"
+      }
+    ]
+  },
+  {
+    "github": "ddiannae",
+    "name": "Diana García Cortés",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/787#issuecomment-5744626528",
+        "date": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "github": "deniederhut",
+    "name": "Dillon Niederhut",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/79#issuecomment-257843151",
+        "date": "2016-11-02"
+      }
+    ]
+  },
+  {
+    "github": "dill",
+    "name": "DL Miller",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/615#issuecomment-3045619752",
+        "date": "2025-07-07"
+      }
+    ]
+  },
+  {
+    "github": "DomBennett",
+    "name": "Dom Bennett",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/257#issuecomment-437140047",
+        "date": "2018-11-08"
+      }
+    ]
+  },
+  {
+    "github": "donghl17",
+    "name": "donghl17",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/750#issuecomment-4383818160",
+        "date": "2026-05-05"
+      }
+    ]
+  },
+  {
+    "github": "remsamp",
+    "name": "Dr Remi Vergnon",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/207#issuecomment-387109678",
+        "date": "2018-05-07"
+      }
+    ]
+  },
+  {
+    "github": "nacnudus",
+    "name": "Duncan Garmonsway",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/168#issuecomment-354463784",
+        "date": "2017-12-29"
+      }
+    ]
+  },
+  {
+    "github": "dosgillespie",
+    "name": "Duncan Gillespie",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/238#issuecomment-430227061",
+        "date": "2018-10-16"
+      }
+    ]
+  },
+  {
+    "github": "DylanDijk",
+    "name": "Dylan Dijk",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/704#issuecomment-4048793583",
+        "date": "2026-03-12"
+      }
+    ]
+  },
+  {
+    "github": "edgararuiz",
+    "name": "Edgar Ruiz",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/271#issuecomment-456149486",
+        "date": "2019-01-21"
+      }
+    ]
+  },
+  {
+    "github": "emhart",
+    "name": "Edmund Hart",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/136#issuecomment-324541958",
+        "date": "2017-08-24"
+      }
+    ]
+  },
+  {
+    "github": "edzer",
+    "name": "Edzer Pebesma",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/103#issuecomment-292992221",
+        "date": "2017-04-10"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/596#issuecomment-3019211625",
+        "date": "2025-06-30"
+      }
+    ]
+  },
+  {
+    "github": "eamcvey",
+    "name": "Elaine",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/116#issuecomment-315899239",
+        "date": "2017-07-17"
+      }
+    ]
+  },
+  {
+    "github": "elinw",
+    "name": "Elin Waring",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/189#issuecomment-387058685",
+        "date": "2018-05-07"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/435#issuecomment-858479842",
+        "date": "2021-06-10"
+      }
+    ]
+  },
+  {
+    "github": "EllaKaye",
+    "name": "Ella Kaye",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/720#issuecomment-3394643022",
+        "date": "2025-10-12"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/775#issuecomment-5309616772",
+        "date": "2026-08-16"
+      }
+    ]
+  },
+  {
+    "github": "EmilyMarkowitz-NOAA",
+    "name": "Em Markowitz (NOAA)",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/658#issuecomment-2530238917",
+        "date": "2024-12-10"
+      }
+    ]
+  },
+  {
+    "github": "emitanaka",
+    "name": "Emi Tanaka",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/566#issuecomment-1447725606",
+        "date": "2023-02-28"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/632#issuecomment-2620815324",
+        "date": "2025-01-29"
+      }
+    ]
+  },
+  {
+    "github": "zabore",
+    "name": "Emily C. Zabor",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/381#issuecomment-652977223",
+        "date": "2020-07-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/505#issuecomment-1090531882",
+        "date": "2022-04-06"
+      }
+    ]
+  },
+  {
+    "github": "emilyriederer",
+    "name": "Emily Riederer",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/274#issuecomment-453857640",
+        "date": "2019-01-13"
+      }
+    ]
+  },
+  {
+    "github": "robinsones",
+    "name": "Emily Robinson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/118#issuecomment-314262768",
+        "date": "2017-07-10"
+      }
+    ]
+  },
+  {
+    "github": "ercrema",
+    "name": "Enrico R. Crema",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/333#issuecomment-529524461",
+        "date": "2019-09-09"
+      }
+    ]
+  },
+  {
+    "github": "eebrown",
+    "name": "Eric Brown",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/326#issuecomment-539725072",
+        "date": "2019-10-08"
+      }
+    ]
+  },
+  {
+    "github": "Aariq",
+    "name": "Eric R. Scott",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/638#issuecomment-2187531795",
+        "date": "2024-06-24"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/729#issuecomment-3725574928",
+        "date": "2026-01-08"
+      }
+    ]
+  },
+  {
+    "github": "ledell",
+    "name": "Erin LeDell",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/73#issuecomment-251563218",
+        "date": "2016-10-05"
+      }
+    ]
+  },
+  {
+    "github": "ernestguevarra",
+    "name": "Ernest Guevarra",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/613#issuecomment-1796296108",
+        "date": "2023-11-06"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/684#issuecomment-2692790201",
+        "date": "2025-03-02"
+      }
+    ]
+  },
+  {
+    "github": "etiennebr",
+    "name": "Etienne B. Racine",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/246#issuecomment-426872922",
+        "date": "2018-10-04"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/366#issuecomment-615002697",
+        "date": "2020-04-17"
+      }
+    ]
+  },
+  {
+    "github": "markean",
+    "name": "Eunseop Kim",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/728#issuecomment-3738549865",
+        "date": "2026-01-12"
+      }
+    ]
+  },
+  {
+    "github": "eveskew",
+    "name": "Evan Eskew",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/232#issuecomment-409633975",
+        "date": "2018-08-01"
+      }
+    ]
+  },
+  {
+    "github": "OldLipe",
+    "name": "Felipe Carvalho",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/636#issuecomment-2218720373",
+        "date": "2024-07-09"
+      }
+    ]
+  },
+  {
+    "github": "FilipeamTeixeira",
+    "name": "Filipe Alberto Marques Teixeira",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/237#issuecomment-408395706",
+        "date": "2018-07-27"
+      }
+    ]
+  },
+  {
+    "github": "florianm",
+    "name": "Florian Mayer",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/799#issuecomment-5711698250",
+        "date": "2026-09-17"
+      }
+    ]
+  },
+  {
+    "github": "Pakillo",
+    "name": "Francisco Rodriguez-Sanchez",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/210#issuecomment-403126137",
+        "date": "2018-07-06"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/492#issuecomment-1012556350",
+        "date": "2022-01-13"
+      }
+    ]
+  },
+  {
+    "github": "briatte",
+    "name": "François Briatte",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/302#issuecomment-496923031",
+        "date": "2019-05-29"
+      }
+    ]
+  },
+  {
+    "github": "fmichonneau",
+    "name": "François Michonneau",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/71#issuecomment-247891832",
+        "date": "2016-09-18"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/145#issuecomment-330586717",
+        "date": "2017-09-19"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/179#issuecomment-366800716",
+        "date": "2018-02-19"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/484#issuecomment-1000279991",
+        "date": "2021-12-23"
+      }
+    ]
+  },
+  {
+    "github": "FvD",
+    "name": "Frans van Dunné",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/98#issuecomment-287891269",
+        "date": "2017-03-20"
+      }
+    ]
+  },
+  {
+    "github": "fboehm",
+    "name": "Frederick Boehm",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/307#issuecomment-527255376",
+        "date": "2019-09-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/458#issuecomment-1007766694",
+        "date": "2022-01-07"
+      }
+    ]
+  },
+  {
+    "github": "gmbecker",
+    "name": "Gabe Becker",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/80#issuecomment-259755701",
+        "date": "2016-11-10"
+      }
+    ]
+  },
+  {
+    "github": "soodoku",
+    "name": "gaurav",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/98#issuecomment-291569619",
+        "date": "2017-04-04"
+      }
+    ]
+  },
+  {
+    "github": "agricolamz",
+    "name": "George Moroz",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/671#issuecomment-4676164886",
+        "date": "2026-06-11"
+      }
+    ]
+  },
+  {
+    "github": "ginberg",
+    "name": "ginberg",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/637#issuecomment-2163610098",
+        "date": "2024-06-12"
+      }
+    ]
+  },
+  {
+    "github": "guadag12",
+    "name": "Guadalupe Gonzalez",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/593#issuecomment-1709968472",
+        "date": "2023-09-07"
+      }
+    ]
+  },
+  {
+    "github": "gzach93",
+    "name": "gzach93",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/627#issuecomment-2037644081",
+        "date": "2024-04-04"
+      }
+    ]
+  },
+  {
+    "github": "haozhu233",
+    "name": "Hao Zhu",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/68#issuecomment-239561238",
+        "date": "2016-08-12"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/102#issuecomment-300016214",
+        "date": "2017-05-08"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/243#issuecomment-417797862",
+        "date": "2018-08-31"
+      }
+    ]
+  },
+  {
+    "github": "harryeslick",
+    "name": "Harry Eslick",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/612#issuecomment-2027336215",
+        "date": "2024-03-29"
+      }
+    ]
+  },
+  {
+    "github": "UniversalTourist",
+    "name": "Hazel Kavılı",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/155#issuecomment-347244339",
+        "date": "2017-11-27"
+      }
+    ]
+  },
+  {
+    "github": "HeidiSeibold",
+    "name": "Heidi Seibold",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/279#issuecomment-458882143",
+        "date": "2019-01-30"
+      }
+    ]
+  },
+  {
+    "github": "helenmiller16",
+    "name": "Helen Miller",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/366#issuecomment-615031659",
+        "date": "2020-04-17"
+      }
+    ]
+  },
+  {
+    "github": "bisaloo",
+    "name": "Hugo Gruson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/367#issuecomment-662996139",
+        "date": "2020-07-23"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/729#issuecomment-3745017139",
+        "date": "2026-01-13"
+      }
+    ]
+  },
+  {
+    "github": "czeildi",
+    "name": "Ildikó Czeller",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/145#issuecomment-326431201",
+        "date": "2017-08-31"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/271#issuecomment-451781747",
+        "date": "2019-01-06"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/358#issuecomment-596103755",
+        "date": "2020-03-07"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/606#issuecomment-1751660212",
+        "date": "2023-10-07"
+      }
+    ]
+  },
+  {
+    "github": "isteves",
+    "name": "Irene Steves",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/210#issuecomment-392644209",
+        "date": "2018-05-29"
+      }
+    ]
+  },
+  {
+    "github": "ivanhanigan",
+    "name": "Ivan Hanigan",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/96#issuecomment-281212614",
+        "date": "2017-02-21"
+      }
+    ]
+  },
+  {
+    "github": "assignUser",
+    "name": "Jacob Wujciak-Jens",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/625#issuecomment-1987436941",
+        "date": "2024-03-11"
+      }
+    ]
+  },
+  {
+    "github": "jacobpwagner",
+    "name": "Jake Wagner",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/281#issuecomment-477402300",
+        "date": "2019-03-28"
+      }
+    ]
+  },
+  {
+    "github": "jzwart",
+    "name": "Jake Zwart",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/357#issuecomment-587173966",
+        "date": "2020-02-17"
+      }
+    ]
+  },
+  {
+    "github": "Nowosad",
+    "name": "Jakub",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/174#issuecomment-361093471",
+        "date": "2018-01-28"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/571#issuecomment-1413602448",
+        "date": "2023-02-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/596#issuecomment-3019114622",
+        "date": "2025-06-30"
+      }
+    ]
+  },
+  {
+    "github": "jameshunterbr",
+    "name": "James Hunter",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/541#issuecomment-1207438417",
+        "date": "2022-08-07"
+      }
+    ]
+  },
+  {
+    "github": "coatless",
+    "name": "James J Balamuta",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/220#issuecomment-397120388",
+        "date": "2018-06-13"
+      }
+    ]
+  },
+  {
+    "github": "jasdumas",
+    "name": "Jasmine Daly",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/226#issuecomment-405302151",
+        "date": "2018-07-16"
+      }
+    ]
+  },
+  {
+    "github": "laijasmine",
+    "name": "Jasmine",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/498#issuecomment-1038707902",
+        "date": "2022-02-14"
+      }
+    ]
+  },
+  {
+    "github": "jsonbecker",
+    "name": "Jason Becker",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/71#issuecomment-247448088",
+        "date": "2016-09-15"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/189#issuecomment-367188154",
+        "date": "2018-02-21"
+      }
+    ]
+  },
+  {
+    "github": "jmt2080ad",
+    "name": "Jason Taylor",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/335#issuecomment-542019403",
+        "date": "2019-10-15"
+      }
+    ]
+  },
+  {
+    "github": "jeffreyhanson",
+    "name": "Jeff Hanson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/79#issuecomment-254977741",
+        "date": "2016-10-20"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/184#issuecomment-363765797",
+        "date": "2018-02-07"
+      }
+    ]
+  },
+  {
+    "github": "jcoliver",
+    "name": "Jeff Oliver",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/754#issuecomment-4172245979",
+        "date": "2026-04-01"
+      }
+    ]
+  },
+  {
+    "github": "jhollist",
+    "name": "Jeffrey W Hollister",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/27#issuecomment-202943405",
+        "date": "2016-03-29"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/72#issuecomment-251758563",
+        "date": "2016-10-05"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/188#issuecomment-369310831",
+        "date": "2018-02-28"
+      }
+    ]
+  },
+  {
+    "github": "jsta",
+    "name": "Jemma Stachelek",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/118#issuecomment-310503322",
+        "date": "2017-06-22"
+      }
+    ]
+  },
+  {
+    "github": "jmh579",
+    "name": "Jenna Hershberger",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/792#issuecomment-5592067413",
+        "date": "2026-09-08"
+      }
+    ]
+  },
+  {
+    "github": "jennybc",
+    "name": "Jennifer (Jenny) Bryan",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/113#issuecomment-314315200",
+        "date": "2017-07-11"
+      }
+    ]
+  },
+  {
+    "github": "j23414",
+    "name": "Jennifer Chang",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/359#issuecomment-649679465",
+        "date": "2020-06-25"
+      }
+    ]
+  },
+  {
+    "github": "jenniferthompson",
+    "name": "Jennifer Thompson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/175#issuecomment-361479234",
+        "date": "2018-01-30"
+      }
+    ]
+  },
+  {
+    "github": "jeroen",
+    "name": "Jeroen Ooms",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/6#issuecomment-92150548",
+        "date": "2015-04-12"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/15#issuecomment-111882942",
+        "date": "2015-06-14"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/92#issuecomment-280616216",
+        "date": "2017-02-17"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/164#issuecomment-354574774",
+        "date": "2017-12-30"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/267#issuecomment-496471442",
+        "date": "2019-05-28"
+      }
+    ]
+  },
+  {
+    "github": "kierisi",
+    "name": "Jesse Mostipak",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/192#issuecomment-366764831",
+        "date": "2018-02-19"
+      }
+    ]
+  },
+  {
+    "github": "jminnier",
+    "name": "Jessica Minnier",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/178#issuecomment-365427502",
+        "date": "2018-02-13"
+      }
+    ]
+  },
+  {
+    "github": "jimhester",
+    "name": "Jim Hester",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/175#issuecomment-361385214",
+        "date": "2018-01-29"
+      }
+    ]
+  },
+  {
+    "github": "jmaspons",
+    "name": "Joan Maspons",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/741#issuecomment-3993016097",
+        "date": "2026-03-03"
+      }
+    ]
+  },
+  {
+    "github": "TheAnalyticalEdge",
+    "name": "Joanne Potts",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/595#issuecomment-1788232241",
+        "date": "2023-11-01"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/676#issuecomment-2677272212",
+        "date": "2025-02-24"
+      }
+    ]
+  },
+  {
+    "github": "joaojcorreia",
+    "name": "João Granja-Correia",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/720#issuecomment-3368864843",
+        "date": "2025-10-05"
+      }
+    ]
+  },
+  {
+    "github": "jcavieresg",
+    "name": "Joaquin Cavieres",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/603#issuecomment-1820575066",
+        "date": "2023-11-21"
+      }
+    ]
+  },
+  {
+    "github": "joethorley",
+    "name": "Joe Thorley",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/160#issuecomment-347745694",
+        "date": "2017-11-29"
+      }
+    ]
+  },
+  {
+    "github": "joelnitta",
+    "name": "Joel Nitta",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/620#issuecomment-2033093650",
+        "date": "2024-04-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/685#issuecomment-2908817257",
+        "date": "2025-05-26"
+      }
+    ]
+  },
+  {
+    "github": "bjoelle",
+    "name": "Joëlle Barido-Sottani",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/209#issuecomment-389812820",
+        "date": "2018-05-17"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/360#issuecomment-601780313",
+        "date": "2020-03-20"
+      }
+    ]
+  },
+  {
+    "github": "johnbaums",
+    "name": "John",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/198#issuecomment-385845053",
+        "date": "2018-05-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/289#issuecomment-488046596",
+        "date": "2019-04-30"
+      }
+    ]
+  },
+  {
+    "github": "jonclayden",
+    "name": "Jon Clayden",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/153#issuecomment-352174196",
+        "date": "2017-12-16"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/164#issuecomment-355612812",
+        "date": "2018-01-05"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/280#issuecomment-464840579",
+        "date": "2019-02-18"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/705#issuecomment-2980715273",
+        "date": "2025-06-17"
+      }
+    ]
+  },
+  {
+    "github": "jonthegeek",
+    "name": "Jon Harmon",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/633#issuecomment-2121192135",
+        "date": "2024-05-20"
+      }
+    ]
+  },
+  {
+    "github": "jonkeane",
+    "name": "Jonathan Keane",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/434#issuecomment-846411763",
+        "date": "2021-05-22"
+      }
+    ]
+  },
+  {
+    "github": "cimentadaj",
+    "name": "Jorge Cimentada",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/217#issuecomment-399710318",
+        "date": "2018-06-23"
+      }
+    ]
+  },
+  {
+    "github": "jorritmesman",
+    "name": "Jorrit Mesman",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/762#issuecomment-4592075726",
+        "date": "2026-06-01"
+      }
+    ]
+  },
+  {
+    "github": "uyedaj",
+    "name": "Josef Uyeda",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/179#issuecomment-365144565",
+        "date": "2018-02-13"
+      }
+    ]
+  },
+  {
+    "github": "jospueyo",
+    "name": "Josep Pueyo-Ros",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/623#issuecomment-1951446662",
+        "date": "2024-02-18"
+      }
+    ]
+  },
+  {
+    "github": "jmobrien",
+    "name": "Joseph O'Brien",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/455#issuecomment-928885183",
+        "date": "2021-09-28"
+      }
+    ]
+  },
+  {
+    "github": "joshwlambert",
+    "name": "Joshua Lambert",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/763#issuecomment-4985880015",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "github": "jooolia",
+    "name": "Julia Gustavsen",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/13#issuecomment-103220778",
+        "date": "2015-05-18"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/18#issuecomment-120445737",
+        "date": "2015-07-10"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/60#issuecomment-240441588",
+        "date": "2016-08-17"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/127#issuecomment-319365248",
+        "date": "2017-08-01"
+      }
+    ]
+  },
+  {
+    "github": "jromanowska",
+    "name": "Julia",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/326#issuecomment-539480276",
+        "date": "2019-10-08"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/637#issuecomment-2129520979",
+        "date": "2024-05-24"
+      }
+    ]
+  },
+  {
+    "github": "juliasilge",
+    "name": "Julia Silge",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/36#issuecomment-215123733",
+        "date": "2016-04-27"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/92#issuecomment-284916451",
+        "date": "2017-03-08"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/191#issuecomment-368254623",
+        "date": "2018-02-24"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/290#issuecomment-489380536",
+        "date": "2019-05-05"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/435#issuecomment-846448293",
+        "date": "2021-05-22"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/455#issuecomment-927394390",
+        "date": "2021-09-26"
+      }
+    ]
+  },
+  {
+    "github": "jules32",
+    "name": "Julia Stewart Lowndes",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/156#issuecomment-355196161",
+        "date": "2018-01-04"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/264#issuecomment-455386963",
+        "date": "2019-01-18"
+      }
+    ]
+  },
+  {
+    "github": "brunj7",
+    "name": "Julien Brun",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/341#issuecomment-551392489",
+        "date": "2019-11-08"
+      }
+    ]
+  },
+  {
+    "github": "japilo",
+    "name": "July Pilowsky",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/686#issuecomment-2714925545",
+        "date": "2025-03-11"
+      }
+    ]
+  },
+  {
+    "github": "kaijagahm",
+    "name": "Kaija Gahm",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/627#issuecomment-1993235710",
+        "date": "2024-03-13"
+      }
+    ]
+  },
+  {
+    "github": "AlvesKS",
+    "name": "Kaique S. Alves",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/533#issuecomment-1144924437",
+        "date": "2022-06-02"
+      }
+    ]
+  },
+  {
+    "github": "karawoo",
+    "name": "Kara Woo",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/126#issuecomment-312776417",
+        "date": "2017-07-04"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/230#issuecomment-405489908",
+        "date": "2018-07-17"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/432#issuecomment-850915687",
+        "date": "2021-05-29"
+      }
+    ]
+  },
+  {
+    "github": "karinorman",
+    "name": "Kari Norman",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/367#issuecomment-668787678",
+        "date": "2020-08-04"
+      }
+    ]
+  },
+  {
+    "github": "karissawhiting",
+    "name": "karissawhiting",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/335#issuecomment-541438418",
+        "date": "2019-10-13"
+      }
+    ]
+  },
+  {
+    "github": "karthik",
+    "name": "Karthik Ram",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/19#issuecomment-149360949",
+        "date": "2015-10-19"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/56#issuecomment-239560972",
+        "date": "2016-08-12"
+      }
+    ]
+  },
+  {
+    "github": "kasselhingee",
+    "name": "kasselhingee",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/632#issuecomment-2475535234",
+        "date": "2024-11-14"
+      }
+    ]
+  },
+  {
+    "github": "k-doering-NOAA",
+    "name": "Kathryn Doering",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/760#issuecomment-4200805058",
+        "date": "2026-04-07"
+      }
+    ]
+  },
+  {
+    "github": "kauedesousa",
+    "name": "Kauê de Sousa",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/474#issuecomment-993949807",
+        "date": "2021-12-14"
+      }
+    ]
+  },
+  {
+    "github": "khondula",
+    "name": "kelly hondula",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/269#issuecomment-451599073",
+        "date": "2019-01-04"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/330#issuecomment-528962487",
+        "date": "2019-09-06"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/437#issuecomment-866331039",
+        "date": "2021-06-22"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/762#issuecomment-4829131153",
+        "date": "2026-06-29"
+      }
+    ]
+  },
+  {
+    "github": "kstreet13",
+    "name": "Kelly Street",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/551#issuecomment-1304346908",
+        "date": "2022-11-05"
+      }
+    ]
+  },
+  {
+    "github": "kelshmo",
+    "name": "Kelsey Montgomery",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/470#issuecomment-974548665",
+        "date": "2021-11-20"
+      }
+    ]
+  },
+  {
+    "github": "kbenoit",
+    "name": "Kenneth Benoit",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/78#issuecomment-258470094",
+        "date": "2016-11-04"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/86#issuecomment-286576753",
+        "date": "2017-03-14"
+      }
+    ]
+  },
+  {
+    "github": "KevCaz",
+    "name": "Kevin Cazelles",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/418#issuecomment-932956313",
+        "date": "2021-10-03"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/663#issuecomment-2465103921",
+        "date": "2024-11-08"
+      }
+    ]
+  },
+  {
+    "github": "kevinushey",
+    "name": "Kevin Ushey",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/33#issuecomment-211198696",
+        "date": "2016-04-18"
+      }
+    ]
+  },
+  {
+    "github": "kimnewzealand",
+    "name": "Kim Fitter",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/295#issuecomment-498928265",
+        "date": "2019-06-05"
+      }
+    ]
+  },
+  {
+    "github": "KlausVigo",
+    "name": "Klaus Schliep",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/475#issuecomment-1047045172",
+        "date": "2022-02-21"
+      }
+    ]
+  },
+  {
+    "github": "krzbar",
+    "name": "krzbar",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/717#issuecomment-5309737511",
+        "date": "2026-08-16"
+      }
+    ]
+  },
+  {
+    "github": "khueyama",
+    "name": "Kyle Ueyama",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/524#issuecomment-1143772151",
+        "date": "2022-06-01"
+      }
+    ]
+  },
+  {
+    "github": "languageSpaceLabs",
+    "name": "languageSpaceLabs",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/95#issuecomment-288040371",
+        "date": "2017-03-21"
+      }
+    ]
+  },
+  {
+    "github": "ldecicco-usgs",
+    "name": "Laura DeCicco",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/96#issuecomment-280703196",
+        "date": "2017-02-17"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/152#issuecomment-337708478",
+        "date": "2017-10-18"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/231#issuecomment-406485689",
+        "date": "2018-07-20"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/255#issuecomment-442282220",
+        "date": "2018-11-28"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/305#issuecomment-508271766",
+        "date": "2019-07-03"
+      }
+    ]
+  },
+  {
+    "github": "laurajanegraham",
+    "name": "Laura Jane Graham",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/188#issuecomment-368042693",
+        "date": "2018-02-23"
+      }
+    ]
+  },
+  {
+    "github": "JanLauGe",
+    "name": "Laurens",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/598#issuecomment-1865995877",
+        "date": "2023-12-21"
+      }
+    ]
+  },
+  {
+    "github": "lwasser",
+    "name": "Leah Wasser",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/139#issuecomment-342380870",
+        "date": "2017-11-07"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/184#issuecomment-364986506",
+        "date": "2018-02-12"
+      }
+    ]
+  },
+  {
+    "github": "leocadio-miguel",
+    "name": "leocadio-miguel",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/434#issuecomment-860751106",
+        "date": "2021-06-14"
+      }
+    ]
+  },
+  {
+    "github": "lidefi87",
+    "name": "Lidefi87",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/593#issuecomment-1712427212",
+        "date": "2023-09-09"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/675#issuecomment-2614809731",
+        "date": "2025-01-27"
+      }
+    ]
+  },
+  {
+    "github": "lmullen",
+    "name": "Lincoln Mullen",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/22#issuecomment-164580884",
+        "date": "2015-12-14"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/42#issuecomment-222883625",
+        "date": "2016-06-01"
+      }
+    ]
+  },
+  {
+    "github": "lindsayplatt",
+    "name": "Lindsay (Carr) Platt",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/344#issuecomment-546778325",
+        "date": "2019-10-28"
+      }
+    ]
+  },
+  {
+    "github": "lisalevinson",
+    "name": "Lisa Levinson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/575#issuecomment-1568757288",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "github": "LizHareDogs",
+    "name": "LizHareDogs",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/653#issuecomment-2444825911",
+        "date": "2024-10-29"
+      }
+    ]
+  },
+  {
+    "github": "llrs",
+    "name": "Lluís Revilla",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/338#issuecomment-536199121",
+        "date": "2019-09-28"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/382#issuecomment-813034287",
+        "date": "2021-04-04"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/743#issuecomment-4412217577",
+        "date": "2026-05-09"
+      }
+    ]
+  },
+  {
+    "github": "loreabad6",
+    "name": "Lorena Abad Crespo",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/596#issuecomment-2772835335",
+        "date": "2025-04-02"
+      }
+    ]
+  },
+  {
+    "github": "lbusett",
+    "name": "Lorenzo Busetto",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/198#issuecomment-384070245",
+        "date": "2018-04-24"
+      }
+    ]
+  },
+  {
+    "github": "LucyMcGowan",
+    "name": "Lucy D'Agostino McGowan",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/126#issuecomment-312515336",
+        "date": "2017-07-02"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/238#issuecomment-422474948",
+        "date": "2018-09-18"
+      }
+    ]
+  },
+  {
+    "github": "luismurao",
+    "name": "Luis Osorio",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/475#issuecomment-1002754119",
+        "date": "2021-12-29"
+      }
+    ]
+  },
+  {
+    "github": "jemus42",
+    "name": "Lukas Burk",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/532#issuecomment-1249184517",
+        "date": "2022-09-16"
+      }
+    ]
+  },
+  {
+    "github": "lmweber",
+    "name": "Lukas Weber",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/281#issuecomment-483829708",
+        "date": "2019-04-16"
+      }
+    ]
+  },
+  {
+    "github": "lawinslow",
+    "name": "Luke Winslow",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/152#issuecomment-336919418",
+        "date": "2017-10-16"
+      }
+    ]
+  },
+  {
+    "github": "mvickm",
+    "name": "M. Victoria Munafó",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/341#issuecomment-552048621",
+        "date": "2019-11-09"
+      }
+    ]
+  },
+  {
+    "github": "maelle",
+    "name": "Maëlle Salmon",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/41#issuecomment-216887566",
+        "date": "2016-05-04"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/68#issuecomment-238896299",
+        "date": "2016-08-10"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/309#issuecomment-830625433",
+        "date": "2021-05-01"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/765#issuecomment-5237964358",
+        "date": "2026-08-10"
+      }
+    ]
+  },
+  {
+    "github": "manuramon",
+    "name": "Manuel Ramon",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/82#issuecomment-262725221",
+        "date": "2016-11-24"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/541#issuecomment-1189164376",
+        "date": "2022-07-19"
+      }
+    ]
+  },
+  {
+    "github": "batpigandme",
+    "name": "Mara Averick",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/87#issuecomment-274800380",
+        "date": "2017-01-24"
+      }
+    ]
+  },
+  {
+    "github": "mhweber",
+    "name": "Marc Weber",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/437#issuecomment-865428055",
+        "date": "2021-06-22"
+      }
+    ]
+  },
+  {
+    "github": "msperlin",
+    "name": "Marcelo S. Perlin",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/553#issuecomment-1244076662",
+        "date": "2022-09-12"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/576#issuecomment-1476722900",
+        "date": "2023-03-20"
+      }
+    ]
+  },
+  {
+    "github": "marcosci",
+    "name": "Marco Sciaini",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/231#issuecomment-405034160",
+        "date": "2018-07-14"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/409#issuecomment-744037480",
+        "date": "2020-12-13"
+      }
+    ]
+  },
+  {
+    "github": "fawda123",
+    "name": "Marcus W Beck",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/61#issuecomment-239559280",
+        "date": "2016-08-12"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/484#issuecomment-991946084",
+        "date": "2021-12-12"
+      }
+    ]
+  },
+  {
+    "github": "MargaretSiple-NOAA",
+    "name": "Margaret Siple",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/710#issuecomment-3272021768",
+        "date": "2025-09-09"
+      }
+    ]
+  },
+  {
+    "github": "mcsiple",
+    "name": "Margaret Siple",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/244#issuecomment-420000883",
+        "date": "2018-09-10"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/344#issuecomment-547226614",
+        "date": "2019-10-29"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/233#issuecomment-647779815",
+        "date": "2020-06-22"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/600#issuecomment-1732091598",
+        "date": "2023-09-22"
+      }
+    ]
+  },
+  {
+    "github": "mpaulacaldas",
+    "name": "María Paula Caldas",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/619#issuecomment-1905986027",
+        "date": "2024-01-23"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/667#issuecomment-2922460144",
+        "date": "2025-05-30"
+      }
+    ]
+  },
+  {
+    "github": "marinapapa",
+    "name": "Marina Papadopoulou",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/262#issuecomment-448535759",
+        "date": "2018-12-19"
+      }
+    ]
+  },
+  {
+    "github": "quishqa",
+    "name": "Mario Gavidia Calderón",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/534#issuecomment-1295555685",
+        "date": "2022-10-28"
+      }
+    ]
+  },
+  {
+    "github": "marionlouveaux",
+    "name": "Marion Louveaux",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/382#issuecomment-825884936",
+        "date": "2021-04-23"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/774#issuecomment-5879364954",
+        "date": "2026-09-28"
+      }
+    ]
+  },
+  {
+    "github": "MarkEdmondson1234",
+    "name": "Mark Edmondson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/133#issuecomment-320227309",
+        "date": "2017-08-04"
+      }
+    ]
+  },
+  {
+    "github": "mpadge",
+    "name": "mark padgham",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/121#issuecomment-310839849",
+        "date": "2017-06-24"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/220#issuecomment-400250369",
+        "date": "2018-06-26"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/274#issuecomment-454743248",
+        "date": "2019-01-16"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/718#issuecomment-4529096425",
+        "date": "2026-05-24"
+      }
+    ]
+  },
+  {
+    "github": "zambujo",
+    "name": "Martins",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/432#issuecomment-851939864",
+        "date": "2021-06-01"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/463#issuecomment-941040544",
+        "date": "2021-10-12"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/495#issuecomment-1033049584",
+        "date": "2022-02-08"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/576#issuecomment-1494981269",
+        "date": "2023-04-03"
+      }
+    ]
+  },
+  {
+    "github": "mnwright",
+    "name": "Marvin N. Wright",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/532#issuecomment-1235275312",
+        "date": "2022-09-02"
+      }
+    ]
+  },
+  {
+    "github": "mmulvahill",
+    "name": "Matt Mulvahill",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/149#issuecomment-337028793",
+        "date": "2017-10-16"
+      }
+    ]
+  },
+  {
+    "github": "mstrimas",
+    "name": "Matt Strimas-Mackey",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/577#issuecomment-1478615356",
+        "date": "2023-03-21"
+      }
+    ]
+  },
+  {
+    "github": "Rekyt",
+    "name": "Matthias Grenié",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/505#issuecomment-1087579526",
+        "date": "2022-04-04"
+      }
+    ]
+  },
+  {
+    "github": "pachadotdev",
+    "name": "Mauricio \"Pachá\" Vargas Sepúlveda",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/534#issuecomment-1289832660",
+        "date": "2022-10-25"
+      }
+    ]
+  },
+  {
+    "github": "maurolepore",
+    "name": "Mauro Lepore",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/303#issuecomment-496514351",
+        "date": "2019-05-28"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/681#issuecomment-2870424492",
+        "date": "2025-05-12"
+      }
+    ]
+  },
+  {
+    "github": "maxheld83",
+    "name": "Max Held",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/305#issuecomment-504762517",
+        "date": "2019-06-23"
+      }
+    ]
+  },
+  {
+    "github": "mbjoseph",
+    "name": "Max Joseph",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/257#issuecomment-437603704",
+        "date": "2018-11-10"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/289#issuecomment-481716906",
+        "date": "2019-04-10"
+      }
+    ]
+  },
+  {
+    "github": "kaneplusplus",
+    "name": "Michael Kane",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/172#issuecomment-367781853",
+        "date": "2018-02-22"
+      }
+    ]
+  },
+  {
+    "github": "mikemahoney218",
+    "name": "Michael Mahoney",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/609#issuecomment-1785830265",
+        "date": "2023-10-30"
+      }
+    ]
+  },
+  {
+    "github": "MichaelPascale",
+    "name": "Michael Pascale",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/750#issuecomment-4371822151",
+        "date": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "github": "sachsmc",
+    "name": "Michael Sachs",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/603#issuecomment-1744900580",
+        "date": "2023-10-03"
+      }
+    ]
+  },
+  {
+    "github": "mdsumner",
+    "name": "Michael Sumner",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/53#issuecomment-228337878",
+        "date": "2016-06-24"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/73#issuecomment-253384312",
+        "date": "2016-10-13"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/636#issuecomment-2283110229",
+        "date": "2024-08-12"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/596#issuecomment-2998833745",
+        "date": "2025-06-24"
+      }
+    ]
+  },
+  {
+    "github": "mikejohnson51",
+    "name": "Mike Johnson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/416#issuecomment-776430212",
+        "date": "2021-02-10"
+      }
+    ]
+  },
+  {
+    "github": "mikoontz",
+    "name": "Mike Koontz",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/82#issuecomment-263965301",
+        "date": "2016-11-30"
+      }
+    ]
+  },
+  {
+    "github": "grimbough",
+    "name": "Mike Smith",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/93#issuecomment-285396555",
+        "date": "2017-03-09"
+      }
+    ]
+  },
+  {
+    "github": "milanmlft",
+    "name": "Milan Malfait",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/744#issuecomment-4649594022",
+        "date": "2026-06-08"
+      }
+    ]
+  },
+  {
+    "github": "milesmcbain",
+    "name": "Miles McBain",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/139#issuecomment-342724843",
+        "date": "2017-11-08"
+      }
+    ]
+  },
+  {
+    "github": "mine-cetinkaya-rundel",
+    "name": "Mine Cetinkaya-Rundel",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/754#issuecomment-4324492956",
+        "date": "2026-04-27"
+      }
+    ]
+  },
+  {
+    "github": "monicagerber",
+    "name": "Monica Gerber",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/325#issuecomment-528128302",
+        "date": "2019-09-04"
+      }
+    ]
+  },
+  {
+    "github": "njahn82",
+    "name": "Najko Jahn",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/78#issuecomment-257263924",
+        "date": "2016-10-31"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/256#issuecomment-447844789",
+        "date": "2018-12-17"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/380#issuecomment-655653425",
+        "date": "2020-07-08"
+      }
+    ]
+  },
+  {
+    "github": "nmorandeira",
+    "name": "Natalia Morandeira",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/608#issuecomment-1894601089",
+        "date": "2024-01-16"
+      }
+    ]
+  },
+  {
+    "github": "naupaka",
+    "name": "Naupaka Zimmerman",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/93#issuecomment-287643466",
+        "date": "2017-03-19"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/187#issuecomment-376258436",
+        "date": "2018-03-26"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/232#issuecomment-414193654",
+        "date": "2018-08-20"
+      }
+    ]
+  },
+  {
+    "github": "nealrichardson",
+    "name": "Neal Richardson",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/127#issuecomment-318552360",
+        "date": "2017-07-28"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/213#issuecomment-391580299",
+        "date": "2018-05-24"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/298#issuecomment-511608826",
+        "date": "2019-07-15"
+      }
+    ]
+  },
+  {
+    "github": "NPJuncal",
+    "name": "Nerea Piñeiro Juncal",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/724#issuecomment-3636624002",
+        "date": "2025-12-10"
+      }
+    ]
+  },
+  {
+    "github": "thisisnic",
+    "name": "Nic Crane",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/523#issuecomment-1147960056",
+        "date": "2022-06-06"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/673#issuecomment-2833364073",
+        "date": "2025-04-27"
+      }
+    ]
+  },
+  {
+    "github": "nicholasjclark",
+    "name": "Nicholas Clark",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/615#issuecomment-2458739906",
+        "date": "2024-11-06"
+      }
+    ]
+  },
+  {
+    "github": "njtierney",
+    "name": "Nicholas Tierney",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/618#issuecomment-1867354502",
+        "date": "2023-12-22"
+      }
+    ]
+  },
+  {
+    "github": "nmonhait",
+    "name": "Nichole Monhait",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/309#issuecomment-534216875",
+        "date": "2019-09-23"
+      }
+    ]
+  },
+  {
+    "github": "nrennie",
+    "name": "Nicola Rennie",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/714#issuecomment-3156299105",
+        "date": "2025-08-05"
+      }
+    ]
+  },
+  {
+    "github": "nistara",
+    "name": "Nistara Randhawa",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/133#issuecomment-324214756",
+        "date": "2017-08-23"
+      }
+    ]
+  },
+  {
+    "github": "noamross",
+    "name": "Noam Ross",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/20#issuecomment-148773403",
+        "date": "2015-10-16"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/120#issuecomment-310855776",
+        "date": "2017-06-24"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/244#issuecomment-414770830",
+        "date": "2018-08-21"
+      }
+    ]
+  },
+  {
+    "github": "nolwenn",
+    "name": "Nolwenn Le Meur",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/623#issuecomment-1961501137",
+        "date": "2024-02-23"
+      }
+    ]
+  },
+  {
+    "github": "nujcharee",
+    "name": "nujcharee",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/201#issuecomment-372153243",
+        "date": "2018-03-11"
+      }
+    ]
+  },
+  {
+    "github": "nunesmatt",
+    "name": "nunesmatt",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/464#issuecomment-1263297128",
+        "date": "2022-09-30"
+      }
+    ]
+  },
+  {
+    "github": "obrl-soil",
+    "name": "obrl_soil",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/612#issuecomment-2053591926",
+        "date": "2024-04-13"
+      }
+    ]
+  },
+  {
+    "github": "Ironholds",
+    "name": "Os Keyes",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/25#issuecomment-170741615",
+        "date": "2016-01-12"
+      }
+    ]
+  },
+  {
+    "github": "ottlngr",
+    "name": "ottlngr",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/218#issuecomment-404634185",
+        "date": "2018-07-12"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/285#issuecomment-477931686",
+        "date": "2019-03-29"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/342#issuecomment-546690572",
+        "date": "2019-10-27"
+      }
+    ]
+  },
+  {
+    "github": "osorensen",
+    "name": "Øystein Sørensen",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/606#issuecomment-1731654678",
+        "date": "2023-09-22"
+      }
+    ]
+  },
+  {
+    "github": "pachamaltese",
+    "name": "Pachamaltese",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/292#issuecomment-483755607",
+        "date": "2019-04-16"
+      }
+    ]
+  },
+  {
+    "github": "paocorrales",
+    "name": "Pao Corrales",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/724#issuecomment-3636543234",
+        "date": "2025-12-10"
+      }
+    ]
+  },
+  {
+    "github": "pat-s",
+    "name": "Patrick Schratz",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/502#issuecomment-1067080447",
+        "date": "2022-03-14"
+      }
+    ]
+  },
+  {
+    "github": "paul-carteron",
+    "name": "Paul Carteron",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/698#issuecomment-2955810508",
+        "date": "2025-06-09"
+      }
+    ]
+  },
+  {
+    "github": "pegeler",
+    "name": "Paul Egeler",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/190#issuecomment-367922536",
+        "date": "2018-02-23"
+      }
+    ]
+  },
+  {
+    "github": "poldham",
+    "name": "Paul Oldham",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/112#issuecomment-305554522",
+        "date": "2017-06-01"
+      }
+    ]
+  },
+  {
+    "github": "Paula-Moraga",
+    "name": "Paula Moraga",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/226#issuecomment-414080202",
+        "date": "2018-08-18"
+      }
+    ]
+  },
+  {
+    "github": "PeteHaitch",
+    "name": "Peter Hickey",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/149#issuecomment-336006288",
+        "date": "2017-10-12"
+      }
+    ]
+  },
+  {
+    "github": "gothub",
+    "name": "Peter Slaughter",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/156#issuecomment-359496067",
+        "date": "2018-01-22"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/269#issuecomment-451810510",
+        "date": "2019-01-07"
+      }
+    ]
+  },
+  {
+    "github": "pchausse",
+    "name": "Pierre Chausse",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/550#issuecomment-1235901756",
+        "date": "2022-09-02"
+      }
+    ]
+  },
+  {
+    "github": "potterzot",
+    "name": "potterzot",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/330#issuecomment-524492943",
+        "date": "2019-08-23"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/395#issuecomment-737551925",
+        "date": "2020-12-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/613#issuecomment-1848610962",
+        "date": "2023-12-09"
+      }
+    ]
+  },
+  {
+    "github": "pmnatural",
+    "name": "Priscilla Minotti",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/237#issuecomment-419934233",
+        "date": "2018-09-10"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/246#issuecomment-487576002",
+        "date": "2019-04-29"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/599#issuecomment-1931925780",
+        "date": "2024-02-07"
+      }
+    ]
+  },
+  {
+    "github": "qdread",
+    "name": "Quentin Read",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/406#issuecomment-736581094",
+        "date": "2020-12-01"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/577#issuecomment-1494333794",
+        "date": "2023-04-03"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/676#issuecomment-2564821715",
+        "date": "2024-12-29"
+      }
+    ]
+  },
+  {
+    "github": "rachelwarnock",
+    "name": "Rachel Warnock",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/239#issuecomment-425979995",
+        "date": "2018-10-01"
+      }
+    ]
+  },
+  {
+    "github": "rtaph",
+    "name": "Rafael P. H.",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/141#issuecomment-328281360",
+        "date": "2017-09-09"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/524#issuecomment-1148226693",
+        "date": "2022-06-07"
+      }
+    ]
+  },
+  {
+    "github": "rkrug",
+    "name": "Rainer M Krug",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/744#issuecomment-4798042837",
+        "date": "2026-06-25"
+      }
+    ]
+  },
+  {
+    "github": "raynamharris",
+    "name": "Rayna M Harris",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/338#issuecomment-530109813",
+        "date": "2019-09-10"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/458#issuecomment-974524115",
+        "date": "2021-11-19"
+      }
+    ]
+  },
+  {
+    "github": "RemkoDuursma",
+    "name": "Remko Duursma",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/35#issuecomment-216434323",
+        "date": "2016-05-03"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/34#issuecomment-221443248",
+        "date": "2016-05-25"
+      }
+    ]
+  },
+  {
+    "github": "richfitz",
+    "name": "Rich FitzJohn",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/23#issuecomment-174452447",
+        "date": "2016-01-25"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/25#issuecomment-183057509",
+        "date": "2016-02-11"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/224#issuecomment-405196994",
+        "date": "2018-07-16"
+      }
+    ]
+  },
+  {
+    "github": "robmoss",
+    "name": "Rob Moss",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/717#issuecomment-4976930464",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "github": "saudiwin",
+    "name": "Robert Kubinec",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/730#issuecomment-3634114889",
+        "date": "2025-12-09"
+      }
+    ]
+  },
+  {
+    "github": "rmflight",
+    "name": "Robert M Flight",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/113#issuecomment-305827917",
+        "date": "2017-06-02"
+      }
+    ]
+  },
+  {
+    "github": "robinlovelace",
+    "name": "Robin Lovelace",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/22#issuecomment-165296951",
+        "date": "2015-12-17"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/55#issuecomment-237179594",
+        "date": "2016-08-03"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/176#issuecomment-365423529",
+        "date": "2018-02-13"
+      }
+    ]
+  },
+  {
+    "github": "bozaah",
+    "name": "Rodrigo Pires",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/498#issuecomment-1048525426",
+        "date": "2022-02-23"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/710#issuecomment-3146483865",
+        "date": "2025-08-02"
+      }
+    ]
+  },
+  {
+    "github": "rmhogervorst",
+    "name": "Roel Hogervorst",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/153#issuecomment-353288001",
+        "date": "2017-12-21"
+      }
+    ]
+  },
+  {
+    "github": "HaoZeke",
+    "name": "Rohit Goswami",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/522#issuecomment-1404603154",
+        "date": "2023-01-26"
+      }
+    ]
+  },
+  {
+    "github": "romanflury",
+    "name": "Roman Flury",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/553#issuecomment-1250959076",
+        "date": "2022-09-19"
+      }
+    ]
+  },
+  {
+    "github": "ronnyhdez",
+    "name": "ronnyale",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/659#issuecomment-2482059470",
+        "date": "2024-11-18"
+      }
+    ]
+  },
+  {
+    "github": "rorynolan",
+    "name": "Rory Nolan",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/287#issuecomment-487374751",
+        "date": "2019-04-28"
+      }
+    ]
+  },
+  {
+    "github": "rossmounce",
+    "name": "Ross Mounce",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/115#issuecomment-308699222",
+        "date": "2017-06-15"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/195#issuecomment-371829557",
+        "date": "2018-03-09"
+      }
+    ]
+  },
+  {
+    "github": "salvafern",
+    "name": "salvafern",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/395#issuecomment-746784728",
+        "date": "2020-12-16"
+      }
+    ]
+  },
+  {
+    "github": "levisc8",
+    "name": "Sam  Levin",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/233#issuecomment-643235673",
+        "date": "2020-06-12"
+      }
+    ]
+  },
+  {
+    "github": "boshek",
+    "name": "Sam Albers",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/264#issuecomment-452390625",
+        "date": "2019-01-08"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/284#issuecomment-480078647",
+        "date": "2019-04-04"
+      }
+    ]
+  },
+  {
+    "github": "sammlapp",
+    "name": "Sam Lapp",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/568#issuecomment-1436327280",
+        "date": "2023-02-20"
+      }
+    ]
+  },
+  {
+    "github": "rogerssam",
+    "name": "Sam Rogers",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/598#issuecomment-1832968340",
+        "date": "2023-11-30"
+      }
+    ]
+  },
+  {
+    "github": "limnoliver",
+    "name": "Samantha Oliver",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/284#issuecomment-484999013",
+        "date": "2019-04-19"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/401#issuecomment-754186112",
+        "date": "2021-01-04"
+      }
+    ]
+  },
+  {
+    "github": "sangeetabhatia03",
+    "name": "Sangeeta Bhatia",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/763#issuecomment-4697761588",
+        "date": "2026-06-13"
+      }
+    ]
+  },
+  {
+    "github": "santikka",
+    "name": "Santtu Tikka",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/556#issuecomment-1369469742",
+        "date": "2023-01-03"
+      }
+    ]
+  },
+  {
+    "github": "sarahsupp",
+    "name": "Sarah Supp",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/195#issuecomment-372372090",
+        "date": "2018-03-12"
+      }
+    ]
+  },
+  {
+    "github": "smwindecker",
+    "name": "Saras Windecker",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/486#issuecomment-1008708506",
+        "date": "2022-01-10"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/642#issuecomment-2238886129",
+        "date": "2024-07-19"
+      }
+    ]
+  },
+  {
+    "github": "sckott",
+    "name": "Scott Chamberlain",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/17#issuecomment-116782430",
+        "date": "2015-06-29"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/10#issuecomment-148854448",
+        "date": "2015-10-16"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/28#issuecomment-201015322",
+        "date": "2016-03-24"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/124#issuecomment-319798217",
+        "date": "2017-08-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/463#issuecomment-949779801",
+        "date": "2021-10-22"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/660#issuecomment-2737661049",
+        "date": "2025-03-19"
+      }
+    ]
+  },
+  {
+    "github": "seaaan",
+    "name": "Sean Hughes",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/87#issuecomment-272673260",
+        "date": "2017-01-15"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/243#issuecomment-414011263",
+        "date": "2018-08-17"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/261#issuecomment-441508293",
+        "date": "2018-11-26"
+      }
+    ]
+  },
+  {
+    "github": "bitbacchus",
+    "name": "Sebastian Hanß",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/741#issuecomment-4118226239",
+        "date": "2026-03-24"
+      }
+    ]
+  },
+  {
+    "github": "SebastianWojcik86",
+    "name": "Sebastian Wójcik",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/559#issuecomment-1420752820",
+        "date": "2023-02-07"
+      }
+    ]
+  },
+  {
+    "github": "sharlagelfand",
+    "name": "Sharla Gelfand",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/185#issuecomment-366535862",
+        "date": "2018-02-18"
+      }
+    ]
+  },
+  {
+    "github": "sheilasaia",
+    "name": "Sheila",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/658#issuecomment-2510378080",
+        "date": "2024-12-02"
+      }
+    ]
+  },
+  {
+    "github": "huizezhang-sherry",
+    "name": "Sherry Zhang",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/659#issuecomment-2557858010",
+        "date": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "github": "smnnlt",
+    "name": "Simon Nolte",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/728#issuecomment-3778298123",
+        "date": "2026-01-21"
+      }
+    ]
+  },
+  {
+    "github": "staylo16",
+    "name": "Simon Taylor",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/704#issuecomment-4033414777",
+        "date": "2026-03-10"
+      }
+    ]
+  },
+  {
+    "github": "sokal1456",
+    "name": "sokal1456",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/172#issuecomment-368403247",
+        "date": "2018-02-26"
+      }
+    ]
+  },
+  {
+    "github": "statsmaths",
+    "name": "statsmaths",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/120#issuecomment-309288846",
+        "date": "2017-06-18"
+      }
+    ]
+  },
+  {
+    "github": "stewid",
+    "name": "Stefan Widgren",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/6#issuecomment-91702935",
+        "date": "2015-04-10"
+      }
+    ]
+  },
+  {
+    "github": "stephlocke",
+    "name": "Steph Locke",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/114#issuecomment-318153231",
+        "date": "2017-07-26"
+      }
+    ]
+  },
+  {
+    "github": "stephhazlitt",
+    "name": "Stephanie Hazlitt",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/492#issuecomment-1010488630",
+        "date": "2022-01-12"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/663#issuecomment-2487486356",
+        "date": "2024-11-20"
+      }
+    ]
+  },
+  {
+    "github": "SunnyTseng",
+    "name": "Sunny Tseng",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/698#issuecomment-2929323136",
+        "date": "2025-06-02"
+      }
+    ]
+  },
+  {
+    "github": "suzanbaert",
+    "name": "Suzan",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/222#issuecomment-401840072",
+        "date": "2018-07-02"
+      }
+    ]
+  },
+  {
+    "github": "sfoks",
+    "name": "Sydney Foks",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/416#issuecomment-781539128",
+        "date": "2021-02-18"
+      }
+    ]
+  },
+  {
+    "github": "tdjames1",
+    "name": "T D James",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/207#issuecomment-387224205",
+        "date": "2018-05-07"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/218#issuecomment-406727601",
+        "date": "2018-07-20"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/426#issuecomment-803681050",
+        "date": "2021-03-21"
+      }
+    ]
+  },
+  {
+    "github": "taddallas",
+    "name": "Tad Dallas",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/595#issuecomment-1658535279",
+        "date": "2023-07-31"
+      }
+    ]
+  },
+  {
+    "github": "tanho63",
+    "name": "Tan Ho",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/714#issuecomment-3146555712",
+        "date": "2025-08-02"
+      }
+    ]
+  },
+  {
+    "github": "vinhtantran",
+    "name": "Tan Tran",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/521#issuecomment-1100715168",
+        "date": "2022-04-16"
+      }
+    ]
+  },
+  {
+    "github": "tzakharko",
+    "name": "Taras Zakharko",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/95#issuecomment-288040371",
+        "date": "2017-03-21"
+      }
+    ]
+  },
+  {
+    "github": "tedunderwood",
+    "name": "Ted Underwood",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/92#issuecomment-285137772",
+        "date": "2017-03-08"
+      }
+    ]
+  },
+  {
+    "github": "leeper",
+    "name": "Thomas J. Leeper",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/45#issuecomment-232009513",
+        "date": "2016-07-12"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/201#issuecomment-371750012",
+        "date": "2018-03-09"
+      }
+    ]
+  },
+  {
+    "github": "thomasp85",
+    "name": "Thomas Lin Pedersen",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/262#issuecomment-448226972",
+        "date": "2018-12-18"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/332#issuecomment-523800538",
+        "date": "2019-08-22"
+      }
+    ]
+  },
+  {
+    "github": "ttimbers",
+    "name": "Tiffany A. Timbers",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/56#issuecomment-234017233",
+        "date": "2016-07-20"
+      }
+    ]
+  },
+  {
+    "github": "timcdlucas",
+    "name": "Tim Lucas",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/174#issuecomment-363258405",
+        "date": "2018-02-05"
+      }
+    ]
+  },
+  {
+    "github": "timtrice",
+    "name": "Tim Trice",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/185#issuecomment-363928653",
+        "date": "2018-02-07"
+      }
+    ]
+  },
+  {
+    "github": "timelyportfolio",
+    "name": "timelyportfolio",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/95#issuecomment-285187561",
+        "date": "2017-03-08"
+      }
+    ]
+  },
+  {
+    "github": "Tinula-kariyawasam",
+    "name": "Tinula-kariyawasam",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/566#issuecomment-1467178633",
+        "date": "2023-03-14"
+      }
+    ]
+  },
+  {
+    "github": "tjmahr",
+    "name": "TJ Mahr",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/94#issuecomment-283799109",
+        "date": "2017-03-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/401#issuecomment-756246001",
+        "date": "2021-01-07"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/730#issuecomment-3720857961",
+        "date": "2026-01-07"
+      }
+    ]
+  },
+  {
+    "github": "txm676",
+    "name": "Tom Matthews",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/685#issuecomment-2966106515",
+        "date": "2025-06-12"
+      }
+    ]
+  },
+  {
+    "github": "toph-allen",
+    "name": "Toph Allen",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/29#issuecomment-202509439",
+        "date": "2016-03-28"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/130#issuecomment-322058010",
+        "date": "2017-08-13"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/214#issuecomment-395287639",
+        "date": "2018-06-07"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/290#issuecomment-488776017",
+        "date": "2019-05-02"
+      }
+    ]
+  },
+  {
+    "github": "tts",
+    "name": "Tuija Sonkkila",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/115#issuecomment-305503360",
+        "date": "2017-06-01"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/380#issuecomment-650730349",
+        "date": "2020-06-28"
+      }
+    ]
+  },
+  {
+    "github": "trinker",
+    "name": "Tyler Rinker",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/192#issuecomment-368083209",
+        "date": "2018-02-23"
+      }
+    ]
+  },
+  {
+    "github": "vafadaru",
+    "name": "Ulduz Vafadarshamasbi",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/743#issuecomment-4461050473",
+        "date": "2026-05-15"
+      }
+    ]
+  },
+  {
+    "github": "utkuturk",
+    "name": "utku turk",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/575#issuecomment-1566746683",
+        "date": "2023-05-29"
+      }
+    ]
+  },
+  {
+    "github": "expectopatronum",
+    "name": "Verena Praher",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/112#issuecomment-303023248",
+        "date": "2017-05-22"
+      },
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/224#issuecomment-401610301",
+        "date": "2018-07-01"
+      }
+    ]
+  },
+  {
+    "github": "VeruGHub",
+    "name": "Verónica Cruz-Alonso",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/599#issuecomment-1936698026",
+        "date": "2024-02-09"
+      }
+    ]
+  },
+  {
+    "github": "vjimenez9",
+    "name": "Veronica Jimenez-Jacinto",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/620#issuecomment-2000346572",
+        "date": "2024-03-15"
+      }
+    ]
+  },
+  {
+    "github": "vbaliga",
+    "name": "Vikram Baliga",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/360#issuecomment-633133455",
+        "date": "2020-05-23"
+      }
+    ]
+  },
+  {
+    "github": "vincentvanhees",
+    "name": "Vincent van Hees",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/619#issuecomment-1875919666",
+        "date": "2024-01-03"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/732#issuecomment-3985657285",
+        "date": "2026-03-02"
+      }
+    ]
+  },
+  {
+    "github": "becarioprecario",
+    "name": "Virgilio Gómez-Rubio",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/571#issuecomment-1406660259",
+        "date": "2023-01-27"
+      }
+    ]
+  },
+  {
+    "github": "WillOnGit",
+    "name": "Will Bolton",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/485#issuecomment-1064345329",
+        "date": "2022-03-10"
+      }
+    ]
+  },
+  {
+    "github": "wcornwell",
+    "name": "Will Cornwell",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/212#issuecomment-388705955",
+        "date": "2018-05-14"
+      }
+    ]
+  },
+  {
+    "github": "wjones127",
+    "name": "Will Jones",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/521#issuecomment-1110187724",
+        "date": "2022-04-26"
+      }
+    ]
+  },
+  {
+    "github": "wlandau",
+    "name": "Will Landau",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/230#issuecomment-401647335",
+        "date": "2018-07-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/327#issuecomment-536078591",
+        "date": "2019-09-27"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/706#issuecomment-3097915075",
+        "date": "2025-07-21"
+      }
+    ]
+  },
+  {
+    "github": "xavi-rp",
+    "name": "Xavier Rotllan-Puig",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/292#issuecomment-489447591",
+        "date": "2019-05-05"
+      }
+    ]
+  },
+  {
+    "github": "yabellini",
+    "name": "Yanina Bellini Saibene",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/765#issuecomment-4769658018",
+        "date": "2026-06-22"
+      }
+    ]
+  },
+  {
+    "github": "ymansiaux",
+    "name": "Yohann Mansiaux",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/674#issuecomment-2597655892",
+        "date": "2025-01-17"
+      }
+    ]
+  },
+  {
+    "github": "zachary-foster",
+    "name": "Zachary Foster",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/178#issuecomment-364270840",
+        "date": "2018-02-08"
+      }
+    ]
+  },
+  {
+    "github": "zackarno",
+    "name": "Zack",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/608#issuecomment-1879736435",
+        "date": "2024-01-06"
+      }
+    ]
+  },
+  {
+    "github": "arendsee",
+    "name": "Zebulun Arendsee",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/onboarding/issues/187#issuecomment-372158820",
+        "date": "2018-03-11"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/359#issuecomment-645586474",
+        "date": "2020-06-17"
+      }
+    ]
+  },
+  {
+    "github": "zkamvar",
+    "name": "Zhian N. Kamvar",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/325#issuecomment-527114388",
+        "date": "2019-09-02"
+      },
+      {
+        "url": "https://github.com/ropensci/software-review/issues/684#issuecomment-2726993486",
+        "date": "2025-03-15"
+      }
+    ]
+  },
+  {
+    "github": "Lextuga007",
+    "name": "Zoë Turner",
+    "reviews": [
+      {
+        "url": "https://github.com/ropensci/software-review/issues/674#issuecomment-2619400647",
+        "date": "2025-01-28"
+      }
+    ]
+  }
+]

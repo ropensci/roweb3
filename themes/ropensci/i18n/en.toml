@@ -496,3 +496,19 @@
 
 [Former-associate-editor-of-software-peer-review]
   other = 'Former associate editor of rOpenSci Software Peer Review'
+
+[Our-reviewers]
+  other = 'Our reviewers'
+
+[review-in-year]
+  other = 'review in {{ .Year }}'
+
+[review-number-in-year]
+  other = 'review {{ .Number }} in {{ .Year }}'
+
+[Show-all-reviewers]
+  one = 'Show the reviewer'
+  other = 'Show all {{ .Count }} reviewers'
+
+[Thanks-to-reviewers]
+  other = 'Thanks a lot to all reviewers!'

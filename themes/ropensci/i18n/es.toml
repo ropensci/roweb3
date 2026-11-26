@@ -496,3 +496,19 @@
 
 [Former-associate-editor-of-software-peer-review]
   other = 'Ex integrante del equipo editorial de la Revisión de software por pares de rOpenSci'
+
+[Our-reviewers]
+  other = 'Nuestro equipo de revisión'
+
+[review-in-year]
+  other = 'revisión en {{ .Year }}'
+
+[review-number-in-year]
+  other = 'revisión {{ .Number }} en {{ .Year }}'
+
+[Show-all-reviewers]
+  one = 'Mostrar la persona revisora'
+  other = 'Mostrar las {{ .Count }} personas revisoras'
+
+[Thanks-to-reviewers]
+  other = '¡Muchas gracias a todas las personas revisoras!'
