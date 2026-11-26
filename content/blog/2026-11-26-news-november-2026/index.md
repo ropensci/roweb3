@@ -10,7 +10,7 @@ description: Mentor Guidelines; Editorial board updates; Quinceañera; new packa
 params:
   last_newsletter: "2026-10-22"
   doi: "10.59350/bb6hh-t5f36"
-rmd_hash: 59e4c3b9fd1cb87e
+rmd_hash: e3526061eae8087f
 
 ---
 
@@ -56,7 +56,9 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
   - [Visit PREreview](https://prereview.org/)
   - Meet co-hosts, Vanessa Fairhurst and Daniela Saderi, and learn more about PREreview and how you might get involved
 
-And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done! \## R Project Sprint 2027, 3 days in week of Apr 12, Boston \| Virtual
+And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
+## R Project Sprint 2027, 3 days in week of Apr 12, Boston \| Virtual
 
 Join this collaborative event to work on contributions to the code and documentation of base R, or to infrastructure that supports such contributions. Travel funding is available for this event. Limited places are available for novice and experienced contributors to participate in person or online. Applications open now: <https://contributor.r-project.org/r-project-sprint-2027> Deadline: Friday 4 December (midnight Anywhere on Earth)
 

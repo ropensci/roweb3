@@ -109,6 +109,7 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
   - Meet co-hosts, Vanessa Fairhurst and Daniela Saderi, and learn more about PREreview and how you might get involved
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+
 ## R Project Sprint 2027, 3 days in week of Apr 12, Boston | Virtual
 
 Join this collaborative event to work on contributions to the code and documentation of base R, or to infrastructure that supports such contributions.
