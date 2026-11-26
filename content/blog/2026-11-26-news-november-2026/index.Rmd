@@ -768,7 +768,7 @@ You can also [watch the recording](https://www.youtube.com/watch?v=efwMAosu2-g).
 
 ### LLMs as last resort
 
-Bastián Olea Hererashared a post by Ben Harrap: ["Limited Learning Mode: Why LLMs are my last resort"](https://benharrap.com/post/2026-09-08-limited-learning-mode/).
+[Bastián Olea Herrera](/author/bastián-olea-herrera/) shared a post by Ben Harrap: ["Limited Learning Mode: Why LLMs are my last resort"](https://benharrap.com/post/2026-09-08-limited-learning-mode/).
 One of the reasons is "People like to help"!
 
 ## Last words
