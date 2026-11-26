@@ -59,7 +59,7 @@ Now let's dive into the activity at and around rOpenSci!
 
 ### New release: rOpenSci Champions Program Mentor Guidelines
 
-We've released a new version of our [guide for mentors in our champions program](https://ropensci-org.github.io/champions-mentor-guidelines/).
+We've released a new version of our [guide for mentors in our Champions Program](https://ropensci-org.github.io/champions-mentor-guidelines/).
 It includes useful content such how to organize a meeting with one's mentee, and resources about mentoring skills.
 Check it out!
 
@@ -74,35 +74,41 @@ Thank you and welcome!
 #### Thanks Jeff and Emi!
 
 [Jeff Hollister](/author/Jeff-Hollister) and [Emi Tanaka](/author/emi-tanaka/) are stepping off the editorial board.
-Since 2021 Jeff [handled seven approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Ajhollist+label%3A6%2Fapproved) and served twice as the Editor-in-Chief.
-Emi joined the editorial board in 2024 and [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Aemitanaka+label%3A6%2Fapproved).
+Since 2021 Jeff has [handled seven approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Ajhollist+label%3A6%2Fapproved) and served twice as the Editor-in-Chief.
+Emi joined the editorial board in 2024 and has [handled two approved packages](https://github.com/ropensci/software-review/issues?q=is%3Aissue+assignee%3Aemitanaka+label%3A6%2Fapproved).
 Thank you both and all the best in your next adventures!
 
-## Quinceañera
+### Quinceañera
 
 We continue to uncover the stories of the people behind rOpenSci.
 This month, you can read about:
 
-- [Carolina Pradier, rOpenSci champion and mentor](/blog/2026/11/02/champions-histories-carolina-pradier/),
+- [Carolina Pradier, rOpenSci Champion and mentor](/blog/2026/11/02/champions-histories-carolina-pradier/),
 - [Athanasia Mo Mowinckel, rOpenSci mentor (and more)](/blog/2026/11/04/celebrating-ropensci/),
 - [Adam Sparks, editor and package maintainer](/blog/2026/11/19/brisbane-to-community/).
 
-Stay tuned for more rOpenSci's stories.
+Stay tuned for more rOpenSci stories.
 
 ### Coworking
 
 Read [all about coworking](/blog/2023/06/21/coworking/)!
 
-- Tuesday December 8th<sup>\*</sup>, 14:00 Europe Central (12:00 UTC) ["Code Linting in R"](/events/coworking-2026-12/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host [Etienne Bacher](/author/etienne-bacher/).
+- Tuesday December 8th<sup>\*</sup>, 14:00 Europe Central (13:00 UTC) ["Code Linting in R"](/events/coworking-2026-12/), with [Steffi LaZerte](/author/steffi-lazerte) and co-host [Etienne Bacher](/author/etienne-bacher/).
   - Read up on Code Linting and apply some linters to your R code
-  - Meet co-host, Etienne Bacher, and discuss code linting in general, or flir and Jarl in particular\
+  - Meet co-host, Etienne Bacher, and discuss code linting in general, or [flir](https://flir.etiennebacher.com/) and [Jarl](https://jarl.etiennebacher.com/) in particular\
     \* Note that December coworking is a week later than usual
 
-- Tuesday January 19th, 2027 17:00 (UTC) ["Getting to know PREreview"](/events/coworking-2027-01/), with [Steffi LaZerte](/author/steffi-lazerte) and co-hosts [Vanessa Fairhurst](/vanessa-fairhurst/) and [Daniela Saderi](/daniela-saderi/).
-  - Visit PREreview
+- Tuesday January 19th, 2027 17:00 (UTC) ["Getting to know PREreview"](/events/coworking-2027-01/), with [Steffi LaZerte](/author/steffi-lazerte) and co-hosts [Vanessa Fairhurst](/author/vanessa-fairhurst/) and [Daniela Saderi](/author/daniela-saderi/).
+  - [Visit PREreview](https://prereview.org/)
+  - Meet co-hosts, Vanessa Fairhurst and Daniela Saderi, and learn more about PREreview and how you might get involved
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done!
+## R Project Sprint 2027, 3 days in week of Apr 12, Boston | Virtual
 
+Join this collaborative event to work on contributions to the code and documentation of base R, or to infrastructure that supports such contributions.
+Travel funding is available for this event. Limited places are available for novice and experienced contributors to participate in person or online.
+Applications open now: https://contributor.r-project.org/r-project-sprint-2027
+Deadline: Friday 4 December (midnight Anywhere on Earth)
 ## Software :package:
 
 ```{r}
@@ -747,21 +753,21 @@ Some useful information for R package developers.
 ### Coverage on GitHub Actions without codecov
 
 How to get coverage information displayed without codecov?
-A roundup of current efforts
+A roundup of current efforts:
 
-- Earlier this year, Adam Sparks wrote up his [strategy](https://adamhsparks.netlify.app/2026/01/24/look-ma-no-codecov-io/) for generating a README badge displaying test coverage, without using a third-party such as codecov.io.
+- Earlier this year, Adam Sparks wrote up his [strategy](https://adamhsparks.netlify.app/2026/01/24/look-ma-no-codecov-io/) for generating a README badge displaying test coverage, without using a third party such as codecov.io.
 - The [covr2gh](https://github.com/dragosmg/covr2gh) package by Dragoș Moldovan-Grünfeld provides an automated way to summarise the impact of a pull request (PR) on test coverage directly within GitHub.
-- covr development version gained a [`to_badge()`](https://covr.r-lib.org/dev/reference/to_badge.html) function to create an svg badge of coverage.
+- The development version of covr gained a [`to_badge()`](https://covr.r-lib.org/dev/reference/to_badge.html) function to create an svg badge of coverage.
 - Elio Campitelli added a [GitHub Actions workflow and script](https://github.com/eliocamp/tagger/commit/de390422d1abba16df328a0be4b34e25a88f3749) to create a [coverage report for a package](https://eliocamp.github.io/tagger/articles/coverage-report.html).
 
-### A workflow tips for running tests
+### Workflow tips for running tests
 
 Etienne Bacher wrote a short post on [Using Just to run a subset of test files](https://www.etiennebacher.com/posts/2026-10-15-using-just-with-test-files/) that might be useful to you if you:
 
 - run tests in a package with long-running tests;
 - or are curious about Just, a tool for defining command aliases.
 
-### AI as Forklift: Andrew Heiss' R+ AI 2026 keynote
+### AI as Forklift: Andrew Heiss' R + AI 2026 keynote
 
 Andrew Heiss published a write up of his talk [Friction Worth Keeping: What Keeps Us Human When AI Makes Everything Easy](https://www.andrewheiss.com/blog/2026/11/10/r-ai-keynote-friction/), including a useful extension of the AI/forklift analogy.
 You can also [watch the recording](https://www.youtube.com/watch?v=efwMAosu2-g).
@@ -778,6 +784,6 @@ If you want to get involved with rOpenSci, check out our [Contributing Guide](ht
 This guide will help direct you to the right place, whether you want to make code contributions, non-code contributions, or contribute in other ways such as through sharing use cases.
 You can also support our work through [donations](/donate).
 
-If you haven't subscribed to our newsletter yet, you can [do so though our signup form](/news/).
+If you haven't subscribed to our newsletter yet, you can [do so through our signup form](/news/).
 Until it's time for our next newsletter, you can keep in touch with us through our [website](/), [Mastodon](https://hachyderm.io/@rOpenSci), or [LinkedIn](https://www.linkedin.com/company/ropensci/).
 See you soon!
