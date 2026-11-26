@@ -10,7 +10,7 @@ description: Mentor Guidelines; Editorial board updates; Quinceañera; new packa
 params:
   last_newsletter: "2026-10-22"
   doi: "10.59350/bb6hh-t5f36"
-rmd_hash: f4fe0286493e3db4
+rmd_hash: 59e4c3b9fd1cb87e
 
 ---
 
@@ -58,12 +58,11 @@ Read [all about coworking](/blog/2023/06/21/coworking/)!
 
 And remember, you can always cowork independently on work related to R, work on packages that tend to be neglected, or work on what ever you need to get done! \## R Project Sprint 2027, 3 days in week of Apr 12, Boston \| Virtual
 
-Join this collaborative event to work on contributions to the code and documentation of base R, or to infrastructure that supports such contributions. Travel funding is available for this event. Limited places are available for novice and experienced contributors to participate in person or online. Applications open now: <https://contributor.r-project.org/r-project-sprint-2027> Deadline: Friday 4 December (midnight Anywhere on Earth) \## Software :package:
+Join this collaborative event to work on contributions to the code and documentation of base R, or to infrastructure that supports such contributions. Travel funding is available for this event. Limited places are available for novice and experienced contributors to participate in person or online. Applications open now: <https://contributor.r-project.org/r-project-sprint-2027> Deadline: Friday 4 December (midnight Anywhere on Earth)
+
+## Software :package:
 
 The following two packages recently became a part of our software suite:
-
-</code>
-</pre>
 
 - [nert](https://docs.ropensci.org/nert), developed by Sam Rogers together with Adam H. Sparks, Wasin Pipattungsakul, Russell Edson, and Max Moldovan: Provides curated access to raster environmental data published by Australias Terrestrial Ecosystem Research Network (TERN; <https://www.tern.org.au/>), spanning national soil attribute, soil classification, soil biodiversity, soil moisture, actual evapotranspiration, vegetation canopy height and phenology products. The package reads Cloud-Optimised GeoTIFF (COG) and virtual raster files directly from the TERN data server via Geospatial Data Abstraction Library (GDAL) vsicurl virtual file system range requests, streaming only the requested spatial and temporal subset for efficient data transfer. The environmental raster data are returned as terra SpatRaster objects. A convenient helper function is also provided that provides a batch-download capability given specific locations and dates, returning the extracted data values in an analysis-ready data.table'. Access to the TERN datasets using this package requires a free TERN API key. It has been [reviewed](https://github.com/ropensci/software-review/issues/785) by Michael Sumner and Shandiya Balasubramaniam.
 

@@ -19,8 +19,14 @@ params:
 library("rlang")
 last_newsletter <- anytime::anytime(params$last_newsletter)
 knitr::opts_chunk$set(echo = FALSE)
-# Avoid hugodown wrapping each chunk output in <div class="highlight">
-knitr::knit_hooks$set(chunk = function(x, options) x)
+# Avoid hugodown wrapping each chunk output in <div class="highlight">,
+# but still call its hook, which closes any <pre><code> left open
+# (otherwise a stray </code></pre> appears before "asis" output)
+hugodown_chunk_hook <- knitr::knit_hooks$get("chunk")
+knitr::knit_hooks$set(chunk = function(x, options) {
+  x <- hugodown_chunk_hook(x, options)
+  gsub("^\\s*<div class='highlight'>|</div>\\s*$", "", x)
+})
 url <- sprintf(
   "/blog/%s/%s/%s/%s",
   lubridate::year(rmarkdown::yaml_front_matter(knitr::current_input())$date),
@@ -109,6 +115,7 @@ Join this collaborative event to work on contributions to the code and documenta
 Travel funding is available for this event. Limited places are available for novice and experienced contributors to participate in person or online.
 Applications open now: https://contributor.r-project.org/r-project-sprint-2027
 Deadline: Friday 4 December (midnight Anywhere on Earth)
+
 ## Software :package:
 
 ```{r}
