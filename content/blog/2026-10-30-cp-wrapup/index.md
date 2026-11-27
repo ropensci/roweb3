@@ -101,27 +101,26 @@ Comunicó la [aprobación de RAMEN en LinkedIn](https://lnkd.in/p/e-ZFibDy), [co
 
 - **Valentina** mostró su paquete en la conferencia _ICRE Reliability Engineering_, en China y lo incluyó en su tesis doctoral, que defenderá a fines de 2026. Aqui hay dos papers relacionados con este trabajo: [A modeling framework for the inoperability Assessment of interdependent critical infrastructures exposed to spatially distributed natural hazards](https://doi.org/10.1016/j.ress.2026.112830) y [Inoperability assessment of interdependent critical infrastructures exposed to natural hazards considering climate change](https://doi.org/10.1016/j.ijdrr.2026.106172)
 
-- Mauro presentó una charla regular en LatinR 2025 online y un póster sobre la arquitectura de su paquete en useR! 2026, en Varsovia.
-
-- Mónica y Soledad trabajan en los materiales y artículos asociados a sus paquetes.
+- **Mauro** presentó una [charla regular sobre el paquete en LatinR 2025](https://youtu.be/Z1Xzm48juT4?si=hC0KLSz4pwrcd6IL) y un póster sobre la arquitectura de su paquete en [useR! 2026](https://user2026.r-project.org), en Varsovia.
 
 
-## Actividades mas alla del programa
+## Actividades más allá del programa
 
-Diana participó como revisora del paquete [ibger](), que da acceso a datos censales de Brasil y ahora es parte del equipo de revisores que realiza el piloto de revision grupal, con metasurvey, de Mauro. También ha sido muy activa participando en diversos espacios: durante [LatinR 2025]() brindó un workshop sobre el paquete targets en castellano, ha participado de los [minihackathons y traslathons]() de rOpenSci y en [LatinR 2026]() donde contribuyó a diversos paquetes. Finalmente ofreció horas de oficina para la cohorte 2026-2027 del programa de campeon(a|e)s. 
+Uno de los objetivos del programa es ser un puente a nuevas oportunidades, no solo para las personas que participan del programa directamente, si no para rOpenSci en general. Diana ha tomado su rol de embajadora y campeona con mucho entusiasmo: participó como revisora del paquete [ibger](), que da acceso a datos censales de Brasil y ahora es parte del equipo de revisores que realiza [el piloto de revision grupal](), con metasurvey, el paquete de su compañero de cohorte. También ha colaborado y participado activamente de [LatinR 2025]() brindando un taller sobre el paquete [targets]() en castellano, ha participado de los [minihackathons y traslathons]() de rOpenSci y en [LatinR 2026]() donde contribuyó a diversos paquetes. Finalmente ofreció horas de oficina para la cohorte 2026-2027 del programa de campeon(a|e)s. 
 
-Erik, Monika y Gudalupe se sumaron como [mentoras y mentores de la cohorte 2026-2027 del programa](https://ropensci.org/blog/2026/05/06/mentors-2026/
+Erik, Monika y Gudalupe se sumaron como [mentoras y mentores de la cohorte 2026-2027 del programa](https://ropensci.org/blog/2026/05/06/mentors-2026/)
 
 ## Logros de la cohorte y próximos pasos
 
 Esta cohorte entregó software de alta calidad, centrado en datos, disciplinas y comunidades de América Latina y de otras regiones: desde la genómica del cáncer y la epigenética hasta las encuestas, los datos electorales y la ingeniería de infraestructuras.
 
-Al escuchar sus presentaciones, un tema se repitió: los proyectos crecieron gracias al acompañamiento de las mentoras y mentores, al feedback de la revisión por pares y al intercambio entre pares.
+Al escuchar sus presentaciones durante el cierre de la cohorte, un tema se repitió: los proyectos crecieron gracias al acompañamiento de las mentoras y mentores, al feedback de la revisión por pares y al intercambio entre pares.
 
-Entre las lecciones que más se mencionaron aparecen el testing constante, la programación defensiva, la reducción de dependencias, la integración continua, la documentación y la modularización del código, además de aprender a soltar un paquete antes de que esté perfecto y a trabajar en comunidad.
+Entre las lecciones técnicas que más se mencionaron aparecen el testing constante, la programación defensiva, la reducción de dependencias, la integración continua, la documentación y la modularización del código, además de aprender a soltar un paquete antes de que esté perfecto y a trabajar en comunidad.
 
-Muchos proyectos siguen en camino: varios paquetes están en proceso de revisión, de envío a CRAN o Bioconductor, o esperan la publicación de un artículo.
-
+Muchos proyectos siguen en camino: varios paquetes están en proceso de revisión, de envío a CRAN o Bioconductor, o esperan la publicación de un artículo académico. 
 También hay nuevos roles: parte de esta cohorte ya participa como revisora, editora o mentora dentro de rOpenSci.
 
-Para seguir sus avances, visitá nuestra sección de [eventos y charlas](https://ropensci.org/events/), nuestro [boletín](https://news.ropensci.org) y nuestras redes sociales.
+Es una alegría y un orgullo poder acompañar a estas personas en el desarrollo de sus proyectos y ver los grandes avances y logros que conquistaron luego de un arduo año de trabajo. Felicitaciones!
+
+Para estar al dia con las novedades del programa, visitá nuestra sección de [eventos y charlas](https://ropensci.org/events/), nuestro [boletín](https://news.ropensci.org) y nuestras redes sociales.
