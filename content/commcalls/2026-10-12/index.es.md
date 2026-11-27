@@ -50,7 +50,7 @@ resources:
     name: "Presentación de metasurvey y la experiencia de Mauro"
   - url: /pdfs/mbcp_champions_ropensci.pdf
     name: "Presentación de mbcp y la experiencia de Diana"    
-  - url: /pdfs/mas-alla-del-codigo-2026/2026_10_12_RAMEN.pdf
+  - url: /pdfs/2026_10_12_RAMEN.pdf
     name: "Presentación de RAMEN y la experiencia de Erick"  
   - url: https://zenodo.org/records/23550851
     name: "Presentación de Matilda NLP y la experiencia de Guadalupe"
