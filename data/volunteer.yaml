@@ -1,0 +1,175 @@
+# Volunteer form (content/volunteer, layouts/volunteer/list.html).
+# Field names and option values are the Airtable column names and choices:
+# they are sent in English whatever the page language.
+# Labels are i18n keys "Volunteer-form-<key>-..." (see layouts/volunteer/list.html);
+# option labels are i18n keys "Volunteer-option-<value | urlize>", falling back to the English value.
+# "page" is a path under content/ (linked in the current language), "url" an external link.
+
+sections:
+  - key: software
+    tasks:
+      - key: reviewing-packages
+        field: Reviewing packages
+        page: /software-review
+        groups:
+          - key: domain-expertise
+            field: Domain expertise EN
+            required: false
+            options:
+              - Atmospheric sciences
+              - Bibliometrics (Scientific literature access, Scientific bibliography, Library science)
+              - Bioinformatics
+              - Chemistry
+              - Clinical research
+              - Computer sciences
+              - Ecology
+              - Epidemiology
+              - Experimental biology
+              - Geology
+              - Humanities
+              - Hydrology
+              - Linguistics
+              - Mathematics
+              - Meteorology, Weather data
+              - NLP, text analysis
+              - Physics
+              - Social sciences
+              - Space sciences
+              - Spatial data, spatial analysis, GIS
+              - Statistics
+              - Transport research
+          - key: technical-areas
+            field: Technical areas
+            required: true
+            options:
+              - Functional programming
+              - R package development (basics)
+              - Version control
+              - Shell, command line
+              - Unit testing
+              - Continuous integration
+              - Code profiling
+              - Object-oriented programming (OOP)
+              - OOP, S3
+              - OOP, S4
+              - OOP, R6
+              - Rcpp
+              - Shiny
+              - CSS
+              - UX/UI
+              - tidyverse
+              - data.table
+              - Data visualization
+              - Image manipulation
+              - Web APIs
+              - Webscraping (e.g. with rvest)
+              - Headless browsers, webdrivers (e.g. Selenium)
+              - Docker
+              - Cloud computation
+              - Windows
+              - Mac OS
+              - Linux
+              - JSON wrangling
+              - XML wrangling
+              - Spreadsheet wrangling
+              - Security
+              - Wrapping non-R tools
+          - key: programming-languages
+            field: Programming languages
+            required: false
+            options:
+              - Assembly
+              - C
+              - C++
+              - C#
+              - Clojure
+              - CoffeeScript
+              - Dart
+              - Erlang
+              - F#
+              - Fortran
+              - Go
+              - Groovy
+              - Hack
+              - Haskell
+              - Java
+              - JavaScript
+              - Julia
+              - Lua
+              - Matlab
+              - NetLogo
+              - Objective-C
+              - Octave
+              - Perl
+              - PHP
+              - Python
+              - Ruby
+              - Rust
+              - Scala
+              - Smalltalk
+              - SQL
+              - Swift
+              - TypeScript
+              - VBA
+              - VB.NET
+              - Visual Basic 6
+          - key: statistical-topics
+            field: Statistical topics
+            required: false
+            options:
+              - Dimensionality Reduction, Clustering, and Unsupervised Learning
+              - Exploratory Data Analysis (EDA) and Summary Statistics
+              - Time Series Analyses
+              - Machine Learning
+              - Spatial Analyses
+              - Statistical Correctness of Algorithms
+              - Network Analysis
+              - Probability Distributions
+              - Regression and Supervised Learning
+              - Bayesian and Monte Carlo Routines
+              - No Statistical Topic
+              - Other Statistical Topics
+          - key: human-languages
+            field: Human languages
+            required: true
+            options:
+              - English
+              - Spanish
+              - Portuguese
+      - key: developing-packages
+        field: Developing packages
+        page: /help-wanted
+        groups:
+          - key: developing-packages-what
+            field: Developing packages what
+            required: true
+            options:
+              - Punctual help (one-time pull requests)
+              - Co-maintaining a package
+              - Maintaining a package
+  - key: community
+    tasks:
+      - key: reviewing-translations
+        field: Reviewing translations
+        page: /multilingual-publishing
+        groups:
+          - key: reviewing-translations-what
+            field: Reviewing translations what
+            required: true
+            options:
+              - Spanish
+              - Portuguese
+      - key: coc
+        field: COC
+        page: /code-of-conduct
+      - key: coworking
+        field: Coworking
+        page: /coworking
+  - key: documentation
+    tasks:
+      - key: updating-use-cases
+        field: Updating use cases
+        page: /usecases
+      - key: documenting-r-universe
+        field: Documenting R-universe
+        url: https://docs.r-universe.dev/

@@ -1,0 +1,11 @@
+{{- /*
+  Returns the text of the volunteer form label "Volunteer-form-<key>" from the i18n files.
+  Context: the key, e.g. "coc" or "coc-description".
+  Fails the build when no i18n file (in the current language, nor English) has it.
+*/ -}}
+{{- $i18nKey := printf "Volunteer-form-%s" . -}}
+{{- $result := i18n $i18nKey -}}
+{{- if not $result -}}
+  {{- errorf `The volunteer form needs the label %q (language %q): add it to themes/ropensci/i18n/en.toml (and translate it in the other i18n files), or fix the key in data/volunteer.yaml.` $i18nKey site.Language.Lang -}}
+{{- end -}}
+{{- return $result -}}
