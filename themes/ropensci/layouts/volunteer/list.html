@@ -1,0 +1,120 @@
+{{- /*
+  The volunteer form, posted to Formspree, which passes submissions on to Airtable.
+  Labels are translated (i18n keys "Volunteer-form-*" and "Volunteer-option-*"), but field names and values
+  are the Airtable columns and choices, in English; the hidden "language" field says which page was used.
+  The ways to help and their options are in data/volunteer.yaml.
+*/ -}}
+{{ define "main" }}
+<section class="section section-contact">
+  <div class="container bg-cubes">
+    <div class="row">
+      <div class="col-md-8 content offset-md-1">
+        <h1>{{ .Title | markdownify }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+
+    <div class="row contact-form">
+      <div class="col-md-8 offset-md-1">
+        <form id="volunteer-form" action="https://formspree.io/f/xdegvnzz" method="POST">
+          <input type="hidden" name="language" value="{{ .Language.Lang | upper }}" />
+          <input type="hidden" name="_subject" value="New volunteer offer" />
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <p><small><span class="text-danger" aria-hidden="true">*</span> {{ partial "volunteer/label.html" "required-field" }}</small></p>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label class="font-weight-bold" for="volunteer-name">{{ partial "volunteer/label.html" "name" }} <span class="text-danger" aria-hidden="true">*</span></label>
+              <input type="text" class="form-control" id="volunteer-name" name="Name" aria-describedby="volunteer-name-help" required />
+              <small id="volunteer-name-help" class="form-text text-muted">{{ partial "volunteer/label.html" "name-help" }}</small>
+            </div>
+            <div class="form-group col-md-6">
+              <label class="font-weight-bold" for="volunteer-email">{{ partial "volunteer/label.html" "email" }} <span class="text-danger" aria-hidden="true">*</span></label>
+              <input type="email" class="form-control" id="volunteer-email" name="Email address" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label class="font-weight-bold" for="volunteer-github">{{ partial "volunteer/label.html" "github" }}</label>
+              <input type="text" class="form-control" id="volunteer-github" name="GitHub username" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="volunteer-underrep" name="underrep_group" value="true" />
+              <label class="form-check-label" for="volunteer-underrep">{{ partial "volunteer/label.html" "underrep" }}</label>
+              <small class="form-text text-muted">{{ partial "volunteer/label.html" "underrep-help" }}</small>
+            </div>
+          </div>
+
+          {{- range $section := hugo.Data.volunteer.sections }}
+          <h2 class="h4 mt-5 mb-3">{{ partial "volunteer/label.html" (printf "section-%s" $section.key) }}</h2>
+          {{- range $task := $section.tasks }}
+          {{ partial "volunteer/task.html" $task }}
+          {{- end }}
+          {{- end }}
+
+          <h2 class="h4 mt-5 mb-3">{{ partial "volunteer/label.html" "thanks" }}</h2>
+          <div class="form-group">
+            <label class="font-weight-bold" for="volunteer-comments">{{ partial "volunteer/label.html" "comments" }}</label>
+            <textarea class="form-control" id="volunteer-comments" name="Comments" rows="5"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-linear">{{ partial "volunteer/label.html" "submit" }}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var form = document.getElementById("volunteer-form");
+    var taskBoxes = form.querySelectorAll("[data-volunteer-task]");
+    var groups = form.querySelectorAll("[data-required-group]");
+    var chooseTaskMessage = {{ partial "volunteer/label.html" "choose-task" }};
+    var chooseOptionMessage = {{ partial "volunteer/label.html" "choose-option" }};
+
+    function anyChecked(boxes) {
+      return Array.prototype.some.call(boxes, function (box) { return box.checked; });
+    }
+
+    // A disabled fieldset is neither validated nor sent.
+    function showDetails(taskBox) {
+      var details = document.getElementById(taskBox.getAttribute("aria-controls"));
+      details.hidden = !taskBox.checked;
+      details.disabled = !taskBox.checked;
+    }
+
+    // HTML "required" on each checkbox would require all of them,
+    // so validity is set on the first checkbox of each group instead.
+    function checkGroups() {
+      taskBoxes[0].setCustomValidity(anyChecked(taskBoxes) ? "" : chooseTaskMessage);
+      groups.forEach(function (group) {
+        var boxes = group.querySelectorAll('input[type="checkbox"]');
+        boxes[0].setCustomValidity(anyChecked(boxes) ? "" : chooseOptionMessage);
+      });
+    }
+
+    // Keep only the username from "@maelle", "github.com/maelle" or "https://github.com/maelle/".
+    var github = document.getElementById("volunteer-github");
+    function cleanGitHub() {
+      github.value = github.value.trim()
+        .replace(/^(?:https?:\/\/)?(?:www\.)?github\.com\//i, "")
+        .replace(/^@/, "")
+        .replace(/[\/?#].*$/, "");
+    }
+    github.addEventListener("change", cleanGitHub);
+    form.addEventListener("submit", cleanGitHub);
+
+    taskBoxes.forEach(function (taskBox) {
+      taskBox.addEventListener("change", function () { showDetails(taskBox); });
+      showDetails(taskBox);
+    });
+    form.addEventListener("change", checkGroups);
+    checkGroups();
+  })();
+</script>
+{{ partial "whole-page-fragments/brands.html" (dict "divider" "rl") }}
+{{ end }}

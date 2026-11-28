@@ -496,3 +496,323 @@
 
 [Former-associate-editor-of-software-peer-review]
   other = 'Ex integrante del equipo editorial de la Revisión de software por pares de rOpenSci'
+
+# Volunteer form (content/volunteer, data/volunteer.yaml)
+
+[Volunteer]
+  other = 'Colabora'
+
+[Volunteer-form-required-field]
+  other = 'Campo obligatorio'
+
+[Volunteer-form-name]
+  other = 'Nombre'
+
+[Volunteer-form-name-help]
+  other = '¿Cómo prefieres que te llamemos? Por ejemplo, "Maëlle" o "Dra. Salmon"'
+
+[Volunteer-form-email]
+  other = 'Correo electrónico'
+
+[Volunteer-form-github]
+  other = 'Nombre de usuario en GitHub'
+
+[Volunteer-form-underrep]
+  other = '¿Te consideras parte de un grupo subrepresentado en la ciencia de datos, la programación o tu principal área de trabajo?'
+
+[Volunteer-form-underrep-help]
+  other = 'También puedes dejar esta pregunta sin responder :-)'
+
+[Volunteer-form-section-software]
+  other = 'Desarrollo de software: ¿te gustaría ayudar con...'
+
+[Volunteer-form-section-community]
+  other = 'Servicio a la comunidad: ¿te gustaría ayudar con...'
+
+[Volunteer-form-section-documentation]
+  other = 'Documentación: ¿te gustaría ayudar con...'
+
+[Volunteer-form-learn-more]
+  other = 'Más información'
+
+[Volunteer-form-why]
+  other = 'Cuéntanos más sobre tu motivación o tus intereses específicos. ¡Las respuestas cortas están bien! :-)'
+
+[Volunteer-form-reviewing-packages]
+  other = '¿Revisar paquetes?'
+
+[Volunteer-form-reviewing-packages-description]
+  other = 'Revisamos paquetes de R para ayudar a mejorarlos. ¡Podrías ser una de las personas revisoras!'
+
+[Volunteer-form-domain-expertise]
+  other = '¿En cuáles de estas áreas tienes experiencia?'
+
+[Volunteer-form-domain-expertise-help]
+  other = 'Selecciona todas las que correspondan. Estas preguntas nos ayudan a asignar a las personas revisoras paquetes acordes a sus intereses y experiencia. Usa el campo de motivación más abajo para mencionar áreas que no aparecen aquí.'
+
+[Volunteer-form-technical-areas]
+  other = '¿Te sentirías cómodo/a comentando alguna de estas áreas técnicas en una revisión de paquetes?'
+
+[Volunteer-form-technical-areas-help]
+  other = 'Selecciona todas las que correspondan. En otra pregunta te consultaremos sobre otros lenguajes de programación.'
+
+[Volunteer-form-programming-languages]
+  other = '¿Te sentirías cómodo/a comentando el uso de alguno de estos lenguajes en un paquete de R?'
+
+[Volunteer-form-programming-languages-help]
+  other = 'Selecciona todos los que correspondan. ¡También está bien no marcar ninguno!'
+
+[Volunteer-form-statistical-topics]
+  other = '¿Te sentirías cómodo/a comentando alguno de estos temas estadísticos en una revisión de paquetes?'
+
+[Volunteer-form-statistical-topics-help]
+  other = 'Selecciona todos los que correspondan. ¡También está bien no marcar ninguno!'
+
+[Volunteer-form-human-languages]
+  other = '¿Te sentirías a gusto revisando paquetes en...'
+
+[Volunteer-form-developing-packages]
+  other = '¿Contribuir a paquetes?'
+
+[Volunteer-form-developing-packages-description]
+  other = 'Algunos paquetes de nuestra colección necesitan o agradecerían contribuciones.'
+
+[Volunteer-form-developing-packages-what]
+  other = '¿Qué tipo de contribución te imaginas?'
+
+[Volunteer-form-reviewing-translations]
+  other = '¿Revisar traducciones?'
+
+[Volunteer-form-reviewing-translations-description]
+  other = 'Traducimos parte de nuestro contenido en Markdown al español y al portugués con herramientas automáticas, pero se necesitan personas para revisar esas traducciones.'
+
+[Volunteer-form-reviewing-translations-what]
+  other = '¿Qué idiomas?'
+
+[Volunteer-form-coc]
+  other = '¿El comité del Código de Conducta, como integrante independiente de la comunidad en dicho comité?'
+
+[Volunteer-form-coc-description]
+  other = 'El mayor valor de rOpenSci es su comunidad. Todas las interacciones se rigen por nuestro código de conducta, que aplica un comité formado por dos integrantes del personal y una persona externa.'
+
+[Volunteer-form-coworking]
+  other = '¿Co-organizar sesiones de coworking?'
+
+[Volunteer-form-coworking-description]
+  other = 'Las sesiones de coworking son como sesiones de estudio en la biblioteca: cada participante trabaja en lo que quiere... o conversa sobre el tema del mes con la persona anfitriona. ¡Podrías ser tú! No se requiere experiencia, solo entusiasmo.'
+
+[Volunteer-form-updating-use-cases]
+  other = '¿Contribuir casos de uso de paquetes de rOpenSci?'
+
+[Volunteer-form-updating-use-cases-description]
+  other = '¡Podrías contribuir tus propios casos de uso y animar a otras personas a hacer lo mismo!'
+
+[Volunteer-form-documenting-r-universe]
+  other = '¿Documentar R-universe?'
+
+[Volunteer-form-documenting-r-universe-description]
+  other = 'Ayuda a que otras personas conozcan R-universe y lo aprovechen al máximo.'
+
+[Volunteer-form-thanks]
+  other = '¡Gracias!'
+
+[Volunteer-form-comments]
+  other = '¿Hay algo más que quieras contarnos?'
+
+[Volunteer-form-submit]
+  other = 'Enviar'
+
+[Volunteer-form-choose-task]
+  other = 'Elige al menos una forma de colaborar.'
+
+[Volunteer-form-choose-option]
+  other = 'Selecciona al menos una opción.'
+
+# Volunteer form options: key is the English value (data/volunteer.yaml) through urlize
+# Options without a key (e.g. programming languages, Docker) are shown in English
+
+[Volunteer-option-punctual-help-one-time-pull-requests]
+  other = 'Ayuda puntual (pull requests únicos)'
+
+[Volunteer-option-co-maintaining-a-package]
+  other = 'Co-mantener un paquete'
+
+[Volunteer-option-maintaining-a-package]
+  other = 'Mantener un paquete'
+
+[Volunteer-option-atmospheric-sciences]
+  other = 'Ciencias atmosféricas'
+
+[Volunteer-option-bibliometrics-scientific-literature-access-scientific-bibliography-library-science]
+  other = 'Bibliometría (Acceso a la literatura científica, Bibliografía científica, Biblioteconomía)'
+
+[Volunteer-option-bioinformatics]
+  other = 'Bioinformática'
+
+[Volunteer-option-chemistry]
+  other = 'Química'
+
+[Volunteer-option-clinical-research]
+  other = 'Investigación clínica'
+
+[Volunteer-option-computer-sciences]
+  other = 'Ciencias de la computación'
+
+[Volunteer-option-ecology]
+  other = 'Ecología'
+
+[Volunteer-option-epidemiology]
+  other = 'Epidemiología'
+
+[Volunteer-option-experimental-biology]
+  other = 'Biología experimental'
+
+[Volunteer-option-geology]
+  other = 'Geología'
+
+[Volunteer-option-humanities]
+  other = 'Humanidades'
+
+[Volunteer-option-hydrology]
+  other = 'Hidrología'
+
+[Volunteer-option-linguistics]
+  other = 'Lingüística'
+
+[Volunteer-option-mathematics]
+  other = 'Matemáticas'
+
+[Volunteer-option-meteorology-weather-data]
+  other = 'Meteorología, datos meteorológicos'
+
+[Volunteer-option-nlp-text-analysis]
+  other = 'PLN, análisis de texto'
+
+[Volunteer-option-physics]
+  other = 'Física'
+
+[Volunteer-option-social-sciences]
+  other = 'Ciencias sociales'
+
+[Volunteer-option-space-sciences]
+  other = 'Ciencias espaciales'
+
+[Volunteer-option-spatial-data-spatial-analysis-gis]
+  other = 'Datos espaciales, análisis espacial, SIG'
+
+[Volunteer-option-statistics]
+  other = 'Estadística'
+
+[Volunteer-option-transport-research]
+  other = 'Investigación en transporte'
+
+[Volunteer-option-functional-programming]
+  other = 'Programación funcional'
+
+[Volunteer-option-r-package-development-basics]
+  other = 'Desarrollo de paquetes de R (conceptos básicos)'
+
+[Volunteer-option-version-control]
+  other = 'Control de versiones'
+
+[Volunteer-option-shell-command-line]
+  other = 'Shell, línea de comandos'
+
+[Volunteer-option-unit-testing]
+  other = 'Pruebas unitarias'
+
+[Volunteer-option-continuous-integration]
+  other = 'Integración continua'
+
+[Volunteer-option-code-profiling]
+  other = 'Perfilado de código'
+
+[Volunteer-option-object-oriented-programming-oop]
+  other = 'Programación orientada a objetos (POO)'
+
+[Volunteer-option-oop-s3]
+  other = 'POO, S3'
+
+[Volunteer-option-oop-s4]
+  other = 'POO, S4'
+
+[Volunteer-option-oop-r6]
+  other = 'POO, R6'
+
+[Volunteer-option-data-visualization]
+  other = 'Visualización de datos'
+
+[Volunteer-option-image-manipulation]
+  other = 'Manipulación de imágenes'
+
+[Volunteer-option-web-apis]
+  other = 'APIs web'
+
+["Volunteer-option-webscraping-e.g.-with-rvest"]
+  other = 'Web scraping (p. ej., con rvest)'
+
+["Volunteer-option-headless-browsers-webdrivers-e.g.-selenium"]
+  other = 'Navegadores headless, webdrivers (p. ej., Selenium)'
+
+[Volunteer-option-cloud-computation]
+  other = 'Computación en la nube'
+
+[Volunteer-option-json-wrangling]
+  other = 'Manipulación de JSON'
+
+[Volunteer-option-xml-wrangling]
+  other = 'Manipulación de XML'
+
+[Volunteer-option-spreadsheet-wrangling]
+  other = 'Manipulación de hojas de cálculo'
+
+[Volunteer-option-security]
+  other = 'Seguridad'
+
+[Volunteer-option-wrapping-non-r-tools]
+  other = 'Interfaces a herramientas externas a R'
+
+[Volunteer-option-dimensionality-reduction-clustering-and-unsupervised-learning]
+  other = 'Reducción de dimensionalidad, agrupamiento y aprendizaje no supervisado'
+
+[Volunteer-option-exploratory-data-analysis-eda-and-summary-statistics]
+  other = 'Análisis exploratorio de datos (AED) y estadísticas descriptivas'
+
+[Volunteer-option-time-series-analyses]
+  other = 'Análisis de series temporales'
+
+[Volunteer-option-machine-learning]
+  other = 'Aprendizaje automático'
+
+[Volunteer-option-spatial-analyses]
+  other = 'Análisis espaciales'
+
+[Volunteer-option-statistical-correctness-of-algorithms]
+  other = 'Corrección estadística de algoritmos'
+
+[Volunteer-option-network-analysis]
+  other = 'Análisis de redes'
+
+[Volunteer-option-probability-distributions]
+  other = 'Distribuciones de probabilidad'
+
+[Volunteer-option-regression-and-supervised-learning]
+  other = 'Regresión y aprendizaje supervisado'
+
+[Volunteer-option-bayesian-and-monte-carlo-routines]
+  other = 'Rutinas bayesianas y de Monte Carlo'
+
+[Volunteer-option-no-statistical-topic]
+  other = 'Ningún tema estadístico'
+
+[Volunteer-option-other-statistical-topics]
+  other = 'Otros temas estadísticos'
+
+[Volunteer-option-english]
+  other = 'Inglés'
+
+[Volunteer-option-spanish]
+  other = 'Español'
+
+[Volunteer-option-portuguese]
+  other = 'Portugués'

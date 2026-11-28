@@ -1,0 +1,29 @@
+{{- /*
+  Renders a volunteer form question answered by ticking options (an Airtable multiple select).
+  Each option is sent with its English value; its label is the i18n key "Volunteer-option-<value | urlize>",
+  or the English value when there is no such key (e.g. programming languages).
+  Context: a group from data/volunteer.yaml: "key" (for the labels "Volunteer-form-<key>" and "Volunteer-form-<key>-help"),
+  "field" (the Airtable column), "required" (at least one option must be ticked) and "options".
+*/ -}}
+{{- $group := . -}}
+{{- $helpKey := printf "Volunteer-form-%s-help" $group.key -}}
+<fieldset class="form-group"{{ if $group.required }} data-required-group{{ end }}>
+  <legend class="col-form-label font-weight-bold pt-0">
+    {{ partial "volunteer/label.html" $group.key }}{{ if $group.required }} <span class="text-danger" aria-hidden="true">*</span>{{ end }}
+  </legend>
+  {{- with i18n $helpKey }}
+  <small class="form-text text-muted mt-0 mb-2">{{ . | safeHTML }}</small>
+  {{- end }}
+  <div class="row">
+    {{- range $index, $option := $group.options }}
+    {{- $optionId := printf "volunteer-%s-%d" $group.key $index }}
+    {{- $optionLabel := i18n (printf "Volunteer-option-%s" (urlize $option)) | default $option }}
+    <div class="col-sm-6">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="{{ $optionId }}" name="{{ $group.field }}" value="{{ $option }}" />
+        <label class="form-check-label" for="{{ $optionId }}">{{ $optionLabel }}</label>
+      </div>
+    </div>
+    {{- end }}
+  </div>
+</fieldset>
