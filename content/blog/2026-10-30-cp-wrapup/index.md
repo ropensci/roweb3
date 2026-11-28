@@ -106,9 +106,9 @@ Comunicó la [aprobación de RAMEN en LinkedIn](https://lnkd.in/p/e-ZFibDy), [co
 
 ## Actividades más allá del programa
 
-Uno de los objetivos del programa es ser un puente a nuevas oportunidades, no solo para las personas que participan del programa directamente, si no para rOpenSci en general. Diana ha tomado su rol de embajadora y campeona con mucho entusiasmo: participó como revisora del paquete [ibger](), que da acceso a datos censales de Brasil y ahora es parte del equipo de revisores que realiza [el piloto de revision grupal](), con metasurvey, el paquete de su compañero de cohorte. También ha colaborado y participado activamente de [LatinR 2025]() brindando un taller sobre el paquete [targets]() en castellano, ha participado de los [minihackathons y traslathons]() de rOpenSci y en [LatinR 2026]() donde contribuyó a diversos paquetes. Finalmente ofreció horas de oficina para la cohorte 2026-2027 del programa de campeon(a|e)s. 
+Uno de los objetivos del programa es ser un puente a nuevas oportunidades, no solo para las personas que participan del programa directamente, si no para rOpenSci en general. **Diana** ha tomado su rol de embajadora y campeona con mucho entusiasmo: participó como revisora del paquete [ibger](https://github.com/ropensci/software-review/issues/787), que da acceso a datos censales de Brasil y ahora es parte del equipo de revisores que realiza [el piloto de revision grupal](https://github.com/ropensci/software-review/issues/796), con metasurvey, el paquete de su compañero de cohorte. También ha colaborado y participado activamente de [LatinR 2025]() brindando el taller _Automatización de workflows en R y Python con [targets](https://books.ropensci.org/targets/) y snakemake_  en castellano, ha participado de los [minihackathons y traslathons](https://ropensci.org/blog/2025/01/24/coworking-hackathons/) de rOpenSci y en [LatinR 2026](https://latinr.org/cronograma/hackear/) donde contribuyó a diversos paquetes. Finalmente ofreció horas de oficina para la cohorte 2026-2027 del programa de campeon(a|e)s. 
 
-Erik, Monika y Gudalupe se sumaron como [mentoras y mentores de la cohorte 2026-2027 del programa](https://ropensci.org/blog/2026/05/06/mentors-2026/)
+**Erik**, **Monika** y **Gudalupe** se sumaron como [mentoras y mentores de la cohorte 2026-2027 del programa](https://ropensci.org/blog/2026/05/06/mentors-2026/)
 
 ## Logros de la cohorte y próximos pasos
 
@@ -119,7 +119,7 @@ Al escuchar sus presentaciones durante el cierre de la cohorte, un tema se repit
 Entre las lecciones técnicas que más se mencionaron aparecen el testing constante, la programación defensiva, la reducción de dependencias, la integración continua, la documentación y la modularización del código, además de aprender a soltar un paquete antes de que esté perfecto y a trabajar en comunidad.
 
 Muchos proyectos siguen en camino: varios paquetes están en proceso de revisión, de envío a CRAN o Bioconductor, o esperan la publicación de un artículo académico. 
-También hay nuevos roles: parte de esta cohorte ya participa como revisora, editora o mentora dentro de rOpenSci.
+También hay nuevos roles: parte de esta cohorte ya participa como revisora, instructora o mentora dentro de rOpenSci.
 
 Es una alegría y un orgullo poder acompañar a estas personas en el desarrollo de sus proyectos y ver los grandes avances y logros que conquistaron luego de un arduo año de trabajo. Felicitaciones!
 
